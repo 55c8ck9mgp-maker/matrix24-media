@@ -26,7 +26,13 @@
       "timestamp": "2026-09-22T22:00:00-04:00",
       "stage": "media_upload",
       "result": "blocked",
-      "error": "Current GitHub connector create_blob accepts base64 text but this execution cannot directly pipe the locally generated JPEG bytes/base64 payload into the connector call. Asset validated locally but not committed. Instagram publish not attempted because no verified public JPEG URL exists."
+      "error": "Current GitHub connector cannot directly pipe the locally generated JPEG bytes into a repository binary upload. Asset validated locally but not committed. Instagram publish not attempted because no verified public JPEG URL exists."
+    },
+    {
+      "timestamp": "2026-09-22T16:37:52-04:00",
+      "stage": "queued_retry",
+      "result": "blocked",
+      "error": "Existing blocked_media item retried first as required. No repository media JPEG or verified public image URL exists yet, so Instagram was not called. The media bridge is currently being repaired through the MATRIX 24 publisher infrastructure; retained the existing content_id and asset metadata without regeneration."
     }
   ],
   "instagram_media_id": null,
