@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-09-22T22:00:00-04:00",
+  "content_id": "matrix24-20260922-arctic-security-deal",
+  "status": "blocked_media",
+  "headline": "U.S., Denmark and Greenland sign Arctic security agreement",
+  "category": "World / Arctic Security",
+  "verified_source_urls": [
+    "https://apnews.com/article/trump-greenland-denmark-security-agreement-084ac2a82952c2dff403c48bd3564113",
+    "https://www.reuters.com/world/europe/trump-denmark-greenland-sign-deal-bid-end-arctic-standoff-2026-09-22/"
+  ],
+  "caption": "🇪🇸 Estados Unidos, Dinamarca y Groenlandia firmaron un acuerdo para reforzar la seguridad en el Ártico y el Atlántico Norte. El acuerdo amplía la presencia militar estadounidense en Groenlandia, mientras el territorio permanece bajo soberanía danesa.\n\n🇺🇸 The United States, Denmark and Greenland signed an agreement to strengthen security in the Arctic and North Atlantic. The agreement expands the U.S. military presence in Greenland while the territory remains under Danish sovereignty.\n\nSources: AP / Reuters — Sept. 22, 2026.",
+  "hashtags": ["#MATRIX24", "#Greenland", "#Denmark", "#Arctic", "#WorldNews", "#Geopolitics"],
+  "image_filename": "matrix24-20260922-arctic-security-deal.jpg",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 416360,
+    "alpha": false,
+    "sha256_prefix": "d09f6c080759752c"
+  },
+  "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the Sept. 22, 2026 U.S.-Denmark-Greenland Arctic security agreement; neutral institutional treatment; stylized Arctic map centered on Greenland; expanded U.S. military access while Greenland remains under Danish sovereignty; sources AP/Reuters; clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-22T22:00:00-04:00",
+      "stage": "media_upload",
+      "result": "blocked",
+      "error": "Current GitHub connector create_blob accepts base64 text but this execution cannot directly pipe the locally generated JPEG bytes/base64 payload into the connector call. Asset validated locally but not committed. Instagram publish not attempted because no verified public JPEG URL exists."
+    }
+  ],
+  "instagram_media_id": null,
+  "instagram_permalink": null,
+  "public_image_url": null
+}
