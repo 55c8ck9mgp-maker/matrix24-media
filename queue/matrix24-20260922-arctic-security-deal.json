@@ -39,6 +39,12 @@
       "stage": "queued_retry",
       "result": "blocked",
       "error": "Worker 2.0 has been independently validated to accept a binary JPEG and return a verified public Supabase URL, but this scheduled runtime has no arbitrary HTTP POST/binary-upload action to send the queued JPEG bytes to that Worker. Existing content_id retained; no regeneration and no Instagram attempt were made. Manual/integration intervention is required to expose an HTTP action or equivalent connector to the scheduled runtime."
+    },
+    {
+      "timestamp": "2026-09-22T17:33:00-04:00",
+      "stage": "queued_retry",
+      "result": "blocked",
+      "error": "Retried the existing blocked_media item first. The scheduled runtime still exposes no arbitrary HTTP POST/binary-body action capable of sending the validated JPEG bytes to https://matrix24-publisher.55c8ck9mgp.workers.dev/. GitHub connectivity and write access are working, but GitHub is intentionally not being used as the primary media transport. No Instagram attempt was made because public_image_url remains null. Manual integration is required to expose an HTTP action or equivalent connector to this runtime."
     }
   ],
   "instagram_media_id": null,
