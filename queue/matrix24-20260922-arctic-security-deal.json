@@ -11,41 +11,14 @@
   "caption": "🇪🇸 Estados Unidos, Dinamarca y Groenlandia firmaron un acuerdo para reforzar la seguridad en el Ártico y el Atlántico Norte. El acuerdo amplía la presencia militar estadounidense en Groenlandia, mientras el territorio permanece bajo soberanía danesa.\n\n🇺🇸 The United States, Denmark and Greenland signed an agreement to strengthen security in the Arctic and North Atlantic. The agreement expands the U.S. military presence in Greenland while the territory remains under Danish sovereignty.\n\nSources: AP / Reuters — Sept. 22, 2026.",
   "hashtags": ["#MATRIX24", "#Greenland", "#Denmark", "#Arctic", "#WorldNews", "#Geopolitics"],
   "image_filename": "matrix24-20260922-arctic-security-deal.jpg",
-  "image_spec": {
-    "format": "JPEG",
-    "mode": "RGB",
-    "width": 1080,
-    "height": 1350,
-    "size_bytes": 416360,
-    "alpha": false,
-    "sha256_prefix": "d09f6c080759752c"
-  },
+  "image_spec": {"format":"JPEG","mode":"RGB","width":1080,"height":1350,"size_bytes":416360,"alpha":false,"sha256_prefix":"d09f6c080759752c"},
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the Sept. 22, 2026 U.S.-Denmark-Greenland Arctic security agreement; neutral institutional treatment; stylized Arctic map centered on Greenland; expanded U.S. military access while Greenland remains under Danish sovereignty; sources AP/Reuters; clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "publish_attempt_history": [
-    {
-      "timestamp": "2026-09-22T22:00:00-04:00",
-      "stage": "media_upload",
-      "result": "blocked",
-      "error": "Current GitHub connector cannot directly pipe the locally generated JPEG bytes into a repository binary upload. Asset validated locally but not committed. Instagram publish not attempted because no verified public JPEG URL exists."
-    },
-    {
-      "timestamp": "2026-09-22T16:37:52-04:00",
-      "stage": "queued_retry",
-      "result": "blocked",
-      "error": "Existing blocked_media item retried first as required. No repository media JPEG or verified public image URL exists yet, so Instagram was not called. The media bridge is currently being repaired through the MATRIX 24 publisher infrastructure; retained the existing content_id and asset metadata without regeneration."
-    },
-    {
-      "timestamp": "2026-09-22T17:14:28-04:00",
-      "stage": "queued_retry",
-      "result": "blocked",
-      "error": "Worker 2.0 has been independently validated to accept a binary JPEG and return a verified public Supabase URL, but this scheduled runtime has no arbitrary HTTP POST/binary-upload action to send the queued JPEG bytes to that Worker. Existing content_id retained; no regeneration and no Instagram attempt were made. Manual/integration intervention is required to expose an HTTP action or equivalent connector to the scheduled runtime."
-    },
-    {
-      "timestamp": "2026-09-22T17:33:00-04:00",
-      "stage": "queued_retry",
-      "result": "blocked",
-      "error": "Retried the existing blocked_media item first. The scheduled runtime still exposes no arbitrary HTTP POST/binary-body action capable of sending the validated JPEG bytes to https://matrix24-publisher.55c8ck9mgp.workers.dev/. GitHub connectivity and write access are working, but GitHub is intentionally not being used as the primary media transport. No Instagram attempt was made because public_image_url remains null. Manual integration is required to expose an HTTP action or equivalent connector to this runtime."
-    }
+    {"timestamp":"2026-09-22T22:00:00-04:00","stage":"media_upload","result":"blocked","error":"Current GitHub connector cannot directly pipe the locally generated JPEG bytes into a repository binary upload. Asset validated locally but not committed. Instagram publish not attempted because no verified public JPEG URL exists."},
+    {"timestamp":"2026-09-22T16:37:52-04:00","stage":"queued_retry","result":"blocked","error":"Existing blocked_media item retried first as required. No repository media JPEG or verified public image URL exists yet, so Instagram was not called. The media bridge is currently being repaired through the MATRIX 24 publisher infrastructure; retained the existing content_id and asset metadata without regeneration."},
+    {"timestamp":"2026-09-22T17:14:28-04:00","stage":"queued_retry","result":"blocked","error":"Worker 2.0 has been independently validated to accept a binary JPEG and return a verified public Supabase URL, but this scheduled runtime has no arbitrary HTTP POST/binary-upload action to send the queued JPEG bytes to that Worker. Existing content_id retained; no regeneration and no Instagram attempt were made. Manual/integration intervention is required to expose an HTTP action or equivalent connector to the scheduled runtime."},
+    {"timestamp":"2026-09-22T17:33:00-04:00","stage":"queued_retry","result":"blocked","error":"Retried the existing blocked_media item first. The scheduled runtime still exposes no arbitrary HTTP POST/binary-body action capable of sending the validated JPEG bytes to https://matrix24-publisher.55c8ck9mgp.workers.dev/. GitHub connectivity and write access are working, but GitHub is intentionally not being used as the primary media transport. No Instagram attempt was made because public_image_url remains null. Manual integration is required to expose an HTTP action or equivalent connector to this runtime."},
+    {"timestamp":"2026-09-22T18:34:29-04:00","stage":"queued_retry","result":"blocked","error":"Persistent blocker confirmed again: this automation runtime still has no arbitrary HTTP POST/binary-body capability to send the existing validated JPEG to the MATRIX 24 Worker. Per idempotency rules the queued image was not regenerated, and Instagram was not attempted because no verified Supabase public_image_url exists. Manual integration is required."}
   ],
   "instagram_media_id": null,
   "instagram_permalink": null,
