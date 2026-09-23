@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-22T21:59:27-04:00",
   "content_id": "matrix24-20260922-us-iran-talks-un",
-  "status": "ready_to_publish",
+  "status": "published",
   "headline": "U.S. and Iranian officials hold talks during UN General Assembly",
   "category": "World / Middle East Diplomacy",
   "verified_source_urls": [
@@ -9,17 +9,10 @@
     "https://apnews.com/article/trump-united-nations-unga-iran-ai-f7cb0b3ebc492446c0be97ed3a6843aa"
   ],
   "caption": "🇪🇸 Funcionarios de Estados Unidos e Irán mantuvieron conversaciones el 22 de septiembre durante la Asamblea General de la ONU en Nueva York. El presidente Donald Trump dijo que las conversaciones continúan y expresó que cree que eventualmente se alcanzará un acuerdo. No se anunció un acuerdo al cierre de esta actualización.\n\n🇺🇸 U.S. and Iranian officials held talks on September 22 during the UN General Assembly in New York. President Donald Trump said talks are continuing and that he believes an agreement will eventually be reached. No agreement had been announced as of this update.\n\nSources: Reuters / AP — Sept. 22, 2026.",
-  "hashtags": [
-    "#MATRIX24",
-    "#Iran",
-    "#UnitedStates",
-    "#UNGA",
-    "#Diplomacy",
-    "#WorldNews"
-  ],
+  "hashtags": ["#MATRIX24", "#Iran", "#UnitedStates", "#UNGA", "#Diplomacy", "#WorldNews"],
   "image_filename": "matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
-  "instagram_media_id": null,
+  "instagram_media_id": "18085522445290295",
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about U.S.-Iran diplomatic talks held during the UN General Assembly in New York on Sept. 22, 2026. Neutral factual treatment. Use symbolic diplomatic imagery such as UN headquarters silhouette, U.S. and Iranian flag elements separated by a negotiation table motif; do not depict fabricated meetings or people as documentary scenes. Headline: U.S.-IRAN TALKS AT UN. Subhead: Officials meet as diplomacy continues. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "publish_attempt_history": [
@@ -30,10 +23,17 @@
       "image_filename": "matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
       "size_bytes": 231569
+    },
+    {
+      "timestamp": "2026-09-23T06:29:37-04:00",
+      "stage": "instagram_publish",
+      "result": "success",
+      "instagram_media_id": "18085522445290295"
     }
   ],
   "verification_note": "Reuters and AP independently reported U.S.-Iran contacts on Sept. 22, 2026. Caption avoids characterizing the outcome beyond what was reported and states that no agreement had been announced at this update.",
   "media_ready_at": "2026-09-23T10:00:18.089Z",
+  "published_at": "2026-09-23T06:29:37-04:00",
   "image_spec": {
     "format": "JPEG",
     "mode": "RGB",
