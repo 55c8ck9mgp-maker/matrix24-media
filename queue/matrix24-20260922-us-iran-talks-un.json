@@ -9,7 +9,14 @@
     "https://apnews.com/article/trump-united-nations-unga-iran-ai-f7cb0b3ebc492446c0be97ed3a6843aa"
   ],
   "caption": "🇪🇸 Funcionarios de Estados Unidos e Irán mantuvieron conversaciones el 22 de septiembre durante la Asamblea General de la ONU en Nueva York. El presidente Donald Trump dijo que las conversaciones continúan y expresó que cree que eventualmente se alcanzará un acuerdo. No se anunció un acuerdo al cierre de esta actualización.\n\n🇺🇸 U.S. and Iranian officials held talks on September 22 during the UN General Assembly in New York. President Donald Trump said talks are continuing and that he believes an agreement will eventually be reached. No agreement had been announced as of this update.\n\nSources: Reuters / AP — Sept. 22, 2026.",
-  "hashtags": ["#MATRIX24", "#Iran", "#UnitedStates", "#UNGA", "#Diplomacy", "#WorldNews"],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#UnitedStates",
+    "#UNGA",
+    "#Diplomacy",
+    "#WorldNews"
+  ],
   "image_filename": "matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
   "instagram_media_id": "18085522445290295",
@@ -41,5 +48,30 @@
     "height": 1350,
     "size_bytes": 231569,
     "alpha": false
+  },
+  "distribution_schema_version": 1,
+  "facebook": {
+    "enabled": false,
+    "account_id": "1300936266441859",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  },
+  "threads": {
+    "enabled": false,
+    "account_id": "28292693487056009",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
   }
 }
