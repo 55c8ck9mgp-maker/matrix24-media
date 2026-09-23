@@ -1,69 +1,24 @@
 {
   "timestamp": "2026-09-23T10:25:28-04:00",
   "content_id": "matrix24-20260923-kyiv-drone-strikes",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "Russian drone strikes hit Kyiv, killing at least two",
   "category": "World / Europe",
-  "verified_source_urls": [
-    "https://www.reuters.com/world/europe/russia-hits-kyiv-petrol-stations-kills-one-2026-09-23/",
-    "https://www.local10.com/news/world/2026/09/23/russia-pounds-kyiv-with-drones-killing-2-and-wounding-23-hours-before-zelenskyys-un-address/"
-  ],
+  "verified_source_urls": ["https://www.reuters.com/world/europe/russia-hits-kyiv-petrol-stations-kills-one-2026-09-23/","https://www.local10.com/news/world/2026/09/23/russia-pounds-kyiv-with-drones-killing-2-and-wounding-23-hours-before-zelenskyys-un-address/"],
   "caption": "🇪🇸 Ataques rusos con drones golpearon Kyiv el 23 de septiembre, alcanzando infraestructura ferroviaria, almacenes y estaciones de combustible. Reuters y AP reportaron al menos dos muertos en la capital y múltiples heridos.\n\n🇺🇸 Russian drone strikes hit Kyiv on September 23, striking railway infrastructure, warehouses and fuel stations. Reuters and AP reported at least two people killed in the capital and multiple others wounded.\n\nSources: Reuters / AP — Sept. 23, 2026.",
-  "hashtags": [
-    "#MATRIX24",
-    "#Ukraine",
-    "#Kyiv",
-    "#WorldNews",
-    "#Europe"
-  ],
+  "hashtags": ["#MATRIX24","#Ukraine","#Kyiv","#WorldNews","#Europe"],
   "image_filename": "matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg",
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about Russian drone strikes on Kyiv on Sept. 23, 2026. Neutral factual treatment. Use a stylized map of Kyiv and Ukraine, abstract drone-route markers, rail and fuel infrastructure symbols, and restrained emergency-response motifs. Do not depict fabricated casualties, combat scenes or people as documentary imagery. Headline: DRONE STRIKES HIT KYIV. Subhead: At least two killed as infrastructure is struck. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters reported on Sept. 23, 2026 that Russian drone strikes hit Kyiv railway infrastructure, warehouses and fuel stations and killed at least two people in the capital. An accessible AP syndicated report independently described the Sept. 23 Kyiv drone attacks, reporting two killed and 23 wounded. The caption limits claims to details supported by those reports.",
-  "publish_attempt_history": [
-    {
-      "timestamp": "2026-09-23T17:45:50.189Z",
-      "stage": "media_pipeline",
-      "result": "success",
-      "request_id": "ee3c2ded-6ddc-4a22-a7d5-d72adddf8013",
-      "image_filename": "matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg",
-      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg"
-    }
-  ],
+  "publish_attempt_history": [{"timestamp":"2026-09-23T17:45:50.189Z","stage":"media_pipeline","result":"success","request_id":"ee3c2ded-6ddc-4a22-a7d5-d72adddf8013","image_filename":"matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg","public_image_url":"https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg"},{"timestamp":"2026-09-23T15:25:56-04:00","stage":"instagram_publish","result":"started","publish_attempt_id":"de72c77b-7a20-4fbe-919b-41d080cf6162"}],
   "distribution_schema_version": 1,
-  "facebook": {
-    "enabled": false,
-    "account_id": "1300936266441859",
-    "status": "not_scheduled",
-    "caption": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
-    "attempt_id": null,
-    "claim_started_at": null,
-    "attempt_history": []
-  },
-  "threads": {
-    "enabled": false,
-    "account_id": "28292693487056009",
-    "status": "not_scheduled",
-    "caption": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
-    "attempt_id": null,
-    "claim_started_at": null,
-    "attempt_history": []
-  },
+  "facebook": {"enabled":false,"account_id":"1300936266441859","status":"not_scheduled","caption":null,"media_id":null,"permalink":null,"published_at":null,"attempt_id":null,"claim_started_at":null,"attempt_history":[]},
+  "threads": {"enabled":false,"account_id":"28292693487056009","status":"not_scheduled","caption":null,"media_id":null,"permalink":null,"published_at":null,"attempt_id":null,"claim_started_at":null,"attempt_history":[]},
   "media_ready_at": "2026-09-23T17:45:50.189Z",
-  "image_spec": {
-    "format": "JPEG",
-    "mode": "RGB",
-    "width": 1080,
-    "height": 1350,
-    "size_bytes": 318752,
-    "alpha": false
-  }
+  "image_spec": {"format":"JPEG","mode":"RGB","width":1080,"height":1350,"size_bytes":318752,"alpha":false},
+  "publish_attempt_id": "de72c77b-7a20-4fbe-919b-41d080cf6162",
+  "publishing_started_at": "2026-09-23T15:25:56-04:00"
 }
