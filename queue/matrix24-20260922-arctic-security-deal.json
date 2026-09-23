@@ -71,6 +71,12 @@
       "image_filename": "matrix24-20260922-arctic-security-deal-1790124131811.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-arctic-security-deal-1790124131811.jpg",
       "size_bytes": 260165
+    },
+    {
+      "timestamp": "2026-09-23T01:09:42.231Z",
+      "stage": "media_pipeline",
+      "result": "failed",
+      "error": "filter is not defined"
     }
   ],
   "instagram_media_id": null,
