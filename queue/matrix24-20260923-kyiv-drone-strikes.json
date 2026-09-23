@@ -22,5 +22,30 @@
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about Russian drone strikes on Kyiv on Sept. 23, 2026. Neutral factual treatment. Use a stylized map of Kyiv and Ukraine, abstract drone-route markers, rail and fuel infrastructure symbols, and restrained emergency-response motifs. Do not depict fabricated casualties, combat scenes or people as documentary imagery. Headline: DRONE STRIKES HIT KYIV. Subhead: At least two killed as infrastructure is struck. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters reported on Sept. 23, 2026 that Russian drone strikes hit Kyiv railway infrastructure, warehouses and fuel stations and killed at least two people in the capital. An accessible AP syndicated report independently described the Sept. 23 Kyiv drone attacks, reporting two killed and 23 wounded. The caption limits claims to details supported by those reports.",
-  "publish_attempt_history": []
+  "publish_attempt_history": [],
+  "distribution_schema_version": 1,
+  "facebook": {
+    "enabled": false,
+    "account_id": "1300936266441859",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  },
+  "threads": {
+    "enabled": false,
+    "account_id": "28292693487056009",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  }
 }
