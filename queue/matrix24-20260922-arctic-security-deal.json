@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-22T22:00:00-04:00",
   "content_id": "matrix24-20260922-arctic-security-deal",
-  "status": "blocked_media",
+  "status": "ready_to_publish",
   "headline": "U.S., Denmark and Greenland sign Arctic security agreement",
   "category": "World / Arctic Security",
   "verified_source_urls": [
@@ -17,13 +17,13 @@
     "#WorldNews",
     "#Geopolitics"
   ],
-  "image_filename": "matrix24-20260922-arctic-security-deal-1790124131811.jpg",
+  "image_filename": "matrix24-20260922-arctic-security-deal-1790126353785.jpg",
   "image_spec": {
     "format": "JPEG",
     "mode": "RGB",
     "width": 1080,
     "height": 1350,
-    "size_bytes": 260165,
+    "size_bytes": 252017,
     "alpha": false
   },
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the Sept. 22, 2026 U.S.-Denmark-Greenland Arctic security agreement; neutral institutional treatment; stylized Arctic map centered on Greenland; expanded U.S. military access while Greenland remains under Danish sovereignty; sources AP/Reuters; clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
@@ -83,10 +83,18 @@
       "stage": "media_pipeline",
       "result": "failed",
       "error": "filter is not defined"
+    },
+    {
+      "timestamp": "2026-09-23T01:19:14.734Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "image_filename": "matrix24-20260922-arctic-security-deal-1790126353785.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-arctic-security-deal-1790126353785.jpg",
+      "size_bytes": 252017
     }
   ],
   "instagram_media_id": null,
   "instagram_permalink": null,
-  "public_image_url": null,
-  "media_ready_at": "2026-09-23T00:42:12.560Z"
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-arctic-security-deal-1790126353785.jpg",
+  "media_ready_at": "2026-09-23T01:19:14.734Z"
 }
