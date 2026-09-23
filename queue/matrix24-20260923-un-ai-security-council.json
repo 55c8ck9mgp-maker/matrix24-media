@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-23T16:26:08-04:00",
   "content_id": "matrix24-20260923-un-ai-security-council",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "AI leaders warn UN Security Council about risks from increasingly powerful systems",
   "category": "Technology / Global Security",
   "verified_source_urls": [
@@ -18,13 +18,22 @@
     "#Technology",
     "#WorldNews"
   ],
-  "image_filename": null,
-  "public_image_url": null,
+  "image_filename": "matrix24-3cdc6fa4e18184212d2770cf1b0dc82efb142e6620688e391a0894a3a6c2e3bb-v1.jpg",
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3cdc6fa4e18184212d2770cf1b0dc82efb142e6620688e391a0894a3a6c2e3bb-v1.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the UN Security Council meeting on artificial intelligence and international security on Sept. 23, 2026. Neutral factual treatment. Use a stylized UN Security Council chamber, abstract AI network/circuit motifs and a clear human-control symbol. Do not depict fabricated people or a fake documentary scene. Headline: AI RISKS BEFORE THE UN. Subhead: Tech leaders call for safeguards and international cooperation. Sources: Reuters / AP / United Nations. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters reported on Sept. 23, 2026 that executives from OpenAI, Anthropic and Hugging Face briefed the UN Security Council on AI risks and international cooperation. An accessible AP syndicated report independently confirmed the Sept. 23 meeting and warnings from Sam Altman and Dario Amodei. The official UN Web TV schedule confirms UN programming for Sept. 23. Caption is limited to the confirmed meeting, warnings and calls for safeguards/cooperation.",
-  "publish_attempt_history": [],
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-23T20:30:51.868Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "cfb27310-c02d-4389-9200-f399d287d06e",
+      "image_filename": "matrix24-3cdc6fa4e18184212d2770cf1b0dc82efb142e6620688e391a0894a3a6c2e3bb-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3cdc6fa4e18184212d2770cf1b0dc82efb142e6620688e391a0894a3a6c2e3bb-v1.jpg"
+    }
+  ],
   "distribution_schema_version": 1,
   "facebook": {
     "enabled": false,
@@ -50,8 +59,13 @@
     "claim_started_at": null,
     "attempt_history": []
   },
-  "media_claim": {
-    "id": "cfb27310-c02d-4389-9200-f399d287d06e",
-    "started_at": "2026-09-23T20:30:36.851Z"
+  "media_ready_at": "2026-09-23T20:30:51.868Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 313752,
+    "alpha": false
   }
 }
