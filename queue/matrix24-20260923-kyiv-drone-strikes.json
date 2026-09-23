@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-23T10:25:28-04:00",
   "content_id": "matrix24-20260923-kyiv-drone-strikes",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Russian drone strikes hit Kyiv, killing at least two",
   "category": "World / Europe",
   "verified_source_urls": [
@@ -16,13 +16,22 @@
     "#WorldNews",
     "#Europe"
   ],
-  "image_filename": null,
-  "public_image_url": null,
+  "image_filename": "matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg",
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about Russian drone strikes on Kyiv on Sept. 23, 2026. Neutral factual treatment. Use a stylized map of Kyiv and Ukraine, abstract drone-route markers, rail and fuel infrastructure symbols, and restrained emergency-response motifs. Do not depict fabricated casualties, combat scenes or people as documentary imagery. Headline: DRONE STRIKES HIT KYIV. Subhead: At least two killed as infrastructure is struck. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters reported on Sept. 23, 2026 that Russian drone strikes hit Kyiv railway infrastructure, warehouses and fuel stations and killed at least two people in the capital. An accessible AP syndicated report independently described the Sept. 23 Kyiv drone attacks, reporting two killed and 23 wounded. The caption limits claims to details supported by those reports.",
-  "publish_attempt_history": [],
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-23T17:45:50.189Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "ee3c2ded-6ddc-4a22-a7d5-d72adddf8013",
+      "image_filename": "matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3363957fe35be035ec2b52760a8f3ee6f43f08144e357aa552e9fbdd74804623-v1.jpg"
+    }
+  ],
   "distribution_schema_version": 1,
   "facebook": {
     "enabled": false,
@@ -48,8 +57,13 @@
     "claim_started_at": null,
     "attempt_history": []
   },
-  "media_claim": {
-    "id": "ee3c2ded-6ddc-4a22-a7d5-d72adddf8013",
-    "started_at": "2026-09-23T17:45:36.720Z"
+  "media_ready_at": "2026-09-23T17:45:50.189Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 318752,
+    "alpha": false
   }
 }
