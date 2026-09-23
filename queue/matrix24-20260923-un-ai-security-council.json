@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-23T16:26:08-04:00",
   "content_id": "matrix24-20260923-un-ai-security-council",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "AI leaders warn UN Security Council about risks from increasingly powerful systems",
   "category": "Technology / Global Security",
   "verified_source_urls": [
@@ -49,5 +49,9 @@
     "attempt_id": null,
     "claim_started_at": null,
     "attempt_history": []
+  },
+  "media_claim": {
+    "id": "cfb27310-c02d-4389-9200-f399d287d06e",
+    "started_at": "2026-09-23T20:30:36.851Z"
   }
 }
