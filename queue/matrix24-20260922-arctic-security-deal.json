@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-22T22:00:00-04:00",
   "content_id": "matrix24-20260922-arctic-security-deal",
-  "status": "ready_to_publish",
+  "status": "published",
   "headline": "U.S., Denmark and Greenland sign Arctic security agreement",
   "category": "World / Arctic Security",
   "verified_source_urls": [
@@ -91,10 +91,17 @@
       "image_filename": "matrix24-20260922-arctic-security-deal-1790126353785.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-arctic-security-deal-1790126353785.jpg",
       "size_bytes": 252017
+    },
+    {
+      "timestamp": "2026-09-23T01:56:26.252Z",
+      "stage": "instagram_publish",
+      "result": "success",
+      "instagram_media_id": "18115728301772587"
     }
   ],
-  "instagram_media_id": null,
+  "instagram_media_id": "18115728301772587",
   "instagram_permalink": null,
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-arctic-security-deal-1790126353785.jpg",
-  "media_ready_at": "2026-09-23T01:19:14.734Z"
+  "media_ready_at": "2026-09-23T01:19:14.734Z",
+  "published_at": "2026-09-23T01:56:26.252Z"
 }
