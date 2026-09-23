@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-23T16:26:08-04:00",
   "content_id": "matrix24-20260923-un-ai-security-council",
-  "status": "publishing",
+  "status": "published",
   "headline": "AI leaders warn UN Security Council about risks from increasingly powerful systems",
   "category": "Technology / Global Security",
   "editorial_category": "Technology",
@@ -21,7 +21,7 @@
   ],
   "image_filename": "matrix24-3cdc6fa4e18184212d2770cf1b0dc82efb142e6620688e391a0894a3a6c2e3bb-v1.jpg",
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3cdc6fa4e18184212d2770cf1b0dc82efb142e6620688e391a0894a3a6c2e3bb-v1.jpg",
-  "instagram_media_id": null,
+  "instagram_media_id": "18120229436316658",
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the UN Security Council meeting on artificial intelligence and international security on Sept. 23, 2026. Neutral factual treatment. Use a stylized UN Security Council chamber, abstract AI network/circuit motifs and a clear human-control symbol. Do not depict fabricated people or a fake documentary scene. Headline: AI RISKS BEFORE THE UN. Subhead: Tech leaders call for safeguards and international cooperation. Sources: Reuters / AP / United Nations. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters reported on Sept. 23, 2026 that executives from OpenAI, Anthropic and Hugging Face briefed the UN Security Council on AI risks and international cooperation. An accessible AP syndicated report independently confirmed the Sept. 23 meeting and warnings from Sam Altman and Dario Amodei. The official UN Web TV schedule confirms UN programming for Sept. 23. Caption is limited to the confirmed meeting, warnings and calls for safeguards/cooperation.",
@@ -58,6 +58,14 @@
       "stage": "instagram_publish",
       "result": "started",
       "publish_attempt_id": "m24-retry-20260923-174949-et"
+    },
+    {
+      "timestamp": "2026-09-23T17:50:43-04:00",
+      "stage": "instagram_publish",
+      "result": "success",
+      "publish_attempt_id": "m24-retry-20260923-174949-et",
+      "instagram_media_id": "18120229436316658",
+      "note": "Windsor create_image_post returned a confirmed Instagram media ID. Permalink reconciliation remains pending."
     }
   ],
   "distribution_schema_version": 1,
@@ -95,5 +103,6 @@
     "alpha": false
   },
   "publish_attempt_id": "m24-retry-20260923-174949-et",
-  "publishing_started_at": "2026-09-23T17:49:49-04:00"
+  "publishing_started_at": "2026-09-23T17:49:49-04:00",
+  "published_at": "2026-09-23T17:50:43-04:00"
 }
