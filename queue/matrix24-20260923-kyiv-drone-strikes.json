@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-23T10:25:28-04:00",
+  "content_id": "matrix24-20260923-kyiv-drone-strikes",
+  "status": "blocked_media",
+  "headline": "Russian drone strikes hit Kyiv, killing at least two",
+  "category": "World / Europe",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/europe/russia-hits-kyiv-petrol-stations-kills-one-2026-09-23/",
+    "https://www.local10.com/news/world/2026/09/23/russia-pounds-kyiv-with-drones-killing-2-and-wounding-23-hours-before-zelenskyys-un-address/"
+  ],
+  "caption": "🇪🇸 Ataques rusos con drones golpearon Kyiv el 23 de septiembre, alcanzando infraestructura ferroviaria, almacenes y estaciones de combustible. Reuters y AP reportaron al menos dos muertos en la capital y múltiples heridos.\n\n🇺🇸 Russian drone strikes hit Kyiv on September 23, striking railway infrastructure, warehouses and fuel stations. Reuters and AP reported at least two people killed in the capital and multiple others wounded.\n\nSources: Reuters / AP — Sept. 23, 2026.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Ukraine",
+    "#Kyiv",
+    "#WorldNews",
+    "#Europe"
+  ],
+  "image_filename": null,
+  "public_image_url": null,
+  "instagram_media_id": null,
+  "instagram_permalink": null,
+  "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about Russian drone strikes on Kyiv on Sept. 23, 2026. Neutral factual treatment. Use a stylized map of Kyiv and Ukraine, abstract drone-route markers, rail and fuel infrastructure symbols, and restrained emergency-response motifs. Do not depict fabricated casualties, combat scenes or people as documentary imagery. Headline: DRONE STRIKES HIT KYIV. Subhead: At least two killed as infrastructure is struck. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
+  "verification_note": "Reuters reported on Sept. 23, 2026 that Russian drone strikes hit Kyiv railway infrastructure, warehouses and fuel stations and killed at least two people in the capital. An accessible AP syndicated report independently described the Sept. 23 Kyiv drone attacks, reporting two killed and 23 wounded. The caption limits claims to details supported by those reports.",
+  "publish_attempt_history": []
+}
