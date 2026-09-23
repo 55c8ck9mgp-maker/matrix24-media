@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-09-23T07:29:00-04:00",
+  "content_id": "matrix24-20260923-ethiopia-tigray-flights",
+  "status": "blocked_media",
+  "headline": "Ethiopian Airlines suspends Tigray flights amid renewed tensions",
+  "category": "World / Africa",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/africa/ethiopian-airlines-suspends-flights-tigray-region-2026-01-07/",
+    "https://abcnews.com/International/wireStory/ethiopian-airlines-cancels-flights-tigray-amid-concerns-renewed-136676469"
+  ],
+  "caption": "🇪🇸 Ethiopian Airlines suspendió el 23 de septiembre los vuelos a Mekelle, Axum y Shire, en la región de Tigray, citando la situación actual en el norte de Etiopía. Reuters informó, citando fuentes locales, que fuerzas tigrayanas tomaron el control del aeropuerto de Mekelle durante la noche. AP confirmó la suspensión de los vuelos mientras aumentan las preocupaciones por una nueva escalada del conflicto.\n\n🇺🇸 Ethiopian Airlines suspended flights to Mekelle, Axum and Shire in the Tigray region on September 23, citing the current situation in northern Ethiopia. Reuters reported, citing local sources, that Tigrayan forces took control of Mekelle airport overnight. AP confirmed the flight suspension amid concerns about renewed escalation.\n\nSources: Reuters / AP — Sept. 23, 2026.",
+  "hashtags": ["#MATRIX24", "#Ethiopia", "#Tigray", "#Mekelle", "#Africa", "#WorldNews"],
+  "image_filename": null,
+  "public_image_url": null,
+  "instagram_media_id": null,
+  "instagram_permalink": null,
+  "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about Ethiopian Airlines suspending flights to Mekelle, Axum and Shire amid renewed tensions in Tigray on Sept. 23, 2026. Neutral factual treatment. Use a stylized map of northern Ethiopia highlighting Tigray, an airport/aircraft icon and suspended-route graphics. Do not depict fabricated combat or people as documentary scenes. Headline: TIGRAY FLIGHTS SUSPENDED. Subhead: Ethiopian Airlines halts service amid renewed tensions. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
+  "publish_attempt_history": [],
+  "verification_note": "Reuters reported the Mekelle airport takeover based on local sources and the airline's suspension of flights. AP independently confirmed Ethiopian Airlines canceled flights to Mekelle, Axum and Shire amid concerns over renewed fighting. Wording distinguishes the sourced airport claim from the independently confirmed flight suspension."
+}
