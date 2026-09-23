@@ -77,6 +77,12 @@
       "stage": "media_pipeline",
       "result": "failed",
       "error": "filter is not defined"
+    },
+    {
+      "timestamp": "2026-09-23T01:10:36.080Z",
+      "stage": "media_pipeline",
+      "result": "failed",
+      "error": "filter is not defined"
     }
   ],
   "instagram_media_id": null,
