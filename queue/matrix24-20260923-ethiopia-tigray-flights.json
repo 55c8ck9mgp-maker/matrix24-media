@@ -5,15 +5,22 @@
   "headline": "Ethiopian Airlines suspends Tigray flights amid renewed tensions",
   "category": "World / Africa",
   "verified_source_urls": [
-    "https://www.reuters.com/world/africa/ethiopian-airlines-suspends-flights-tigray-region-2026-01-07/",
-    "https://abcnews.com/International/wireStory/ethiopian-airlines-cancels-flights-tigray-amid-concerns-renewed-136676469"
+    "https://www.marketscreener.com/news/tigrayan-forces-seize-airport-ethiopian-airlines-suspends-flights-ce785ad9da8df02c",
+    "https://currently.att.yahoo.com/att/ethiopian-airlines-cancels-flights-tigray-082945333.html"
   ],
   "caption": "🇪🇸 Ethiopian Airlines suspendió el 23 de septiembre los vuelos a Mekelle, Axum y Shire, en la región de Tigray, citando la situación actual en el norte de Etiopía. Reuters informó, citando fuentes locales, que fuerzas tigrayanas tomaron el control del aeropuerto de Mekelle durante la noche. AP confirmó la suspensión de los vuelos mientras aumentan las preocupaciones por una nueva escalada del conflicto.\n\n🇺🇸 Ethiopian Airlines suspended flights to Mekelle, Axum and Shire in the Tigray region on September 23, citing the current situation in northern Ethiopia. Reuters reported, citing local sources, that Tigrayan forces took control of Mekelle airport overnight. AP confirmed the flight suspension amid concerns about renewed escalation.\n\nSources: Reuters / AP — Sept. 23, 2026.",
-  "hashtags": ["#MATRIX24", "#Ethiopia", "#Tigray", "#Mekelle", "#Africa", "#WorldNews"],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ethiopia",
+    "#Tigray",
+    "#Mekelle",
+    "#Africa",
+    "#WorldNews"
+  ],
   "image_filename": "matrix24-20260923-ethiopia-tigray-flights-1790163019016.jpg",
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260923-ethiopia-tigray-flights-1790163019016.jpg",
   "instagram_media_id": "18129171196683213",
-  "instagram_permalink": null,
+  "instagram_permalink": "https://www.instagram.com/p/DdoTkRdjZsV/",
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about Ethiopian Airlines suspending flights to Mekelle, Axum and Shire amid renewed tensions in Tigray on Sept. 23, 2026. Neutral factual treatment. Use a stylized map of northern Ethiopia highlighting Tigray, an airport/aircraft icon and suspended-route graphics. Do not depict fabricated combat or people as documentary scenes. Headline: TIGRAY FLIGHTS SUSPENDED. Subhead: Ethiopian Airlines halts service amid renewed tensions. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "publish_attempt_history": [
     {
@@ -41,5 +48,15 @@
     "height": 1350,
     "size_bytes": 307584,
     "alpha": false
-  }
+  },
+  "source_verification_history": [
+    {
+      "checked_on": "2026-09-23",
+      "reason": "Original Reuters URL carried 2026-01-07 and could not be verified. Replaced source URLs with indexed Reuters and AP syndicated reports dated September 23, 2026; published caption and publication identifiers preserved.",
+      "previous_source_urls": [
+        "https://www.reuters.com/world/africa/ethiopian-airlines-suspends-flights-tigray-region-2026-01-07/",
+        "https://abcnews.com/International/wireStory/ethiopian-airlines-cancels-flights-tigray-amid-concerns-renewed-136676469"
+      ]
+    }
+  ]
 }
