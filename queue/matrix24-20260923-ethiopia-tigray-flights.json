@@ -58,5 +58,30 @@
         "https://abcnews.com/International/wireStory/ethiopian-airlines-cancels-flights-tigray-amid-concerns-renewed-136676469"
       ]
     }
-  ]
+  ],
+  "distribution_schema_version": 1,
+  "facebook": {
+    "enabled": false,
+    "account_id": "1300936266441859",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  },
+  "threads": {
+    "enabled": false,
+    "account_id": "28292693487056009",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  }
 }
