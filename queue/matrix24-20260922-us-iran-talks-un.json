@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-22T21:59:27-04:00",
   "content_id": "matrix24-20260922-us-iran-talks-un",
-  "status": "blocked_media",
+  "status": "ready_to_publish",
   "headline": "U.S. and Iranian officials hold talks during UN General Assembly",
   "category": "World / Middle East Diplomacy",
   "verified_source_urls": [
@@ -17,11 +17,29 @@
     "#Diplomacy",
     "#WorldNews"
   ],
-  "image_filename": null,
-  "public_image_url": null,
+  "image_filename": "matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about U.S.-Iran diplomatic talks held during the UN General Assembly in New York on Sept. 22, 2026. Neutral factual treatment. Use symbolic diplomatic imagery such as UN headquarters silhouette, U.S. and Iranian flag elements separated by a negotiation table motif; do not depict fabricated meetings or people as documentary scenes. Headline: U.S.-IRAN TALKS AT UN. Subhead: Officials meet as diplomacy continues. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
-  "publish_attempt_history": [],
-  "verification_note": "Reuters and AP independently reported U.S.-Iran contacts on Sept. 22, 2026. Caption avoids characterizing the outcome beyond what was reported and states that no agreement had been announced at this update."
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-23T10:00:18.089Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "image_filename": "matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-20260922-us-iran-talks-un-1790157617419.jpg",
+      "size_bytes": 231569
+    }
+  ],
+  "verification_note": "Reuters and AP independently reported U.S.-Iran contacts on Sept. 22, 2026. Caption avoids characterizing the outcome beyond what was reported and states that no agreement had been announced at this update.",
+  "media_ready_at": "2026-09-23T10:00:18.089Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 231569,
+    "alpha": false
+  }
 }
