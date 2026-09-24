@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T00:27:56-04:00",
   "content_id": "matrix24-20260924-new-zealand-state-cyber-threat",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "New Zealand identifies China as its most persistent state-backed cyber threat",
   "category": "World / Cybersecurity",
   "editorial_category": "Security / Geopolitics",
@@ -17,13 +17,22 @@
     "#Geopolitics",
     "#WorldNews"
   ],
-  "image_filename": null,
-  "public_image_url": null,
+  "image_filename": "matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg",
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about New Zealand's Sept. 24, 2026 annual Cyber Threat Report identifying China as the country's most persistent and capable state-backed cyber threat. Neutral factual treatment. Use a stylized map of New Zealand, abstract network/cybersecurity motifs, government and critical-infrastructure icons, and restrained state-actor symbolism. Do not depict fabricated hackers, attacks, victims, or documentary scenes. Headline: NEW ZEALAND CYBER THREAT REPORT. Subhead: Agency identifies China as most persistent state-backed cyber threat. Source: Reuters. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters article published Sept. 23, 2026 at 6:03 PM UTC and datelined Wellington, Sept. 24 reports that New Zealand's National Cyber Security Centre released its annual Cyber Threat Report on Thursday, identifying China as the country's most persistent and capable state actor conducting cyber activity. Reuters also reports suspected state-sponsored activity linked to actors from China, Russia, Iran and North Korea, and notes Beijing has routinely denied cyber-espionage allegations. Article date and event/report-release date were checked separately before queueing.",
-  "publish_attempt_history": [],
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-24T04:30:51.721Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "e4ff054c-944c-4cf0-970e-75f81dba25fe",
+      "image_filename": "matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg"
+    }
+  ],
   "distribution_schema_version": 1,
   "facebook": {
     "enabled": false,
@@ -49,8 +58,13 @@
     "claim_started_at": null,
     "attempt_history": []
   },
-  "media_claim": {
-    "id": "e4ff054c-944c-4cf0-970e-75f81dba25fe",
-    "started_at": "2026-09-24T04:30:37.264Z"
+  "media_ready_at": "2026-09-24T04:30:51.721Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 289721,
+    "alpha": false
   }
 }
