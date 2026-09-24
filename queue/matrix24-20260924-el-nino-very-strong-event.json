@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T10:25:21-04:00",
   "content_id": "matrix24-20260924-el-nino-very-strong-event",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Developing El Niño could become one of the strongest on record",
   "category": "Climate / Weather",
   "editorial_category": "Climate",
@@ -17,13 +17,22 @@
     "#Pacific",
     "#WorldNews"
   ],
-  "image_filename": null,
-  "public_image_url": null,
+  "image_filename": "matrix24-2838e4c966c04274ae0ce60380d2f5ebe9b395f6dc5f50fefb280fe2a68dbfac-v1.jpg",
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-2838e4c966c04274ae0ce60380d2f5ebe9b395f6dc5f50fefb280fe2a68dbfac-v1.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the developing 2026 El Niño in the equatorial Pacific. Neutral factual climate-news treatment. Show a stylized Pacific Ocean temperature-anomaly map, warm-water bands along the equator, atmospheric circulation and rainfall/drought symbols. Do not reproduce Reuters photography, depict disaster victims, or create a fake documentary scene. Headline: EL NIÑO COULD BECOME VERY STRONG. Subhead: Pacific temperatures reach exceptional levels as WMO warns of major weather impacts. Source: Reuters. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters article published Sept. 24, 2026 at 9:24 AM UTC was opened and verified. Reuters reports that the developing Pacific El Niño could be one of the strongest on record; equatorial Pacific sea-surface temperatures this month reached 3.05°C above normal, the highest El Niño anomaly in the cited record; NOAA formally declared El Niño conditions in June; and WMO forecasts the event to intensify into a 'very strong event' with significant rainfall and temperature impacts. Article publication date and the timing of the underlying observations/forecast were checked separately. The full MATRIX 24 queue listing and both connected Instagram recent-media feeds were checked before creation; no duplicate of this event was identified.",
-  "publish_attempt_history": [],
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-24T14:30:51.454Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "c3fc5a62-132f-442b-b50e-1150029d699b",
+      "image_filename": "matrix24-2838e4c966c04274ae0ce60380d2f5ebe9b395f6dc5f50fefb280fe2a68dbfac-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-2838e4c966c04274ae0ce60380d2f5ebe9b395f6dc5f50fefb280fe2a68dbfac-v1.jpg"
+    }
+  ],
   "distribution_schema_version": 1,
   "facebook": {
     "enabled": false,
@@ -49,8 +58,13 @@
     "claim_started_at": null,
     "attempt_history": []
   },
-  "media_claim": {
-    "id": "c3fc5a62-132f-442b-b50e-1150029d699b",
-    "started_at": "2026-09-24T14:30:38.624Z"
+  "media_ready_at": "2026-09-24T14:30:51.454Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 202026,
+    "alpha": false
   }
 }
