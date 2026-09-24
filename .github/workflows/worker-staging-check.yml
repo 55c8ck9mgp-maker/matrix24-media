@@ -35,4 +35,4 @@ jobs:
         run: node scripts/verify-worker-backup.mjs
 
       - name: Run fixture regression tests
-        run: node --test tests/worker-staging-v3.2.0.test.mjs
+        run: node --test tests/*.test.mjs

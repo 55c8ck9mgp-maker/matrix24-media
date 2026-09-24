@@ -20,7 +20,7 @@ Phase 1 was closed after three consecutive autonomous publication cycles complet
 - A valid Instagram media ID confirms publication.
 - Permalink reconciliation is secondary and must never cause republishing.
 - Ambiguous social results enter reconciliation rather than blind retry.
-- Only one controlled retry is permitted after strict no-match evidence.
+- Historical behavior allowed one retry after no-match evidence. The reliability audit identified this as unsafe: feed absence is not proof of nonpublication. Do not reintroduce this behavior through rollback. See `reliability/AUDIT.md`.
 
 ## Important limitation
 The GitHub LKG branch protects repository state but does **not yet constitute a complete reproducible backup of the deployed Cloudflare Worker and its non-secret configuration**.
