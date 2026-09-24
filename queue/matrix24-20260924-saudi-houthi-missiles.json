@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T12:25:19-04:00",
   "content_id": "matrix24-20260924-saudi-houthi-missiles",
-  "status": "publishing",
+  "status": "published",
   "headline": "Saudi Arabia says it intercepted six Houthi ballistic missiles",
   "category": "World",
   "editorial_category": "Security / Geopolitics",
@@ -20,7 +20,7 @@
   ],
   "image_filename": "matrix24-9ba78554ee076da006607e28a0f62988bc066fea2412d00f93be6d05a1467b3f-v1.jpg",
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-9ba78554ee076da006607e28a0f62988bc066fea2412d00f93be6d05a1467b3f-v1.jpg",
-  "instagram_media_id": null,
+  "instagram_media_id": "17901642846667497",
   "instagram_permalink": null,
   "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. Wide regional security scene centered on Saudi Arabia and Yemen, abstract radar arcs over the Red Sea, distant missile interception trails in a night sky, restrained newsroom aesthetic, no identifiable victims, no gore, no fabricated documentary details, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
   "verification_note": "Verified against the accessible Reuters report published Sept. 24, 2026. Event date is Sept. 24, 2026. Houthi claims about Jazan are attributed and explicitly noted as unconfirmed by Saudi Arabia in the report.",
@@ -61,6 +61,14 @@
       "result": "started",
       "publish_attempt_id": "m24-controlled-20260924T2105Z",
       "recovery_type": "controlled_retry_after_orphaned_reservation"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:30Z",
+      "stage": "instagram_publish",
+      "result": "success",
+      "publish_attempt_id": "m24-controlled-20260924T2105Z",
+      "instagram_media_id": "17901642846667497",
+      "instagram_permalink": null
     }
   ],
   "media_ready_at": "2026-09-24T19:45:51.895Z",
@@ -81,6 +89,15 @@
       "error_class": "reservation",
       "safe_action": "reconcile_both_feeds_then_single_controlled_retry",
       "result": "reserved"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:30Z",
+      "stage": "instagram_publish",
+      "error_class": "reservation",
+      "safe_action": "single_controlled_retry_after_dual_feed_reconciliation",
+      "result": "recovered_and_published",
+      "instagram_media_id": "17901642846667497"
     }
-  ]
+  ],
+  "published_at": "2026-09-24T21:06:30Z"
 }
