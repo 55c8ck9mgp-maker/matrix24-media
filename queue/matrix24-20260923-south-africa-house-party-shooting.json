@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-23T20:24:50-04:00",
   "content_id": "matrix24-20260923-south-africa-house-party-shooting",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "South Africa house party shooting kills at least 11",
   "category": "World / Africa",
   "editorial_category": "World",
@@ -49,5 +49,9 @@
     "attempt_id": null,
     "claim_started_at": null,
     "attempt_history": []
+  },
+  "media_claim": {
+    "id": "7c4c68fd-2f9e-400d-b1b7-bb2fb320239f",
+    "started_at": "2026-09-24T00:30:37.066Z"
   }
 }
