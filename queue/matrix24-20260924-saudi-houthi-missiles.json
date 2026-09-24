@@ -47,6 +47,20 @@
       "stage": "instagram_publish_reservation",
       "result": "reserved",
       "publish_attempt_id": "m24-recovery-20260924T2044Z"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:00Z",
+      "stage": "instagram_reconciliation",
+      "result": "no_match_found",
+      "reason": "orphaned_reservation",
+      "prior_publish_attempt_id": "m24-recovery-20260924T2044Z"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:00Z",
+      "stage": "instagram_publish",
+      "result": "started",
+      "publish_attempt_id": "m24-controlled-20260924T2105Z",
+      "recovery_type": "controlled_retry_after_orphaned_reservation"
     }
   ],
   "media_ready_at": "2026-09-24T19:45:51.895Z",
@@ -58,6 +72,15 @@
     "size_bytes": 198024,
     "alpha": false
   },
-  "publish_attempt_id": "m24-recovery-20260924T2044Z",
-  "publishing_started_at": "2026-09-24T20:44:00Z"
+  "publish_attempt_id": "m24-controlled-20260924T2105Z",
+  "publishing_started_at": "2026-09-24T21:05:00Z",
+  "incident_history": [
+    {
+      "timestamp": "2026-09-24T21:05:00Z",
+      "stage": "instagram_publish",
+      "error_class": "reservation",
+      "safe_action": "reconcile_both_feeds_then_single_controlled_retry",
+      "result": "reserved"
+    }
+  ]
 }
