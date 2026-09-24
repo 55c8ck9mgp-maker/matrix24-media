@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T12:25:19-04:00",
   "content_id": "matrix24-20260924-saudi-houthi-missiles",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Saudi Arabia says it intercepted six Houthi ballistic missiles",
   "category": "World",
   "editorial_category": "Security / Geopolitics",
@@ -18,8 +18,8 @@
     "#MiddleEast",
     "#Geopolitics"
   ],
-  "image_filename": null,
-  "public_image_url": null,
+  "image_filename": "matrix24-9ba78554ee076da006607e28a0f62988bc066fea2412d00f93be6d05a1467b3f-v1.jpg",
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-9ba78554ee076da006607e28a0f62988bc066fea2412d00f93be6d05a1467b3f-v1.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. Wide regional security scene centered on Saudi Arabia and Yemen, abstract radar arcs over the Red Sea, distant missile interception trails in a night sky, restrained newsroom aesthetic, no identifiable victims, no gore, no fabricated documentary details, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
@@ -33,9 +33,23 @@
     }
   ],
   "image_brief": "AI-generated editorial illustration, not documentary photography. Wide regional security scene centered on Saudi Arabia and Yemen, abstract radar arcs over the Red Sea, distant missile interception trails in a night sky, restrained newsroom aesthetic, no identifiable victims, no gore, no fabricated documentary details, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
-  "publish_attempt_history": [],
-  "media_claim": {
-    "id": "04e3ed7b-cded-4250-8810-9baed9e9e437",
-    "started_at": "2026-09-24T19:45:38.674Z"
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-24T19:45:51.895Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "04e3ed7b-cded-4250-8810-9baed9e9e437",
+      "image_filename": "matrix24-9ba78554ee076da006607e28a0f62988bc066fea2412d00f93be6d05a1467b3f-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-9ba78554ee076da006607e28a0f62988bc066fea2412d00f93be6d05a1467b3f-v1.jpg"
+    }
+  ],
+  "media_ready_at": "2026-09-24T19:45:51.895Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 198024,
+    "alpha": false
   }
 }
