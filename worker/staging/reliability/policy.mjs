@@ -1,3 +1,21 @@
+
+
+export function assessDirectMediaLookup(record, lookup = {}) {
+  // Offline contract for GET /<IG_MEDIA_ID>. It has no transport or write authority.
+  const base = { publishAllowed: false, clearClaim: false, continueEditorial: true };
+  if (!record || !required(record.account_id) || !validId(record.media_id)) {
+    return { ...base, action: 'lookup_not_applicable' };
+  }
+  if (lookup.kind !== 'ig_media' || !validId(lookup.id) || lookup.id !== record.media_id) {
+    return { ...base, action: 'lookup_unverified' };
+  }
+  if (!required(lookup.owner_id) || lookup.owner_id !== record.account_id) {
+    return { ...base, action: 'lookup_identity_conflict', publication: 'unknown' };
+  }
+  return { ...base, action: 'direct_lookup_verified', publication: 'confirmed',
+    media_id: record.media_id, permalink: required(lookup.permalink) ? lookup.permalink : null,
+    verification_source: 'direct_lookup' };
+}
 // Offline policy model only. No transport, credentials, timers, or production entry point.
 const knownStates = new Set(['ready_to_publish', 'publishing', 'publish_unknown', 'published']);
 const validId = value => typeof value === 'string' && /^[0-9]+$/.test(value);
