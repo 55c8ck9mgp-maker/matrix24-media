@@ -1,22 +1,13 @@
 {
   "timestamp": "2026-09-24T02:24:37-04:00",
   "content_id": "matrix24-20260924-india-nse-ipo-debut",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "India's National Stock Exchange rises 3% in trading debut after $2.3 billion IPO",
   "category": "Business / Markets",
   "editorial_category": "Economy",
-  "verified_source_urls": [
-    "https://www.reuters.com/world/india/indias-biggest-bourse-set-trading-debut-modest-gains-seen-2026-09-24/"
-  ],
+  "verified_source_urls": ["https://www.reuters.com/world/india/indias-biggest-bourse-set-trading-debut-modest-gains-seen-2026-09-24/"],
   "caption": "🇪🇸 Las acciones de la Bolsa Nacional de India (NSE) subieron alrededor de 3% en su debut bursátil el 24 de septiembre, después de una oferta pública inicial de 225.600 millones de rupias, aproximadamente US$2.300 millones. Reuters informó que la operación fue la segunda mayor IPO registrada en India.\n\n🇺🇸 Shares of India's National Stock Exchange (NSE) rose about 3% in their trading debut on September 24 after a 225.6 billion rupee, roughly $2.3 billion, initial public offering. Reuters reported the deal was India's second-largest IPO on record.\n\nSource: Reuters — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
-  "hashtags": [
-    "#MATRIX24",
-    "#India",
-    "#NSE",
-    "#IPO",
-    "#Markets",
-    "#Economy"
-  ],
+  "hashtags": ["#MATRIX24","#India","#NSE","#IPO","#Markets","#Economy"],
   "image_filename": "matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg",
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg",
   "instagram_media_id": null,
@@ -24,47 +15,14 @@
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the National Stock Exchange of India's trading debut on Sept. 24, 2026 after a $2.3 billion IPO. Neutral factual financial-news treatment. Use stylized Indian market/exchange motifs, a clean upward 3% market indicator, stock-market grid elements and a subtle India map silhouette. Do not reproduce Reuters photography, logos as endorsements, fabricated traders, or a fake documentary scene. Headline: INDIA'S NSE MAKES MARKET DEBUT. Subhead: Shares rise about 3% after $2.3B IPO. Source: Reuters. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters article published Sept. 24, 2026 at 1:32 AM UTC was opened and verified. Reuters reports that NSE shares rose 3% in their Sept. 24 trading debut, that the IPO totaled 225.6 billion rupees ($2.3 billion), and that it was India's second-largest IPO on record. The article publication date and the trading-debut event date were both checked as Sept. 24, 2026. Entire MATRIX 24 queue and recent Instagram media were checked first; no duplicate of this event was found.",
   "publish_attempt_history": [
-    {
-      "timestamp": "2026-09-24T06:30:51.496Z",
-      "stage": "media_pipeline",
-      "result": "success",
-      "request_id": "41667505-86b2-4a4b-9c73-a32d449a2770",
-      "image_filename": "matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg",
-      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg"
-    }
+    {"timestamp":"2026-09-24T06:30:51.496Z","stage":"media_pipeline","result":"success","request_id":"41667505-86b2-4a4b-9c73-a32d449a2770","image_filename":"matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg","public_image_url":"https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg"},
+    {"timestamp":"2026-09-24T03:25:52-04:00","stage":"instagram_publish","result":"started","publish_attempt_id":"m24-20260924-032552-nse"}
   ],
   "distribution_schema_version": 1,
-  "facebook": {
-    "enabled": false,
-    "account_id": "1300936266441859",
-    "status": "not_scheduled",
-    "caption": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
-    "attempt_id": null,
-    "claim_started_at": null,
-    "attempt_history": []
-  },
-  "threads": {
-    "enabled": false,
-    "account_id": "28292693487056009",
-    "status": "not_scheduled",
-    "caption": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
-    "attempt_id": null,
-    "claim_started_at": null,
-    "attempt_history": []
-  },
+  "facebook": {"enabled":false,"account_id":"1300936266441859","status":"not_scheduled","caption":null,"media_id":null,"permalink":null,"published_at":null,"attempt_id":null,"claim_started_at":null,"attempt_history":[]},
+  "threads": {"enabled":false,"account_id":"28292693487056009","status":"not_scheduled","caption":null,"media_id":null,"permalink":null,"published_at":null,"attempt_id":null,"claim_started_at":null,"attempt_history":[]},
   "media_ready_at": "2026-09-24T06:30:51.496Z",
-  "image_spec": {
-    "format": "JPEG",
-    "mode": "RGB",
-    "width": 1080,
-    "height": 1350,
-    "size_bytes": 295490,
-    "alpha": false
-  }
+  "image_spec": {"format":"JPEG","mode":"RGB","width":1080,"height":1350,"size_bytes":295490,"alpha":false},
+  "publish_attempt_id": "m24-20260924-032552-nse",
+  "publishing_started_at": "2026-09-24T03:25:52-04:00"
 }
