@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-24T10:25:21-04:00",
+  "content_id": "matrix24-20260924-el-nino-very-strong-event",
+  "status": "blocked_media",
+  "headline": "Developing El Niño could become one of the strongest on record",
+  "category": "Climate / Weather",
+  "editorial_category": "Climate",
+  "verified_source_urls": [
+    "https://www.reuters.com/business/environment/what-is-super-el-nio-how-will-it-affect-weather-2026-09-24/"
+  ],
+  "caption": "🇪🇸 El Niño que se desarrolla en el Pacífico podría convertirse en uno de los más fuertes registrados. Reuters informó el 24 de septiembre que las temperaturas superficiales del Pacífico ecuatorial alcanzaron este mes 3,05 °C por encima de lo normal. La Organización Meteorológica Mundial prevé que el fenómeno se intensifique hasta convertirse en un evento muy fuerte, con posibles impactos en lluvias y temperaturas.\n\n🇺🇸 The El Niño developing in the Pacific could become one of the strongest on record. Reuters reported on September 24 that equatorial Pacific sea-surface temperatures this month reached 3.05°C above normal. The World Meteorological Organization expects the event to intensify into a very strong El Niño, with potentially significant impacts on rainfall and temperatures.\n\nSource: Reuters — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "hashtags": ["#MATRIX24", "#ElNino", "#Climate", "#Weather", "#Pacific", "#WorldNews"],
+  "image_filename": null,
+  "public_image_url": null,
+  "instagram_media_id": null,
+  "instagram_permalink": null,
+  "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the developing 2026 El Niño in the equatorial Pacific. Neutral factual climate-news treatment. Show a stylized Pacific Ocean temperature-anomaly map, warm-water bands along the equator, atmospheric circulation and rainfall/drought symbols. Do not reproduce Reuters photography, depict disaster victims, or create a fake documentary scene. Headline: EL NIÑO COULD BECOME VERY STRONG. Subhead: Pacific temperatures reach exceptional levels as WMO warns of major weather impacts. Source: Reuters. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
+  "verification_note": "Reuters article published Sept. 24, 2026 at 9:24 AM UTC was opened and verified. Reuters reports that the developing Pacific El Niño could be one of the strongest on record; equatorial Pacific sea-surface temperatures this month reached 3.05°C above normal, the highest El Niño anomaly in the cited record; NOAA formally declared El Niño conditions in June; and WMO forecasts the event to intensify into a 'very strong event' with significant rainfall and temperature impacts. Article publication date and the timing of the underlying observations/forecast were checked separately. The full MATRIX 24 queue listing and both connected Instagram recent-media feeds were checked before creation; no duplicate of this event was identified.",
+  "publish_attempt_history": [],
+  "distribution_schema_version": 1,
+  "facebook": {"enabled": false, "account_id": "1300936266441859", "status": "not_scheduled", "caption": null, "media_id": null, "permalink": null, "published_at": null, "attempt_id": null, "claim_started_at": null, "attempt_history": []},
+  "threads": {"enabled": false, "account_id": "28292693487056009", "status": "not_scheduled", "caption": null, "media_id": null, "permalink": null, "published_at": null, "attempt_id": null, "claim_started_at": null, "attempt_history": []}
+}
