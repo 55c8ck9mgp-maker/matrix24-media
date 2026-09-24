@@ -1,22 +1,13 @@
 {
   "timestamp": "2026-09-24T00:27:56-04:00",
   "content_id": "matrix24-20260924-new-zealand-state-cyber-threat",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "New Zealand identifies China as its most persistent state-backed cyber threat",
   "category": "World / Cybersecurity",
   "editorial_category": "Security / Geopolitics",
-  "verified_source_urls": [
-    "https://www.reuters.com/world/china/new-zealand-says-china-is-its-most-persistent-state-backed-cyber-threat-2026-09-23/"
-  ],
+  "verified_source_urls": ["https://www.reuters.com/world/china/new-zealand-says-china-is-its-most-persistent-state-backed-cyber-threat-2026-09-23/"],
   "caption": "🇪🇸 La agencia de ciberseguridad de Nueva Zelanda afirmó en su informe anual publicado el 24 de septiembre que China es el actor estatal más persistente y capaz detrás de actividad cibernética dirigida al país. El informe también vinculó actividad sospechosa patrocinada por Estados con actores de Rusia, Irán y Corea del Norte. Reuters señaló que Beijing ha negado reiteradamente acusaciones de ciberespionaje.\n\n🇺🇸 New Zealand's cybersecurity agency said in its annual report released September 24 that China is the most persistent and capable state actor conducting cyber activity targeting the country. The report also linked suspected state-sponsored activity to actors from Russia, Iran and North Korea. Reuters noted that Beijing has repeatedly denied cyber-espionage allegations.\n\nSource: Reuters — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
-  "hashtags": [
-    "#MATRIX24",
-    "#Cybersecurity",
-    "#NewZealand",
-    "#China",
-    "#Geopolitics",
-    "#WorldNews"
-  ],
+  "hashtags": ["#MATRIX24","#Cybersecurity","#NewZealand","#China","#Geopolitics","#WorldNews"],
   "image_filename": "matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg",
   "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg",
   "instagram_media_id": null,
@@ -24,47 +15,14 @@
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about New Zealand's Sept. 24, 2026 annual Cyber Threat Report identifying China as the country's most persistent and capable state-backed cyber threat. Neutral factual treatment. Use a stylized map of New Zealand, abstract network/cybersecurity motifs, government and critical-infrastructure icons, and restrained state-actor symbolism. Do not depict fabricated hackers, attacks, victims, or documentary scenes. Headline: NEW ZEALAND CYBER THREAT REPORT. Subhead: Agency identifies China as most persistent state-backed cyber threat. Source: Reuters. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters article published Sept. 23, 2026 at 6:03 PM UTC and datelined Wellington, Sept. 24 reports that New Zealand's National Cyber Security Centre released its annual Cyber Threat Report on Thursday, identifying China as the country's most persistent and capable state actor conducting cyber activity. Reuters also reports suspected state-sponsored activity linked to actors from China, Russia, Iran and North Korea, and notes Beijing has routinely denied cyber-espionage allegations. Article date and event/report-release date were checked separately before queueing.",
   "publish_attempt_history": [
-    {
-      "timestamp": "2026-09-24T04:30:51.721Z",
-      "stage": "media_pipeline",
-      "result": "success",
-      "request_id": "e4ff054c-944c-4cf0-970e-75f81dba25fe",
-      "image_filename": "matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg",
-      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg"
-    }
+    {"timestamp":"2026-09-24T04:30:51.721Z","stage":"media_pipeline","result":"success","request_id":"e4ff054c-944c-4cf0-970e-75f81dba25fe","image_filename":"matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg","public_image_url":"https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-506e1380c8750d6bb36039c180cccd5774b3c50f260af7542072d88572ffc765-v1.jpg"},
+    {"timestamp":"2026-09-24T01:28:32-04:00","stage":"instagram_publish","result":"started","publish_attempt_id":"m24-20260924-012832-nz"}
   ],
   "distribution_schema_version": 1,
-  "facebook": {
-    "enabled": false,
-    "account_id": "1300936266441859",
-    "status": "not_scheduled",
-    "caption": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
-    "attempt_id": null,
-    "claim_started_at": null,
-    "attempt_history": []
-  },
-  "threads": {
-    "enabled": false,
-    "account_id": "28292693487056009",
-    "status": "not_scheduled",
-    "caption": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
-    "attempt_id": null,
-    "claim_started_at": null,
-    "attempt_history": []
-  },
+  "facebook": {"enabled":false,"account_id":"1300936266441859","status":"not_scheduled","caption":null,"media_id":null,"permalink":null,"published_at":null,"attempt_id":null,"claim_started_at":null,"attempt_history":[]},
+  "threads": {"enabled":false,"account_id":"28292693487056009","status":"not_scheduled","caption":null,"media_id":null,"permalink":null,"published_at":null,"attempt_id":null,"claim_started_at":null,"attempt_history":[]},
   "media_ready_at": "2026-09-24T04:30:51.721Z",
-  "image_spec": {
-    "format": "JPEG",
-    "mode": "RGB",
-    "width": 1080,
-    "height": 1350,
-    "size_bytes": 289721,
-    "alpha": false
-  }
+  "image_spec": {"format":"JPEG","mode":"RGB","width":1080,"height":1350,"size_bytes":289721,"alpha":false},
+  "publish_attempt_id": "m24-20260924-012832-nz",
+  "publishing_started_at": "2026-09-24T01:28:32-04:00"
 }
