@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-09-23T20:24:50-04:00",
+  "content_id": "matrix24-20260923-south-africa-house-party-shooting",
+  "status": "blocked_media",
+  "headline": "South Africa house party shooting kills at least 11",
+  "category": "World / Africa",
+  "editorial_category": "World",
+  "verified_source_urls": [
+    "https://www.channelnewsasia.com/world/south-african-house-party-shooting-kills-11-could-be-gang-violence-6404281",
+    "https://www.the-journal.com/articles/associated-press/a-mass-shooting-at-a-house-in-south-africa-leaves-11-dead-and-3-wounded-police-say/"
+  ],
+  "caption": "🇪🇸 Tres hombres armados abrieron fuego durante una fiesta en una casa en KwaMakhutha, cerca de Durban, Sudáfrica, la noche del 22 de septiembre. La policía informó que al menos 11 personas murieron y otras tres resultaron heridas. Las autoridades buscaban a tres sospechosos y dijeron que el motivo aún no estaba confirmado.\n\n🇺🇸 Three armed men opened fire at a house party in KwaMakhutha near Durban, South Africa, on the night of September 22. Police said at least 11 people were killed and three others wounded. Authorities were searching for three suspects and said the motive had not yet been confirmed.\n\nSources: Reuters / AP — Sept. 23, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "hashtags": [
+    "#MATRIX24",
+    "#SouthAfrica",
+    "#KwaMakhutha",
+    "#Durban",
+    "#Africa",
+    "#WorldNews"
+  ],
+  "image_filename": null,
+  "public_image_url": null,
+  "instagram_media_id": null,
+  "instagram_permalink": null,
+  "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the Sept. 22, 2026 house-party shooting in KwaMakhutha near Durban, South Africa. Neutral factual treatment. Use a stylized map of South Africa highlighting KwaZulu-Natal and the Durban area, restrained police/emergency symbols and a memorial motif. Do not depict victims, bodies, blood, gunfire, fabricated suspects or a fake documentary crime scene. Headline: SOUTH AFRICA HOUSE PARTY SHOOTING. Subhead: At least 11 killed; police search for three suspects. Sources: Reuters / AP. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
+  "verification_note": "Reuters and AP reports published Sept. 23, 2026 independently report that three armed men opened fire at a house party in KwaMakhutha on the night of Sept. 22, killing at least 11 and wounding three. Both report that police were searching for three suspects and that the motive was not confirmed. Exact accessible syndicated source URLs were opened and verified before queueing.",
+  "publish_attempt_history": [],
+  "distribution_schema_version": 1,
+  "facebook": {
+    "enabled": false,
+    "account_id": "1300936266441859",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  },
+  "threads": {
+    "enabled": false,
+    "account_id": "28292693487056009",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  }
+}
