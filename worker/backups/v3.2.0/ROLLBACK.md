@@ -25,7 +25,12 @@ This candidate is **not byte-identical** to an exported Cloudflare source. See `
 
 ```bash
 node --check worker/backups/v3.2.0/recovery/index.reconstructed.js
+wc -c worker/backups/v3.2.0/recovery/index.reconstructed.js
+sha256sum worker/backups/v3.2.0/recovery/index.reconstructed.js
 ```
+
+Expected byte count: `30160`  
+Expected SHA-256: `972baa91a39ac8959a74ccaf37899b516ef6b544522cf29675536d64583ed0f5`
 
 Then test in an isolated staging Worker against fixtures, not the production queue.
 
