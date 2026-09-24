@@ -1,0 +1,38 @@
+name: Worker Staging Safety Check
+
+on:
+  pull_request:
+    paths:
+      - "worker/**"
+      - "tests/**"
+      - "scripts/verify-worker-backup.mjs"
+      - ".github/workflows/worker-staging-check.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+
+      - name: Syntax check
+        run: |
+          node --check worker/backups/v3.2.0/recovery/index.reconstructed.js
+          node --check worker/staging/v3.2.0/src/core.js
+          node --check worker/staging/v3.2.0/src/index.js
+
+      - name: Verify backup and staging safety
+        run: node scripts/verify-worker-backup.mjs
+
+      - name: Run fixture regression tests
+        run: node --test tests/worker-staging-v3.2.0.test.mjs
