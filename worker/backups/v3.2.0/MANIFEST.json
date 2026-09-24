@@ -1,0 +1,24 @@
+{
+  "component": "matrix24-publisher",
+  "declared_version": "3.2.0",
+  "backup_date": "2026-09-24",
+  "production_deploy_performed": false,
+  "source_provenance": {
+    "type": "audited conversation source",
+    "archived_file": "audited-source.md",
+    "reconstructed_file": "recovery/index.reconstructed.js",
+    "byte_for_byte_cloudflare_export": false
+  },
+  "reconstructed_source": {
+    "sha256": "addf9678e8471362350079b17d7a541128d829d2c9df269c7c627e7300c0abea",
+    "bytes": 30163,
+    "validation": [
+      "VERSION 3.2.0 present",
+      "processQueue(env) present",
+      "scheduled() direct processQueue(env) call present",
+      "MATRIX24_API_TOKEN authorization binding present",
+      "node --check passed before repository archival"
+    ]
+  },
+  "known_reconstruction_note": "The audited markdown contained one malformed fragment inside getQueueState. The recovery JS repairs the missing catch/loop closure. Treat recovery/index.reconstructed.js as recovery-grade reconstruction, not a byte-identical Cloudflare export."
+}
