@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T02:24:37-04:00",
   "content_id": "matrix24-20260924-india-nse-ipo-debut",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "India's National Stock Exchange rises 3% in trading debut after $2.3 billion IPO",
   "category": "Business / Markets",
   "editorial_category": "Economy",
@@ -17,13 +17,22 @@
     "#Markets",
     "#Economy"
   ],
-  "image_filename": null,
-  "public_image_url": null,
+  "image_filename": "matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg",
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about the National Stock Exchange of India's trading debut on Sept. 24, 2026 after a $2.3 billion IPO. Neutral factual financial-news treatment. Use stylized Indian market/exchange motifs, a clean upward 3% market indicator, stock-market grid elements and a subtle India map silhouette. Do not reproduce Reuters photography, logos as endorsements, fabricated traders, or a fake documentary scene. Headline: INDIA'S NSE MAKES MARKET DEBUT. Subhead: Shares rise about 3% after $2.3B IPO. Source: Reuters. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters article published Sept. 24, 2026 at 1:32 AM UTC was opened and verified. Reuters reports that NSE shares rose 3% in their Sept. 24 trading debut, that the IPO totaled 225.6 billion rupees ($2.3 billion), and that it was India's second-largest IPO on record. The article publication date and the trading-debut event date were both checked as Sept. 24, 2026. Entire MATRIX 24 queue and recent Instagram media were checked first; no duplicate of this event was found.",
-  "publish_attempt_history": [],
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-24T06:30:51.496Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "41667505-86b2-4a4b-9c73-a32d449a2770",
+      "image_filename": "matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-b337314848b411d109ffc162825ab1db56de6dedc1bd195087f4582e9f95190e-v1.jpg"
+    }
+  ],
   "distribution_schema_version": 1,
   "facebook": {
     "enabled": false,
@@ -49,8 +58,13 @@
     "claim_started_at": null,
     "attempt_history": []
   },
-  "media_claim": {
-    "id": "41667505-86b2-4a4b-9c73-a32d449a2770",
-    "started_at": "2026-09-24T06:30:37.668Z"
+  "media_ready_at": "2026-09-24T06:30:51.496Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 295490,
+    "alpha": false
   }
 }
