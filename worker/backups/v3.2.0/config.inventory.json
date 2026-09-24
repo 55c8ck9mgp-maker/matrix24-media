@@ -1,0 +1,26 @@
+{
+  "worker_name": "matrix24-publisher",
+  "declared_version": "3.2.0",
+  "cron": [
+    "*/15 * * * *"
+  ],
+  "repository": "55c8ck9mgp-maker/matrix24-media",
+  "queue_path": "queue",
+  "image_model": "@cf/bytedance/stable-diffusion-xl-lightning",
+  "bindings": {
+    "AI": "Cloudflare Workers AI binding",
+    "BROWSER": "Cloudflare Browser Run binding"
+  },
+  "required_environment_names": [
+    "GITHUB_TOKEN",
+    "MATRIX24_API_TOKEN",
+    "SUPABASE_URL",
+    "SUPABASE_BUCKET",
+    "SUPABASE_SECRET_KEY"
+  ],
+  "secrets_stored_in_repository": false,
+  "known_non_secret_value": {
+    "SUPABASE_BUCKET": "matrix24"
+  },
+  "note": "Actual secret values and account-specific Cloudflare identifiers are intentionally excluded."
+}
