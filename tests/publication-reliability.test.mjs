@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { assessPublication, readFreshness, readRetryDelay, assertStagingConfig } from '../worker/staging/reliability/policy.mjs';
+import { assessPublication, assessDirectMediaLookup, readFreshness, readRetryDelay, assertStagingConfig } from '../worker/staging/reliability/policy.mjs';
 
 const record = (overrides = {}) => ({ content_id: 'fixture-news', account_id: 'fixture-account',
   status: 'publish_unknown', attempt_id: 'attempt-1', claim: { id: 'attempt-1', started_at: '2020-01-01T00:00:00Z' }, ...overrides });
@@ -27,6 +27,20 @@ test('exact ID requires the configured account', () => {
   const wrong = { media_id: input.media_id, account_id: 'other' };
   assert.equal(assessPublication(input, { rows: [wrong] }).action, 'verification_pending');
   assert.equal(assessPublication(input, { rows: [{ ...wrong, account_id: input.account_id }] }).action, 'verified');
+});
+test('direct media lookup confirms only the exact owned Media ID', () => {
+  const input = record({ media_id: '17900000000000001' });
+  const verified = assessDirectMediaLookup(input, { kind: 'ig_media', id: input.media_id,
+    owner_id: input.account_id, permalink: 'https://www.instagram.com/p/example/' });
+  assert.equal(verified.action, 'direct_lookup_verified');
+  assert.equal(verified.publication, 'confirmed');
+  assert.equal(verified.publishAllowed, false);
+  assert.equal(verified.clearClaim, false);
+  for (const lookup of [
+    { kind: 'ig_media', id: input.media_id, owner_id: 'other' },
+    { kind: 'ig_media', id: '17900000000000002', owner_id: input.account_id },
+    { kind: 'container', id: input.media_id, owner_id: input.account_id },
+  ]) assert.notEqual(assessDirectMediaLookup(input, lookup).action, 'direct_lookup_verified');
 });
 test('archive failure recovers from receipt without a second external call', () => {
   assert.equal(assessPublication(record(), { receipt: receipt() }).action, 'archive_receipt');
