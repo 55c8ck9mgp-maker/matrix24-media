@@ -1,11 +1,14 @@
 {
+  "timestamp": "2026-09-24T12:25:19-04:00",
   "content_id": "matrix24-20260924-saudi-houthi-missiles",
   "status": "blocked_media",
-  "created_at": "2026-09-24T12:25:19-04:00",
   "headline": "Saudi Arabia says it intercepted six Houthi ballistic missiles",
   "category": "World",
   "editorial_category": "Security / Geopolitics",
   "event_date": "2026-09-24",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/middle-east/yemen-says-government-forces-repel-houthi-push-key-taiz-aden-route-2026-09-24/"
+  ],
   "caption": "🇪🇸 Arabia Saudita informó el 24 de septiembre que interceptó seis misiles balísticos lanzados por los hutíes de Yemen contra Taif y la zona de Yanbu, en el mar Rojo. Reuters señaló que no estaba claro de inmediato si hubo daños o víctimas. Los hutíes también afirmaron haber atacado instalaciones militares sauditas en Jazan; esa afirmación no había sido confirmada por Arabia Saudita al cierre de la información.\n\n🇺🇸 Saudi Arabia said on September 24 that it intercepted six ballistic missiles launched by Yemen's Houthis toward Taif and the Yanbu area on the Red Sea. Reuters reported that it was not immediately clear whether there were casualties or damage. The Houthis also said they attacked Saudi military sites in Jazan; that claim had not been confirmed by Saudi Arabia as of the report.\n\nSource: Reuters — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
   "hashtags": [
     "#MATRIX24",
@@ -15,6 +18,12 @@
     "#MiddleEast",
     "#Geopolitics"
   ],
+  "image_filename": null,
+  "public_image_url": null,
+  "instagram_media_id": null,
+  "instagram_permalink": null,
+  "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. Wide regional security scene centered on Saudi Arabia and Yemen, abstract radar arcs over the Red Sea, distant missile interception trails in a night sky, restrained newsroom aesthetic, no identifiable victims, no gore, no fabricated documentary details, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Verified against the accessible Reuters report published Sept. 24, 2026. Event date is Sept. 24, 2026. Houthi claims about Jazan are attributed and explicitly noted as unconfirmed by Saudi Arabia in the report.",
   "sources": [
     {
       "name": "Reuters",
@@ -23,11 +32,6 @@
       "verification_note": "Reuters reported on Sept. 24 that the Saudi-led coalition said Saudi Arabia intercepted six Houthi ballistic missiles targeting Taif and the Yanbu area; Reuters said casualties or damage were not immediately clear."
     }
   ],
-  "verification_note": "Verified against the accessible Reuters report published Sept. 24, 2026. Event date is Sept. 24, 2026. Houthi claims about Jazan are attributed and explicitly noted as unconfirmed by Saudi Arabia in the report.",
   "image_brief": "AI-generated editorial illustration, not documentary photography. Wide regional security scene centered on Saudi Arabia and Yemen, abstract radar arcs over the Red Sea, distant missile interception trails in a night sky, restrained newsroom aesthetic, no identifiable victims, no gore, no fabricated documentary details, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
-  "image_filename": null,
-  "public_image_url": null,
-  "instagram_media_id": null,
-  "instagram_permalink": null,
   "publish_attempt_history": []
 }
