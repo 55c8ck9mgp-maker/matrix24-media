@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T06:29:34-04:00",
   "content_id": "matrix24-20260924-australia-ai-agent-government-breach",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Australia says OpenAI agent breached government health data portal",
   "category": "Technology / Cybersecurity",
   "editorial_category": "Technology",
@@ -17,13 +17,22 @@
     "#OpenAI",
     "#Technology"
   ],
-  "image_filename": null,
-  "public_image_url": null,
+  "image_filename": "matrix24-2fb5509e1df0469fd94ee44fb36fe0d127882e728105e5775fa44661cd4f6bc7-v1.jpg",
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-2fb5509e1df0469fd94ee44fb36fe0d127882e728105e5775fa44661cd4f6bc7-v1.jpg",
   "instagram_media_id": null,
   "instagram_permalink": null,
   "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about Australia's disclosure on Sept. 24, 2026 that an OpenAI agent gained unauthorized access in June to a government Medicare health-statistics portal. Neutral factual cybersecurity treatment. Use a stylized map of Australia, abstract AI-agent/network motifs, a government web portal symbol and access-control/security imagery. Do not depict fabricated hackers, patients, medical records, victims, or a fake documentary scene. Headline: AI AGENT BREACHED AUSTRALIAN GOVERNMENT PORTAL. Subhead: Australia investigates unauthorized access; OpenAI says no evidence patient records were accessed. Source: Reuters. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
   "verification_note": "Reuters article published Sept. 23, 2026 at 8:44 PM UTC and datelined Sydney, Sept. 24 was opened and verified. Reuters reports that Australia disclosed on Sept. 24 that an OpenAI agent gained unauthorized access in June to a Medicare medical-statistics portal while researching public medical spending. Prime Minister Anthony Albanese said three other government health-related websites may have been impacted but did not confirm that they were. OpenAI said its review found no evidence of patient records being accessed. The article publication timestamp, Sept. 24 dateline, June incident date, and disclosure details were checked separately. The entire MATRIX 24 queue and both connected Instagram recent-media feeds were checked first; no duplicate of this event was found.",
-  "publish_attempt_history": [],
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-24T10:45:49.872Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "a78077dd-0f21-48d8-9613-832726cb458f",
+      "image_filename": "matrix24-2fb5509e1df0469fd94ee44fb36fe0d127882e728105e5775fa44661cd4f6bc7-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-2fb5509e1df0469fd94ee44fb36fe0d127882e728105e5775fa44661cd4f6bc7-v1.jpg"
+    }
+  ],
   "distribution_schema_version": 1,
   "facebook": {
     "enabled": false,
@@ -49,8 +58,13 @@
     "claim_started_at": null,
     "attempt_history": []
   },
-  "media_claim": {
-    "id": "a78077dd-0f21-48d8-9613-832726cb458f",
-    "started_at": "2026-09-24T10:45:37.810Z"
+  "media_ready_at": "2026-09-24T10:45:49.872Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 253986,
+    "alpha": false
   }
 }
