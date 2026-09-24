@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import fs from "node:fs";
 
 import {
   assertShaMatch,
@@ -24,12 +25,13 @@ function record(overrides = {}) {
 }
 
 test("normal media claim completes to ready_to_publish", () => {
-  const result = runFixtureScenario({
-    records: [record()],
-    current_sha: "sha-1",
-    claim_id: "claim-1",
-    now: "2026-09-24T00:01:00.000Z"
-  });
+  const fixture = JSON.parse(
+    fs.readFileSync(
+      "tests/fixtures/worker-v3.2.0/blocked-media.json",
+      "utf8"
+    )
+  );
+  const result = runFixtureScenario(fixture);
 
   assert.equal(result.action, "media_created");
   assert.equal(result.record.story.status, "ready_to_publish");
@@ -92,6 +94,17 @@ test("processing_media is never selected by age", () => {
     }
   });
   assert.equal(selectQueueRecord([candidate]), null);
+});
+
+test("current_sha is mandatory before any claim", () => {
+  assert.throws(
+    () =>
+      runFixtureScenario({
+        records: [record()],
+        claim_id: "claim-no-sha"
+      }),
+    /CURRENT_SHA_REQUIRED/
+  );
 });
 
 test("duplicate content_id is rejected", () => {
