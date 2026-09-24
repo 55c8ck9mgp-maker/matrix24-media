@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T12:25:19-04:00",
   "content_id": "matrix24-20260924-saudi-houthi-missiles",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Saudi Arabia says it intercepted six Houthi ballistic missiles",
   "category": "World",
   "editorial_category": "Security / Geopolitics",
@@ -33,5 +33,9 @@
     }
   ],
   "image_brief": "AI-generated editorial illustration, not documentary photography. Wide regional security scene centered on Saudi Arabia and Yemen, abstract radar arcs over the Red Sea, distant missile interception trails in a night sky, restrained newsroom aesthetic, no identifiable victims, no gore, no fabricated documentary details, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
-  "publish_attempt_history": []
+  "publish_attempt_history": [],
+  "media_claim": {
+    "id": "04e3ed7b-cded-4250-8810-9baed9e9e437",
+    "started_at": "2026-09-24T19:45:38.674Z"
+  }
 }
