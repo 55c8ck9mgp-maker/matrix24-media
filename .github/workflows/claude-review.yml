@@ -11,6 +11,7 @@ on:
     types: [opened, labeled]
 
 permissions:
+  id-token: write
   contents: write
   pull-requests: write
   issues: write
