@@ -116,3 +116,11 @@ ChatGPT then independently reviews the result before any production change.
 - Keep GitHub Actions full-output/debug logging disabled unless deliberately troubleshooting in a controlled environment.
 - Claude must not edit production queue records.
 - Claude must not deploy production or merge to main.
+
+## Open safeguard gaps (tracked, not yet resolved)
+
+Identified during smoke-test review of the collaboration framework. These are process/config gaps, not code or queue changes, so they are recorded here for ChatGPT/human follow-up rather than fixed directly:
+
+- **Trigger authorization:** `.github/workflows/claude-review.yml` fires for any `issue_comment`/`issues` event whose body contains `@claude`, with no check on `github.event.comment.author_association` (or `github.event.issue.author_association`). Any user able to comment on or open an issue can invoke the workflow, which holds `contents: write`, `pull-requests: write`, `issues: write`, and `id-token: write`. Recommend gating the trigger on `author_association` in `(OWNER, MEMBER, COLLABORATOR)` before granting write scopes.
+- **Merge enforcement:** CHANGE_POLICY.md requires explicit review before merge to `main`, but no CODEOWNERS file or required-reviewer branch ruleset currently enforces this technically — it relies on process discipline alone.
+- **Test coverage:** TESTING.md defines 12 minimum regression cases, but `tests/fixtures/` currently contains only the rules `README.md` — no fixtures or test files implementing those cases exist yet, so the "tests pass" acceptance criterion has nothing to run against.
