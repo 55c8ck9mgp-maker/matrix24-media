@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T12:25:19-04:00",
   "content_id": "matrix24-20260924-saudi-houthi-missiles",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "Saudi Arabia says it intercepted six Houthi ballistic missiles",
   "category": "World",
   "editorial_category": "Security / Geopolitics",
@@ -41,6 +41,12 @@
       "request_id": "04e3ed7b-cded-4250-8810-9baed9e9e437",
       "image_filename": "matrix24-9ba78554ee076da006607e28a0f62988bc066fea2412d00f93be6d05a1467b3f-v1.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-9ba78554ee076da006607e28a0f62988bc066fea2412d00f93be6d05a1467b3f-v1.jpg"
+    },
+    {
+      "timestamp": "2026-09-24T20:44:00Z",
+      "stage": "instagram_publish_reservation",
+      "result": "reserved",
+      "publish_attempt_id": "m24-recovery-20260924T2044Z"
     }
   ],
   "media_ready_at": "2026-09-24T19:45:51.895Z",
@@ -51,5 +57,7 @@
     "height": 1350,
     "size_bytes": 198024,
     "alpha": false
-  }
+  },
+  "publish_attempt_id": "m24-recovery-20260924T2044Z",
+  "publishing_started_at": "2026-09-24T20:44:00Z"
 }
