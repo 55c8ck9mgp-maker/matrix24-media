@@ -1,0 +1,96 @@
+{
+  "audit_date": "2026-09-24",
+  "repository_base": "d86e41b3b059678e49a7a7a3a84953495ad993fb",
+  "reads": [
+    {
+      "connector": "instagram",
+      "requested_account": "17841423605720355",
+      "date_from": "2026-09-24",
+      "date_to": "2026-09-24",
+      "rows": [
+        {
+          "media_id": "17959852986237346",
+          "media_permalink": "https://www.instagram.com/p/DdrNc87DWGE/",
+          "media_timestamp": "2026-09-24T15:30:10+0000",
+          "data_fetched_at": "2026-09-24T20:32:13"
+        },
+        {
+          "media_id": "18116353237788194",
+          "media_permalink": "https://www.instagram.com/p/Ddq_Q5AjTDJ/",
+          "media_timestamp": "2026-09-24T13:26:06+0000",
+          "data_fetched_at": "2026-09-24T20:32:13"
+        },
+        {
+          "media_id": "17993361648030914",
+          "media_permalink": "https://www.instagram.com/p/DdqxvdojclY/",
+          "media_timestamp": "2026-09-24T11:28:01+0000",
+          "data_fetched_at": "2026-09-24T20:32:13"
+        },
+        {
+          "media_id": "18135178228630348",
+          "media_permalink": "https://www.instagram.com/p/DdqWL2jCHpt/",
+          "media_timestamp": "2026-09-24T07:27:20+0000",
+          "data_fetched_at": "2026-09-24T20:32:13"
+        },
+        {
+          "media_id": "18143330704606123",
+          "media_permalink": "https://www.instagram.com/p/DdqIuemjXI3/",
+          "media_timestamp": "2026-09-24T05:29:37+0000",
+          "data_fetched_at": "2026-09-24T20:32:13"
+        },
+        {
+          "media_id": "18115280504005151",
+          "media_permalink": "https://www.instagram.com/p/DdptkN-iPRA/",
+          "media_timestamp": "2026-09-24T01:32:22+0000",
+          "data_fetched_at": "2026-09-24T20:32:13"
+        }
+      ],
+      "target_found": false
+    },
+    {
+      "connector": "instagram_public",
+      "requested_account": "matrix24global",
+      "date_from": "2026-09-24",
+      "date_to": "2026-09-24",
+      "rows": [
+        {
+          "media_id": "17959852986237346",
+          "media_permalink": "https://www.instagram.com/p/DdrNc87DWGE/",
+          "media_timestamp": "2026-09-24T15:30:10+0000",
+          "data_fetched_at": "2026-09-24T20:41:00"
+        },
+        {
+          "media_id": "18116353237788194",
+          "media_permalink": "https://www.instagram.com/p/Ddq_Q5AjTDJ/",
+          "media_timestamp": "2026-09-24T13:26:06+0000",
+          "data_fetched_at": "2026-09-24T20:41:00"
+        },
+        {
+          "media_id": "17993361648030914",
+          "media_permalink": "https://www.instagram.com/p/DdqxvdojclY/",
+          "media_timestamp": "2026-09-24T11:28:01+0000",
+          "data_fetched_at": "2026-09-24T20:41:00"
+        },
+        {
+          "media_id": "18135178228630348",
+          "media_permalink": "https://www.instagram.com/p/DdqWL2jCHpt/",
+          "media_timestamp": "2026-09-24T07:27:20+0000",
+          "data_fetched_at": "2026-09-24T20:41:00"
+        },
+        {
+          "media_id": "18143330704606123",
+          "media_permalink": "https://www.instagram.com/p/DdqIuemjXI3/",
+          "media_timestamp": "2026-09-24T05:29:37+0000",
+          "data_fetched_at": "2026-09-24T20:41:00"
+        },
+        {
+          "media_id": "18115280504005151",
+          "media_permalink": "https://www.instagram.com/p/DdptkN-iPRA/",
+          "media_timestamp": "2026-09-24T01:32:22+0000",
+          "data_fetched_at": "2026-09-24T20:41:00"
+        }
+      ],
+      "target_found": false
+    }
+  ]
+}

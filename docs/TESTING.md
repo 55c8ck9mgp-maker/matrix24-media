@@ -19,7 +19,7 @@ Never place test stories in production `queue/`.
 6. Instagram confirmed success with media ID.
 7. Instagram ambiguous result -> `publish_unknown`.
 8. Positive reconciliation without republishing.
-9. Strict no-match -> one controlled retry.
+9. Strict no-match (including cached dual feeds) -> retain claim, reconcile only, no retry.
 10. Second ambiguous result -> stop.
 11. Missing permalink with valid media ID.
 12. Duplicate `content_id` detection.

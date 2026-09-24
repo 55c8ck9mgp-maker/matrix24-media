@@ -63,10 +63,10 @@ Ambiguous social result:
 publishing
 -> publish_unknown
 -> reconcile
--> published OR one controlled retry
+-> published on positive evidence OR remain quarantined
 ```
 
-Second ambiguous result stops automatic retries.
+No-match feed reads, even from both connectors after a delay, never authorize another publication. Cached or incomplete feeds cannot prove nonpublication. See `docs/reliability/RUNBOOKS.md` for the proposed replacement policy and deployment gates; the live automation must be updated separately after approval.
 
 ## Multichannel principle
 Future Facebook and Threads states must be independent. A failure on one platform must not stop Instagram.
