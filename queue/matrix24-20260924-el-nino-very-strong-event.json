@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T10:25:21-04:00",
   "content_id": "matrix24-20260924-el-nino-very-strong-event",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Developing El Niño could become one of the strongest on record",
   "category": "Climate / Weather",
   "editorial_category": "Climate",
@@ -9,7 +9,14 @@
     "https://www.reuters.com/business/environment/what-is-super-el-nio-how-will-it-affect-weather-2026-09-24/"
   ],
   "caption": "🇪🇸 El Niño que se desarrolla en el Pacífico podría convertirse en uno de los más fuertes registrados. Reuters informó el 24 de septiembre que las temperaturas superficiales del Pacífico ecuatorial alcanzaron este mes 3,05 °C por encima de lo normal. La Organización Meteorológica Mundial prevé que el fenómeno se intensifique hasta convertirse en un evento muy fuerte, con posibles impactos en lluvias y temperaturas.\n\n🇺🇸 The El Niño developing in the Pacific could become one of the strongest on record. Reuters reported on September 24 that equatorial Pacific sea-surface temperatures this month reached 3.05°C above normal. The World Meteorological Organization expects the event to intensify into a very strong El Niño, with potentially significant impacts on rainfall and temperatures.\n\nSource: Reuters — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
-  "hashtags": ["#MATRIX24", "#ElNino", "#Climate", "#Weather", "#Pacific", "#WorldNews"],
+  "hashtags": [
+    "#MATRIX24",
+    "#ElNino",
+    "#Climate",
+    "#Weather",
+    "#Pacific",
+    "#WorldNews"
+  ],
   "image_filename": null,
   "public_image_url": null,
   "instagram_media_id": null,
@@ -18,6 +25,32 @@
   "verification_note": "Reuters article published Sept. 24, 2026 at 9:24 AM UTC was opened and verified. Reuters reports that the developing Pacific El Niño could be one of the strongest on record; equatorial Pacific sea-surface temperatures this month reached 3.05°C above normal, the highest El Niño anomaly in the cited record; NOAA formally declared El Niño conditions in June; and WMO forecasts the event to intensify into a 'very strong event' with significant rainfall and temperature impacts. Article publication date and the timing of the underlying observations/forecast were checked separately. The full MATRIX 24 queue listing and both connected Instagram recent-media feeds were checked before creation; no duplicate of this event was identified.",
   "publish_attempt_history": [],
   "distribution_schema_version": 1,
-  "facebook": {"enabled": false, "account_id": "1300936266441859", "status": "not_scheduled", "caption": null, "media_id": null, "permalink": null, "published_at": null, "attempt_id": null, "claim_started_at": null, "attempt_history": []},
-  "threads": {"enabled": false, "account_id": "28292693487056009", "status": "not_scheduled", "caption": null, "media_id": null, "permalink": null, "published_at": null, "attempt_id": null, "claim_started_at": null, "attempt_history": []}
+  "facebook": {
+    "enabled": false,
+    "account_id": "1300936266441859",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  },
+  "threads": {
+    "enabled": false,
+    "account_id": "28292693487056009",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  },
+  "media_claim": {
+    "id": "c3fc5a62-132f-442b-b50e-1150029d699b",
+    "started_at": "2026-09-24T14:30:38.624Z"
+  }
 }
