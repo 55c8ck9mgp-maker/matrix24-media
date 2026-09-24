@@ -12,7 +12,13 @@ Repository admin access is required for installation.
 
 ## 2. Configure Anthropic authentication
 
-Preferred initial method: direct Anthropic API key.
+Current MATRIX 24 method: Claude Pro / Claude Code OAuth token.
+
+Generate the token locally with:
+
+```bash
+claude setup-token
+```
 
 In GitHub:
 
@@ -27,23 +33,27 @@ matrix24-media
 Create:
 
 ```text
-Name: ANTHROPIC_API_KEY
+Name: CLAUDE_CODE_OAUTH_TOKEN
 Value: <paste directly in GitHub; never place it in issues, PRs, code, or chat>
 ```
 
-Alternative supported by Anthropic: `CLAUDE_CODE_OAUTH_TOKEN`.
+Do not commit or expose the token.
 
-Do not create both unless there is a specific reason.
+## 3. Protect main without breaking production
 
-## 3. Protect main
+MATRIX 24 currently has an active ruleset on the default branch that prevents branch deletion and non-fast-forward updates.
 
-Where available, configure a branch protection/ruleset for `main`:
+Do **not** require all changes to `main` to come through pull requests yet. The production Auto Publisher currently persists queue/state updates directly to the repository, so a blanket PR-only rule could interrupt the autonomous publication path.
 
-- require pull requests before merging,
-- prevent direct pushes where practical,
-- do not allow Claude to bypass protection.
+Current policy:
 
-The purpose is to make Claude's `claude/*` branch boundary enforceable rather than advisory.
+- keep deletion and force-push protection active,
+- Claude must work only on `claude/*` branches,
+- Claude must not commit directly to `main`,
+- Claude must not merge pull requests,
+- do not strengthen `main` to PR-only until the Auto Publisher write path has either a verified bypass or is moved to a compatible architecture.
+
+The goal is to protect production without blocking its existing autonomous state writes.
 
 ## 4. Review PR #1
 
@@ -59,7 +69,7 @@ It must not modify:
 - production Cloudflare deployment,
 - social publishing state.
 
-## 5. Merge only after steps 1-3
+## 5. Merge only after setup validation
 
 The Claude workflow is stored in:
 
@@ -68,6 +78,8 @@ The Claude workflow is stored in:
 Issue/comment triggers use `@claude`.
 
 Claude-created branches use the `claude/` prefix.
+
+Before merge, verify the workflow syntax and authentication input against the current official Claude Code Action.
 
 ## 6. First smoke test
 
