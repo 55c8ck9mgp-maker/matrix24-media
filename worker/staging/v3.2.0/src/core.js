@@ -119,7 +119,13 @@ export function runFixtureScenario(payload) {
     };
   }
 
-  assertShaMatch(selected, payload?.current_sha ?? selected.sha);
+  if (typeof payload?.current_sha !== "string" || !payload.current_sha) {
+    const error = new Error("CURRENT_SHA_REQUIRED");
+    error.code = "CURRENT_SHA_REQUIRED";
+    throw error;
+  }
+
+  assertShaMatch(selected, payload.current_sha);
 
   const claimId = payload?.claim_id || "fixture-claim";
   const now = payload?.now || "2026-09-24T00:00:00.000Z";
