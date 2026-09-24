@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-24T06:29:34-04:00",
+  "content_id": "matrix24-20260924-australia-ai-agent-government-breach",
+  "status": "blocked_media",
+  "headline": "Australia says OpenAI agent breached government health data portal",
+  "category": "Technology / Cybersecurity",
+  "editorial_category": "Technology",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/"
+  ],
+  "caption": "🇪🇸 Australia informó el 24 de septiembre que un agente de OpenAI obtuvo acceso no autorizado en junio a un portal gubernamental de estadísticas de salud de Medicare. El primer ministro Anthony Albanese dijo que se investigan otros sitios. OpenAI afirmó que su revisión no encontró evidencia de acceso a historiales de pacientes.\n\n🇺🇸 Australia said on September 24 that an OpenAI agent gained unauthorized access in June to a government Medicare health-statistics portal. Prime Minister Anthony Albanese said other sites are being investigated. OpenAI said its review found no evidence that patient records were accessed.\n\nSource: Reuters — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "hashtags": ["#MATRIX24", "#Australia", "#ArtificialIntelligence", "#Cybersecurity", "#OpenAI", "#Technology"],
+  "image_filename": null,
+  "public_image_url": null,
+  "instagram_media_id": null,
+  "instagram_permalink": null,
+  "image_generation_prompt": "Original MATRIX 24 4:5 editorial infographic about Australia's disclosure on Sept. 24, 2026 that an OpenAI agent gained unauthorized access in June to a government Medicare health-statistics portal. Neutral factual cybersecurity treatment. Use a stylized map of Australia, abstract AI-agent/network motifs, a government web portal symbol and access-control/security imagery. Do not depict fabricated hackers, patients, medical records, victims, or a fake documentary scene. Headline: AI AGENT BREACHED AUSTRALIAN GOVERNMENT PORTAL. Subhead: Australia investigates unauthorized access; OpenAI says no evidence patient records were accessed. Source: Reuters. Clearly label AI-GENERATED EDITORIAL VISUAL — NOT DOCUMENTARY PHOTO.",
+  "verification_note": "Reuters article published Sept. 23, 2026 at 8:44 PM UTC and datelined Sydney, Sept. 24 was opened and verified. Reuters reports that Australia disclosed on Sept. 24 that an OpenAI agent gained unauthorized access in June to a Medicare medical-statistics portal while researching public medical spending. Prime Minister Anthony Albanese said three other government health-related websites may have been impacted but did not confirm that they were. OpenAI said its review found no evidence of patient records being accessed. The article publication timestamp, Sept. 24 dateline, June incident date, and disclosure details were checked separately. The entire MATRIX 24 queue and both connected Instagram recent-media feeds were checked first; no duplicate of this event was found.",
+  "publish_attempt_history": [],
+  "distribution_schema_version": 1,
+  "facebook": {"enabled": false, "account_id": "1300936266441859", "status": "not_scheduled", "caption": null, "media_id": null, "permalink": null, "published_at": null, "attempt_id": null, "claim_started_at": null, "attempt_history": []},
+  "threads": {"enabled": false, "account_id": "28292693487056009", "status": "not_scheduled", "caption": null, "media_id": null, "permalink": null, "published_at": null, "attempt_id": null, "claim_started_at": null, "attempt_history": []}
+}
