@@ -1,0 +1,70 @@
+{
+  "content_id": "matrix24-20260924-anthropic-akamai-cloud-deal",
+  "researched_at": "2026-09-24T22:18:49Z",
+  "event_date": "2026-09-24",
+  "headline": "Anthropic commits $11.6 billion to Akamai cloud services",
+  "category": "Technology",
+  "editorial_category": "Technology",
+  "verified_source_urls": [
+    "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/",
+    "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-24",
+      "url": "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/",
+      "supports": [
+        "Anthropic committed $11.6 billion to Akamai cloud services over seven years.",
+        "Akamai issued a warrant that could give Anthropic up to about 5% of Akamai common stock.",
+        "The relationship could expand by an additional $9 billion."
+      ]
+    },
+    {
+      "source_name": "Akamai Technologies (company announcement distributed by GlobeNewswire)",
+      "publication_date": "2026-09-24",
+      "url": "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html",
+      "supports": [
+        "The contractual commitment is $11.6 billion over seven years.",
+        "The deal supports Anthropic CPU workloads using Akamai Cloud infrastructure and software.",
+        "Potential expansion is up to an additional $9 billion and the warrant can represent up to approximately 5% of Akamai common stock outstanding."
+      ]
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Anthropic committed $11.6 billion to Akamai cloud services over seven years.",
+      "supporting_urls": [
+        "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/",
+        "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html"
+      ]
+    },
+    {
+      "claim": "The agreement supports Anthropic's CPU workloads using Akamai Cloud infrastructure and software.",
+      "supporting_urls": [
+        "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html"
+      ]
+    },
+    {
+      "claim": "Akamai issued a warrant that could give Anthropic up to approximately 5% of Akamai common stock, with further vesting tied to expansion.",
+      "supporting_urls": [
+        "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/",
+        "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html"
+      ]
+    }
+  ],
+  "caption": "🇪🇸 Anthropic acordó un compromiso de US$11.600 millones durante siete años para utilizar servicios de nube de Akamai, destinados a respaldar sus cargas de trabajo de CPU. Akamai también emitió un warrant que podría dar a Anthropic una participación de hasta aproximadamente 5% de sus acciones ordinarias, con parte de esa participación vinculada a una posible expansión del acuerdo.\n\n🇺🇸 Anthropic agreed to an $11.6 billion seven-year commitment for Akamai cloud services to support its CPU workloads. Akamai also issued a warrant that could give Anthropic a stake of up to approximately 5% of its common stock, with part of that stake tied to a potential expansion of the agreement.\n\nSources: Reuters / Akamai — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Anthropic",
+    "#Akamai",
+    "#AI",
+    "#CloudComputing",
+    "#Technology"
+  ],
+  "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. A modern distributed cloud-computing network with abstract server infrastructure, CPU workload flows and neutral visual references to AI infrastructure growth; restrained professional newsroom aesthetic, no fabricated people, no fake event photography, no misleading logos or financial charts, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Verified on Sept. 24, 2026 against Reuters and Akamai's primary company announcement. Both sources support the $11.6 billion seven-year commitment and warrant structure. Caption intentionally omits volatile after-hours share-price movement and other nonessential figures.",
+  "verification_status": "verified_primary_plus_independent",
+  "promotion_eligible": true,
+  "candidate_status": "verified_draft"
+}
