@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-24T08:26:40-04:00",
   "content_id": "matrix24-20260924-us-judge-white-house-media-access",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Federal judge orders White House to restore access for CNN, MS NOW and Politico",
   "category": "United States / Media / Law",
   "editorial_category": "World",
@@ -10,7 +10,14 @@
     "https://apnews.com/article/trump-media-ban-judge-ruling-cnn-msnow-politico-21605e397fe48f178a4afa037e732c6d"
   ],
   "caption": "🇪🇸 Un juez federal ordenó el 24 de septiembre restaurar el acceso a la Casa Blanca para periodistas de CNN, MS NOW y Politico mientras continúa su demanda contra la prohibición anunciada por el presidente Donald Trump. El juez Timothy Kelly determinó de forma preliminar que la medida probablemente violaba protecciones constitucionales.\n\n🇺🇸 A federal judge on September 24 ordered White House access restored for journalists from CNN, MS NOW and Politico while their lawsuit challenging President Donald Trump's ban continues. Judge Timothy Kelly preliminarily found the restriction was likely unconstitutional.\n\nSources: Reuters / AP — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
-  "hashtags": ["#MATRIX24", "#UnitedStates", "#WhiteHouse", "#PressFreedom", "#Media", "#WorldNews"],
+  "hashtags": [
+    "#MATRIX24",
+    "#UnitedStates",
+    "#WhiteHouse",
+    "#PressFreedom",
+    "#Media",
+    "#WorldNews"
+  ],
   "image_filename": null,
   "public_image_url": null,
   "instagram_media_id": null,
@@ -19,6 +26,32 @@
   "verification_note": "Reuters and AP reports published Sept. 24, 2026 were opened and verified. Both report that U.S. District Judge Timothy Kelly temporarily ordered restoration of White House access for CNN, MS NOW and Politico while their lawsuit proceeds. Reuters says the judge found the Sept. 18 ban likely unconstitutional; AP independently reports the temporary order. Article publication date and the Sept. 24 ruling date were checked separately. The full MATRIX 24 queue and both connected Instagram recent-media feeds were checked before creation; no duplicate of this event was found.",
   "publish_attempt_history": [],
   "distribution_schema_version": 1,
-  "facebook": {"enabled": false, "account_id": "1300936266441859", "status": "not_scheduled", "caption": null, "media_id": null, "permalink": null, "published_at": null, "attempt_id": null, "claim_started_at": null, "attempt_history": []},
-  "threads": {"enabled": false, "account_id": "28292693487056009", "status": "not_scheduled", "caption": null, "media_id": null, "permalink": null, "published_at": null, "attempt_id": null, "claim_started_at": null, "attempt_history": []}
+  "facebook": {
+    "enabled": false,
+    "account_id": "1300936266441859",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  },
+  "threads": {
+    "enabled": false,
+    "account_id": "28292693487056009",
+    "status": "not_scheduled",
+    "caption": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "attempt_id": null,
+    "claim_started_at": null,
+    "attempt_history": []
+  },
+  "media_claim": {
+    "id": "720b6b57-1bf8-4f5d-b55f-616a8c305957",
+    "started_at": "2026-09-24T12:30:38.238Z"
+  }
 }
