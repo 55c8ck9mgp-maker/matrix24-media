@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "path": "tests/fixtures/worker-v3.2.0/story.json",
+      "sha": "fixture-sha-1",
+      "story": {
+        "timestamp": "2026-09-24T00:00:00.000Z",
+        "content_id": "fixture-normal-001",
+        "status": "blocked_media",
+        "headline": "Synthetic staging story",
+        "verified_source_urls": ["https://example.com/source"]
+      }
+    }
+  ],
+  "current_sha": "fixture-sha-1",
+  "claim_id": "fixture-claim-001",
+  "now": "2026-09-24T00:01:00.000Z"
+}
