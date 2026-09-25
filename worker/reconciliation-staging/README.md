@@ -5,6 +5,9 @@ Standalone staging Worker for a read-only Instagram `GET /<media-id>` reconcilia
 ## Boundary
 
 - Worker name is `matrix24-reconciliation-staging`, never `matrix24-publisher`.
+- The GitHub Action `Deploy reconciliation staging` is manually dispatched only.
+  It deploys this Worker with `--keep-vars`, so it does not replace dashboard
+  bindings or staging secrets.
 - No cron, queue, GitHub, Supabase, publishing, media generation, comment, message, webhook, or Phase 2 binding.
 - The sole outbound request is one HTTPS `GET` to `graph.instagram.com/<media-id>`.
 - `IG_READ_TOKEN` is a Cloudflare staging secret. It is never committed, returned, logged, or copied into a response.
