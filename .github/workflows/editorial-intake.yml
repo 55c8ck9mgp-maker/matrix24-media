@@ -1,0 +1,39 @@
+name: Editorial intake guard
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: read
+jobs:
+  validate-intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check out trusted base revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate proposed editorial files without executing PR code
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha }}
+          HEAD_REF: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git fetch --no-tags origin "$HEAD_REF"
+          changed_files="$(git diff --name-only "$BASE_REF" "$HEAD_REF")"
+          if printf '%s\n' "$changed_files" | grep -q '^queue/'; then
+            echo 'editorial intake rejected: this workflow does not permit queue changes'
+            exit 1
+          fi
+          intake_files="$(printf '%s\n' "$changed_files" | grep '^editorial/verified/.*\.json$' || true)"
+          if [ -z "$intake_files" ]; then
+            echo 'editorial intake validation: no changed drafts'
+            exit 0
+          fi
+          rm -rf .editorial-intake-candidate
+          mkdir .editorial-intake-candidate
+          git archive "$HEAD_REF" editorial/verified | tar -x -C .editorial-intake-candidate
+          printf '%s\n' "$intake_files" | (cd .editorial-intake-candidate && xargs node ../scripts/validate-editorial-intake.mjs)
