@@ -54,3 +54,33 @@ test('accepts only the exact deterministic queue record bound to an approved bas
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+
+test('repeated promotion remains duplicate-safe after first queue admission', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'matrix24-repeat-promotion-'));
+  try {
+    fs.mkdirSync(path.join(root, 'editorial/verified'), { recursive: true });
+    fs.mkdirSync(path.join(root, 'editorial/promotions'), { recursive: true });
+    fs.mkdirSync(path.join(root, 'queue'), { recursive: true });
+    const bytes = `${JSON.stringify(draft, null, 2)}\n`;
+    const digest = crypto.createHash('sha256').update(bytes).digest('hex');
+    const manifest = { ...promotion, draft_sha256: digest };
+    fs.writeFileSync(path.join(root, 'editorial/verified/fixture.json'), bytes);
+    fs.writeFileSync(path.join(root, 'editorial/promotions/fixture.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+    const first = buildPromotionFromFiles({ root, manifestPath: 'editorial/promotions/fixture.json', queuePaths: [] });
+    fs.writeFileSync(path.join(root, first.outputPath), `${JSON.stringify(first.record, null, 2)}\n`);
+    assert.throws(
+      () => buildPromotionFromFiles({ root, manifestPath: 'editorial/promotions/fixture.json', queuePaths: [first.outputPath] }),
+      /already exists in queue/
+    );
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('rejects an unapproved manifest before production admission', () => {
+  assert.throws(
+    () => buildEditorialPromotion({ promotion: { ...promotion, approved: false }, draft, draftPath: promotion.draft_path, draftSha }),
+    /approved must be true/
+  );
+});
