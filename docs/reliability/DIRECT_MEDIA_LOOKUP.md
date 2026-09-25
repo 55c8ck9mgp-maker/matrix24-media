@@ -25,3 +25,7 @@ Fuente oficial: https://developers.facebook.com/documentation/instagram-platform
 ## Límite
 
 El endpoint confirma un ID conocido. No resuelve por sí solo una llamada de publicación ambigua que nunca devolvió ID ni recibo durable. Ese caso permanece en cuarentena y se escala; no se reenvía contenido.
+
+## Reemplazo de egress: GitHub Actions
+
+El Worker de staging no pudo completar su subrequest a `graph.instagram.com` aun con redirect manual. El reemplazo es `.github/workflows/instagram-reconciliation.yml`: ejecución manual, una sola lectura, `permissions: contents: read`, timeout de dos minutos y sin cron, cola, claims ni publicación. El secreto `IG_READ_TOKEN` pertenece exclusivamente a GitHub Actions; el resultado solo confirma `media_id` exacto y `username=matrix24global`. Una salida `unknown` conserva el caso y nunca autoriza reintento.
