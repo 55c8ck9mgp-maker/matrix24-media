@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-25T04:05:00Z",
   "content_id": "matrix24-20260924-anthropic-akamai-cloud-deal",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Anthropic commits $11.6 billion to Akamai cloud services",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -73,8 +73,25 @@
     "approved_at": "2026-09-25T04:05:00Z",
     "approval_note": "Owner authorized completion of the controlled promotion path. This approval creates only a reviewable blocked_media queue PR after the manifest has passed repository validation; it does not authorize a merge, media generation, publication, retry, or Phase 2 activation."
   },
-  "media_claim": {
-    "id": "a7881442-5544-42f4-bfdd-9e28f23c25d4",
-    "started_at": "2026-09-25T05:00:38.942Z"
-  }
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-9a070043516b62d984e3a5e3c85236cf99b17f628b76f258cdcc3377b983ffd9-v1.jpg",
+  "image_filename": "matrix24-9a070043516b62d984e3a5e3c85236cf99b17f628b76f258cdcc3377b983ffd9-v1.jpg",
+  "media_ready_at": "2026-09-25T05:00:54.233Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 238318,
+    "alpha": false
+  },
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-25T05:00:54.233Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "a7881442-5544-42f4-bfdd-9e28f23c25d4",
+      "image_filename": "matrix24-9a070043516b62d984e3a5e3c85236cf99b17f628b76f258cdcc3377b983ffd9-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-9a070043516b62d984e3a5e3c85236cf99b17f628b76f258cdcc3377b983ffd9-v1.jpg"
+    }
+  ]
 }
