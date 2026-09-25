@@ -10,13 +10,13 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: Check out trusted base revision
-        uses: actions/checkout@v4
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           ref: ${{ github.event.pull_request.base.sha }}
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: 24
+          node-version: 22
       - name: Validate proposed editorial files without executing PR code
         env:
           BASE_REF: ${{ github.event.pull_request.base.sha }}
@@ -24,9 +24,21 @@ jobs:
         run: |
           git fetch --no-tags origin "$HEAD_REF"
           changed_files="$(git diff --name-only "$BASE_REF" "$HEAD_REF")"
-          if printf '%s\n' "$changed_files" | grep -q '^queue/'; then
-            echo 'editorial intake rejected: this workflow does not permit queue changes'
-            exit 1
+          queue_files="$(printf '%s\n' "$changed_files" | grep '^queue/.*\.json$' || true)"
+          if [ -n "$queue_files" ]; then
+            non_queue_files="$(printf '%s\n' "$changed_files" | grep -v '^queue/.*\.json$' || true)"
+            queue_count="$(printf '%s\n' "$queue_files" | sed '/^$/d' | wc -l | tr -d ' ')"
+            queue_status="$(git diff --name-status "$BASE_REF" "$HEAD_REF" | awk '$2 ~ /^queue\/.*\.json$/ {print $1}')"
+            if [ "$queue_count" != '1' ] || [ -n "$non_queue_files" ] || [ "$queue_status" != 'A' ]; then
+              echo 'editorial intake rejected: queue promotion PRs may add exactly one queue JSON file and change nothing else'
+              exit 1
+            fi
+            queue_file="$queue_files"
+            rm -rf .editorial-queue-candidate
+            mkdir .editorial-queue-candidate
+            git show "$HEAD_REF:$queue_file" > .editorial-queue-candidate/candidate.json
+            node scripts/validate-editorial-queue-promotion.mjs "$queue_file" .editorial-queue-candidate/candidate.json
+            exit 0
           fi
           intake_files="$(printf '%s\n' "$changed_files" | grep '^editorial/verified/.*\.json$' || true)"
           if [ -z "$intake_files" ]; then

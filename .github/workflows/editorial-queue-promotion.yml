@@ -1,0 +1,64 @@
+name: Create editorial queue promotion PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest_path:
+        description: Approved manifest already merged to main (editorial/promotions/*.json)
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: editorial-queue-promotion-${{ inputs.manifest_path }}
+  cancel-in-progress: false
+
+jobs:
+  create-reviewable-queue-pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+
+      - name: Rebuild the exact approved record from current main
+        id: promotion
+        env:
+          MANIFEST_PATH: ${{ inputs.manifest_path }}
+        run: |
+          git fetch --no-tags origin main
+          git checkout --detach origin/main
+          result="$(node scripts/prepare-editorial-queue-pr.mjs "$MANIFEST_PATH" .promotion-output)"
+          printf '%s' "$result" > promotion-result.json
+          node -e 'const r=require("./promotion-result.json"); require("fs").appendFileSync(process.env.GITHUB_OUTPUT, `content_id=${r.content_id}\nqueue_path=${r.output_path}\nmanifest_path=${r.manifest_path}\n`)' 
+
+      - name: Create a queue-only pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CONTENT_ID: ${{ steps.promotion.outputs.content_id }}
+          QUEUE_PATH: ${{ steps.promotion.outputs.queue_path }}
+          MANIFEST_PATH: ${{ steps.promotion.outputs.manifest_path }}
+        run: |
+          branch="promotion/${CONTENT_ID}-${GITHUB_RUN_ID}"
+          git switch -c "$branch"
+          mkdir -p "$(dirname "$QUEUE_PATH")"
+          cp ".promotion-output/$QUEUE_PATH" "$QUEUE_PATH"
+          git diff --check
+          git add -- "$QUEUE_PATH"
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Queue approved editorial promotion: $CONTENT_ID"
+          cat > pr-body.md <<BODY
+          Creates exactly one `blocked_media` queue record from the approved manifest `$MANIFEST_PATH`.
+
+          The record is rebuilt from the trusted `main` revision. Merging this PR remains a separate editorial and production decision.
+          BODY
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" --title "Queue approved editorial promotion: $CONTENT_ID" --body-file pr-body.md
