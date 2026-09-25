@@ -3,6 +3,13 @@
 const MEDIA_ID = /^[0-9]+$/;
 const OWNER_ID = /^[0-9]+$/;
 
+function networkDiagnostic(error) {
+  if (error?.name === 'AbortError') return 'abort';
+  if (error?.name === 'TimeoutError') return 'timeout';
+  if (error?.name === 'TypeError') return 'fetch';
+  return 'unknown';
+}
+
 export async function getDirectMedia({ mediaId, accessToken, fetchImpl = fetch }) {
   if (typeof mediaId !== 'string' || !MEDIA_ID.test(mediaId)) return { kind: 'invalid_request', reason: 'invalid_media_id' };
   if (typeof accessToken !== 'string' || accessToken.trim().length < 20) return { kind: 'invalid_request', reason: 'missing_access_token' };
@@ -11,7 +18,9 @@ export async function getDirectMedia({ mediaId, accessToken, fetchImpl = fetch }
     response = await fetchImpl(`https://graph.instagram.com/${mediaId}?fields=id,permalink,username`, {
       method: 'GET', headers: { authorization: `Bearer ${accessToken}`, accept: 'application/json' }, redirect: 'error'
     });
-  } catch { return { kind: 'lookup_unavailable', reason: 'network' }; }
+  } catch (error) {
+    return { kind: 'lookup_unavailable', reason: 'network', diagnostic: networkDiagnostic(error) };
+  }
   if (response.status === 401 || response.status === 403) return { kind: 'lookup_unavailable', reason: 'authentication' };
   if (response.status === 404) return { kind: 'lookup_not_found' };
   if (!response.ok) return { kind: 'lookup_unavailable', reason: `http_${response.status}` };

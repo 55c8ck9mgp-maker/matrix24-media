@@ -23,6 +23,14 @@ test('direct lookup fails closed for invalid IDs, auth failures, and mismatched 
   assert.deepEqual(await getDirectMedia({ mediaId, accessToken: token, fetchImpl: async () => new Response(JSON.stringify({ id: '17901642846667498' })) }), { kind: 'lookup_unavailable', reason: 'identity_mismatch' });
 });
 
+test('direct lookup exposes only a bounded network diagnostic', async () => {
+  const result = await getDirectMedia({ mediaId, accessToken: token, fetchImpl: async () => {
+    throw new TypeError('provider connection failed');
+  }});
+  assert.deepEqual(result, { kind: 'lookup_unavailable', reason: 'network', diagnostic: 'fetch' });
+  assert.equal(JSON.stringify(result).includes('provider connection failed'), false);
+});
+
 test('account binding requires the configured numeric account and exact username', () => {
   const lookup = { kind: 'ig_media', id: mediaId, username: 'matrix24global' };
   assert.deepEqual(bindDirectLookupToAccount(lookup, { accountId: '17841423605720355', expectedUsername: 'matrix24global' }), { ...lookup, owner_id: '17841423605720355' });

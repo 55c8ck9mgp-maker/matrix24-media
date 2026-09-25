@@ -28,3 +28,11 @@ test('lookup is unavailable without staging secret and fails closed on username 
   const mismatch = await handle(request('/lookup/17901642846667497'), env, async () => new Response(JSON.stringify({ id: '17901642846667497', username: 'wrong' })));
   assert.deepEqual(await mismatch.json(), { status: 'unknown', action: 'lookup_unverified', media_id: null, permalink: null, verification_source: null });
 });
+
+test('lookup exposes only the bounded network diagnostic', async () => {
+  const result = await handle(request('/lookup/17901642846667497'), env, async () => {
+    throw new TypeError('provider connection failed');
+  });
+  assert.equal(result.status, 502);
+  assert.deepEqual(await result.json(), { status: 'unverified', reason: 'network', diagnostic: 'fetch' });
+});
