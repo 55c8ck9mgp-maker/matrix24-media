@@ -12,7 +12,7 @@ test('direct lookup makes exactly one bounded GET and returns no token', async (
     return new Response(JSON.stringify({ id: mediaId, permalink: 'https://www.instagram.com/p/example/', username: 'matrix24global' }));
   }});
   assert.equal(request.url, `https://graph.instagram.com/${mediaId}?fields=id,permalink,username`);
-  assert.equal(request.init.method, 'GET'); assert.equal(request.init.redirect, 'error');
+  assert.equal(request.init.method, 'GET'); assert.equal(request.init.redirect, 'manual');
   assert.equal(result.kind, 'ig_media'); assert.equal(JSON.stringify(result).includes(token), false);
 });
 
@@ -29,6 +29,12 @@ test('direct lookup exposes only a bounded network diagnostic', async () => {
   }});
   assert.deepEqual(result, { kind: 'lookup_unavailable', reason: 'network', diagnostic: 'fetch' });
   assert.equal(JSON.stringify(result).includes('provider connection failed'), false);
+});
+
+test('direct lookup fails closed when the provider returns a redirect', async () => {
+  const result = await getDirectMedia({ mediaId, accessToken: token,
+    fetchImpl: async () => new Response('', { status: 302 }) });
+  assert.deepEqual(result, { kind: 'lookup_unavailable', reason: 'redirect_302' });
 });
 
 test('account binding requires the configured numeric account and exact username', () => {

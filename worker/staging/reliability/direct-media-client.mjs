@@ -16,10 +16,13 @@ export async function getDirectMedia({ mediaId, accessToken, fetchImpl = fetch }
   let response;
   try {
     response = await fetchImpl(`https://graph.instagram.com/${mediaId}?fields=id,permalink,username`, {
-      method: 'GET', headers: { authorization: `Bearer ${accessToken}`, accept: 'application/json' }, redirect: 'error'
+      method: 'GET', headers: { authorization: `Bearer ${accessToken}`, accept: 'application/json' }, redirect: 'manual'
     });
   } catch (error) {
     return { kind: 'lookup_unavailable', reason: 'network', diagnostic: networkDiagnostic(error) };
+  }
+  if (response.status >= 300 && response.status < 400) {
+    return { kind: 'lookup_unavailable', reason: `redirect_${response.status}` };
   }
   if (response.status === 401 || response.status === 403) return { kind: 'lookup_unavailable', reason: 'authentication' };
   if (response.status === 404) return { kind: 'lookup_not_found' };
