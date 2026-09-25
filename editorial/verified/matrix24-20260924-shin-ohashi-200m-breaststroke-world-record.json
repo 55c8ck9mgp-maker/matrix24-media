@@ -1,0 +1,62 @@
+{
+  "content_id": "matrix24-20260924-shin-ohashi-200m-breaststroke-world-record",
+  "researched_at": "2026-09-25T02:15:00Z",
+  "event_date": "2026-09-24",
+  "headline": "Shin Ohashi sets 200m breaststroke world record at the Asian Games",
+  "category": "Sports",
+  "editorial_category": "Sports",
+  "verified_source_urls": [
+    "https://www.aljazeera.com/sports/2026/9/24/japans-ohashi-breaks-200m-breaststroke-world-record-at-asian-games",
+    "https://www.news4jax.com/sports/2026/09/24/shin-ohashi-of-japan-sets-world-record-in-200-meter-breaststroke-at-the-asian-games/"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters (syndicated by Al Jazeera)",
+      "publication_date": "2026-09-24",
+      "url": "https://www.aljazeera.com/sports/2026/9/24/japans-ohashi-breaks-200m-breaststroke-world-record-at-asian-games",
+      "supports": [
+        "Japan's Shin Ohashi won the men's 200m breaststroke at the Asian Games in 2:04.83.",
+        "The time set a world record, improving on Qin Haiyang's previous 2:05.48 mark."
+      ]
+    },
+    {
+      "source_name": "Associated Press (syndicated by News4Jax)",
+      "publication_date": "2026-09-24",
+      "url": "https://www.news4jax.com/sports/2026/09/24/shin-ohashi-of-japan-sets-world-record-in-200-meter-breaststroke-at-the-asian-games/",
+      "supports": [
+        "Ohashi is 17 years old and represented Japan at the Asian Games.",
+        "He recorded 2:04.83 in the men's 200m breaststroke, ahead of the former world-record time of 2:05.48."
+      ]
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Shin Ohashi of Japan won the men's 200m breaststroke at the Asian Games in a world-record 2:04.83.",
+      "supporting_urls": [
+        "https://www.aljazeera.com/sports/2026/9/24/japans-ohashi-breaks-200m-breaststroke-world-record-at-asian-games",
+        "https://www.news4jax.com/sports/2026/09/24/shin-ohashi-of-japan-sets-world-record-in-200-meter-breaststroke-at-the-asian-games/"
+      ]
+    },
+    {
+      "claim": "The previous record was Qin Haiyang's 2:05.48.",
+      "supporting_urls": [
+        "https://www.aljazeera.com/sports/2026/9/24/japans-ohashi-breaks-200m-breaststroke-world-record-at-asian-games",
+        "https://www.news4jax.com/sports/2026/09/24/shin-ohashi-of-japan-sets-world-record-in-200-meter-breaststroke-at-the-asian-games/"
+      ]
+    }
+  ],
+  "caption": "🇪🇸 Shin Ohashi, de Japón, ganó los 200 m pecho masculino en los Juegos Asiáticos con 2:04.83, una marca mundial. El tiempo superó el anterior récord de 2:05.48 de Qin Haiyang.\n\n🇺🇸 Japan's Shin Ohashi won the men's 200m breaststroke at the Asian Games in 2:04.83, setting a world record. The swim bettered Qin Haiyang's previous 2:05.48 mark.\n\nSources: Reuters / AP — Sept. 24, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Swimming",
+    "#AsianGames",
+    "#ShinOhashi",
+    "#WorldRecord",
+    "#Sports"
+  ],
+  "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. A stylized competitive swimming pool viewed from above, one anonymous swimmer creating a clean wake, a neutral lane scoreboard showing 2:04.83, no identifiable athlete likeness, no fake event photography, no misleading logos, restrained professional sports-newsroom aesthetic, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Verified on Sept. 25, 2026 against independent Reuters and AP reporting. The candidate uses only the event, time, and prior-record facts corroborated by both sources. It intentionally omits unneeded biographical claims from the caption.",
+  "verification_status": "verified_two_independent_reports",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
