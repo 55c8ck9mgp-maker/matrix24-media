@@ -1,0 +1,11 @@
+{
+  "name": "matrix24-reconciliation-staging",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-24",
+  "workers_dev": true,
+  "vars": {
+    "MATRIX24_MODE": "staging-reconciliation",
+    "IG_ACCOUNT_ID": "17841423605720355",
+    "IG_USERNAME": "matrix24global"
+  }
+}
