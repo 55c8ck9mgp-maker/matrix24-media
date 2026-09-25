@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-25T04:05:00Z",
   "content_id": "matrix24-20260924-anthropic-akamai-cloud-deal",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "Anthropic commits $11.6 billion to Akamai cloud services",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -124,6 +124,16 @@
       "publish_attempt_id": "m24-20260925170720-anthropic2",
       "account_id": "17841423605720355",
       "reason": "instagram_content_publish_permission_missing_error_10"
+    },
+    {
+      "timestamp": "2026-09-25T17:11:11.899Z",
+      "stage": "instagram_publish",
+      "result": "started",
+      "publish_attempt_id": "m24-20260925171111-anthropic3",
+      "account_id": "17841423605720355",
+      "reason": "controlled_first_attempt_after_instagram_reauthorization"
     }
-  ]
+  ],
+  "publish_attempt_id": "m24-20260925171111-anthropic3",
+  "publishing_started_at": "2026-09-25T17:11:11.899Z"
 }
