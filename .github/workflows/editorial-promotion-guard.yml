@@ -1,0 +1,50 @@
+name: Editorial promotion guard
+
+on:
+  pull_request:
+    paths:
+      - "editorial/promotions/**"
+      - "editorial/verified/**"
+      - "scripts/build-editorial-promotion.mjs"
+      - "scripts/validate-editorial-intake.mjs"
+      - "tests/editorial-promotion.test.mjs"
+      - ".github/workflows/editorial-promotion-guard.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-promotion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+
+      - name: Validate builder regressions
+        run: node --test tests/editorial-intake.test.mjs tests/editorial-promotion.test.mjs
+
+      - name: Build changed promotion manifests without writing the queue
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha }}
+          HEAD_REF: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git diff --name-only "$BASE_REF" "$HEAD_REF" | grep '^queue/' && {
+            echo 'editorial promotion rejected: this guard never permits queue changes'
+            exit 1
+          } || true
+          manifests="$(git diff --name-only "$BASE_REF" "$HEAD_REF" | grep '^editorial/promotions/.*\.json$' || true)"
+          if [ -z "$manifests" ]; then
+            echo 'editorial promotion validation: no changed manifests'
+            exit 0
+          fi
+          while IFS= read -r manifest; do
+            node scripts/build-editorial-promotion.mjs "$manifest" > /dev/null
+          done <<EOF
+          $manifests
+          EOF
