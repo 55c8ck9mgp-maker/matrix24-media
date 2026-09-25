@@ -32,3 +32,7 @@ Do not deploy this staging Worker until the PR is reviewed and merged.
 If deployed later, it must remain named matrix24-publisher-staging and must not receive production secrets or production queue access.
 
 A later Phase 2 step may add isolated staging bindings/resources one at a time after fixture regression tests pass.
+
+`reliability/direct-media-client.mjs` is an un-wired, read-only adapter for a future
+staging-only `GET /<media-id>` check. It cannot publish, retry, change a claim, or
+configure a webhook. Its runtime secret and HTTP route require a separate reviewed change.
