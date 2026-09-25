@@ -8,6 +8,16 @@ function response(body, status = 200) {
   });
 }
 
+function callbackResponse() {
+  return new Response('<!doctype html><title>MATRIX 24 staging authorization complete</title><p>Authorization complete. You may close this window.</p>', {
+    headers: {
+      'content-type': 'text/html; charset=utf-8',
+      'cache-control': 'no-store',
+      'content-security-policy': "default-src 'none'; style-src 'unsafe-inline'"
+    }
+  });
+}
+
 function configured(env) {
   return env?.MATRIX24_MODE === 'staging-reconciliation' &&
     typeof env.IG_READ_TOKEN === 'string' && env.IG_READ_TOKEN.length >= 20 &&
@@ -17,6 +27,11 @@ function configured(env) {
 
 export async function handle(request, env, fetchImpl = fetch) {
   const url = new URL(request.url);
+  // OAuth callback boundary: deliberately discard every query parameter and do
+  // not call a provider, persist data, or expose authorization artifacts.
+  if (request.method === 'GET' && url.pathname === '/auth/instagram/callback') {
+    return callbackResponse();
+  }
   if (request.method === 'GET' && url.pathname === '/health') {
     return response({ status: 'ok', mode: env?.MATRIX24_MODE || 'unconfigured',
       publication_allowed: false, claims_writable: false, cron_enabled: false });

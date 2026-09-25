@@ -14,6 +14,9 @@ Standalone staging Worker for a read-only Instagram `GET /<media-id>` reconcilia
 
 - `GET /health` returns static safety state and performs no provider request.
 - `GET /lookup/<numeric-media-id>` performs one bounded lookup. It returns a sanitized confirmation only for the configured account and username.
+- `GET /auth/instagram/callback` is a staging-only OAuth return route. It
+  discards all query parameters and returns a static completion page; it never
+  logs, stores, reflects, or exchanges authorization artifacts.
 
 ## Deployment gate
 
