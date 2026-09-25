@@ -28,7 +28,8 @@ export async function handle(request, env, fetchImpl = fetch) {
   const lookup = await getDirectMedia({ mediaId: match[1], accessToken: env.IG_READ_TOKEN, fetchImpl });
   if (lookup.kind !== 'ig_media') {
     const status = lookup.kind === 'lookup_not_found' ? 404 : 502;
-    return response({ status: 'unverified', reason: lookup.reason || lookup.kind }, status);
+    return response({ status: 'unverified', reason: lookup.reason || lookup.kind,
+      diagnostic: lookup.diagnostic || null }, status);
   }
   const bound = bindDirectLookupToAccount(lookup, {
     accountId: env.IG_ACCOUNT_ID, expectedUsername: env.IG_USERNAME
