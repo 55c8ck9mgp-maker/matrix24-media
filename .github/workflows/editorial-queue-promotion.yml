@@ -7,7 +7,8 @@ on:
         description: Approved manifest already merged to main (editorial/promotions/*.json)
         required: true
         type: string
-  push:
+  pull_request:
+    types: [closed]
     branches: [main]
     paths:
       - 'editorial/promotions/*.json'
@@ -17,11 +18,12 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: editorial-queue-promotion-${{ github.ref }}-${{ github.event_name }}
+  group: editorial-queue-promotion-${{ github.event.pull_request.merge_commit_sha || github.ref }}-${{ github.event_name }}
   cancel-in-progress: false
 
 jobs:
   create-reviewable-queue-pr:
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -38,7 +40,8 @@ jobs:
         id: promotion
         env:
           DISPATCH_MANIFEST_PATH: ${{ inputs.manifest_path }}
-          BEFORE_SHA: ${{ github.event.before }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PR_MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
           EVENT_NAME: ${{ github.event_name }}
         run: |
           git fetch --no-tags origin main
@@ -46,7 +49,11 @@ jobs:
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             MANIFEST_PATH="$DISPATCH_MANIFEST_PATH"
           else
-            mapfile -t manifests < <(git diff --name-only "$BEFORE_SHA" origin/main -- 'editorial/promotions/*.json')
+            if [ -z "$PR_BASE_SHA" ] || [ -z "$PR_MERGE_SHA" ]; then
+              echo "promotion controller rejected: merged PR SHA context is missing"
+              exit 1
+            fi
+            mapfile -t manifests < <(git diff --name-only "$PR_BASE_SHA" "$PR_MERGE_SHA" -- 'editorial/promotions/*.json')
             if [ "${#manifests[@]}" -ne 1 ]; then
               echo "promotion controller rejected: expected exactly one changed promotion manifest, found ${#manifests[@]}"
               exit 1
