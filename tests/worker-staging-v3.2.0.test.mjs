@@ -85,6 +85,17 @@ test("ready_to_publish with media URL is not selected", () => {
   assert.equal(selectQueueRecord([candidate]), null);
 });
 
+test("a durable media_claim blocks selection even if the record status is malformed", () => {
+  const candidate = record({
+    status: "blocked_media",
+    media_claim: {
+      id: "must-not-overwrite",
+      started_at: "2020-01-01T00:00:00.000Z"
+    }
+  });
+  assert.equal(selectQueueRecord([candidate]), null);
+});
+
 test("processing_media is never selected by age", () => {
   const candidate = record({
     status: "processing_media",

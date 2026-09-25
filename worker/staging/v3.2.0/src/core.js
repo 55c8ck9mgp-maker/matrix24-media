@@ -32,7 +32,9 @@ export function selectQueueRecord(records) {
       .filter((record) => {
         const story = record?.story;
         if (!story) return false;
-        if (story.instagram_media_id) return false;
+        // A durable claim is evidence of an in-flight or uncertain media operation.
+        // It must be reconciled, never overwritten by another scheduler run.
+        if (story.instagram_media_id || story.media_claim) return false;
         const status = String(story.status || "").toLowerCase();
         if (status === "published") return false;
         if (status === "ready_to_publish" && story.public_image_url) return false;
