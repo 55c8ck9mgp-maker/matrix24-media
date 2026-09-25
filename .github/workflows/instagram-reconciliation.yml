@@ -1,0 +1,25 @@
+name: Instagram reconciliation
+on:
+  workflow_dispatch:
+    inputs:
+      media_id:
+        description: Exact Instagram Media ID to reconcile
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Read exact Instagram media ID
+        env:
+          MEDIA_ID: ${{ inputs.media_id }}
+          IG_READ_TOKEN: ${{ secrets.IG_READ_TOKEN }}
+          IG_USERNAME: matrix24global
+        run: node scripts/reconcile-instagram-media.mjs
