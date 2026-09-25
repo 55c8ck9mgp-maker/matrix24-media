@@ -48,6 +48,12 @@ jobs:
           QUEUE_PATH: ${{ steps.promotion.outputs.queue_path }}
           MANIFEST_PATH: ${{ steps.promotion.outputs.manifest_path }}
         run: |
+          permissions="$(gh api "repos/$GITHUB_REPOSITORY/actions/permissions/workflow")"
+          can_create="$(printf '%s' "$permissions" | node -e 'let data=""; process.stdin.on("data", chunk => data += chunk).on("end", () => process.stdout.write(String(JSON.parse(data).can_approve_pull_request_reviews === true)))')"
+          if [ "$can_create" != true ]; then
+            echo 'editorial queue promotion rejected: enable repository Settings > Actions > General > Workflow permissions > Allow GitHub Actions to create and approve pull requests'
+            exit 1
+          fi
           branch="promotion/${CONTENT_ID}-${GITHUB_RUN_ID}"
           git switch -c "$branch"
           mkdir -p "$(dirname "$QUEUE_PATH")"
@@ -55,10 +61,8 @@ jobs:
           git diff --check
           git add -- "$QUEUE_PATH"
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Queue approved editorial promotion: $CONTENT_ID"
-          cat > pr-body.md <<BODY
-          Creates exactly one `blocked_media` queue record from the approved manifest `$MANIFEST_PATH`.
-
-          The record is rebuilt from the trusted `main` revision. Merging this PR remains a separate editorial and production decision.
-          BODY
+          printf '%s\n\n%s\n' \
+            "Creates exactly one blocked_media queue record from the approved manifest: $MANIFEST_PATH." \
+            'The record is rebuilt from the trusted main revision. Merging this PR remains a separate editorial and production decision.' > pr-body.md
           git push origin "$branch"
           gh pr create --base main --head "$branch" --title "Queue approved editorial promotion: $CONTENT_ID" --body-file pr-body.md
