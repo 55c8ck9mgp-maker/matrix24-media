@@ -63,8 +63,8 @@
     "#Technology"
   ],
   "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. A modern distributed cloud-computing network with abstract server infrastructure, CPU workload flows and neutral visual references to AI infrastructure growth; restrained professional newsroom aesthetic, no fabricated people, no fake event photography, no misleading logos or financial charts, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
-  "verification_note": "Verified on Sept. 24, 2026 against Reuters and Akamai's primary company announcement. Both sources support the $11.6 billion seven-year commitment and warrant structure. Caption intentionally omits volatile after-hours share-price movement and other nonessential figures.",
+  "verification_note": "Verified on Sept. 24, 2026 against an independent Reuters report and Akamai primary announcement. Both sources support the $11.6 billion seven-year commitment and warrant structure. Caption omits volatile share-price movement and other nonessential figures. Intake remains non-promotable until its separate approval manifest is reviewed.",
   "verification_status": "verified_primary_plus_independent",
-  "promotion_eligible": true,
-  "candidate_status": "verified_draft"
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
 }

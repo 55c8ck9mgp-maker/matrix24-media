@@ -19,6 +19,8 @@ No production manifest is included in this change.
 1. The intake creates a non-promotable draft under `editorial/verified/`.
 2. An editor adds a separate manifest under `editorial/promotions/` after reviewing the exact draft revision.
 3. `Editorial promotion guard` validates the manifest and builds the prospective `blocked_media` record in memory. It cannot alter `queue/`.
-4. A later, separately reviewed queue-change PR may copy that exact generated record. The Auto Publisher is the only component allowed to perform media generation and social publication.
+4. After the manifest is merged to `main`, a maintainer manually runs `Create editorial queue promotion PR` with that manifest path. It rebuilds the record from the trusted `main` revision and creates one queue-only PR.
+5. `Editorial intake guard` accepts that queue PR only when it adds exactly one JSON file whose bytes match the deterministic builder output from the already-merged manifest. Any other queue change fails.
+6. Merging the generated queue PR remains a separate editorial and production decision. The Auto Publisher is the only component allowed to perform media generation and social publication.
 
-This intentionally does not create a path from research directly to Instagram. It provides an auditable promotion boundary that can be exercised in staging before any queue-write automation is proposed.
+This intentionally does not create a direct path from research to Instagram. The workflow never writes `main`, creates media, claims work, calls Instagram, retries a post, or activates Phase 2.

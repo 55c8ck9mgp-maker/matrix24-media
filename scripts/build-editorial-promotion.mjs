@@ -26,7 +26,7 @@ function sha256(value) {
   return crypto.createHash('sha256').update(value).digest('hex');
 }
 
-export function buildEditorialPromotion({ promotion, draft, draftPath, draftSha, now = new Date().toISOString(), existingContentIds = [] }) {
+export function buildEditorialPromotion({ promotion, draft, draftPath, draftSha, existingContentIds = [] }) {
   if (!promotion || typeof promotion !== 'object' || Array.isArray(promotion)) fail('manifest must contain an object');
   if (!isSafeRelative(promotion.draft_path, DRAFT_PREFIX)) fail('manifest.draft_path must reference editorial/verified/*.json');
   if (promotion.draft_path !== draftPath) fail('manifest.draft_path does not match supplied draft');
@@ -35,6 +35,7 @@ export function buildEditorialPromotion({ promotion, draft, draftPath, draftSha,
   if (promotion.approved !== true) fail('manifest.approved must be true');
   if (typeof promotion.approved_at !== 'string' || Number.isNaN(Date.parse(promotion.approved_at))) fail('manifest.approved_at must be an ISO timestamp');
   if (typeof promotion.approval_note !== 'string' || !promotion.approval_note.trim()) fail('manifest.approval_note is required');
+  if (typeof draft.content_id !== 'string' || !/^matrix24-[a-z0-9-]+$/.test(draft.content_id)) fail('draft.content_id must be a safe matrix24 identifier');
 
   validateEditorialDraft(draft, draftPath);
   if (!draft.candidate_status.includes('requires_editorial_promotion')) fail('draft must require explicit editorial promotion');
@@ -42,7 +43,8 @@ export function buildEditorialPromotion({ promotion, draft, draftPath, draftSha,
   if (existingContentIds.includes(draft.content_id)) fail(`content_id already exists in queue: ${draft.content_id}`);
 
   return {
-    timestamp: now,
+    // A queue PR must be reproducible from the reviewed manifest. Never use wall-clock time here.
+    timestamp: promotion.approved_at,
     content_id: draft.content_id,
     status: 'blocked_media',
     headline: draft.headline,
