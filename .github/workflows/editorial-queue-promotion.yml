@@ -7,13 +7,17 @@ on:
         description: Approved manifest already merged to main (editorial/promotions/*.json)
         required: true
         type: string
+  push:
+    branches: [main]
+    paths:
+      - 'editorial/promotions/*.json'
 
 permissions:
   contents: write
   pull-requests: write
 
 concurrency:
-  group: editorial-queue-promotion-${{ inputs.manifest_path }}
+  group: editorial-queue-promotion-${{ github.ref }}-${{ github.event_name }}
   cancel-in-progress: false
 
 jobs:
@@ -33,10 +37,26 @@ jobs:
       - name: Rebuild the exact approved record from current main
         id: promotion
         env:
-          MANIFEST_PATH: ${{ inputs.manifest_path }}
+          DISPATCH_MANIFEST_PATH: ${{ inputs.manifest_path }}
+          BEFORE_SHA: ${{ github.event.before }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           git fetch --no-tags origin main
           git checkout --detach origin/main
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            MANIFEST_PATH="$DISPATCH_MANIFEST_PATH"
+          else
+            mapfile -t manifests < <(git diff --name-only "$BEFORE_SHA" origin/main -- 'editorial/promotions/*.json')
+            if [ "${#manifests[@]}" -ne 1 ]; then
+              echo "promotion controller rejected: expected exactly one changed promotion manifest, found ${#manifests[@]}"
+              exit 1
+            fi
+            MANIFEST_PATH="${manifests[0]}"
+          fi
+          case "$MANIFEST_PATH" in
+            editorial/promotions/*.json) ;;
+            *) echo "promotion controller rejected: unsafe manifest path"; exit 1 ;;
+          esac
           result="$(node scripts/prepare-editorial-queue-pr.mjs "$MANIFEST_PATH" .promotion-output)"
           printf '%s' "$result" > promotion-result.json
           node -e 'const r=require("./promotion-result.json"); require("fs").appendFileSync(process.env.GITHUB_OUTPUT, `content_id=${r.content_id}\nqueue_path=${r.output_path}\nmanifest_path=${r.manifest_path}\n`)' 
