@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-25T04:05:00Z",
   "content_id": "matrix24-20260924-anthropic-akamai-cloud-deal",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Anthropic commits $11.6 billion to Akamai cloud services",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -72,5 +72,9 @@
     "draft_sha256": "66828de2243b16d62cbf23b9cf3304f958f232fa2da23a0c69db4fb8e85a0467",
     "approved_at": "2026-09-25T04:05:00Z",
     "approval_note": "Owner authorized completion of the controlled promotion path. This approval creates only a reviewable blocked_media queue PR after the manifest has passed repository validation; it does not authorize a merge, media generation, publication, retry, or Phase 2 activation."
+  },
+  "media_claim": {
+    "id": "a7881442-5544-42f4-bfdd-9e28f23c25d4",
+    "started_at": "2026-09-25T05:00:38.942Z"
   }
 }
