@@ -1,16 +1,71 @@
 import fs from 'node:fs';
 import path from 'node:path';
-const REQUIRED=['content_id','researched_at','event_date','headline','category','editorial_category','caption','image_generation_prompt','verification_note','verification_status','candidate_status'];
-const fail=m=>{throw new Error('editorial intake rejected: '+m)};
-const https=(v,n)=>{if(typeof v!=='string')fail(n+' must be a string');try{if(new URL(v).protocol!=='https:')fail(n+' must use https')}catch{fail(n+' must be a valid https URL')}};
-export function validateEditorialDraft(d,file='draft'){
- if(!d||typeof d!=='object'||Array.isArray(d))fail(file+' must contain a JSON object');for(const k of REQUIRED)if(typeof d[k]!=='string'||!d[k].trim())fail(file+'.'+k+' is required');
- if(d.promotion_eligible!==false)fail(file+'.promotion_eligible must be false at intake');if(!d.candidate_status.includes('requires_editorial_promotion'))fail(file+'.candidate_status must require explicit editorial promotion');
- if(!Array.isArray(d.verified_source_urls)||d.verified_source_urls.length<2)fail(file+'.verified_source_urls needs at least two sources');const urls=new Set(d.verified_source_urls);if(urls.size!==d.verified_source_urls.length)fail(file+'.verified_source_urls must be unique');for(const u of urls)https(u,file+'.verified_source_urls');
- if(!Array.isArray(d.source_records)||d.source_records.length<2)fail(file+'.source_records needs at least two records');for(const [i,s] of d.source_records.entries()){if(!s||typeof s!=='object'||typeof s.source_name!=='string'||!s.source_name.trim())fail(file+'.source_records['+i+'] is incomplete');https(s.url,file+'.source_records['+i+'].url');if(!urls.has(s.url)||!Array.isArray(s.supports)||!s.supports.length||s.supports.some(x=>typeof x!=='string'||!x.trim()))fail(file+'.source_records['+i+'] must be verified and supported')}
- if(!Array.isArray(d.claim_checks)||!d.claim_checks.length)fail(file+'.claim_checks needs at least one check');for(const [i,c] of d.claim_checks.entries()){if(!c||typeof c.claim!=='string'||!c.claim.trim()||!Array.isArray(c.supporting_urls)||!c.supporting_urls.length)fail(file+'.claim_checks['+i+'] is incomplete');for(const u of c.supporting_urls){https(u,file+'.claim_checks['+i+'].supporting_urls');if(!urls.has(u))fail(file+'.claim_checks['+i+'] cites a URL outside verified_source_urls')}}
+
+const REQUIRED_STRINGS = ['content_id', 'researched_at', 'event_date', 'headline', 'category', 'editorial_category', 'caption', 'image_generation_prompt', 'verification_note', 'verification_status', 'candidate_status'];
+const INTAKE_PREFIX = 'editorial/verified/';
+
+function fail(message) {
+  throw new Error(`editorial intake rejected: ${message}`);
 }
-export function validateEditorialIntakeFiles(files,cwd=process.cwd()){
- if(!Array.isArray(files)||!files.length)fail('no changed intake files supplied');for(const file of files){if(typeof file!=='string'||!file.startsWith('editorial/verified/')||!file.endsWith('.json')||file.includes('..'))fail('invalid path');const root=path.resolve(cwd,'editorial/verified'),absolute=path.resolve(cwd,file);if(!absolute.startsWith(root+path.sep))fail('path escapes editorial intake');let d;try{d=JSON.parse(fs.readFileSync(absolute,'utf8'))}catch{fail(file+' is not readable JSON')}validateEditorialDraft(d,file)}return{status:'accepted',files:files.length};
+
+function httpsUrl(value, field) {
+  if (typeof value !== 'string') fail(`${field} must be a string`);
+  try {
+    if (new URL(value).protocol !== 'https:') fail(`${field} must use https`);
+  } catch {
+    fail(`${field} must be a valid https URL`);
+  }
 }
-if(import.meta.url==='file://'+process.argv[1]){const r=validateEditorialIntakeFiles(process.argv.slice(2));console.log('editorial intake validation: '+r.status+' ('+r.files+' file'+(r.files===1?'':'s')+')')}
+
+export function validateEditorialDraft(draft, file = 'draft') {
+  if (!draft || typeof draft !== 'object' || Array.isArray(draft)) fail(`${file} must contain a JSON object`);
+  for (const field of REQUIRED_STRINGS) {
+    if (typeof draft[field] !== 'string' || !draft[field].trim()) fail(`${file}.${field} is required`);
+  }
+  if (draft.promotion_eligible !== false) fail(`${file}.promotion_eligible must be false at intake`);
+  if (!draft.candidate_status.includes('requires_editorial_promotion')) fail(`${file}.candidate_status must require explicit editorial promotion`);
+  if (!Array.isArray(draft.verified_source_urls) || draft.verified_source_urls.length < 2) fail(`${file}.verified_source_urls needs at least two sources`);
+  const sourceUrls = new Set(draft.verified_source_urls);
+  if (sourceUrls.size !== draft.verified_source_urls.length) fail(`${file}.verified_source_urls must be unique`);
+  for (const url of sourceUrls) httpsUrl(url, `${file}.verified_source_urls`);
+  if (!Array.isArray(draft.source_records) || draft.source_records.length < 2) fail(`${file}.source_records needs at least two records`);
+  for (const [index, source] of draft.source_records.entries()) {
+    if (!source || typeof source !== 'object') fail(`${file}.source_records[${index}] must be an object`);
+    if (typeof source.source_name !== 'string' || !source.source_name.trim()) fail(`${file}.source_records[${index}].source_name is required`);
+    httpsUrl(source.url, `${file}.source_records[${index}].url`);
+    if (!sourceUrls.has(source.url)) fail(`${file}.source_records[${index}].url must be listed in verified_source_urls`);
+    if (!Array.isArray(source.supports) || source.supports.length === 0 || source.supports.some((claim) => typeof claim !== 'string' || !claim.trim())) fail(`${file}.source_records[${index}].supports needs at least one claim`);
+  }
+  if (!Array.isArray(draft.claim_checks) || draft.claim_checks.length === 0) fail(`${file}.claim_checks needs at least one check`);
+  for (const [index, check] of draft.claim_checks.entries()) {
+    if (!check || typeof check.claim !== 'string' || !check.claim.trim()) fail(`${file}.claim_checks[${index}].claim is required`);
+    if (!Array.isArray(check.supporting_urls) || check.supporting_urls.length === 0) fail(`${file}.claim_checks[${index}].supporting_urls is required`);
+    for (const url of check.supporting_urls) {
+      httpsUrl(url, `${file}.claim_checks[${index}].supporting_urls`);
+      if (!sourceUrls.has(url)) fail(`${file}.claim_checks[${index}] cites a URL outside verified_source_urls`);
+    }
+  }
+}
+
+export function validateEditorialIntakeFiles(files, cwd = process.cwd()) {
+  if (!Array.isArray(files) || files.length === 0) fail('no changed intake files supplied');
+  for (const file of files) {
+    if (typeof file !== 'string' || !file.startsWith(INTAKE_PREFIX) || !file.endsWith('.json') || file.includes('..')) fail(`only ${INTAKE_PREFIX}*.json may enter this workflow: ${file}`);
+    const absolute = path.resolve(cwd, file);
+    const root = path.resolve(cwd, INTAKE_PREFIX);
+    if (!absolute.startsWith(`${root}${path.sep}`)) fail(`path escapes editorial intake: ${file}`);
+    let draft;
+    try {
+      draft = JSON.parse(fs.readFileSync(absolute, 'utf8'));
+    } catch {
+      fail(`${file} is not readable JSON`);
+    }
+    validateEditorialDraft(draft, file);
+  }
+  return { status: 'accepted', files: files.length };
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  const result = validateEditorialIntakeFiles(process.argv.slice(2));
+  console.log(`editorial intake validation: ${result.status} (${result.files} file${result.files === 1 ? '' : 's'})`);
+}
