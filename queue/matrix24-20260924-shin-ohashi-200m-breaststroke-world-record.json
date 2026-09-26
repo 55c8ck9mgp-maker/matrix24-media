@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-25T20:52:00Z",
   "content_id": "matrix24-20260924-shin-ohashi-200m-breaststroke-world-record",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "Shin Ohashi sets 200m breaststroke world record at the Asian Games",
   "category": "Sports",
   "editorial_category": "Sports",
@@ -121,7 +121,16 @@
       "account_id": "17841423605720355",
       "reason": "instagram_content_publish_permission_missing_error_10",
       "error": "Instagram rejected the write before content creation: (#10) Requires instagram_content_publish permission to manage the object"
+    },
+    {
+      "timestamp": "2026-09-26T12:57:00Z",
+      "stage": "instagram_publish",
+      "result": "started",
+      "publish_attempt_id": "m24-20260926T1257Z-shin",
+      "account_id": "17841423605720355",
+      "reason": "controlled_lkg_v2_after_oauth_reauthorization_and_cross_source_preflight"
     }
   ],
-  "publish_attempt_id": null
+  "publish_attempt_id": "m24-20260926T1257Z-shin",
+  "publishing_started_at": "2026-09-26T12:57:00Z"
 }
