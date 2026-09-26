@@ -32,5 +32,5 @@ test('ACTION_REQUIRED when publishing has no attempt id', () => {
 });
 test('ACTION_REQUIRED when publishing has no started timestamp', () => {
   const q={content_id:'matrix24-x',status:'publishing',publish_attempt_id:'a'};
-  assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:true}}).state,'AMBIGUOUS');
+  assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:true}}).state,'ACTION_REQUIRED');
 });
