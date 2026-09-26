@@ -87,3 +87,12 @@ The isolated validation MUST prove all of the following for one fixture/content 
 10. missing permalink leaves the record `published` and does not block another eligible record.
 
 Do not merge this contract into production until the isolated acceptance test passes.
+
+
+## Publisher preflight decision invariant
+
+Every `ready_to_publish` record inspected by the Auto Publisher MUST end the preflight with an explicit durable decision: reserve the current SHA for exactly one owned attempt, or identify the exact blocking gate. A run MUST NOT silently no-op on an otherwise eligible record.
+
+For a never-published `ready_to_publish` record, absence of terminal publication fields is normal. Missing `publish_attempt_id`, `instagram_media_id`, `instagram_permalink`, `published_at`, provider receipt ID/UUID, or publication-provider fields MUST NOT by itself fail preflight.
+
+After a provider write may have occurred, these first-attempt semantics no longer apply: the owned reservation and reconciliation rules remain authoritative, and no blind retry is allowed.
