@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-09-26T16:24:00Z",
+  "content_id": "matrix24-20260926-bangkok-heavy-rain-flooding",
+  "status": "blocked_media",
+  "headline": "Heavy rain brings widespread flooding and travel disruption to Bangkok",
+  "category": "Climate",
+  "editorial_category": "Climate",
+  "event_date": "2026-09-26",
+  "verified_source_urls": [
+    "https://www.reuters.com/business/environment/thai-capital-bangkok-declared-disaster-zone-amid-flooding-2026-09-26/",
+    "https://thailand.go.th/public/issue-focus-detail/travel-information-weather-conditions-in-bangkok-and-surrounding-areas"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-26",
+      "url": "https://www.reuters.com/business/environment/thai-capital-bangkok-declared-disaster-zone-amid-flooding-2026-09-26/",
+      "supports": [
+        "Bangkok experienced widespread flooding after prolonged heavy rain.",
+        "Flooded roads disrupted movement in the city."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Tourism Authority of Thailand via Thailand.go.th",
+      "publication_date": "2026-09-26",
+      "url": "https://thailand.go.th/public/issue-focus-detail/travel-information-weather-conditions-in-bangkok-and-surrounding-areas",
+      "supports": [
+        "Ongoing rainfall and localised waterlogging affected areas of Bangkok and its surroundings.",
+        "Travelers were advised to allow additional time because of possible delays to airports, transport hubs and other destinations."
+      ],
+      "independent_source_id": "tourism-authority-thailand",
+      "source_role": "primary_authority"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Heavy rain caused flooding and waterlogging across parts of Bangkok on September 26, 2026.",
+      "material": true,
+      "normalized_value": "location=Bangkok|date=2026-09-26|condition=heavy_rain_flooding_waterlogging",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/business/environment/thai-capital-bangkok-declared-disaster-zone-amid-flooding-2026-09-26/",
+          "normalized_value": "location=Bangkok|date=2026-09-26|condition=heavy_rain_flooding_waterlogging"
+        },
+        {
+          "url": "https://thailand.go.th/public/issue-focus-detail/travel-information-weather-conditions-in-bangkok-and-surrounding-areas",
+          "normalized_value": "location=Bangkok|date=2026-09-26|condition=heavy_rain_flooding_waterlogging"
+        }
+      ]
+    },
+    {
+      "claim": "The flooding and waterlogging disrupted or delayed travel in Bangkok.",
+      "material": true,
+      "normalized_value": "location=Bangkok|impact=travel_disruption_delays",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/business/environment/thai-capital-bangkok-declared-disaster-zone-amid-flooding-2026-09-26/",
+          "normalized_value": "location=Bangkok|impact=travel_disruption_delays"
+        },
+        {
+          "url": "https://thailand.go.th/public/issue-focus-detail/travel-information-weather-conditions-in-bangkok-and-surrounding-areas",
+          "normalized_value": "location=Bangkok|impact=travel_disruption_delays"
+        }
+      ]
+    }
+  ],
+  "caption": "🇪🇸 Las fuertes lluvias provocaron inundaciones y acumulación de agua en zonas de Bangkok, afectando carreteras y causando posibles retrasos en los desplazamientos. Las autoridades recomendaron prever tiempo adicional para viajar.\\n\\n🇺🇸 Heavy rain caused flooding and waterlogging in parts of Bangkok, affecting roads and creating potential travel delays. Authorities advised travelers to allow extra time.\\n\\nSources: Reuters / Tourism Authority of Thailand — Sept. 26, 2026.\\n\\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Bangkok",
+    "#Thailand",
+    "#Flooding",
+    "#Climate",
+    "#Weather"
+  ],
+  "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. A rain-soaked Bangkok urban streetscape with anonymous vehicles moving through shallow floodwater, recognizable tropical city atmosphere without copying a real photograph, dramatic monsoon clouds, restrained professional global-news aesthetic, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Reuters and the Tourism Authority of Thailand independently corroborate the two material publishable claims used in the headline/caption: heavy-rain flooding/waterlogging in Bangkok and resulting travel disruption or delays. The broader disaster-zone designation and rainfall totals are excluded because they are not required for the two-source consensus draft.",
+  "verification_status": "verified_claim_consensus",
+  "editorial_promotion": {
+    "manifest_path": "editorial/promotions/matrix24-20260926-bangkok-heavy-rain-flooding.json",
+    "draft_path": "editorial/verified/matrix24-20260926-bangkok-heavy-rain-flooding.json",
+    "draft_sha256": "238dcde367d6ce078e27a2c2db2df0d8f68894dcd09c28d6923a258dec526410",
+    "approved_at": "2026-09-26T16:24:00Z",
+    "approval_note": "Approved under the standing BACKLOG-FIRST editorial directive after verified_claim_consensus validation. Authorizes exactly one Promotion Controller admission for this content_id. Does not authorize duplicate queue admission, media regeneration, blind publication retry, or Phase 2."
+  }
+}
