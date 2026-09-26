@@ -22,3 +22,15 @@ test('ACTION_REQUIRED for impossible terminal/current claim combination', () => 
   const q={content_id:'matrix24-x',status:'published',instagram_media_id:'1',publish_attempt_id:'stale'};
   assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:true}}).state,'ACTION_REQUIRED');
 });
+test('ACTION_REQUIRED takes precedence over provider blocker', () => {
+  const q={content_id:'matrix24-x',status:'ready_to_publish',publishing_started_at:'2026-09-26T00:00:00Z',publish_attempt_history:[{reason:'instagram_content_publish_permission_missing_error_10'}]};
+  assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:false}}).state,'ACTION_REQUIRED');
+});
+test('ACTION_REQUIRED when publishing has no attempt id', () => {
+  const q={content_id:'matrix24-x',status:'publishing',publishing_started_at:'2026-09-26T00:00:00Z'};
+  assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:false}}).state,'ACTION_REQUIRED');
+});
+test('ACTION_REQUIRED when publishing has no started timestamp', () => {
+  const q={content_id:'matrix24-x',status:'publishing',publish_attempt_id:'a'};
+  assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:true}}).state,'ACTION_REQUIRED');
+});
