@@ -81,3 +81,25 @@ jobs:
           git push origin "$branch"
           echo "promotion_branch=$branch" >> "$GITHUB_OUTPUT"
           echo "Promotion branch pushed successfully: $branch"
+
+
+      - name: Create exactly one reviewable promotion PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CONTENT_ID: ${{ steps.promotion.outputs.content_id }}
+          PROMOTION_BRANCH: ${{ steps.queue_branch.outputs.promotion_branch }}
+        run: |
+          existing="$(gh pr list --state open --base main --head "$PROMOTION_BRANCH" --json number --jq 'length')"
+          if [ "$existing" -gt 1 ]; then
+            echo "promotion controller rejected: more than one open PR exists for $PROMOTION_BRANCH"
+            exit 1
+          fi
+          if [ "$existing" -eq 1 ]; then
+            echo "Exactly one promotion PR already exists; no-op."
+            exit 0
+          fi
+          gh pr create \
+            --base main \
+            --head "$PROMOTION_BRANCH" \
+            --title "Queue approved promotion: $CONTENT_ID" \
+            --body-file pr-body.md
