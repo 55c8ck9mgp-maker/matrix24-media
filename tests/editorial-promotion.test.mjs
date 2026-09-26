@@ -8,10 +8,10 @@ import os from 'node:os';
 import path from 'node:path';
 
 const draft = {
-  content_id: 'matrix24-fixture-promotion', researched_at: '2026-09-25T00:00:00Z', event_date: '2026-09-24', headline: 'Fixture story', category: 'Technology', editorial_category: 'Technology', caption: 'Caption', hashtags: ['#MATRIX24'], image_generation_prompt: 'Prompt', verification_note: 'Two sources checked', verification_status: 'verified_two_independent_reports', candidate_status: 'verified_draft_requires_editorial_promotion', promotion_eligible: false,
+  content_id: 'matrix24-fixture-promotion', researched_at: '2026-09-25T00:00:00Z', event_date: '2026-09-24', headline: 'Fixture story', category: 'Technology', editorial_category: 'Technology', caption: 'Caption', hashtags: ['#MATRIX24'], image_generation_prompt: 'Prompt', verification_note: 'Two sources checked', verification_status: 'verified_claim_consensus', candidate_status: 'verified_draft_requires_editorial_promotion', promotion_eligible: false,
   verified_source_urls: ['https://example.com/reuters', 'https://example.org/ap'],
-  source_records: [{ source_name: 'Reuters', url: 'https://example.com/reuters', supports: ['Fact A'] }, { source_name: 'AP', url: 'https://example.org/ap', supports: ['Fact B'] }],
-  claim_checks: [{ claim: 'Fact A', supporting_urls: ['https://example.com/reuters'] }]
+  source_records: [{ source_name: 'Reuters', independent_source_id: 'reuters', source_role: 'independent_report', url: 'https://example.com/reuters', supports: ['Fact A'] }, { source_name: 'AP', independent_source_id: 'ap', source_role: 'independent_report', url: 'https://example.org/ap', supports: ['Fact A'] }],
+  claim_checks: [{ claim: 'Fact A', material: true, normalized_value: 'fact-a', observations: [{ url: 'https://example.com/reuters', normalized_value: 'fact-a' }, { url: 'https://example.org/ap', normalized_value: 'fact-a' }] }]
 };
 const draftSha = crypto.createHash('sha256').update(JSON.stringify(draft)).digest('hex');
 const promotion = { draft_path: 'editorial/verified/fixture.json', draft_sha256: draftSha, approved: true, approved_at: '2026-09-25T00:01:00Z', approval_note: 'Editorial review complete' };
@@ -83,4 +83,11 @@ test('rejects an unapproved manifest before production admission', () => {
     () => buildEditorialPromotion({ promotion: { ...promotion, approved: false }, draft, draftPath: promotion.draft_path, draftSha }),
     /approved must be true/
   );
+});
+
+
+test('promotion rejects drafts that have not passed claim consensus', () => {
+  const legacy = structuredClone(draft);
+  legacy.verification_status = 'verified_two_independent_reports';
+  assert.throws(() => buildEditorialPromotion({ promotion, draft: legacy, draftPath: promotion.draft_path, draftSha }), /verified_claim_consensus|claim consensus/);
 });

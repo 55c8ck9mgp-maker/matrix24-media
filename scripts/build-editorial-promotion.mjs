@@ -38,6 +38,7 @@ export function buildEditorialPromotion({ promotion, draft, draftPath, draftSha,
   if (typeof draft.content_id !== 'string' || !/^matrix24-[a-z0-9-]+$/.test(draft.content_id)) fail('draft.content_id must be a safe matrix24 identifier');
 
   validateEditorialDraft(draft, draftPath);
+  if (draft.verification_status !== 'verified_claim_consensus') fail('draft must pass verified claim consensus before promotion');
   if (!draft.candidate_status.includes('requires_editorial_promotion')) fail('draft must require explicit editorial promotion');
   if (draft.promotion_eligible !== false) fail('draft must remain non-promotable without its separate manifest');
   if (existingContentIds.includes(draft.content_id)) fail(`content_id already exists in queue: ${draft.content_id}`);
