@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-25T20:52:00Z",
   "content_id": "matrix24-20260924-shin-ohashi-200m-breaststroke-world-record",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "Shin Ohashi sets 200m breaststroke world record at the Asian Games",
   "category": "Sports",
   "editorial_category": "Sports",
@@ -104,6 +104,16 @@
       "request_id": "0dd6f9db-e293-45cf-94be-f2d2fca42fbd",
       "image_filename": "matrix24-19e8a5d7abba9de460d5ddfd96d02b6dcda9df7cdb12ccc389444a841d10059b-v1.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-19e8a5d7abba9de460d5ddfd96d02b6dcda9df7cdb12ccc389444a841d10059b-v1.jpg"
+    },
+    {
+      "timestamp": "2026-09-26T12:54:00Z",
+      "stage": "instagram_publish",
+      "result": "started",
+      "publish_attempt_id": "m24-20260926T1254Z-shin",
+      "account_id": "17841423605720355",
+      "reason": "controlled_lkg_v2_first_attempt_after_claim_consensus_and_provenance_reconciliation"
     }
-  ]
+  ],
+  "publish_attempt_id": "m24-20260926T1254Z-shin",
+  "publishing_started_at": "2026-09-26T12:54:00Z"
 }
