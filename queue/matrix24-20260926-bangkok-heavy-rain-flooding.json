@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-26T16:24:00Z",
   "content_id": "matrix24-20260926-bangkok-heavy-rain-flooding",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Heavy rain brings widespread flooding and travel disruption to Bangkok",
   "category": "Climate",
   "editorial_category": "Climate",
@@ -84,5 +84,9 @@
     "draft_sha256": "238dcde367d6ce078e27a2c2db2df0d8f68894dcd09c28d6923a258dec526410",
     "approved_at": "2026-09-26T16:24:00Z",
     "approval_note": "Approved under the standing BACKLOG-FIRST editorial directive after verified_claim_consensus validation. Authorizes exactly one Promotion Controller admission for this content_id. Does not authorize duplicate queue admission, media regeneration, blind publication retry, or Phase 2."
+  },
+  "media_claim": {
+    "id": "6db9d89f-5c42-4c60-8dd7-2491f1ef4d28",
+    "started_at": "2026-09-26T16:45:48.445Z"
   }
 }
