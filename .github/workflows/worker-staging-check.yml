@@ -1,6 +1,14 @@
 name: Worker Staging Safety Check
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "worker/**"
+      - "tests/**"
+      - "scripts/verify-worker-backup.mjs"
+      - ".github/workflows/worker-staging-check.yml"
   pull_request:
     paths:
       - "worker/**"
