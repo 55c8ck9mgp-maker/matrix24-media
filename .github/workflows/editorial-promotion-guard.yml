@@ -14,6 +14,7 @@ on:
       - "tests/provenance-reconciliation.test.mjs"
       - "tests/matrix24-health.test.mjs"
       - ".github/workflows/editorial-promotion-guard.yml"
+      - ".github/workflows/editorial-queue-promotion.yml"
 
 permissions:
   contents: read
@@ -31,6 +32,28 @@ jobs:
           node-version: "22"
       - name: Validate regressions
         run: node --test tests/editorial-intake.test.mjs tests/editorial-promotion.test.mjs tests/provenance-reconciliation.test.mjs tests/matrix24-health.test.mjs
+      - name: Validate Promotion Controller workflow invariants
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const s=fs.readFileSync('.github/workflows/editorial-queue-promotion.yml','utf8');
+          const required=[
+            'pull-requests: write',
+            'git push origin "$branch"',
+            'gh pr list --state open --base main --head "$PROMOTION_BRANCH"',
+            'if [ "$existing" -gt 1 ]',
+            'if [ "$existing" -eq 1 ]',
+            'gh pr create',
+            '--base main',
+            '--head "$PROMOTION_BRANCH"',
+            '--body-file pr-body.md'
+          ];
+          for (const token of required) {
+            if (!s.includes(token)) throw new Error('promotion controller invariant missing: '+token);
+          }
+          if (/gh pr merge|--merge|--squash|--rebase/.test(s)) throw new Error('promotion controller must not auto-merge');
+          console.log('Promotion Controller workflow invariants validated');
+          NODE
       - name: Guard queue writes
         env:
           BASE_REF: ${{ github.event.pull_request.base.sha }}
