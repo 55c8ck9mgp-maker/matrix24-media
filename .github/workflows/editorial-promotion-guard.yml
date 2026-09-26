@@ -9,8 +9,10 @@ on:
       - "scripts/build-editorial-promotion.mjs"
       - "scripts/validate-editorial-intake.mjs"
       - "scripts/validate-provenance-reconciliation.mjs"
+      - "scripts/classify-matrix24-health.mjs"
       - "tests/editorial-promotion.test.mjs"
       - "tests/provenance-reconciliation.test.mjs"
+      - "tests/matrix24-health.test.mjs"
       - ".github/workflows/editorial-promotion-guard.yml"
 
 permissions:
@@ -28,7 +30,7 @@ jobs:
         with:
           node-version: "22"
       - name: Validate regressions
-        run: node --test tests/editorial-intake.test.mjs tests/editorial-promotion.test.mjs tests/provenance-reconciliation.test.mjs
+        run: node --test tests/editorial-intake.test.mjs tests/editorial-promotion.test.mjs tests/provenance-reconciliation.test.mjs tests/matrix24-health.test.mjs
       - name: Guard queue writes
         env:
           BASE_REF: ${{ github.event.pull_request.base.sha }}
