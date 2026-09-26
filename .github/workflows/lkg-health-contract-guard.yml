@@ -1,0 +1,54 @@
+name: LKG v2 Health Contract Guard
+
+on:
+  pull_request:
+    paths:
+      - "scripts/classify-matrix24-health.mjs"
+      - "worker/staging/reliability/**"
+      - "tests/matrix24-health.test.mjs"
+      - "tests/lkg-v2-production-contract.test.mjs"
+      - "tests/lkg-v2-e2e.test.mjs"
+      - "tests/publication-reliability.test.mjs"
+      - "tests/receipt-policy.test.mjs"
+      - ".github/workflows/lkg-health-contract-guard.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/classify-matrix24-health.mjs"
+      - "worker/staging/reliability/**"
+      - "tests/matrix24-health.test.mjs"
+      - "tests/lkg-v2-production-contract.test.mjs"
+      - "tests/lkg-v2-e2e.test.mjs"
+      - "tests/publication-reliability.test.mjs"
+      - "tests/receipt-policy.test.mjs"
+      - ".github/workflows/lkg-health-contract-guard.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+      - name: Syntax check contract code
+        run: |
+          node --check scripts/classify-matrix24-health.mjs
+          node --check worker/staging/reliability/policy.mjs
+          node --check worker/staging/reliability/receipt-policy.mjs
+      - name: Run LKG v2 and health contract regressions
+        run: |
+          node --test \
+            tests/matrix24-health.test.mjs \
+            tests/lkg-v2-production-contract.test.mjs \
+            tests/lkg-v2-e2e.test.mjs \
+            tests/publication-reliability.test.mjs \
+            tests/receipt-policy.test.mjs
