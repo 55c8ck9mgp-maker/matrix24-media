@@ -10,6 +10,7 @@ on:
       - "tests/lkg-v2-e2e.test.mjs"
       - "tests/publication-reliability.test.mjs"
       - "tests/receipt-policy.test.mjs"
+      - "tests/metricool-lkg-v2-adapter.test.mjs"
       - ".github/workflows/lkg-health-contract-guard.yml"
   push:
     branches:
@@ -22,6 +23,7 @@ on:
       - "tests/lkg-v2-e2e.test.mjs"
       - "tests/publication-reliability.test.mjs"
       - "tests/receipt-policy.test.mjs"
+      - "tests/metricool-lkg-v2-adapter.test.mjs"
       - ".github/workflows/lkg-health-contract-guard.yml"
   workflow_dispatch:
 
@@ -44,6 +46,7 @@ jobs:
           node --check scripts/classify-matrix24-health.mjs
           node --check worker/staging/reliability/policy.mjs
           node --check worker/staging/reliability/receipt-policy.mjs
+          node --check worker/staging/reliability/metricool-adapter.mjs
       - name: Run LKG v2 and health contract regressions
         run: |
           node --test \
@@ -51,4 +54,5 @@ jobs:
             tests/lkg-v2-production-contract.test.mjs \
             tests/lkg-v2-e2e.test.mjs \
             tests/publication-reliability.test.mjs \
-            tests/receipt-policy.test.mjs
+            tests/receipt-policy.test.mjs \
+            tests/metricool-lkg-v2-adapter.test.mjs
