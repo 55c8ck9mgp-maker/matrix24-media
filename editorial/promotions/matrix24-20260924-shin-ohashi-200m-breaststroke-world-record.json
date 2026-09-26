@@ -1,7 +1,7 @@
 {
   "draft_path": "editorial/verified/matrix24-20260924-shin-ohashi-200m-breaststroke-world-record.json",
-  "draft_sha256": "8fa362c0557c5cc468f26d20531e01a00e7358f3327cd0842d4f47170b500e34",
+  "draft_sha256": "4c5996d856efaea0084e0a304411669cbecc813e2819fc90589a995bdfa74c32",
   "approved": true,
   "approved_at": "2026-09-25T20:52:00Z",
-  "approval_note": "First controlled real-cycle validation after Promotion Controller integration. Editorial facts independently rechecked against current Reuters reporting. Approval authorizes only deterministic admission to a reviewable blocked_media queue PR; it does not authorize media generation, Instagram publication, retry, or Phase 2."
+  "approval_note": "Provenance reconciliation after Claim Consensus Gate migration. Re-approval binds the existing admitted content to the consensus-verified draft only; it does not authorize a second admission, media regeneration, Instagram publication, retry, or Phase 2."
 }
