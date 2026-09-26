@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-26T16:24:00Z",
   "content_id": "matrix24-20260926-bangkok-heavy-rain-flooding",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "Heavy rain brings widespread flooding and travel disruption to Bangkok",
   "category": "Climate",
   "editorial_category": "Climate",
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "caption": "🇪🇸 Las fuertes lluvias provocaron inundaciones y acumulación de agua en zonas de Bangkok, afectando carreteras y causando posibles retrasos en los desplazamientos. Las autoridades recomendaron prever tiempo adicional para viajar.\\n\\n🇺🇸 Heavy rain caused flooding and waterlogging in parts of Bangkok, affecting roads and creating potential travel delays. Authorities advised travelers to allow extra time.\\n\\nSources: Reuters / Tourism Authority of Thailand — Sept. 26, 2026.\\n\\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "caption": "🇪🇸 Las fuertes lluvias provocaron inundaciones y acumulación de agua en zonas de Bangkok, afectando carreteras y causando posibles retrasos en los desplazamientos. Las autoridades recomendaron prever tiempo adicional para viajar.\n\n🇺🇸 Heavy rain caused flooding and waterlogging in parts of Bangkok, affecting roads and creating potential travel delays. Authorities advised travelers to allow extra time.\n\nSources: Reuters / Tourism Authority of Thailand — Sept. 26, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
   "hashtags": [
     "#MATRIX24",
     "#Bangkok",
@@ -104,6 +104,18 @@
       "request_id": "6db9d89f-5c42-4c60-8dd7-2491f1ef4d28",
       "image_filename": "matrix24-c55a2595539385a5f4c46b4d0f375151d23eff3129c8f150552994826a629641-v1.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-c55a2595539385a5f4c46b4d0f375151d23eff3129c8f150552994826a629641-v1.jpg"
+    },
+    {
+      "timestamp": "2026-09-26T18:31:00Z",
+      "stage": "instagram_publish",
+      "result": "started",
+      "publish_attempt_id": "m24-20260926T1831Z-bangkok-metricool",
+      "account_id": "matrix24global",
+      "provider": "metricool",
+      "reason": "controlled_manual_lkg_after_auto_publisher_pre_reservation_noop"
     }
-  ]
+  ],
+  "publish_attempt_id": "m24-20260926T1831Z-bangkok-metricool",
+  "publication_provider": "metricool",
+  "publishing_started_at": "2026-09-26T18:31:00Z"
 }
