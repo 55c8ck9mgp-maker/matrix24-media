@@ -63,7 +63,7 @@ jobs:
 
       - name: Create a queue-only pull request
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.MATRIX24_PR_TOKEN }}
           CONTENT_ID: ${{ steps.promotion.outputs.content_id }}
           QUEUE_PATH: ${{ steps.promotion.outputs.queue_path }}
           MANIFEST_PATH: ${{ steps.promotion.outputs.manifest_path }}
