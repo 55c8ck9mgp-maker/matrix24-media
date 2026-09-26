@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-26T16:24:00Z",
   "content_id": "matrix24-20260926-bangkok-heavy-rain-flooding",
-  "status": "publishing",
+  "status": "published",
   "headline": "Heavy rain brings widespread flooding and travel disruption to Bangkok",
   "category": "Climate",
   "editorial_category": "Climate",
@@ -124,11 +124,25 @@
       "metricool_scheduled_post_id": 382606536,
       "metricool_scheduled_post_uuid": "-1413875232170293726",
       "provider_status": "PENDING"
+    },
+    {
+      "timestamp": "2026-09-26T18:35:00Z",
+      "stage": "instagram_publish",
+      "result": "published",
+      "publish_attempt_id": "m24-20260926T1831Z-bangkok-metricool",
+      "account_id": "matrix24global",
+      "provider": "metricool",
+      "metricool_scheduled_post_id": 382606536,
+      "metricool_scheduled_post_uuid": "-1413875232170293726",
+      "provider_status": "PUBLISHED",
+      "instagram_permalink": "https://www.instagram.com/p/DdwsQWYFLsg/"
     }
   ],
   "publish_attempt_id": "m24-20260926T1831Z-bangkok-metricool",
   "publication_provider": "metricool",
   "publishing_started_at": "2026-09-26T18:31:00Z",
   "metricool_scheduled_post_id": 382606536,
-  "metricool_scheduled_post_uuid": "-1413875232170293726"
+  "metricool_scheduled_post_uuid": "-1413875232170293726",
+  "instagram_permalink": "https://www.instagram.com/p/DdwsQWYFLsg/",
+  "published_at": "2026-09-26T18:35:00Z"
 }
