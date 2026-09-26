@@ -6,7 +6,7 @@ export const HEALTH_STATES = Object.freeze({
 });
 
 export function classifyMatrix24Health({ queueRecords = [], provider = {} } = {}) {
-  const ambiguous = queueRecords.filter((r) => r?.status === 'publish_unknown' || (r?.status === 'publishing' && r?.publish_attempt_id));
+  const ambiguous = queueRecords.filter((r) => r?.status === 'publish_unknown' || (r?.status === 'publishing' && r?.publish_attempt_id && r?.publishing_started_at && !r?.instagram_media_id));
   if (ambiguous.length) return { state: HEALTH_STATES.AMBIGUOUS, reason: 'unresolved_publication_outcome', content_ids: ambiguous.map((r) => r.content_id).filter(Boolean) };
 
   const invalid = queueRecords.filter((r) =>
