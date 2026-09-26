@@ -17,7 +17,9 @@
       "supports": [
         "Japan's Shin Ohashi won the men's 200m breaststroke at the Asian Games in 2:04.83.",
         "The time set a world record, improving on Qin Haiyang's previous 2:05.48 mark."
-      ]
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
     },
     {
       "source_name": "Associated Press (syndicated by News4Jax)",
@@ -26,22 +28,40 @@
       "supports": [
         "Ohashi is 17 years old and represented Japan at the Asian Games.",
         "He recorded 2:04.83 in the men's 200m breaststroke, ahead of the former world-record time of 2:05.48."
-      ]
+      ],
+      "independent_source_id": "associated-press",
+      "source_role": "independent_report"
     }
   ],
   "claim_checks": [
     {
       "claim": "Shin Ohashi of Japan won the men's 200m breaststroke at the Asian Games in a world-record 2:04.83.",
-      "supporting_urls": [
-        "https://www.aljazeera.com/sports/2026/9/24/japans-ohashi-breaks-200m-breaststroke-world-record-at-asian-games",
-        "https://www.news4jax.com/sports/2026/09/24/shin-ohashi-of-japan-sets-world-record-in-200-meter-breaststroke-at-the-asian-games/"
+      "material": true,
+      "normalized_value": "winner=Shin Ohashi|event=men's 200m breaststroke|competition=Asian Games|time=2:04.83|record=world_record",
+      "observations": [
+        {
+          "url": "https://www.aljazeera.com/sports/2026/9/24/japans-ohashi-breaks-200m-breaststroke-world-record-at-asian-games",
+          "normalized_value": "winner=Shin Ohashi|event=men's 200m breaststroke|competition=Asian Games|time=2:04.83|record=world_record"
+        },
+        {
+          "url": "https://www.news4jax.com/sports/2026/09/24/shin-ohashi-of-japan-sets-world-record-in-200-meter-breaststroke-at-the-asian-games/",
+          "normalized_value": "winner=Shin Ohashi|event=men's 200m breaststroke|competition=Asian Games|time=2:04.83|record=world_record"
+        }
       ]
     },
     {
       "claim": "The previous record was Qin Haiyang's 2:05.48.",
-      "supporting_urls": [
-        "https://www.aljazeera.com/sports/2026/9/24/japans-ohashi-breaks-200m-breaststroke-world-record-at-asian-games",
-        "https://www.news4jax.com/sports/2026/09/24/shin-ohashi-of-japan-sets-world-record-in-200-meter-breaststroke-at-the-asian-games/"
+      "material": true,
+      "normalized_value": "previous_record_holder=Qin Haiyang|previous_record_time=2:05.48",
+      "observations": [
+        {
+          "url": "https://www.aljazeera.com/sports/2026/9/24/japans-ohashi-breaks-200m-breaststroke-world-record-at-asian-games",
+          "normalized_value": "previous_record_holder=Qin Haiyang|previous_record_time=2:05.48"
+        },
+        {
+          "url": "https://www.news4jax.com/sports/2026/09/24/shin-ohashi-of-japan-sets-world-record-in-200-meter-breaststroke-at-the-asian-games/",
+          "normalized_value": "previous_record_holder=Qin Haiyang|previous_record_time=2:05.48"
+        }
       ]
     }
   ],
@@ -55,8 +75,8 @@
     "#Sports"
   ],
   "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. A stylized competitive swimming pool viewed from above, one anonymous swimmer creating a clean wake, a neutral lane scoreboard showing 2:04.83, no identifiable athlete likeness, no fake event photography, no misleading logos, restrained professional sports-newsroom aesthetic, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
-  "verification_note": "Verified on Sept. 25, 2026 against independent Reuters and AP reporting. The candidate uses only the event, time, and prior-record facts corroborated by both sources. It intentionally omits unneeded biographical claims from the caption.",
-  "verification_status": "verified_two_independent_reports",
+  "verification_note": "Claim Consensus Gate: Reuters and Associated Press independently corroborate the two material publishable claims used in the headline/caption: Shin Ohashi's 2:04.83 world record and Qin Haiyang's prior 2:05.48 mark. Non-consensus biographical details remain excluded.",
+  "verification_status": "verified_claim_consensus",
   "promotion_eligible": false,
   "candidate_status": "verified_draft_requires_editorial_promotion"
 }
