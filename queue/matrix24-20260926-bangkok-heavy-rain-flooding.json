@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-26T16:24:00Z",
   "content_id": "matrix24-20260926-bangkok-heavy-rain-flooding",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Heavy rain brings widespread flooding and travel disruption to Bangkok",
   "category": "Climate",
   "editorial_category": "Climate",
@@ -85,8 +85,25 @@
     "approved_at": "2026-09-26T16:24:00Z",
     "approval_note": "Approved under the standing BACKLOG-FIRST editorial directive after verified_claim_consensus validation. Authorizes exactly one Promotion Controller admission for this content_id. Does not authorize duplicate queue admission, media regeneration, blind publication retry, or Phase 2."
   },
-  "media_claim": {
-    "id": "6db9d89f-5c42-4c60-8dd7-2491f1ef4d28",
-    "started_at": "2026-09-26T16:45:48.445Z"
-  }
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-c55a2595539385a5f4c46b4d0f375151d23eff3129c8f150552994826a629641-v1.jpg",
+  "image_filename": "matrix24-c55a2595539385a5f4c46b4d0f375151d23eff3129c8f150552994826a629641-v1.jpg",
+  "media_ready_at": "2026-09-26T16:46:03.100Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 254740,
+    "alpha": false
+  },
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-26T16:46:03.100Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "6db9d89f-5c42-4c60-8dd7-2491f1ef4d28",
+      "image_filename": "matrix24-c55a2595539385a5f4c46b4d0f375151d23eff3129c8f150552994826a629641-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-c55a2595539385a5f4c46b4d0f375151d23eff3129c8f150552994826a629641-v1.jpg"
+    }
+  ]
 }
