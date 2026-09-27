@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "matrix24-publication-v2-staging",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-09-27",
+  "workers_dev": true,
+  "preview_urls": true,
+  "vars": {
+    "MATRIX24_MODE": "publisher-v2-fixtures-only"
+  }
+}
