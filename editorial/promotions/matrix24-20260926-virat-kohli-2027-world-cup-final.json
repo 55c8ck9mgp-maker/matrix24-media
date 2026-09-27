@@ -4,5 +4,5 @@
   "draft_sha256": "cfc925f0ccec20c036de70e3471cce0e75071b9a24e28c2565cb8a7b26935bd9",
   "approved": true,
   "approved_at": "2026-09-26T23:35:39Z",
-  "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260926-virat-kohli-2027-world-cup-final. The controller must preserve exactly-once admission and zero-duplicate protection."
+  "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260926-virat-kohli-2027-world-cup-final. The controller must preserve exactly-once admission and zero-duplicate protection. Recovery marker: re-dispatch existing approved manifest only; no new editorial approval and no direct queue write."
 }
