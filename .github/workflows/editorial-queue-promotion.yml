@@ -17,7 +17,9 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: editorial-queue-promotion-${{ github.ref }}-${{ github.event_name }}
+  # Serialize promotion admissions repository-wide. A second manifest must not race
+  # duplicate/content-id checks while another promotion PR is being prepared.
+  group: editorial-queue-promotion
   cancel-in-progress: false
 
 jobs:
@@ -61,14 +63,31 @@ jobs:
           printf '%s' "$result" > promotion-result.json
           node -e 'const r=require("./promotion-result.json"); require("fs").appendFileSync(process.env.GITHUB_OUTPUT, `content_id=${r.content_id}\nqueue_path=${r.output_path}\nmanifest_path=${r.manifest_path}\n`)' 
 
-      - name: Create queue-only promotion branch
+      - name: Create or reuse exactly one queue-only promotion branch
         id: queue_branch
         env:
+          GH_TOKEN: ${{ github.token }}
           CONTENT_ID: ${{ steps.promotion.outputs.content_id }}
           QUEUE_PATH: ${{ steps.promotion.outputs.queue_path }}
           MANIFEST_PATH: ${{ steps.promotion.outputs.manifest_path }}
         run: |
-          branch="promotion/${CONTENT_ID}-${GITHUB_RUN_ID}"
+          mapfile -t existing_branches < <(gh pr list --state open --base main --json headRefName,title --jq '.[] | select(.title == "Queue approved promotion: '"$CONTENT_ID"'") | .headRefName')
+          if [ "${#existing_branches[@]}" -gt 1 ]; then
+            echo "promotion controller rejected: multiple open promotion PRs exist for $CONTENT_ID"
+            exit 1
+          fi
+          if [ "${#existing_branches[@]}" -eq 1 ]; then
+            branch="${existing_branches[0]}"
+            echo "Reusing existing promotion branch for $CONTENT_ID: $branch"
+            echo "promotion_branch=$branch" >> "$GITHUB_OUTPUT"
+            echo "reuse_existing=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          branch="promotion/${CONTENT_ID}"
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+            echo "promotion controller rejected: deterministic branch exists without exactly one matching open PR: $branch"
+            exit 1
+          fi
           git switch -c "$branch"
           mkdir -p "$(dirname "$QUEUE_PATH")"
           cp ".promotion-output/$QUEUE_PATH" "$QUEUE_PATH"
@@ -80,6 +99,7 @@ jobs:
             'The record is rebuilt from the trusted main revision. Merging this PR remains a separate editorial and production decision.' > pr-body.md
           git push origin "$branch"
           echo "promotion_branch=$branch" >> "$GITHUB_OUTPUT"
+          echo "reuse_existing=false" >> "$GITHUB_OUTPUT"
           echo "Promotion branch pushed successfully: $branch"
 
 
