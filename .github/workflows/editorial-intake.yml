@@ -2,6 +2,13 @@ name: Editorial intake guard
 on:
   pull_request_target:
     types: [opened, synchronize, reopened]
+    paths:
+      - 'editorial/verified/*.json'
+      - 'queue/*.json'
+      - 'scripts/validate-editorial-intake.mjs'
+      - 'scripts/validate-editorial-queue-promotion.mjs'
+      - 'scripts/build-editorial-promotion.mjs'
+      - '.github/workflows/editorial-intake.yml'
 permissions:
   contents: read
 jobs:
