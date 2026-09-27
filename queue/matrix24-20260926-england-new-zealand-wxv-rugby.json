@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-27T02:24:46Z",
   "content_id": "matrix24-20260926-england-new-zealand-wxv-rugby",
-  "status": "publishing",
+  "status": "published",
   "headline": "England beat New Zealand 26-19 on last-gasp Zoe Harrison try",
   "category": "Sports",
   "editorial_category": "Sports",
@@ -121,6 +121,17 @@
       "metricool_scheduled_post_id": 382857076,
       "metricool_scheduled_post_uuid": "-5603080562669829047",
       "provider_status": "PENDING"
+    },
+    {
+      "timestamp": "2026-09-27T12:45:00Z",
+      "stage": "publication",
+      "result": "published",
+      "provider": "metricool",
+      "publish_attempt_id": "m24-20260927T1238Z-england-nz-metricool",
+      "metricool_scheduled_post_id": 382857076,
+      "metricool_scheduled_post_uuid": "-5603080562669829047",
+      "provider_status": "PUBLISHED",
+      "instagram_permalink": "https://www.instagram.com/p/Ddyo_yUgETX/"
     }
   ],
   "publish_attempt_id": "m24-20260927T1238Z-england-nz-metricool",
@@ -128,5 +139,7 @@
   "provider": "metricool",
   "metricool_scheduled_post_id": 382857076,
   "metricool_scheduled_post_uuid": "-5603080562669829047",
-  "publication_provider": "metricool"
+  "publication_provider": "metricool",
+  "instagram_permalink": "https://www.instagram.com/p/Ddyo_yUgETX/",
+  "published_at": "2026-09-27T12:45:00Z"
 }
