@@ -28,6 +28,7 @@ function sha256(value) {
 
 export function buildEditorialPromotion({ promotion, draft, draftPath, draftSha, existingContentIds = [] }) {
   if (!promotion || typeof promotion !== 'object' || Array.isArray(promotion)) fail('manifest must contain an object');
+  if (typeof promotion.content_id !== 'string' || !/^matrix24-[a-z0-9-]+$/.test(promotion.content_id)) fail('manifest.content_id must be a safe matrix24 identifier');
   if (!isSafeRelative(promotion.draft_path, DRAFT_PREFIX)) fail('manifest.draft_path must reference editorial/verified/*.json');
   if (promotion.draft_path !== draftPath) fail('manifest.draft_path does not match supplied draft');
   if (typeof promotion.draft_sha256 !== 'string' || !/^[a-f0-9]{64}$/i.test(promotion.draft_sha256)) fail('manifest.draft_sha256 must be a SHA-256 digest');
@@ -36,6 +37,7 @@ export function buildEditorialPromotion({ promotion, draft, draftPath, draftSha,
   if (typeof promotion.approved_at !== 'string' || Number.isNaN(Date.parse(promotion.approved_at))) fail('manifest.approved_at must be an ISO timestamp');
   if (typeof promotion.approval_note !== 'string' || !promotion.approval_note.trim()) fail('manifest.approval_note is required');
   if (typeof draft.content_id !== 'string' || !/^matrix24-[a-z0-9-]+$/.test(draft.content_id)) fail('draft.content_id must be a safe matrix24 identifier');
+  if (promotion.content_id !== draft.content_id) fail('manifest.content_id must match draft.content_id');
 
   validateEditorialDraft(draft, draftPath);
   if (draft.verification_status !== 'verified_claim_consensus') fail('draft must pass verified claim consensus before promotion');
