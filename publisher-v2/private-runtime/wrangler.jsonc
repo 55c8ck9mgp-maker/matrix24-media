@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "matrix24-publisher-v2-staging",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-09-27",
+  "workers_dev": false,
+  "preview_urls": false,
+  "vars": {
+    "MATRIX24_MODE": "publisher-v2-staging",
+    "PUBLISHER_V2_ENABLED": "false",
+    "STAGING_REPOSITORY": "55c8ck9mgp-maker/matrix24-publication-v2-staging"
+  }
+}
