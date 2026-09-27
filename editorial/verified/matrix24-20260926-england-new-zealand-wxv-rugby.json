@@ -1,0 +1,27 @@
+{
+  "content_id": "matrix24-20260926-england-new-zealand-wxv-rugby",
+  "researched_at": "2026-09-27T02:22:43Z",
+  "event_date": "2026-09-26",
+  "headline": "England beat New Zealand 26-19 on last-gasp Zoe Harrison try",
+  "category": "Sports",
+  "editorial_category": "Sports",
+  "verified_source_urls": [
+    "https://www.reuters.com/sports/late-try-gives-england-win-over-new-zealand-extends-unbeaten-run-41-2026-09-26/",
+    "https://apnews.com/article/england-newzealand-rugby-women-canada-france-c7b87beeb3f63d908c936c8d1b70aec0"
+  ],
+  "source_records": [
+    {"source_name":"Reuters","publication_date":"2026-09-26","url":"https://www.reuters.com/sports/late-try-gives-england-win-over-new-zealand-extends-unbeaten-run-41-2026-09-26/","supports":["England defeated New Zealand 26-19 in women's rugby at Twickenham on September 26.","Zoe Harrison scored the decisive late intercept try."],"independent_source_id":"reuters","source_role":"independent_report"},
+    {"source_name":"Associated Press","publication_date":"2026-09-26","url":"https://apnews.com/article/england-newzealand-rugby-women-canada-france-c7b87beeb3f63d908c936c8d1b70aec0","supports":["England defeated New Zealand 26-19 in WXV women's rugby at Twickenham on September 26.","Zoe Harrison scored the decisive intercept try after the fulltime siren."],"independent_source_id":"associated_press","source_role":"independent_report"}
+  ],
+  "claim_checks": [
+    {"claim":"England defeated New Zealand 26-19 in women's rugby at Twickenham on September 26.","material":true,"normalized_value":"winner=England|opponent=New_Zealand|score=26-19|venue=Twickenham|date=2026-09-26","observations":[{"url":"https://www.reuters.com/sports/late-try-gives-england-win-over-new-zealand-extends-unbeaten-run-41-2026-09-26/","normalized_value":"winner=England|opponent=New_Zealand|score=26-19|venue=Twickenham|date=2026-09-26"},{"url":"https://apnews.com/article/england-newzealand-rugby-women-canada-france-c7b87beeb3f63d908c936c8d1b70aec0","normalized_value":"winner=England|opponent=New_Zealand|score=26-19|venue=Twickenham|date=2026-09-26"}]},
+    {"claim":"Zoe Harrison scored the decisive late intercept try.","material":true,"normalized_value":"player=Zoe_Harrison|play=intercept_try|effect=decisive_winning_score","observations":[{"url":"https://www.reuters.com/sports/late-try-gives-england-win-over-new-zealand-extends-unbeaten-run-41-2026-09-26/","normalized_value":"player=Zoe_Harrison|play=intercept_try|effect=decisive_winning_score"},{"url":"https://apnews.com/article/england-newzealand-rugby-women-canada-france-c7b87beeb3f63d908c936c8d1b70aec0","normalized_value":"player=Zoe_Harrison|play=intercept_try|effect=decisive_winning_score"}]}
+  ],
+  "caption":"🇪🇸 Inglaterra venció 26-19 a Nueva Zelanda en Twickenham el 26 de septiembre. Zoe Harrison decidió el partido con un try de intercepción en los instantes finales.\n\n🇺🇸 England beat New Zealand 26-19 at Twickenham on September 26. Zoe Harrison decided the match with a late intercept try.\n\nSources: Reuters / Associated Press — Sept. 26, 2026.\n\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "hashtags":["#MATRIX24","#EnglandRugby","#BlackFerns","#WomensRugby","#WXV","#Sports"],
+  "image_generation_prompt":"AI-generated non-documentary editorial illustration of an elite women's rugby match between England and New Zealand at Twickenham, a dramatic late intercept and sprint toward the try line, red-and-white and black sporting color cues, packed stadium under lights, no identifiable real-player likeness required, no copied or fabricated documentary photography, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note":"Claim Consensus Gate: Reuters and Associated Press independently confirm the retained material claims: England beat New Zealand 26-19 at Twickenham on September 26 and Zoe Harrison scored the decisive late intercept try. Read-only inspection of editorial/verified, editorial/promotions and queue found no matching content ID or topic; targeted GitHub code search for England/New Zealand rugby returned zero matches before creation. Source publication date and event date were separately checked as September 26, 2026.",
+  "verification_status":"verified_claim_consensus",
+  "promotion_eligible":false,
+  "candidate_status":"verified_draft_requires_editorial_promotion"
+}
