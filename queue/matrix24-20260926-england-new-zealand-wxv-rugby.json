@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-27T02:24:46Z",
   "content_id": "matrix24-20260926-england-new-zealand-wxv-rugby",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "England beat New Zealand 26-19 on last-gasp Zoe Harrison try",
   "category": "Sports",
   "editorial_category": "Sports",
@@ -85,8 +85,25 @@
     "approved_at": "2026-09-27T02:24:46Z",
     "approval_note": "Authorizes exactly one Promotion Controller admission for this exact validated draft SHA-256. No direct queue admission is authorized by this manifest."
   },
-  "media_claim": {
-    "id": "7d383bff-cb1a-4037-ae2b-190ab53e5034",
-    "started_at": "2026-09-27T11:31:07.337Z"
-  }
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-8c4805d5045dbc0ec854fbb03f460a45b34f43fd4be1b6f1a10b56bba2252802-v1.jpg",
+  "image_filename": "matrix24-8c4805d5045dbc0ec854fbb03f460a45b34f43fd4be1b6f1a10b56bba2252802-v1.jpg",
+  "media_ready_at": "2026-09-27T11:31:20.135Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 260664,
+    "alpha": false
+  },
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-27T11:31:20.135Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "7d383bff-cb1a-4037-ae2b-190ab53e5034",
+      "image_filename": "matrix24-8c4805d5045dbc0ec854fbb03f460a45b34f43fd4be1b6f1a10b56bba2252802-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-8c4805d5045dbc0ec854fbb03f460a45b34f43fd4be1b6f1a10b56bba2252802-v1.jpg"
+    }
+  ]
 }
