@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-27T13:47:59Z",
   "content_id": "matrix24-20260927-raf-fairford-explosives-arrests",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Several men arrested in explosives investigation near RAF Fairford as homes are evacuated",
   "category": "World",
   "editorial_category": "World",
@@ -83,5 +83,9 @@
     "draft_sha256": "d90a83df431a3572e610be3933fc382577e10532ec93805dce50d8138c7b8148",
     "approved_at": "2026-09-27T13:47:59Z",
     "approval_note": "Editorial approval for the exact verified RAF Fairford draft revision merged via PR #54. Approval authorizes Promotion Controller admission only; it does not authorize media generation or publication."
+  },
+  "media_claim": {
+    "id": "95158bcb-ad40-4fcd-9643-c7006b1e7bb3",
+    "started_at": "2026-09-27T14:16:13.930Z"
   }
 }
