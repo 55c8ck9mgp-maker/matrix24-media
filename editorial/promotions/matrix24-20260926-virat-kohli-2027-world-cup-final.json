@@ -1,8 +1,8 @@
 {
   "content_id": "matrix24-20260926-virat-kohli-2027-world-cup-final",
   "draft_path": "editorial/verified/matrix24-20260926-virat-kohli-2027-world-cup-final.json",
-  "draft_sha256": "cfc925f0ccec20c036de70e3471cce0e75071b9a24e28c2565cb8a7b26935bd9",
+  "draft_sha256": "61bd01a71d0567ba5cc52120fc4212cc59d8cc37b7d24f628d14f07662fb17e1",
   "approved": true,
   "approved_at": "2026-09-26T23:35:39Z",
-  "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260926-virat-kohli-2027-world-cup-final. The controller must preserve exactly-once admission and zero-duplicate protection. Recovery marker: re-dispatch existing approved manifest only; no new editorial approval and no direct queue write. Post-hardening trigger proof: same approved draft, exactly one admission remains authorized."
+  "approval_note": "Editorial promotion approval reconciled for the same content_id after canonical source_role normalization (primary_sports_authority -> primary_authority). No new editorial approval or admission is granted; exactly one deterministic Promotion Controller admission remains authorized."
 }
