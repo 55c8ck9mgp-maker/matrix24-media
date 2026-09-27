@@ -2,8 +2,20 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { classifyMatrix24Health } from '../scripts/classify-matrix24-health.mjs';
 
-test('HEALTHY when no blocker exists', () => {
+test('HEALTHY when published record has a valid Instagram media ID', () => {
   assert.equal(classifyMatrix24Health({queueRecords:[{status:'published',instagram_media_id:'1'}],provider:{instagram_content_publish:true}}).state,'HEALTHY');
+});
+test('HEALTHY when Metricool-confirmed publication is archived with Instagram permalink only', () => {
+  const q={content_id:'matrix24-x',status:'published',instagram_permalink:'https://www.instagram.com/p/example/'};
+  assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:true}}).state,'HEALTHY');
+});
+test('ACTION_REQUIRED when published record has no positive publication evidence', () => {
+  const q={content_id:'matrix24-x',status:'published'};
+  assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:true}}).state,'ACTION_REQUIRED');
+});
+test('ACTION_REQUIRED for malformed publication evidence', () => {
+  const q={content_id:'matrix24-x',status:'published',instagram_permalink:'not-an-instagram-url'};
+  assert.equal(classifyMatrix24Health({queueRecords:[q],provider:{instagram_content_publish:true}}).state,'ACTION_REQUIRED');
 });
 test('BLOCKED_PROVIDER for unresolved instagram_content_publish denial', () => {
   const q={content_id:'matrix24-x',status:'ready_to_publish',publish_attempt_history:[{result:'action_not_invoked',reason:'instagram_content_publish_permission_missing_error_10_after_oauth_reauthorization'}]};
