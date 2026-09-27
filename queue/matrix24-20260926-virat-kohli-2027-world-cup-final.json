@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-26T23:35:39Z",
   "content_id": "matrix24-20260926-virat-kohli-2027-world-cup-final",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Virat Kohli says 2027 Cricket World Cup will be his last for India",
   "category": "Sports",
   "editorial_category": "Sports",
@@ -84,5 +84,9 @@
     "draft_sha256": "4ce78a6bcdf831dfdef0936d8ccfa67cb9371182adcebbfab1fa95907b3d34be",
     "approved_at": "2026-09-26T23:35:39Z",
     "approval_note": "Editorial promotion approval reconciled for the same content_id after canonical source_role normalization (primary_sports_authority -> primary_authority). No new editorial approval or admission is granted; exactly one deterministic Promotion Controller admission remains authorized."
+  },
+  "media_claim": {
+    "id": "95c0607c-fbe7-4c82-9c6b-cc1b83c58357",
+    "started_at": "2026-09-27T17:31:14.038Z"
   }
 }
