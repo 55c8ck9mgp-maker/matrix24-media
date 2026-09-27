@@ -59,3 +59,9 @@ test('claims cannot cite URLs outside verified source set',()=>{
   const d=base(); d.claim_checks[0].observations[1].url='https://unverified.example.net/source';
   assert.throws(()=>validateEditorialDraft(d),/outside verified_source_urls/);
 });
+
+
+test('non-canonical source roles fail before promotion',()=>{
+  const d=base(); d.source_records[1].source_role='primary_sports_authority';
+  assert.throws(()=>validateEditorialDraft(d),/source_role must be primary_authority or independent_report/);
+});
