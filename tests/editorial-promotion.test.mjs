@@ -14,7 +14,7 @@ const draft = {
   claim_checks: [{ claim: 'Fact A', material: true, normalized_value: 'fact-a', observations: [{ url: 'https://example.com/reuters', normalized_value: 'fact-a' }, { url: 'https://example.org/ap', normalized_value: 'fact-a' }] }]
 };
 const draftSha = crypto.createHash('sha256').update(JSON.stringify(draft)).digest('hex');
-const promotion = { draft_path: 'editorial/verified/fixture.json', draft_sha256: draftSha, approved: true, approved_at: '2026-09-25T00:01:00Z', approval_note: 'Editorial review complete' };
+const promotion = { content_id: draft.content_id, draft_path: 'editorial/verified/fixture.json', draft_sha256: draftSha, approved: true, approved_at: '2026-09-25T00:01:00Z', approval_note: 'Editorial review complete' };
 
 test('builds a blocked_media record only from an approved exact draft revision', () => {
   const record = buildEditorialPromotion({ promotion, draft, draftPath: promotion.draft_path, draftSha });
@@ -90,4 +90,14 @@ test('promotion rejects drafts that have not passed claim consensus', () => {
   const legacy = structuredClone(draft);
   legacy.verification_status = 'verified_two_independent_reports';
   assert.throws(() => buildEditorialPromotion({ promotion, draft: legacy, draftPath: promotion.draft_path, draftSha }), /verified_claim_consensus|claim consensus/);
+});
+
+
+test('rejects promotion manifests without content_id', () => {
+  const { content_id, ...missing } = promotion;
+  assert.throws(() => buildEditorialPromotion({ promotion: missing, draft, draftPath: promotion.draft_path, draftSha }), /manifest\.content_id/);
+});
+
+test('rejects promotion manifest content_id that does not match the draft', () => {
+  assert.throws(() => buildEditorialPromotion({ promotion: { ...promotion, content_id: 'matrix24-wrong-content' }, draft, draftPath: promotion.draft_path, draftSha }), /must match draft\.content_id/);
 });
