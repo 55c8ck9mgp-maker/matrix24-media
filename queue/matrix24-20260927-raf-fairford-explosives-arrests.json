@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-09-27T13:47:59Z",
+  "content_id": "matrix24-20260927-raf-fairford-explosives-arrests",
+  "status": "blocked_media",
+  "headline": "Several men arrested in explosives investigation near RAF Fairford as homes are evacuated",
+  "category": "World",
+  "editorial_category": "World",
+  "event_date": "2026-09-27",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/uk/security-increased-us-fairford-air-base-england-2026-09-27/",
+    "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-27",
+      "url": "https://www.reuters.com/world/uk/security-increased-us-fairford-air-base-england-2026-09-27/",
+      "supports": [
+        "British police arrested several men on suspicion of offences under the Explosives Act near RAF Fairford.",
+        "Properties in the Whelford area were evacuated and Army explosive-ordnance specialists examined vehicles."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "CBS News / Associated Press",
+      "publication_date": "2026-09-27",
+      "url": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+      "supports": [
+        "Several men were arrested on suspicion of explosives-related offences near RAF Fairford.",
+        "Police evacuated properties in Whelford and an Army bomb-disposal team examined vehicles."
+      ],
+      "independent_source_id": "associated_press",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "British police arrested several men on suspicion of offences under the Explosives Act near RAF Fairford on September 27.",
+      "material": true,
+      "normalized_value": "date=2026-09-27|location=Whelford_near_RAF_Fairford|arrests=several_men|suspicion=Explosives_Act_offences",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/uk/security-increased-us-fairford-air-base-england-2026-09-27/",
+          "normalized_value": "date=2026-09-27|location=Whelford_near_RAF_Fairford|arrests=several_men|suspicion=Explosives_Act_offences"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+          "normalized_value": "date=2026-09-27|location=Whelford_near_RAF_Fairford|arrests=several_men|suspicion=Explosives_Act_offences"
+        }
+      ]
+    },
+    {
+      "claim": "Properties in Whelford were evacuated and Army explosive-ordnance specialists examined vehicles.",
+      "material": true,
+      "normalized_value": "evacuation=Whelford_properties|army_EOD=deployed|vehicles=examined",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/uk/security-increased-us-fairford-air-base-england-2026-09-27/",
+          "normalized_value": "evacuation=Whelford_properties|army_EOD=deployed|vehicles=examined"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+          "normalized_value": "evacuation=Whelford_properties|army_EOD=deployed|vehicles=examined"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 British police arrested several men on suspicion of Explosives Act offences near RAF Fairford on Sept. 27. Homes in Whelford were evacuated while Army bomb-disposal specialists examined vehicles. Police had not established a public link between the arrests and the air base.\n\n🇪🇸 La policía británica arrestó a varios hombres bajo sospecha de delitos relacionados con la Ley de Explosivos cerca de RAF Fairford el 27 de septiembre. Viviendas en Whelford fueron evacuadas mientras especialistas militares en desactivación de explosivos examinaban vehículos. La policía no había establecido públicamente un vínculo entre los arrestos y la base aérea.\n\nSources: Reuters / Associated Press via CBS News — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#UK",
+    "#RAFFairford",
+    "#Whelford",
+    "#WorldNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a secured perimeter near a British military airfield in rural Gloucestershire, emergency vehicles and a distant air-base fence, bomb-disposal specialists represented generically with no identifiable individuals, restrained breaking-news composition, no explosion, no fabricated evidence, no copied documentary photography, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Reuters and Associated Press reporting carried by CBS News independently confirm the retained material claims: several men were arrested on suspicion of Explosives Act offences near RAF Fairford on September 27, properties in Whelford were evacuated, and Army bomb-disposal specialists examined vehicles. The draft does not claim the arrests were linked to RAF Fairford because police had not publicly established that link. Repository searches across editorial/verified, editorial/promotions and queue, plus open editorial-intake PR screening, found no matching content ID or materially overlapping RAF Fairford/Whelford explosives story before intake. Source publication date and event date were checked as September 27, 2026.",
+  "verification_status": "verified_claim_consensus",
+  "editorial_promotion": {
+    "manifest_path": "editorial/promotions/matrix24-20260927-raf-fairford-explosives-arrests.json",
+    "draft_path": "editorial/verified/matrix24-20260927-raf-fairford-explosives-arrests.json",
+    "draft_sha256": "d90a83df431a3572e610be3933fc382577e10532ec93805dce50d8138c7b8148",
+    "approved_at": "2026-09-27T13:47:59Z",
+    "approval_note": "Editorial approval for the exact verified RAF Fairford draft revision merged via PR #54. Approval authorizes Promotion Controller admission only; it does not authorize media generation or publication."
+  }
+}
