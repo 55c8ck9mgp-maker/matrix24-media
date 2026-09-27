@@ -72,7 +72,7 @@ jobs:
           NODE
       - name: Guard queue writes
         run: |
-          queues="$(git diff --name-only "$BASE_REF" "$HEAD_REF" | grep '^queue/.*\.json || true)"
+          queues="$(git diff --name-only "$BASE_REF" "$HEAD_REF" | grep '^queue/.*\.json$' || true)"
           if [ -z "$queues" ]; then exit 0; fi
           count="$(printf '%s\n' "$queues" | sed '/^$/d' | wc -l)"
           [ "$count" -eq 1 ] || { echo "editorial queue promotion rejected: exactly one queue file may change"; exit 1; }
