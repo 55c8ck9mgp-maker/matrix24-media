@@ -1,0 +1,81 @@
+{
+  "content_id": "matrix24-20260927-uttar-pradesh-floods-landslides",
+  "researched_at": "2026-09-27T16:41:00Z",
+  "event_date": "2026-09-27",
+  "headline": "Heavy rain, floods and landslides kill at least 56 people in Uttar Pradesh",
+  "category": "World",
+  "editorial_category": "World",
+  "verified_source_urls": [
+    "https://www.reuters.com/business/environment/floods-landslides-kill-15-india-four-nepal-rivers-rise-2026-09-27/",
+    "https://www.malaymail.com/news/world/2026/09/27/at-least-56-dead-in-indias-uttar-pradesh-after-floods-and-landslides-triggered-by-days-of-heavy-rain/236769"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-27",
+      "url": "https://www.reuters.com/business/environment/floods-landslides-kill-15-india-four-nepal-rivers-rise-2026-09-27/",
+      "supports": [
+        "Heavy rain and storms triggered floods and landslides in Uttar Pradesh.",
+        "At least 56 people were killed in Uttar Pradesh and more than 1,000 houses were damaged."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Malay Mail / AFP",
+      "publication_date": "2026-09-27",
+      "url": "https://www.malaymail.com/news/world/2026/09/27/at-least-56-dead-in-indias-uttar-pradesh-after-floods-and-landslides-triggered-by-days-of-heavy-rain/236769",
+      "supports": [
+        "Heavy rain triggered floods and landslides in Uttar Pradesh.",
+        "At least 56 people were killed over three days and more than 1,000 houses were damaged."
+      ],
+      "independent_source_id": "afp",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Heavy rain triggered floods and landslides in Uttar Pradesh, killing at least 56 people over three days.",
+      "material": true,
+      "normalized_value": "location=Uttar_Pradesh|cause=heavy_rain|hazards=floods_landslides|deaths_at_least=56|period=three_days",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/business/environment/floods-landslides-kill-15-india-four-nepal-rivers-rise-2026-09-27/",
+          "normalized_value": "location=Uttar_Pradesh|cause=heavy_rain|hazards=floods_landslides|deaths_at_least=56|period=three_days"
+        },
+        {
+          "url": "https://www.malaymail.com/news/world/2026/09/27/at-least-56-dead-in-indias-uttar-pradesh-after-floods-and-landslides-triggered-by-days-of-heavy-rain/236769",
+          "normalized_value": "location=Uttar_Pradesh|cause=heavy_rain|hazards=floods_landslides|deaths_at_least=56|period=three_days"
+        }
+      ]
+    },
+    {
+      "claim": "More than 1,000 houses were damaged in Uttar Pradesh during the severe weather.",
+      "material": true,
+      "normalized_value": "location=Uttar_Pradesh|houses_damaged=>1000",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/business/environment/floods-landslides-kill-15-india-four-nepal-rivers-rise-2026-09-27/",
+          "normalized_value": "location=Uttar_Pradesh|houses_damaged=>1000"
+        },
+        {
+          "url": "https://www.malaymail.com/news/world/2026/09/27/at-least-56-dead-in-indias-uttar-pradesh-after-floods-and-landslides-triggered-by-days-of-heavy-rain/236769",
+          "normalized_value": "location=Uttar_Pradesh|houses_damaged=>1000"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Heavy rain triggered floods and landslides in Uttar Pradesh, India, killing at least 56 people over three days. Authorities reported that more than 1,000 houses were damaged.\n\n🇪🇸 Fuertes lluvias provocaron inundaciones y deslizamientos de tierra en Uttar Pradesh, India, causando al menos 56 muertes durante tres días. Las autoridades informaron que más de 1.000 viviendas resultaron dañadas.\n\nSources: Reuters / AFP via Malay Mail — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#India",
+    "#UttarPradesh",
+    "#Floods",
+    "#WorldNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of severe monsoon flooding in Uttar Pradesh, India, showing rain-swollen streets, partially flooded homes and emergency-response activity with generic non-identifiable figures, restrained international-news composition, no bodies, no fabricated documentary details, no copied news photography, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Reuters and AFP reporting carried by Malay Mail independently confirm the retained material claims: heavy rain triggered floods and landslides in Uttar Pradesh, at least 56 people died over three days, and more than 1,000 houses were damaged. Repository reconciliation found one pre-existing dedicated editorial-intake branch for this content_id, no durable verified file on main, and no PR for this content_id; this repair reuses that branch under INC-017 rather than creating a second intake path.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
