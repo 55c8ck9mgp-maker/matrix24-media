@@ -1,0 +1,19 @@
+name: Publisher lifecycle audit fixtures
+on:
+  pull_request:
+    paths:
+      - 'scripts/publisher_lifecycle_audit.py'
+      - 'tests/test_publisher_lifecycle_audit.py'
+      - '.github/workflows/publisher-lifecycle-audit.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Test isolated observation journal
+        run: python3 -m unittest discover -s tests -p 'test_publisher_lifecycle_audit.py' -v
