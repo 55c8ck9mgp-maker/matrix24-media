@@ -42,7 +42,7 @@ jobs:
           git cat-file -e "$HEAD_REF^{commit}"
           git merge-base --is-ancestor "$BASE_REF" "$HEAD_REF" || { echo "promotion guard rejected: base is not an ancestor of head"; exit 1; }
       - name: Validate regressions
-        run: node --test tests/editorial-intake.test.mjs tests/editorial-promotion.test.mjs tests/provenance-reconciliation.test.mjs tests/matrix24-health.test.mjs
+        run: node --test tests/editorial-intake.test.mjs tests/editorial-promotion.test.mjs tests/editorial-promotion-guard-workflow.test.mjs tests/provenance-reconciliation.test.mjs tests/matrix24-health.test.mjs
       - name: Validate Promotion Controller workflow invariants
         run: |
           node - <<'NODE'
