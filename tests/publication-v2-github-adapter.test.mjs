@@ -23,7 +23,7 @@ test('reservation reads current main blob and writes replacement against exactly
  const f=fakeGithub(), result=await adapter(f).reserve(plan());
  assert.equal(result.kind,'written');assert.equal(result.record.sha,sha('b'));assert.equal(f.calls.length,2);
  const write=JSON.parse(f.calls[1].init.body);assert.equal(write.sha,sha('a'));assert.equal(write.branch,'main');
- assert.match(f.calls[1].init.headers.authorization,/^Bearer /);assert.equal(JSON.stringify(f.calls).includes('x'.repeat(20)),false);
+ assert.match(f.calls[1].init.headers.authorization,/^Bearer /);assert.equal(JSON.stringify(result).includes('x'.repeat(20)),false);
 });
 test('stale SHA and non-ready state conflict before any conditional write',async()=>{
  for(const fixture of [fakeGithub({initialSha:sha('c')}),fakeGithub({initial:record({status:'publish_unknown'})})]){
