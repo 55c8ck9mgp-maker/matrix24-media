@@ -1,0 +1,66 @@
+name: Production state invariant audit
+
+on:
+  pull_request:
+    paths:
+      - 'queue/*.json'
+      - 'editorial/verified/*.json'
+      - 'editorial/promotions/*.json'
+      - 'scripts/audit-production-state.mjs'
+      - 'scripts/select-promotion-work.mjs'
+      - 'scripts/classify-matrix24-health.mjs'
+      - 'tests/production-state-audit.test.mjs'
+      - 'tests/promotion-work-selection.test.mjs'
+      - 'tests/promotion-controller-trigger.test.mjs'
+      - 'tests/matrix24-health.test.mjs'
+      - '.github/workflows/editorial-queue-promotion.yml'
+      - '.github/workflows/editorial-intake.yml'
+      - '.github/workflows/editorial-promotion-guard.yml'
+      - '.github/workflows/production-state-audit.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'queue/*.json'
+      - 'editorial/verified/*.json'
+      - 'editorial/promotions/*.json'
+      - 'scripts/audit-production-state.mjs'
+      - 'scripts/select-promotion-work.mjs'
+      - 'scripts/classify-matrix24-health.mjs'
+      - 'tests/production-state-audit.test.mjs'
+      - 'tests/promotion-work-selection.test.mjs'
+      - 'tests/promotion-controller-trigger.test.mjs'
+      - 'tests/matrix24-health.test.mjs'
+      - '.github/workflows/editorial-queue-promotion.yml'
+      - '.github/workflows/editorial-intake.yml'
+      - '.github/workflows/editorial-promotion-guard.yml'
+      - '.github/workflows/production-state-audit.yml'
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-state-invariant-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Run stability contract tests
+        run: |
+          node --test \
+            tests/production-state-audit.test.mjs \
+            tests/promotion-work-selection.test.mjs \
+            tests/promotion-controller-trigger.test.mjs \
+            tests/matrix24-health.test.mjs
+      - name: Audit current durable production state
+        run: node scripts/audit-production-state.mjs
