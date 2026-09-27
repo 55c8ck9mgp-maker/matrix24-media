@@ -8,9 +8,12 @@ on:
         required: true
         type: string
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
       - 'editorial/promotions/*.json'
+  schedule:
+    - cron: '*/15 * * * *'
 
 permissions:
   contents: write
@@ -47,6 +50,24 @@ jobs:
           git checkout --detach origin/main
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             MANIFEST_PATH="$DISPATCH_MANIFEST_PATH"
+          elif [ "$EVENT_NAME" = "schedule" ]; then
+            MANIFEST_PATH="$(node - <<'NODE'
+          const fs=require('fs');
+          const manifests=fs.readdirSync('editorial/promotions').filter(n=>n.endsWith('.json')).sort();
+          const queues=new Set(fs.readdirSync('queue').filter(n=>n.endsWith('.json')).map(n=>n.slice(0,-5)));
+          for (const name of manifests) {
+            const p='editorial/promotions/'+name;
+            let m; try { m=JSON.parse(fs.readFileSync(p,'utf8')); } catch { continue; }
+            if (m?.approved===true && typeof m?.content_id==='string' && !queues.has(m.content_id)) {
+              process.stdout.write(p); break;
+            }
+          }
+          NODE
+          )"
+            if [ -z "$MANIFEST_PATH" ]; then
+              echo "promotion controller: no approved unadmitted manifest"
+              exit 0
+            fi
           else
             mapfile -t manifests < <(git diff --name-only "$BEFORE_SHA" origin/main -- 'editorial/promotions/*.json')
             if [ "${#manifests[@]}" -ne 1 ]; then
