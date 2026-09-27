@@ -45,6 +45,18 @@ jobs:
             echo 'editorial intake validation: no changed drafts'
             exit 0
           fi
+          non_intake_files="$(printf '%s\n' "$changed_files" | grep -v '^editorial/verified/.*\.json          mkdir .editorial-intake-candidate
+          git archive "$HEAD_REF" editorial/verified | tar -x -C .editorial-intake-candidate
+          printf '%s\n' "$intake_files" | (cd .editorial-intake-candidate && xargs node ../scripts/validate-editorial-intake.mjs)
+ || true)"
+          intake_count="$(printf '%s\n' "$intake_files" | sed '/^$/d' | wc -l | tr -d ' ')"
+          intake_status="$(git diff --name-status "$BASE_REF" "$HEAD_REF" | awk '$2 ~ /^editorial\/verified\/.*\.json$/ {print $1}')"
+          if [ "$intake_count" != '1' ] || [ -n "$non_intake_files" ] || [ "$intake_status" != 'A' ]; then
+            echo 'editorial intake rejected: intake PRs may add exactly one editorial/verified JSON file and change nothing else'
+            exit 1
+          fi
+          intake_file="$intake_files"
+          git cat-file -e "$BASE_REF:$intake_file" 2>/dev/null && { echo 'editorial intake rejected: content already exists on trusted main'; exit 1; } || true
           rm -rf .editorial-intake-candidate
           mkdir .editorial-intake-candidate
           git archive "$HEAD_REF" editorial/verified | tar -x -C .editorial-intake-candidate
