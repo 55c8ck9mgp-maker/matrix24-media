@@ -51,21 +51,16 @@ jobs:
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             MANIFEST_PATH="$DISPATCH_MANIFEST_PATH"
           elif [ "$EVENT_NAME" = "schedule" ]; then
-            MANIFEST_PATH="$(node - <<'NODE'
-          const fs=require('fs');
-          const manifests=fs.readdirSync('editorial/promotions').filter(n=>n.endsWith('.json')).sort();
-          const queues=new Set(fs.readdirSync('queue').filter(n=>n.endsWith('.json')).map(n=>n.slice(0,-5)));
-          for (const name of manifests) {
-            const p='editorial/promotions/'+name;
-            let m; try { m=JSON.parse(fs.readFileSync(p,'utf8')); } catch { continue; }
-            if (m?.approved===true && typeof m?.content_id==='string' && !queues.has(m.content_id)) {
-              process.stdout.write(p); break;
-            }
-          }
-          NODE
-          )"
+            node scripts/select-promotion-work.mjs > .promotion-selection.json
+            cat .promotion-selection.json
+            MANIFEST_PATH="$(node -e 'const r=require("./.promotion-selection.json"); process.stdout.write(r.manifest_path || "")')"
+            quarantined="$(node -e 'const r=require("./.promotion-selection.json"); process.stdout.write(String((r.quarantined||[]).length))')"
+            if [ "$quarantined" -gt 0 ]; then
+              echo "::warning::Promotion recovery quarantined $quarantined invalid approved manifest(s); valid independent work may continue."
+            fi
             if [ -z "$MANIFEST_PATH" ]; then
-              echo "promotion controller: no approved unadmitted manifest"
+              echo "promotion controller: no valid approved unadmitted manifest"
+              echo "has_work=false" >> "$GITHUB_OUTPUT"
               exit 0
             fi
           else
@@ -82,9 +77,10 @@ jobs:
           esac
           result="$(node scripts/prepare-editorial-queue-pr.mjs "$MANIFEST_PATH" .promotion-output)"
           printf '%s' "$result" > promotion-result.json
-          node -e 'const r=require("./promotion-result.json"); require("fs").appendFileSync(process.env.GITHUB_OUTPUT, `content_id=${r.content_id}\nqueue_path=${r.output_path}\nmanifest_path=${r.manifest_path}\n`)' 
+          node -e 'const r=require("./promotion-result.json"); require("fs").appendFileSync(process.env.GITHUB_OUTPUT, `has_work=true\ncontent_id=${r.content_id}\nqueue_path=${r.output_path}\nmanifest_path=${r.manifest_path}\n`)'
 
       - name: Create or reuse exactly one queue-only promotion branch
+        if: steps.promotion.outputs.has_work == 'true'
         id: queue_branch
         env:
           GH_TOKEN: ${{ github.token }}
@@ -123,8 +119,8 @@ jobs:
           echo "reuse_existing=false" >> "$GITHUB_OUTPUT"
           echo "Promotion branch pushed successfully: $branch"
 
-
       - name: Create exactly one reviewable promotion PR
+        if: steps.promotion.outputs.has_work == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           CONTENT_ID: ${{ steps.promotion.outputs.content_id }}

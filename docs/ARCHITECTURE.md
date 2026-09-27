@@ -35,7 +35,7 @@ Publication Plane
 Auto Publisher
     |  current reads + duplicate preflight
     |  durable publication claim
-    +--> Windsor / Instagram (one external write maximum)
+    +--> Metricool / Instagram (one external write maximum)
     v
 GitHub queue (published)
 
@@ -58,7 +58,9 @@ Discovers and verifies candidate stories and produces non-production drafts unde
 ### Promotion Plane — Promotion Controller
 The only admission boundary from verified editorial content to production. It accepts only an explicitly approved manifest bound to the exact reviewed draft SHA. It validates the draft, approval, deterministic output and duplicate `content_id`, then creates exactly one `blocked_media` queue record through a reviewable queue-only change.
 
-Promotion is idempotent by `content_id` + approved draft SHA. Re-running an already admitted promotion is a no-op/failure-safe condition, never a second queue record.
+Promotion is idempotent by `content_id` + approved draft SHA. Re-running an already admitted promotion is a successful no-op, never a second queue record. Scheduled recovery validates candidates independently so one malformed approved manifest cannot starve later valid work. Invalid unadmitted candidates remain quarantined for repair.
+
+Historical approved manifests created before `manifest.content_id` became mandatory are immutable audit evidence. They are inert only when the matching queue record already exists. They are never eligible for fresh admission under the current contract.
 
 ### Media Plane — Cloudflare Worker
 Media-only production component. It owns:
@@ -77,7 +79,7 @@ It does not research stories, approve/promote editorial drafts, generate media, 
 Owns resolution of `publishing` / `publish_unknown`. Positive account-bound media evidence may finalize `published`. Ambiguous or incomplete evidence remains quarantined. Reconciliation never starts a replacement POST.
 
 ### Observation Plane
-Health/watch components read state and alert on invariant violations, stalled transitions and connector failures. They never repair, publish, promote, reset claims or alter production schedules.
+Health/watch components and the production-state invariant audit read state and alert on invariant violations, stalled transitions and connector failures. They never repair, publish, promote, reset claims or alter production schedules.
 
 ### Claude
 Engineering/staging and independent review only. No production publishing authority.
@@ -104,17 +106,25 @@ publishing -> publish_unknown -> reconciliation -> published
 
 A definitive pre-write failure may return a record to `ready_to_publish` only when durable evidence proves the external publication action was not invoked. The failed attempt remains in history and a future attempt receives a new attempt ID.
 
+## Publication evidence
+
+A valid account-bound Instagram Media ID is the strongest success evidence. Metricool status `PUBLISHED` paired with the resulting Instagram public URL/permalink is also positive terminal publication evidence. A scheduler receipt alone is not publication evidence.
+
+Missing permalink never reopens a Media-ID-confirmed publication. Conversely, a valid Instagram permalink archived from a provider-confirmed `PUBLISHED` result does not require a second POST merely because a Media ID was unavailable through that provider path.
+
 ## Critical invariants
 
 1. Exactly one owner for each state transition.
 2. GitHub is authoritative; caches and social feeds are evidence, not state authority.
 3. Every consequential write is preceded by a durable claim or deterministic admission boundary.
 4. No blind retry after a potentially completed external operation.
-5. A real Instagram media ID bound to the correct account is primary success evidence.
+5. Positive publication evidence must be durable and bound to Instagram; a scheduler receipt alone is insufficient.
 6. Missing permalink never causes republishing.
 7. Feed absence never proves nonpublication.
 8. Stale/truncated/cached reads never authorize retry.
 9. Production media generation and social publication remain separate.
 10. Editorial research cannot directly reach Instagram.
-11. Promotion is deterministic and duplicate-safe.
-12. Facebook and Threads remain independent future channels; their failure must not block Instagram.
+11. Promotion is deterministic and duplicate-safe; no valid pending work is a successful no-op.
+12. One invalid promotion candidate cannot block independent valid candidates.
+13. Legacy approval artifacts cannot become fresh admissions under the current schema.
+14. Facebook and Threads remain independent future channels; their failure must not block Instagram.
