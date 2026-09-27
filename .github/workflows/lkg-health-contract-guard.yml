@@ -6,8 +6,6 @@ on:
       - "scripts/classify-matrix24-health.mjs"
       - "scripts/publication-plane-policy.mjs"
       - "tests/publication-plane-policy.test.mjs"
-      - "scripts/publication-plane-policy.mjs"
-      - "tests/publication-plane-policy.test.mjs"
       - "worker/staging/reliability/**"
       - "tests/matrix24-health.test.mjs"
       - "tests/lkg-v2-production-contract.test.mjs"
@@ -21,6 +19,8 @@ on:
       - main
     paths:
       - "scripts/classify-matrix24-health.mjs"
+      - "scripts/publication-plane-policy.mjs"
+      - "tests/publication-plane-policy.test.mjs"
       - "worker/staging/reliability/**"
       - "tests/matrix24-health.test.mjs"
       - "tests/lkg-v2-production-contract.test.mjs"
