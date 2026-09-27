@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-27T13:47:59Z",
   "content_id": "matrix24-20260927-raf-fairford-explosives-arrests",
-  "status": "publishing",
+  "status": "published",
   "headline": "Several men arrested in explosives investigation near RAF Fairford as homes are evacuated",
   "category": "World",
   "editorial_category": "World",
@@ -120,12 +120,22 @@
       "metricool_scheduled_post_id": 382918390,
       "metricool_scheduled_post_uuid": "-8436463976038248749",
       "provider_status": "PENDING"
+    },
+    {
+      "timestamp": "2026-09-27T15:36:00Z",
+      "stage": "publication",
+      "result": "success",
+      "provider": "metricool",
+      "publish_attempt_id": "m24-20260927T1532Z-raf-fairford-metricool",
+      "metricool_scheduled_post_id": 382918390,
+      "metricool_scheduled_post_uuid": "-8436463976038248749",
+      "provider_status": "PUBLISHED",
+      "instagram_permalink": "https://www.instagram.com/p/Ddy8j_JjQrm/"
     }
   ],
-  "publish_attempt_id": "m24-20260927T1532Z-raf-fairford-metricool",
-  "publishing_started_at": "2026-09-27T15:32:00Z",
-  "provider": "metricool",
   "metricool_scheduled_post_id": 382918390,
   "metricool_scheduled_post_uuid": "-8436463976038248749",
-  "publication_provider": "metricool"
+  "publication_provider": "metricool",
+  "instagram_permalink": "https://www.instagram.com/p/Ddy8j_JjQrm/",
+  "published_at": "2026-09-27T15:36:00Z"
 }
