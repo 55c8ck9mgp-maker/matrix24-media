@@ -1,20 +1,18 @@
 name: Editorial promotion guard
 
 on:
-  pull_request:
-    paths:
-      - "editorial/promotions/**"
-      - "editorial/verified/**"
-      - "queue/**"
-      - "scripts/build-editorial-promotion.mjs"
-      - "scripts/validate-editorial-intake.mjs"
-      - "scripts/validate-provenance-reconciliation.mjs"
-      - "scripts/classify-matrix24-health.mjs"
-      - "tests/editorial-promotion.test.mjs"
-      - "tests/provenance-reconciliation.test.mjs"
-      - "tests/matrix24-health.test.mjs"
-      - ".github/workflows/editorial-promotion-guard.yml"
-      - ".github/workflows/editorial-queue-promotion.yml"
+  repository_dispatch:
+    types: [editorial_promotion_guard]
+  workflow_dispatch:
+    inputs:
+      base_sha:
+        description: Trusted main SHA
+        required: true
+        type: string
+      head_sha:
+        description: Promotion PR head SHA
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -23,13 +21,22 @@ jobs:
   validate-promotion:
     runs-on: ubuntu-latest
     timeout-minutes: 2
+    env:
+      BASE_REF: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.base_sha || inputs.base_sha }}
+      HEAD_REF: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.head_sha || inputs.head_sha }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
+          ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.head_sha || inputs.head_sha }}
           fetch-depth: 0
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: "22"
+      - name: Validate trusted dispatch inputs
+        run: |
+          git cat-file -e "$BASE_REF^{commit}"
+          git cat-file -e "$HEAD_REF^{commit}"
+          git merge-base --is-ancestor "$BASE_REF" "$HEAD_REF" || { echo "promotion guard rejected: base is not an ancestor of head"; exit 1; }
       - name: Validate regressions
         run: node --test tests/editorial-intake.test.mjs tests/editorial-promotion.test.mjs tests/provenance-reconciliation.test.mjs tests/matrix24-health.test.mjs
       - name: Validate Promotion Controller workflow invariants
@@ -46,7 +53,9 @@ jobs:
             'gh pr create',
             '--base main',
             '--head "$PROMOTION_BRANCH"',
-            '--body-file pr-body.md'
+            '--body-file pr-body.md',
+            'editorial_promotion_guard',
+            '/dispatches'
           ];
           for (const token of required) {
             if (!s.includes(token)) throw new Error('promotion controller invariant missing: '+token);
@@ -55,9 +64,6 @@ jobs:
           console.log('Promotion Controller workflow invariants validated');
           NODE
       - name: Guard queue writes
-        env:
-          BASE_REF: ${{ github.event.pull_request.base.sha }}
-          HEAD_REF: ${{ github.event.pull_request.head.sha }}
         run: |
           queues="$(git diff --name-only "$BASE_REF" "$HEAD_REF" | grep '^queue/.*\.json$' || true)"
           if [ -z "$queues" ]; then exit 0; fi
