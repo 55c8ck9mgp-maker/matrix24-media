@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-09-26T23:35:39Z",
+  "content_id": "matrix24-20260926-virat-kohli-2027-world-cup-final",
+  "status": "blocked_media",
+  "headline": "Virat Kohli says 2027 Cricket World Cup will be his last for India",
+  "category": "Sports",
+  "editorial_category": "Sports",
+  "event_date": "2026-09-26",
+  "verified_source_urls": [
+    "https://www.reuters.com/sports/cricket/kohli-says-2027-world-cup-will-be-his-last-india-2026-09-26/",
+    "https://www.icc-cricket.com/news/india-star-confirms-icc-men-s-cwc27-will-be-his-last"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-26",
+      "url": "https://www.reuters.com/sports/cricket/kohli-says-2027-world-cup-will-be-his-last-india-2026-09-26/",
+      "supports": [
+        "Virat Kohli said the 2027 ICC Men's Cricket World Cup will be his last World Cup for India.",
+        "Kohli said his goal is to win the tournament."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "International Cricket Council",
+      "publication_date": "2026-09-26",
+      "url": "https://www.icc-cricket.com/news/india-star-confirms-icc-men-s-cwc27-will-be-his-last",
+      "supports": [
+        "Kohli confirmed the 2027 ICC Men's Cricket World Cup will be his last for India.",
+        "Kohli said his goal is to win the World Cup and that he is ready to do whatever it takes."
+      ],
+      "independent_source_id": "icc",
+      "source_role": "primary_authority"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Virat Kohli said the 2027 ICC Men's Cricket World Cup will be his last World Cup for India.",
+      "material": true,
+      "normalized_value": "player=Virat_Kohli|event=ICC_Mens_Cricket_World_Cup_2027|status=last_world_cup_for_india",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/sports/cricket/kohli-says-2027-world-cup-will-be-his-last-india-2026-09-26/",
+          "normalized_value": "player=Virat_Kohli|event=ICC_Mens_Cricket_World_Cup_2027|status=last_world_cup_for_india"
+        },
+        {
+          "url": "https://www.icc-cricket.com/news/india-star-confirms-icc-men-s-cwc27-will-be-his-last",
+          "normalized_value": "player=Virat_Kohli|event=ICC_Mens_Cricket_World_Cup_2027|status=last_world_cup_for_india"
+        }
+      ]
+    },
+    {
+      "claim": "Kohli said his goal is to win the 2027 World Cup.",
+      "material": true,
+      "normalized_value": "player=Virat_Kohli|goal=win_2027_world_cup",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/sports/cricket/kohli-says-2027-world-cup-will-be-his-last-india-2026-09-26/",
+          "normalized_value": "player=Virat_Kohli|goal=win_2027_world_cup"
+        },
+        {
+          "url": "https://www.icc-cricket.com/news/india-star-confirms-icc-men-s-cwc27-will-be-his-last",
+          "normalized_value": "player=Virat_Kohli|goal=win_2027_world_cup"
+        }
+      ]
+    }
+  ],
+  "caption": "🇪🇸 Virat Kohli confirmó que la Copa Mundial masculina de críquet de 2027 será su último Mundial con India. El veterano bateador dijo que su objetivo es ganar el torneo.\\n\\n🇺🇸 Virat Kohli confirmed that the 2027 ICC Men's Cricket World Cup will be his last World Cup for India. The veteran batter said his goal is to win the tournament.\\n\\nSources: Reuters / ICC — Sept. 26, 2026.\\n\\nVisual editorial generado con IA; no es una fotografía documental. / AI-generated editorial visual; not a documentary photograph.",
+  "hashtags": [
+    "#MATRIX24",
+    "#ViratKohli",
+    "#TeamIndia",
+    "#Cricket",
+    "#CWC27",
+    "#Sports"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a veteran Indian cricket batter preparing for a final World Cup campaign, blue India-inspired sporting colors, stadium lights and a distant championship trophy silhouette, respectful realistic sports-news composition, no copied or fabricated documentary photograph, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Reuters and the International Cricket Council independently confirm the two material claims retained in the headline and caption: Kohli says the 2027 World Cup will be his last for India, and his stated goal is to win it. Repository inspection of editorial/verified, editorial/promotions and queue found no matching content ID or topic. GitHub code searches for 'Virat Kohli', '2027 World Cup' and 'Kohli World Cup' returned zero matches before creation.",
+  "verification_status": "verified_claim_consensus",
+  "editorial_promotion": {
+    "manifest_path": "editorial/promotions/matrix24-20260926-virat-kohli-2027-world-cup-final.json",
+    "draft_path": "editorial/verified/matrix24-20260926-virat-kohli-2027-world-cup-final.json",
+    "draft_sha256": "4ce78a6bcdf831dfdef0936d8ccfa67cb9371182adcebbfab1fa95907b3d34be",
+    "approved_at": "2026-09-26T23:35:39Z",
+    "approval_note": "Editorial promotion approval reconciled for the same content_id after canonical source_role normalization (primary_sports_authority -> primary_authority). No new editorial approval or admission is granted; exactly one deterministic Promotion Controller admission remains authorized."
+  }
+}
