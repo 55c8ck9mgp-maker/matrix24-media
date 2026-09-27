@@ -1,6 +1,10 @@
 name: Editorial promotion guard
 
 on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'queue/*.json'
   repository_dispatch:
     types: [editorial_promotion_guard]
   workflow_dispatch:
@@ -22,8 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 2
     env:
-      BASE_REF: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.base_sha || inputs.base_sha }}
-      HEAD_REF: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.head_sha || inputs.head_sha }}
+      BASE_REF: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.base.sha || (github.event_name == 'repository_dispatch' && github.event.client_payload.base_sha || inputs.base_sha) }}
+      HEAD_REF: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.sha || (github.event_name == 'repository_dispatch' && github.event.client_payload.head_sha || inputs.head_sha) }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
