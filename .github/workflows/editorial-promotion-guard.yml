@@ -65,13 +65,12 @@ jobs:
           NODE
       - name: Guard queue writes
         run: |
-          queues="$(git diff --name-only "$BASE_REF" "$HEAD_REF" | grep '^queue/.*\.json$' || true)"
+          queues="$(git diff --name-only "$BASE_REF" "$HEAD_REF" | grep '^queue/.*\.json || true)"
           if [ -z "$queues" ]; then exit 0; fi
           count="$(printf '%s\n' "$queues" | sed '/^$/d' | wc -l)"
-          [ "$count" -eq 1 ] || { echo "provenance reconciliation rejected: exactly one queue file may change"; exit 1; }
+          [ "$count" -eq 1 ] || { echo "editorial queue promotion rejected: exactly one queue file may change"; exit 1; }
           queue="$queues"
-          id="$(basename "$queue" .json)"
-          draft="editorial/verified/$id.json"
-          manifest="editorial/promotions/$id.json"
-          git show "$BASE_REF:$queue" > /tmp/queue-before.json
-          node scripts/validate-provenance-reconciliation.mjs /tmp/queue-before.json "$queue" "$draft" "$manifest" queue/*.json
+          git cat-file -e "$BASE_REF:$queue" 2>/dev/null && { echo "editorial queue promotion rejected: queue record already exists on trusted main"; exit 1; } || true
+          cp "$queue" /tmp/promotion-candidate.json
+          git checkout --detach "$BASE_REF"
+          node scripts/validate-editorial-queue-promotion.mjs "$queue" /tmp/promotion-candidate.json
