@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - "scripts/classify-matrix24-health.mjs"
+      - "scripts/publication-plane-policy.mjs"
+      - "tests/publication-plane-policy.test.mjs"
+      - "scripts/publication-plane-policy.mjs"
+      - "tests/publication-plane-policy.test.mjs"
       - "worker/staging/reliability/**"
       - "tests/matrix24-health.test.mjs"
       - "tests/lkg-v2-production-contract.test.mjs"
@@ -44,6 +48,7 @@ jobs:
       - name: Syntax check contract code
         run: |
           node --check scripts/classify-matrix24-health.mjs
+          node --check scripts/publication-plane-policy.mjs
           node --check worker/staging/reliability/policy.mjs
           node --check worker/staging/reliability/receipt-policy.mjs
           node --check worker/staging/reliability/metricool-adapter.mjs
@@ -55,4 +60,5 @@ jobs:
             tests/lkg-v2-e2e.test.mjs \
             tests/publication-reliability.test.mjs \
             tests/receipt-policy.test.mjs \
-            tests/metricool-lkg-v2-adapter.test.mjs
+            tests/metricool-lkg-v2-adapter.test.mjs \
+            tests/publication-plane-policy.test.mjs
