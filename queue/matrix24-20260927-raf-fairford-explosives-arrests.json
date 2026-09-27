@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-27T13:47:59Z",
   "content_id": "matrix24-20260927-raf-fairford-explosives-arrests",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Several men arrested in explosives investigation near RAF Fairford as homes are evacuated",
   "category": "World",
   "editorial_category": "World",
@@ -84,8 +84,25 @@
     "approved_at": "2026-09-27T13:47:59Z",
     "approval_note": "Editorial approval for the exact verified RAF Fairford draft revision merged via PR #54. Approval authorizes Promotion Controller admission only; it does not authorize media generation or publication."
   },
-  "media_claim": {
-    "id": "95158bcb-ad40-4fcd-9643-c7006b1e7bb3",
-    "started_at": "2026-09-27T14:16:13.930Z"
-  }
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-4ef55adf04f0835c9f0acac3370126dfe9c85009b2b9cfec73123ca79dc6e429-v1.jpg",
+  "image_filename": "matrix24-4ef55adf04f0835c9f0acac3370126dfe9c85009b2b9cfec73123ca79dc6e429-v1.jpg",
+  "media_ready_at": "2026-09-27T14:16:28.625Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 347222,
+    "alpha": false
+  },
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-27T14:16:28.625Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "95158bcb-ad40-4fcd-9643-c7006b1e7bb3",
+      "image_filename": "matrix24-4ef55adf04f0835c9f0acac3370126dfe9c85009b2b9cfec73123ca79dc6e429-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-4ef55adf04f0835c9f0acac3370126dfe9c85009b2b9cfec73123ca79dc6e429-v1.jpg"
+    }
+  ]
 }
