@@ -111,9 +111,22 @@
       "result": "started",
       "provider": "metricool",
       "publish_attempt_id": "m24-20260927T1238Z-england-nz-metricool"
+    },
+    {
+      "timestamp": "2026-09-27T12:40:00Z",
+      "stage": "publication",
+      "result": "provider_receipt",
+      "provider": "metricool",
+      "publish_attempt_id": "m24-20260927T1238Z-england-nz-metricool",
+      "metricool_scheduled_post_id": 382857076,
+      "metricool_scheduled_post_uuid": "-5603080562669829047",
+      "provider_status": "PENDING"
     }
   ],
   "publish_attempt_id": "m24-20260927T1238Z-england-nz-metricool",
   "publishing_started_at": "2026-09-27T12:38:00Z",
-  "provider": "metricool"
+  "provider": "metricool",
+  "metricool_scheduled_post_id": 382857076,
+  "metricool_scheduled_post_uuid": "-5603080562669829047",
+  "publication_provider": "metricool"
 }
