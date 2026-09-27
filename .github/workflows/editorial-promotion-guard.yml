@@ -78,6 +78,6 @@ jobs:
           [ "$count" -eq 1 ] || { echo "editorial queue promotion rejected: exactly one queue file may change"; exit 1; }
           queue="$queues"
           git cat-file -e "$BASE_REF:$queue" 2>/dev/null && { echo "editorial queue promotion rejected: queue record already exists on trusted main"; exit 1; } || true
-          cp "$queue" /tmp/promotion-candidate.json
+          git show "$HEAD_REF:$queue" > /tmp/promotion-candidate.json
           git checkout --detach "$BASE_REF"
           node scripts/validate-editorial-queue-promotion.mjs "$queue" /tmp/promotion-candidate.json
