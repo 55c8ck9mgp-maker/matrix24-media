@@ -110,9 +110,22 @@
       "result": "started",
       "provider": "metricool",
       "publish_attempt_id": "m24-20260927T1532Z-raf-fairford-metricool"
+    },
+    {
+      "timestamp": "2026-09-27T15:34:00Z",
+      "stage": "publication",
+      "result": "provider_receipt",
+      "provider": "metricool",
+      "publish_attempt_id": "m24-20260927T1532Z-raf-fairford-metricool",
+      "metricool_scheduled_post_id": 382918390,
+      "metricool_scheduled_post_uuid": "-8436463976038248749",
+      "provider_status": "PENDING"
     }
   ],
   "publish_attempt_id": "m24-20260927T1532Z-raf-fairford-metricool",
   "publishing_started_at": "2026-09-27T15:32:00Z",
-  "provider": "metricool"
+  "provider": "metricool",
+  "metricool_scheduled_post_id": 382918390,
+  "metricool_scheduled_post_uuid": "-8436463976038248749",
+  "publication_provider": "metricool"
 }
