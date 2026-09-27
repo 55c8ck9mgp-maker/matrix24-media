@@ -95,11 +95,28 @@ jobs:
             exit 1
           fi
           if [ "$existing" -eq 1 ]; then
-            echo "Exactly one promotion PR already exists; no-op."
-            exit 0
+            echo "Exactly one promotion PR already exists; reusing it."
+          else
+            gh pr create \
+              --base main \
+              --head "$PROMOTION_BRANCH" \
+              --title "Queue approved promotion: $CONTENT_ID" \
+              --body-file pr-body.md
           fi
-          gh pr create \
-            --base main \
-            --head "$PROMOTION_BRANCH" \
-            --title "Queue approved promotion: $CONTENT_ID" \
-            --body-file pr-body.md
+
+          pr_json="$(gh pr view "$PROMOTION_BRANCH" --json number,baseRefOid,headRefOid)"
+          pr_number="$(printf '%s' "$pr_json" | jq -r '.number')"
+          base_sha="$(printf '%s' "$pr_json" | jq -r '.baseRefOid')"
+          head_sha="$(printf '%s' "$pr_json" | jq -r '.headRefOid')"
+          [ -n "$pr_number" ] && [ "$pr_number" != "null" ] || { echo "promotion controller rejected: PR number unavailable"; exit 1; }
+          [ -n "$base_sha" ] && [ "$base_sha" != "null" ] || { echo "promotion controller rejected: base SHA unavailable"; exit 1; }
+          [ -n "$head_sha" ] && [ "$head_sha" != "null" ] || { echo "promotion controller rejected: head SHA unavailable"; exit 1; }
+
+          gh api --method POST "repos/$GITHUB_REPOSITORY/dispatches" \
+            -f event_type='editorial_promotion_guard' \
+            -F "client_payload[pr_number]=$pr_number" \
+            -f "client_payload[content_id]=$CONTENT_ID" \
+            -f "client_payload[promotion_branch]=$PROMOTION_BRANCH" \
+            -f "client_payload[base_sha]=$base_sha" \
+            -f "client_payload[head_sha]=$head_sha"
+          echo "Editorial promotion guard dispatched automatically for PR #$pr_number."
