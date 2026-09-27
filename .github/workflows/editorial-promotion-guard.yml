@@ -46,7 +46,10 @@ jobs:
           const s=fs.readFileSync('.github/workflows/editorial-queue-promotion.yml','utf8');
           const required=[
             'pull-requests: write',
+            'group: editorial-queue-promotion',
             'git push origin "$branch"',
+            'multiple open promotion PRs exist for $CONTENT_ID',
+            'branch="promotion/${CONTENT_ID}"',
             'gh pr list --state open --base main --head "$PROMOTION_BRANCH"',
             'if [ "$existing" -gt 1 ]',
             'if [ "$existing" -eq 1 ]',
