@@ -17,7 +17,10 @@ function transition(record, status, attemptId, result, extra = {}) {
   return append({...record, ...extra, status}, {timestamp:new Date().toISOString(),stage:'publication',result,provider:'metricool',publish_attempt_id:attemptId,source:'publisher_v2'});
 }
 function sameSnapshot(current, supplied) {
-  return current.sha === shaFor(supplied) && current.content_id === supplied.content_id && current.queue_path === supplied.queue_path;
+  if (current.sha !== shaFor(supplied)) return false;
+  const {sha: currentSha, ...currentRecord} = current;
+  const {sha: suppliedSha, ...suppliedRecord} = supplied;
+  return JSON.stringify(currentRecord) === JSON.stringify(suppliedRecord);
 }
 
 export function createGitHubQueueAdapter({repo, getAccessToken, fetchImpl = fetch, apiBase = 'https://api.github.com'} = {}) {
