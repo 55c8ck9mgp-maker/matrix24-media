@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-09-28T21:50:05Z",
+  "content_id": "matrix24-20260928-meta-enterprise-platform-launch-corrected",
+  "status": "blocked_media",
+  "headline": "Meta launches Meta Enterprise Platform, names ex-MongoDB CEO CJ Desai to lead new AI business unit",
+  "category": "Technology",
+  "editorial_category": "Technology",
+  "event_date": "2026-09-28",
+  "verified_source_urls": [
+    "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+    "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+    "https://www.cnbc.com/2026/09/28/mongodb-meta-cj-desai.html",
+    "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge"
+  ],
+  "source_records": [
+    {
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "publication_date": "2026-09-28",
+      "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+      "supports": [
+        "Meta launched the Meta Enterprise Platform on September 28, 2026, a new business division bringing Meta's AI technology stack to enterprise customers.",
+        "Chirantan 'CJ' Desai, former CEO and President of MongoDB, joined Meta as Chief Enterprise Platform Officer, reporting directly to Mark Zuckerberg, to lead the new division."
+      ],
+      "independent_source_id": "meta_newsroom",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "TechCrunch",
+      "publication_date": "2026-09-28",
+      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "supports": [
+        "Meta launched the Meta Enterprise Platform on September 28, 2026, a new business division bringing Meta's AI technology stack to enterprise customers.",
+        "Chirantan 'CJ' Desai, former CEO and President of MongoDB, joined Meta as Chief Enterprise Platform Officer, reporting directly to Mark Zuckerberg, to lead the new division."
+      ],
+      "independent_source_id": "techcrunch",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "CNBC",
+      "publication_date": "2026-09-28",
+      "url": "https://www.cnbc.com/2026/09/28/mongodb-meta-cj-desai.html",
+      "supports": [
+        "Chirantan 'CJ' Desai, the CEO of MongoDB, left the company to join Meta and lead its new enterprise AI platform.",
+        "MongoDB shares fell sharply on September 28, 2026, after Desai's move to Meta was announced."
+      ],
+      "independent_source_id": "cnbc",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Bloomberg",
+      "publication_date": "2026-09-28",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge",
+      "supports": [
+        "Chirantan 'CJ' Desai, the CEO of MongoDB, left the company to join Meta and lead its new enterprise AI platform.",
+        "MongoDB shares fell sharply on September 28, 2026, after Desai's move to Meta was announced."
+      ],
+      "independent_source_id": "bloomberg",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Meta launched the Meta Enterprise Platform on September 28, 2026, a new business division bringing Meta's AI technology stack (including the Muse assistant, Meta Business Agent, Muse API, and Muse Code) to enterprise customers.",
+      "material": true,
+      "normalized_value": "date=2026-09-28|entity=Meta_Platforms|launch=Meta_Enterprise_Platform|scope=enterprise_AI_business_division",
+      "observations": [
+        {
+          "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+          "normalized_value": "date=2026-09-28|entity=Meta_Platforms|launch=Meta_Enterprise_Platform|scope=enterprise_AI_business_division"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+          "normalized_value": "date=2026-09-28|entity=Meta_Platforms|launch=Meta_Enterprise_Platform|scope=enterprise_AI_business_division"
+        }
+      ]
+    },
+    {
+      "claim": "Meta named Chirantan 'CJ' Desai, former CEO and President of MongoDB, as Chief Enterprise Platform Officer to lead the new division, reporting directly to Mark Zuckerberg.",
+      "material": true,
+      "normalized_value": "person=Chirantan_CJ_Desai|prior_role=MongoDB_CEO_President|new_role=Chief_Enterprise_Platform_Officer|employer=Meta_Platforms|reports_to=Mark_Zuckerberg",
+      "observations": [
+        {
+          "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+          "normalized_value": "person=Chirantan_CJ_Desai|prior_role=MongoDB_CEO_President|new_role=Chief_Enterprise_Platform_Officer|employer=Meta_Platforms|reports_to=Mark_Zuckerberg"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+          "normalized_value": "person=Chirantan_CJ_Desai|prior_role=MongoDB_CEO_President|new_role=Chief_Enterprise_Platform_Officer|employer=Meta_Platforms|reports_to=Mark_Zuckerberg"
+        }
+      ]
+    },
+    {
+      "claim": "MongoDB shares fell sharply on September 28, 2026, after Desai's move to Meta was announced.",
+      "material": true,
+      "normalized_value": "date=2026-09-28|entity=MongoDB|event=CEO_departure_to_Meta|market_reaction=shares_fell_sharply",
+      "observations": [
+        {
+          "url": "https://www.cnbc.com/2026/09/28/mongodb-meta-cj-desai.html",
+          "normalized_value": "date=2026-09-28|entity=MongoDB|event=CEO_departure_to_Meta|market_reaction=shares_fell_sharply"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge",
+          "normalized_value": "date=2026-09-28|entity=MongoDB|event=CEO_departure_to_Meta|market_reaction=shares_fell_sharply"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Meta unveiled the Meta Enterprise Platform on Sept. 28, calling it a new pillar of its business that will bring its AI stack — including the Muse assistant, Meta Business Agent, Muse API and Muse Code — to enterprise customers. Chirantan \"CJ\" Desai, MongoDB's former CEO and president, joins as Chief Enterprise Platform Officer, reporting directly to Mark Zuckerberg. MongoDB shares fell sharply the same day after his departure was announced.\n\n🇪🇸 Meta presentó el 28 de septiembre la Meta Enterprise Platform, a la que calificó como un nuevo pilar de su negocio que llevará su conjunto de herramientas de IA —incluyendo el asistente Muse, Meta Business Agent, Muse API y Muse Code— a clientes empresariales. Chirantan \"CJ\" Desai, expresidente y CEO de MongoDB, se incorpora como Chief Enterprise Platform Officer y reportará directamente a Mark Zuckerberg. Ese mismo día las acciones de MongoDB cayeron con fuerza tras anunciarse su salida.\n\nSources: Meta Newsroom / TechCrunch / CNBC / Bloomberg — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Meta",
+    "#EnterpriseAI",
+    "#TechNews",
+    "#AI"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a sleek corporate technology launch: an abstract glowing network of interconnected nodes and enterprise-style icons (documents, chat bubbles, workflow gears) flowing into a stylized modern office tower silhouette at dusk, cool blue and violet palette, no readable text, no logos, no flags, no real identifiable people, restrained business-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Correction of matrix24-20260928-meta-enterprise-platform-launch (intake PR #103), which stays on main unpromoted. The original caption said shares of 'several enterprise-software companies' fell; no retained source supported that. The only company whose shares the sources tie to this news is MongoDB, reported by CNBC ('MongoDB shares crater') and Bloomberg ('MongoDB's CEO steps down for senior role at Meta, shares plunge'), now added as a third claim check. Percentages varied across outlets (roughly 15% to 25% intraday), so the caption stays non-numeric. Launch and appointment claims are unchanged: Meta's own newsroom announcement (primary authority) and an independent TechCrunch report, both September 28, 2026, confirm the launch of the Meta Enterprise Platform and the appointment of former MongoDB CEO Chirantan 'CJ' Desai as Chief Enterprise Platform Officer reporting to Mark Zuckerberg.",
+  "verification_status": "verified_claim_consensus",
+  "editorial_promotion": {
+    "manifest_path": "editorial/promotions/matrix24-20260928-meta-enterprise-platform-launch-corrected.json",
+    "draft_path": "editorial/verified/matrix24-20260928-meta-enterprise-platform-launch-corrected.json",
+    "draft_sha256": "e7510e2f772c2fb18d2a024404f93d37c18507664c461e40aa5eef5a2de89d14",
+    "approved_at": "2026-09-28T21:50:05Z",
+    "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-meta-enterprise-platform-launch-corrected. Replaces the uncorrected #103 draft (matrix24-20260928-meta-enterprise-platform-launch), which must not be promoted. Market-reaction line corrected to MongoDB only and backed by CNBC and Bloomberg. Preserve exactly-once admission and zero-duplicate protection."
+  }
+}
