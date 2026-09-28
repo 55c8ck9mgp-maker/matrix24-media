@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { buildBackgroundPrompt, cleanVisualBrief } from "../worker/staging/v3.2.0/src/background-prompt.js";
+import { buildBackgroundPrompt, buildNegativePrompt, cleanVisualBrief } from "../worker/staging/v3.2.0/src/background-prompt.js";
 
 test("uses the editorial visual brief when present, non-geopolitical category", () => {
   const prompt = buildBackgroundPrompt({
@@ -30,14 +30,15 @@ test("uses the editorial visual brief when present, even for geopolitical catego
   );
 });
 
-test("falls back to the generic Arctic aesthetic only for geopolitical stories with no brief", () => {
+test("geopolitical stories with no brief get a neutral fallback scene, not ice", () => {
   const prompt = buildBackgroundPrompt({
     headline: "Regional tensions rise",
     category: "Security / Geopolitics",
     image_generation_prompt: ""
   });
 
-  assert.match(prompt, /Arctic/i);
+  assert.match(prompt, /world-affairs scene/);
+  assert.doesNotMatch(prompt, /Arctic|\bice\b|glacier/i);
 });
 
 test("non-geopolitical stories with no brief get no Arctic fallback", () => {
@@ -52,7 +53,7 @@ test("non-geopolitical stories with no brief get no Arctic fallback", () => {
 test("missing headline/category still produce a usable prompt", () => {
   const prompt = buildBackgroundPrompt({});
   assert.match(prompt, /Global news update/);
-  assert.match(prompt, /World News/);
+  assert.match(prompt, /no text/);
 });
 
 const KYIV_BRIEF =
@@ -99,7 +100,7 @@ test("the no-text instruction comes before the brief in the prompt", () => {
     image_generation_prompt: KYIV_BRIEF
   });
 
-  assert.ok(prompt.indexOf("no text or lettering") < prompt.indexOf("Specific visual brief"));
+  assert.ok(prompt.indexOf("no text") < prompt.indexOf("drone-route markers"));
   assert.doesNotMatch(prompt, /Arctic/i);
 });
 
@@ -110,6 +111,44 @@ test("a brief made only of text requests falls back like a missing brief", () =>
     image_generation_prompt: "Headline: TENSIONS RISE. Sources: Reuters."
   });
 
-  assert.doesNotMatch(prompt, /Specific visual brief/);
-  assert.match(prompt, /Arctic/i);
+  assert.doesNotMatch(prompt, /TENSIONS|Reuters/);
+  assert.match(prompt, /world-affairs scene/);
+});
+
+const JAVELIN_BRIEF =
+  "AI-generated non-documentary editorial illustration of an outdoor athletics stadium javelin throw " +
+  "competition, a stylized generic athlete mid-throw silhouette with no identifiable facial likeness, a neutral " +
+  "scoreboard element, evening stadium lights, restrained professional sports-newsroom aesthetic, no real team " +
+  "logos or flags with symbols, no fabricated documentary details, vertical 4:5 composition. Include a small " +
+  "clear label: AI-GENERATED EDITORIAL VISUAL.";
+
+test("the scene comes first and the prompt stays short enough for SDXL's encoder", () => {
+  const prompt = buildBackgroundPrompt({
+    headline: "Sri Lanka's Pathirage wins Asian Games javelin gold; India takes silver and bronze",
+    category: "Sports",
+    image_generation_prompt: JAVELIN_BRIEF
+  });
+
+  assert.match(prompt, /^Editorial background, no text\. An outdoor athletics stadium javelin/);
+  assert.ok(prompt.length <= 420, `prompt is ${prompt.length} chars`);
+  assert.doesNotMatch(prompt, /blue|cinematic|abstract|Arctic/i, "no style rule may push a cold palette");
+});
+
+test("negating clauses and provenance boilerplate are dropped from the brief", () => {
+  const brief = cleanVisualBrief(JAVELIN_BRIEF);
+
+  assert.match(brief, /evening stadium lights/);
+  for (const banned of [/\bno\b/i, /AI-generated/i, /non-documentary/i, /scoreboard/, /flags/, /label/i]) {
+    assert.doesNotMatch(brief, banned);
+  }
+});
+
+test("the negative prompt excludes ice unless the story is about cold places", () => {
+  const sports = buildNegativePrompt({ headline: "Javelin gold", image_generation_prompt: JAVELIN_BRIEF });
+  assert.match(sports, /\bice\b/);
+  assert.match(sports, /\btext\b/);
+
+  const arctic = buildNegativePrompt({ headline: "Arctic security deal signed" });
+  assert.doesNotMatch(arctic, /\bice\b|glacier/);
+  assert.match(arctic, /\btext\b/);
 });

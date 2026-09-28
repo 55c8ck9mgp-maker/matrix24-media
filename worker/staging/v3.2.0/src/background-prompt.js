@@ -10,24 +10,28 @@
 // wired into a deployed Worker yet — that requires Cloudflare deploy access
 // this session does not have.
 
+// Used only for security/geopolitics stories with no usable brief. Earlier
+// versions used "Arctic landscapes, ice, ocean" here, and every story with a
+// cold palette came out looking frozen, so the fallback is now a neutral scene.
 const GEOPOLITICAL_FALLBACK =
-  "For geopolitical stories with no specific visual brief, use atmospheric " +
-  "Arctic landscapes, ice, ocean, subtle geometric shapes and strategic-light " +
-  "motifs as a generic, non-literal placeholder.";
+  "Atmospheric world-affairs scene at dusk, distant city skyline, subtle geometric light motifs.";
 
-const SHARED_RULES = [
-  "Create a clean premium editorial background illustration for an international news card.",
-  "Use cinematic abstract visual storytelling only.",
-  "Do NOT create maps with labels.",
-  "Do NOT create charts, documents, newspapers, screens, signs or interface panels.",
-  "Do NOT include flags containing symbols or writing.",
-  "Absolutely no readable or unreadable text anywhere in the image.",
-  "No letters, numbers, pseudo-writing, glyphs, captions, labels or typography.",
-  "Background artwork only.",
-  "Professional international newsroom aesthetic.",
-  "Realistic lighting, restrained composition, sophisticated blue and neutral tones.",
-  "Leave the lower third visually simple and dark for headline overlay."
-];
+// Short on purpose: SDXL's text encoders read only about 77 tokens, so style
+// rules placed after a long brief never reach the model. The palette follows
+// the scene; v3.2.2 asked for "blue and neutral tones" on every image, which
+// together with a cinematic-abstract style turned scenes cold and icy.
+const STYLE =
+  "Editorial illustration, realistic natural lighting, colors true to the scene, simple dark lower third.";
+
+// Cold-weather terms join the negative prompt unless the story itself is
+// about ice, snow or the polar regions.
+const COLD_SUBJECT = /\b(arctic|antarctic|polar|ice|icy|iceberg|glaciers?|snow\w*|frozen|freez\w*|winter|blizzard)\b/i;
+
+const NEGATIVE_BASE =
+  "text, fake text, gibberish, pseudo text, letters, alphabet, numbers, labels, map labels, place names, " +
+  "typography, captions, newspaper, document, UI, signs, watermark, logo, chart, infographic, blurry, distorted, gore";
+
+const NEGATIVE_COLD = "ice, snow, frozen, glacier, iceberg, arctic landscape, frost";
 
 // SDXL cannot draw legible text, so any part of a brief asking for labels,
 // headlines, sources, maps, charts or scoreboards yields garbled lettering.
@@ -37,9 +41,14 @@ const SHARED_RULES = [
 const TEXT_REQUEST =
   /\b(labels?|labell?ed|headline|subhead|sources?|captions?|text|typography|lettering|writing|logos?|watermark|maps?|charts?|scoreboards?|signs?|banners?)\b/i;
 
+// Clauses that only negate ("no flags", "without logos") are dropped: CLIP has
+// no notion of "no", so they add the very thing they forbid. What must stay
+// out of the image goes in the negative prompt instead.
+const NEGATION = /^(no|not|without|do not|don't|avoid)\b/i;
+
 // Keep the brief short: SDXL's text encoders only read the first ~77 tokens,
-// so a long brief would push the no-text rules out of range.
-const MAX_BRIEF_CHARS = 320;
+// and the brief shares them with the subject and style line.
+const MAX_BRIEF_CHARS = 200;
 
 /**
  * @param {unknown} brief
@@ -50,8 +59,12 @@ export function cleanVisualBrief(brief) {
 
   const sentences = brief
     .replace(/\bMATRIX\s*24\b\s*/g, "")
-    .replace(/\bvertical\s+4:5\b|\b4:5\b/gi, "")
+    .replace(/\bvertical\s+4:5(\s+composition)?\b|\b4:5(\s+composition)?\b/gi, "")
     .replace(/\binfographics?\b/gi, "illustration")
+    // Provenance boilerplate belongs in the caption, not the image prompt.
+    .replace(/\bAI[- ]generated\b\s*/gi, "")
+    .replace(/\bnon[- ]documentary\b\s*/gi, "")
+    .replace(/\beditorial illustration of\s+/gi, "")
     // A sentence ends at . ! ? followed by a capital, so "Sept. 23" and
     // "U.S. and" stay whole.
     .split(/(?<=[.!?])\s+(?=[A-Z])/)
@@ -59,8 +72,9 @@ export function cleanVisualBrief(brief) {
       sentence
         .replace(/[.!?]+$/, "")
         .split(/[,;]\s*/)
-        .map((clause) => clause.trim())
-        .filter((clause) => clause && !TEXT_REQUEST.test(clause))
+        // "silhouette with no facial likeness" keeps its subject, loses the tail.
+        .map((clause) => clause.replace(/\s+(with no|without)\b.*$/i, "").trim())
+        .filter((clause) => clause && !TEXT_REQUEST.test(clause) && !NEGATION.test(clause))
     )
     .filter((clauses) => clauses.length);
 
@@ -94,19 +108,23 @@ export function buildBackgroundPrompt(story = {}) {
   const visualBrief = cleanVisualBrief(story.image_generation_prompt);
   const isGeopolitical = /security|geopolitic/i.test(category);
 
-  const parts = [
-    "Editorial background illustration, no text or lettering.",
-    `Story subject: ${headline}.`,
-    `Category: ${category}.`
-  ];
+  // The scene goes first so it is always inside the encoder's window.
+  // The editorial draft's own brief takes priority over any fallback.
+  const scene = visualBrief || (isGeopolitical ? GEOPOLITICAL_FALLBACK : "");
 
-  if (visualBrief) {
-    // The editorial draft's own visual brief takes priority over any
-    // generic category fallback, geopolitical or not.
-    parts.push(`Specific visual brief for this story: ${visualBrief}`);
-  } else if (isGeopolitical) {
-    parts.push(GEOPOLITICAL_FALLBACK);
-  }
+  return [
+    "Editorial background, no text.",
+    scene,
+    `Subject: ${headline}.`,
+    STYLE
+  ].filter(Boolean).join(" ");
+}
 
-  return [...parts, ...SHARED_RULES].join(" ");
+/**
+ * @param {{headline?: string, image_generation_prompt?: string}} story
+ * @returns {string}
+ */
+export function buildNegativePrompt(story = {}) {
+  const subject = `${story.headline || ""} ${story.image_generation_prompt || ""}`;
+  return COLD_SUBJECT.test(subject) ? NEGATIVE_BASE : `${NEGATIVE_BASE}, ${NEGATIVE_COLD}`;
 }
