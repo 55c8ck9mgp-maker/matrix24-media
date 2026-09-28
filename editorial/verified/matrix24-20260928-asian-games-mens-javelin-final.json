@@ -1,0 +1,100 @@
+{
+  "content_id": "matrix24-20260928-asian-games-mens-javelin-final",
+  "researched_at": "2026-09-28T16:42:01Z",
+  "event_date": "2026-09-28",
+  "headline": "Sri Lanka's Pathirage wins Asian Games javelin gold; India takes silver and bronze",
+  "category": "Sports",
+  "editorial_category": "Sports",
+  "verified_source_urls": [
+    "https://www.tribuneindia.com/news/sports/yashvir-singh-wins-silver-rohit-yadav-bronze-in-javelin-at-asian-games-sri-lanka-clinches-gold",
+    "https://ianslive.in/asian-games-yash-vir-singh-rohit-yadav-win-silver-and-bronze-in-mens-javelin--20260928185620"
+  ],
+  "source_records": [
+    {
+      "source_name": "The Tribune (India)",
+      "publication_date": "2026-09-28",
+      "url": "https://www.tribuneindia.com/news/sports/yashvir-singh-wins-silver-rohit-yadav-bronze-in-javelin-at-asian-games-sri-lanka-clinches-gold",
+      "supports": [
+        "Rumesh Tharanga Pathirage of Sri Lanka won gold in the men's javelin throw final at the 2026 Asian Games with 88.55m.",
+        "India's Yashvir Singh won silver with a personal-best 85.72m and Rohit Yadav won bronze with 84.35m.",
+        "Pakistan's Arshad Nadeem, the reigning Olympic champion, finished fourth with 80.29m."
+      ],
+      "independent_source_id": "tribune-india",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "IANS (Indo-Asian News Service)",
+      "publication_date": "2026-09-28",
+      "url": "https://ianslive.in/asian-games-yash-vir-singh-rohit-yadav-win-silver-and-bronze-in-mens-javelin--20260928185620",
+      "supports": [
+        "Rumesh Tharanga Pathirage of Sri Lanka won gold in the men's javelin throw at the 2026 Asian Games with 88.55m.",
+        "Yash Vir Singh of India won silver with 85.72m and Rohit Yadav won bronze with 84.35m.",
+        "Pakistan's Arshad Nadeem finished fourth with 80.29m."
+      ],
+      "independent_source_id": "ians",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Rumesh Tharanga Pathirage of Sri Lanka won the men's javelin throw gold medal at the 2026 Asian Games with a throw of 88.55m.",
+      "material": true,
+      "normalized_value": "winner=Rumesh_Tharanga_Pathirage|country=Sri_Lanka|event=men's_javelin_throw|competition=2026_Asian_Games|distance=88.55m|medal=gold",
+      "observations": [
+        {
+          "url": "https://www.tribuneindia.com/news/sports/yashvir-singh-wins-silver-rohit-yadav-bronze-in-javelin-at-asian-games-sri-lanka-clinches-gold",
+          "normalized_value": "winner=Rumesh_Tharanga_Pathirage|country=Sri_Lanka|event=men's_javelin_throw|competition=2026_Asian_Games|distance=88.55m|medal=gold"
+        },
+        {
+          "url": "https://ianslive.in/asian-games-yash-vir-singh-rohit-yadav-win-silver-and-bronze-in-mens-javelin--20260928185620",
+          "normalized_value": "winner=Rumesh_Tharanga_Pathirage|country=Sri_Lanka|event=men's_javelin_throw|competition=2026_Asian_Games|distance=88.55m|medal=gold"
+        }
+      ]
+    },
+    {
+      "claim": "India's Yashvir Singh won silver with 85.72m and Rohit Yadav won bronze with 84.35m in the same final.",
+      "material": true,
+      "normalized_value": "silver=Yashvir_Singh|silver_country=India|silver_distance=85.72m|bronze=Rohit_Yadav|bronze_country=India|bronze_distance=84.35m",
+      "observations": [
+        {
+          "url": "https://www.tribuneindia.com/news/sports/yashvir-singh-wins-silver-rohit-yadav-bronze-in-javelin-at-asian-games-sri-lanka-clinches-gold",
+          "normalized_value": "silver=Yashvir_Singh|silver_country=India|silver_distance=85.72m|bronze=Rohit_Yadav|bronze_country=India|bronze_distance=84.35m"
+        },
+        {
+          "url": "https://ianslive.in/asian-games-yash-vir-singh-rohit-yadav-win-silver-and-bronze-in-mens-javelin--20260928185620",
+          "normalized_value": "silver=Yashvir_Singh|silver_country=India|silver_distance=85.72m|bronze=Rohit_Yadav|bronze_country=India|bronze_distance=84.35m"
+        }
+      ]
+    },
+    {
+      "claim": "Pakistan's Arshad Nadeem, the reigning Olympic champion, finished fourth in the final with 80.29m.",
+      "material": true,
+      "normalized_value": "athlete=Arshad_Nadeem|country=Pakistan|status=reigning_Olympic_champion|place=4th|distance=80.29m",
+      "observations": [
+        {
+          "url": "https://www.tribuneindia.com/news/sports/yashvir-singh-wins-silver-rohit-yadav-bronze-in-javelin-at-asian-games-sri-lanka-clinches-gold",
+          "normalized_value": "athlete=Arshad_Nadeem|country=Pakistan|status=reigning_Olympic_champion|place=4th|distance=80.29m"
+        },
+        {
+          "url": "https://ianslive.in/asian-games-yash-vir-singh-rohit-yadav-win-silver-and-bronze-in-mens-javelin--20260928185620",
+          "normalized_value": "athlete=Arshad_Nadeem|country=Pakistan|status=reigning_Olympic_champion|place=4th|distance=80.29m"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Sri Lanka's Rumesh Tharanga Pathirage won gold in the men's javelin throw at the 2026 Asian Games in Aichi-Nagoya with a throw of 88.55m. India's Yashvir Singh took silver with a personal-best 85.72m, and Rohit Yadav claimed bronze with 84.35m. Pakistan's Arshad Nadeem, the reigning Olympic champion, finished fourth at 80.29m.\n\n🇪🇸 El esrilanqués Rumesh Tharanga Pathirage ganó el oro en lanzamiento de jabalina masculino en los Juegos Asiáticos 2026 en Aichi-Nagoya con un lanzamiento de 88.55m. El indio Yashvir Singh se llevó la plata con una marca personal de 85.72m, y Rohit Yadav obtuvo el bronce con 84.35m. El paquistaní Arshad Nadeem, actual campeón olímpico, terminó cuarto con 80.29m.\n\nSources: The Tribune (India) / IANS — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#AsianGames",
+    "#Javelin",
+    "#Athletics",
+    "#SriLanka",
+    "#India",
+    "#Sports"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of an outdoor athletics stadium javelin throw competition, a stylized generic athlete mid-throw silhouette with no identifiable facial likeness, a neutral scoreboard element, evening stadium lights, restrained professional sports-newsroom aesthetic, no real team logos or flags with symbols, no fabricated documentary details, vertical 4:5 composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: The Tribune (India) and IANS independently reported identical material facts from the 2026 Asian Games men's javelin final on Sept. 28, 2026 — Pathirage's (Sri Lanka) gold-medal 88.55m, Yashvir Singh's silver at 85.72m, Rohit Yadav's bronze at 84.35m, and Arshad Nadeem's (Pakistan) fourth-place 80.29m — with no conflicting figures between the two reports.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
