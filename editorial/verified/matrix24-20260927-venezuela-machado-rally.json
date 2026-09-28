@@ -1,0 +1,98 @@
+{
+  "content_id": "matrix24-20260927-venezuela-machado-rally",
+  "researched_at": "2026-09-28T03:46:54Z",
+  "event_date": "2026-09-27",
+  "headline": "Venezuelans rally in multiple cities demanding opposition leader Machado's return and elections",
+  "category": "Colombia / Latin America",
+  "editorial_category": "Colombia / Latin America",
+  "verified_source_urls": [
+    "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections",
+    "https://www.wsls.com/news/world/2026/09/27/venezuelans-rally-to-demand-opposition-leaders-safe-return-and-presidential-elections/"
+  ],
+  "source_records": [
+    {
+      "source_name": "Al Jazeera",
+      "publication_date": "2026-09-28",
+      "url": "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections",
+      "supports": [
+        "On September 27, 2026, Venezuelans rallied in multiple cities including Caracas, Valencia, Maracaibo and Merida, demanding the safe return of opposition leader Maria Corina Machado and the holding of presidential elections.",
+        "The rallies were organized by supporters of the Vente Venezuela party.",
+        "Maria Corina Machado, a Nobel Peace Prize laureate, has been in exile for about nine months."
+      ],
+      "independent_source_id": "aljazeera",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Associated Press (via WSLS)",
+      "publication_date": "2026-09-27",
+      "url": "https://www.wsls.com/news/world/2026/09/27/venezuelans-rally-to-demand-opposition-leaders-safe-return-and-presidential-elections/",
+      "supports": [
+        "On September 27, 2026, Venezuelans rallied in multiple cities including Caracas, Valencia, Maracaibo and Merida, demanding the safe return of opposition leader Maria Corina Machado and the holding of presidential elections.",
+        "The rallies were organized by the Vente Venezuela party and opposition activists.",
+        "Maria Corina Machado, winner of the Nobel Peace Prize, has been in exile for nine months."
+      ],
+      "independent_source_id": "ap",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "On September 27, 2026, Venezuelans held rallies in multiple cities, including Caracas, Valencia, Maracaibo and Merida, demanding the safe return of opposition leader Maria Corina Machado and the holding of presidential elections.",
+      "material": true,
+      "normalized_value": "date=2026-09-27|country=Venezuela|event=rally|cities=Caracas_Valencia_Maracaibo_Merida|demand=machado_return_and_elections",
+      "observations": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections",
+          "normalized_value": "date=2026-09-27|country=Venezuela|event=rally|cities=Caracas_Valencia_Maracaibo_Merida|demand=machado_return_and_elections"
+        },
+        {
+          "url": "https://www.wsls.com/news/world/2026/09/27/venezuelans-rally-to-demand-opposition-leaders-safe-return-and-presidential-elections/",
+          "normalized_value": "date=2026-09-27|country=Venezuela|event=rally|cities=Caracas_Valencia_Maracaibo_Merida|demand=machado_return_and_elections"
+        }
+      ]
+    },
+    {
+      "claim": "The rallies were organized by supporters of the Vente Venezuela party.",
+      "material": true,
+      "normalized_value": "organizer=Vente_Venezuela_party",
+      "observations": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections",
+          "normalized_value": "organizer=Vente_Venezuela_party"
+        },
+        {
+          "url": "https://www.wsls.com/news/world/2026/09/27/venezuelans-rally-to-demand-opposition-leaders-safe-return-and-presidential-elections/",
+          "normalized_value": "organizer=Vente_Venezuela_party"
+        }
+      ]
+    },
+    {
+      "claim": "Maria Corina Machado, a Nobel Peace Prize laureate, has been living in exile for about nine months.",
+      "material": true,
+      "normalized_value": "person=Maria_Corina_Machado|status=Nobel_Peace_Prize_laureate|exile_duration=about_9_months",
+      "observations": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections",
+          "normalized_value": "person=Maria_Corina_Machado|status=Nobel_Peace_Prize_laureate|exile_duration=about_9_months"
+        },
+        {
+          "url": "https://www.wsls.com/news/world/2026/09/27/venezuelans-rally-to-demand-opposition-leaders-safe-return-and-presidential-elections/",
+          "normalized_value": "person=Maria_Corina_Machado|status=Nobel_Peace_Prize_laureate|exile_duration=about_9_months"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Venezuelans rallied in multiple cities on September 27, 2026 — including Caracas, Valencia, Maracaibo and Merida — demanding the safe return of opposition leader Maria Corina Machado and the holding of presidential elections. The demonstrations were organized by supporters of the Vente Venezuela party. Machado, a Nobel Peace Prize laureate, has been living in exile for about nine months.\n\n🇪🇸 Venezolanos se manifestaron en varias ciudades el 27 de septiembre de 2026 — entre ellas Caracas, Valencia, Maracaibo y Mérida — exigiendo el regreso seguro de la líder opositora María Corina Machado y la celebración de elecciones presidenciales. Las protestas fueron organizadas por simpatizantes del partido Vente Venezuela. Machado, ganadora del Premio Nobel de la Paz, vive en el exilio desde hace unos nueve meses.\n\nSources: Al Jazeera / Associated Press — Sept. 27-28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Venezuela",
+    "#LatinAmerica",
+    "#WorldNews",
+    "#Democracy"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a large peaceful street demonstration in a Latin American capital, wide avenue filled with a generic crowd of demonstrators wearing sky-blue clothing, some on motorcycles, plain banners with no readable text or logos, daytime, restrained international-news photojournalism composition, no identifiable real people, no bodies, no fabricated documentary details, no copied news photography, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Cross-checked Al Jazeera's original reporting against the Associated Press wire report (carried by WSLS) on the September 27, 2026 Venezuela rallies. Both independently confirm the date, the multi-city scope (including Caracas, Valencia, Maracaibo and Merida), the Vente Venezuela party organizing role, and Machado's roughly nine-month exile as a Nobel Peace Prize laureate. The two sources disagreed on the number of prior unsuccessful return attempts (3 vs. 7) and on ancillary details (e.g., a reported release of political prisoners), so those non-consensus figures were excluded from the published claim set rather than resolved.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
