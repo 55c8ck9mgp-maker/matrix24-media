@@ -341,9 +341,10 @@ allowed.
   `docs/reliability/RUNBOOKS.md`; never by clearing the claim on age alone.
 - Callers must not retry a `503` or a timeout. The next cron cycle is the only
   sanctioned re-entry.
-- **Live behavior differs from the documented intent here**: see the drift
-  section below. The deployed candidate rule makes the cron re-enter any
-  `processing_media` record automatically.
+- **Live v3.2.0 differs from the documented intent here**: the deployed
+  candidate rule makes the cron re-enter any `processing_media` record
+  automatically. This is a known bug, fixed in PR #102 (v3.2.1, not yet
+  deployed); see the drift section below.
 
 **`POST /upload`, `POST /`.**
 
@@ -393,15 +394,17 @@ Comparing the live bundle with `recovery/index.reconstructed.js`:
 | Queue candidate statuses | `blocked_media`, `ready_to_publish` | `blocked_media`, `ready_to_publish`, **`processing_media`** |
 | Outbound `fetch` redirect mode | `redirect: "error"` | `redirect: "manual"` |
 
-The first difference matters. The source comment on `processQueue` says
-"Claims never expire automatically: an interrupted run needs reconciliation",
-and `docs/ARCHITECTURE.md` says the same. The live bundle instead re-selects
-any `processing_media` record (lowest priority) on the next cycle and writes a
-new `media_claim` over the old one. The deterministic filename and
-`x-upsert: false` keep this from creating a second object for the same
-`content_id`, but a persistent render failure will re-run Workers AI and
-Browser Run every 15 minutes, and `pending_recovery` never reports stuck
-records. This document describes the live behavior; whether to change the
-Worker or the architecture docs is a separate, reviewed decision, and the
-backup should not be treated as production-equivalent until it is refreshed
-from the live bundle.
+The first difference is a bug (decided 2026-09-28). The source comment on
+`processQueue` says "Claims never expire automatically: an interrupted run
+needs reconciliation", and `docs/ARCHITECTURE.md` says the same. The live
+bundle instead re-selects any `processing_media` record (lowest priority) on
+the next cycle and writes a new `media_claim` over the old one. The
+deterministic filename and `x-upsert: false` keep this from creating a second
+object for the same `content_id`, but a persistent render failure re-runs
+Workers AI and Browser Run every 15 minutes, and `pending_recovery` never
+reports stuck records.
+
+The fix (Worker v3.2.1, skip any record carrying a `media_claim`) and a
+backup captured from the live bundle are in PR #102. Until v3.2.1 is
+deployed, this document describes the live v3.2.0 behavior above; update the
+candidate rule in step 3 of `POST /process-queue` when it ships.
