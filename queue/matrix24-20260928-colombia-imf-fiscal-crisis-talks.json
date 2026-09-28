@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-colombia-imf-fiscal-crisis-talks",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "Colombia's president orders finance team to open IMF talks as 2027 deficit seen at record 9.4% of GDP",
   "category": "Colombia / Latin America",
   "editorial_category": "Colombia / Latin America",
@@ -103,6 +103,17 @@
       "request_id": "905dcdbd-7a66-4ba7-8c86-715e6e7eb57c",
       "image_filename": "matrix24-2fe7571872433078e3abc24497661a597d449cc0315f1bce5163144b0289d568-v1.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-2fe7571872433078e3abc24497661a597d449cc0315f1bce5163144b0289d568-v1.jpg"
+    },
+    {
+      "timestamp": "2026-09-28T22:54:15.491Z",
+      "stage": "publication",
+      "result": "reservation_started",
+      "provider": "metricool",
+      "publish_attempt_id": "6eb13176-ed06-47fc-8dda-1bd1cd955aed",
+      "source": "publication_reservation_workflow"
     }
-  ]
+  ],
+  "publish_attempt_id": "6eb13176-ed06-47fc-8dda-1bd1cd955aed",
+  "publishing_started_at": "2026-09-28T22:54:15.491Z",
+  "provider": "metricool"
 }
