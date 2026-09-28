@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-09-28T21:20:47Z",
+  "content_id": "matrix24-20260928-colombia-imf-fiscal-crisis-talks",
+  "status": "blocked_media",
+  "headline": "Colombia's president orders finance team to open IMF talks as 2027 deficit seen at record 9.4% of GDP",
+  "category": "Colombia / Latin America",
+  "editorial_category": "Colombia / Latin America",
+  "event_date": "2026-09-28",
+  "verified_source_urls": [
+    "https://www.investing.com/news/economy-news/exclusivecolombia-has-held-discussions-with-imf-including-on-securing-financing-sources-4921006",
+    "https://colombiaone.com/2026/09/28/colombia-imf-deal-fiscal-crisis/"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters (via Investing.com)",
+      "publication_date": "2026-09-28",
+      "url": "https://www.investing.com/news/economy-news/exclusivecolombia-has-held-discussions-with-imf-including-on-securing-financing-sources-4921006",
+      "supports": [
+        "President Abelardo de la Espriella said he instructed his finance minister and economic team to begin talks with the IMF, calling the fiscal situation the most critical in the country's history.",
+        "Colombia's 2027 fiscal deficit is projected to reach a record 9.4% of GDP."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Colombia One",
+      "publication_date": "2026-09-28",
+      "url": "https://colombiaone.com/2026/09/28/colombia-imf-deal-fiscal-crisis/",
+      "supports": [
+        "President Abelardo de la Espriella ordered Finance Minister Miguel Gomez to initiate IMF negotiations, saying public finances 'can't take it anymore' and that the balance is in the red.",
+        "The 2027 deficit is estimated at 9.4% of GDP, up from 6.7% projected by the previous administration."
+      ],
+      "independent_source_id": "colombia_one",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "President Abelardo de la Espriella ordered his finance minister and economic team to open negotiations with the IMF, describing Colombia's fiscal situation as the most severe in the country's history.",
+      "material": true,
+      "normalized_value": "actor=de_la_Espriella|action=ordered_IMF_negotiations|target=finance_minister_economic_team|context=historic_fiscal_crisis",
+      "observations": [
+        {
+          "url": "https://www.investing.com/news/economy-news/exclusivecolombia-has-held-discussions-with-imf-including-on-securing-financing-sources-4921006",
+          "normalized_value": "actor=de_la_Espriella|action=ordered_IMF_negotiations|target=finance_minister_economic_team|context=historic_fiscal_crisis"
+        },
+        {
+          "url": "https://colombiaone.com/2026/09/28/colombia-imf-deal-fiscal-crisis/",
+          "normalized_value": "actor=de_la_Espriella|action=ordered_IMF_negotiations|target=finance_minister_economic_team|context=historic_fiscal_crisis"
+        }
+      ]
+    },
+    {
+      "claim": "Colombia's 2027 fiscal deficit is projected to reach a record 9.4% of GDP.",
+      "material": true,
+      "normalized_value": "year=2027|deficit_pct_gdp=9.4|status=record_projection",
+      "observations": [
+        {
+          "url": "https://www.investing.com/news/economy-news/exclusivecolombia-has-held-discussions-with-imf-including-on-securing-financing-sources-4921006",
+          "normalized_value": "year=2027|deficit_pct_gdp=9.4|status=record_projection"
+        },
+        {
+          "url": "https://colombiaone.com/2026/09/28/colombia-imf-deal-fiscal-crisis/",
+          "normalized_value": "year=2027|deficit_pct_gdp=9.4|status=record_projection"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Colombian President Abelardo de la Espriella has ordered his finance minister and economic team to open negotiations with the International Monetary Fund, calling the country's public finances the most critical in its history. Colombia's 2027 fiscal deficit is now projected to reach a record 9.4% of GDP.\n\n🇪🇸 El presidente de Colombia, Abelardo de la Espriella, ordenó a su ministro de Hacienda y al equipo económico iniciar negociaciones con el Fondo Monetario Internacional, calificando la situación de las finanzas públicas como la más crítica de la historia del país. Se proyecta que el déficit fiscal de 2027 alcance un récord de 9.4% del PIB.\n\nSources: Reuters — Colombia One — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#IMF",
+    "#Economy",
+    "#LatinAmerica"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing a national fiscal crisis and international financial negotiations: a generic government finance ministry building exterior under overcast light, with abstract upward-trending red deficit graph overlays and a subtle globe/international-institution motif, no real identifiable people, no flags-with-symbols, no readable text or logos, restrained international-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Reuters' exclusive report (carried via Investing.com) and Colombia One independently confirm the retained material claims: President de la Espriella ordered his finance minister and economic team to open IMF negotiations, describing the fiscal situation as historically critical, and Colombia's 2027 fiscal deficit is projected at a record 9.4% of GDP. Repository reconciliation found no existing editorial/verified draft, open branch, or PR for this content_id or event as of 2026-09-28T19:41:41Z (the existing colombia-de-la-espriella-corruption-deal branch covers a distinct corruption story, not this IMF/fiscal story).",
+  "verification_status": "verified_claim_consensus",
+  "editorial_promotion": {
+    "manifest_path": "editorial/promotions/matrix24-20260928-colombia-imf-fiscal-crisis-talks.json",
+    "draft_path": "editorial/verified/matrix24-20260928-colombia-imf-fiscal-crisis-talks.json",
+    "draft_sha256": "54fcaab7beb1a08c6542866445afb65d0c7cfc6108137902a43d6daed7846d6e",
+    "approved_at": "2026-09-28T21:20:47Z",
+    "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-colombia-imf-fiscal-crisis-talks. Sources re-checked against the retained claims on 2026-09-28. Preserve exactly-once admission and zero-duplicate protection."
+  }
+}
