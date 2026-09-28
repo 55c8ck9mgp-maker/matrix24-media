@@ -1,0 +1,129 @@
+name: Media claim reconciliation
+
+# Media Plane, owner-triggered only: never scheduled and never selected by age.
+# Reconciles ONE stuck processing_media claim that the hourly audit reported
+# (processing_media_claim_stale_requires_reconciliation). Dry run by default;
+# with apply it opens a queue-only PR, and merging that PR is the decision.
+# Runbook: docs/reliability/RUNBOOKS.md ("Claim de media atascado").
+on:
+  workflow_dispatch:
+    inputs:
+      content_id:
+        description: content_id of the stuck record (from the audit finding)
+        required: true
+        type: string
+      claim_id:
+        description: media_claim.id exactly as the audit reported it
+        required: true
+        type: string
+      mode:
+        description: auto = adopt existing JPEG or release to blocked_media; discard = owner discards the story
+        required: true
+        default: auto
+        type: choice
+        options:
+          - auto
+          - discard
+      reason:
+        description: Required for discard; recorded in publish_attempt_history
+        required: false
+        type: string
+      apply:
+        description: Open the queue PR (unchecked = dry run, nothing is written)
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  # One reconciliation at a time, repository-wide.
+  group: media-claim-reconciliation
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+
+      - name: Reconciler and ownership tests
+        run: node --test tests/media-claim-reconciliation.test.mjs tests/queue-transition-ownership.test.mjs
+
+      - name: Plan (and with apply, write) the reconciliation
+        id: plan
+        env:
+          CONTENT_ID: ${{ inputs.content_id }}
+          CLAIM_ID: ${{ inputs.claim_id }}
+          MODE: ${{ inputs.mode }}
+          REASON: ${{ inputs.reason }}
+          APPLY: ${{ inputs.apply }}
+        run: |
+          set -euo pipefail
+          args=(--content-id "$CONTENT_ID" --claim-id "$CLAIM_ID" --mode "$MODE" --reason "$REASON")
+          if [ "$APPLY" = "true" ]; then args+=(--apply); fi
+          status=0
+          node scripts/reconcile-media-claim.mjs "${args[@]}" > reconcile-result.json || status=$?
+          cat reconcile-result.json
+          if [ "$status" -ne 0 ]; then
+            echo "::error title=media reconciliation refused::$(node -e 'const r=require("./reconcile-result.json"); process.stdout.write(`${r.code}: ${r.error}`)')"
+            exit 1
+          fi
+          node -e '
+            const r = require("./reconcile-result.json");
+            require("fs").appendFileSync(process.env.GITHUB_OUTPUT,
+              `action=${r.action}\nqueue_path=${r.queue_path}\nto_status=${r.to_status}\napplied=${r.applied}\n`);
+            console.log(`::notice title=media reconciliation ${r.applied ? "prepared" : "dry run"}::${r.content_id} ${r.from_status} -> ${r.to_status} (${r.action})`);
+          '
+
+      - name: Open exactly one queue-only reconciliation PR
+        if: steps.plan.outputs.applied == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CONTENT_ID: ${{ inputs.content_id }}
+          CLAIM_ID: ${{ inputs.claim_id }}
+          QUEUE_PATH: ${{ steps.plan.outputs.queue_path }}
+          ACTION: ${{ steps.plan.outputs.action }}
+          TO_STATUS: ${{ steps.plan.outputs.to_status }}
+        run: |
+          set -euo pipefail
+          branch="media-reconciliation/${CONTENT_ID}"
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+            echo "::error::reconciliation branch already exists: $branch (merge or close its PR first)"
+            exit 1
+          fi
+          changed="$(git diff --name-only)"
+          if [ "$changed" != "$QUEUE_PATH" ]; then
+            echo "::error::expected exactly one modified queue record, got: $changed"
+            exit 1
+          fi
+          git switch -c "$branch"
+          git add -- "$QUEUE_PATH"
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m "Reconcile media claim ($ACTION): $CONTENT_ID"
+          # PRs opened with GITHUB_TOKEN do not trigger pull_request checks, so
+          # replay the ownership audit here, before anything is pushed.
+          node scripts/audit-queue-transitions.mjs origin/main HEAD > transition-audit.json || { cat transition-audit.json; exit 1; }
+          cat transition-audit.json
+          git push origin "$branch"
+          {
+            echo "Media claim reconciliation for \`$CONTENT_ID\` (claim \`$CLAIM_ID\`): **$ACTION**, \`processing_media\` -> \`$TO_STATUS\`."
+            echo
+            echo 'Prepared by the owner-triggered `Media claim reconciliation` workflow from current main. Only this queue record changes.'
+            echo 'Merging this PR is the reconciliation decision. If main changed this record meanwhile, the PR conflicts and must be closed and re-run.'
+            echo
+            echo '```json'
+            cat reconcile-result.json
+            echo '```'
+          } > pr-body.md
+          gh pr create --base main --head "$branch" --title "Reconcile media claim: $CONTENT_ID ($ACTION)" --body-file pr-body.md

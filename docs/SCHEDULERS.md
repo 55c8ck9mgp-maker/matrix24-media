@@ -47,6 +47,7 @@ ownership exigible, detección de carreras y detección de schedulers caídos.
 | Promotion Controller | GitHub Actions `editorial-queue-promotion.yml` | `*/15`, push, dispatch | Promotion | Sólo crea el registro (`null -> blocked_media`) vía PR revisable |
 | Media Worker `matrix24-publisher` | Cloudflare cron | `*/15 * * * *` | Media | `blocked_media -> processing_media -> ready_to_publish` |
 | Auto Publisher | Tarea ChatGPT (sustituible por Publisher v2) | definida por el owner | Publication | `ready_to_publish -> publishing -> published / publish_unknown`, liberación con prueba de no envío |
+| Reconciliación de claims de media | GitHub Actions `media-claim-reconciliation.yml` (manual) | manual | Media | Vía PR de cola: `processing_media -> ready_to_publish` (adopta JPEG existente), `-> blocked_media` (libera claim sin media) o `-> discarded` (owner) |
 | Reconciliación Instagram | GitHub Actions `instagram-reconciliation.yml` (manual) | manual | Recovery | Ninguna escritura directa hoy; resuelve `publish_unknown -> published` y enriquece `published` |
 | Production state audit | GitHub Actions `production-state-audit.yml` | `7 * * * *` | Observation | Ninguna |
 | Queue transition ownership | GitHub Actions `queue-transition-ownership.yml` | push/PR sobre `queue/` | Observation | Ninguna |
@@ -62,6 +63,7 @@ Codificada en `scripts/queue-transition-ownership.mjs` (`TRANSITION_OWNERS`).
 | `null -> blocked_media` | Promotion | Sin estado de media ni de publicación |
 | `blocked_media -> processing_media` | Media | Crea `media_claim` |
 | `processing_media -> ready_to_publish` | Media | Libera `media_claim`, deja URL HTTPS |
+| `processing_media -> blocked_media` | Media (reconciliador manual) | Libera `media_claim` sin URL, con entrada `media_reconciliation`/`released_no_media` del mismo claim |
 | `ready_to_publish -> publishing` | Publication | `publish_attempt_id` nuevo, sin claim ni evidencia previa |
 | `publishing -> publishing` | Publication | Mismo `publish_attempt_id` (recibos del proveedor) |
 | `publishing -> published` | Publication | Evidencia positiva ligada a Instagram |
