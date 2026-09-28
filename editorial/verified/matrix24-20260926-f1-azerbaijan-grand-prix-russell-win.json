@@ -1,0 +1,82 @@
+{
+  "content_id": "matrix24-20260926-f1-azerbaijan-grand-prix-russell-win",
+  "researched_at": "2026-09-28T07:41:25Z",
+  "event_date": "2026-09-26",
+  "headline": "George Russell wins chaotic Azerbaijan Grand Prix, edges Verstappen by 0.196 seconds",
+  "category": "Sports",
+  "editorial_category": "Sports",
+  "verified_source_urls": [
+    "https://www.formula1.com/en/latest/article/russell-narrowly-holds-off-verstappen-to-take-victory-over-the-line-in-chaotic-azerbaijan-gp.5J4lgNh82JDL2GM302irF0",
+    "https://www.motorsportweek.com/2026/09/26/f1-2026-azerbaijan-grand-prix-race-results/"
+  ],
+  "source_records": [
+    {
+      "source_name": "Formula1.com (official F1)",
+      "publication_date": "2026-09-26",
+      "url": "https://www.formula1.com/en/latest/article/russell-narrowly-holds-off-verstappen-to-take-victory-over-the-line-in-chaotic-azerbaijan-gp.5J4lgNh82JDL2GM302irF0",
+      "supports": [
+        "George Russell (Mercedes) won the 2026 Azerbaijan Grand Prix on September 26, holding off Max Verstappen (Red Bull) by 0.196 seconds.",
+        "Isack Hadjar (Red Bull) finished third, 10.704 seconds behind Russell."
+      ],
+      "independent_source_id": "formula1_official",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "Motorsport Week",
+      "publication_date": "2026-09-26",
+      "url": "https://www.motorsportweek.com/2026/09/26/f1-2026-azerbaijan-grand-prix-race-results/",
+      "supports": [
+        "George Russell (Mercedes) won the 2026 Azerbaijan Grand Prix on September 26, with Max Verstappen (Red Bull Racing) second, 0.196 seconds behind.",
+        "Isack Hadjar (Red Bull Racing) finished third, 10.704 seconds behind the winner."
+      ],
+      "independent_source_id": "motorsport_week",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "George Russell (Mercedes) won the 2026 Azerbaijan Grand Prix on September 26, finishing 0.196 seconds ahead of Max Verstappen (Red Bull).",
+      "material": true,
+      "normalized_value": "race=Azerbaijan_Grand_Prix_2026|date=2026-09-26|winner=George_Russell|winner_team=Mercedes|second=Max_Verstappen|second_team=Red_Bull|margin_seconds=0.196",
+      "observations": [
+        {
+          "url": "https://www.formula1.com/en/latest/article/russell-narrowly-holds-off-verstappen-to-take-victory-over-the-line-in-chaotic-azerbaijan-gp.5J4lgNh82JDL2GM302irF0",
+          "normalized_value": "race=Azerbaijan_Grand_Prix_2026|date=2026-09-26|winner=George_Russell|winner_team=Mercedes|second=Max_Verstappen|second_team=Red_Bull|margin_seconds=0.196"
+        },
+        {
+          "url": "https://www.motorsportweek.com/2026/09/26/f1-2026-azerbaijan-grand-prix-race-results/",
+          "normalized_value": "race=Azerbaijan_Grand_Prix_2026|date=2026-09-26|winner=George_Russell|winner_team=Mercedes|second=Max_Verstappen|second_team=Red_Bull|margin_seconds=0.196"
+        }
+      ]
+    },
+    {
+      "claim": "Isack Hadjar (Red Bull Racing) finished third, 10.704 seconds behind race winner George Russell.",
+      "material": true,
+      "normalized_value": "third=Isack_Hadjar|third_team=Red_Bull|gap_to_winner_seconds=10.704",
+      "observations": [
+        {
+          "url": "https://www.formula1.com/en/latest/article/russell-narrowly-holds-off-verstappen-to-take-victory-over-the-line-in-chaotic-azerbaijan-gp.5J4lgNh82JDL2GM302irF0",
+          "normalized_value": "third=Isack_Hadjar|third_team=Red_Bull|gap_to_winner_seconds=10.704"
+        },
+        {
+          "url": "https://www.motorsportweek.com/2026/09/26/f1-2026-azerbaijan-grand-prix-race-results/",
+          "normalized_value": "third=Isack_Hadjar|third_team=Red_Bull|gap_to_winner_seconds=10.704"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 George Russell (Mercedes) won a chaotic Azerbaijan Grand Prix on September 26, holding off Max Verstappen (Red Bull) by just 0.196 seconds after two Safety Car periods and multiple retirements. Isack Hadjar (Red Bull) finished third.\n\n🇪🇸 George Russell (Mercedes) ganó un caótico Gran Premio de Azerbaiyán el 26 de septiembre, resistiendo a Max Verstappen (Red Bull) por apenas 0,196 segundos tras dos periodos de Safety Car y varios abandonos. Isack Hadjar (Red Bull) terminó tercero.\n\nSources: Formula1.com / Motorsport Week — Sept. 26, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#F1",
+    "#AzerbaijanGP",
+    "#GeorgeRussell",
+    "#Formula1",
+    "#Sports"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a tense Formula 1 street-circuit finish, two generic open-wheel race cars nose-to-tail crossing a finish line under floodlights, motion blur and tire smoke, generic team liveries with no real sponsor logos or identifiable driver likeness, no readable text or flags, restrained international-sports-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Formula1.com (the sport's official site) and Motorsport Week independently confirm the retained material claims: George Russell won the September 26, 2026 Azerbaijan Grand Prix by 0.196 seconds over Max Verstappen, and Isack Hadjar finished third 10.704 seconds back. Checked editorial/verified/, open PR branches, and remote editorial-intake/* and promotion/* branches for this event and found no existing draft or in-flight PR covering this race.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
