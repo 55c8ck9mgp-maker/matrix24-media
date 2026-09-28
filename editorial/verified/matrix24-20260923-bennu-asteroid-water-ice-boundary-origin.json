@@ -1,0 +1,102 @@
+{
+  "content_id": "matrix24-20260923-bennu-asteroid-water-ice-boundary-origin",
+  "researched_at": "2026-09-28T04:42:55Z",
+  "event_date": "2026-09-23",
+  "headline": "New analysis of NASA's Bennu asteroid samples shows it formed near the solar system's water-ice boundary",
+  "category": "Science",
+  "editorial_category": "Science",
+  "verified_source_urls": [
+    "https://ethz.ch/en/news-and-events/eth-news/news/2026/09/mystery-surrounding-the-formation-of-asteroid-bennu-solved.html",
+    "https://www.swissinfo.ch/eng/research-frontiers/eth-researchers-unravel-the-origins-of-the-asteroid-bennu/92112950",
+    "https://www.space.com/astronomy/asteroids/asteroid-samples-from-nasas-epic-osiris-rex-mission-show-bennu-was-born-from-fire-and-ice"
+  ],
+  "source_records": [
+    {
+      "source_name": "ETH Zurich (institutional press release)",
+      "publication_date": "2026-09-23",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/09/mystery-surrounding-the-formation-of-asteroid-bennu-solved.html",
+      "supports": [
+        "New chemical analysis of samples from asteroid Bennu, led by ETH Zurich isotope geochemist Maria Schönbächler and published in the journal Science Advances, found the asteroid formed near the solar system's ancient water-ice boundary, mixing material from both the hot inner and cold outer solar system rather than forming only in the distant outer solar system as previously assumed.",
+        "Researchers propose that Jupiter, which formed early in the solar system's history, blocked coarser dust while allowing fine dust from different regions to mix in the transition zone near the water-ice boundary, where water ice acted as a binding agent for the material that formed Bennu's parent body roughly 4.5 billion years ago."
+      ],
+      "independent_source_id": "eth_zurich",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "swissinfo.ch",
+      "publication_date": "2026-09-24",
+      "url": "https://www.swissinfo.ch/eng/research-frontiers/eth-researchers-unravel-the-origins-of-the-asteroid-bennu/92112950",
+      "supports": [
+        "New chemical analysis of samples from asteroid Bennu, led by ETH Zurich isotope geochemist Maria Schönbächler and published in the journal Science Advances, found the asteroid formed near the solar system's ancient water-ice boundary, mixing material from both the hot inner and cold outer solar system rather than forming only in the distant outer solar system as previously assumed.",
+        "Researchers propose that Jupiter, which formed early in the solar system's history, blocked coarser dust while allowing fine dust from different regions to mix in the transition zone near the water-ice boundary, where water ice acted as a binding agent for the material that formed Bennu's parent body roughly 4.5 billion years ago."
+      ],
+      "independent_source_id": "swissinfo_ch",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Space.com",
+      "publication_date": "2026-09-27",
+      "url": "https://www.space.com/astronomy/asteroids/asteroid-samples-from-nasas-epic-osiris-rex-mission-show-bennu-was-born-from-fire-and-ice",
+      "supports": [
+        "New chemical analysis of samples from asteroid Bennu, led by ETH Zurich isotope geochemist Maria Schönbächler and published in the journal Science Advances, found the asteroid formed near the solar system's ancient water-ice boundary, mixing material from both the hot inner and cold outer solar system rather than forming only in the distant outer solar system as previously assumed.",
+        "Researchers propose that Jupiter, which formed early in the solar system's history, blocked coarser dust while allowing fine dust from different regions to mix in the transition zone near the water-ice boundary, where water ice acted as a binding agent for the material that formed Bennu's parent body roughly 4.5 billion years ago."
+      ],
+      "independent_source_id": "space_com",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "New chemical analysis of samples from asteroid Bennu, led by ETH Zurich isotope geochemist Maria Schönbächler and published in the journal Science Advances, found the asteroid formed near the solar system's ancient water-ice boundary, mixing material from both the hot inner and cold outer solar system rather than forming only in the distant outer solar system as previously assumed.",
+      "material": true,
+      "normalized_value": "institution=ETH_Zurich|researcher=Maria_Schonbachler|journal=Science_Advances|finding=Bennu_formed_near_water_ice_boundary|composition=hybrid_inner_and_outer_solar_system_material",
+      "observations": [
+        {
+          "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/09/mystery-surrounding-the-formation-of-asteroid-bennu-solved.html",
+          "normalized_value": "institution=ETH_Zurich|researcher=Maria_Schonbachler|journal=Science_Advances|finding=Bennu_formed_near_water_ice_boundary|composition=hybrid_inner_and_outer_solar_system_material"
+        },
+        {
+          "url": "https://www.swissinfo.ch/eng/research-frontiers/eth-researchers-unravel-the-origins-of-the-asteroid-bennu/92112950",
+          "normalized_value": "institution=ETH_Zurich|researcher=Maria_Schonbachler|journal=Science_Advances|finding=Bennu_formed_near_water_ice_boundary|composition=hybrid_inner_and_outer_solar_system_material"
+        },
+        {
+          "url": "https://www.space.com/astronomy/asteroids/asteroid-samples-from-nasas-epic-osiris-rex-mission-show-bennu-was-born-from-fire-and-ice",
+          "normalized_value": "institution=ETH_Zurich|researcher=Maria_Schonbachler|journal=Science_Advances|finding=Bennu_formed_near_water_ice_boundary|composition=hybrid_inner_and_outer_solar_system_material"
+        }
+      ]
+    },
+    {
+      "claim": "Researchers propose that Jupiter, which formed early in the solar system's history, blocked coarser dust while allowing fine dust from different regions to mix in the transition zone near the water-ice boundary, where water ice acted as a binding agent for the material that formed Bennu's parent body roughly 4.5 billion years ago.",
+      "material": true,
+      "normalized_value": "mechanism=Jupiter_blocked_coarse_dust_allowed_fine_dust_mixing|zone=transition_zone_near_water_ice_boundary|binding_agent=water_ice|age=4.5_billion_years_ago",
+      "observations": [
+        {
+          "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/09/mystery-surrounding-the-formation-of-asteroid-bennu-solved.html",
+          "normalized_value": "mechanism=Jupiter_blocked_coarse_dust_allowed_fine_dust_mixing|zone=transition_zone_near_water_ice_boundary|binding_agent=water_ice|age=4.5_billion_years_ago"
+        },
+        {
+          "url": "https://www.swissinfo.ch/eng/research-frontiers/eth-researchers-unravel-the-origins-of-the-asteroid-bennu/92112950",
+          "normalized_value": "mechanism=Jupiter_blocked_coarse_dust_allowed_fine_dust_mixing|zone=transition_zone_near_water_ice_boundary|binding_agent=water_ice|age=4.5_billion_years_ago"
+        },
+        {
+          "url": "https://www.space.com/astronomy/asteroids/asteroid-samples-from-nasas-epic-osiris-rex-mission-show-bennu-was-born-from-fire-and-ice",
+          "normalized_value": "mechanism=Jupiter_blocked_coarse_dust_allowed_fine_dust_mixing|zone=transition_zone_near_water_ice_boundary|binding_agent=water_ice|age=4.5_billion_years_ago"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 New chemical analysis of samples NASA's OSIRIS-REx mission returned from asteroid Bennu shows the ancient rock did not form in the distant outer solar system as long assumed, but near the solar system's ancient water-ice boundary — the zone separating hot material near the young sun from cold material farther out. Led by ETH Zurich isotope geochemist Maria Schönbächler and published in the journal Science Advances, the study found Bennu's composition mixes material from both regions. Researchers propose that Jupiter, forming early, blocked coarser dust while letting fine grains from both zones flow into this transition region, where water ice bound them together roughly 4.5 billion years ago.\n\n🇪🇸 Un nuevo análisis químico de las muestras que la misión OSIRIS-REx de la NASA trajo del asteroide Bennu muestra que la antigua roca no se formó en el lejano sistema solar exterior, como se suponía, sino cerca del límite de hielo de agua del sistema solar, la zona que separa el material caliente cercano al joven Sol del material frío más alejado. Dirigido por la geoquímica isotópica Maria Schönbächler, de la ETH Zúrich, y publicado en la revista Science Advances, el estudio halló que la composición de Bennu mezcla material de ambas regiones. Los investigadores proponen que Júpiter, al formarse temprano, bloqueó el polvo más grueso y permitió que granos finos de ambas zonas fluyeran hacia esta región de transición, donde el hielo de agua los unió hace unos 4.500 millones de años.\n\nSources: ETH Zurich / swissinfo.ch / Space.com — Sept. 23-27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Science",
+    "#Asteroid",
+    "#Bennu",
+    "#NASA",
+    "#SolarSystem"
+  ],
+  "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. Abstract symbolic depiction of a small rocky asteroid with a frosty icy underside and a warm glowing rocky topside, representing a hybrid origin from both hot and cold regions of a protoplanetary disk, with a stylized large gas-giant planet in soft-focus background subtly influencing swirling dust particles; deep-space starfield, restrained scientific-illustration aesthetic, no readable text, no logos, no flags, no real identifiable people, no fabricated documentary details, vertical 4:5 composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Cross-checked ETH Zurich's institutional press release (primary authority for the Science Advances study led by its own researcher, Maria Schönbächler) against independent reporting from swissinfo.ch and Space.com. All three describe the same material facts: Bennu formed near the solar system's water-ice boundary from a hybrid mix of inner- and outer-solar-system material, with Jupiter proposed as filtering coarse dust while letting fine grains mix, bound together by water ice roughly 4.5 billion years ago. Only claims corroborated across all three sources were retained; peripheral technical details (e.g., precise isotope ratios) mentioned by only one outlet were excluded.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
