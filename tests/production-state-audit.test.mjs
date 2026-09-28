@@ -67,3 +67,16 @@ test('duplicate or contradictory queue state fails closed',()=>{
   assert.equal(result.ok,false);
   assert.ok(result.findings.some(f=>f.issue==='published_without_positive_publication_evidence'));
 });
+
+test('stuck processing_media claim is reported once it exceeds the stale threshold, never cleared',()=>{
+  const r=root(), id='matrix24-stuck-media';
+  editorial(r,id);
+  write(r,`queue/${id}.json`,{content_id:id,status:'processing_media',media_claim:{id:'claim-1',started_at:'2026-09-28T10:00:00.000Z'}});
+  const fresh=auditProductionState({root:r,now:Date.parse('2026-09-28T10:30:00.000Z')});
+  assert.equal(fresh.findings.some(f=>f.issue==='processing_media_claim_stale_requires_reconciliation'),false);
+  const stale=auditProductionState({root:r,now:Date.parse('2026-09-28T11:30:00.000Z')});
+  const finding=stale.findings.find(f=>f.issue==='processing_media_claim_stale_requires_reconciliation');
+  assert.equal(stale.ok,false);
+  assert.equal(finding.claim_id,'claim-1');
+  assert.equal(JSON.parse(fs.readFileSync(path.join(r,`queue/${id}.json`),'utf8')).media_claim.id,'claim-1');
+});
