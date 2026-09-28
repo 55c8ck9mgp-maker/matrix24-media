@@ -1,0 +1,8 @@
+{
+  "content_id": "matrix24-20260928-hurricane-polo-baja-california-landfall",
+  "draft_path": "editorial/verified/matrix24-20260928-hurricane-polo-baja-california-landfall.json",
+  "draft_sha256": "73a1851df45b36b8d879cfe995b29898bbed01d169ccc7b719f40012182ab1c7",
+  "approved": true,
+  "approved_at": "2026-09-28T21:50:05Z",
+  "approval_note": "Editorial promotion approved by owner request for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-hurricane-polo-baja-california-landfall. Re-checked 2026-09-28 ~21:50Z: landfall in Baja California Sur still forecast for late Monday local time, so the forecast framing was accurate at approval. Time-sensitive: if landfall has happened before publication, the caption reads as dated. Preserve exactly-once admission and zero-duplicate protection."
+}
