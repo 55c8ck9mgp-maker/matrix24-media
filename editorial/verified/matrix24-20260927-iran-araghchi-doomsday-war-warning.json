@@ -1,0 +1,96 @@
+{
+  "content_id": "matrix24-20260927-iran-araghchi-doomsday-war-warning",
+  "researched_at": "2026-09-28T05:42:38Z",
+  "event_date": "2026-09-27",
+  "headline": "Iran says it is prepared for a 'doomsday war' with the US after Trump rejects Tehran's ceasefire proposal",
+  "category": "Security / Geopolitics",
+  "editorial_category": "Security / Geopolitics",
+  "verified_source_urls": [
+    "https://www.aninews.in/news/world/us/iran-is-fully-prepared-for-doomsday-war-with-us-fm-araghchi20260928031745/",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/27/iran-ready-for-doomsday-war-fm-araghchi-says",
+    "https://www.israelnationalnews.com/flashes/694275"
+  ],
+  "source_records": [
+    {
+      "source_name": "ANI (Asian News International)",
+      "publication_date": "2026-09-28",
+      "url": "https://www.aninews.in/news/world/us/iran-is-fully-prepared-for-doomsday-war-with-us-fm-araghchi20260928031745/",
+      "supports": [
+        "Iranian Foreign Minister Abbas Araghchi said in a televised interview that Iran is prepared for a 'doomsday war' with the United States if conflict resumes, while stating diplomacy remains an option.",
+        "Araghchi's statement followed U.S. President Donald Trump's rejection of Iran's proposed seven-day plan to end hostilities, which included reopening the Strait of Hormuz."
+      ],
+      "independent_source_id": "ani_news",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Al Jazeera",
+      "publication_date": "2026-09-27",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/iran-ready-for-doomsday-war-fm-araghchi-says",
+      "supports": [
+        "Iranian Foreign Minister Abbas Araghchi said in a televised interview that Iran is prepared for a 'doomsday war' with the United States if conflict resumes, while stating diplomacy remains an option.",
+        "Araghchi's statement followed U.S. President Donald Trump's rejection of Iran's proposed seven-day plan to end hostilities, which included reopening the Strait of Hormuz."
+      ],
+      "independent_source_id": "al_jazeera",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Israel National News (Arutz Sheva)",
+      "publication_date": "2026-09-27",
+      "url": "https://www.israelnationalnews.com/flashes/694275",
+      "supports": [
+        "Iranian Foreign Minister Abbas Araghchi said in a televised interview that Iran is prepared for a 'doomsday war' with the United States if conflict resumes, while stating diplomacy remains an option."
+      ],
+      "independent_source_id": "israel_national_news",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Iranian Foreign Minister Abbas Araghchi said in a televised interview that Iran is prepared for a 'doomsday war' with the United States if conflict resumes, while stating diplomacy remains an option.",
+      "material": true,
+      "normalized_value": "speaker=Abbas_Araghchi|role=Iran_foreign_minister|statement=prepared_for_doomsday_war_with_US|diplomacy_remains_open=true",
+      "observations": [
+        {
+          "url": "https://www.aninews.in/news/world/us/iran-is-fully-prepared-for-doomsday-war-with-us-fm-araghchi20260928031745/",
+          "normalized_value": "speaker=Abbas_Araghchi|role=Iran_foreign_minister|statement=prepared_for_doomsday_war_with_US|diplomacy_remains_open=true"
+        },
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/iran-ready-for-doomsday-war-fm-araghchi-says",
+          "normalized_value": "speaker=Abbas_Araghchi|role=Iran_foreign_minister|statement=prepared_for_doomsday_war_with_US|diplomacy_remains_open=true"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/flashes/694275",
+          "normalized_value": "speaker=Abbas_Araghchi|role=Iran_foreign_minister|statement=prepared_for_doomsday_war_with_US|diplomacy_remains_open=true"
+        }
+      ]
+    },
+    {
+      "claim": "Araghchi's statement followed U.S. President Donald Trump's rejection of Iran's proposed seven-day plan to end hostilities, which included reopening the Strait of Hormuz.",
+      "material": true,
+      "normalized_value": "trigger=Trump_rejected_Iran_seven_day_ceasefire_proposal|proposal_terms=reopen_Strait_of_Hormuz_and_resume_nuclear_talks",
+      "observations": [
+        {
+          "url": "https://www.aninews.in/news/world/us/iran-is-fully-prepared-for-doomsday-war-with-us-fm-araghchi20260928031745/",
+          "normalized_value": "trigger=Trump_rejected_Iran_seven_day_ceasefire_proposal|proposal_terms=reopen_Strait_of_Hormuz_and_resume_nuclear_talks"
+        },
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/iran-ready-for-doomsday-war-fm-araghchi-says",
+          "normalized_value": "trigger=Trump_rejected_Iran_seven_day_ceasefire_proposal|proposal_terms=reopen_Strait_of_Hormuz_and_resume_nuclear_talks"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Iranian Foreign Minister Abbas Araghchi said Iran is \"fully prepared\" to fight a \"doomsday war\" with the United States if hostilities resume, but stressed that diplomacy remains on the table. The remarks, made in a televised interview, came after U.S. President Donald Trump rejected a seven-day Iranian proposal to end the conflict and reopen the Strait of Hormuz in exchange for access to Iran's frozen assets.\n\n🇪🇸 El canciller de Irán, Abbas Araghchi, afirmó que su país está \"totalmente preparado\" para una \"guerra apocalíptica\" con Estados Unidos si se reanudan las hostilidades, aunque subrayó que la diplomacia sigue siendo una opción. Las declaraciones, hechas en una entrevista televisada, se dieron después de que el presidente estadounidense Donald Trump rechazara una propuesta iraní de siete días para poner fin al conflicto y reabrir el estrecho de Ormuz a cambio de acceso a los activos congelados de Irán.\n\nSources: ANI / Al Jazeera / Israel National News — Sept. 27-28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#UnitedStates",
+    "#Geopolitics",
+    "#SecurityNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing escalating tension between two nations: two abstract silhouetted government-building facades facing each other across a fractured, cracked ground, dramatic stormy red-and-charcoal sky, symbolic concentric warning rings emanating upward between them, restrained geopolitical-news composition, no real identifiable people, no flags, no logos, no readable text, no fabricated documentary details, vertical 4:5 aspect ratio. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Cross-checked three independently bylined reports (ANI/Asian News International; Al Jazeera; Israel National News/Arutz Sheva), all citing Iranian Foreign Minister Abbas Araghchi's televised remarks describing Iran's readiness for a 'doomsday war' with the US while leaving diplomacy open. Two of the three independently confirm the same triggering context: U.S. President Trump's rejection of Iran's seven-day ceasefire proposal tied to reopening the Strait of Hormuz. Only claims with identical normalized values across at least two independently bylined sources were retained.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
