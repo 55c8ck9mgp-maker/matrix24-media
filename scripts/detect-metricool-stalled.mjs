@@ -121,10 +121,11 @@ async function detectStalled() {
     }
 
     const filePath = path.join(QUEUE_DIR, filename);
+    let record = null;
 
     try {
       // Validate record structure and required fields
-      const record = readQueueRecord(filePath);
+      record = readQueueRecord(filePath);
       validateRecord(record, filePath);
 
       // Check if stalled
