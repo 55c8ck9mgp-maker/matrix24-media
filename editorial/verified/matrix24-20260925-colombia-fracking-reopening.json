@@ -1,0 +1,102 @@
+{
+  "content_id": "matrix24-20260925-colombia-fracking-reopening",
+  "researched_at": "2026-09-28T10:43:11Z",
+  "event_date": "2026-09-25",
+  "headline": "Colombia's president announces full reopening of oil exploration, including fracking",
+  "category": "Colombia / Latin America",
+  "editorial_category": "Colombia / Latin America",
+  "verified_source_urls": [
+    "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking",
+    "https://www.elpais.com.co/colombia/abelardo-de-la-espriella-reactiva-la-exploracion-y-el-fracking-en-colombia-en-la-era-del-tigre-vamos-a-tener-soberania-energetica-2523.html",
+    "https://www.infobae.com/america/agencias/2026/09/26/de-la-espriella-abre-la-puerta-al-fracking-en-la-posesion-de-nuevo-presidente-de-ecopetrol/"
+  ],
+  "source_records": [
+    {
+      "source_name": "MercoPress",
+      "publication_date": "2026-09-27",
+      "url": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking",
+      "supports": [
+        "Colombian President Abelardo De la Espriella announced his government is fully reopening hydrocarbon exploration and the signing of new contracts, including fracking, during the inauguration ceremony of Joaquín Gutiérrez as the new president of state oil company Ecopetrol.",
+        "De la Espriella said 'In the era of the Tiger we will have energy sovereignty,' contrasting his policy with predecessor Gustavo Petro's energy-transition restrictions, which he said created energy dependence."
+      ],
+      "independent_source_id": "mercopress",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "El País (Cali, Colombia)",
+      "publication_date": "2026-09-26",
+      "url": "https://www.elpais.com.co/colombia/abelardo-de-la-espriella-reactiva-la-exploracion-y-el-fracking-en-colombia-en-la-era-del-tigre-vamos-a-tener-soberania-energetica-2523.html",
+      "supports": [
+        "President Abelardo De la Espriella announced his government will lift restrictions on oil and gas contracts and reactivate exploration and extraction, explicitly authorizing fracking, during Joaquín Gutiérrez's inauguration as Ecopetrol president.",
+        "De la Espriella stated 'In the era of the Tiger we will have energy sovereignty,' saying the prior administration's energy-transition policy created energy dependence rather than independence."
+      ],
+      "independent_source_id": "elpais_cali",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Infobae (carrying EFE wire report)",
+      "publication_date": "2026-09-26",
+      "url": "https://www.infobae.com/america/agencias/2026/09/26/de-la-espriella-abre-la-puerta-al-fracking-en-la-posesion-de-nuevo-presidente-de-ecopetrol/",
+      "supports": [
+        "On September 25, 2026, in Santa Marta, President Abelardo De la Espriella declared his administration would fully reopen hydrocarbon exploration and the subscription of new contracts, including fracking, at the ceremony where Joaquín Gutiérrez took office as Ecopetrol's new president.",
+        "De la Espriella said 'In the Tiger era we will have energy sovereignty,' contrasting his approach with the previous administration's energy-transition policies."
+      ],
+      "independent_source_id": "infobae_efe",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Colombian President Abelardo De la Espriella announced that his government is fully reopening hydrocarbon exploration and the signing of new contracts, including fracking, during the inauguration of Joaquín Gutiérrez as the new president of state oil company Ecopetrol.",
+      "material": true,
+      "normalized_value": "person=Abelardo_De_la_Espriella|role=President_of_Colombia|action=announced_full_reopening_of_hydrocarbon_exploration_and_new_contracts_including_fracking|context=Ecopetrol_new_president_Joaquin_Gutierrez_inauguration",
+      "observations": [
+        {
+          "url": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking",
+          "normalized_value": "person=Abelardo_De_la_Espriella|role=President_of_Colombia|action=announced_full_reopening_of_hydrocarbon_exploration_and_new_contracts_including_fracking|context=Ecopetrol_new_president_Joaquin_Gutierrez_inauguration"
+        },
+        {
+          "url": "https://www.elpais.com.co/colombia/abelardo-de-la-espriella-reactiva-la-exploracion-y-el-fracking-en-colombia-en-la-era-del-tigre-vamos-a-tener-soberania-energetica-2523.html",
+          "normalized_value": "person=Abelardo_De_la_Espriella|role=President_of_Colombia|action=announced_full_reopening_of_hydrocarbon_exploration_and_new_contracts_including_fracking|context=Ecopetrol_new_president_Joaquin_Gutierrez_inauguration"
+        },
+        {
+          "url": "https://www.infobae.com/america/agencias/2026/09/26/de-la-espriella-abre-la-puerta-al-fracking-en-la-posesion-de-nuevo-presidente-de-ecopetrol/",
+          "normalized_value": "person=Abelardo_De_la_Espriella|role=President_of_Colombia|action=announced_full_reopening_of_hydrocarbon_exploration_and_new_contracts_including_fracking|context=Ecopetrol_new_president_Joaquin_Gutierrez_inauguration"
+        }
+      ]
+    },
+    {
+      "claim": "De la Espriella said 'In the era of the Tiger we will have energy sovereignty,' framing the policy as a reversal of predecessor Gustavo Petro's energy-transition restrictions, which he said created energy dependence rather than independence.",
+      "material": true,
+      "normalized_value": "speaker=Abelardo_De_la_Espriella|quote_theme=energy_sovereignty_era_of_the_Tiger|contrast=reverses_Petro_energy_transition_restrictions|claim=previous_policy_created_energy_dependence",
+      "observations": [
+        {
+          "url": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking",
+          "normalized_value": "speaker=Abelardo_De_la_Espriella|quote_theme=energy_sovereignty_era_of_the_Tiger|contrast=reverses_Petro_energy_transition_restrictions|claim=previous_policy_created_energy_dependence"
+        },
+        {
+          "url": "https://www.elpais.com.co/colombia/abelardo-de-la-espriella-reactiva-la-exploracion-y-el-fracking-en-colombia-en-la-era-del-tigre-vamos-a-tener-soberania-energetica-2523.html",
+          "normalized_value": "speaker=Abelardo_De_la_Espriella|quote_theme=energy_sovereignty_era_of_the_Tiger|contrast=reverses_Petro_energy_transition_restrictions|claim=previous_policy_created_energy_dependence"
+        },
+        {
+          "url": "https://www.infobae.com/america/agencias/2026/09/26/de-la-espriella-abre-la-puerta-al-fracking-en-la-posesion-de-nuevo-presidente-de-ecopetrol/",
+          "normalized_value": "speaker=Abelardo_De_la_Espriella|quote_theme=energy_sovereignty_era_of_the_Tiger|contrast=reverses_Petro_energy_transition_restrictions|claim=previous_policy_created_energy_dependence"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Colombian President Abelardo De la Espriella announced that his government is fully reopening hydrocarbon exploration and new contract signings, including fracking, reversing restrictions from predecessor Gustavo Petro's administration. The announcement came during the inauguration of Joaquín Gutiérrez as the new president of state oil company Ecopetrol in Santa Marta. \"In the era of the Tiger we will have energy sovereignty,\" De la Espriella said, arguing the prior policy had created energy dependence rather than independence.\n\n🇪🇸 El presidente de Colombia, Abelardo De la Espriella, anunció que su Gobierno reabre por completo la exploración de hidrocarburos y la firma de nuevos contratos, incluido el fracking, revirtiendo las restricciones del Gobierno anterior de Gustavo Petro. El anuncio se dio durante la posesión de Joaquín Gutiérrez como nuevo presidente de la petrolera estatal Ecopetrol, en Santa Marta. \"En la era del Tigre vamos a tener soberanía energética\", afirmó De la Espriella, argumentando que la política previa generó dependencia energética en lugar de independencia.\n\nSources: MercoPress / El País (Cali) / Infobae-EFE — Sept. 25-27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#Fracking",
+    "#Energy",
+    "#Ecopetrol",
+    "#LatinAmerica"
+  ],
+  "image_generation_prompt": "AI-generated editorial illustration, not documentary photography. A stylized abstract composition symbolizing energy policy reversal: an industrial oil-derrick silhouette against a sunrise gradient with abstract geometric shapes representing shifting energy sectors, restrained professional newsroom aesthetic, no real identifiable people, no fake event photography, no flags, no readable text or logos, no fabricated documentary details, 4:5 vertical composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Cross-checked three independently bylined reports (MercoPress; El País Cali; Infobae carrying an EFE wire dispatch) that all describe the same material facts: on Sept. 25, 2026 in Santa Marta, President Abelardo De la Espriella announced a full reopening of hydrocarbon exploration and new contract signings, including fracking, during the inauguration of Joaquín Gutiérrez as Ecopetrol's new president, framing it with the quote 'In the era of the Tiger we will have energy sovereignty' as a reversal of predecessor Gustavo Petro's energy-transition restrictions. MercoPress labeled the ceremony date as 'Friday, September 26,' which is internally inconsistent (Sept. 25, 2026 was the Friday, per the other two sources' explicit datelines and the EFE wire's timestamp); only claims where all sources agree on substance were retained, and the exact calendar date used for event_date follows the two sources with an explicit, internally consistent date plus the wire timestamp. No investment-figure or policy-implementation claims were included since sources did not report identical figures.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
