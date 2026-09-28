@@ -25,8 +25,13 @@ analysis
 - Never republish solely because a permalink is missing.
 - Never regenerate media after a publication ambiguity unless reconciliation proves it is safe.
 - Staging must use fixtures, never production `queue/` records.
-- Claude prepares/reviews; ChatGPT controls production integration.
-- Merge to `main` and production deployment require explicit review.
+- Claude prepares, reviews, and controls production integration and
+  editorial approval (updated 2026-09-27 — see
+  `docs/CLAUDE_COLLABORATION.md` for the authority change and its
+  acknowledged trade-off).
+- Merge to `main` and production deployment require explicit review,
+  applied adversarially by Claude even to its own changes, since no
+  independent second approver is required under the current model.
 
 ## Required PR evidence
 Every production-bound PR must state:
