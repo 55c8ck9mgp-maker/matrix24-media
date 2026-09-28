@@ -1,0 +1,84 @@
+{
+  "content_id": "matrix24-20260928-typhoon-surigae-japan-daito-izu-islands",
+  "researched_at": "2026-09-28T21:10:00Z",
+  "event_date": "2026-09-28",
+  "headline": "Typhoon Surigae nears Japan's Daito Islands, forecast to approach Izu Islands and Kanto by Thursday",
+  "category": "Climate",
+  "editorial_category": "Climate",
+  "verified_source_urls": [
+    "https://www.nippon.com/en/news/yjj2026092800279/typhoon-surigae-likely-to-travel-near-izu-island-chain-thursday.html",
+    "https://newsonjapan.com/article/150843.php"
+  ],
+  "source_records": [
+    {
+      "source_name": "Jiji Press via Nippon.com",
+      "publication_date": "2026-09-28",
+      "url": "https://www.nippon.com/en/news/yjj2026092800279/typhoon-surigae-likely-to-travel-near-izu-island-chain-thursday.html",
+      "supports": [
+        "Typhoon Surigae (Typhoon No. 26) was located near Japan's Daito Islands and tracking northeast on September 28, 2026.",
+        "The storm was forecast to approach the Izu Islands south of Tokyo by Thursday, October 1, with a possible track toward Shizuoka Prefecture and the Kanto region.",
+        "As of 3 p.m. on September 28, Surigae had a central pressure of 955 hectopascals, maximum sustained winds of 45 meters per second, and gusts of 65 meters per second."
+      ],
+      "independent_source_id": "jiji-press-nippon",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "News On Japan",
+      "publication_date": "2026-09-28",
+      "url": "https://newsonjapan.com/article/150843.php",
+      "supports": [
+        "Typhoon Surigae (Typhoon No. 26) was positioned near Japan's Daito Islands and moving northeast on September 28, 2026.",
+        "The storm was forecast to approach the Izu Islands by October 1 before continuing toward the Sanriku coast.",
+        "As of 5 a.m. on September 28, Surigae had a central pressure of 945 hectopascals, maximum sustained winds of 50 meters per second, and gusts of 70 meters per second."
+      ],
+      "independent_source_id": "news-on-japan",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Typhoon Surigae (Typhoon No. 26) was tracking northeast near Japan's Daito Islands on September 28, 2026, and was forecast to approach the Izu Islands south of Tokyo by Thursday, October 1, with a possible track toward Shizuoka Prefecture and the Kanto region.",
+      "material": true,
+      "normalized_value": "storm=Typhoon_Surigae_No26|date=2026-09-28|position=near_Daito_Islands_Okinawa|track=northeast|forecast_target=Izu_Islands_by_2026-10-01_Thursday|possible_secondary_impact=Shizuoka_Kanto",
+      "observations": [
+        {
+          "url": "https://www.nippon.com/en/news/yjj2026092800279/typhoon-surigae-likely-to-travel-near-izu-island-chain-thursday.html",
+          "normalized_value": "storm=Typhoon_Surigae_No26|date=2026-09-28|position=near_Daito_Islands_Okinawa|track=northeast|forecast_target=Izu_Islands_by_2026-10-01_Thursday|possible_secondary_impact=Shizuoka_Kanto"
+        },
+        {
+          "url": "https://newsonjapan.com/article/150843.php",
+          "normalized_value": "storm=Typhoon_Surigae_No26|date=2026-09-28|position=near_Daito_Islands_Okinawa|track=northeast|forecast_target=Izu_Islands_by_2026-10-01_Thursday|possible_secondary_impact=Shizuoka_Kanto"
+        }
+      ]
+    },
+    {
+      "claim": "As of September 28, 2026, Surigae remained a powerful typhoon with maximum sustained winds of at least 45 meters per second (about 162 km/h) and gusts of at least 65 meters per second (about 234 km/h).",
+      "material": true,
+      "normalized_value": "storm=Typhoon_Surigae_No26|date=2026-09-28|max_sustained_wind_mps_min=45|max_gust_mps_min=65|classification=powerful_typhoon",
+      "observations": [
+        {
+          "url": "https://www.nippon.com/en/news/yjj2026092800279/typhoon-surigae-likely-to-travel-near-izu-island-chain-thursday.html",
+          "normalized_value": "storm=Typhoon_Surigae_No26|date=2026-09-28|max_sustained_wind_mps_min=45|max_gust_mps_min=65|classification=powerful_typhoon"
+        },
+        {
+          "url": "https://newsonjapan.com/article/150843.php",
+          "normalized_value": "storm=Typhoon_Surigae_No26|date=2026-09-28|max_sustained_wind_mps_min=45|max_gust_mps_min=65|classification=powerful_typhoon"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Typhoon Surigae (Typhoon No. 26) remained a powerful storm as it tracked northeast past Japan's Daito Islands on Sept. 28, with maximum sustained winds of at least 45 meters per second (about 162 km/h) and gusts of at least 65 meters per second (about 234 km/h). Japan's Meteorological Agency data cited by both outlets forecast the storm would approach the Izu Islands south of Tokyo by Thursday, Oct. 1, with a possible track toward Shizuoka Prefecture and the Kanto region.\n\n🇪🇸 El tifón Surigae (tifón n.º 26) se mantuvo como una tormenta poderosa mientras avanzaba hacia el noreste, pasando cerca de las islas Daito de Japón el 28 de septiembre, con vientos sostenidos máximos de al menos 45 metros por segundo (unos 162 km/h) y ráfagas de al menos 65 metros por segundo (unos 234 km/h). Datos de la Agencia Meteorológica de Japón citados por ambos medios pronosticaron que la tormenta se acercaría a las islas Izu, al sur de Tokio, el jueves 1 de octubre, con una posible trayectoria hacia la prefectura de Shizuoka y la región de Kanto.\n\nSources: Jiji Press via Nippon.com / News On Japan — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#TyphoonSurigae",
+    "#Japan",
+    "#Okinawa",
+    "#Climate",
+    "#Weather"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a dramatic typhoon system swirling over open Pacific waters near a generic Japanese coastal island silhouette, dark storm clouds, heavy rain and whitecapped waves, restrained professional breaking-weather-news aesthetic, no identifiable people, no real flags or logos, no readable text, no fabricated documentary details, vertical 4:5 composition. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Jiji Press (via Nippon.com) and News On Japan, both citing Japan Meteorological Agency data, independently confirm Typhoon Surigae's position near the Daito Islands on September 28, 2026 and its forecast track toward the Izu Islands and Kanto region by Thursday, October 1, plus a shared minimum-intensity threshold (sustained winds at least 45 m/s, gusts at least 65 m/s) that both outlets' reported figures satisfy. Repository search across editorial/verified, editorial/promotions, queue/, and all open editorial-intake/promotion branches found no existing draft or in-flight submission covering this typhoon before intake.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
