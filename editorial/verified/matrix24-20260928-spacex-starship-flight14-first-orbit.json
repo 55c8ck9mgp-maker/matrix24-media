@@ -1,0 +1,99 @@
+{
+  "content_id": "matrix24-20260928-spacex-starship-flight14-first-orbit",
+  "researched_at": "2026-09-28T15:54:15Z",
+  "event_date": "2026-09-28",
+  "headline": "SpaceX's Starship reaches Earth orbit for the first time on 14th test flight",
+  "category": "Science",
+  "editorial_category": "Science",
+  "verified_source_urls": [
+    "https://www.upi.com/Top_News/US/2026/09/28/spacex-starship-starlink-launch-reaches-orbit/9971790604345/",
+    "https://www.space.com/news/live/spacex-starship-flight-14-live-updates-sept-28-2026-starship-first-orbital-launch-attempt"
+  ],
+  "source_records": [
+    {
+      "source_name": "UPI",
+      "publication_date": "2026-09-28",
+      "url": "https://www.upi.com/Top_News/US/2026/09/28/spacex-starship-starlink-launch-reaches-orbit/9971790604345/",
+      "supports": [
+        "SpaceX's Starship Flight 14 launched from Starbase in Boca Chica, Texas on September 28, 2026 and reached Earth orbit for the first time in the vehicle's test-flight history.",
+        "The flight deployed 26 Starlink V3 satellites into orbit.",
+        "One Raptor 3 engine aboard the Starship upper stage shut down unexpectedly during ascent and was relit to complete orbital insertion."
+      ],
+      "independent_source_id": "upi",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Space.com",
+      "publication_date": "2026-09-28",
+      "url": "https://www.space.com/news/live/spacex-starship-flight-14-live-updates-sept-28-2026-starship-first-orbital-launch-attempt",
+      "supports": [
+        "SpaceX's Starship Flight 14 launched from Starbase in Boca Chica, Texas on September 28, 2026 and reached Earth orbit for the first time in the vehicle's test-flight history.",
+        "The flight deployed 26 Starlink V3 satellites into orbit.",
+        "One Raptor 3 engine aboard the Starship upper stage shut down unexpectedly during ascent and the spacecraft compensated to complete orbital insertion."
+      ],
+      "independent_source_id": "space_com",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "SpaceX's Starship Flight 14 launched from Starbase in Boca Chica, Texas on September 28, 2026 and reached Earth orbit for the first time in the vehicle's test-flight history.",
+      "material": true,
+      "normalized_value": "date=2026-09-28|vehicle=Starship_Flight_14|site=Starbase_Boca_Chica_Texas|milestone=first_orbital_insertion_achieved",
+      "observations": [
+        {
+          "url": "https://www.upi.com/Top_News/US/2026/09/28/spacex-starship-starlink-launch-reaches-orbit/9971790604345/",
+          "normalized_value": "date=2026-09-28|vehicle=Starship_Flight_14|site=Starbase_Boca_Chica_Texas|milestone=first_orbital_insertion_achieved"
+        },
+        {
+          "url": "https://www.space.com/news/live/spacex-starship-flight-14-live-updates-sept-28-2026-starship-first-orbital-launch-attempt",
+          "normalized_value": "date=2026-09-28|vehicle=Starship_Flight_14|site=Starbase_Boca_Chica_Texas|milestone=first_orbital_insertion_achieved"
+        }
+      ]
+    },
+    {
+      "claim": "The flight deployed 26 Starlink V3 satellites into orbit.",
+      "material": true,
+      "normalized_value": "starlink_v3_satellites_deployed=26",
+      "observations": [
+        {
+          "url": "https://www.upi.com/Top_News/US/2026/09/28/spacex-starship-starlink-launch-reaches-orbit/9971790604345/",
+          "normalized_value": "starlink_v3_satellites_deployed=26"
+        },
+        {
+          "url": "https://www.space.com/news/live/spacex-starship-flight-14-live-updates-sept-28-2026-starship-first-orbital-launch-attempt",
+          "normalized_value": "starlink_v3_satellites_deployed=26"
+        }
+      ]
+    },
+    {
+      "claim": "One Raptor 3 engine aboard the Starship upper stage shut down unexpectedly during ascent and the vehicle recovered to complete orbital insertion.",
+      "material": true,
+      "normalized_value": "raptor3_engine_anomaly=one_engine_shutdown_during_ascent|resolution=relit_or_compensated_for_orbital_insertion",
+      "observations": [
+        {
+          "url": "https://www.upi.com/Top_News/US/2026/09/28/spacex-starship-starlink-launch-reaches-orbit/9971790604345/",
+          "normalized_value": "raptor3_engine_anomaly=one_engine_shutdown_during_ascent|resolution=relit_or_compensated_for_orbital_insertion"
+        },
+        {
+          "url": "https://www.space.com/news/live/spacex-starship-flight-14-live-updates-sept-28-2026-starship-first-orbital-launch-attempt",
+          "normalized_value": "raptor3_engine_anomaly=one_engine_shutdown_during_ascent|resolution=relit_or_compensated_for_orbital_insertion"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 SpaceX's Starship rocket reached Earth orbit for the first time on Sept. 28, on its 14th test flight, launching from Starbase in Boca Chica, Texas. The mission deployed 26 next-generation Starlink V3 satellites; one Raptor 3 engine on the upper stage shut down unexpectedly during ascent but the vehicle recovered in time to complete orbital insertion.\n\n🇪🇸 El cohete Starship de SpaceX alcanzó por primera vez la órbita terrestre el 28 de septiembre, en su decimocuarto vuelo de prueba, despegando desde Starbase en Boca Chica, Texas. La misión desplegó 26 satélites Starlink V3 de nueva generación; un motor Raptor 3 de la etapa superior se apagó inesperadamente durante el ascenso, pero la nave se recuperó a tiempo para completar la inserción orbital.\n\nSources: UPI / Space.com — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#SpaceX",
+    "#Starship",
+    "#Starlink",
+    "#Space",
+    "#Science"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a massive silver stainless-steel rocket ascending against a dawn sky over a coastal Texas launch complex, bright exhaust plume and a distant launch tower rendered in a restrained, editorial illustration style, no readable text or logos, no identifiable real people, no fabricated documentary details, vertical 4:5 composition. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: UPI and Space.com independently confirm that SpaceX's Starship Flight 14 launched from Starbase in Boca Chica, Texas on September 28, 2026 and reached Earth orbit for the first time in the vehicle's test-flight history, deployed 26 Starlink V3 satellites, and experienced one unexpected Raptor 3 engine shutdown during ascent that the vehicle recovered from to complete orbital insertion. Repository searches across editorial/verified, editorial/promotions, queue, and open editorial-intake/promotion branches found no existing draft or in-flight PR covering this SpaceX Starship Flight 14 story before intake.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
