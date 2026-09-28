@@ -82,6 +82,10 @@ async function writeFileToGitHub(repo, token, queuePath, recordJson, expectedSha
   }
 }
 
+async function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 async function applyPublicationReservations(planFile) {
   const plan = await readPlan(planFile);
   const token = getGitHubApi();
@@ -91,11 +95,16 @@ async function applyPublicationReservations(planFile) {
     written: [],
     conflicts: [],
     errors: [],
+    retried: [],
     total: plan.reservations.length
   };
 
   console.log(`Applying ${plan.reservations.length} publication reservations...`);
 
+  // Track items that need retry due to SHA conflicts
+  let retryQueue = [];
+
+  // First pass: attempt all reservations
   for (const reservation of plan.reservations) {
     const { queue_path, current_sha, reserved_record, content_id } = reservation;
 
@@ -112,13 +121,14 @@ async function applyPublicationReservations(planFile) {
       }
 
       if (fileInfo.sha !== current_sha) {
-        results.conflicts.push({
-          content_id,
+        console.log(`⚠ RACE (initial): ${queue_path} (SHA mismatch, will retry)`);
+        retryQueue.push({
           queue_path,
-          expected_sha: current_sha,
-          actual_sha: fileInfo.sha
+          current_sha,
+          reserved_record,
+          content_id,
+          attempt: 0
         });
-        console.log(`⚠ RACE: ${queue_path} (SHA changed, skipping)`);
         continue;
       }
 
@@ -143,12 +153,14 @@ async function applyPublicationReservations(planFile) {
         });
         console.log(`✓ Reserved: ${queue_path}`);
       } else if (writeResult.reason === 'sha_conflict') {
-        results.conflicts.push({
-          content_id,
+        console.log(`⚠ RACE (initial write): ${queue_path} (concurrent write, will retry)`);
+        retryQueue.push({
           queue_path,
-          reason: 'concurrent_write'
+          current_sha,
+          reserved_record,
+          content_id,
+          attempt: 0
         });
-        console.log(`⚠ RACE: ${queue_path} (concurrent write detected)`);
       }
     } catch (e) {
       results.errors.push({
@@ -161,17 +173,107 @@ async function applyPublicationReservations(planFile) {
     }
   }
 
+  // Retry logic with exponential backoff (up to 3 attempts)
+  for (let attemptNum = 1; attemptNum <= 3 && retryQueue.length > 0; attemptNum++) {
+    const backoffMs = 100 * Math.pow(2, attemptNum - 1);
+    console.log(`\n⏳ Retry attempt ${attemptNum}/${3} (waiting ${backoffMs}ms)...`);
+    await sleep(backoffMs);
+
+    const stillFailing = [];
+
+    for (const item of retryQueue) {
+      const { queue_path, reserved_record, content_id } = item;
+
+      try {
+        // Re-fetch the current SHA before retry
+        const fileInfo = await getCurrentFileInfo(repo, token, queue_path);
+        if (!fileInfo.exists) {
+          results.errors.push({
+            content_id,
+            queue_path,
+            reason: 'file_not_found',
+            attempt: attemptNum
+          });
+          continue;
+        }
+
+        // Use the current SHA for this retry attempt
+        const recordJson = JSON.stringify(reserved_record, null, 2) + '\n';
+        const message = `Publication reservation: ${content_id} (publish_attempt_id created - retry ${attemptNum})`;
+
+        const writeResult = await writeFileToGitHub(
+          repo,
+          token,
+          queue_path,
+          recordJson,
+          fileInfo.sha,
+          message
+        );
+
+        if (writeResult.success) {
+          results.written.push({
+            content_id,
+            queue_path,
+            new_sha: writeResult.sha,
+            retriedAttempt: attemptNum
+          });
+          results.retried.push({
+            content_id,
+            queue_path,
+            attempt: attemptNum
+          });
+          console.log(`✓ Reserved (retry ${attemptNum}): ${queue_path}`);
+        } else if (writeResult.reason === 'sha_conflict') {
+          console.log(`⚠ RACE (retry ${attemptNum}): ${queue_path} (still conflicting, will retry)`);
+          stillFailing.push(item);
+        }
+      } catch (e) {
+        results.errors.push({
+          content_id,
+          queue_path,
+          reason: e.code || 'error',
+          detail: e.message,
+          attempt: attemptNum
+        });
+        console.error(`✗ Error on retry ${attemptNum} for ${queue_path}: ${e.message}`);
+      }
+    }
+
+    retryQueue = stillFailing;
+  }
+
+  // Any remaining items that still failed
+  if (retryQueue.length > 0) {
+    for (const item of retryQueue) {
+      results.conflicts.push({
+        content_id: item.content_id,
+        queue_path: item.queue_path,
+        reason: 'persistent_conflict',
+        detail: 'Failed after 3 retry attempts with exponential backoff'
+      });
+      console.log(`✗ PERSISTENT RACE: ${item.queue_path} (failed after retries)`);
+    }
+  }
+
   // Summary
   console.log('');
   console.log(`Summary:`);
-  console.log(`  Written: ${results.written.length}`);
-  console.log(`  Conflicts (race): ${results.conflicts.length}`);
+  console.log(`  Written on first attempt: ${results.written.filter(w => !w.retriedAttempt).length}`);
+  console.log(`  Written after retries: ${results.retried.length}`);
+  console.log(`  Persistent conflicts: ${results.conflicts.length}`);
   console.log(`  Errors: ${results.errors.length}`);
 
   if (results.errors.length > 0) {
     console.log('\nErrors:');
     for (const err of results.errors) {
-      console.log(`  - ${err.queue_path}: ${err.reason}`);
+      console.log(`  - ${err.queue_path}: ${err.reason}${err.attempt ? ` (attempt ${err.attempt})` : ''}`);
+    }
+  }
+
+  if (results.conflicts.length > 0) {
+    console.log('\nPersistent conflicts (requires manual intervention):');
+    for (const conflict of results.conflicts) {
+      console.log(`  - ${conflict.queue_path}: ${conflict.reason}`);
     }
   }
 
