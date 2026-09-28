@@ -29,6 +29,61 @@ const SHARED_RULES = [
   "Leave the lower third visually simple and dark for headline overlay."
 ];
 
+// SDXL cannot draw legible text, so any part of a brief asking for labels,
+// headlines, sources, maps, charts or scoreboards yields garbled lettering.
+// Editorial briefs routinely contain these (many were written for an
+// infographic), so those clauses are dropped before the brief reaches the
+// model. The rest of the brief, which describes the scene, is kept.
+const TEXT_REQUEST =
+  /\b(labels?|labell?ed|headline|subhead|sources?|captions?|text|typography|lettering|writing|logos?|watermark|maps?|charts?|scoreboards?|signs?|banners?)\b/i;
+
+// Keep the brief short: SDXL's text encoders only read the first ~77 tokens,
+// so a long brief would push the no-text rules out of range.
+const MAX_BRIEF_CHARS = 320;
+
+/**
+ * @param {unknown} brief
+ * @returns {string}
+ */
+export function cleanVisualBrief(brief) {
+  if (typeof brief !== "string") return "";
+
+  const sentences = brief
+    .replace(/\bMATRIX\s*24\b\s*/g, "")
+    .replace(/\bvertical\s+4:5\b|\b4:5\b/gi, "")
+    .replace(/\binfographics?\b/gi, "illustration")
+    // A sentence ends at . ! ? followed by a capital, so "Sept. 23" and
+    // "U.S. and" stay whole.
+    .split(/(?<=[.!?])\s+(?=[A-Z])/)
+    .map((sentence) =>
+      sentence
+        .replace(/[.!?]+$/, "")
+        .split(/[,;]\s*/)
+        .map((clause) => clause.trim())
+        .filter((clause) => clause && !TEXT_REQUEST.test(clause))
+    )
+    .filter((clauses) => clauses.length);
+
+  // Fill the budget clause by clause, so one long sentence cannot starve
+  // the scene description that follows it.
+  const out = [];
+  let length = 0;
+  for (const clauses of sentences) {
+    const taken = [];
+    for (const clause of clauses) {
+      const cost = clause.length + 2;
+      if (length + cost > MAX_BRIEF_CHARS) break;
+      taken.push(clause);
+      length += cost;
+    }
+    if (!taken.length) break;
+    const text = taken.join(", ");
+    out.push(text.charAt(0).toUpperCase() + text.slice(1) + ".");
+    if (taken.length < clauses.length) break;
+  }
+  return out.join(" ").replace(/\s{2,}/g, " ").trim();
+}
+
 /**
  * @param {{headline?: string, category?: string, image_generation_prompt?: string}} story
  * @returns {string}
@@ -36,13 +91,11 @@ const SHARED_RULES = [
 export function buildBackgroundPrompt(story = {}) {
   const headline = story.headline || "Global news update";
   const category = story.category || "World News";
-  const visualBrief =
-    typeof story.image_generation_prompt === "string"
-      ? story.image_generation_prompt.trim()
-      : "";
+  const visualBrief = cleanVisualBrief(story.image_generation_prompt);
   const isGeopolitical = /security|geopolitic/i.test(category);
 
   const parts = [
+    "Editorial background illustration, no text or lettering.",
     `Story subject: ${headline}.`,
     `Category: ${category}.`
   ];

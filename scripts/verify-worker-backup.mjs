@@ -100,7 +100,8 @@ const secretPatterns = [
 const scannedSources = [
   text,
   deployed.toString("utf8"),
-  fs.readFileSync("worker/releases/v3.2.1/worker.js", "utf8")
+  fs.readFileSync("worker/releases/v3.2.1/worker.js", "utf8"),
+  fs.readFileSync("worker/releases/v3.2.2/worker.js", "utf8")
 ];
 
 for (const pattern of secretPatterns) {
