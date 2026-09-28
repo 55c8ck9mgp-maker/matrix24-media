@@ -111,3 +111,11 @@ test('stall detection names the single plane allowed to act', () => {
   const fresh = pendingOwner(processing, { now: Date.parse('2026-09-28T10:10:00Z') });
   assert.equal(fresh.stalled, false);
 });
+
+test('a record appearing in any state other than blocked_media is rejected, not a crash', () => {
+  for (const r of [ready, publishing, processing, { ...ready, status: 'published', instagram_media_id: '1' }]) {
+    const out = classifyQueueWrite(null, r);
+    assert.equal(out.ok, false);
+    assert.ok(out.violations[0].startsWith('transition_not_owned:null->'));
+  }
+});

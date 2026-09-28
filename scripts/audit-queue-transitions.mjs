@@ -6,11 +6,23 @@
 import { execFileSync } from 'node:child_process';
 import { classifyQueueWrite } from './queue-transition-ownership.mjs';
 
-const git = args => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
+// git errors (bad ref, shallow history) go to stderr and abort the audit.
+const git = args => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'inherit'] });
 
+function exists(rev, path) {
+  try {
+    execFileSync('git', ['cat-file', '-e', `${rev}:${path}`], { stdio: 'ignore' });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+// Absent file -> null. Present but unparseable -> throws, so a corrupt record is
+// reported instead of being mistaken for a created or deleted one.
 function readAt(rev, path) {
-  try { return JSON.parse(git(['show', `${rev}:${path}`])); }
-  catch { return null; }
+  if (!exists(rev, path)) return null;
+  return JSON.parse(git(['show', `${rev}:${path}`]));
 }
 
 export function auditQueueTransitions(base, head = 'HEAD') {
@@ -23,9 +35,14 @@ export function auditQueueTransitions(base, head = 'HEAD') {
       .split('\n').filter(f => /^queue\/[^/]+\.json$/.test(f));
     const planes = new Set();
     for (const path of files) {
-      const before = parent ? readAt(parent, path) : null;
-      const after = readAt(commit, path);
-      const result = classifyQueueWrite(before, after);
+      let result;
+      try {
+        const before = parent ? readAt(parent, path) : null;
+        const after = readAt(commit, path);
+        result = classifyQueueWrite(before, after);
+      } catch (error) {
+        result = { ok: false, plane: null, transition: null, violations: [`unreadable_queue_json:${error.message}`], warnings: [] };
+      }
       if (result.plane) planes.add(result.plane);
       writes.push({ commit: commit.slice(0, 12), path, ...result });
     }

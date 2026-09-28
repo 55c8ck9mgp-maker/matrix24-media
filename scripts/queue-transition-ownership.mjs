@@ -142,6 +142,11 @@ export function classifyQueueWrite(before, after) {
     violations.push(`transition_not_owned:${transition}`);
     return { ok: false, plane: null, transition, violations, warnings };
   }
+  if (!before && plane !== PLANES.PROMOTION) {
+    // Only admission may create a record; unreachable with the current table.
+    violations.push(`transition_not_owned:${transition}`);
+    return { ok: false, plane: null, transition, violations, warnings };
+  }
 
   if (plane === PLANES.PROMOTION) {
     if (present(after.media_claim) || present(after.public_image_url)) violations.push('admission_carries_media_state');

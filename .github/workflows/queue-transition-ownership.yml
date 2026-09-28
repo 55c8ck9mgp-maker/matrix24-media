@@ -52,13 +52,32 @@ jobs:
           PUSH_AFTER: ${{ github.sha }}
           DISPATCH_BASE: ${{ inputs.base }}
         run: |
+          set -euo pipefail
           case "$EVENT_NAME" in
             pull_request) base="$PR_BASE"; head="$PR_HEAD" ;;
             push) base="$PUSH_BEFORE"; head="$PUSH_AFTER" ;;
             *) base="$DISPATCH_BASE"; head="HEAD" ;;
           esac
-          if [ "$base" = "0000000000000000000000000000000000000000" ]; then base=""; fi
+          # A push with no prior SHA (new branch) audits only the pushed head commit,
+          # never the whole history (which carries documented historical violations).
+          if [ "$base" = "0000000000000000000000000000000000000000" ]; then
+            base="$(git rev-parse "$head^" 2>/dev/null || true)"
+          fi
+          status=0
           node scripts/audit-queue-transitions.mjs "$base" "$head" > transition-audit.json || status=$?
+          # Exit 1 means violations were found; anything else is a crash of the audit itself.
+          if [ "$status" -ne 0 ] && [ "$status" -ne 1 ]; then
+            echo "::error title=queue ownership audit crashed::exit $status"
+            exit "$status"
+          fi
           cat transition-audit.json
-          node -e 'const r=require("./transition-audit.json"); for (const v of r.violations) console.log(`::error title=queue ownership violation::${v.commit} ${v.path||""} ${v.transition||""} ${v.violations.join(", ")}`); for (const w of r.warnings) console.log(`::warning title=owner manual queue write::${w.commit} ${w.path} ${w.warnings.join(", ")}`)'
-          exit "${status:-0}"
+          # Fail closed: an empty or unparseable report is a failure, never a pass.
+          node -e '
+            const fs = require("fs");
+            const r = JSON.parse(fs.readFileSync("transition-audit.json", "utf8"));
+            if (typeof r.ok !== "boolean" || !Array.isArray(r.violations) || !Array.isArray(r.warnings)) throw new Error("malformed audit report");
+            for (const v of r.violations) console.log(`::error title=queue ownership violation::${v.commit} ${v.path||""} ${v.transition||""} ${v.violations.join(", ")}`);
+            for (const w of r.warnings) console.log(`::warning title=owner manual queue write::${w.commit} ${w.path} ${w.warnings.join(", ")}`);
+            if (r.ok !== (r.violations.length === 0)) throw new Error("inconsistent audit report");
+          '
+          exit "$status"
