@@ -61,11 +61,25 @@ export function createGitHubQueueAdapter({repo, getAccessToken, fetchImpl = fetc
       const path = pathFor(proposed), current = await read(path);
       if (current.sha !== plan.expected_sha || current.status !== 'ready_to_publish' || current.content_id !== proposed.content_id || current.publish_attempt_id || current.instagram_media_id || current.metricool_scheduled_post_id) return {kind:'conflict'};
       const next = append({...current,status:'publishing',publish_attempt_id:proposed.publish_attempt_id,publishing_started_at:proposed.publishing_started_at,provider:'metricool'}, {timestamp:proposed.publishing_started_at,stage:'publication',result:'reservation_started',provider:'metricool',publish_attempt_id:proposed.publish_attempt_id,source:'publisher_v2'});
-      return write(path,current.sha,next,'publisher-v2: reserve publication attempt');
+      const result = await write(path,current.sha,next,'publisher-v2: reserve publication attempt');
+      // engine.mjs recognizes a completed reservation only by this exact
+      // domain kind. write() reports the generic transport outcome
+      // ('written'); translate it here so a real, committed reservation is
+      // never mistaken for an unconfirmed one (see INC-018 follow-up: this
+      // mismatch previously caused every real reservation to be treated as
+      // failed even though the GitHub write had already succeeded, which
+      // would have left the record stuck in 'publishing' with no send ever
+      // attempted and no automatic recovery).
+      return result.kind === 'written' ? {kind:'reserved',record:result.record} : result;
     },
     async markUnknown({record,attemptId,reason}) {
       const current = await ownedCurrent(record,attemptId);
-      return write(pathFor(current),current.sha,transition(current,'publish_unknown',attemptId,'publish_unknown',{publish_unknown_reason:reason}),'publisher-v2: quarantine ambiguous publication');
+      const result = await write(pathFor(current),current.sha,transition(current,'publish_unknown',attemptId,'publish_unknown',{publish_unknown_reason:reason}),'publisher-v2: quarantine ambiguous publication');
+      // engine.mjs does not currently branch on this kind, but keep the same
+      // translation convention as reserve()/archive()/returnReady() so the
+      // module's public contract is uniform and does not surprise a future
+      // caller that starts checking it.
+      return result.kind === 'written' ? {kind:'marked_unknown',record:result.record} : result;
     },
     async returnReady({record,attemptId,reason}) {
       const current = await ownedCurrent(record,attemptId);
@@ -75,7 +89,12 @@ export function createGitHubQueueAdapter({repo, getAccessToken, fetchImpl = fetc
     async archive({record,attemptId,instagram_media_id,instagram_permalink}) {
       if (typeof instagram_media_id !== 'string' || !/^[0-9]+$/.test(instagram_media_id)) throw fail('INSTAGRAM_MEDIA_ID_INVALID');
       const current = await ownedCurrent(record,attemptId);
-      return write(pathFor(current),current.sha,transition(current,'published',attemptId,'published',{instagram_media_id,instagram_permalink,published_at:new Date().toISOString()}),'publisher-v2: archive confirmed Instagram publication');
+      const result = await write(pathFor(current),current.sha,transition(current,'published',attemptId,'published',{instagram_media_id,instagram_permalink,published_at:new Date().toISOString()}),'publisher-v2: archive confirmed Instagram publication');
+      // Same translation as reserve(): engine.mjs only accepts 'archived' as
+      // proof the durable publish record was written; without this mapping a
+      // genuinely successful archive is reported as 'reconcile_only', which
+      // is safe (no re-send) but wrongly leaves a real success unconfirmed.
+      return result.kind === 'written' ? {kind:'archived',record:result.record} : result;
     }
   };
 }

@@ -17,7 +17,9 @@ const plan = (overrides={}) => ({action:'conditional_reservation',expected_sha:s
 
 test('reservation reads current main blob and writes a derived replacement against exactly its SHA',async()=>{
  const f=fakeGithub(),result=await adapter(f).reserve(plan({caption:'caller-controlled'}));
- assert.equal(result.kind,'written');assert.equal(result.record.sha,sha('b'));assert.equal(result.record.caption,'original');assert.equal(f.calls.length,2);
+ // engine.mjs only recognizes 'reserved' as a completed reservation; the raw
+ // transport outcome ('written') must be translated, not passed through.
+ assert.equal(result.kind,'reserved');assert.equal(result.record.sha,sha('b'));assert.equal(result.record.caption,'original');assert.equal(f.calls.length,2);
  const write=JSON.parse(f.calls[1].init.body);assert.equal(write.sha,sha('a'));assert.equal(write.branch,'main');assert.match(f.calls[1].init.headers.authorization,/^Bearer /);assert.equal(JSON.stringify(result).includes('x'.repeat(20)),false);
 });
 test('stale SHA and non-ready state conflict before any conditional write',async()=>{
@@ -28,7 +30,8 @@ test('unknown GitHub outcomes fail closed without response or token leakage',asy
 test('archive and quarantine re-read owned state and reject supplied snapshot drift',async()=>{
  const initial=record({status:'publishing',publish_attempt_id:attempt,provider:'metricool'});
  const f=fakeGithub({initial});const a=adapter(f);const owned={...initial,sha:sha('a')};
- assert.equal((await a.archive({record:owned,attemptId:attempt,instagram_media_id:'18000000000000001',instagram_permalink:null})).kind,'written');assert.equal(f.calls.length,2);
+ // Same translation requirement as reserve(): engine.mjs only accepts 'archived'.
+ assert.equal((await a.archive({record:owned,attemptId:attempt,instagram_media_id:'18000000000000001',instagram_permalink:null})).kind,'archived');assert.equal(f.calls.length,2);
  await assert.rejects(()=>a.markUnknown({record:{...owned,caption:'forged'},attemptId:attempt,reason:'timeout'}),error=>error.code==='GITHUB_STATE_CHANGED');
 });
 test('adapter rejects arbitrary repos, paths, missing SHA, and short-lived identity failure',async()=>{
