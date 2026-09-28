@@ -1,0 +1,82 @@
+{
+  "content_id": "matrix24-20260927-presidents-cup-usa-comeback-win",
+  "researched_at": "2026-09-28T09:47:40Z",
+  "event_date": "2026-09-27",
+  "headline": "Team USA rallies from three points down to win the 2026 Presidents Cup 17-13 at Medinah",
+  "category": "Sports",
+  "editorial_category": "Sports",
+  "verified_source_urls": [
+    "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah",
+    "https://www.golfdigest.com/story/presidents-cup-2026-americans-win"
+  ],
+  "source_records": [
+    {
+      "source_name": "Sky Sports",
+      "publication_date": "2026-09-27",
+      "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah",
+      "supports": [
+        "Team USA defeated the International Team 17-13 to win the 2026 Presidents Cup at Medinah Country Club.",
+        "The International Team held a 10.5-7.5 lead entering Sunday's final singles session before Team USA rallied to win."
+      ],
+      "independent_source_id": "sky_sports",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Golf Digest",
+      "publication_date": "2026-09-27",
+      "url": "https://www.golfdigest.com/story/presidents-cup-2026-americans-win",
+      "supports": [
+        "The United States beat the International Team 17-13 to win the 2026 Presidents Cup at Medinah Country Club.",
+        "The Americans were three points down entering Sunday singles and staged a comeback to win."
+      ],
+      "independent_source_id": "golf_digest",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Team USA defeated the International Team 17-13 to win the 2026 Presidents Cup at Medinah Country Club on September 27, 2026.",
+      "material": true,
+      "normalized_value": "event=2026_Presidents_Cup|winner=USA|final_score=USA_17-International_13|venue=Medinah_Country_Club|date=2026-09-27",
+      "observations": [
+        {
+          "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah",
+          "normalized_value": "event=2026_Presidents_Cup|winner=USA|final_score=USA_17-International_13|venue=Medinah_Country_Club|date=2026-09-27"
+        },
+        {
+          "url": "https://www.golfdigest.com/story/presidents-cup-2026-americans-win",
+          "normalized_value": "event=2026_Presidents_Cup|winner=USA|final_score=USA_17-International_13|venue=Medinah_Country_Club|date=2026-09-27"
+        }
+      ]
+    },
+    {
+      "claim": "Team USA trailed by three points (10.5-7.5) entering Sunday singles and completed a comeback to win the Cup.",
+      "material": true,
+      "normalized_value": "pre_sunday_deficit=International_10.5-USA_7.5|margin=3_points|outcome=USA_comeback_win",
+      "observations": [
+        {
+          "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah",
+          "normalized_value": "pre_sunday_deficit=International_10.5-USA_7.5|margin=3_points|outcome=USA_comeback_win"
+        },
+        {
+          "url": "https://www.golfdigest.com/story/presidents-cup-2026-americans-win",
+          "normalized_value": "pre_sunday_deficit=International_10.5-USA_7.5|margin=3_points|outcome=USA_comeback_win"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Team USA completed a historic final-day comeback at the 2026 Presidents Cup, overturning a three-point deficit to beat the International Team 17-13 at Medinah Country Club on Sept. 27. The Internationals had led 10.5-7.5 heading into Sunday singles while chasing their first win on U.S. soil since 1998, but the Americans dominated the closing matches to seal the title.\n\n🇪🇸 El Equipo de EE.UU. completó una remontada histórica en la última jornada de la Presidents Cup 2026, revirtiendo un déficit de tres puntos para vencer 17-13 al Equipo Internacional en Medinah Country Club el 27 de septiembre. Los Internacionales lideraban 10.5-7.5 antes de los duelos individuales del domingo, buscando su primera victoria en suelo estadounidense desde 1998, pero los estadounidenses dominaron los partidos finales para asegurar el título.\n\nSources: Sky Sports / Golf Digest — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#PresidentsCup",
+    "#Golf",
+    "#TeamUSA",
+    "#Medinah",
+    "#Sports"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a triumphant golf team celebration on a manicured championship course fairway at dusk, generic golfers in matching uniforms embracing near a trophy silhouette, warm stadium lighting, autumn trees in the background, no identifiable real athletes' faces, no team logos, no readable text or flags with symbols, restrained celebratory composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Sky Sports and Golf Digest independently confirm the retained material claims: Team USA defeated the International Team 17-13 to win the 2026 Presidents Cup at Medinah Country Club on September 27, and the Americans overturned a three-point deficit (10.5-7.5) entering Sunday singles to complete the comeback. Repository searches across editorial/verified, editorial/promotions and queue, plus open editorial-intake and promotion branch screening, found no matching content ID or materially overlapping Presidents Cup/golf story before intake. Source publication dates and event date were checked as September 27, 2026.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
