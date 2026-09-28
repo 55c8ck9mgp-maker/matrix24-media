@@ -11,6 +11,8 @@ on:
       - 'scripts/select-promotion-work.mjs'
       - 'scripts/classify-matrix24-health.mjs'
       - 'tests/production-state-audit.test.mjs'
+      - 'scripts/audit-stalled-promotion-prs.mjs'
+      - 'tests/stalled-promotion-prs.test.mjs'
       - 'tests/promotion-work-selection.test.mjs'
       - 'tests/promotion-controller-trigger.test.mjs'
       - 'tests/matrix24-health.test.mjs'
@@ -30,6 +32,8 @@ on:
       - 'scripts/select-promotion-work.mjs'
       - 'scripts/classify-matrix24-health.mjs'
       - 'tests/production-state-audit.test.mjs'
+      - 'scripts/audit-stalled-promotion-prs.mjs'
+      - 'tests/stalled-promotion-prs.test.mjs'
       - 'tests/promotion-work-selection.test.mjs'
       - 'tests/promotion-controller-trigger.test.mjs'
       - 'tests/matrix24-health.test.mjs'
@@ -43,6 +47,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: read
 
 concurrency:
   group: production-state-invariant-audit-${{ github.ref }}
@@ -64,6 +69,15 @@ jobs:
             tests/queue-transition-ownership.test.mjs \
             tests/promotion-work-selection.test.mjs \
             tests/promotion-controller-trigger.test.mjs \
-            tests/matrix24-health.test.mjs
+            tests/matrix24-health.test.mjs \
+            tests/stalled-promotion-prs.test.mjs
       - name: Audit current durable production state
         run: node scripts/audit-production-state.mjs
+      # Observation only. Approved promotion PRs are never merged by automation,
+      # so a PR left open is a silent stall that queue/ state cannot show.
+      - name: Warn about approved promotions waiting for merge
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROMOTION_STALL_HOURS: '4'
+        run: node scripts/audit-stalled-promotion-prs.mjs
