@@ -1,0 +1,81 @@
+{
+  "content_id": "matrix24-20260927-colombia-de-la-espriella-corruption-deal",
+  "researched_at": "2026-09-28T12:47:00Z",
+  "event_date": "2026-09-27",
+  "headline": "Colombia's De la Espriella proposes reduced sentences for corruption suspects who cooperate against accomplices",
+  "category": "Colombia / Latin America",
+  "editorial_category": "Colombia / Latin America",
+  "verified_source_urls": [
+    "https://www.infobae.com/america/agencias/2026/09/28/de-la-espriella-pide-atenuar-las-penas-a-los-corruptos-que-delaten-a-sus-complices/",
+    "https://www.minuto60.com/politica/espriella-pide-beneficios-investigados-gobierno-petro/16131"
+  ],
+  "source_records": [
+    {
+      "source_name": "EFE (via Infobae agencias)",
+      "publication_date": "2026-09-27",
+      "url": "https://www.infobae.com/america/agencias/2026/09/28/de-la-espriella-pide-atenuar-las-penas-a-los-corruptos-que-delaten-a-sus-complices/",
+      "supports": [
+        "Colombian President Abelardo de la Espriella asked the justice system to consider reduced sentences for people under investigation for corruption in the previous Petro government if they cooperate and hand over evidence against accomplices.",
+        "De la Espriella said of the corrupt: \"Los corruptos tienen que caer, tienen que pagar\" (\"The corrupt must fall, they must pay\")."
+      ],
+      "independent_source_id": "efe",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Minuto60",
+      "publication_date": "2026-09-28",
+      "url": "https://www.minuto60.com/politica/espriella-pide-beneficios-investigados-gobierno-petro/16131",
+      "supports": [
+        "Colombian President Abelardo de la Espriella asked the justice system to consider reduced sentences for people under investigation for corruption in the previous Petro government if they cooperate and hand over evidence against accomplices.",
+        "De la Espriella said of the corrupt: \"Los corruptos tienen que caer, tienen que pagar\" (\"The corrupt must fall, they must pay\")."
+      ],
+      "independent_source_id": "minuto60",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Colombian President Abelardo de la Espriella publicly asked the justice system to offer reduced sentences to people under investigation for corruption in the previous Petro government, in exchange for cooperation and evidence against accomplices.",
+      "material": true,
+      "normalized_value": "actor=Abelardo_de_la_Espriella|action=proposed_reduced_sentences_for_cooperation|targets=corruption_suspects_petro_administration|date=2026-09-27|location=Bogota_Colombia",
+      "observations": [
+        {
+          "url": "https://www.infobae.com/america/agencias/2026/09/28/de-la-espriella-pide-atenuar-las-penas-a-los-corruptos-que-delaten-a-sus-complices/",
+          "normalized_value": "actor=Abelardo_de_la_Espriella|action=proposed_reduced_sentences_for_cooperation|targets=corruption_suspects_petro_administration|date=2026-09-27|location=Bogota_Colombia"
+        },
+        {
+          "url": "https://www.minuto60.com/politica/espriella-pide-beneficios-investigados-gobierno-petro/16131",
+          "normalized_value": "actor=Abelardo_de_la_Espriella|action=proposed_reduced_sentences_for_cooperation|targets=corruption_suspects_petro_administration|date=2026-09-27|location=Bogota_Colombia"
+        }
+      ]
+    },
+    {
+      "claim": "De la Espriella said, regarding accountability for corruption in the previous administration: \"Los corruptos tienen que caer, tienen que pagar\" (\"The corrupt must fall, they must pay\").",
+      "material": true,
+      "normalized_value": "speaker=Abelardo_de_la_Espriella|quote_es=Los corruptos tienen que caer, tienen que pagar|quote_en=The corrupt must fall, they must pay|topic=corruption_accountability",
+      "observations": [
+        {
+          "url": "https://www.infobae.com/america/agencias/2026/09/28/de-la-espriella-pide-atenuar-las-penas-a-los-corruptos-que-delaten-a-sus-complices/",
+          "normalized_value": "speaker=Abelardo_de_la_Espriella|quote_es=Los corruptos tienen que caer, tienen que pagar|quote_en=The corrupt must fall, they must pay|topic=corruption_accountability"
+        },
+        {
+          "url": "https://www.minuto60.com/politica/espriella-pide-beneficios-investigados-gobierno-petro/16131",
+          "normalized_value": "speaker=Abelardo_de_la_Espriella|quote_es=Los corruptos tienen que caer, tienen que pagar|quote_en=The corrupt must fall, they must pay|topic=corruption_accountability"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Colombian President Abelardo de la Espriella asked the justice system on Sept. 27 to consider reduced sentences for people under investigation for corruption in the previous Petro administration if they cooperate and hand over evidence against accomplices. \"The corrupt must fall, they must pay,\" he said, days after Colombia's State Council stripped a former Senate president of his political rights in a separate corruption case.\n\n🇪🇸 El presidente colombiano Abelardo de la Espriella pidió el 27 de septiembre a la justicia evaluar penas atenuadas para los investigados por corrupción en el gobierno anterior de Petro, si colaboran y entregan pruebas contra sus cómplices. \"Los corruptos tienen que caer, tienen que pagar\", afirmó, días después de que el Consejo de Estado le quitara los derechos políticos a un expresidente del Senado por un caso de corrupción distinto.\n\nSources: EFE / Minuto60 — Sept. 27-28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#LatinAmerica",
+    "#Corruption",
+    "#DeLaEspriella"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration representing a Latin American government anti-corruption announcement: a stylized courthouse/justice-scale motif with scattered documents and a subtle Colombian tricolor accent (no flag symbol rendered), generic non-identifiable silhouetted figures at a podium, restrained international-news editorial composition, no real people depicted, no logos, no readable text, no fabricated documentary details, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: EFE wire reporting (via Infobae's agencias feed) and Minuto60's own staff reporting independently confirm the same material claims: President Abelardo de la Espriella's Sept. 27, 2026 request that Colombia's justice system offer reduced sentences to Petro-administration corruption suspects who cooperate against accomplices, and his verbatim quote \"Los corruptos tienen que caer, tienen que pagar.\" Checked editorial/verified/*.json, open editorial-intake/*/promotion/* branches and open PRs before drafting; the only other Colombia/Latin America item in flight (PR #93, fracking reopening, Sept. 25) covers a distinct, unrelated event.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
