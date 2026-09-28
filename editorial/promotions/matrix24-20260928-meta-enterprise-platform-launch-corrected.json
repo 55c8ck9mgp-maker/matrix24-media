@@ -1,0 +1,8 @@
+{
+  "content_id": "matrix24-20260928-meta-enterprise-platform-launch-corrected",
+  "draft_path": "editorial/verified/matrix24-20260928-meta-enterprise-platform-launch-corrected.json",
+  "draft_sha256": "e7510e2f772c2fb18d2a024404f93d37c18507664c461e40aa5eef5a2de89d14",
+  "approved": true,
+  "approved_at": "2026-09-28T21:50:05Z",
+  "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-meta-enterprise-platform-launch-corrected. Replaces the uncorrected #103 draft (matrix24-20260928-meta-enterprise-platform-launch), which must not be promoted. Market-reaction line corrected to MongoDB only and backed by CNBC and Bloomberg. Preserve exactly-once admission and zero-duplicate protection."
+}
