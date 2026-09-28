@@ -43,9 +43,17 @@ explicit proof `transport_not_called`.
 3. Read current blob, validate it through the broker policy, then conditionally
    replace exactly that SHA. A conflict or uncertain acknowledgement prevents
    the social call.
-4. Metricool adapter with a single call per owned attempt and provider receipt
+4. Provider adapter with a single call per owned attempt and provider receipt
    handling. If it lacks an idempotency key, ambiguous network outcomes are
    permanently quarantined until account-bound reconciliation proves outcome.
+   Two candidate providers are staged, same contract, same safety posture:
+   `publisher-v2/staging/src/metricool-schedule-transport.mjs` (current
+   provider, free plan capped at 20 posts/month) and
+   `publisher-v2/staging/src/postiz-schedule-transport.mjs` (candidate
+   replacement, self-hosted and uncapped — see
+   `docs/reliability/POSTIZ_TRANSPORT_STAGING.md` for its own gate list;
+   requires the owner to self-host Postiz and connect Instagram there
+   before any live verification is possible).
 5. Reconciliation adapter that can archive a matching Instagram media ID but
    cannot initiate a replacement publication. — Built:
    `publisher-v2/staging/src/reconciliation-archive-adapter.mjs` composes the
