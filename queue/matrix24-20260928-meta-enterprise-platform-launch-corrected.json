@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:50:05Z",
   "content_id": "matrix24-20260928-meta-enterprise-platform-launch-corrected",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Meta launches Meta Enterprise Platform, names ex-MongoDB CEO CJ Desai to lead new AI business unit",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -123,8 +123,25 @@
     "approved_at": "2026-09-28T21:50:05Z",
     "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-meta-enterprise-platform-launch-corrected. Replaces the uncorrected #103 draft (matrix24-20260928-meta-enterprise-platform-launch), which must not be promoted. Market-reaction line corrected to MongoDB only and backed by CNBC and Bloomberg. Preserve exactly-once admission and zero-duplicate protection."
   },
-  "media_claim": {
-    "id": "22714dc3-352d-44ec-b5ad-d99a3291d62c",
-    "started_at": "2026-09-28T22:16:01.188Z"
-  }
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-c2f269967683ed54991b94725fdd5f1b19f3ff91b1ff5f652e7fe31d44eb33d4-v1.jpg",
+  "image_filename": "matrix24-c2f269967683ed54991b94725fdd5f1b19f3ff91b1ff5f652e7fe31d44eb33d4-v1.jpg",
+  "media_ready_at": "2026-09-28T22:16:11.848Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 339567,
+    "alpha": false
+  },
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-28T22:16:11.848Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "22714dc3-352d-44ec-b5ad-d99a3291d62c",
+      "image_filename": "matrix24-c2f269967683ed54991b94725fdd5f1b19f3ff91b1ff5f652e7fe31d44eb33d4-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-c2f269967683ed54991b94725fdd5f1b19f3ff91b1ff5f652e7fe31d44eb33d4-v1.jpg"
+    }
+  ]
 }
