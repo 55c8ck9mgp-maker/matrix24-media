@@ -1,0 +1,87 @@
+name: Publication reservation (SHA-conditional write)
+
+# Publication Plane scheduler: moves the SHA-conditional write that creates
+# publish_attempt_id from the LLM Auto Publisher (blocked by ChatGPT platform
+# safety layer) to a deterministic GitHub Actions workflow. Fixes INC-018.
+#
+# Runs periodically to find all ready_to_publish records without publish_attempt_id
+# and creates the reservation (publish_attempt_id + status transition) via direct
+# GitHub API write. Uses SHA-conditional writes (CAS) to prevent races.
+#
+# The Auto Publisher (or a future replacement) only proceeds to invoke Metricool
+# AFTER this workflow has created the publish_attempt_id. This decoupling removes
+# the risky GitHub write from the LLM task entirely.
+on:
+  schedule:
+    # Run every 5 minutes. Cadence matches the existing cron cycles and provides
+    # rapid feedback without excessive API load.
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Plan only, do not write to GitHub
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  # Serialize reservations repository-wide. A second request must not race
+  # duplicate/concurrent reservations for the same record.
+  group: publication-reservation
+  cancel-in-progress: false
+
+jobs:
+  reserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+
+      - name: Plan reservations
+        id: plan
+        run: |
+          node scripts/prepare-publication-reservation.mjs > reservation-plan.json
+          cat reservation-plan.json
+          count=$(node -e 'const r=require("./reservation-plan.json"); process.stdout.write(String(r.count||0))')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Write reservations via GitHub API (SHA-conditional)
+        if: steps.plan.outputs.count > 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/apply-publication-reservations.mjs reservation-plan.json
+
+      - name: Summary
+        if: always()
+        run: |
+          plan="$(cat reservation-plan.json)"
+          count=$(node -e "const p=require('./reservation-plan.json'); console.log(p.count)")
+          skipped=$(node -e "const p=require('./reservation-plan.json'); console.log(p.skipped.length)")
+          errors=$(node -e "const p=require('./reservation-plan.json'); console.log(p.errors.length)")
+
+          echo "## Publication Reservation Summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Reservations created**: $count" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Records skipped**: $skipped" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Errors**: $errors" >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "$errors" -gt 0 ]; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "### Errors" >> "$GITHUB_STEP_SUMMARY"
+            node -e "
+              const p = require('./reservation-plan.json');
+              for (const err of p.errors) {
+                console.log(\`- \${err.filename}: \${err.reason} (\${err.detail || ''})\`);
+              }
+            " >> "$GITHUB_STEP_SUMMARY"
+          fi

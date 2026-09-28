@@ -34,11 +34,28 @@ Tres condiciones del diseño lo agravan, y el historial de `queue/` lo confirma
   monitor o publicador pausar/activar automatizaciones. Esto está prohibido
   desde LKG v2 y lo reafirma este registro.
 
-Reactivar la tarea sin cambiar quién hace la escritura de reserva reproduce el
-mismo `is_enabled=false` en el siguiente registro (INC-018). La corrección de
-fondo es sacar la escritura CAS de la tarea LLM (Publisher v2 / Reservation
-Broker, hoy en staging). Este cambio pone la parte que faltaba en el repo:
-ownership exigible, detección de carreras y detección de schedulers caídos.
+### INC-018 fix: Publication Reservation workflow
+
+A partir del 2026-09-28, la escritura SHA-condicional que crea `publish_attempt_id`
+se ha movido de la tarea LLM Auto Publisher a un determinístico workflow de GitHub
+Actions: `.github/workflows/publication-reservation.yml`. Este cambio elimina la
+operación que activaba la denegación de seguridad de ChatGPT de la tarea LLM
+completamente.
+
+**Antes (roto):**
+- Auto Publisher intenta: `ready_to_publish -> publishing` (crea `publish_attempt_id`)
+- ChatGPT deniega: `github_reservation_write_safety_denial`
+- Auto Publisher desactivado: `is_enabled=false`
+- Contenido queda atascado en `ready_to_publish`
+
+**Después (fijo):**
+- Publication Reservation workflow (cada 5 min): `ready_to_publish -> publishing`
+- Auto Publisher solo procede: `publishing -> published` (invoca Metricool)
+- No escritura LLM arriesgada, sin denegación
+
+La reactivación de Auto Publisher ahora es segura (ver "Reconciliación cuando un
+scheduler falla" abajo); la denegación de seguridad no se repetirá porque ya no
+realiza esa escritura.
 
 ## Registro de schedulers
 
@@ -46,7 +63,8 @@ ownership exigible, detección de carreras y detección de schedulers caídos.
 | --- | --- | --- | --- | --- |
 | Promotion Controller | GitHub Actions `editorial-queue-promotion.yml` | `*/15`, push, dispatch | Promotion | Sólo crea el registro (`null -> blocked_media`) vía PR revisable |
 | Media Worker `matrix24-publisher` | Cloudflare cron | `*/15 * * * *` | Media | `blocked_media -> processing_media -> ready_to_publish` |
-| Auto Publisher | Tarea ChatGPT (sustituible por Publisher v2) | definida por el owner | Publication | `ready_to_publish -> publishing -> published / publish_unknown`, liberación con prueba de no envío |
+| Publication Reservation | GitHub Actions `publication-reservation.yml` | `*/5 * * * *` | Publication | `ready_to_publish -> publishing` (crea `publish_attempt_id`, escriba CAS directa) — INC-018 fix |
+| Auto Publisher | Tarea ChatGPT (sustituible por Publisher v2) | definida por el owner | Publication | `publishing -> published / publish_unknown`, liberación con prueba de no envío (NO crea `publish_attempt_id`) |
 | Reconciliación de claims de media | GitHub Actions `media-claim-reconciliation.yml` (manual) | manual | Media | Vía PR de cola: `processing_media -> ready_to_publish` (adopta JPEG existente), `-> blocked_media` (libera claim sin media) o `-> discarded` (owner) |
 | Reconciliación Instagram | GitHub Actions `instagram-reconciliation.yml` (manual) | manual | Recovery | Ninguna escritura directa hoy; resuelve `publish_unknown -> published` y enriquece `published` |
 | Production state audit | GitHub Actions `production-state-audit.yml` | `7 * * * *` | Observation | Ninguna |
