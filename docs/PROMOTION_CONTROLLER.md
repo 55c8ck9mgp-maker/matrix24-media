@@ -70,6 +70,21 @@ No valid pending work: successful no-op.
 
 Unknown repository state or duplicate queue identity: stop promotion globally and require reconciliation. Do not guess.
 
+## Stability status (2026-09-27)
+
+Ten separate `fix/promotion-*` and `hardening/promotion-*` branches landed
+against this component in a single day. That is a signal the design was
+iterated live under incident pressure, not that the component is
+unstable right now — the scheduled promotion workflow has run green for
+its last 10+ consecutive cycles as of this note.
+
+**Policy going forward:** treat this component as frozen unless a new
+incident is actually observed (not hypothesized). A future change here
+needs a postmortem-grade justification (an actual `docs/reliability/
+postmortems/*` entry) before another patch branch, not another
+speculative hardening pass. This prevents the same churn pattern from
+recurring.
+
 ## Responsibility boundary
 
 Editorial Engine ends at a verified draft.
