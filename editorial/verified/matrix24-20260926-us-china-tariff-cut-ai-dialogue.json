@@ -1,0 +1,111 @@
+{
+  "content_id": "matrix24-20260926-us-china-tariff-cut-ai-dialogue",
+  "researched_at": "2026-09-28T08:42:49Z",
+  "event_date": "2026-09-26",
+  "headline": "U.S. and China agree to reciprocal tariff cuts on $30 billion in goods and launch new AI dialogue after Trump-Xi summit",
+  "category": "Economy",
+  "editorial_category": "Economy",
+  "verified_source_urls": [
+    "https://www.foxnews.com/politics/us-china-strike-deal-lower-tariffs-30b-goods-trump-xi-washington-summit",
+    "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit",
+    "https://www.benzinga.com/markets/tech/26/09/62011699/trump-xi-jinping-agree-to-30-billion-tariff-deal-back-more-favorable-tariff-treatment-for-us-china-goods",
+    "https://www.briefs.co/news/china-touts-30b-reciprocal-tariff-cuts-with-u-s-plus-new-ai/"
+  ],
+  "source_records": [
+    {
+      "source_name": "Fox News",
+      "publication_date": "2026-09-26",
+      "url": "https://www.foxnews.com/politics/us-china-strike-deal-lower-tariffs-30b-goods-trump-xi-washington-summit",
+      "supports": [
+        "The United States and China agreed to reciprocal tariff reductions covering $30 billion in goods in each direction, reached during a Trump-Xi summit."
+      ],
+      "independent_source_id": "fox_news",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Al Jazeera",
+      "publication_date": "2026-09-28",
+      "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit",
+      "supports": [
+        "The United States and China agreed to reciprocal tariff reductions covering $30 billion in goods in each direction, reached during a Trump-Xi summit."
+      ],
+      "independent_source_id": "al_jazeera",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Benzinga",
+      "publication_date": "2026-09-26",
+      "url": "https://www.benzinga.com/markets/tech/26/09/62011699/trump-xi-jinping-agree-to-30-billion-tariff-deal-back-more-favorable-tariff-treatment-for-us-china-goods",
+      "supports": [
+        "The United States and China agreed to reciprocal tariff reductions covering $30 billion in goods in each direction, reached during a Trump-Xi summit.",
+        "As part of the same package, the U.S. and China agreed to establish a new bilateral dialogue on artificial intelligence."
+      ],
+      "independent_source_id": "benzinga",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Briefs.co",
+      "publication_date": "2026-09-26",
+      "url": "https://www.briefs.co/news/china-touts-30b-reciprocal-tariff-cuts-with-u-s-plus-new-ai/",
+      "supports": [
+        "The United States and China agreed to reciprocal tariff reductions covering $30 billion in goods in each direction, reached during a Trump-Xi summit.",
+        "As part of the same package, the U.S. and China agreed to establish a new bilateral dialogue on artificial intelligence."
+      ],
+      "independent_source_id": "briefs_co",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "The United States and China agreed to reciprocal tariff reductions covering $30 billion in goods in each direction, reached during a Trump-Xi summit announced around September 26, 2026.",
+      "material": true,
+      "normalized_value": "parties=US,China|action=reciprocal_tariff_cut|value_usd=30_billion_per_direction|trigger=trump_xi_summit",
+      "observations": [
+        {
+          "url": "https://www.foxnews.com/politics/us-china-strike-deal-lower-tariffs-30b-goods-trump-xi-washington-summit",
+          "normalized_value": "parties=US,China|action=reciprocal_tariff_cut|value_usd=30_billion_per_direction|trigger=trump_xi_summit"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit",
+          "normalized_value": "parties=US,China|action=reciprocal_tariff_cut|value_usd=30_billion_per_direction|trigger=trump_xi_summit"
+        },
+        {
+          "url": "https://www.benzinga.com/markets/tech/26/09/62011699/trump-xi-jinping-agree-to-30-billion-tariff-deal-back-more-favorable-tariff-treatment-for-us-china-goods",
+          "normalized_value": "parties=US,China|action=reciprocal_tariff_cut|value_usd=30_billion_per_direction|trigger=trump_xi_summit"
+        },
+        {
+          "url": "https://www.briefs.co/news/china-touts-30b-reciprocal-tariff-cuts-with-u-s-plus-new-ai/",
+          "normalized_value": "parties=US,China|action=reciprocal_tariff_cut|value_usd=30_billion_per_direction|trigger=trump_xi_summit"
+        }
+      ]
+    },
+    {
+      "claim": "As part of the same package, the U.S. and China agreed to establish a new bilateral dialogue on artificial intelligence.",
+      "material": true,
+      "normalized_value": "parties=US,China|action=establish_AI_dialogue|context=alongside_tariff_deal",
+      "observations": [
+        {
+          "url": "https://www.benzinga.com/markets/tech/26/09/62011699/trump-xi-jinping-agree-to-30-billion-tariff-deal-back-more-favorable-tariff-treatment-for-us-china-goods",
+          "normalized_value": "parties=US,China|action=establish_AI_dialogue|context=alongside_tariff_deal"
+        },
+        {
+          "url": "https://www.briefs.co/news/china-touts-30b-reciprocal-tariff-cuts-with-u-s-plus-new-ai/",
+          "normalized_value": "parties=US,China|action=establish_AI_dialogue|context=alongside_tariff_deal"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 The United States and China have agreed to reciprocal tariff reductions covering $30 billion in goods in each direction, following a summit between President Trump and President Xi Jinping. The deal lowers tariffs on categories including agricultural products, seafood and wood products from the U.S., and small appliances, toys and children's car seats from China. Alongside the tariff package, the two governments also agreed to launch a new bilateral dialogue on artificial intelligence.\n\n🇪🇸 Estados Unidos y China acordaron reducciones arancelarias recíprocas que cubren 30 mil millones de dólares en bienes en cada dirección, tras una cumbre entre el presidente Trump y el presidente Xi Jinping. El acuerdo reduce aranceles en categorías que incluyen productos agrícolas, mariscos y productos de madera de EE. UU., y electrodomésticos pequeños, juguetes y asientos infantiles para auto de China. Junto con el paquete arancelario, ambos gobiernos también acordaron lanzar un nuevo diálogo bilateral sobre inteligencia artificial.\n\nSources: Fox News / Al Jazeera / Benzinga / Briefs.co — Sept. 26-28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Economy",
+    "#USChina",
+    "#Trade",
+    "#Tariffs"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing a bilateral US-China trade and technology agreement: two abstract stylized geometric hands reaching toward each other over a minimalist trade motif (simplified cargo-ship silhouette and shipping-container shapes) with a faint circuit-board pattern in the background suggesting an AI-technology dialogue, muted red, navy blue, and gold color palette, restrained corporate-economic-news composition, no real identifiable people, no national flags or flag symbols, no logos, no readable text, no fabricated documentary details, vertical 4:5 aspect ratio. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Cross-checked four independently bylined reports (Fox News; Al Jazeera; Benzinga; Briefs.co) describing the same material facts: the U.S. and China agreed to reciprocal tariff reductions covering $30 billion in goods in each direction, reached at a Trump-Xi summit and announced around September 26, 2026, and that the same package included a new bilateral U.S.-China dialogue on artificial intelligence. Only claims on which at least two independently bylined sources reported an identical normalized value were retained; peripheral single-source details (e.g., a specific AI-incident communication channel, exact product lists, an $60 billion combined framing) were excluded pending broader corroboration.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
