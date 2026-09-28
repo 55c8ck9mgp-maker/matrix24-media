@@ -21,5 +21,20 @@
     ],
     "github_blob_sha": "46024fc461d987159232db27b059463b7bd77b1f"
   },
-  "known_reconstruction_note": "The audited markdown contained a malformed fragment inside getQueueState. The recovery JS repairs the missing catch/loop/function closure and is syntax-valid under an independent V8 parse. Treat recovery/index.reconstructed.js as recovery-grade reconstruction, not a byte-identical Cloudflare export."
+  "known_reconstruction_note": "The audited markdown contained a malformed fragment inside getQueueState. The recovery JS repairs the missing catch/loop/function closure and is syntax-valid under an independent V8 parse. Treat recovery/index.reconstructed.js as recovery-grade reconstruction, not a byte-identical Cloudflare export.",
+  "deployed_source": {
+    "file": "deployed/worker.js",
+    "captured_at": "2026-09-28",
+    "method": "Cloudflare API script content for matrix24-publisher (workers_get_worker_code), multipart part worker.js, transcribed to UTF-8",
+    "sha256": "b9c00487e6d4b8f5ba1eb7f0b5da9dcabd47afc2fc07cc53b5787c5ce0c08c60",
+    "bytes": 28945,
+    "byte_for_byte_cloudflare_export": false,
+    "fidelity_note": "Code is identical to the live bundle as returned by the API; trailing whitespace on blank lines was transcribed from the API response and is not guaranteed byte-exact. Confirm with `wrangler versions view` or a dashboard download before relying on the hash as proof of identity.",
+    "known_divergences_from_reconstructed": [
+      "selectQueueRecord also selects processing_media (re-claims stuck media claims every cron cycle; fixed in worker/releases/v3.2.1)",
+      "outbound fetches use redirect: manual instead of error",
+      "production routes are only GET / and /health, POST /process-queue, /upload and / (no diagnostic routes)"
+    ]
+  },
+  "preferred_rollback_source": "deployed/worker.js"
 }

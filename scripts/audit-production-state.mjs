@@ -6,6 +6,10 @@ const SAFE_ID = /^matrix24-[a-z0-9-]+$/;
 const STATES = new Set(['blocked_media','processing_media','ready_to_publish','publishing','publish_unknown','published','discarded']);
 const ACTIVE_PRODUCTION = new Set(['blocked_media','processing_media','ready_to_publish','publishing','publish_unknown']);
 
+// A media render takes well under a minute and the Worker cron runs every 15 minutes.
+// A claim older than this is stuck and needs explicit reconciliation (claims never expire).
+export const STALE_MEDIA_CLAIM_MS = 60 * 60 * 1000;
+
 const validMediaId = value => typeof value === 'string' && /^[0-9]+$/.test(value);
 const validPermalink = value => typeof value === 'string' && /^https:\/\/(?:www\.)?instagram\.com\/[^\s]+/i.test(value);
 const validHttps = value => typeof value === 'string' && /^https:\/\//i.test(value);
@@ -31,7 +35,7 @@ function present(value) {
   return value != null && value !== '';
 }
 
-export function auditProductionState({ root = process.cwd() } = {}) {
+export function auditProductionState({ root = process.cwd(), now = Date.now() } = {}) {
   const findings = [];
   const warnings = [];
   const queueFiles = jsonFiles(root, 'queue');
@@ -92,6 +96,10 @@ export function auditProductionState({ root = process.cwd() } = {}) {
 
     if (record.status === 'processing_media') {
       if (!record.media_claim?.id || !record.media_claim?.started_at) findings.push({severity:'critical',path:file,issue:'processing_media_missing_owned_claim'});
+      const claimStartedAt = Date.parse(record.media_claim?.started_at || '');
+      if (Number.isFinite(claimStartedAt) && now - claimStartedAt > STALE_MEDIA_CLAIM_MS) {
+        findings.push({severity:'high',path:file,issue:'processing_media_claim_stale_requires_reconciliation',claim_id:record.media_claim.id,started_at:record.media_claim.started_at});
+      }
       if (publicationClaim || positivePublicationEvidence) findings.push({severity:'critical',path:file,issue:'processing_media_has_publication_state'});
     }
 
