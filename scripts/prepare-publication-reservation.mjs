@@ -34,7 +34,13 @@ function readQueueRecord(filePath) {
 }
 
 function calculateSha(content) {
-  return crypto.createHash('sha1').update(content).digest('hex');
+  // GitHub API uses git blob hash format: SHA-1('blob <byte_size>\0<content>')
+  // Size must be the byte length, not character count
+  const byteLength = Buffer.byteLength(content, 'utf8');
+  const hash = crypto.createHash('sha1');
+  hash.update(`blob ${byteLength}\0`, 'utf8');
+  hash.update(content, 'utf8');
+  return hash.digest('hex');
 }
 
 function generateAttemptId() {

@@ -69,12 +69,22 @@ async function writeFileToGitHub(repo, token, queuePath, recordJson, expectedSha
   };
 
   try {
-    const cmd = `curl -sS -X PUT -H "Authorization: Bearer ${token}" -H "Content-Type: application/json" https://api.github.com/repos/${repo}/contents/${queuePath} -d '${JSON.stringify(payload)}'`;
+    const cmd = `curl -sS -w "\n%{http_code}" -X PUT -H "Authorization: Bearer ${token}" -H "Content-Type: application/json" https://api.github.com/repos/${repo}/contents/${queuePath} -d '${JSON.stringify(payload)}'`;
     const output = execSync(cmd, { encoding: 'utf8' });
-    const data = JSON.parse(output);
-    return { success: true, sha: data.commit.sha };
+    const lines = output.trim().split('\n');
+    const statusCode = lines[lines.length - 1];
+    const responseJson = lines.slice(0, -1).join('\n');
+    const data = JSON.parse(responseJson);
+
+    if (statusCode === '409') {
+      return { success: false, reason: 'sha_conflict' };
+    }
+    if (statusCode.startsWith('2')) {
+      return { success: true, sha: data.commit?.sha };
+    }
+    throw new ApplyError('WRITE_FAILED', `HTTP ${statusCode}: ${data.message || 'Unknown error'}`);
   } catch (e) {
-    // Check if it's a conflict (race condition)
+    if (e instanceof ApplyError) throw e;
     if (e.message && e.message.includes('409')) {
       return { success: false, reason: 'sha_conflict' };
     }
