@@ -98,3 +98,16 @@ Auto Publisher begins at `ready_to_publish`.
 Reconciliation handles only unresolved publication attempts.
 
 Observation components remain read-only.
+
+## Merge-wait observation
+
+The controller never merges its promotion PR; a human must. Because an
+unmerged PR leaves `queue/` untouched, the queue-state audit cannot see the
+stall (PR #67 waited 25 hours on 2026-09-27 with every check green).
+`production-state-audit.yml` therefore also runs
+`scripts/audit-stalled-promotion-prs.mjs` each hour, which emits a
+`::warning::` and a job-summary row for every open
+`Queue approved promotion: <content_id>` PR older than
+`PROMOTION_STALL_HOURS` (default 4). It is read-only: it never merges,
+comments on, closes or re-dispatches anything, and it does not change this
+controller. Rollback: remove that workflow step.
