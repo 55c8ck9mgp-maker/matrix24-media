@@ -38,6 +38,8 @@ export const TRANSITION_OWNERS = Object.freeze({
   'null->blocked_media': PLANES.PROMOTION,
   'blocked_media->processing_media': PLANES.MEDIA,
   'processing_media->ready_to_publish': PLANES.MEDIA,
+  // Owner-triggered media reconciliation only (scripts/reconcile-media-claim.mjs).
+  'processing_media->blocked_media': PLANES.MEDIA,
   'ready_to_publish->publishing': PLANES.PUBLICATION,
   'publishing->publishing': PLANES.PUBLICATION,
   'publishing->published': PLANES.PUBLICATION,
@@ -165,6 +167,14 @@ export function classifyQueueWrite(before, after) {
     case 'processing_media->ready_to_publish':
       if (present(after.media_claim)) violations.push('media_claim_not_released');
       if (!/^https:\/\//.test(after.public_image_url || '')) violations.push('ready_without_public_image');
+      break;
+    case 'processing_media->blocked_media':
+      // Releasing a claim needs recorded evidence that no media exists, never age alone.
+      if (present(after.media_claim)) violations.push('media_claim_not_released');
+      if (present(after.public_image_url)) violations.push('released_with_public_image');
+      if (!appended.some(h => h?.stage === 'media_reconciliation' && h?.result === 'released_no_media' && h?.claim_id === before.media_claim?.id)) {
+        violations.push('media_claim_released_without_reconciliation_record');
+      }
       break;
     case 'ready_to_publish->publishing':
       if (!present(after.publish_attempt_id) || !present(after.publishing_started_at)) violations.push('reservation_without_attempt');

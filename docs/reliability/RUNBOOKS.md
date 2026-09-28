@@ -26,6 +26,23 @@ Si CAS de reserva falla: no llamar proveedor. Si respuesta CAS se pierde: releer
 
 Antes de claim: esquema, fuente válida, URL permitida, límites de asset. Después de claim: inspeccionar objeto determinista y metadatos de revisión; validar bytes JPEG, dimensiones, ratio y tamaño, no solo extensión/HEAD. Objeto válido + ownership permite proponer completar archivo con CAS; objeto inválido/indeterminado no permite regeneración ciega. Render/AI/upload inciertos mantienen claim. NoSuchKey tiene tratamiento explícito de código/body; timeout/403 no se convierten en ausencia. Nunca tocar `/process-queue` o `/upload` productivos durante auditoría.
 
+## R4a — Claim de media atascado (`processing_media_claim_stale_requires_reconciliation`)
+
+La auditoría horaria o el log `matrix24_media_claim_pending_reconciliation` del Worker reportan `content_id`, `claim_id` y `started_at`. El Worker (v3.2.1 en adelante) nunca vuelve a tomar ese registro; lo resuelve una persona con el workflow **Media claim reconciliation** (Actions, "Run workflow" sobre `main`).
+
+1. **Dry run.** Lanzar con `content_id`, `claim_id` (exacto, copiado de la auditoría), `mode: auto` y `apply` sin marcar. El resultado indica qué haría:
+   - `adopted`: el JPEG determinista (o la `public_image_url` ya registrada) existe, es un JPEG completo de 1080x1350 con 3 componentes y como mucho 8 MB. El registro pasaría a `ready_to_publish` con `public_image_url`, `image_filename`, `media_ready_at` e `image_spec`, sin renderizar.
+   - `released`: Supabase confirma que el objeto no existe (404 o `NoSuchKey`). El claim se libera y el registro vuelve a `blocked_media`; el Worker lo renderiza en un ciclo posterior.
+   - Rechazos (no cambia nada): `CLAIM_NOT_STALE` (menos de 1 h), `CLAIM_ID_MISMATCH` (el claim cambió desde la auditoría), `ASSET_STATE_AMBIGUOUS` (403, 5xx, timeout: nunca se interpreta como ausencia), `ASSET_INVALID_REQUIRES_STORAGE_REVIEW` (hay un objeto pero no es un JPEG válido de 1080x1350; como el Worker sube con `x-upsert: false`, un re-render tampoco podría reemplazarlo), `EXISTING_MEDIA_MISSING` (la `public_image_url` ya registrada desapareció).
+2. **Aplicar.** Repetir con `apply` marcado. El workflow reproduce la auditoría de ownership y abre un único PR `Reconcile media claim: <content_id> (<acción>)` que solo cambia ese registro de `queue/`. **Fusionar el PR es la decisión**; cerrarlo la anula. Si `main` cambió el registro mientras tanto, el PR entra en conflicto: cerrarlo, borrar la rama `media-reconciliation/<content_id>` y repetir desde el dry run.
+3. **Descartar.** Si la historia ya no debe publicarse (o el objeto es inválido y nadie va a revisar el almacenamiento), lanzar con `mode: discard` y un `reason`. El registro pasa a `discarded` sin claim y el motivo queda en `publish_attempt_history`. Es una decisión del propietario y se reporta como `owner_manual_discard`.
+
+Cada resultado añade una entrada `stage: media_reconciliation` (`adopted_existing_media`, `released_no_media` o `discarded_by_owner`) con el `claim_id` y su `started_at`. La tabla de ownership exige esa entrada para `processing_media -> blocked_media`, así que un reset manual sin evidencia falla en CI.
+
+Carrera con un render en curso: si el Worker siguiera trabajando con ese claim, su escritura final usa el SHA anterior y GitHub la rechaza tras el merge; si llegara antes, el PR de reconciliación entra en conflicto. En ningún caso hay dos escrituras válidas.
+
+Rollback: no revertir un PR de reconciliación ya fusionado. Tras `adopted` el publicador puede haber reservado el registro, y tras `released` el Worker puede haber tomado un claim nuevo; la reversión sería una transición sin dueño y la auditoría la rechaza. Si la decisión fue errónea, se corrige con el siguiente paso normal del estado actual (por ejemplo `discard`). Para retirar la herramienta, revertir el PR que la introdujo: el reconciliador nunca escribe en Supabase, así que no deja nada que limpiar.
+
 ## R5 — Lecturas/health
 
 Retries solo transitorios, máximo dos adicionales por ciclo (base 5/20 s, jitter, respetar Retry-After); diferir al scheduler si espera larga. 401/403: escalar permisos, sin reconectar automáticamente. Circuit breaker por dependencia; health agregado debe mostrar qué carril está degradado y qué comprobaciones son desconocidas. Lectura `200` sin freshness no da estado saludable. Editorial puede trabajar con dedupe pendiente; promoción exige verificación actual. Mantener un monitor único y alertar solo cambios significativos.

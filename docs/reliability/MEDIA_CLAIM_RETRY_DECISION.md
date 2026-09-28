@@ -27,7 +27,7 @@ Es un bug. El Worker vuelve a tomar un claim una sola vez y nunca lo reintenta a
 
 ## Recuperar un claim atascado
 
-Tras v3.2.1 un registro atascado queda en `processing_media` hasta que alguien lo reconcilia. El asset es determinista (`matrix24-<sha256(content_id)>-v1.jpg`): si existe en Supabase y es un JPEG válido, la reconciliación lo adjunta y pasa a `ready_to_publish` sin renderizar; si no existe, se limpia el claim y se devuelve a `blocked_media` con una entrada en `publish_attempt_history` que registre el fallo. Ese reconciliador de media aún no existe y queda como trabajo pendiente; hasta entonces es un paso manual revisado por PR.
+Tras v3.2.1 un registro atascado queda en `processing_media` hasta que alguien lo reconcilia. El asset es determinista (`matrix24-<sha256(content_id)>-v1.jpg`): si existe en Supabase y es un JPEG válido, la reconciliación lo adjunta y pasa a `ready_to_publish` sin renderizar; si no existe, se limpia el claim y se devuelve a `blocked_media` con una entrada en `publish_attempt_history` que registre el fallo. El reconciliador es `scripts/reconcile-media-claim.mjs`, lanzado a mano con el workflow `media-claim-reconciliation.yml`, que abre un PR de cola revisable; ver el runbook R4a en `RUNBOOKS.md`. El propietario también puede descartar la historia (`discarded`).
 
 ## Despliegue
 
