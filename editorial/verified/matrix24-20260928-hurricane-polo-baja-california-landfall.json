@@ -1,0 +1,133 @@
+{
+  "content_id": "matrix24-20260928-hurricane-polo-baja-california-landfall",
+  "researched_at": "2026-09-28T04:30:00Z",
+  "event_date": "2026-09-28",
+  "headline": "Category 3 Hurricane Polo bears down on Baja California Sur, landfall expected Monday",
+  "category": "Climate",
+  "editorial_category": "Climate",
+  "verified_source_urls": [
+    "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP2+html/212339.shtml",
+    "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
+    "https://watchers.news/2026/09/27/baja-california-sur-prepares-for-hurricane-polo-ahead-of-monday-landfall-mexico/"
+  ],
+  "source_records": [
+    {
+      "source_name": "U.S. National Hurricane Center (NOAA)",
+      "publication_date": "2026-09-27",
+      "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP2+html/212339.shtml",
+      "supports": [
+        "Hurricane Polo was a Category 3 hurricane with maximum sustained winds of 125 mph as of the 8 PM MST advisory on September 27, 2026.",
+        "Polo was forecast to approach the west coast of Baja California Sur on Monday and cross the peninsula Monday night."
+      ],
+      "independent_source_id": "nhc-noaa",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "CBS News",
+      "publication_date": "2026-09-27",
+      "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
+      "supports": [
+        "Hurricane Polo was a Category 3 storm with maximum sustained winds of 125 mph, located about 275 miles west-southwest of Cabo San Lucas.",
+        "Polo was forecast to make landfall in Baja California Sur on Monday, with life-threatening flooding and mudslides possible.",
+        "Mexican authorities ordered evacuations and opened shelters ahead of the storm."
+      ],
+      "independent_source_id": "cbs-news",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "The Watchers",
+      "publication_date": "2026-09-27",
+      "url": "https://watchers.news/2026/09/27/baja-california-sur-prepares-for-hurricane-polo-ahead-of-monday-landfall-mexico/",
+      "supports": [
+        "Hurricane Polo was a Category 3 hurricane approaching Baja California Sur, expected to cross the peninsula Monday night and reach mainland Mexico early Tuesday.",
+        "Baja California Sur authorities opened 169 temporary shelters with combined capacity for more than 33,000 people and suspended classes."
+      ],
+      "independent_source_id": "the-watchers",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Hurricane Polo was a Category 3 hurricane as of September 27, 2026.",
+      "material": true,
+      "normalized_value": "storm=Polo|category=3|date=2026-09-27",
+      "observations": [
+        {
+          "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP2+html/212339.shtml",
+          "normalized_value": "storm=Polo|category=3|date=2026-09-27"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
+          "normalized_value": "storm=Polo|category=3|date=2026-09-27"
+        },
+        {
+          "url": "https://watchers.news/2026/09/27/baja-california-sur-prepares-for-hurricane-polo-ahead-of-monday-landfall-mexico/",
+          "normalized_value": "storm=Polo|category=3|date=2026-09-27"
+        }
+      ]
+    },
+    {
+      "claim": "Hurricane Polo's maximum sustained winds were 125 mph on September 27, 2026.",
+      "material": true,
+      "normalized_value": "storm=Polo|wind_mph=125|date=2026-09-27",
+      "observations": [
+        {
+          "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP2+html/212339.shtml",
+          "normalized_value": "storm=Polo|wind_mph=125|date=2026-09-27"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
+          "normalized_value": "storm=Polo|wind_mph=125|date=2026-09-27"
+        }
+      ]
+    },
+    {
+      "claim": "Hurricane Polo was forecast to make landfall in Baja California Sur, Mexico, on Monday, September 28, 2026.",
+      "material": true,
+      "normalized_value": "storm=Polo|landfall_area=Baja_California_Sur|landfall_day=Monday",
+      "observations": [
+        {
+          "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP2+html/212339.shtml",
+          "normalized_value": "storm=Polo|landfall_area=Baja_California_Sur|landfall_day=Monday"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
+          "normalized_value": "storm=Polo|landfall_area=Baja_California_Sur|landfall_day=Monday"
+        },
+        {
+          "url": "https://watchers.news/2026/09/27/baja-california-sur-prepares-for-hurricane-polo-ahead-of-monday-landfall-mexico/",
+          "normalized_value": "storm=Polo|landfall_area=Baja_California_Sur|landfall_day=Monday"
+        }
+      ]
+    },
+    {
+      "claim": "Mexican authorities opened shelters and ordered evacuations in Baja California Sur ahead of Hurricane Polo.",
+      "material": true,
+      "normalized_value": "location=Baja_California_Sur|action=shelters_opened_evacuations_ordered",
+      "observations": [
+        {
+          "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
+          "normalized_value": "location=Baja_California_Sur|action=shelters_opened_evacuations_ordered"
+        },
+        {
+          "url": "https://watchers.news/2026/09/27/baja-california-sur-prepares-for-hurricane-polo-ahead-of-monday-landfall-mexico/",
+          "normalized_value": "location=Baja_California_Sur|action=shelters_opened_evacuations_ordered"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Hurricane Polo, a Category 3 storm with 125 mph winds, was bearing down on Baja California Sur, Mexico, with landfall expected Monday, September 28, 2026. The U.S. National Hurricane Center warned of life-threatening flooding and mudslides, and local authorities opened shelters and ordered evacuations ahead of the storm.\n\n🇪🇸 El huracán Polo, de categoría 3 con vientos de 125 mph, se acercaba a Baja California Sur, México, con un impacto en tierra previsto para el lunes 28 de septiembre de 2026. El Centro Nacional de Huracanes de EE.UU. advirtió sobre inundaciones y deslizamientos de tierra potencialmente mortales, mientras las autoridades locales abrieron refugios y ordenaron evacuaciones ante la llegada de la tormenta.\n\nSources: NOAA National Hurricane Center / CBS News / The Watchers — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#HurricanePolo",
+    "#Mexico",
+    "#BajaCaliforniaSur",
+    "#Climate",
+    "#Weather"
+  ],
+  "image_generation_prompt": "AI-generated editorial illustration, not documentary photography, of a large hurricane spiral over the eastern Pacific Ocean approaching a generic peninsula coastline resembling Baja California, dramatic storm clouds and turbulent surf, distant anonymous coastal town silhouette with no readable text, logos or flags, restrained professional global-news aesthetic, vertical 4:5 composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: the NOAA National Hurricane Center's official advisory, CBS News, and The Watchers independently corroborate Hurricane Polo's Category 3 status, its forecast Monday landfall in Baja California Sur, and Mexican shelter/evacuation preparations; NHC and CBS News additionally agree on the 125 mph sustained wind speed. Earlier peak-intensity (Category 5) reporting from prior days was excluded as not material to the current, cross-checked status.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
