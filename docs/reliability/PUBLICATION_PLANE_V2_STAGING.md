@@ -47,7 +47,20 @@ explicit proof `transport_not_called`.
    handling. If it lacks an idempotency key, ambiguous network outcomes are
    permanently quarantined until account-bound reconciliation proves outcome.
 5. Reconciliation adapter that can archive a matching Instagram media ID but
-   cannot initiate a replacement publication.
+   cannot initiate a replacement publication. — Built:
+   `publisher-v2/staging/src/reconciliation-archive-adapter.mjs` composes the
+   already-deployed read-side lookup (`worker/staging/reliability/
+   direct-media-client.mjs` + `policy.mjs`) with the already-fixed
+   `github-queue-adapter.archive()`. It takes a candidate media ID as an
+   explicit input (same shape as the existing manual
+   `instagram-reconciliation.yml` workflow) rather than auto-discovering
+   candidates, and refuses to archive any record that is not owned by the
+   supplied attempt ID or not in an unresolved (`publishing`/
+   `publish_unknown`) state — so it cannot be used to force through a record
+   that was never reserved in the first place (see
+   `tests/reconciliation-archive-adapter.test.mjs`). Not wired into any
+   workflow yet: doing so still needs the same GitHub App identity gate as
+   the reservation broker, plus a read-capable Instagram token.
 6. Sanitized lifecycle/audit entries correlated by attempt ID. No raw provider
    payloads, headers or secrets in GitHub or public logs.
 
