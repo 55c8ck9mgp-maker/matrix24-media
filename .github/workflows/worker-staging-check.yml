@@ -36,6 +36,8 @@ jobs:
       - name: Syntax check
         run: |
           node --check worker/backups/v3.2.0/recovery/index.reconstructed.js
+          node --check worker/backups/v3.2.0/deployed/worker.js
+          node --check worker/releases/v3.2.1/worker.js
           node --check worker/staging/v3.2.0/src/core.js
           node --check worker/staging/v3.2.0/src/index.js
 

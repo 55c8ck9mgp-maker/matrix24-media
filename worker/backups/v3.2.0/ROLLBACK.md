@@ -17,9 +17,11 @@ This backup is a recovery reference. It is not permission to deploy automaticall
 
 ## Recovery candidate
 
-`recovery/index.reconstructed.js`
+Preferred: `deployed/worker.js`, captured from the live Worker on 2026-09-28.
 
-This candidate is **not byte-identical** to an exported Cloudflare source. See `README.md` and `MANIFEST.json`.
+Rolling back to it from v3.2.1 re-introduces automatic re-claiming of stuck `processing_media` records. Before such a rollback, confirm no record is in `processing_media`, or reconcile it first.
+
+Fallback: `recovery/index.reconstructed.js`. This candidate is **not byte-identical** to an exported Cloudflare source and predates the live bundle. See `README.md` and `MANIFEST.json`.
 
 ## Required checks
 

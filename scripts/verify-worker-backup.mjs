@@ -53,6 +53,24 @@ if (!(reserveIndex < claimWriteIndex && claimWriteIndex < renderIndex)) {
   throw new Error("Durable claim must be written before paid render work");
 }
 
+const deployedPath = "worker/backups/v3.2.0/" + manifest.deployed_source.file;
+const deployed = fs.readFileSync(deployedPath);
+const deployedHash = crypto.createHash("sha256").update(deployed).digest("hex");
+
+if (deployedHash !== manifest.deployed_source.sha256) {
+  throw new Error("Deployed backup SHA-256 mismatch: " + deployedHash);
+}
+
+if (deployed.length !== manifest.deployed_source.bytes) {
+  throw new Error("Deployed backup byte-count mismatch: " + deployed.length);
+}
+
+for (const marker of requiredSourceMarkers) {
+  if (!deployed.toString("utf8").includes(marker)) {
+    throw new Error("Deployed backup missing Worker invariant marker: " + marker);
+  }
+}
+
 if (config.worker_name !== "matrix24-publisher") {
   throw new Error("Unexpected production Worker name");
 }
@@ -79,8 +97,14 @@ const secretPatterns = [
   /\beyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}\b/
 ];
 
+const scannedSources = [
+  text,
+  deployed.toString("utf8"),
+  fs.readFileSync("worker/releases/v3.2.1/worker.js", "utf8")
+];
+
 for (const pattern of secretPatterns) {
-  if (pattern.test(text)) {
+  if (scannedSources.some((scanned) => pattern.test(scanned))) {
     throw new Error("Possible secret material detected: " + pattern);
   }
 }
@@ -91,6 +115,7 @@ console.log(
       ok: true,
       source_sha256: actualHash,
       source_bytes: actualBytes,
+      deployed_sha256: deployedHash,
       staging_worker: "matrix24-publisher-staging",
       cron_enabled: false,
       production_queue_access: false

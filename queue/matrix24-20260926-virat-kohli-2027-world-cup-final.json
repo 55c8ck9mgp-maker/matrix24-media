@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-26T23:35:39Z",
   "content_id": "matrix24-20260926-virat-kohli-2027-world-cup-final",
-  "status": "ready_to_publish",
+  "status": "published",
   "headline": "Virat Kohli says 2027 Cricket World Cup will be his last for India",
   "category": "Sports",
   "editorial_category": "Sports",
@@ -104,6 +104,17 @@
       "request_id": "95c0607c-fbe7-4c82-9c6b-cc1b83c58357",
       "image_filename": "matrix24-5864652768b854f97b29f6fd39bada3fff65949586c872cfe005aa526947a4d3-v1.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-5864652768b854f97b29f6fd39bada3fff65949586c872cfe005aa526947a4d3-v1.jpg"
+    },
+    {
+      "timestamp": "2026-09-28T11:20:00.000Z",
+      "stage": "instagram_publish",
+      "result": "success",
+      "method": "manual_owner_publish_metricool_web",
+      "note": "Published manually by the project owner via Metricool's web scheduler (app.metricool.com) after the Auto Publisher's automated reservation write was blocked by an external platform safety denial (INC-018) and never reached Metricool for this record. No automated reservation was ever created for this content_id (publish_attempt_id was null throughout), so the standard reservation/archive pipeline does not apply here. The resulting Instagram permalink was confirmed directly by the project owner in chat. Recorded per docs/ARCHITECTURE.md's documented policy that a Metricool/Instagram permalink is valid positive terminal publication evidence even without a resolved numeric instagram_media_id. This update exists specifically to prevent the reactivated Auto Publisher from treating this content_id as still ready_to_publish and attempting a duplicate publication.",
+      "instagram_permalink": "https://www.instagram.com/p/Dd09Px2mMtq/"
     }
-  ]
+  ],
+  "instagram_permalink": "https://www.instagram.com/p/Dd09Px2mMtq/",
+  "published_at": "2026-09-28T11:20:00.000Z",
+  "publish_attempt_id": null
 }
