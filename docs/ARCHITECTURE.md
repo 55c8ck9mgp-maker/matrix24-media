@@ -116,7 +116,7 @@ Missing permalink never reopens a Media-ID-confirmed publication. Conversely, a 
 
 ## Critical invariants
 
-1. Exactly one owner for each state transition.
+1. Exactly one owner for each state transition (enforced by `scripts/queue-transition-ownership.mjs`; scheduler registry in `SCHEDULERS.md`).
 2. GitHub is authoritative; caches and social feeds are evidence, not state authority.
 3. Every consequential write is preceded by a durable claim or deterministic admission boundary.
 4. No blind retry after a potentially completed external operation.

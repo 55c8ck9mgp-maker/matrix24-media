@@ -1,0 +1,83 @@
+name: Queue transition ownership audit
+
+# Observation Plane: replays every queue/ write in a push or PR against the
+# single-owner transition table (docs/SCHEDULERS.md). It never writes, reverts,
+# retries or changes any scheduler; a violation fails this check and alerts.
+on:
+  pull_request:
+    paths:
+      - 'queue/*.json'
+      - 'scripts/queue-transition-ownership.mjs'
+      - 'scripts/audit-queue-transitions.mjs'
+      - 'tests/queue-transition-ownership.test.mjs'
+      - '.github/workflows/queue-transition-ownership.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'queue/*.json'
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Base ref to audit from (empty = full history)
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: queue-transition-ownership-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Run ownership policy tests
+        run: node --test tests/queue-transition-ownership.test.mjs
+      - name: Audit queue writes in this change
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+          PUSH_BEFORE: ${{ github.event.before }}
+          PUSH_AFTER: ${{ github.sha }}
+          DISPATCH_BASE: ${{ inputs.base }}
+        run: |
+          set -euo pipefail
+          case "$EVENT_NAME" in
+            pull_request) base="$PR_BASE"; head="$PR_HEAD" ;;
+            push) base="$PUSH_BEFORE"; head="$PUSH_AFTER" ;;
+            *) base="$DISPATCH_BASE"; head="HEAD" ;;
+          esac
+          # A push with no prior SHA (new branch) audits only the pushed head commit,
+          # never the whole history (which carries documented historical violations).
+          if [ "$base" = "0000000000000000000000000000000000000000" ]; then
+            base="$(git rev-parse "$head^" 2>/dev/null || true)"
+          fi
+          status=0
+          node scripts/audit-queue-transitions.mjs "$base" "$head" > transition-audit.json || status=$?
+          # Exit 1 means violations were found; anything else is a crash of the audit itself.
+          if [ "$status" -ne 0 ] && [ "$status" -ne 1 ]; then
+            echo "::error title=queue ownership audit crashed::exit $status"
+            exit "$status"
+          fi
+          cat transition-audit.json
+          # Fail closed: an empty or unparseable report is a failure, never a pass.
+          node -e '
+            const fs = require("fs");
+            const r = JSON.parse(fs.readFileSync("transition-audit.json", "utf8"));
+            if (typeof r.ok !== "boolean" || !Array.isArray(r.violations) || !Array.isArray(r.warnings)) throw new Error("malformed audit report");
+            for (const v of r.violations) console.log(`::error title=queue ownership violation::${v.commit} ${v.path||""} ${v.transition||""} ${v.violations.join(", ")}`);
+            for (const w of r.warnings) console.log(`::warning title=owner manual queue write::${w.commit} ${w.path} ${w.warnings.join(", ")}`);
+            if (r.ok !== (r.violations.length === 0)) throw new Error("inconsistent audit report");
+          '
+          exit "$status"

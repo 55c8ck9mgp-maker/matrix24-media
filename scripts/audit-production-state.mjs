@@ -1,6 +1,7 @@
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
+import { pendingOwner } from './queue-transition-ownership.mjs';
 
 const SAFE_ID = /^matrix24-[a-z0-9-]+$/;
 const STATES = new Set(['blocked_media','processing_media','ready_to_publish','publishing','publish_unknown','published','discarded']);
@@ -171,6 +172,13 @@ export function auditProductionState({ root = process.cwd(), now = Date.now() } 
     if (!manifest || manifest.approved !== true || manifest.content_id !== id || manifest.draft_sha256 !== provenance.draft_sha256) {
       findings.push({severity:'critical',path:queuePath,issue:'active_queue_provenance_not_bound_to_current_approved_manifest'});
     }
+  }
+
+  // A stalled record names the one plane allowed to act on it. Every other
+  // scheduler must leave it alone; see docs/SCHEDULERS.md.
+  for (const {path:queuePath,record} of queueById.values()) {
+    const pending = pendingOwner(record, { now });
+    if (pending.stalled) warnings.push({path:queuePath,issue:'stalled_transition',status:pending.status,owner:pending.owner,age_minutes:pending.age_minutes,threshold_minutes:pending.threshold_minutes});
   }
 
   const counts = {};
