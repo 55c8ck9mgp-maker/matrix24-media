@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:50:05Z",
   "content_id": "matrix24-20260928-hurricane-polo-baja-california-landfall",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "Category 3 Hurricane Polo bears down on Baja California Sur, landfall expected Monday",
   "category": "Climate",
   "editorial_category": "Climate",
@@ -155,6 +155,17 @@
       "request_id": "8ac1af7f-1894-40de-8405-bbce5a99ab13",
       "image_filename": "matrix24-57d23031e99278225ba20486016ef654f980e0e1340c94e82e639280f5749822-v1.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-57d23031e99278225ba20486016ef654f980e0e1340c94e82e639280f5749822-v1.jpg"
+    },
+    {
+      "timestamp": "2026-09-28T22:35:54.144Z",
+      "stage": "publication",
+      "result": "reservation_started",
+      "provider": "metricool",
+      "publish_attempt_id": "2e194061-6776-4e80-8cf0-16a3b11ec000",
+      "source": "publication_reservation_workflow"
     }
-  ]
+  ],
+  "publish_attempt_id": "2e194061-6776-4e80-8cf0-16a3b11ec000",
+  "publishing_started_at": "2026-09-28T22:35:54.144Z",
+  "provider": "metricool"
 }
