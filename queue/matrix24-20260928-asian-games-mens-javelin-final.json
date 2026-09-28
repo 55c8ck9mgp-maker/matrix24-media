@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-asian-games-mens-javelin-final",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Sri Lanka's Pathirage wins Asian Games javelin gold; India takes silver and bronze",
   "category": "Sports",
   "editorial_category": "Sports",
@@ -102,5 +102,9 @@
     "draft_sha256": "d3f3ad6ec6812fd642294570323363f28051ffbebee0084e0d184581eb82209b",
     "approved_at": "2026-09-28T21:20:47Z",
     "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-asian-games-mens-javelin-final. Sources re-checked against the retained claims on 2026-09-28. Preserve exactly-once admission and zero-duplicate protection."
+  },
+  "media_claim": {
+    "id": "5038f73a-0a9d-4eee-9840-64b6ca73f131",
+    "started_at": "2026-09-28T21:46:03.398Z"
   }
 }
