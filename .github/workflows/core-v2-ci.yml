@@ -30,5 +30,15 @@ jobs:
       - name: End-to-end dry-run
         run: node core-v2/core-v2-simulation.test.mjs
 
+      - name: Actor authority tests
+        run: node core-v2/actor-authority.test.mjs
       - name: Legacy migration dry-run
         run: node core-v2/legacy-migration-dry-run.test.mjs
+      - name: Generate migration manifest
+        run: node core-v2/generate-migration-manifest.mjs queue > core-v2-migration-manifest.json
+      - name: Upload migration manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-v2-migration-manifest
+          path: core-v2-migration-manifest.json
+          retention-days: 30
