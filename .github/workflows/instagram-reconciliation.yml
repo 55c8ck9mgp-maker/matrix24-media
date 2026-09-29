@@ -1,37 +1,19 @@
-name: Instagram reconciliation (LEGACY — read-only)
+name: Instagram reconciliation (LEGACY - disabled)
 
-# Core v2 cutover 2026-09-29.
-# Core v2 Reconciler is the sole owner of publishing/publish_unknown -> published.
-# This legacy workflow may inspect Instagram evidence manually but cannot write
-# queue state: no schedule, no apply input, no contents:write permission.
+# Core v2 owns publication reconciliation. This file is retained only as an
+# auditable tombstone and has no reachable production trigger or write path.
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - __matrix24_legacy_disabled__
 
 permissions:
   contents: read
 
 jobs:
-  inspect:
+  legacy-disabled:
+    if: ${{ false }}
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    permissions:
-      contents: read
     steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
-        with:
-          ref: main
-          fetch-depth: 1
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
-        with:
-          node-version: '22'
-      - name: Read-only Instagram evidence inspection
-        env:
-          IG_READ_TOKEN: ${{ secrets.IG_READ_TOKEN }}
-          IG_USERNAME: matrix24global
-          APPLY: 'false'
-        run: |
-          set -o pipefail
-          node scripts/reconcile-instagram-feed.mjs | tee reconciliation.json
-      - name: Enforce Core v2 reconciliation boundary
-        run: echo "LEGACY_RECONCILIATION_WRITE_DISABLED: Core v2 Reconciler owns confirmation"
+      - run: echo "Legacy Instagram reconciliation is disabled; Core v2 Reconciler owns confirmation."
