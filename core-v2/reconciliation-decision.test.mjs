@@ -1,0 +1,12 @@
+import assert from "node:assert/strict"; import {decideReconciliation,mayPublish} from "./reconciliation-decision.mjs";
+const active={status:"publishing",publish_attempt_id:"attempt-1"};
+let d=decideReconciliation(active,{status:"matched",post:{id:"ig-1"}});
+assert.equal(d.action,"CLOSE_EXISTING_CLAIM"); assert.equal(d.claim_id,"attempt-1"); assert.equal(d.target_status,"published");
+d=decideReconciliation(active,{status:"ambiguous"}); assert.equal(d.action,"KEEP_CLAIM"); assert.equal(d.target_status,"publish_unknown");
+d=decideReconciliation(active,{status:"no_match"}); assert.equal(d.action,"KEEP_CLAIM"); assert.equal(d.target_status,"publish_unknown");
+assert.equal(mayPublish(active),false);
+assert.equal(mayPublish({status:"publish_unknown",publish_attempt_id:"attempt-1"}),false);
+assert.equal(mayPublish({status:"published"}),false);
+assert.equal(mayPublish({status:"ready_to_publish"}),true);
+assert.equal(mayPublish({status:"ready_to_publish",publish_attempt_id:"old"}),false);
+console.log("Core v2 reconciliation exactly-once fixtures: PASS");
