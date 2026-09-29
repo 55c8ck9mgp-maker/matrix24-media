@@ -1,0 +1,101 @@
+{
+  "content_id": "matrix24-20260927-sudan-gezira-fuel-depot-drone-strike",
+  "researched_at": "2026-09-28T22:42:48Z",
+  "event_date": "2026-09-27",
+  "headline": "RSF drones strike major fuel depot near Wad Madani, Sudan, sparking fires",
+  "category": "Security / Geopolitics",
+  "editorial_category": "Security / Geopolitics",
+  "verified_source_urls": [
+    "https://sudantribune.com/article/319309",
+    "https://www.dabangasudan.org/en/all-news/article/rsf-drones-strike-el-gezira-fuel-depot-as-both-sides-report-shootdowns",
+    "https://www.radiotamazuj.org/en/news/article/drone-strike-hits-fuel-depot-in-central-sudan"
+  ],
+  "source_records": [
+    {
+      "source_name": "Sudan Tribune",
+      "publication_date": "2026-09-27",
+      "url": "https://sudantribune.com/article/319309",
+      "supports": [
+        "Sudan's Rapid Support Forces (RSF) struck the Um Aleila fuel depot near Wad Madani in Al Jazirah state, Sudan, with drones in the early morning of September 27, 2026, sparking explosions and fires at the fuel storage tanks.",
+        "No casualties from the fuel depot drone strike had been reported as of publication."
+      ],
+      "independent_source_id": "sudan_tribune",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Radio Dabanga",
+      "publication_date": "2026-09-27",
+      "url": "https://www.dabangasudan.org/en/all-news/article/rsf-drones-strike-el-gezira-fuel-depot-as-both-sides-report-shootdowns",
+      "supports": [
+        "Sudan's Rapid Support Forces (RSF) struck the Um Aleila fuel depot near Wad Madani in Al Jazirah state, Sudan, with drones in the early morning of September 27, 2026, sparking explosions and fires at the fuel storage tanks.",
+        "No casualties from the fuel depot drone strike had been reported as of publication."
+      ],
+      "independent_source_id": "radio_dabanga",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Radio Tamazuj",
+      "publication_date": "2026-09-27",
+      "url": "https://www.radiotamazuj.org/en/news/article/drone-strike-hits-fuel-depot-in-central-sudan",
+      "supports": [
+        "Sudan's Rapid Support Forces (RSF) struck the Um Aleila fuel depot near Wad Madani in Al Jazirah state, Sudan, with drones in the early morning of September 27, 2026, sparking explosions and fires at the fuel storage tanks.",
+        "No casualties from the fuel depot drone strike had been reported as of publication."
+      ],
+      "independent_source_id": "radio_tamazuj",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Sudan's Rapid Support Forces (RSF) struck the Um Aleila fuel depot near Wad Madani in Al Jazirah state, Sudan, with drones in the early morning of September 27, 2026, sparking explosions and fires at the fuel storage tanks.",
+      "material": true,
+      "normalized_value": "actor=RSF|target=Um_Aleila_fuel_depot|location=near_Wad_Madani_Al_Jazirah_state_Sudan|date=2026-09-27|method=drone_strike|effect=explosions_and_fires",
+      "observations": [
+        {
+          "url": "https://sudantribune.com/article/319309",
+          "normalized_value": "actor=RSF|target=Um_Aleila_fuel_depot|location=near_Wad_Madani_Al_Jazirah_state_Sudan|date=2026-09-27|method=drone_strike|effect=explosions_and_fires"
+        },
+        {
+          "url": "https://www.dabangasudan.org/en/all-news/article/rsf-drones-strike-el-gezira-fuel-depot-as-both-sides-report-shootdowns",
+          "normalized_value": "actor=RSF|target=Um_Aleila_fuel_depot|location=near_Wad_Madani_Al_Jazirah_state_Sudan|date=2026-09-27|method=drone_strike|effect=explosions_and_fires"
+        },
+        {
+          "url": "https://www.radiotamazuj.org/en/news/article/drone-strike-hits-fuel-depot-in-central-sudan",
+          "normalized_value": "actor=RSF|target=Um_Aleila_fuel_depot|location=near_Wad_Madani_Al_Jazirah_state_Sudan|date=2026-09-27|method=drone_strike|effect=explosions_and_fires"
+        }
+      ]
+    },
+    {
+      "claim": "No casualties from the fuel depot drone strike had been reported as of publication.",
+      "material": true,
+      "normalized_value": "casualties=none_reported_as_of_publication",
+      "observations": [
+        {
+          "url": "https://sudantribune.com/article/319309",
+          "normalized_value": "casualties=none_reported_as_of_publication"
+        },
+        {
+          "url": "https://www.dabangasudan.org/en/all-news/article/rsf-drones-strike-el-gezira-fuel-depot-as-both-sides-report-shootdowns",
+          "normalized_value": "casualties=none_reported_as_of_publication"
+        },
+        {
+          "url": "https://www.radiotamazuj.org/en/news/article/drone-strike-hits-fuel-depot-in-central-sudan",
+          "normalized_value": "casualties=none_reported_as_of_publication"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Sudan's Rapid Support Forces launched a drone strike before dawn on September 27 against the Um Aleila fuel depot near Wad Madani in Al Jazirah state, igniting explosions and fires at the storage tanks that supply the region. Firefighting teams responded to contain the blaze, and no casualties had been reported as of publication, as Sudan's civil war between the RSF and the army enters its fourth year.\n\n🇪🇸 Las Fuerzas de Apoyo Rápido de Sudán lanzaron un ataque con drones antes del amanecer del 27 de septiembre contra el depósito de combustible de Um Aleila, cerca de Wad Madani, en el estado de Al Jazirah, provocando explosiones e incendios en los tanques de almacenamiento que abastecen a la región. Equipos de bomberos respondieron para contener el incendio, y hasta el momento de la publicación no se habían reportado víctimas, mientras la guerra civil de Sudán entre las RSF y el ejército entra en su cuarto año.\n\nSources: Sudan Tribune, Radio Dabanga, Radio Tamazuj — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Sudan",
+    "#RSF",
+    "#SudanWar",
+    "#SecurityNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing an infrastructure attack in a conflict zone: abstract stylized fuel storage tanks silhouetted against a night sky, orange and black smoke plumes rising, distant faint drone silhouette overhead, muted desert-toned color palette, no real people, no military insignia, no flags, no logos, no readable text, restrained news-illustration composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Sudan Tribune, Radio Dabanga, and Radio Tamazuj — three independent outlets covering Sudan — all reported that RSF drones struck the Um Aleila fuel depot near Wad Madani in Al Jazirah state on the morning of September 27, 2026, causing explosions and fires, with no casualties reported as of publication. No conflicting material claims were found among the three sources on these points; a secondary claim about competing shootdown claims (RSF vs. Sudanese Armed Forces) appeared in only one outlet and was excluded for lack of independent corroboration.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
