@@ -119,3 +119,27 @@ test('a record appearing in any state other than blocked_media is rejected, not 
     assert.ok(out.violations[0].startsWith('transition_not_owned:null->'));
   }
 });
+
+
+test('published terminal repair may remove invalid media id but preserves valid evidence', () => {
+  const before = baseRecord('published');
+  before.instagram_permalink = 'https://www.instagram.com/p/ABC123/';
+  before.instagram_media_id = 'https://www.instagram.com/p/ABC123/';
+  const after = structuredClone(before);
+  delete after.instagram_media_id;
+  const result = classifyQueueWrite(before, after);
+  assert.equal(result.ok, true);
+  assert.equal(result.plane, PLANES.RECOVERY);
+});
+
+test('published terminal repair cannot remove or replace valid media id', () => {
+  const before = baseRecord('published');
+  before.instagram_permalink = 'https://www.instagram.com/p/ABC123/';
+  before.instagram_media_id = '123456_7890';
+  const removed = structuredClone(before);
+  delete removed.instagram_media_id;
+  assert.equal(classifyQueueWrite(before, removed).ok, false);
+  const replaced = structuredClone(before);
+  replaced.instagram_media_id = '999999_7890';
+  assert.equal(classifyQueueWrite(before, replaced).ok, false);
+});
