@@ -64,9 +64,11 @@ realiza esa escritura.
 | Promotion Controller | GitHub Actions `editorial-queue-promotion.yml` | `*/15`, push, dispatch | Promotion | Sólo crea el registro (`null -> blocked_media`) vía PR revisable |
 | Media Worker `matrix24-publisher` | Cloudflare cron | `*/15 * * * *` | Media | `blocked_media -> processing_media -> ready_to_publish` |
 | Publication Reservation | GitHub Actions `publication-reservation.yml` | `*/5 * * * *` | Publication | `ready_to_publish -> publishing` (crea `publish_attempt_id`, escriba CAS directa) — INC-018 fix |
-| Auto Publisher | Tarea ChatGPT (sustituible por Publisher v2) | definida por el owner | Publication | `publishing -> published / publish_unknown`, liberación con prueba de no envío (NO crea `publish_attempt_id`) |
+| Auto Publisher (DEPRECATED, desactivado por INC-018; lo sustituye Claude Publisher) | Tarea ChatGPT | definida por el owner | Publication | `publishing -> published / publish_unknown`, liberación con prueba de no envío (NO crea `publish_attempt_id`) |
 | Reconciliación de claims de media | GitHub Actions `media-claim-reconciliation.yml` (manual) | manual | Media | Vía PR de cola: `processing_media -> ready_to_publish` (adopta JPEG existente), `-> blocked_media` (libera claim sin media) o `-> discarded` (owner) |
 | Reconciliación Instagram | GitHub Actions `instagram-reconciliation.yml` (manual) | manual | Recovery | Ninguna escritura directa hoy; resuelve `publish_unknown -> published` y enriquece `published` |
+| Reconciliación de cola Instagram | GitHub Actions `instagram-queue-reconciliation.yml` (manual) | manual | Recovery | Sólo con `apply`: `published -> published` añadiendo `instagram_media_id` cuando el permalink archivado coincide con un post de la cuenta (CAS). `publishing` nunca se escribe; sólo se reporta |
+| ~~Metricool recovery~~ | ~~`metricool-recovery.yml`~~ | eliminado 2026-09-29 | — | Ninguna. Creaba posts nuevos para registros atascados (republicación). Ver `docs/reliability/PHASE2B_RECONCILIATION_AND_DEPRECATIONS.md` |
 | Production state audit | GitHub Actions `production-state-audit.yml` | `7 * * * *` | Observation | Ninguna |
 | Queue transition ownership | GitHub Actions `queue-transition-ownership.yml` | push/PR sobre `queue/` | Observation | Ninguna |
 | Health Watch / Production Monitor | Tareas ChatGPT/Claude | definida por el owner | Observation | Ninguna |

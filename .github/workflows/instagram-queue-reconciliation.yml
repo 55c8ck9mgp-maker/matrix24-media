@@ -1,0 +1,87 @@
+name: Instagram queue reconciliation
+
+# Recovery plane. Compares queue/ with the account's own Instagram media.
+# - report (default): read-only, uploads reconciliation-report.json.
+# - apply: additionally fills instagram_media_id on `published` records whose
+#   archived permalink matches an account post (SHA-conditional write).
+# `publishing` records are never written here. See
+# docs/reliability/PHASE2B_RECONCILIATION_AND_DEPRECATIONS.md.
+#
+# Manual only until the first report has been reviewed. No schedule on purpose.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: Write confirmed media IDs to published records (otherwise report only)
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: instagram-queue-reconciliation
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Tests
+        run: node --test tests/instagram-queue-reconciliation.test.mjs tests/queue-transition-ownership.test.mjs
+      - name: Reconcile (read-only)
+        env:
+          IG_READ_TOKEN: ${{ secrets.IG_READ_TOKEN }}
+          IG_USERNAME: matrix24global
+        run: node scripts/reconcile-instagram-posts.mjs
+      - name: Summary
+        if: always()
+        run: |
+          [ -f reconciliation-report.json ] || exit 0
+          {
+            echo "## Instagram queue reconciliation (report)"
+            node -e 'const r=require("./reconciliation-report.json"); if (r.error) console.log(`- error: ${r.error}`); for (const x of r.report) console.log(`- ${x.content_id}: ${x.status} -> ${x.result}${x.reason ? ` (${x.reason})` : ""}${x.instagram_media_id ? ` ${x.instagram_media_id}` : ""}`)'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reconciliation-report
+          path: reconciliation-report.json
+          if-no-files-found: ignore
+
+  apply:
+    needs: report
+    if: ${{ inputs.apply }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      # Re-plans from a fresh checkout; every write re-reads its file and uses its SHA.
+      - name: Reconcile and write confirmed media IDs
+        env:
+          IG_READ_TOKEN: ${{ secrets.IG_READ_TOKEN }}
+          IG_USERNAME: matrix24global
+          GH_TOKEN: ${{ github.token }}
+          RECONCILIATION_REPORT: reconciliation-apply.json
+        run: node scripts/reconcile-instagram-posts.mjs --apply
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reconciliation-apply
+          path: reconciliation-apply.json
+          if-no-files-found: ignore
