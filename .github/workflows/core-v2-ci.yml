@@ -42,6 +42,8 @@ jobs:
         run: node core-v2/integrated-failure-simulation.test.mjs
       - name: Activation freeze guard tests
         run: node core-v2/activation-freeze-guard.test.mjs
+      - name: Three consecutive dry cycles
+        run: node core-v2/three-cycle-dry-run.test.mjs
       - name: Legacy migration dry-run
         run: node core-v2/legacy-migration-dry-run.test.mjs
       - name: Generate migration manifest
