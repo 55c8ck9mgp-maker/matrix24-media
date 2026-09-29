@@ -1,0 +1,66 @@
+{
+  "content_id": "matrix24-20260928-us-finalizes-lower-fuel-economy-standards",
+  "researched_at": "2026-09-28T17:43:00Z",
+  "event_date": "2026-09-28",
+  "headline": "U.S. finalizes lower fuel-economy standards for cars and light trucks",
+  "category": "World",
+  "editorial_category": "World",
+  "verified_source_urls": [
+    "https://www.transportation.gov/briefing-room/president-trump-transportation-secretary-duffy-finalize-freedom-means-affordable-cars",
+    "https://www.reuters.com/business/autos-transportation/us-finalizes-new-lower-fuel-economy-standards-boost-gas-powered-vehicles-2026-09-28/"
+  ],
+  "source_records": [
+    {
+      "source_name": "U.S. Department of Transportation",
+      "publication_date": "2026-09-28",
+      "url": "https://www.transportation.gov/briefing-room/president-trump-transportation-secretary-duffy-finalize-freedom-means-affordable-cars",
+      "supports": [
+        "The U.S. Department of Transportation finalized a rule resetting NHTSA Corporate Average Fuel Economy standards.",
+        "The final rule lowers the fuel-economy requirements compared with the prior administration's standards."
+      ],
+      "independent_source_id": "us_dot",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-28",
+      "url": "https://www.reuters.com/business/autos-transportation/us-finalizes-new-lower-fuel-economy-standards-boost-gas-powered-vehicles-2026-09-28/",
+      "supports": [
+        "The U.S. Transportation Department finalized sharply lower vehicle fuel-economy standards on September 28, 2026.",
+        "The action reverses stricter fuel-efficiency policy adopted under the prior administration."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "The U.S. Department of Transportation finalized lower Corporate Average Fuel Economy standards on September 28, 2026.",
+      "material": true,
+      "normalized_value": "country=US|agency=DOT_NHTSA|action=final_rule|policy=CAFE|direction=lower|date=2026-09-28",
+      "observations": [
+        {
+          "url": "https://www.transportation.gov/briefing-room/president-trump-transportation-secretary-duffy-finalize-freedom-means-affordable-cars",
+          "normalized_value": "country=US|agency=DOT_NHTSA|action=final_rule|policy=CAFE|direction=lower|date=2026-09-28"
+        },
+        {
+          "url": "https://www.reuters.com/business/autos-transportation/us-finalizes-new-lower-fuel-economy-standards-boost-gas-powered-vehicles-2026-09-28/",
+          "normalized_value": "country=US|agency=DOT_NHTSA|action=final_rule|policy=CAFE|direction=lower|date=2026-09-28"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 The U.S. Department of Transportation finalized lower federal fuel-economy standards for passenger vehicles and light trucks, reversing stricter requirements adopted under the previous administration. The department says the change is intended to reduce vehicle costs and expand consumer choice; the rule also allows higher fuel consumption than the prior standards.\n\n🇪🇸 El Departamento de Transporte de EE. UU. finalizó estándares federales de eficiencia de combustible más bajos para vehículos de pasajeros y camionetas ligeras, revirtiendo requisitos más estrictos adoptados por la administración anterior. El departamento afirma que el cambio busca reducir el costo de los vehículos y ampliar las opciones del consumidor; la norma también permite un mayor consumo de combustible que los estándares anteriores.\n\nSources: U.S. Department of Transportation / Reuters — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#UnitedStates",
+    "#FuelEconomy",
+    "#AutoIndustry",
+    "#WorldNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a modern American highway with a balanced mix of gasoline-powered cars, SUVs and light trucks, subtle fuel-gauge and efficiency motifs, neutral public-policy news composition, no politicians or identifiable people, no logos, no readable text, no copied news photography, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: the U.S. Department of Transportation primary release and Reuters independently confirm that DOT/NHTSA finalized lower federal CAFE fuel-economy standards on September 28, 2026, reversing stricter prior requirements. Political/public-policy wording is neutral and attributes the administration's stated rationale to the department. Repository checks found no existing fuel-economy story, matching content_id, exact editorial-intake branch, or PR before intake.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
