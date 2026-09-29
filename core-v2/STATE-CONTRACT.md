@@ -1,6 +1,6 @@
 # MATRIX 24 Core v2 — State and Ownership Contract
 
-Status: reconstruction / non-production
+Status: Phase 1 controlled production validation
 Version: 2.0.0-draft
 Safety rule: exactly-once publication is invariant.
 
@@ -11,7 +11,7 @@ Safety rule: exactly-once publication is invariant.
 3. Recovery never republishes. Positive external evidence is reconciled into the existing content_id.
 4. Publication requires an explicit durable reservation before the external side effect.
 5. An ambiguous external result is never interpreted as permission to retry.
-6. Core v2 remains non-production until acceptance gates are completed.
+6. Core v2 is in controlled production validation; continuous autonomy is not declared until the remaining acceptance gates pass.
 
 ## Canonical states
 
@@ -72,7 +72,7 @@ Auditors may NOT:
 
 ## AI authority
 
-ChatGPT Publisher is the sole publication transition owner for the explicitly authorized controlled live cycle. Claude is not a concurrent publication owner. Other production mutations are performed only by the component assigned to the transition above.
+ChatGPT Publisher is the permanently authorized sole owner of ready_to_publish -> publishing and the single external publication attempt. Claude and all legacy publishers are excluded from that transition. Core v2 Reconciler is the separate sole confirmation owner and MUST NOT publish. Cloudflare Media Plane owns media processing only. Other production mutations are performed only by the component assigned to the transition above.
 
 ## Migration rule
 
@@ -80,10 +80,10 @@ Legacy records are evidence, not automatically executable v2 work. Migration mus
 
 ## Activation gates
 
-Core v2 publication remains disabled until all are true:
+Core v2 Phase 1 acceptance is complete only when all are true:
 1. state-contract tests pass;
 2. ownership tests pass;
 3. legacy migration dry-run has zero duplicate admissions;
 4. three simulated end-to-end cycles pass;
-5. one explicitly approved controlled live cycle passes;
+5. one explicitly approved controlled live cycle passes (completed 2026-09-29);
 6. three subsequent live cycles pass without invariant violations.
