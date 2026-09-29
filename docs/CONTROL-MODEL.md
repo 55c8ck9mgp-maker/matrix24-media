@@ -98,7 +98,8 @@ reviewable PR or the owning deterministic workflow, never by hand edit.
 `metricool-recovery.yml` currently fails closed and performs no external
 write (commit `50d0c3c`), but its design is age-triggered publication.
 It is removed in Phase 2 and replaced by the read-only reconciliation
-above.
+above; see `docs/reliability/PHASE2B_RECONCILIATION_AND_DEPRECATIONS.md`
+(PR #139).
 
 ## 4. Safety gates (fail-closed patterns)
 

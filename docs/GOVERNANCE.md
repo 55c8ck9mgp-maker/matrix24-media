@@ -132,6 +132,11 @@ author can read later:
 | 3 | 2026-10-01 to 10-02 | Dry run with 1 story (no post), batch of 5, reconciliation observed |
 | 4 | 2026-10-03 | Full operation with Justen approving each batch |
 
+Phase 2 deprecation and reconciliation decisions (removal of
+`metricool-recovery.yml`, deprecation of the ChatGPT Auto Publisher, the
+read-only Instagram queue reconciliation) are recorded in
+`docs/reliability/PHASE2B_RECONCILIATION_AND_DEPRECATIONS.md` (PR #139).
+
 Until G4 is implemented and enabled by Justen in Phase 2, no new
 publication path is turned on. The existing pipeline stays as-is (no
 regression of the autonomous path), with the Auto Publisher disabled per
