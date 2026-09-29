@@ -159,10 +159,16 @@
       "instagram_media_id": "3996546412695569051_23602842857",
       "publish_attempt_id": "1b3b1948-e10f-4fe8-b555-a6b45c919d7f",
       "source": "urgent_production_reconciliation"
+    },
+    {
+      "timestamp": "2026-09-29T14:12:00Z",
+      "stage": "reconciliation",
+      "result": "claim_closed_after_positive_evidence",
+      "publish_attempt_id": "1b3b1948-e10f-4fe8-b555-a6b45c919d7f",
+      "instagram_media_id": "3996546412695569051_23602842857",
+      "source": "urgent_production_reconciliation"
     }
   ],
-  "publish_attempt_id": "1b3b1948-e10f-4fe8-b555-a6b45c919d7f",
-  "publishing_started_at": "2026-09-28T22:35:54.144Z",
   "provider": "metricool",
   "instagram_media_id": "3996546412695569051_23602842857",
   "instagram_permalink": "https://www.instagram.com/p/Dd2lcmpFMKb/",
