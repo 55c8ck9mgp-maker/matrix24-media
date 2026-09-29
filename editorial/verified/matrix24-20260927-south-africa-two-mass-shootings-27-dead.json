@@ -1,0 +1,98 @@
+{
+  "content_id": "matrix24-20260927-south-africa-two-mass-shootings-27-dead",
+  "researched_at": "2026-09-27T19:19:26Z",
+  "event_date": "2026-09-27",
+  "headline": "Two mass shootings in South Africa leave at least 27 people dead",
+  "category": "World",
+  "editorial_category": "World",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/africa/south-africa-police-launch-manhunt-after-17-killed-tavern-shooting-2026-09-27/",
+    "https://abcnews.com/International/wireStory/separate-mass-shootings-south-africa-townships-leave-27-136793211"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-27",
+      "url": "https://www.reuters.com/world/africa/south-africa-police-launch-manhunt-after-17-killed-tavern-shooting-2026-09-27/",
+      "supports": [
+        "Two separate shootings in South Africa killed 27 people within hours.",
+        "Seventeen people were killed in Wedela and 10 were killed in Lwandle.",
+        "Police were hunting the perpetrators and no arrests had been made."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Associated Press via ABC News",
+      "publication_date": "2026-09-27",
+      "url": "https://abcnews.com/International/wireStory/separate-mass-shootings-south-africa-townships-leave-27-136793211",
+      "supports": [
+        "Two separate mass shootings in South African townships left at least 27 people dead.",
+        "Seventeen people were killed in Wedela and 10 were killed in Lwandle.",
+        "No arrests had been made in either case."
+      ],
+      "independent_source_id": "associated_press",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Two separate mass shootings in South Africa left at least 27 people dead.",
+      "material": true,
+      "normalized_value": "country=South_Africa|separate_shootings=2|deaths_at_least=27",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/africa/south-africa-police-launch-manhunt-after-17-killed-tavern-shooting-2026-09-27/",
+          "normalized_value": "country=South_Africa|separate_shootings=2|deaths_at_least=27"
+        },
+        {
+          "url": "https://abcnews.com/International/wireStory/separate-mass-shootings-south-africa-townships-leave-27-136793211",
+          "normalized_value": "country=South_Africa|separate_shootings=2|deaths_at_least=27"
+        }
+      ]
+    },
+    {
+      "claim": "The attacks killed 17 people in Wedela and 10 people in Lwandle.",
+      "material": true,
+      "normalized_value": "Wedela_deaths=17|Lwandle_deaths=10",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/africa/south-africa-police-launch-manhunt-after-17-killed-tavern-shooting-2026-09-27/",
+          "normalized_value": "Wedela_deaths=17|Lwandle_deaths=10"
+        },
+        {
+          "url": "https://abcnews.com/International/wireStory/separate-mass-shootings-south-africa-townships-leave-27-136793211",
+          "normalized_value": "Wedela_deaths=17|Lwandle_deaths=10"
+        }
+      ]
+    },
+    {
+      "claim": "Police had reported no arrests in either shooting.",
+      "material": true,
+      "normalized_value": "arrests_reported=0|scope=both_shootings",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/africa/south-africa-police-launch-manhunt-after-17-killed-tavern-shooting-2026-09-27/",
+          "normalized_value": "arrests_reported=0|scope=both_shootings"
+        },
+        {
+          "url": "https://abcnews.com/International/wireStory/separate-mass-shootings-south-africa-townships-leave-27-136793211",
+          "normalized_value": "arrests_reported=0|scope=both_shootings"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Two separate mass shootings in South Africa left at least 27 people dead within hours. Police said 17 people were killed in Wedela, near Johannesburg, and 10 in Lwandle, near Cape Town. No arrests had been reported in either case.\n\n🇪🇸 Dos tiroteos masivos separados en Sudáfrica dejaron al menos 27 muertos en cuestión de horas. La policía informó de 17 fallecidos en Wedela, cerca de Johannesburgo, y 10 en Lwandle, cerca de Ciudad del Cabo. No se habían reportado arrestos en ninguno de los casos.\n\nSources: Reuters / Associated Press — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#SouthAfrica",
+    "#WorldNews",
+    "#Wedela",
+    "#Lwandle"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration representing two separate nighttime crime scenes in South African townships, with distant emergency vehicles, police perimeter tape and generic non-identifiable silhouettes, sober international-news composition, no victims, no bodies, no visible weapons, no gore, no fabricated documentary details, no copied news photography, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate passed. Reuters and Associated Press independently agree on the retained material facts: two separate shootings, at least 27 deaths total, 17 deaths in Wedela, 10 deaths in Lwandle, and no arrests reported in either case at publication time. INC-017 reconciliation found the exact pre-existing dedicated editorial-intake branch with no draft file and no PR, so this run reuses that branch rather than creating another intake path.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
