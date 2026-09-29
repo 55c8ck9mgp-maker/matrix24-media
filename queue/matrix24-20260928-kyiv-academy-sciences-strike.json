@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-09-28T21:20:47Z",
+  "content_id": "matrix24-20260928-kyiv-academy-sciences-strike",
+  "status": "blocked_media",
+  "headline": "Russian strike kills woman at Kyiv's National Academy of Sciences amid nationwide bombardment",
+  "category": "World",
+  "editorial_category": "World",
+  "event_date": "2026-09-28",
+  "verified_source_urls": [
+    "https://www.cbsnews.com/news/russia-ukraine-war-kyiv-strikes-national-academy-sciences/",
+    "https://www.irishtimes.com/world/europe/2026/09/28/at-least-five-killed-in-separate-attacks-as-russia-hits-kyivs-national-academy-of-sciences/"
+  ],
+  "source_records": [
+    {
+      "source_name": "CBS News",
+      "publication_date": "2026-09-28",
+      "url": "https://www.cbsnews.com/news/russia-ukraine-war-kyiv-strikes-national-academy-sciences/",
+      "supports": [
+        "A woman was killed in a Russian strike on Kyiv's National Academy of Sciences in the Shevchenkivskyi district on Monday, September 28, 2026.",
+        "Russia's round-the-clock bombardment of targets across Ukraine on September 28 killed at least seven people nationwide and wounded more than 50 others, officials said.",
+        "A separate drone strike hit an office center in central Dnipro on September 28, killing three people and wounding at least 12."
+      ],
+      "independent_source_id": "cbs_news",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "The Irish Times",
+      "publication_date": "2026-09-28",
+      "url": "https://www.irishtimes.com/world/europe/2026/09/28/at-least-five-killed-in-separate-attacks-as-russia-hits-kyivs-national-academy-of-sciences/",
+      "supports": [
+        "One person was killed when a Russian drone struck the National Academy of Sciences building in Kyiv on September 28, 2026.",
+        "The Kyiv Academy of Sciences strike was part of a wider wave of Russian attacks on September 28 that also killed people in Dnipro and Synelnykove.",
+        "A drone strike hit an office/business centre in Dnipro on September 28, killing three people."
+      ],
+      "independent_source_id": "irish_times",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "A Russian strike killed at least one person at Kyiv's National Academy of Sciences building on September 28, 2026.",
+      "material": true,
+      "normalized_value": "date=2026-09-28|location=Kyiv_National_Academy_of_Sciences|deaths=at_least_1",
+      "observations": [
+        {
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-kyiv-strikes-national-academy-sciences/",
+          "normalized_value": "date=2026-09-28|location=Kyiv_National_Academy_of_Sciences|deaths=at_least_1"
+        },
+        {
+          "url": "https://www.irishtimes.com/world/europe/2026/09/28/at-least-five-killed-in-separate-attacks-as-russia-hits-kyivs-national-academy-of-sciences/",
+          "normalized_value": "date=2026-09-28|location=Kyiv_National_Academy_of_Sciences|deaths=at_least_1"
+        }
+      ]
+    },
+    {
+      "claim": "The Academy of Sciences strike was part of a wider wave of Russian strikes across Ukraine on September 28, 2026 that also killed people in a Dnipro office-center strike.",
+      "material": true,
+      "normalized_value": "date=2026-09-28|scope=nationwide_multi_city_strikes|dnipro_office_center=hit_with_fatalities",
+      "observations": [
+        {
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-kyiv-strikes-national-academy-sciences/",
+          "normalized_value": "date=2026-09-28|scope=nationwide_multi_city_strikes|dnipro_office_center=hit_with_fatalities"
+        },
+        {
+          "url": "https://www.irishtimes.com/world/europe/2026/09/28/at-least-five-killed-in-separate-attacks-as-russia-hits-kyivs-national-academy-of-sciences/",
+          "normalized_value": "date=2026-09-28|scope=nationwide_multi_city_strikes|dnipro_office_center=hit_with_fatalities"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 A Russian strike killed a woman at Kyiv's National Academy of Sciences on Sept. 28 as part of a nationwide bombardment that also struck an office center in Dnipro, killing more people there. CBS News reported at least seven dead and over 50 wounded across Ukraine from the day's attacks, while The Irish Times separately confirmed the Academy of Sciences death and the Dnipro strike.\n\n🇪🇸 Un ataque ruso mató a una mujer en la Academia Nacional de Ciencias de Kiev el 28 de septiembre, parte de un bombardeo a escala nacional que también golpeó un centro de oficinas en Dnipró, causando más muertes allí. CBS News reportó al menos siete muertos y más de 50 heridos en Ucrania por los ataques del día, mientras que The Irish Times confirmó de forma independiente la muerte en la Academia de Ciencias y el ataque en Dnipró.\n\nSources: CBS News / The Irish Times — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Ukraine",
+    "#Kyiv",
+    "#Russia",
+    "#WorldNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a stylized European academic building silhouette with smoke rising against a dusk sky, abstract drone-route markers over a simplified city skyline, restrained breaking-news composition, no identifiable individuals, no explosion close-up, no real flags or insignia, no fabricated documentary details, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: CBS News and The Irish Times independently confirm the retained material claims from September 28, 2026 reporting: a Russian strike killed at least one person (a woman) at Kyiv's National Academy of Sciences, and this occurred as part of a wider nationwide strike wave that also killed people in a Dnipro office-center attack. Casualty figures for the full nationwide toll varied between sources (CBS: at least 7 killed nationwide/50+ wounded; Irish Times: at least 5 killed nationwide) as is typical of fast-moving breaking coverage, so the nationwide aggregate death toll was excluded from claim_checks and only the two consistently corroborated claims were retained. Repository search of editorial/verified, editorial/promotions, and queue found only an unrelated, already-published September 23, 2026 Kyiv drone-strike story (different event date and details); no in-flight branch or PR covers this September 28 Academy of Sciences strike.",
+  "verification_status": "verified_claim_consensus",
+  "editorial_promotion": {
+    "manifest_path": "editorial/promotions/matrix24-20260928-kyiv-academy-sciences-strike.json",
+    "draft_path": "editorial/verified/matrix24-20260928-kyiv-academy-sciences-strike.json",
+    "draft_sha256": "6005f0454a95de57378823298cc65740a42fa8eb263f4a3afd9093ab030e7abb",
+    "approved_at": "2026-09-28T21:20:47Z",
+    "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-kyiv-academy-sciences-strike. Sources re-checked against the retained claims on 2026-09-28. Preserve exactly-once admission and zero-duplicate protection."
+  }
+}
