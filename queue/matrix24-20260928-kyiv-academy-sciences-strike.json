@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-kyiv-academy-sciences-strike",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "Russian strike kills woman at Kyiv's National Academy of Sciences amid nationwide bombardment",
   "category": "World",
   "editorial_category": "World",
@@ -85,5 +85,9 @@
     "draft_sha256": "6005f0454a95de57378823298cc65740a42fa8eb263f4a3afd9093ab030e7abb",
     "approved_at": "2026-09-28T21:20:47Z",
     "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-kyiv-academy-sciences-strike. Sources re-checked against the retained claims on 2026-09-28. Preserve exactly-once admission and zero-duplicate protection."
+  },
+  "media_claim": {
+    "id": "24a56172-23d7-4f7f-95ef-cc54ae8188c9",
+    "started_at": "2026-09-29T12:01:42.712Z"
   }
 }
