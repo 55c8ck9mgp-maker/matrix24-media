@@ -8,6 +8,28 @@
 
 export const PROMOTION_PR_TITLE_PREFIX = 'Queue approved promotion: ';
 export const DEFAULT_STALL_HOURS = 4;
+const SAFE_CONTENT_ID = /^matrix24-[a-z0-9-]+$/;
+
+export function evaluatePromotionMergeGate({ pr, changedFiles = [], queueRecord = null, checks = {} } = {}) {
+  const reasons = [];
+  if (!pr || pr.state !== 'open') reasons.push('pr_not_open');
+  if (pr?.draft === true) reasons.push('pr_is_draft');
+  if (pr?.base?.ref !== 'main') reasons.push('base_not_main');
+  const title = typeof pr?.title === 'string' ? pr.title : '';
+  const contentId = title.startsWith(PROMOTION_PR_TITLE_PREFIX) ? title.slice(PROMOTION_PR_TITLE_PREFIX.length).trim() : '';
+  if (!SAFE_CONTENT_ID.test(contentId)) reasons.push('invalid_content_id');
+  if (pr?.head?.ref !== `promotion/${contentId}`) reasons.push('unexpected_head_branch');
+  const expectedPath = `queue/${contentId}.json`;
+  if (changedFiles.length !== 1 || changedFiles[0] !== expectedPath) reasons.push('not_exactly_one_queue_file');
+  if (!queueRecord || queueRecord.content_id !== contentId) reasons.push('queue_content_id_mismatch');
+  if (queueRecord?.status !== 'blocked_media') reasons.push('queue_not_blocked_media');
+  for (const key of ['media_claim','publish_attempt_id','instagram_media_id','instagram_permalink']) if (queueRecord?.[key]) reasons.push(`unexpected_${key}`);
+  for (const key of ['promotion_guard','intake_guard','production_audit','ownership_audit']) if (checks[key] !== 'success') reasons.push(`${key}_not_green`);
+  if (checks.queue_exists_on_main !== false) reasons.push('queue_exists_or_unknown_on_main');
+  if (checks.head_matches_observed !== true) reasons.push('head_sha_not_pinned');
+  if (checks.base_is_current_main !== true) reasons.push('base_not_current_main');
+  return { eligible: reasons.length === 0, content_id: contentId || null, queue_path: expectedPath, reasons };
+}
 
 export function findStalledPromotionPRs(pulls = [], { now = Date.now(), thresholdHours = DEFAULT_STALL_HOURS } = {}) {
   const thresholdMs = thresholdHours * 60 * 60 * 1000;
