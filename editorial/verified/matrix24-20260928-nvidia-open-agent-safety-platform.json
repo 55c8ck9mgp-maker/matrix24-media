@@ -1,0 +1,101 @@
+{
+  "content_id": "matrix24-20260928-nvidia-open-agent-safety-platform",
+  "researched_at": "2026-09-29T11:42:22Z",
+  "event_date": "2026-09-28",
+  "headline": "Nvidia launches Open Agent Safety Platform with 100+ partners to contain rogue AI agents",
+  "category": "Technology",
+  "editorial_category": "Technology",
+  "verified_source_urls": [
+    "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+    "https://www.ynetnews.com/tech-and-digital/article/hkfyahvcgx",
+    "https://qz.com/nvidia-open-agent-safety-platform-ai-security-092826"
+  ],
+  "source_records": [
+    {
+      "source_name": "NVIDIA Newsroom",
+      "publication_date": "2026-09-28",
+      "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "supports": [
+        "NVIDIA launched the Open Agent Safety Platform on September 28, 2026, built around OpenShell (secure runtime software) and Sentry (a hardware watchdog on BlueField-4 DPUs) to monitor and stop AI agents that exceed authorized boundaries.",
+        "More than 100 organizations, including Anthropic, Microsoft, Cisco, Dell Technologies and JPMorganChase, are engaged with the platform at launch."
+      ],
+      "independent_source_id": "nvidia_newsroom",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "Ynetnews",
+      "publication_date": "2026-09-28",
+      "url": "https://www.ynetnews.com/tech-and-digital/article/hkfyahvcgx",
+      "supports": [
+        "NVIDIA launched the Open Agent Safety Platform on September 28, 2026, built around OpenShell (secure runtime software) and Sentry (a hardware watchdog on BlueField-4 DPUs) to monitor and stop AI agents that exceed authorized boundaries.",
+        "More than 100 organizations, including Anthropic, Microsoft, Cisco, Dell Technologies and JPMorganChase, are engaged with the platform at launch."
+      ],
+      "independent_source_id": "ynetnews",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Quartz (qz.com)",
+      "publication_date": "2026-09-28",
+      "url": "https://qz.com/nvidia-open-agent-safety-platform-ai-security-092826",
+      "supports": [
+        "NVIDIA launched the Open Agent Safety Platform on September 28, 2026, built around OpenShell (secure runtime software) and Sentry (a hardware watchdog on BlueField-4 DPUs) to monitor and stop AI agents that exceed authorized boundaries.",
+        "More than 100 organizations, including Anthropic, Microsoft, Cisco, Dell Technologies and JPMorganChase, are engaged with the platform at launch."
+      ],
+      "independent_source_id": "qz",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "NVIDIA launched the Open Agent Safety Platform on September 28, 2026, an open software-and-hardware system built around OpenShell and Sentry that can monitor and quarantine AI agents that exceed their authorized boundaries.",
+      "material": true,
+      "normalized_value": "product=NVIDIA_Open_Agent_Safety_Platform|launch_date=2026-09-28|components=OpenShell,Sentry|purpose=agent_boundary_monitoring_and_quarantine",
+      "observations": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "normalized_value": "product=NVIDIA_Open_Agent_Safety_Platform|launch_date=2026-09-28|components=OpenShell,Sentry|purpose=agent_boundary_monitoring_and_quarantine"
+        },
+        {
+          "url": "https://www.ynetnews.com/tech-and-digital/article/hkfyahvcgx",
+          "normalized_value": "product=NVIDIA_Open_Agent_Safety_Platform|launch_date=2026-09-28|components=OpenShell,Sentry|purpose=agent_boundary_monitoring_and_quarantine"
+        },
+        {
+          "url": "https://qz.com/nvidia-open-agent-safety-platform-ai-security-092826",
+          "normalized_value": "product=NVIDIA_Open_Agent_Safety_Platform|launch_date=2026-09-28|components=OpenShell,Sentry|purpose=agent_boundary_monitoring_and_quarantine"
+        }
+      ]
+    },
+    {
+      "claim": "More than 100 organizations, including Anthropic, Microsoft, Cisco, Dell Technologies and JPMorganChase, are engaged with the Open Agent Safety Platform at launch.",
+      "material": true,
+      "normalized_value": "partner_count=100+|named_examples=Anthropic,Microsoft,Cisco,Dell_Technologies,JPMorganChase",
+      "observations": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "normalized_value": "partner_count=100+|named_examples=Anthropic,Microsoft,Cisco,Dell_Technologies,JPMorganChase"
+        },
+        {
+          "url": "https://www.ynetnews.com/tech-and-digital/article/hkfyahvcgx",
+          "normalized_value": "partner_count=100+|named_examples=Anthropic,Microsoft,Cisco,Dell_Technologies,JPMorganChase"
+        },
+        {
+          "url": "https://qz.com/nvidia-open-agent-safety-platform-ai-security-092826",
+          "normalized_value": "partner_count=100+|named_examples=Anthropic,Microsoft,Cisco,Dell_Technologies,JPMorganChase"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Nvidia has launched the Open Agent Safety Platform, an open software-and-hardware system designed to let organizations monitor, restrict and instantly quarantine AI agents that try to exceed their authorized boundaries. The platform pairs OpenShell, secure runtime software, with Sentry, a hardware watchdog running on Nvidia's BlueField-4 processors that can halt a misbehaving agent within milliseconds. More than 100 organizations, including Anthropic, Microsoft, Cisco, Dell Technologies and JPMorganChase, have signed on at launch.\n\n🇪🇸 Nvidia lanzó la Open Agent Safety Platform, un sistema abierto de software y hardware diseñado para que las organizaciones supervisen, restrinjan y pongan en cuarentena de inmediato a los agentes de IA que intenten exceder sus límites autorizados. La plataforma combina OpenShell, un software de tiempo de ejecución seguro, con Sentry, un sistema de vigilancia por hardware que corre en los procesadores BlueField-4 de Nvidia y puede detener a un agente en milisegundos. Más de 100 organizaciones, entre ellas Anthropic, Microsoft, Cisco, Dell Technologies y JPMorganChase, se sumaron al lanzamiento.\n\nSources: NVIDIA Newsroom, Ynetnews, Quartz (qz.com) — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#AI",
+    "#Nvidia",
+    "#AISafety",
+    "#TechNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing AI agent safety controls: an abstract glowing digital boundary or containment field of translucent blue light rendered as a geometric lattice, holding back a stylized swarm of small angular light particles representing autonomous software agents, set against a dark server-room-inspired backdrop with soft circuit-like patterns, cool blue and white palette with a single accent of amber light at the containment edge, no real company logos or brand marks, no readable text, no identifiable people, restrained tech-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: NVIDIA's own newsroom announcement (primary authority) is corroborated independently by Ynetnews and Quartz, all three agreeing that NVIDIA launched the Open Agent Safety Platform on Sept. 28, 2026, built on OpenShell and Sentry to monitor and quarantine AI agents that exceed authorized boundaries, with more than 100 partner organizations (including Anthropic, Microsoft, Cisco, Dell Technologies and JPMorganChase) engaged at launch. No conflicting material claims were found among the three sources.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
