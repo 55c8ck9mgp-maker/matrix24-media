@@ -1,0 +1,83 @@
+{
+  "content_id": "matrix24-20260928-olise-france-belgium-nations-league",
+  "researched_at": "2026-09-29T07:42:58Z",
+  "event_date": "2026-09-28",
+  "headline": "Michael Olise's 88th-minute goal gives France a 1-0 Nations League win over Belgium",
+  "category": "Sports",
+  "editorial_category": "Sports",
+  "verified_source_urls": [
+    "https://www.foxsports.com/soccer/nations-league-belgium-vs-france-sep-28-2026-game-boxscore-688973",
+    "https://www.aljazeera.com/sports/2026/9/28/olise-scores-late-to-grab-france-1-0-nations-league-win-at-belgium"
+  ],
+  "source_records": [
+    {
+      "source_name": "Fox Sports",
+      "publication_date": "2026-09-28",
+      "url": "https://www.foxsports.com/soccer/nations-league-belgium-vs-france-sep-28-2026-game-boxscore-688973",
+      "supports": [
+        "France beat Belgium 1-0 in a UEFA Nations League match played on September 28, 2026 at Stade Roi Baudouin (King Baudouin Stadium) in Brussels.",
+        "Substitute Michael Olise scored the only goal of the match in the 88th minute, having come on as a substitute in the 77th minute."
+      ],
+      "independent_source_id": "fox_sports",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Al Jazeera",
+      "publication_date": "2026-09-28",
+      "url": "https://www.aljazeera.com/sports/2026/9/28/olise-scores-late-to-grab-france-1-0-nations-league-win-at-belgium",
+      "supports": [
+        "France beat Belgium 1-0 in a UEFA Nations League match played on September 28, 2026 at King Baudouin Stadium in Brussels.",
+        "Substitute Michael Olise scored the only goal of the match in the 88th minute, having come on as a substitute in the 77th minute.",
+        "France captain Kylian Mbappe was absent due to a left knee injury, and the win was Zinedine Zidane's second consecutive victory as France head coach."
+      ],
+      "independent_source_id": "al_jazeera",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "France beat Belgium 1-0 in a UEFA Nations League match played on September 28, 2026 at King Baudouin Stadium in Brussels.",
+      "material": true,
+      "normalized_value": "date=2026-09-28|competition=UEFA_Nations_League|venue=King_Baudouin_Stadium_Brussels|final_score=France_1_Belgium_0",
+      "observations": [
+        {
+          "url": "https://www.foxsports.com/soccer/nations-league-belgium-vs-france-sep-28-2026-game-boxscore-688973",
+          "normalized_value": "date=2026-09-28|competition=UEFA_Nations_League|venue=King_Baudouin_Stadium_Brussels|final_score=France_1_Belgium_0"
+        },
+        {
+          "url": "https://www.aljazeera.com/sports/2026/9/28/olise-scores-late-to-grab-france-1-0-nations-league-win-at-belgium",
+          "normalized_value": "date=2026-09-28|competition=UEFA_Nations_League|venue=King_Baudouin_Stadium_Brussels|final_score=France_1_Belgium_0"
+        }
+      ]
+    },
+    {
+      "claim": "Substitute Michael Olise scored the only goal of the match in the 88th minute, having come on as a substitute in the 77th minute.",
+      "material": true,
+      "normalized_value": "scorer=Michael_Olise|goal_minute=88|substitute_on_minute=77",
+      "observations": [
+        {
+          "url": "https://www.foxsports.com/soccer/nations-league-belgium-vs-france-sep-28-2026-game-boxscore-688973",
+          "normalized_value": "scorer=Michael_Olise|goal_minute=88|substitute_on_minute=77"
+        },
+        {
+          "url": "https://www.aljazeera.com/sports/2026/9/28/olise-scores-late-to-grab-france-1-0-nations-league-win-at-belgium",
+          "normalized_value": "scorer=Michael_Olise|goal_minute=88|substitute_on_minute=77"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Substitute Michael Olise struck in the 88th minute to give France a 1-0 win over Belgium in a UEFA Nations League Group A1 match on Sept. 28 at King Baudouin Stadium in Brussels. Olise, who had come on as a substitute in the 77th minute, netted the only goal of the game. France captain Kylian Mbappe missed the match with a knee injury; the win was head coach Zinedine Zidane's second in a row since taking charge.\n\n🇪🇸 El suplente Michael Olise anotó en el minuto 88 para darle a Francia una victoria 1-0 sobre Bélgica en un partido del Grupo A1 de la Liga de Naciones de la UEFA el 28 de septiembre en el King Baudouin Stadium de Bruselas. Olise, quien había ingresado como suplente en el minuto 77, marcó el único gol del encuentro. El capitán francés Kylian Mbappé no jugó por una lesión en la rodilla; la victoria fue la segunda consecutiva del entrenador Zinedine Zidane desde que asumió el cargo.\n\nSources: Fox Sports / Al Jazeera — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#NationsLeague",
+    "#France",
+    "#Belgium",
+    "#MichaelOlise",
+    "#Sports"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a generic floodlit European football stadium at night, a wide stadium bowl with bright pitch lighting and abstract crowd silhouettes, a single dynamic silhouette figure mid-stride on the pitch suggesting a late decisive goal, restrained editorial illustration style, no readable text, numbers, logos or flags, no identifiable real people, no fabricated documentary details, vertical 4:5 composition. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Fox Sports and Al Jazeera independently confirm that France beat Belgium 1-0 in a UEFA Nations League Group A1 match on September 28, 2026 at King Baudouin Stadium in Brussels, with substitute Michael Olise scoring the only goal in the 88th minute after entering in the 77th minute. Repository searches across editorial/verified, editorial/promotions, queue, and open editorial-intake/promotion branches (including a grep for Olise/Belgium/France/Nations League) found no existing draft or in-flight PR covering this match before intake.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
