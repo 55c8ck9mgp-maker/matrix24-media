@@ -58,3 +58,18 @@ test('plan writes pass the ownership table; apply refuses a changed snapshot', a
   assert.deepEqual(res.skipped, [{ content_id: 'matrix24-fixture-rec', reason: 'sha_changed' }]);
   assert.equal(writes.length, 0);
 });
+
+test('unclaimed_posts lists only account posts no record or write claims, and never becomes a write', () => {
+  const claimed = { ...base, content_id: 'matrix24-fixture-old', status: 'published', instagram_media_id: '17900000000000009',
+    instagram_permalink: 'https://www.instagram.com/p/old/' };
+  const manual = { id: '17900000000000004', caption: 'Edited manual caption', username: 'matrix24global',
+    permalink: 'https://www.instagram.com/p/abc/', timestamp: '2099-01-01T01:00:00+0000' };
+  const feed = [manual, { ...manual, id: '17900000000000009' }, { ...manual, id: '17900000000000005', username: 'someone_else' }];
+  const plan = planReconciliation([
+    { queue_path: 'queue/a.json', sha: 'a', record: publishing },
+    { queue_path: 'queue/b.json', sha: 'b', record: claimed }
+  ], feed, opts);
+  assert.equal(plan.writes.length, 0);
+  assert.deepEqual(plan.unclaimed_posts, [{ instagram_media_id: manual.id, timestamp: '2099-01-01T01:00:00.000Z',
+    permalink: manual.permalink, caption_head: 'Edited manual caption' }]);
+});
