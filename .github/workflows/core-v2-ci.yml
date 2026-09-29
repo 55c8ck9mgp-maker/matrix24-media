@@ -40,6 +40,8 @@ jobs:
         run: node core-v2/publisher-adapter-dry-run.test.mjs
       - name: Integrated failure-mode simulation
         run: node core-v2/integrated-failure-simulation.test.mjs
+      - name: Activation freeze guard tests
+        run: node core-v2/activation-freeze-guard.test.mjs
       - name: Legacy migration dry-run
         run: node core-v2/legacy-migration-dry-run.test.mjs
       - name: Generate migration manifest
