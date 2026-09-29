@@ -1,0 +1,81 @@
+{
+  "content_id": "matrix24-20260929-us-iraq-military-withdrawal",
+  "researched_at": "2026-09-29T16:03:00Z",
+  "event_date": "2026-09-29",
+  "headline": "US set to complete military withdrawal from Iraq by September 30 under 2024 agreement",
+  "category": "World / Middle East",
+  "editorial_category": "World / Middle East",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/",
+    "https://apnews.com/article/iraq-trump-islamic-state-group-military-45e64c99d07939951c86308f95dd02ef"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-29",
+      "url": "https://www.reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/",
+      "supports": [
+        "The United States is set to complete the withdrawal of its remaining forces from Iraq by September 30, 2026.",
+        "The withdrawal follows a 2024 U.S.-Iraq agreement to wind down the U.S.-led coalition mission against Islamic State."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Associated Press",
+      "publication_date": "2026-07-14",
+      "url": "https://apnews.com/article/iraq-trump-islamic-state-group-military-45e64c99d07939951c86308f95dd02ef",
+      "supports": [
+        "U.S. and Iraqi officials said U.S. military forces would leave Iraq by the end of September 2026.",
+        "The Pentagon said the departure reaffirmed the 2024 agreement with Iraq to end the coalition mission against Islamic State fighters."
+      ],
+      "independent_source_id": "associated_press",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "U.S. military forces are scheduled to complete their withdrawal from Iraq by September 30, 2026.",
+      "material": true,
+      "normalized_value": "actor=US_military|action=complete_withdrawal_from_Iraq|deadline=2026-09-30",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/",
+          "normalized_value": "actor=US_military|action=complete_withdrawal_from_Iraq|deadline=2026-09-30"
+        },
+        {
+          "url": "https://apnews.com/article/iraq-trump-islamic-state-group-military-45e64c99d07939951c86308f95dd02ef",
+          "normalized_value": "actor=US_military|action=complete_withdrawal_from_Iraq|deadline=2026-09-30"
+        }
+      ]
+    },
+    {
+      "claim": "The withdrawal implements a 2024 U.S.-Iraq agreement to wind down the U.S.-led coalition military mission against Islamic State in Iraq.",
+      "material": true,
+      "normalized_value": "agreement_year=2024|parties=US_Iraq|action=wind_down_coalition_mission|focus=Islamic_State",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/",
+          "normalized_value": "agreement_year=2024|parties=US_Iraq|action=wind_down_coalition_mission|focus=Islamic_State"
+        },
+        {
+          "url": "https://apnews.com/article/iraq-trump-islamic-state-group-military-45e64c99d07939951c86308f95dd02ef",
+          "normalized_value": "agreement_year=2024|parties=US_Iraq|action=wind_down_coalition_mission|focus=Islamic_State"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 U.S. military forces are scheduled to complete their withdrawal from Iraq by September 30, 2026, implementing a 2024 U.S.-Iraq agreement to wind down the U.S.-led coalition mission against Islamic State in Iraq.\n\n🇪🇸 Las fuerzas militares de Estados Unidos tienen previsto completar su retirada de Irak antes del 30 de septiembre de 2026, aplicando un acuerdo de 2024 entre Estados Unidos e Irak para concluir gradualmente la misión de la coalición liderada por EE. UU. contra el Estado Islámico en Irak.\n\nSources: Reuters — Associated Press.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Iraq",
+    "#UnitedStates",
+    "#MiddleEast",
+    "#WorldNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration about the scheduled end of the U.S.-led military mission in Iraq: distant generic military convoy departing a desert base at dusk, Iraqi city skyline far in the background, no identifiable people, no combat, no weapons emphasized, no readable text or logos, restrained neutral international-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Reuters (Sept. 29, 2026) and Associated Press independently support the retained claims that U.S. forces are scheduled to complete withdrawal from Iraq by Sept. 30, 2026 and that the move implements the 2024 U.S.-Iraq agreement winding down the coalition mission against Islamic State. Wording is neutral and attributed to the agreed schedule; no speculative claim about Iran, Iraqi security outcomes, or political motives is retained. Repository reconciliation found no matching Iraq withdrawal content_id, materially overlapping verified/promoted/queue item, open intake PR, or visible intake branch before creation.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
