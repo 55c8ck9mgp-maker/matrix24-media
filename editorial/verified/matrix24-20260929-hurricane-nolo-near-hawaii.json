@@ -1,0 +1,97 @@
+{
+  "content_id": "matrix24-20260929-hurricane-nolo-near-hawaii",
+  "researched_at": "2026-09-29T06:15:00Z",
+  "event_date": "2026-09-29",
+  "headline": "Hurricane Nolo, nearing Category 5 strength, tracks away from Hawaii's main islands",
+  "category": "Climate",
+  "editorial_category": "Climate",
+  "verified_source_urls": [
+    "https://www.nhc.noaa.gov/mobile/text/refresh/HFOTCPCP2+html/282348.shtml",
+    "https://www.upi.com/Top_News/US/2026/09/28/Hurricane-Nolo-miss-Hawaii-still-cause-heavy-rains-mudslides/2421790373916",
+    "https://weather.com/2026/09/28/storms/hurricane/hawaii-hurricane-nolo-flooding-wind-forecast"
+  ],
+  "source_records": [
+    {
+      "source_name": "U.S. National Hurricane Center / Central Pacific Hurricane Center (NOAA)",
+      "publication_date": "2026-09-28",
+      "url": "https://www.nhc.noaa.gov/mobile/text/refresh/HFOTCPCP2+html/282348.shtml",
+      "supports": [
+        "Hurricane Nolo was a Category 4 hurricane with maximum sustained winds of 145 mph as of the 2 PM HST advisory on September 28, 2026.",
+        "Nolo was forecast to turn north and then west, tracking well away from Hawaii's main islands while directing hurricane conditions at the Papahanaumokuakea Marine National Monument."
+      ],
+      "independent_source_id": "nhc-noaa",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "UPI",
+      "publication_date": "2026-09-28",
+      "url": "https://www.upi.com/Top_News/US/2026/09/28/Hurricane-Nolo-miss-Hawaii-still-cause-heavy-rains-mudslides/2421790373916",
+      "supports": [
+        "Hurricane Nolo had maximum sustained winds of 145 mph as a Category 4 storm, with its eye located several hundred miles south-southwest of Honolulu.",
+        "Nolo's center was forecast to remain well south and southwest of the main Hawaiian Islands while approaching the Papahanaumokuakea Marine National Monument, with no watches or warnings in effect for populated islands."
+      ],
+      "independent_source_id": "upi",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Weather.com (The Weather Company)",
+      "publication_date": "2026-09-28",
+      "url": "https://weather.com/2026/09/28/storms/hurricane/hawaii-hurricane-nolo-flooding-wind-forecast",
+      "supports": [
+        "Hurricane Nolo remained a Category 4 storm, with some potential to briefly reach Category 5 strength, while pulling away from Hawaii's main islands.",
+        "Hurricane watches were limited to the Papahanaumokuakea Marine National Monument rather than the populated main Hawaiian Islands."
+      ],
+      "independent_source_id": "weather-com",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Hurricane Nolo was a Category 4 hurricane with maximum sustained winds of 145 mph as of September 28, 2026.",
+      "material": true,
+      "normalized_value": "storm=Nolo|category=4|wind_mph=145|date=2026-09-28",
+      "observations": [
+        {
+          "url": "https://www.nhc.noaa.gov/mobile/text/refresh/HFOTCPCP2+html/282348.shtml",
+          "normalized_value": "storm=Nolo|category=4|wind_mph=145|date=2026-09-28"
+        },
+        {
+          "url": "https://www.upi.com/Top_News/US/2026/09/28/Hurricane-Nolo-miss-Hawaii-still-cause-heavy-rains-mudslides/2421790373916",
+          "normalized_value": "storm=Nolo|category=4|wind_mph=145|date=2026-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "Hurricane Nolo's forecast track kept it well south and southwest of Hawaii's main islands, with hurricane conditions instead directed at the uninhabited Papahanaumokuakea Marine National Monument.",
+      "material": true,
+      "normalized_value": "storm=Nolo|track=south_southwest_of_main_hawaiian_islands|hurricane_conditions_area=Papahanaumokuakea_Marine_National_Monument",
+      "observations": [
+        {
+          "url": "https://www.nhc.noaa.gov/mobile/text/refresh/HFOTCPCP2+html/282348.shtml",
+          "normalized_value": "storm=Nolo|track=south_southwest_of_main_hawaiian_islands|hurricane_conditions_area=Papahanaumokuakea_Marine_National_Monument"
+        },
+        {
+          "url": "https://www.upi.com/Top_News/US/2026/09/28/Hurricane-Nolo-miss-Hawaii-still-cause-heavy-rains-mudslides/2421790373916",
+          "normalized_value": "storm=Nolo|track=south_southwest_of_main_hawaiian_islands|hurricane_conditions_area=Papahanaumokuakea_Marine_National_Monument"
+        },
+        {
+          "url": "https://weather.com/2026/09/28/storms/hurricane/hawaii-hurricane-nolo-flooding-wind-forecast",
+          "normalized_value": "storm=Nolo|track=south_southwest_of_main_hawaiian_islands|hurricane_conditions_area=Papahanaumokuakea_Marine_National_Monument"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Hurricane Nolo, a major Category 4 storm with 145 mph winds and briefly flirting with Category 5 strength, is tracking well south and southwest of Hawaii's main islands after an earlier scare, the U.S. National Hurricane Center said Sept. 28, 2026. The storm's most dangerous winds are instead aimed at the uninhabited Papahanaumokuakea Marine National Monument, sparing the populated islands a direct hit, though high surf and heavy rain continue there.\n\n🇪🇸 El huracan Nolo, una tormenta mayor de categoria 4 con vientos de 145 mph que llego a rozar la categoria 5, se desplaza bien al sur y suroeste de las islas principales de Hawai tras un susto inicial, informo el Centro Nacional de Huracanes de EE.UU. el 28 de septiembre de 2026. Los vientos mas peligrosos de la tormenta se dirigen en cambio hacia el deshabitado Monumento Nacional Marino Papahanaumokuakea, librando a las islas pobladas de un impacto directo, aunque persisten el oleaje fuerte y las lluvias intensas.\n\nSources: NOAA National Hurricane Center / UPI / Weather.com — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografia documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#HurricaneNolo",
+    "#Hawaii",
+    "#Climate",
+    "#Weather"
+  ],
+  "image_generation_prompt": "AI-generated editorial illustration, not documentary photography, of a massive hurricane spiral viewed from high orbit over open Pacific Ocean waters near a distant, generic tropical island silhouette on the horizon, dramatic swirling storm clouds and turbulent deep-blue ocean surface, no readable text, logos or flags, restrained professional global-news aesthetic, vertical 4:5 composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: NOAA's National Hurricane Center advisory, UPI, and Weather.com independently corroborate that Hurricane Nolo was a Category 4 hurricane as of Sept. 28, 2026, with NHC and UPI additionally agreeing on the 145 mph sustained wind speed; all three agree the storm's forecast track kept it south and southwest of Hawaii's populated main islands, directing hurricane conditions instead at the uninhabited Papahanaumokuakea Marine National Monument.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
