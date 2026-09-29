@@ -1,0 +1,82 @@
+{
+  "content_id": "matrix24-20260929-mlb-wild-card-series-begins",
+  "researched_at": "2026-09-29T10:42:54Z",
+  "event_date": "2026-09-29",
+  "headline": "2026 MLB postseason field set as Wild Card Series begins with four matchups",
+  "category": "Sports",
+  "editorial_category": "Sports",
+  "verified_source_urls": [
+    "https://sports.yahoo.com/mlb/article/mlb-playoffs-2026-tracker-standings-schedule-clinch-scenarios-tiebreakers-playoff-bracket-and-more-130331560.html",
+    "https://www.mlb.com/news/mlb-playoff-picture-and-bracket-2026"
+  ],
+  "source_records": [
+    {
+      "source_name": "Yahoo Sports",
+      "publication_date": "2026-09-27",
+      "url": "https://sports.yahoo.com/mlb/article/mlb-playoffs-2026-tracker-standings-schedule-clinch-scenarios-tiebreakers-playoff-bracket-and-more-130331560.html",
+      "supports": [
+        "The 2026 MLB Wild Card Series begins Tuesday, September 29, 2026, with four best-of-three matchups: Red Sox at Yankees, White Sox at Astros, Cubs at Padres, and Phillies at Braves.",
+        "The 2026 division champions are the Tampa Bay Rays (AL East), Cleveland Guardians (AL Central) and Houston Astros (AL West), and the Milwaukee Brewers (NL Central), Los Angeles Dodgers (NL West) and Atlanta Braves (NL East), with the Yankees, Red Sox and White Sox as AL wild cards and the Padres, Cubs and Phillies as NL wild cards."
+      ],
+      "independent_source_id": "yahoo_sports",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "MLB.com",
+      "publication_date": "2026-09-27",
+      "url": "https://www.mlb.com/news/mlb-playoff-picture-and-bracket-2026",
+      "supports": [
+        "The 2026 MLB Wild Card Series begins Tuesday, September 29, 2026, with four best-of-three matchups: Red Sox at Yankees, White Sox at Astros, Cubs at Padres, and Phillies at Braves.",
+        "The 2026 division champions are the Tampa Bay Rays (AL East), Cleveland Guardians (AL Central) and Houston Astros (AL West), and the Milwaukee Brewers (NL Central), Los Angeles Dodgers (NL West) and Atlanta Braves (NL East), with the Yankees, Red Sox and White Sox as AL wild cards and the Padres, Cubs and Phillies as NL wild cards."
+      ],
+      "independent_source_id": "mlb_official",
+      "source_role": "primary_authority"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "The 2026 MLB Wild Card Series begins Tuesday, September 29, 2026, with four best-of-three matchups: Red Sox at Yankees, White Sox at Astros, Cubs at Padres, and Phillies at Braves.",
+      "material": true,
+      "normalized_value": "wildcard_series_start_date=2026-09-29|matchups=RedSox_at_Yankees,WhiteSox_at_Astros,Cubs_at_Padres,Phillies_at_Braves",
+      "observations": [
+        {
+          "url": "https://sports.yahoo.com/mlb/article/mlb-playoffs-2026-tracker-standings-schedule-clinch-scenarios-tiebreakers-playoff-bracket-and-more-130331560.html",
+          "normalized_value": "wildcard_series_start_date=2026-09-29|matchups=RedSox_at_Yankees,WhiteSox_at_Astros,Cubs_at_Padres,Phillies_at_Braves"
+        },
+        {
+          "url": "https://www.mlb.com/news/mlb-playoff-picture-and-bracket-2026",
+          "normalized_value": "wildcard_series_start_date=2026-09-29|matchups=RedSox_at_Yankees,WhiteSox_at_Astros,Cubs_at_Padres,Phillies_at_Braves"
+        }
+      ]
+    },
+    {
+      "claim": "The 2026 division champions are the Tampa Bay Rays (AL East), Cleveland Guardians (AL Central) and Houston Astros (AL West), and the Milwaukee Brewers (NL Central), Los Angeles Dodgers (NL West) and Atlanta Braves (NL East), with the Yankees, Red Sox and White Sox as AL wild cards and the Padres, Cubs and Phillies as NL wild cards.",
+      "material": true,
+      "normalized_value": "AL_champs=Rays,Guardians,Astros|NL_champs=Brewers,Dodgers,Braves|AL_wildcards=Yankees,RedSox,WhiteSox|NL_wildcards=Padres,Cubs,Phillies",
+      "observations": [
+        {
+          "url": "https://sports.yahoo.com/mlb/article/mlb-playoffs-2026-tracker-standings-schedule-clinch-scenarios-tiebreakers-playoff-bracket-and-more-130331560.html",
+          "normalized_value": "AL_champs=Rays,Guardians,Astros|NL_champs=Brewers,Dodgers,Braves|AL_wildcards=Yankees,RedSox,WhiteSox|NL_wildcards=Padres,Cubs,Phillies"
+        },
+        {
+          "url": "https://www.mlb.com/news/mlb-playoff-picture-and-bracket-2026",
+          "normalized_value": "AL_champs=Rays,Guardians,Astros|NL_champs=Brewers,Dodgers,Braves|AL_wildcards=Yankees,RedSox,WhiteSox|NL_wildcards=Padres,Cubs,Phillies"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Major League Baseball's 2026 postseason field is complete, and the Wild Card Series opens Tuesday, Sept. 29. Division champions Tampa Bay, Cleveland and Houston lead the American League, with Milwaukee, the Los Angeles Dodgers and Atlanta topping the National League. Four best-of-three series get underway: Red Sox at Yankees, White Sox at Astros, Cubs at Padres, and Phillies at Braves.\n\n🇪🇸 El cuadro de playoffs 2026 de las Grandes Ligas quedó completo, y la Serie de Comodín arranca el martes 29 de septiembre. Tampa Bay, Cleveland y Houston lideran como campeones de división en la Liga Americana, mientras que Milwaukee, los Dodgers de Los Ángeles y Atlanta hacen lo propio en la Liga Nacional. Comienzan cuatro series al mejor de tres: Red Sox en Yankees, White Sox en Astros, Cubs en Padres, y Phillies en Braves.\n\nSources: Yahoo Sports / MLB.com — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#MLB",
+    "#WildCardSeries",
+    "#Baseball",
+    "#Postseason2026",
+    "#Sports"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a floodlit baseball stadium at night from a high wide angle, generic unbranded scoreboard and empty seating bowl, a lone pitcher's mound and home plate in soft dramatic light, warm autumn evening sky, restrained editorial illustration style, no readable text, no team logos or uniforms, no identifiable real people, no fabricated documentary details, vertical 4:5 composition. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Yahoo Sports and MLB.com (the league's own outlet, treated as primary authority) independently confirm the finalized 2026 postseason bracket: division champions, wild card teams, and that the Wild Card Series begins Tuesday, September 29, 2026 with the same four matchups (Red Sox-Yankees, White Sox-Astros, Cubs-Padres, Phillies-Braves). Repository checks of editorial/verified, editorial/promotions, queue, and all open editorial-intake/promotion branches found no existing draft or in-flight PR covering MLB, baseball, or the Wild Card Series before this intake.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
