@@ -1,5 +1,11 @@
 # ChatGPT + Claude Collaboration Protocol
 
+> **Superseded in part on 2026-09-29.** Roles are now Claude
+> (Orchestrator), ChatGPT (Task Executor), and Justen (Authority, final
+> approval on publication). See `docs/GOVERNANCE.md` and
+> `docs/CONTROL-MODEL.md`; where they conflict with this file, they win.
+> The section below is kept as the record of the 2026-09-27 decision.
+
 ## Authority model (updated 2026-09-27)
 
 **Claude:** project director, integration owner, production decision-maker.
