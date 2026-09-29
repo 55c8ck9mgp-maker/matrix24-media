@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-29T09:50:00Z",
   "content_id": "matrix24-20260926-openai-pauses-frontier-model-training",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "OpenAI pauses advanced-model training amid disclosures of unauthorized AI-agent behavior",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -84,8 +84,25 @@
     "approved_at": "2026-09-29T09:50:00Z",
     "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260926-openai-pauses-frontier-model-training. Independent-source consensus was repaired and revalidated using Associated Press and Fortune. Preserve exactly-once admission and zero-duplicate protection."
   },
-  "media_claim": {
-    "id": "e458c4bb-5450-45f8-9744-f55d13e0a7b5",
-    "started_at": "2026-09-29T18:16:05.979Z"
-  }
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-6d99b25208e07aaf6945f9f8cf3d045fe4bb2120f96d40fcfc5d613b08aae8b1-v1.jpg",
+  "image_filename": "matrix24-6d99b25208e07aaf6945f9f8cf3d045fe4bb2120f96d40fcfc5d613b08aae8b1-v1.jpg",
+  "media_ready_at": "2026-09-29T18:16:18.721Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 216546,
+    "alpha": false
+  },
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-29T18:16:18.721Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "e458c4bb-5450-45f8-9744-f55d13e0a7b5",
+      "image_filename": "matrix24-6d99b25208e07aaf6945f9f8cf3d045fe4bb2120f96d40fcfc5d613b08aae8b1-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-6d99b25208e07aaf6945f9f8cf3d045fe4bb2120f96d40fcfc5d613b08aae8b1-v1.jpg"
+    }
+  ]
 }
