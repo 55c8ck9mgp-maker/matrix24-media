@@ -32,6 +32,8 @@ jobs:
 
       - name: Actor authority tests
         run: node core-v2/actor-authority.test.mjs
+      - name: Reconciler matching regression tests
+        run: node core-v2/reconciler-match.test.mjs
       - name: Legacy migration dry-run
         run: node core-v2/legacy-migration-dry-run.test.mjs
       - name: Generate migration manifest
