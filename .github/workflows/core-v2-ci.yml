@@ -42,6 +42,16 @@ jobs:
         run: node core-v2/migration-summary-integrity.test.mjs
       - name: Publish migration summary to job summary
         run: cat core-v2/MIGRATION-SUMMARY.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Build write-disabled import plan
+        run: node core-v2/import-legacy-dry-run.mjs
+      - name: Verify importer write lock
+        run: node core-v2/import-legacy-dry-run.test.mjs
+      - name: Upload import plan
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-v2-import-plan
+          path: core-v2-import-plan.json
+          retention-days: 30
       - name: Upload migration manifest
         uses: actions/upload-artifact@v4
         with:
