@@ -1,0 +1,82 @@
+{
+  "content_id": "matrix24-20260928-mesabi-metallics-iowa-steel-mill",
+  "researched_at": "2026-09-29T00:00:00Z",
+  "event_date": "2026-09-28",
+  "headline": "Trump announces $15 billion Mesabi Metallics steel plant in Iowa, calling it the largest in the US",
+  "category": "Economy",
+  "editorial_category": "Economy",
+  "verified_source_urls": [
+    "https://iowacapitaldispatch.com/2026/09/28/president-donald-trump-announces-15-billion-steel-mill-in-iowa/",
+    "https://www.mining.com/web/trump-to-unveil-planned-15-billion-iowa-steel-project/"
+  ],
+  "source_records": [
+    {
+      "source_name": "Iowa Capital Dispatch",
+      "publication_date": "2026-09-28",
+      "url": "https://iowacapitaldispatch.com/2026/09/28/president-donald-trump-announces-15-billion-steel-mill-in-iowa/",
+      "supports": [
+        "President Trump announced on September 28, 2026 that Mesabi Metallics, owned by India's Essar Group, will build a $15 billion steel plant in Lee County, Iowa, which he described as the largest steel plant in the U.S.",
+        "The Iowa plant is projected to create at least 1,750 permanent jobs, with steel production beginning in 2030."
+      ],
+      "independent_source_id": "iowa_capital_dispatch",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "MINING.COM",
+      "publication_date": "2026-09-28",
+      "url": "https://www.mining.com/web/trump-to-unveil-planned-15-billion-iowa-steel-project/",
+      "supports": [
+        "President Trump announced on September 28, 2026 that Mesabi Metallics, owned by India's Essar Group, will build a $15 billion steel plant in Iowa, which the White House described as the largest steel plant in U.S. history.",
+        "The Iowa plant is projected to create at least 1,750 permanent jobs, with first steel production expected in 2030."
+      ],
+      "independent_source_id": "miningcom",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "President Trump announced on September 28, 2026 that Mesabi Metallics, a subsidiary of India's Essar Group, will build a $15 billion steel plant in Iowa, described as the largest steel plant in the United States.",
+      "material": true,
+      "normalized_value": "company=Mesabi_Metallics|parent=Essar_Group|investment_usd=15000000000|location=Iowa|announced_date=2026-09-28|superlative=largest_steel_plant_in_US",
+      "observations": [
+        {
+          "url": "https://iowacapitaldispatch.com/2026/09/28/president-donald-trump-announces-15-billion-steel-mill-in-iowa/",
+          "normalized_value": "company=Mesabi_Metallics|parent=Essar_Group|investment_usd=15000000000|location=Iowa|announced_date=2026-09-28|superlative=largest_steel_plant_in_US"
+        },
+        {
+          "url": "https://www.mining.com/web/trump-to-unveil-planned-15-billion-iowa-steel-project/",
+          "normalized_value": "company=Mesabi_Metallics|parent=Essar_Group|investment_usd=15000000000|location=Iowa|announced_date=2026-09-28|superlative=largest_steel_plant_in_US"
+        }
+      ]
+    },
+    {
+      "claim": "The Iowa steel plant is projected to create at least 1,750 permanent jobs, with steel production beginning in 2030.",
+      "material": true,
+      "normalized_value": "permanent_jobs_min=1750|production_start_year=2030",
+      "observations": [
+        {
+          "url": "https://iowacapitaldispatch.com/2026/09/28/president-donald-trump-announces-15-billion-steel-mill-in-iowa/",
+          "normalized_value": "permanent_jobs_min=1750|production_start_year=2030"
+        },
+        {
+          "url": "https://www.mining.com/web/trump-to-unveil-planned-15-billion-iowa-steel-project/",
+          "normalized_value": "permanent_jobs_min=1750|production_start_year=2030"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 President Trump announced a $15 billion steel plant in Lee County, Iowa, to be built by Mesabi Metallics, a subsidiary of India's Essar Group. Described as the largest steel plant in U.S. history, the facility is expected to create at least 1,750 permanent jobs and begin producing steel in 2030, processing iron ore from a Mesabi Metallics mine in Minnesota.\n\n🇪🇸 El presidente Trump anunció una planta siderúrgica de 15,000 millones de dólares en el condado de Lee, Iowa, a cargo de Mesabi Metallics, filial del grupo indio Essar. Descrita como la planta de acero más grande en la historia de EE. UU., se espera que genere al menos 1,750 empleos permanentes y comience a producir acero en 2030, procesando mineral de hierro de una mina de Mesabi Metallics en Minnesota.\n\nSources: Iowa Capital Dispatch, MINING.COM — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Economy",
+    "#SteelIndustry",
+    "#Iowa",
+    "#Manufacturing",
+    "#USEconomy"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing heavy industry investment: an abstract stylized steel mill silhouette with glowing orange furnace light and rising steam against a dusk sky over flat Midwestern farmland, geometric industrial shapes, warm amber and steel-blue palette, no real company logos or brand marks, no readable text, no identifiable people, restrained editorial-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Iowa Capital Dispatch and MINING.COM, reporting independently on the same White House announcement, agree that Mesabi Metallics (an Essar Group subsidiary) will build a $15 billion steel plant in Iowa described as the largest in U.S. history, and that it will create at least 1,750 permanent jobs with production starting in 2030. A tariff-percentage figure cited differently between sources was excluded as non-consensus and is not included as a material claim.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
