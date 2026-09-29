@@ -72,7 +72,7 @@ Auditors may NOT:
 
 ## AI authority
 
-Claude and ChatGPT are engineering/analysis agents, not simultaneous production state owners. Production mutations are performed only by the component assigned to the transition above.
+ChatGPT Publisher is the sole publication transition owner for the explicitly authorized controlled live cycle. Claude is not a concurrent publication owner. Other production mutations are performed only by the component assigned to the transition above.
 
 ## Migration rule
 
