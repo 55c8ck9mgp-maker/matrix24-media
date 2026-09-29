@@ -20,7 +20,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { classifyQueueWrite } from './queue-transition-ownership.mjs';
 import { createGitHubQueueClient, gitBlobSha } from './github-queue-cas.mjs';
-import { captionMatchesRecord, createInstagramClient } from './instagram-graph.mjs';
+import { captionMatchesRecord, createInstagramClient, normalizeCaption } from './instagram-graph.mjs';
 
 export const SOURCE = 'instagram_reconciliation_workflow';
 // A publish run may be between media_publish and its own result write. Leave
@@ -102,7 +102,23 @@ export function planReconciliation(entries, feed, { now = new Date().toISOString
       findings.push({ content_id: record.content_id, status: record.status, finding: r.skip, ...(r.media_ids ? { media_ids: r.media_ids } : {}) });
     }
   }
-  return { generated_at: now, feed_items: feed.length, writes, findings };
+  return { generated_at: now, feed_items: feed.length, writes, findings,
+    unclaimed_posts: unclaimedPosts(entries, feed, writes, { expectedUsername }) };
+}
+
+// Report only. Account posts that no queue record (or planned write) claims by
+// media ID, so a human can pair a manually published post with its record when
+// the caption differs. Never used to write: a caption that is not an exact
+// prefix match is not evidence.
+export function unclaimedPosts(entries, feed, writes = [], { expectedUsername } = {}) {
+  const claimed = new Set([
+    ...entries.map(e => e.record?.instagram_media_id).filter(validId),
+    ...writes.map(w => w.instagram_media_id).filter(validId)
+  ]);
+  return feed
+    .filter(m => !claimed.has(m.id) && (!expectedUsername || m.username === expectedUsername))
+    .map(m => ({ instagram_media_id: m.id, timestamp: toIso(m.timestamp), permalink: m.permalink || null,
+      caption_head: normalizeCaption(m.caption).slice(0, 200) }));
 }
 
 export async function applyReconciliation(plan, { queue }) {
