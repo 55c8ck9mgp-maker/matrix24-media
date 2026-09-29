@@ -133,8 +133,6 @@
       "evidence": "Metricool Instagram provider status PUBLISHED with matching publicUrl"
     }
   ],
-  "publish_attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
-  "publishing_started_at": "2026-09-29T19:15:02.564Z",
   "publisher_actor": "assistant/chatgpt-publisher",
   "publication_claim": {
     "attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
@@ -148,6 +146,5 @@
   "metricool_scheduled_post_uuid": "4614990476627625564",
   "publication_provider": "metricool",
   "instagram_permalink": "https://www.instagram.com/p/Dd4fzc8FPCq/",
-  "instagram_media_id": "https://www.instagram.com/p/Dd4fzc8FPCq/",
   "published_at": "2026-09-29T19:51:37.174Z"
 }
