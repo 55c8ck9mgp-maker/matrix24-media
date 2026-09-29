@@ -1,0 +1,123 @@
+{
+  "content_id": "matrix24-20260928-us-revokes-visas-latin-america-officials",
+  "researched_at": "2026-09-29T00:47:04Z",
+  "event_date": "2026-09-28",
+  "headline": "US State Department revokes visas of dozens of Latin American officials, including Bolivia's attorney general",
+  "category": "Security / Geopolitics",
+  "editorial_category": "Security / Geopolitics",
+  "verified_source_urls": [
+    "https://www.wral.com/news/ap/78157-us-revokes-visas-from-latin-american-officials-including-bolivia-s-top-prosecutor/",
+    "https://www.infobae.com/estados-unidos/2026/09/28/estados-unidos-revoco-las-visas-de-altos-funcionarios-de-bolivia-colombia-ecuador-y-peru-por-acusaciones-de-corrupcion-y-narcotrafico/",
+    "https://www.eldiario.net/portal/2026/09/28/estados-unidos-revoca-la-visa-a-12-bolivianos-incluido-el-fiscal-general-roger-mariaca-1625/"
+  ],
+  "source_records": [
+    {
+      "source_name": "The Associated Press (via WRAL)",
+      "publication_date": "2026-09-28",
+      "url": "https://www.wral.com/news/ap/78157-us-revokes-visas-from-latin-american-officials-including-bolivia-s-top-prosecutor/",
+      "supports": [
+        "The U.S. State Department revoked or restricted the visas of dozens of Latin American officials, judges and business figures, including Bolivian Attorney General Roger Mariaca and officials in Colombia, Ecuador and Peru, announced Monday, September 28, 2026, citing corruption and narco-trafficking that undermine democratically elected governments in the Western Hemisphere.",
+        "Washington accused Bolivian Attorney General Roger Mariaca of abusing his office by soliciting or accepting bribes to facilitate drug trafficking and helping violent criminals evade justice.",
+        "The visa action was carried out under the Trump administration's 'Shield of the Americas' initiative, targeting corruption and narco-trafficking in right-leaning, U.S.-aligned governments across the region."
+      ],
+      "independent_source_id": "wral_ap",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Infobae",
+      "publication_date": "2026-09-28",
+      "url": "https://www.infobae.com/estados-unidos/2026/09/28/estados-unidos-revoco-las-visas-de-altos-funcionarios-de-bolivia-colombia-ecuador-y-peru-por-acusaciones-de-corrupcion-y-narcotrafico/",
+      "supports": [
+        "The U.S. State Department revoked or restricted the visas of dozens of Latin American officials, judges and business figures, including Bolivian Attorney General Roger Mariaca and officials in Colombia, Ecuador and Peru, announced Monday, September 28, 2026, citing corruption and narco-trafficking that undermine democratically elected governments in the Western Hemisphere.",
+        "Washington accused Bolivian Attorney General Roger Mariaca of abusing his office by soliciting or accepting bribes to facilitate drug trafficking and helping violent criminals evade justice.",
+        "The visa action was carried out under the Trump administration's 'Shield of the Americas' initiative, targeting corruption and narco-trafficking in right-leaning, U.S.-aligned governments across the region."
+      ],
+      "independent_source_id": "infobae",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "El Diario (Bolivia)",
+      "publication_date": "2026-09-28",
+      "url": "https://www.eldiario.net/portal/2026/09/28/estados-unidos-revoca-la-visa-a-12-bolivianos-incluido-el-fiscal-general-roger-mariaca-1625/",
+      "supports": [
+        "The U.S. State Department revoked or restricted the visas of dozens of Latin American officials, judges and business figures, including Bolivian Attorney General Roger Mariaca and officials in Colombia, Ecuador and Peru, announced Monday, September 28, 2026, citing corruption and narco-trafficking that undermine democratically elected governments in the Western Hemisphere.",
+        "Washington accused Bolivian Attorney General Roger Mariaca of abusing his office by soliciting or accepting bribes to facilitate drug trafficking and helping violent criminals evade justice.",
+        "The visa action was carried out under the Trump administration's 'Shield of the Americas' initiative, targeting corruption and narco-trafficking in right-leaning, U.S.-aligned governments across the region."
+      ],
+      "independent_source_id": "eldiario_bolivia",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "The U.S. State Department revoked or restricted the visas of dozens of Latin American officials, judges and business figures, including Bolivian Attorney General Roger Mariaca and officials in Colombia, Ecuador and Peru, announced Monday, September 28, 2026, citing corruption and narco-trafficking that undermine democratically elected governments in the Western Hemisphere.",
+      "material": true,
+      "normalized_value": "actor=US_State_Department|action=visa_revocation_or_restriction|date=2026-09-28|countries=Bolivia,Colombia,Ecuador,Peru|named_target=Roger_Mariaca_Bolivia_Attorney_General|stated_reason=corruption_and_narco_trafficking_undermining_democratic_governance",
+      "observations": [
+        {
+          "url": "https://www.wral.com/news/ap/78157-us-revokes-visas-from-latin-american-officials-including-bolivia-s-top-prosecutor/",
+          "normalized_value": "actor=US_State_Department|action=visa_revocation_or_restriction|date=2026-09-28|countries=Bolivia,Colombia,Ecuador,Peru|named_target=Roger_Mariaca_Bolivia_Attorney_General|stated_reason=corruption_and_narco_trafficking_undermining_democratic_governance"
+        },
+        {
+          "url": "https://www.infobae.com/estados-unidos/2026/09/28/estados-unidos-revoco-las-visas-de-altos-funcionarios-de-bolivia-colombia-ecuador-y-peru-por-acusaciones-de-corrupcion-y-narcotrafico/",
+          "normalized_value": "actor=US_State_Department|action=visa_revocation_or_restriction|date=2026-09-28|countries=Bolivia,Colombia,Ecuador,Peru|named_target=Roger_Mariaca_Bolivia_Attorney_General|stated_reason=corruption_and_narco_trafficking_undermining_democratic_governance"
+        },
+        {
+          "url": "https://www.eldiario.net/portal/2026/09/28/estados-unidos-revoca-la-visa-a-12-bolivianos-incluido-el-fiscal-general-roger-mariaca-1625/",
+          "normalized_value": "actor=US_State_Department|action=visa_revocation_or_restriction|date=2026-09-28|countries=Bolivia,Colombia,Ecuador,Peru|named_target=Roger_Mariaca_Bolivia_Attorney_General|stated_reason=corruption_and_narco_trafficking_undermining_democratic_governance"
+        }
+      ]
+    },
+    {
+      "claim": "Washington accused Bolivian Attorney General Roger Mariaca of abusing his office by soliciting or accepting bribes to facilitate drug trafficking and helping violent criminals evade justice.",
+      "material": true,
+      "normalized_value": "target=Roger_Mariaca|role=Bolivia_Attorney_General|allegation=solicited_or_accepted_bribes_to_facilitate_drug_trafficking_and_help_criminals_evade_justice",
+      "observations": [
+        {
+          "url": "https://www.wral.com/news/ap/78157-us-revokes-visas-from-latin-american-officials-including-bolivia-s-top-prosecutor/",
+          "normalized_value": "target=Roger_Mariaca|role=Bolivia_Attorney_General|allegation=solicited_or_accepted_bribes_to_facilitate_drug_trafficking_and_help_criminals_evade_justice"
+        },
+        {
+          "url": "https://www.infobae.com/estados-unidos/2026/09/28/estados-unidos-revoco-las-visas-de-altos-funcionarios-de-bolivia-colombia-ecuador-y-peru-por-acusaciones-de-corrupcion-y-narcotrafico/",
+          "normalized_value": "target=Roger_Mariaca|role=Bolivia_Attorney_General|allegation=solicited_or_accepted_bribes_to_facilitate_drug_trafficking_and_help_criminals_evade_justice"
+        },
+        {
+          "url": "https://www.eldiario.net/portal/2026/09/28/estados-unidos-revoca-la-visa-a-12-bolivianos-incluido-el-fiscal-general-roger-mariaca-1625/",
+          "normalized_value": "target=Roger_Mariaca|role=Bolivia_Attorney_General|allegation=solicited_or_accepted_bribes_to_facilitate_drug_trafficking_and_help_criminals_evade_justice"
+        }
+      ]
+    },
+    {
+      "claim": "The visa action was carried out under the Trump administration's 'Shield of the Americas' initiative, targeting corruption and narco-trafficking in right-leaning, U.S.-aligned governments across the region.",
+      "material": true,
+      "normalized_value": "initiative=Shield_of_the_Americas|administration=Trump|scope=corruption_and_narco_trafficking_Western_Hemisphere",
+      "observations": [
+        {
+          "url": "https://www.wral.com/news/ap/78157-us-revokes-visas-from-latin-american-officials-including-bolivia-s-top-prosecutor/",
+          "normalized_value": "initiative=Shield_of_the_Americas|administration=Trump|scope=corruption_and_narco_trafficking_Western_Hemisphere"
+        },
+        {
+          "url": "https://www.infobae.com/estados-unidos/2026/09/28/estados-unidos-revoco-las-visas-de-altos-funcionarios-de-bolivia-colombia-ecuador-y-peru-por-acusaciones-de-corrupcion-y-narcotrafico/",
+          "normalized_value": "initiative=Shield_of_the_Americas|administration=Trump|scope=corruption_and_narco_trafficking_Western_Hemisphere"
+        },
+        {
+          "url": "https://www.eldiario.net/portal/2026/09/28/estados-unidos-revoca-la-visa-a-12-bolivianos-incluido-el-fiscal-general-roger-mariaca-1625/",
+          "normalized_value": "initiative=Shield_of_the_Americas|administration=Trump|scope=corruption_and_narco_trafficking_Western_Hemisphere"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 The U.S. State Department announced Monday it has revoked or restricted the visas of dozens of Latin American officials, judges and business figures — including Bolivian Attorney General Roger Mariaca — as well as officials in Colombia, Ecuador and Peru. Washington says Mariaca abused his office by soliciting bribes to facilitate drug trafficking and help violent criminals evade justice; the action falls under the administration's 'Shield of the Americas' initiative targeting corruption and narco-trafficking across the region.\n\n🇪🇸 El Departamento de Estado de EE.UU. anunció el lunes la revocación o restricción de visas a decenas de funcionarios, jueces y empresarios latinoamericanos — incluido el fiscal general de Bolivia, Roger Mariaca — así como a funcionarios de Colombia, Ecuador y Perú. Washington afirma que Mariaca abusó de su cargo al solicitar sobornos para facilitar el narcotráfico y ayudar a criminales violentos a evadir la justicia; la medida se enmarca en la iniciativa 'Escudo de las Américas', enfocada en combatir la corrupción y el narcotráfico en la región.\n\nSources: The Associated Press (via WRAL), Infobae, El Diario (Bolivia) — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Bolivia",
+    "#Colombia",
+    "#LatinAmerica",
+    "#Geopolitics"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing diplomatic visa sanctions across the Americas: an abstract stylized passport booklet with a fractured red circular seal dissolving into static particles, set against a soft geometric silhouette map of the Western Hemisphere rendered in muted shapes, cool blue and amber color palette, no real flags, no logos, no readable text or numbers, no identifiable people, restrained editorial-news composition, vertical 4:5 aspect ratio. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: three independently authored outlets — The Associated Press (via WRAL), Infobae, and Bolivia's El Diario — corroborate that the U.S. State Department revoked or restricted visas for dozens of Latin American officials on September 28, 2026, including Bolivian Attorney General Roger Mariaca (accused of soliciting bribes to facilitate drug trafficking), under the 'Shield of the Americas' initiative. Reported headcounts for the Bolivian contingent varied slightly between sources (12 vs. 20+), so that specific figure was excluded from the material claims to avoid an unresolved numeric conflict; all other material claims carry unanimous three-source agreement.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
