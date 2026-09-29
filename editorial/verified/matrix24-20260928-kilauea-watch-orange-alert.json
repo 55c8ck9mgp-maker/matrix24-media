@@ -1,0 +1,81 @@
+{
+  "content_id": "matrix24-20260928-kilauea-watch-orange-alert",
+  "researched_at": "2026-09-29T05:42:14Z",
+  "event_date": "2026-09-28",
+  "headline": "Kilauea stays at Watch/Orange alert as north vent logs 63 overflows since Sept. 22, HVO says",
+  "category": "Science",
+  "editorial_category": "Science",
+  "verified_source_urls": [
+    "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-28T16:49:27+00:00",
+    "https://www.bigislandvideonews.com/2026/09/28/kilauea-volcano-eruption-update-for-monday-september-28/"
+  ],
+  "source_records": [
+    {
+      "source_name": "U.S. Geological Survey — Hawaiian Volcano Observatory",
+      "publication_date": "2026-09-28",
+      "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-28T16:49:27+00:00",
+      "supports": [
+        "As of the September 28, 2026 HVO update, Kilauea's volcano alert level remains at WATCH and the aviation color code at ORANGE.",
+        "Since September 22, 2026, Kilauea's north vent has produced 63 overflow events lasting 5 to 35 minutes each, with lava fountains reaching 15 to 30 feet high."
+      ],
+      "independent_source_id": "usgs_hvo",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "Big Island Video News",
+      "publication_date": "2026-09-28",
+      "url": "https://www.bigislandvideonews.com/2026/09/28/kilauea-volcano-eruption-update-for-monday-september-28/",
+      "supports": [
+        "As of the September 28, 2026 HVO update, Kilauea's volcano alert level remains at WATCH and the aviation color code at ORANGE.",
+        "Since September 22, 2026, Kilauea's north vent has produced 63 overflow events lasting 5 to 35 minutes each, with lava fountains reaching 15 to 30 feet high."
+      ],
+      "independent_source_id": "big_island_video_news",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "As of the September 28, 2026 HVO update, Kilauea's volcano alert level remains at WATCH and the aviation color code at ORANGE.",
+      "material": true,
+      "normalized_value": "alert_level=WATCH|aviation_code=ORANGE|as_of_date=2026-09-28",
+      "observations": [
+        {
+          "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-28T16:49:27+00:00",
+          "normalized_value": "alert_level=WATCH|aviation_code=ORANGE|as_of_date=2026-09-28"
+        },
+        {
+          "url": "https://www.bigislandvideonews.com/2026/09/28/kilauea-volcano-eruption-update-for-monday-september-28/",
+          "normalized_value": "alert_level=WATCH|aviation_code=ORANGE|as_of_date=2026-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "Since September 22, 2026, Kilauea's north vent has produced 63 overflow events lasting 5 to 35 minutes each, with lava fountains reaching 15 to 30 feet high.",
+      "material": true,
+      "normalized_value": "vent=north|overflow_count_since_2026-09-22=63|duration_min_range=5-35|fountain_height_ft_range=15-30",
+      "observations": [
+        {
+          "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-28T16:49:27+00:00",
+          "normalized_value": "vent=north|overflow_count_since_2026-09-22=63|duration_min_range=5-35|fountain_height_ft_range=15-30"
+        },
+        {
+          "url": "https://www.bigislandvideonews.com/2026/09/28/kilauea-volcano-eruption-update-for-monday-september-28/",
+          "normalized_value": "vent=north|overflow_count_since_2026-09-22=63|duration_min_range=5-35|fountain_height_ft_range=15-30"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Hawai'i's Kilauea volcano remains at Watch alert level and Orange aviation color code as of the U.S. Geological Survey's September 28, 2026 update. Since September 22, the summit's north vent has produced 63 overflow episodes from Halema'uma'u crater, with lava fountains reaching 15 to 30 feet, as scientists monitor conditions for a possible next major fountaining episode.\n\n🇪🇸 El volcán Kilauea de Hawái se mantiene en nivel de alerta Watch y código de color de aviación Naranja, según la actualización del 28 de septiembre de 2026 del Servicio Geológico de Estados Unidos (USGS). Desde el 22 de septiembre, el respiradero norte del cráter Halema'uma'u ha registrado 63 episodios de desborde, con fuentes de lava de entre 15 y 30 pies de altura, mientras los científicos vigilan las condiciones ante un posible nuevo episodio mayor de fontanería.\n\nSources: USGS Hawaiian Volcano Observatory — Big Island Video News — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Kilauea",
+    "#Volcano",
+    "#Hawaii",
+    "#Science"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing ongoing volcanic monitoring science: a stylized, abstract volcanic crater at night with glowing orange lava fountains and softly luminous vent glow against a dark sky, simplified geometric terrain forms rather than a photorealistic specific location, no real identifiable people, no flags-with-symbols, no readable text or logos, restrained science-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: the USGS Hawaiian Volcano Observatory's official September 28, 2026 volcano notice (primary authority) and Big Island Video News' same-day independent report both confirm Kilauea's alert level at WATCH/aviation code ORANGE and the north vent's 63 overflow events since September 22, 2026 with matching duration and fountain-height ranges. Repository reconciliation found no existing editorial/verified draft, open branch, or PR covering this Kilauea volcanic-activity event as of 2026-09-29T05:42:14Z.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
