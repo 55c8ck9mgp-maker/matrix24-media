@@ -39,6 +39,7 @@ jobs:
       - name: Validate trusted dispatch inputs
         run: |
           git cat-file -e "$BASE_REF^{commit}"
+          git fetch --no-tags origin "$HEAD_REF"
           git cat-file -e "$HEAD_REF^{commit}"
           git merge-base --is-ancestor "$BASE_REF" "$HEAD_REF" || { echo "promotion guard rejected: base is not an ancestor of head"; exit 1; }
       - name: Validate regressions
