@@ -16,6 +16,8 @@ on:
       - main
     paths:
       - 'queue/*.json'
+  repository_dispatch:
+    types: [promotion_validation]
   workflow_dispatch:
     inputs:
       base:
@@ -51,11 +53,14 @@ jobs:
           PUSH_BEFORE: ${{ github.event.before }}
           PUSH_AFTER: ${{ github.sha }}
           DISPATCH_BASE: ${{ inputs.base }}
+          DISPATCH_EVENT_BASE: ${{ github.event.client_payload.base_sha }}
+          DISPATCH_EVENT_HEAD: ${{ github.event.client_payload.head_sha }}
         run: |
           set -euo pipefail
           case "$EVENT_NAME" in
             pull_request) base="$PR_BASE"; head="$PR_HEAD" ;;
             push) base="$PUSH_BEFORE"; head="$PUSH_AFTER" ;;
+            repository_dispatch) base="$DISPATCH_EVENT_BASE"; head="$DISPATCH_EVENT_HEAD" ;;
             *) base="$DISPATCH_BASE"; head="HEAD" ;;
           esac
           # A push with no prior SHA (new branch) audits only the pushed head commit,
