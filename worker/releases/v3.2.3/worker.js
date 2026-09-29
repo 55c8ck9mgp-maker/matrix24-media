@@ -1384,23 +1384,6 @@ async function processQueue(env) {
     if (bytes) story.image_spec = {format:'JPEG', mode:'RGB', width:1080, height:1350, size_bytes:bytes.length, alpha:false};
     delete story.media_claim;
     appendAttempt(story, {stage:'media_pipeline', result:exists ? 'reused_existing_media' : 'success', request_id:requestId, image_filename:story.image_filename, public_image_url:publicUrl});
-
-    // Re-read current state to preserve any fields set by concurrent workflows (e.g., publish_attempt_id from Publication Reservation)
-    const currentRecord = await readQueueFile(record.item, env).catch(() => null);
-    if (currentRecord?.story?.publish_attempt_id) {
-      // Publication Reservation workflow has already created publish_attempt_id; preserve it
-      story.publish_attempt_id = currentRecord.story.publish_attempt_id;
-      story.publishing_started_at = currentRecord.story.publishing_started_at;
-      story.provider = currentRecord.story.provider;
-      if (Array.isArray(currentRecord.story.publish_attempt_history)) {
-        story.publish_attempt_history = currentRecord.story.publish_attempt_history;
-      }
-      // Update status to publishing if it's reserved but not yet marked as publishing
-      if (currentRecord.story.status === 'publishing') {
-        story.status = 'publishing';
-      }
-    }
-
     await updateQueueFile(record, env, `MATRIX 24: media ready for ${story.content_id}`);
     return {success:true, action:exists ? 'already_ready' : 'media_created', content_id:story.content_id, public_image_url:publicUrl};
   }  catch (error) {
