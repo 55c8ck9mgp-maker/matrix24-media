@@ -95,7 +95,16 @@ jobs:
           fi
           if [ "${#existing_branches[@]}" -eq 1 ]; then
             branch="${existing_branches[0]}"
-            echo "Reusing existing promotion branch for $CONTENT_ID: $branch"
+            expected_branch="promotion/${CONTENT_ID}"
+            [ "$branch" = "$expected_branch" ] || { echo "promotion controller rejected: existing PR uses unexpected branch $branch"; exit 1; }
+            echo "Refreshing existing promotion branch for $CONTENT_ID from current main: $branch"
+            git switch -C "$branch" origin/main
+            mkdir -p "$(dirname "$QUEUE_PATH")"
+            cp ".promotion-output/$QUEUE_PATH" "$QUEUE_PATH"
+            git diff --check
+            git add -- "$QUEUE_PATH"
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Refresh approved editorial promotion: $CONTENT_ID"
+            git push --force-with-lease origin "$branch"
             echo "promotion_branch=$branch" >> "$GITHUB_OUTPUT"
             echo "reuse_existing=true" >> "$GITHUB_OUTPUT"
             exit 0
