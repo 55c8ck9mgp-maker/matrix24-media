@@ -1,0 +1,99 @@
+{
+  "content_id": "matrix24-20260928-nvidia-150-billion-buyback",
+  "researched_at": "2026-09-29T02:42:29Z",
+  "event_date": "2026-09-28",
+  "headline": "Nvidia boosts share buyback authorization by $150 billion, total program now $235 billion",
+  "category": "Economy",
+  "editorial_category": "Economy",
+  "verified_source_urls": [
+    "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+    "https://finance.yahoo.com/technology/article/nvidia-announces-jaw-dropping-150-billion-stock-buyback-largest-single-authorization-in-history-121342628.html"
+  ],
+  "source_records": [
+    {
+      "source_name": "NVIDIA Newsroom",
+      "publication_date": "2026-09-28",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+      "supports": [
+        "On September 28, 2026, Nvidia announced a $150 billion increase to its share repurchase authorization.",
+        "After the increase, Nvidia's total remaining share repurchase authorization stands at $235 billion.",
+        "NVIDIA CEO Jensen Huang said the company's cash generation gives it the capacity to invest in AI technologies and return capital to shareholders."
+      ],
+      "independent_source_id": "nvidia_newsroom",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "Yahoo Finance",
+      "publication_date": "2026-09-28",
+      "url": "https://finance.yahoo.com/technology/article/nvidia-announces-jaw-dropping-150-billion-stock-buyback-largest-single-authorization-in-history-121342628.html",
+      "supports": [
+        "On September 28, 2026, Nvidia announced a $150 billion increase to its share repurchase authorization.",
+        "After the increase, Nvidia's total remaining share repurchase authorization stands at $235 billion.",
+        "NVIDIA CEO Jensen Huang said the company's cash generation gives it the capacity to invest in AI technologies and return capital to shareholders."
+      ],
+      "independent_source_id": "yahoo_finance",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "On September 28, 2026, Nvidia announced a $150 billion increase to its share repurchase authorization.",
+      "material": true,
+      "normalized_value": "date=2026-09-28|company=Nvidia|new_buyback_authorization_usd=150000000000",
+      "observations": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+          "normalized_value": "date=2026-09-28|company=Nvidia|new_buyback_authorization_usd=150000000000"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-announces-jaw-dropping-150-billion-stock-buyback-largest-single-authorization-in-history-121342628.html",
+          "normalized_value": "date=2026-09-28|company=Nvidia|new_buyback_authorization_usd=150000000000"
+        }
+      ]
+    },
+    {
+      "claim": "After the increase, Nvidia's total remaining share repurchase authorization stands at $235 billion.",
+      "material": true,
+      "normalized_value": "company=Nvidia|total_remaining_buyback_authorization_usd=235000000000",
+      "observations": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+          "normalized_value": "company=Nvidia|total_remaining_buyback_authorization_usd=235000000000"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-announces-jaw-dropping-150-billion-stock-buyback-largest-single-authorization-in-history-121342628.html",
+          "normalized_value": "company=Nvidia|total_remaining_buyback_authorization_usd=235000000000"
+        }
+      ]
+    },
+    {
+      "claim": "NVIDIA CEO Jensen Huang said the company's cash generation gives it the capacity to invest in AI technologies and return capital to shareholders.",
+      "material": true,
+      "normalized_value": "speaker=Jensen_Huang|quote_topic=cash_generation_capacity_to_invest_in_AI_and_return_capital_to_shareholders",
+      "observations": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+          "normalized_value": "speaker=Jensen_Huang|quote_topic=cash_generation_capacity_to_invest_in_AI_and_return_capital_to_shareholders"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-announces-jaw-dropping-150-billion-stock-buyback-largest-single-authorization-in-history-121342628.html",
+          "normalized_value": "speaker=Jensen_Huang|quote_topic=cash_generation_capacity_to_invest_in_AI_and_return_capital_to_shareholders"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 Nvidia announced on Sept. 28 a $150 billion increase to its share repurchase authorization, bringing the company's total remaining buyback program to $235 billion. CEO Jensen Huang said the move reflects Nvidia's cash-generation strength, giving it room to keep investing in AI technology while returning capital to shareholders.\n\n🇪🇸 Nvidia anunció el 28 de septiembre un aumento de 150,000 millones de dólares en su autorización de recompra de acciones, elevando el programa total restante a 235,000 millones de dólares. El CEO Jensen Huang dijo que la medida refleja la solidez de generación de efectivo de la empresa, que le permite seguir invirtiendo en tecnología de IA mientras retorna capital a los accionistas.\n\nSources: NVIDIA Newsroom / Yahoo Finance — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Nvidia",
+    "#StockBuyback",
+    "#AI",
+    "#Economy",
+    "#Markets"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of an abstract rising financial bar chart made of glowing silicon-chip motifs and circuit patterns, in a restrained corporate green-and-graphite palette, no readable text, numbers, logos, or brand marks, no identifiable real people, no fabricated documentary details, clean editorial-infographic illustration style, vertical 4:5 composition. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: NVIDIA's own newsroom release (primary authority) and an independent Yahoo Finance report both confirm, with matching figures and an identical CEO quote, that Nvidia announced a $150 billion increase to its share repurchase authorization on September 28, 2026, bringing the total remaining authorization to $235 billion. Repository searches across editorial/verified, editorial/promotions, queue, and open editorial-intake/promotion branches found no existing draft or in-flight PR covering this Nvidia buyback story before intake.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
