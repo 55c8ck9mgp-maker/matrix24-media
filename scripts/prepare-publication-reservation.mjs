@@ -174,10 +174,14 @@ export async function preparePublicationReservations(root = process.cwd()) {
 
   return {
     timestamp: now,
-    reservations,
-    skipped,
+    reservations: reservations.slice(0, 1),
+    skipped: skipped.concat(reservations.slice(1).map(item => ({
+      content_id: item.content_id,
+      filename: item.filename,
+      reason: 'single_reservation_per_cycle_guard'
+    }))),
     errors,
-    count: reservations.length
+    count: Math.min(reservations.length, 1)
   };
 }
 

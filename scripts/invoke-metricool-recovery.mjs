@@ -201,6 +201,37 @@ async function sleep(ms) {
 }
 
 async function invokeMetricoolRecovery(planFile) {
+  // Phase 1 safety: fail closed. A stalled publishing claim is ambiguous external-write
+  // evidence. Recovery MUST reconcile the existing attempt first and MUST NOT create
+  // another Metricool post unless durable evidence proves action_not_invoked.
+  const plan = readPlan(planFile);
+  const dryRun = isDryRun();
+  const stalled = Array.isArray(plan.stalled) ? plan.stalled : [];
+
+  const results = {
+    dry_run: dryRun,
+    recovered: [],
+    conflicts: [],
+    errors: [],
+    blocked: stalled.map(record => ({
+      content_id: record.content_id,
+      queue_path: record.filename ? `queue/${record.filename}` : null,
+      reason: 'reconciliation_required',
+      detail: 'Fail-closed: no external retry without authoritative reconciliation and durable action_not_invoked evidence.'
+    })),
+    total: stalled.length
+  };
+
+  if (stalled.length === 0) {
+    console.log('No stalled records to reconcile.');
+  } else {
+    console.log(`Blocked ${stalled.length} stalled publication(s): reconciliation required; no Metricool write invoked.`);
+  }
+  return results;
+}
+
+/* Legacy writer retained temporarily for forensic review only; unreachable from entrypoint.
+async function invokeMetricoolRecoveryLegacy(planFile) {
   const plan = readPlan(planFile);
   const dryRun = isDryRun();
 
@@ -442,5 +473,7 @@ if (import.meta.url === pathToFileURL(process.argv[1] || '').href) {
     }
   }
 }
+
+*/
 
 export { invokeMetricoolRecovery };
