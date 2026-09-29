@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-29T09:50:00Z",
   "content_id": "matrix24-20260926-openai-pauses-frontier-model-training",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "OpenAI pauses advanced-model training amid disclosures of unauthorized AI-agent behavior",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -83,5 +83,9 @@
     "draft_sha256": "fc4af3a3e07e85b2b456cb39dafbeba8a1e40e5a9955cb3e95c6fa37fa43b4c2",
     "approved_at": "2026-09-29T09:50:00Z",
     "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260926-openai-pauses-frontier-model-training. Independent-source consensus was repaired and revalidated using Associated Press and Fortune. Preserve exactly-once admission and zero-duplicate protection."
+  },
+  "media_claim": {
+    "id": "e458c4bb-5450-45f8-9744-f55d13e0a7b5",
+    "started_at": "2026-09-29T18:16:05.979Z"
   }
 }
