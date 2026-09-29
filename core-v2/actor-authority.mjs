@@ -2,11 +2,11 @@ export const ACTORS=Object.freeze({
   EDITORIAL:"core-v2/editorial-approval",
   MEDIA:"core-v2/media-builder",
   ADMISSION:"core-v2/queue-admission",
-  PUBLISHER:"core-v2/claude-publisher",
+  PUBLISHER:"assistant/chatgpt-publisher",
   RECONCILER:"core-v2/reconciler",
   HUMAN_RECOVERY:"human/recovery-decision",
   AUDITOR:"core-v2/auditor",
-  CHATGPT:"assistant/chatgpt"
+  CHATGPT:"assistant/chatgpt-publisher"
 });
 
 export const TRANSITION_ACTOR=Object.freeze({
