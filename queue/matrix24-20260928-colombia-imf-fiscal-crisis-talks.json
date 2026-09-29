@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-colombia-imf-fiscal-crisis-talks",
-  "status": "publishing",
+  "status": "published",
   "headline": "Colombia's president orders finance team to open IMF talks as 2027 deficit seen at record 9.4% of GDP",
   "category": "Colombia / Latin America",
   "editorial_category": "Colombia / Latin America",
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "caption": "🇺🇸 Colombian President Abelardo de la Espriella has ordered his finance minister and economic team to open negotiations with the International Monetary Fund, calling the country's public finances the most critical in its history. Colombia's 2027 fiscal deficit is now projected to reach a record 9.4% of GDP.\n\n🇪🇸 El presidente de Colombia, Abelardo de la Espriella, ordenó a su ministro de Hacienda y al equipo económico iniciar negociaciones con el Fondo Monetario Internacional, calificando la situación de las finanzas públicas como la más crítica de la historia del país. Se proyecta que el déficit fiscal de 2027 alcance un récord de 9.4% del PIB.\n\nSources: Reuters — Colombia One — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "caption": "\ud83c\uddfa\ud83c\uddf8 Colombian President Abelardo de la Espriella has ordered his finance minister and economic team to open negotiations with the International Monetary Fund, calling the country's public finances the most critical in its history. Colombia's 2027 fiscal deficit is now projected to reach a record 9.4% of GDP.\n\n\ud83c\uddea\ud83c\uddf8 El presidente de Colombia, Abelardo de la Espriella, orden\u00f3 a su ministro de Hacienda y al equipo econ\u00f3mico iniciar negociaciones con el Fondo Monetario Internacional, calificando la situaci\u00f3n de las finanzas p\u00fablicas como la m\u00e1s cr\u00edtica de la historia del pa\u00eds. Se proyecta que el d\u00e9ficit fiscal de 2027 alcance un r\u00e9cord de 9.4% del PIB.\n\nSources: Reuters \u2014 Colombia One \u2014 Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotograf\u00eda documental.",
   "hashtags": [
     "#MATRIX24",
     "#Colombia",
@@ -115,5 +115,8 @@
   ],
   "publish_attempt_id": "6eb13176-ed06-47fc-8dda-1bd1cd955aed",
   "publishing_started_at": "2026-09-28T22:54:15.491Z",
-  "provider": "metricool"
+  "provider": "metricool",
+  "published_at": "2026-09-29T01:11:00Z",
+  "publication_method": "manual_metricool",
+  "instagram_media_id": "pending_verification_metricool"
 }

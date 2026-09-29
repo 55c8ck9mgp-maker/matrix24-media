@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-27T20:05:01Z",
   "content_id": "matrix24-20260927-uttar-pradesh-floods-landslides",
-  "status": "publishing",
+  "status": "published",
   "headline": "Heavy rain, floods and landslides kill at least 56 people in Uttar Pradesh",
   "category": "World",
   "editorial_category": "World",
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "caption": "🇺🇸 Heavy rain triggered floods and landslides in Uttar Pradesh, India, killing at least 56 people over three days. Authorities reported that more than 1,000 houses were damaged.\n\n🇪🇸 Fuertes lluvias provocaron inundaciones y deslizamientos de tierra en Uttar Pradesh, India, causando al menos 56 muertes durante tres días. Las autoridades informaron que más de 1.000 viviendas resultaron dañadas.\n\nSources: Reuters / AFP via Malay Mail — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "caption": "\ud83c\uddfa\ud83c\uddf8 Heavy rain triggered floods and landslides in Uttar Pradesh, India, killing at least 56 people over three days. Authorities reported that more than 1,000 houses were damaged.\n\n\ud83c\uddea\ud83c\uddf8 Fuertes lluvias provocaron inundaciones y deslizamientos de tierra en Uttar Pradesh, India, causando al menos 56 muertes durante tres d\u00edas. Las autoridades informaron que m\u00e1s de 1.000 viviendas resultaron da\u00f1adas.\n\nSources: Reuters / AFP via Malay Mail \u2014 Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotograf\u00eda documental.",
   "hashtags": [
     "#MATRIX24",
     "#India",
@@ -115,5 +115,8 @@
   ],
   "publish_attempt_id": "bc9454f7-8f2a-44f0-a0c3-c6b7b1c1c747",
   "publishing_started_at": "2026-09-28T22:35:54.144Z",
-  "provider": "metricool"
+  "provider": "metricool",
+  "published_at": "2026-09-29T01:11:00Z",
+  "publication_method": "manual_metricool",
+  "instagram_media_id": "pending_verification_metricool"
 }
