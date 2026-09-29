@@ -1,0 +1,31 @@
+name: Core v2 contract CI
+
+on:
+  pull_request:
+    paths:
+      - "core-v2/**"
+      - ".github/workflows/core-v2-ci.yml"
+  push:
+    branches:
+      - "rebuild/core-v2"
+    paths:
+      - "core-v2/**"
+      - ".github/workflows/core-v2-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contract-and-simulation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: State contract tests
+        run: node core-v2/core-v2-state-contract.test.mjs
+      - name: End-to-end dry-run
+        run: node core-v2/core-v2-simulation.test.mjs
