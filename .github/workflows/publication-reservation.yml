@@ -1,4 +1,11 @@
-name: Publication reservation (SHA-conditional write)
+name: Publication reservation (DEPRECATED, manual only)
+
+# DEPRECATED 2026-09-29: schedule removed. Reservations are now made inside the
+# approved publish job of `claude-publisher.yml`, after both approvals and
+# immediately before the send, so an unapproved story is never claimed. Running
+# this manually creates a Metricool reservation that no active publisher
+# consumes, leaving the record stuck in `publishing`; do not dispatch it unless
+# the owner re-enables the legacy Auto Publisher path on purpose.
 
 # Publication Plane scheduler: moves the SHA-conditional write that creates
 # publish_attempt_id from the LLM Auto Publisher (blocked by ChatGPT platform
@@ -12,10 +19,6 @@ name: Publication reservation (SHA-conditional write)
 # AFTER this workflow has created the publish_attempt_id. This decoupling removes
 # the risky GitHub write from the LLM task entirely.
 on:
-  schedule:
-    # Run every 5 minutes. Cadence matches the existing cron cycles and provides
-    # rapid feedback without excessive API load.
-    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:

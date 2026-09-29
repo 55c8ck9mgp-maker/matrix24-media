@@ -63,10 +63,12 @@ realiza esa escritura.
 | --- | --- | --- | --- | --- |
 | Promotion Controller | GitHub Actions `editorial-queue-promotion.yml` | `*/15`, push, dispatch | Promotion | Sólo crea el registro (`null -> blocked_media`) vía PR revisable |
 | Media Worker `matrix24-publisher` | Cloudflare cron | `*/15 * * * *` | Media | `blocked_media -> processing_media -> ready_to_publish` |
-| Publication Reservation | GitHub Actions `publication-reservation.yml` | `*/5 * * * *` | Publication | `ready_to_publish -> publishing` (crea `publish_attempt_id`, escriba CAS directa) — INC-018 fix |
-| Auto Publisher | Tarea ChatGPT (sustituible por Publisher v2) | definida por el owner | Publication | `publishing -> published / publish_unknown`, liberación con prueba de no envío (NO crea `publish_attempt_id`) |
+| Claude Publisher | GitHub Actions `claude-publisher.yml` | plan `*/30`; publish sólo por dispatch de Claude + aprobación del owner en el environment `instagram-production` | Publication | `ready_to_publish -> publishing -> published / publish_unknown`, liberación a `ready_to_publish` sólo si el contenedor falló (ver `docs/CLAUDE_PUBLISHER.md`) |
+| Publication Reservation | GitHub Actions `publication-reservation.yml` | **deprecado 2026-09-29**, sólo manual | Publication | No usar: su reserva Metricool ya no tiene consumidor |
+| Auto Publisher | Tarea ChatGPT | **debe permanecer desactivada** (reemplazada por Claude Publisher) | Publication | Ninguna |
 | Reconciliación de claims de media | GitHub Actions `media-claim-reconciliation.yml` (manual) | manual | Media | Vía PR de cola: `processing_media -> ready_to_publish` (adopta JPEG existente), `-> blocked_media` (libera claim sin media) o `-> discarded` (owner) |
-| Reconciliación Instagram | GitHub Actions `instagram-reconciliation.yml` (manual) | manual | Recovery | Ninguna escritura directa hoy; resuelve `publish_unknown -> published` y enriquece `published` |
+| Reconciliación Instagram | GitHub Actions `instagram-reconciliation.yml` | `20,50 * * * *` | Recovery | Sólo lectura hacia Instagram. Con `INSTAGRAM_RECONCILIATION_APPLY=true`: `publishing`/`publish_unknown -> published` y enriquece `published` con coincidencia única de caption |
+| Metricool recovery | GitHub Actions `metricool-recovery.yml` | **deprecado 2026-09-29**, sólo manual | Recovery | Ninguna (sólo informe) |
 | Production state audit | GitHub Actions `production-state-audit.yml` | `7 * * * *` | Observation | Ninguna |
 | Queue transition ownership | GitHub Actions `queue-transition-ownership.yml` | push/PR sobre `queue/` | Observation | Ninguna |
 | Health Watch / Production Monitor | Tareas ChatGPT/Claude | definida por el owner | Observation | Ninguna |

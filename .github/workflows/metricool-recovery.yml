@@ -1,4 +1,11 @@
-name: Metricool recovery (stalled publication recovery)
+name: Metricool recovery (DEPRECATED, manual only)
+
+# DEPRECATED 2026-09-29. Its original version created a second Metricool post
+# for any record stuck in `publishing`, which is a blind retry and a duplicate
+# risk. Phase 1 (50d0c3c) already made it read-only and fail-closed; this change
+# also removes its schedule. Stalled attempts are now handled by
+# `instagram-reconciliation.yml` (read-only toward Instagram). Kept for one
+# release as a manual, read-only detection report; delete after that.
 
 # Automatic recovery for Polo publications stalled in Metricool.
 #
@@ -13,8 +20,6 @@ name: Metricool recovery (stalled publication recovery)
 # Runs every 5 minutes + manual dispatch for operator control.
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
