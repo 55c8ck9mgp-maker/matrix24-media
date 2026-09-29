@@ -45,6 +45,19 @@ jobs:
           node-version: '22'
       - name: Run ownership policy tests
         run: node --test tests/queue-transition-ownership.test.mjs
+      - name: Fetch trusted promotion refs
+        if: github.event_name == 'repository_dispatch'
+        env:
+          DISPATCH_EVENT_BASE: ${{ github.event.client_payload.base_sha }}
+          DISPATCH_EVENT_HEAD: ${{ github.event.client_payload.head_sha }}
+        run: |
+          set -euo pipefail
+          test -n "$DISPATCH_EVENT_BASE"
+          test -n "$DISPATCH_EVENT_HEAD"
+          git fetch --no-tags origin "$DISPATCH_EVENT_BASE"
+          git fetch --no-tags origin "$DISPATCH_EVENT_HEAD"
+          git cat-file -e "$DISPATCH_EVENT_BASE^{commit}"
+          git cat-file -e "$DISPATCH_EVENT_HEAD^{commit}"
       - name: Audit queue writes in this change
         env:
           EVENT_NAME: ${{ github.event_name }}
