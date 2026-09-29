@@ -1,19 +1,22 @@
-# Core v2 Pre-Live Cutover Checklist
+# Core v2 Live Validation Status
 
-Status: DRY-RUN ONLY. This document does not authorize live publishing.
+The pre-live cutover gate was completed on 2026-09-29.
 
-Required before first controlled live cycle:
-- Core v2 CI fully green.
-- Migration classification covers all legacy queue records.
-- Import writer remains disabled until cutover.
-- No legacy record in publishing or publish_unknown with an unresolved active claim.
-- Legacy mutators for overlapping transitions are disabled or otherwise proven unable to run.
-- Read-only auditors may remain enabled.
-- ChatGPT Publisher is the sole publication transition owner for the explicitly authorized controlled live cycle.
-- Reconciler is the sole publication-confirmation owner.
-- Core v2 external network barrier remains active until explicit owner approval.
-- Exactly one selected content_id for the controlled live cycle.
-- No prior publication claim or external publication evidence for that content_id.
-- Rollback means stop/fail closed; never issue a second POST for an ambiguous attempt.
+## Completed
+- Core v2 CI passed before cutover.
+- Legacy overlapping publication mutators were disabled.
+- Exactly one controlled live publication was authorized and completed.
+- The Kyiv Academy Sciences content_id was claimed once, sent once through Metricool, positively confirmed on Instagram, and reconciled into the same queue record.
+- No second publication attempt was issued.
 
-Live activation requires explicit owner authorization after this checklist passes.
+## Current authority
+- ChatGPT Publisher is permanently authorized as the sole owner of ready_to_publish -> publishing and one external publication attempt.
+- Core v2 Reconciler is the sole owner of publication confirmation/reconciliation and cannot publish.
+- Claude and legacy publishers are excluded from publication ownership.
+- Cloudflare Media Plane is limited to media processing and must not publish.
+
+## Remaining Phase 1 gate
+Three subsequent consecutive live end-to-end cycles must complete without invariant violations before Phase 1 may be declared stable. Phase 2 remains blocked until separate analysis and explicit owner authorization.
+
+## Fail-closed rule
+Any ambiguous publication result remains the same claim in publishing/publish_unknown and MUST NOT cause a retry or second POST.
