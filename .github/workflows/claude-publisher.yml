@@ -1,145 +1,37 @@
-name: Claude Publisher (approval-gated)
+name: Claude Publisher (LEGACY — read-only plan)
 
-# Publication plane. Replaces the ChatGPT Auto Publisher (disabled by INC-018)
-# and the scheduled Publication Reservation workflow.
-#
-# Nothing in this workflow publishes on a schedule. Two approvals are required:
-#
-#   plan (schedule every 30 min, or dispatch mode=plan)
-#     Read-only. Lists ready_to_publish records, builds the exact Instagram
-#     payload, simulates every queue write against the ownership table, checks
-#     the account feed for an existing post, and opens one "Publish request"
-#     issue per candidate. This is also the dry run.
-#
-#   publish (dispatch mode=publish only)
-#     Layer 1: Claude dispatches it with content_id + the record SHA it reviewed.
-#     Layer 2: the job waits on the `instagram-production` environment, whose
-#     required reviewer is the owner. The Instagram publish token lives only in
-#     that environment, so no other job can read it.
-#     Then: fresh read + SHA match -> feed duplicate check -> SHA-conditional
-#     reservation -> one media_publish call -> SHA-conditional result write.
-#     Ambiguous outcomes become publish_unknown. There is no retry.
-#
-# See docs/CLAUDE_PUBLISHER.md for setup and rollback.
+# Core v2 cutover 2026-09-29.
+# ChatGPT Publisher is the sole owner of ready_to_publish -> publishing.
+# This legacy workflow is permanently fail-closed for publication: it has no
+# publish job, no Instagram publish token, no contents:write permission and no
+# workflow_dispatch publish mode. It may only produce a read-only diagnostic plan.
+
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
-    inputs:
-      mode:
-        description: plan (dry run, read-only) or publish (needs owner approval)
-        required: true
-        default: plan
-        type: choice
-        options:
-          - plan
-          - publish
-      content_id:
-        description: "publish only: queue content_id from the publish request"
-        required: false
-        type: string
-      expected_sha:
-        description: "publish only: queue record blob SHA Claude reviewed"
-        required: false
-        type: string
-      request_issue:
-        description: "publish only: publish request issue number (audit trail)"
-        required: false
-        type: string
 
 permissions:
   contents: read
 
 jobs:
-  plan:
-    if: github.event_name == 'schedule' || inputs.mode == 'plan'
+  legacy-plan:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
       contents: read
-      issues: write
-    concurrency:
-      group: claude-publisher-plan
-      cancel-in-progress: false
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           ref: main
           fetch-depth: 1
-
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
-
-      - name: Plan (read-only; no queue write, no Instagram write)
+      - name: Legacy diagnostic plan only
         env:
-          GH_TOKEN: ${{ github.token }}
-          OPEN_REQUEST_ISSUES: 'true'
-          IG_READ_TOKEN: ${{ secrets.IG_READ_TOKEN }}
+          OPEN_REQUEST_ISSUES: 'false'
         run: |
           node scripts/claude-publisher.mjs plan > publisher-plan.json
           cat publisher-plan.json
-
-      - name: Summary
-        if: always()
+      - name: Enforce Core v2 publication boundary
         run: |
-          [ -f publisher-plan.json ] || exit 0
-          node -e '
-            const p = require("./publisher-plan.json");
-            const out = ["## Claude Publisher plan", ""];
-            if (p.ok === false) { out.push(`Plan failed: ${p.code}`); }
-            else {
-              out.push(`- Candidates awaiting approval: ${p.candidates.length}`);
-              for (const c of p.candidates) out.push(`  - ${c.content_id} (sha ${c.sha}${c.feed_duplicates?.length ? ", FEED DUPLICATE " + c.feed_duplicates.join(",") : ""})`);
-              out.push(`- Blocked by policy: ${p.blocked.length}`);
-              out.push(`- Unresolved attempts left to reconciliation: ${p.unresolved.length}`);
-              out.push(`- Feed check: ${p.feed_check || "skipped"}`);
-              if (p.publishing_blocked_by_own_unresolved_attempt.length) out.push(`- PUBLISHING BLOCKED: own unresolved attempt(s) ${p.publishing_blocked_by_own_unresolved_attempt.join(", ")}`);
-            }
-            console.log(out.join("\n"));
-          ' >> "$GITHUB_STEP_SUMMARY"
-
-  publish:
-    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'publish'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    # Layer 2: the owner must approve this deployment before any step runs.
-    environment: instagram-production
-    permissions:
-      contents: write
-      issues: write
-      actions: read
-    concurrency:
-      # One publish at a time, repository-wide. Never cancel a run mid-send.
-      group: claude-publisher-publish
-      cancel-in-progress: false
-    steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
-        with:
-          ref: main
-          fetch-depth: 1
-
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
-        with:
-          node-version: '22'
-
-      - name: Publish exactly one approved record
-        env:
-          GH_TOKEN: ${{ github.token }}
-          CONTENT_ID: ${{ inputs.content_id }}
-          EXPECTED_SHA: ${{ inputs.expected_sha }}
-          REQUEST_ISSUE: ${{ inputs.request_issue }}
-          DISPATCH_ACTOR: ${{ github.actor }}
-          IG_PUBLISH_TOKEN: ${{ secrets.IG_PUBLISH_TOKEN }}
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
-        run: |
-          set -o pipefail
-          node scripts/claude-publisher.mjs publish | tee publish-result.json
-
-      - name: Summary
-        if: always()
-        run: |
-          echo "## Claude Publisher publish run" >> "$GITHUB_STEP_SUMMARY"
-          echo '```json' >> "$GITHUB_STEP_SUMMARY"
-          cat publish-result.json >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || echo '{"result":"no output"}' >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "LEGACY_PUBLISH_DISABLED: assistant/chatgpt-publisher is the sole Core v2 Publisher"
