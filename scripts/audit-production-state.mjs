@@ -11,7 +11,7 @@ const ACTIVE_PRODUCTION = new Set(['blocked_media','processing_media','ready_to_
 // A claim older than this is stuck and needs explicit reconciliation (claims never expire).
 export const STALE_MEDIA_CLAIM_MS = 60 * 60 * 1000;
 
-const validMediaId = value => typeof value === 'string' && /^[0-9]+$/.test(value);
+const validMediaId = value => typeof value === 'string' && /^[0-9]+(?:_[0-9]+)?$/.test(value);
 const validPermalink = value => typeof value === 'string' && /^https:\/\/(?:www\.)?instagram\.com\/[^\s]+/i.test(value);
 const validHttps = value => typeof value === 'string' && /^https:\/\//i.test(value);
 const validSha256 = value => typeof value === 'string' && /^[a-f0-9]{64}$/i.test(value);
