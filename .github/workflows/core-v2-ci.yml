@@ -36,7 +36,7 @@ jobs:
         run: node core-v2/reconciler-match.test.mjs
       - name: Reconciliation exactly-once tests
         run: node core-v2/reconciliation-decision.test.mjs
-      - name: Claude Publisher dry-run network barrier
+      - name: Publisher adapter dry-run network barrier
         run: node core-v2/publisher-adapter-dry-run.test.mjs
       - name: Integrated failure-mode simulation
         run: node core-v2/integrated-failure-simulation.test.mjs
