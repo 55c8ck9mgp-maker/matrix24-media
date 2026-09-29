@@ -1,0 +1,64 @@
+{
+  "content_id": "matrix24-20260929-unhcr-funding-crisis-8-3-million-at-risk",
+  "researched_at": "2026-09-29T14:35:26Z",
+  "event_date": "2026-09-29",
+  "headline": "UNHCR warns nearly 8.3 million displaced people risk losing vital assistance amid funding crisis",
+  "category": "World",
+  "editorial_category": "Humanitarian",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/un-agency-warns-funding-crisis-could-leave-83-million-people-without-aid-2026-09-29/",
+    "https://www.afp.com/en/node/3844115"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-29",
+      "url": "https://www.reuters.com/world/un-agency-warns-funding-crisis-could-leave-83-million-people-without-aid-2026-09-29/",
+      "supports": [
+        "UNHCR warned on September 29, 2026 that nearly 8.3 million refugees and other forcibly displaced people risk losing vital assistance as severe funding cuts erode its protection and assistance capacity."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Agence France-Presse (AFP)",
+      "publication_date": "2026-09-29",
+      "url": "https://www.afp.com/en/node/3844115",
+      "supports": [
+        "UNHCR warned on September 29, 2026 that nearly 8.3 million refugees and other forcibly displaced people risk losing vital assistance as severe funding cuts erode its protection and assistance capacity."
+      ],
+      "independent_source_id": "afp",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "UNHCR warned on September 29, 2026 that nearly 8.3 million refugees and other forcibly displaced people risk losing vital assistance as severe funding cuts erode its protection and assistance capacity.",
+      "material": true,
+      "normalized_value": "date=2026-09-29|agency=UNHCR|population=nearly_8.3_million_refugees_and_other_forcibly_displaced_people|risk=losing_vital_assistance|cause=severe_funding_cuts",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/un-agency-warns-funding-crisis-could-leave-83-million-people-without-aid-2026-09-29/",
+          "normalized_value": "date=2026-09-29|agency=UNHCR|population=nearly_8.3_million_refugees_and_other_forcibly_displaced_people|risk=losing_vital_assistance|cause=severe_funding_cuts"
+        },
+        {
+          "url": "https://www.afp.com/en/node/3844115",
+          "normalized_value": "date=2026-09-29|agency=UNHCR|population=nearly_8.3_million_refugees_and_other_forcibly_displaced_people|risk=losing_vital_assistance|cause=severe_funding_cuts"
+        }
+      ]
+    }
+  ],
+  "caption": "UNHCR warned on Sept. 29 that nearly 8.3 million refugees and other forcibly displaced people risk losing vital assistance as severe funding cuts erode the agency’s ability to protect and assist people in need.\n\nSources: Reuters / AFP — Sept. 29, 2026.\n\nAI-generated editorial visual; not a documentary photograph.",
+  "hashtags": [
+    "#MATRIX24",
+    "#UNHCR",
+    "#Refugees",
+    "#HumanitarianAid",
+    "#WorldNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration about a global refugee-aid funding crisis: diverse anonymous displaced families represented from a respectful distance near temporary shelter silhouettes, humanitarian supply boxes and an abstract funding gauge fading downward, restrained international-news composition, no readable text, no logos, no flags, no identifiable real people, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: exactly two independent current HTTPS reports, Reuters and AFP, both published September 29, 2026, independently support the retained material claim that UNHCR warned nearly 8.3 million refugees and other forcibly displaced people risk losing vital assistance amid severe funding cuts. More granular budget, country-level and operational figures were excluded because they were not required for this candidate and were not retained as material claims. Repository preflight inspected editorial/verified, editorial/promotions, queue, existing editorial-intake branches and open intake PRs; this content_id exists only as the previously created partial intake branch with no file and no open PR, so that exact branch is reused.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
