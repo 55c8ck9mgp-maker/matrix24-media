@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { findStalledPromotionPRs, fetchOpenPulls, DEFAULT_STALL_HOURS } from '../scripts/audit-stalled-promotion-prs.mjs';
+import { findStalledPromotionPRs, fetchOpenPulls, DEFAULT_STALL_HOURS, evaluatePromotionMergeGate } from '../scripts/audit-stalled-promotion-prs.mjs';
 
 const now = Date.parse('2026-09-28T21:00:00Z');
 const hoursAgo = h => new Date(now - h * 36e5).toISOString();
@@ -54,3 +54,10 @@ test('fetchOpenPulls paginates and fails loudly on API errors', async () => {
   assert.match(urls[1], /page=2/);
   await assert.rejects(fetchOpenPulls({ repository: 'o/r', fetchImpl: async () => ({ ok: false, status: 403 }) }), /HTTP 403/);
 });
+
+
+const mergeId='matrix24-safe-item';
+const mergeBase={pr:{state:'open',draft:false,title:`Queue approved promotion: ${mergeId}`,base:{ref:'main'},head:{ref:`promotion/${mergeId}`}},changedFiles:[`queue/${mergeId}.json`],queueRecord:{content_id:mergeId,status:'blocked_media'},checks:{promotion_guard:'success',intake_guard:'success',production_audit:'success',ownership_audit:'success',queue_exists_on_main:false,head_matches_observed:true,base_is_current_main:true}};
+test('merge gate is eligible only with complete green pinned evidence',()=>assert.equal(evaluatePromotionMergeGate(mergeBase).eligible,true));
+test('merge gate fails closed on stale main or failed audit',()=>{const r=evaluatePromotionMergeGate({...mergeBase,checks:{...mergeBase.checks,production_audit:'failure',base_is_current_main:false}});assert.equal(r.eligible,false);assert.ok(r.reasons.includes('production_audit_not_green'));assert.ok(r.reasons.includes('base_not_current_main'));});
+test('merge gate rejects media/publication mutation and extra files',()=>{const r=evaluatePromotionMergeGate({...mergeBase,changedFiles:[...mergeBase.changedFiles,'README.md'],queueRecord:{...mergeBase.queueRecord,media_claim:{id:'x'},instagram_permalink:'https://www.instagram.com/p/x/'}});assert.equal(r.eligible,false);assert.ok(r.reasons.includes('not_exactly_one_queue_file'));assert.ok(r.reasons.includes('unexpected_media_claim'));assert.ok(r.reasons.includes('unexpected_instagram_permalink'));});
