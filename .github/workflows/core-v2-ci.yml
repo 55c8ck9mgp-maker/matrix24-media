@@ -38,6 +38,8 @@ jobs:
         run: node core-v2/generate-migration-manifest.mjs queue > core-v2-migration-manifest.json
       - name: Generate migration summary
         run: node core-v2/generate-migration-summary.mjs
+      - name: Verify migration summary integrity
+        run: node core-v2/migration-summary-integrity.test.mjs
       - name: Publish migration summary to job summary
         run: cat core-v2/MIGRATION-SUMMARY.md >> "$GITHUB_STEP_SUMMARY"
       - name: Upload migration manifest
