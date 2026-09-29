@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-kyiv-academy-sciences-strike",
-  "status": "publishing",
+  "status": "published",
   "headline": "Russian strike kills woman at Kyiv's National Academy of Sciences amid nationwide bombardment",
   "category": "World",
   "editorial_category": "World",
@@ -113,9 +113,23 @@
       "publish_attempt_id": "corev2_live_matrix24-20260928-kyiv-academy-sciences-strike_001",
       "actor": "assistant/chatgpt-publisher",
       "authorization_scope": "single_live_cycle"
+    },
+    {
+      "timestamp": "2026-09-29T15:25:00Z",
+      "stage": "core_v2_reconciliation",
+      "result": "published_confirmed",
+      "publish_attempt_id": "corev2_live_matrix24-20260928-kyiv-academy-sciences-strike_001",
+      "provider": "metricool",
+      "metricool_scheduled_post_id": 384327586,
+      "metricool_scheduled_post_uuid": "2559117726092117800",
+      "instagram_permalink": "https://www.instagram.com/p/Dd4EZx7FBvh/",
+      "evidence": "Metricool Instagram provider status PUBLISHED with publicUrl"
     }
   ],
-  "publish_attempt_id": "corev2_live_matrix24-20260928-kyiv-academy-sciences-strike_001",
-  "publishing_started_at": "2026-09-29T15:15:00Z",
-  "publisher_actor": "assistant/chatgpt-publisher"
+  "publisher_actor": "assistant/chatgpt-publisher",
+  "publication_provider": "metricool",
+  "metricool_scheduled_post_id": 384327586,
+  "metricool_scheduled_post_uuid": "2559117726092117800",
+  "instagram_permalink": "https://www.instagram.com/p/Dd4EZx7FBvh/",
+  "published_at": "2026-09-29T11:20:00-04:00"
 }
