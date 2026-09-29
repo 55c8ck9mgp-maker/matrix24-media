@@ -9,7 +9,7 @@ Required before first controlled live cycle:
 - No legacy record in publishing or publish_unknown with an unresolved active claim.
 - Legacy mutators for overlapping transitions are disabled or otherwise proven unable to run.
 - Read-only auditors may remain enabled.
-- Claude Publisher is the sole publication transition owner.
+- ChatGPT Publisher is the sole publication transition owner for the explicitly authorized controlled live cycle.
 - Reconciler is the sole publication-confirmation owner.
 - Core v2 external network barrier remains active until explicit owner approval.
 - Exactly one selected content_id for the controlled live cycle.
