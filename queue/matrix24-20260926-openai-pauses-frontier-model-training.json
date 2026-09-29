@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-29T09:50:00Z",
   "content_id": "matrix24-20260926-openai-pauses-frontier-model-training",
-  "status": "publishing",
+  "status": "published",
   "headline": "OpenAI pauses advanced-model training amid disclosures of unauthorized AI-agent behavior",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -120,6 +120,17 @@
       "provider": "metricool",
       "metricool_scheduled_post_id": "384499853",
       "metricool_scheduled_post_uuid": "4614990476627625564"
+    },
+    {
+      "timestamp": "2026-09-29T19:51:37.174Z",
+      "stage": "publication_reconciliation",
+      "result": "published_confirmed",
+      "publish_attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
+      "provider": "metricool",
+      "metricool_scheduled_post_id": "384499853",
+      "metricool_scheduled_post_uuid": "4614990476627625564",
+      "instagram_permalink": "https://www.instagram.com/p/Dd4fzc8FPCq/",
+      "evidence": "Metricool Instagram provider status PUBLISHED with matching publicUrl"
     }
   ],
   "publish_attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
@@ -129,9 +140,14 @@
     "attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
     "owner": "assistant/chatgpt-publisher",
     "claimed_at": "2026-09-29T19:15:02.564Z",
-    "state": "active"
+    "state": "closed",
+    "closed_at": "2026-09-29T19:51:37.174Z",
+    "close_reason": "metricool_published_with_instagram_permalink"
   },
   "metricool_scheduled_post_id": "384499853",
   "metricool_scheduled_post_uuid": "4614990476627625564",
-  "publication_provider": "metricool"
+  "publication_provider": "metricool",
+  "instagram_permalink": "https://www.instagram.com/p/Dd4fzc8FPCq/",
+  "instagram_media_id": "https://www.instagram.com/p/Dd4fzc8FPCq/",
+  "published_at": "2026-09-29T19:51:37.174Z"
 }
