@@ -1,0 +1,119 @@
+{
+  "content_id": "matrix24-20260928-nasa-boeing-starliner-2028-return",
+  "researched_at": "2026-09-29T02:40:00Z",
+  "event_date": "2026-09-28",
+  "headline": "NASA and Boeing set uncrewed Starliner test for December, target 2028 for return to crewed flight",
+  "category": "Science",
+  "editorial_category": "Science",
+  "verified_source_urls": [
+    "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+    "https://www.clickorlando.com/news/local/2026/09/28/boeings-starliner-scheduled-for-uncrewed-launch-in-december/",
+    "https://krdo.com/cnn-other/2026/09/28/nasa-reveals-new-plan-for-boeings-troubled-starliner-spacecraft-and-commander-of-future-mission/"
+  ],
+  "source_records": [
+    {
+      "source_name": "NASA",
+      "publication_date": "2026-09-28",
+      "url": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+      "supports": [
+        "The uncrewed Starliner-1 mission to the International Space Station is targeted to fly no earlier than December 2026, with potential slip to January 2027.",
+        "NASA and Boeing's current plan is to return astronauts to orbit on the crewed Starliner-2 mission by 2028."
+      ],
+      "independent_source_id": "nasa_gov",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "WKMG News 6 / ClickOrlando",
+      "publication_date": "2026-09-28",
+      "url": "https://www.clickorlando.com/news/local/2026/09/28/boeings-starliner-scheduled-for-uncrewed-launch-in-december/",
+      "supports": [
+        "The uncrewed Starliner-1 mission to the International Space Station is targeted to fly no earlier than December 2026, with potential slip to January 2027.",
+        "NASA and Boeing's current plan is to return astronauts to orbit on the crewed Starliner-2 mission by 2028.",
+        "NASA astronaut Woody Hoburg has been named commander of the crewed Starliner-2 mission."
+      ],
+      "independent_source_id": "clickorlando_wkmg",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "KRDO (CNN)",
+      "publication_date": "2026-09-28",
+      "url": "https://krdo.com/cnn-other/2026/09/28/nasa-reveals-new-plan-for-boeings-troubled-starliner-spacecraft-and-commander-of-future-mission/",
+      "supports": [
+        "The uncrewed Starliner-1 mission to the International Space Station is targeted to fly no earlier than December 2026, with potential slip to January 2027.",
+        "NASA and Boeing's current plan is to return astronauts to orbit on the crewed Starliner-2 mission by 2028.",
+        "NASA astronaut Woody Hoburg has been named commander of the crewed Starliner-2 mission."
+      ],
+      "independent_source_id": "krdo_cnn",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "NASA and Boeing plan to fly the uncrewed Starliner-1 test mission to the International Space Station no earlier than December 2026, with a potential slip into January 2027.",
+      "material": true,
+      "normalized_value": "mission=Starliner-1|status=uncrewed|earliest_window=2026-12_to_2027-01",
+      "observations": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+          "normalized_value": "mission=Starliner-1|status=uncrewed|earliest_window=2026-12_to_2027-01"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/local/2026/09/28/boeings-starliner-scheduled-for-uncrewed-launch-in-december/",
+          "normalized_value": "mission=Starliner-1|status=uncrewed|earliest_window=2026-12_to_2027-01"
+        },
+        {
+          "url": "https://krdo.com/cnn-other/2026/09/28/nasa-reveals-new-plan-for-boeings-troubled-starliner-spacecraft-and-commander-of-future-mission/",
+          "normalized_value": "mission=Starliner-1|status=uncrewed|earliest_window=2026-12_to_2027-01"
+        }
+      ]
+    },
+    {
+      "claim": "NASA and Boeing are targeting 2028 for the next crewed Starliner flight, Starliner-2, which would return the spacecraft to carrying astronauts.",
+      "material": true,
+      "normalized_value": "mission=Starliner-2|status=crewed|target_year=2028",
+      "observations": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+          "normalized_value": "mission=Starliner-2|status=crewed|target_year=2028"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/local/2026/09/28/boeings-starliner-scheduled-for-uncrewed-launch-in-december/",
+          "normalized_value": "mission=Starliner-2|status=crewed|target_year=2028"
+        },
+        {
+          "url": "https://krdo.com/cnn-other/2026/09/28/nasa-reveals-new-plan-for-boeings-troubled-starliner-spacecraft-and-commander-of-future-mission/",
+          "normalized_value": "mission=Starliner-2|status=crewed|target_year=2028"
+        }
+      ]
+    },
+    {
+      "claim": "NASA astronaut Woody Hoburg has been named commander of the crewed Starliner-2 mission.",
+      "material": true,
+      "normalized_value": "mission=Starliner-2|commander=Woody_Hoburg",
+      "observations": [
+        {
+          "url": "https://www.clickorlando.com/news/local/2026/09/28/boeings-starliner-scheduled-for-uncrewed-launch-in-december/",
+          "normalized_value": "mission=Starliner-2|commander=Woody_Hoburg"
+        },
+        {
+          "url": "https://krdo.com/cnn-other/2026/09/28/nasa-reveals-new-plan-for-boeings-troubled-starliner-spacecraft-and-commander-of-future-mission/",
+          "normalized_value": "mission=Starliner-2|commander=Woody_Hoburg"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 NASA and Boeing announced a revised path back to crewed flight for the Starliner spacecraft, more than two years after a 2024 test flight left astronauts Butch Wilmore and Suni Williams stranded aboard the International Space Station for over nine months due to thruster problems. An uncrewed Starliner-1 test flight is now targeted for no earlier than December 2026, with the first crewed mission, Starliner-2, aimed at 2028 and commanded by NASA astronaut Woody Hoburg. Officials said thruster and thermal-design fixes must be verified before astronauts fly again.\n\n🇪🇸 NASA y Boeing anunciaron una ruta revisada para el regreso de la nave Starliner a vuelos tripulados, más de dos años después de que un vuelo de prueba en 2024 dejara varados durante más de nueve meses a los astronautas Butch Wilmore y Suni Williams a bordo de la Estación Espacial Internacional por problemas en los propulsores. Un vuelo de prueba no tripulado, Starliner-1, ahora se apunta para no antes de diciembre de 2026, mientras que la primera misión tripulada, Starliner-2, se prevé para 2028 y será comandada por el astronauta de la NASA Woody Hoburg. Los funcionarios dijeron que las correcciones en los propulsores y el diseño térmico deben verificarse antes de que vuelen astronautas nuevamente.\n\nSources: NASA, WKMG News 6 (ClickOrlando), KRDO (CNN) — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#NASA",
+    "#Boeing",
+    "#Starliner",
+    "#Space",
+    "#Science"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing a spacecraft development milestone: a stylized, generic white-and-blue crew capsule silhouette docked to an abstract space station module against a deep navy starfield, soft engineering blueprint grid lines overlaid translucently in the background, warm amber accent light suggesting progress and repair, no real agency logos or insignias, no readable text, no identifiable people, restrained aerospace-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: NASA's official release, corroborated independently by WKMG News 6/ClickOrlando and KRDO (CNN wire), agree that the uncrewed Starliner-1 mission targets no earlier than December 2026 (with possible slip to January 2027) and that the crewed Starliner-2 mission is targeted for 2028; the two independent outlets additionally and consistently name NASA astronaut Woody Hoburg as Starliner-2 commander. No conflicting material claims were found among the three sources.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
