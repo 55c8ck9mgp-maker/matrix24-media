@@ -61,7 +61,7 @@ const PLANE_FIELDS = Object.freeze({
 
 const present = v => v != null && v !== '';
 const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
-const validMediaId = v => typeof v === 'string' && /^[0-9]+$/.test(v);
+const validMediaId = v => typeof v === 'string' && /^[0-9]+(?:_[0-9]+)?$/.test(v);
 const validPermalink = v => typeof v === 'string' && /^https:\/\/(?:www\.)?instagram\.com\/[^\s]+/i.test(v);
 const positiveEvidence = r => validMediaId(r?.instagram_media_id) || validPermalink(r?.instagram_permalink);
 
@@ -200,7 +200,12 @@ export function classifyQueueWrite(before, after) {
       // Evidence enrichment only: add a missing permalink/media ID or drop leftover
       // claim fields. Never change evidence that already exists.
       for (const f of EVIDENCE_FIELDS) {
-        if (present(before[f]) && !same(before[f], after[f])) violations.push(`terminal_evidence_changed:${f}`);
+        if (!present(before[f]) || same(before[f], after[f])) continue;
+        const beforeValid = f === 'instagram_media_id' ? validMediaId(before[f])
+          : f === 'instagram_permalink' ? validPermalink(before[f])
+          : true;
+        const removingInvalidEvidence = !beforeValid && !present(after[f]);
+        if (!removingInvalidEvidence) violations.push(`terminal_evidence_changed:${f}`);
       }
       for (const f of CLAIM_FIELDS) {
         if (present(after[f]) && !same(before[f], after[f])) violations.push(`terminal_claim_added:${f}`);
