@@ -48,8 +48,10 @@ what gets published.
   on ChatGPT's platform — Claude has no access there; only the project
   owner can pause or change it.
 - Publish directly to Instagram, Facebook, Threads, or any other social
-  platform — that step runs through the existing Worker/Windsor.ai path,
-  not a tool available to Claude.
+  platform without user approval (layer 2, gate G4). Claude queues
+  publish requests as batch proposals for Justen to review and approve via
+  GitHub; approval is by merging batch-approval records as specified in
+  `docs/CONTROL-MODEL.md` section 2 (two-layer approval workflow).
 - Modify production queue records under `queue/` by hand outside the
   existing validated pipelines (the deterministic promotion controller,
   or a reviewed/tested change to it).
