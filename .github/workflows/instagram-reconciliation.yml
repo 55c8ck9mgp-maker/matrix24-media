@@ -1,80 +1,37 @@
-name: Instagram reconciliation
+name: Instagram reconciliation (LEGACY — read-only)
 
-# Recovery plane. READ-ONLY toward Instagram: lists the account's recent media
-# and never creates, edits or deletes a post.
-#
-# Matches queue records to posts by their full editorial caption and fills in
-# missing evidence (media ID, permalink), or moves publishing/publish_unknown to
-# published on exactly one match. No match never releases a claim; more than
-# one match is reported as a duplicate and nothing is written.
-#
-# Writes are SHA-conditional against the snapshot the plan was built from, and
-# are OFF unless the owner sets the repository variable
-# INSTAGRAM_RECONCILIATION_APPLY=true (or dispatches with apply=true).
-# The single-media-ID lookup the previous version of this workflow did is still
-# available locally as scripts/reconcile-instagram-media.mjs.
+# Core v2 cutover 2026-09-29.
+# Core v2 Reconciler is the sole owner of publishing/publish_unknown -> published.
+# This legacy workflow may inspect Instagram evidence manually but cannot write
+# queue state: no schedule, no apply input, no contents:write permission.
+
 on:
-  schedule:
-    - cron: '20,50 * * * *'
   workflow_dispatch:
-    inputs:
-      apply:
-        description: Write matched evidence to queue/ (SHA-conditional)
-        required: false
-        default: false
-        type: boolean
 
 permissions:
   contents: read
 
-concurrency:
-  group: instagram-reconciliation
-  cancel-in-progress: false
-
 jobs:
-  reconcile:
+  inspect:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
-      contents: write
+      contents: read
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           ref: main
           fetch-depth: 1
-
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
-
-      - name: Reconcile queue against the Instagram feed
+      - name: Read-only Instagram evidence inspection
         env:
           IG_READ_TOKEN: ${{ secrets.IG_READ_TOKEN }}
           IG_USERNAME: matrix24global
-          GH_TOKEN: ${{ github.token }}
-          APPLY: ${{ (github.event_name == 'workflow_dispatch' && inputs.apply) && 'true' || (github.event_name == 'schedule' && vars.INSTAGRAM_RECONCILIATION_APPLY == 'true') && 'true' || 'false' }}
+          APPLY: 'false'
         run: |
           set -o pipefail
           node scripts/reconcile-instagram-feed.mjs | tee reconciliation.json
-
-      - name: Summary
-        if: always()
-        run: |
-          [ -f reconciliation.json ] || exit 0
-          node -e '
-            const p = require("./reconciliation.json");
-            const out = ["## Instagram reconciliation", ""];
-            if (p.ok === false) out.push(`Read failed (${p.code}); nothing written.`);
-            else {
-              out.push(`- Feed items read: ${p.feed_items}`, `- Apply: ${p.apply}`);
-              out.push(`- Matched writes: ${p.writes.length}`);
-              for (const w of p.writes) out.push(`  - ${w.content_id}: ${w.transition} media ${w.instagram_media_id}`);
-              if (p.result) out.push(`- Applied: ${p.result.applied.length}, skipped: ${p.result.skipped.length}`);
-              out.push(`- Findings: ${p.findings.length}`);
-              for (const f of p.findings) out.push(`  - ${f.content_id} (${f.status || ""}): ${f.finding}${f.media_ids ? " " + f.media_ids.join(",") : ""}`);
-              const u = p.unclaimed_posts || [];
-              out.push(`- Posts not linked to any queue record: ${u.length}`);
-              for (const m of u) out.push(`  - ${m.timestamp} ${m.instagram_media_id} ${m.permalink || ""} ${JSON.stringify(m.caption_head.slice(0, 120))}`);
-            }
-            console.log(out.join("\n"));
-          ' >> "$GITHUB_STEP_SUMMARY"
+      - name: Enforce Core v2 reconciliation boundary
+        run: echo "LEGACY_RECONCILIATION_WRITE_DISABLED: Core v2 Reconciler owns confirmation"
