@@ -1,0 +1,113 @@
+{
+  "content_id": "matrix24-20260929-jalud-west-bank-settler-attack",
+  "researched_at": "2026-09-29T09:42:00Z",
+  "event_date": "2026-09-29",
+  "headline": "Over 100 Israeli settlers torch Palestinian homes in West Bank village of Jalud, blocking family's return",
+  "category": "Security / Geopolitics",
+  "editorial_category": "Security / Geopolitics",
+  "verified_source_urls": [
+    "https://www.timesofisrael.com/over-100-settlers-attack-west-bank-village-block-palestinian-familys-return-home",
+    "https://www.i24news.tv/en/news/middle-east/palestinian-territories/artc-over-100-israeli-settlers-riot-in-west-bank-village-of-jalud-set-fire-to-buildings-and-attacked-soldiers",
+    "https://www.aljazeera.com/news/2026/9/29/israeli-settlers-attack-jalud-village-in-occupied-west-bank-torch-homes"
+  ],
+  "source_records": [
+    {
+      "source_name": "The Times of Israel",
+      "publication_date": "2026-09-29",
+      "url": "https://www.timesofisrael.com/over-100-settlers-attack-west-bank-village-block-palestinian-familys-return-home",
+      "supports": [
+        "Israeli settlers set fire to homes belonging to the Palestinian Tubasi (Al-Tubasi) family in Jalud village, near Nablus in the West Bank, overnight into September 29, 2026, as the family attempted to return home after months of forced displacement.",
+        "More than 100 Israeli settlers took part in the riot in Jalud, and three Israeli Border Police officers sustained light injuries while responding.",
+        "Israeli President Isaac Herzog condemned the violence, calling it a moral stain on Israel."
+      ],
+      "independent_source_id": "times_of_israel",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "i24NEWS",
+      "publication_date": "2026-09-29",
+      "url": "https://www.i24news.tv/en/news/middle-east/palestinian-territories/artc-over-100-israeli-settlers-riot-in-west-bank-village-of-jalud-set-fire-to-buildings-and-attacked-soldiers",
+      "supports": [
+        "Israeli settlers set fire to homes belonging to the Palestinian Tubasi (Al-Tubasi) family in Jalud village, near Nablus in the West Bank, overnight into September 29, 2026, as the family attempted to return home after months of forced displacement.",
+        "More than 100 Israeli settlers took part in the riot in Jalud, and three Israeli Border Police officers sustained light injuries while responding.",
+        "Israeli President Isaac Herzog condemned the violence, calling it a moral stain on Israel."
+      ],
+      "independent_source_id": "i24news",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Al Jazeera",
+      "publication_date": "2026-09-29",
+      "url": "https://www.aljazeera.com/news/2026/9/29/israeli-settlers-attack-jalud-village-in-occupied-west-bank-torch-homes",
+      "supports": [
+        "Israeli settlers set fire to homes belonging to the Palestinian Tubasi (Al-Tubasi) family in Jalud village, near Nablus in the West Bank, overnight into September 29, 2026, as the family attempted to return home after months of forced displacement."
+      ],
+      "independent_source_id": "al_jazeera",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Israeli settlers set fire to homes belonging to the Palestinian Tubasi (Al-Tubasi) family in Jalud village, near Nablus in the West Bank, overnight into September 29, 2026, as the family attempted to return home after months of forced displacement.",
+      "material": true,
+      "normalized_value": "location=Jalud_village_near_Nablus_West_Bank|target=Tubasi_family_home(s)|action=set_on_fire|timing=overnight_2026-09-28_into_09-29|context=family_returning_after_forced_displacement",
+      "observations": [
+        {
+          "url": "https://www.timesofisrael.com/over-100-settlers-attack-west-bank-village-block-palestinian-familys-return-home",
+          "normalized_value": "location=Jalud_village_near_Nablus_West_Bank|target=Tubasi_family_home(s)|action=set_on_fire|timing=overnight_2026-09-28_into_09-29|context=family_returning_after_forced_displacement"
+        },
+        {
+          "url": "https://www.i24news.tv/en/news/middle-east/palestinian-territories/artc-over-100-israeli-settlers-riot-in-west-bank-village-of-jalud-set-fire-to-buildings-and-attacked-soldiers",
+          "normalized_value": "location=Jalud_village_near_Nablus_West_Bank|target=Tubasi_family_home(s)|action=set_on_fire|timing=overnight_2026-09-28_into_09-29|context=family_returning_after_forced_displacement"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/israeli-settlers-attack-jalud-village-in-occupied-west-bank-torch-homes",
+          "normalized_value": "location=Jalud_village_near_Nablus_West_Bank|target=Tubasi_family_home(s)|action=set_on_fire|timing=overnight_2026-09-28_into_09-29|context=family_returning_after_forced_displacement"
+        }
+      ]
+    },
+    {
+      "claim": "More than 100 Israeli settlers took part in the riot in Jalud, and three Israeli Border Police officers sustained light injuries while responding.",
+      "material": true,
+      "normalized_value": "settler_count=more_than_100|border_police_injuries=3_light_injuries",
+      "observations": [
+        {
+          "url": "https://www.timesofisrael.com/over-100-settlers-attack-west-bank-village-block-palestinian-familys-return-home",
+          "normalized_value": "settler_count=more_than_100|border_police_injuries=3_light_injuries"
+        },
+        {
+          "url": "https://www.i24news.tv/en/news/middle-east/palestinian-territories/artc-over-100-israeli-settlers-riot-in-west-bank-village-of-jalud-set-fire-to-buildings-and-attacked-soldiers",
+          "normalized_value": "settler_count=more_than_100|border_police_injuries=3_light_injuries"
+        }
+      ]
+    },
+    {
+      "claim": "Israeli President Isaac Herzog condemned the violence, calling it a moral stain on Israel.",
+      "material": true,
+      "normalized_value": "speaker=President_Isaac_Herzog|characterization=moral_stain_on_Israel",
+      "observations": [
+        {
+          "url": "https://www.timesofisrael.com/over-100-settlers-attack-west-bank-village-block-palestinian-familys-return-home",
+          "normalized_value": "speaker=President_Isaac_Herzog|characterization=moral_stain_on_Israel"
+        },
+        {
+          "url": "https://www.i24news.tv/en/news/middle-east/palestinian-territories/artc-over-100-israeli-settlers-riot-in-west-bank-village-of-jalud-set-fire-to-buildings-and-attacked-soldiers",
+          "normalized_value": "speaker=President_Isaac_Herzog|characterization=moral_stain_on_Israel"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 More than 100 Israeli settlers rioted overnight in the West Bank village of Jalud, near Nablus, torching homes belonging to the Palestinian Tubasi family and blocking their return after months of forced displacement. Three Israeli Border Police officers were lightly injured responding to the unrest. Israeli President Isaac Herzog condemned the violence as \"a moral stain\" on the country.\n\n🇪🇸 Más de 100 colonos israelíes protagonizaron disturbios durante la noche en la aldea de Jalud, cerca de Nablus, en Cisjordania, incendiando viviendas de la familia palestina Tubasi e impidiendo su regreso tras meses de desplazamiento forzado. Tres agentes de la Policía de Fronteras israelí resultaron con heridas leves al responder a los disturbios. El presidente israelí, Isaac Herzog, condenó la violencia como \"una mancha moral\" para el país.\n\nSources: The Times of Israel, i24NEWS, Al Jazeera — Sept. 29, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#WestBank",
+    "#Jalud",
+    "#SettlerViolence",
+    "#MiddleEast"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing nighttime unrest in a rural hillside village: abstract stylized stone houses under an orange-red glow of distant flames, dark smoke rising against a deep indigo night sky, a few scattered security floodlight beams cutting through the haze in the middle distance, olive-terraced hillside silhouettes, no real identifiable people, no faces, no flags, no national symbols, no logos, no readable text or signage, restrained somber photojournalistic-illustration mood, vertical 4:5 composition. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: The Times of Israel and i24NEWS, corroborated by Al Jazeera (citing Anadolu Agency and local sources), independently report that more than 100 Israeli settlers rioted in Jalud village near Nablus overnight into September 29, 2026, torching homes belonging to the Palestinian Tubasi family as the family attempted to return after being displaced since July. The Times of Israel and i24NEWS additionally agree on three lightly injured Border Police officers and on President Isaac Herzog's 'moral stain' condemnation. No conflicting material claims were found among the three sources.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
