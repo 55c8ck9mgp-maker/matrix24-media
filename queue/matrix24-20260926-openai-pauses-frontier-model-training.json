@@ -111,6 +111,15 @@
       "publish_attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
       "publisher_actor": "assistant/chatgpt-publisher",
       "source": "core_v2_publisher"
+    },
+    {
+      "timestamp": "2026-09-29T19:15:37.213Z",
+      "stage": "external_publish",
+      "result": "accepted_pending",
+      "publish_attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
+      "provider": "metricool",
+      "metricool_scheduled_post_id": "384499853",
+      "metricool_scheduled_post_uuid": "4614990476627625564"
     }
   ],
   "publish_attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
@@ -121,5 +130,8 @@
     "owner": "assistant/chatgpt-publisher",
     "claimed_at": "2026-09-29T19:15:02.564Z",
     "state": "active"
-  }
+  },
+  "metricool_scheduled_post_id": "384499853",
+  "metricool_scheduled_post_uuid": "4614990476627625564",
+  "publication_provider": "metricool"
 }
