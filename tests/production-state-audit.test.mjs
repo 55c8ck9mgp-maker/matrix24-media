@@ -80,3 +80,32 @@ test('stuck processing_media claim is reported once it exceeds the stale thresho
   assert.equal(finding.claim_id,'claim-1');
   assert.equal(JSON.parse(fs.readFileSync(path.join(r,`queue/${id}.json`),'utf8')).media_claim.id,'claim-1');
 });
+
+
+test('published record accepts Instagram composite media ID from provider evidence',()=>{
+  const r=root(), id='matrix24-composite-instagram-id';
+  editorial(r,id,{legacy:true});
+  write(r,`queue/${id}.json`,{
+    content_id:id,
+    status:'published',
+    instagram_media_id:'3996541378247281524_23602842857',
+    instagram_permalink:'https://www.instagram.com/p/example/'
+  });
+  const result=auditProductionState({root:r});
+  assert.equal(result.ok,true);
+  assert.equal(result.findings.some(f=>f.issue==='invalid_instagram_media_id'),false);
+});
+
+test('malformed Instagram media ID still fails closed',()=>{
+  const r=root(), id='matrix24-malformed-instagram-id';
+  editorial(r,id,{legacy:true});
+  write(r,`queue/${id}.json`,{
+    content_id:id,
+    status:'published',
+    instagram_media_id:'3996541378247281524_bad',
+    instagram_permalink:'https://www.instagram.com/p/example/'
+  });
+  const result=auditProductionState({root:r});
+  assert.equal(result.ok,false);
+  assert.ok(result.findings.some(f=>f.issue==='invalid_instagram_media_id'));
+});
