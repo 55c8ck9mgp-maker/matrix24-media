@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-27T20:05:01Z",
   "content_id": "matrix24-20260927-uttar-pradesh-floods-landslides",
-  "status": "publishing",
+  "status": "published",
   "headline": "Heavy rain, floods and landslides kill at least 56 people in Uttar Pradesh",
   "category": "World",
   "editorial_category": "World",
@@ -111,9 +111,21 @@
       "provider": "metricool",
       "publish_attempt_id": "bc9454f7-8f2a-44f0-a0c3-c6b7b1c1c747",
       "source": "publication_reservation_workflow"
+    },
+    {
+      "timestamp": "2026-09-29T14:08:00Z",
+      "stage": "reconciliation",
+      "result": "positive_match",
+      "match": "metricool_analytics_unique_post",
+      "instagram_media_id": "3996541378247281524_23602842857",
+      "publish_attempt_id": "bc9454f7-8f2a-44f0-a0c3-c6b7b1c1c747",
+      "source": "urgent_production_reconciliation"
     }
   ],
   "publish_attempt_id": "bc9454f7-8f2a-44f0-a0c3-c6b7b1c1c747",
   "publishing_started_at": "2026-09-28T22:35:54.144Z",
-  "provider": "metricool"
+  "provider": "metricool",
+  "instagram_media_id": "3996541378247281524_23602842857",
+  "instagram_permalink": "https://www.instagram.com/p/Dd2kTV8lEt0/",
+  "published_at": "2026-09-29T01:21:38-04:00"
 }
