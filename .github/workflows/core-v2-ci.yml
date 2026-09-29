@@ -29,3 +29,6 @@ jobs:
         run: node core-v2/core-v2-state-contract.test.mjs
       - name: End-to-end dry-run
         run: node core-v2/core-v2-simulation.test.mjs
+
+      - name: Legacy migration dry-run
+        run: node core-v2/legacy-migration-dry-run.test.mjs
