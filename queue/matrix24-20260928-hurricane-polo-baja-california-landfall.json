@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:50:05Z",
   "content_id": "matrix24-20260928-hurricane-polo-baja-california-landfall",
-  "status": "published",
+  "status": "publishing",
   "headline": "Category 3 Hurricane Polo bears down on Baja California Sur, landfall expected Monday",
   "category": "Climate",
   "editorial_category": "Climate",
@@ -117,7 +117,7 @@
       ]
     }
   ],
-  "caption": "\ud83c\uddfa\ud83c\uddf8 Hurricane Polo, a Category 3 storm with 125 mph winds, was bearing down on Baja California Sur, Mexico, with landfall expected Monday, September 28, 2026. The U.S. National Hurricane Center warned of life-threatening flooding and mudslides, and local authorities opened shelters and ordered evacuations ahead of the storm.\n\n\ud83c\uddea\ud83c\uddf8 El hurac\u00e1n Polo, de categor\u00eda 3 con vientos de 125 mph, se acercaba a Baja California Sur, M\u00e9xico, con un impacto en tierra previsto para el lunes 28 de septiembre de 2026. El Centro Nacional de Huracanes de EE.UU. advirti\u00f3 sobre inundaciones y deslizamientos de tierra potencialmente mortales, mientras las autoridades locales abrieron refugios y ordenaron evacuaciones ante la llegada de la tormenta.\n\nSources: NOAA National Hurricane Center / CBS News / The Watchers \u2014 Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotograf\u00eda documental.",
+  "caption": "🇺🇸 Hurricane Polo, a Category 3 storm with 125 mph winds, was bearing down on Baja California Sur, Mexico, with landfall expected Monday, September 28, 2026. The U.S. National Hurricane Center warned of life-threatening flooding and mudslides, and local authorities opened shelters and ordered evacuations ahead of the storm.\n\n🇪🇸 El huracán Polo, de categoría 3 con vientos de 125 mph, se acercaba a Baja California Sur, México, con un impacto en tierra previsto para el lunes 28 de septiembre de 2026. El Centro Nacional de Huracanes de EE.UU. advirtió sobre inundaciones y deslizamientos de tierra potencialmente mortales, mientras las autoridades locales abrieron refugios y ordenaron evacuaciones ante la llegada de la tormenta.\n\nSources: NOAA National Hurricane Center / CBS News / The Watchers — Sept. 27, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
   "hashtags": [
     "#MATRIX24",
     "#HurricanePolo",
@@ -167,8 +167,5 @@
   ],
   "publish_attempt_id": "2e194061-6776-4e80-8cf0-16a3b11ec000",
   "publishing_started_at": "2026-09-28T22:35:54.144Z",
-  "provider": "metricool",
-  "published_at": "2026-09-29T01:11:00Z",
-  "publication_method": "manual_metricool",
-  "instagram_media_id": "pending_verification_metricool"
+  "provider": "metricool"
 }

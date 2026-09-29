@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-asian-games-mens-javelin-final",
-  "status": "published",
+  "status": "publishing",
   "headline": "Sri Lanka's Pathirage wins Asian Games javelin gold; India takes silver and bronze",
   "category": "Sports",
   "editorial_category": "Sports",
@@ -83,7 +83,7 @@
       ]
     }
   ],
-  "caption": "\ud83c\uddfa\ud83c\uddf8 Sri Lanka's Rumesh Tharanga Pathirage won gold in the men's javelin throw at the 2026 Asian Games in Aichi-Nagoya with a throw of 88.55m. India's Yashvir Singh took silver with a personal-best 85.72m, and Rohit Yadav claimed bronze with 84.35m. Pakistan's Arshad Nadeem, the reigning Olympic champion, finished fourth at 80.29m.\n\n\ud83c\uddea\ud83c\uddf8 El esrilanqu\u00e9s Rumesh Tharanga Pathirage gan\u00f3 el oro en lanzamiento de jabalina masculino en los Juegos Asi\u00e1ticos 2026 en Aichi-Nagoya con un lanzamiento de 88.55m. El indio Yashvir Singh se llev\u00f3 la plata con una marca personal de 85.72m, y Rohit Yadav obtuvo el bronce con 84.35m. El paquistan\u00ed Arshad Nadeem, actual campe\u00f3n ol\u00edmpico, termin\u00f3 cuarto con 80.29m.\n\nSources: The Tribune (India) / IANS \u2014 Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotograf\u00eda documental.",
+  "caption": "🇺🇸 Sri Lanka's Rumesh Tharanga Pathirage won gold in the men's javelin throw at the 2026 Asian Games in Aichi-Nagoya with a throw of 88.55m. India's Yashvir Singh took silver with a personal-best 85.72m, and Rohit Yadav claimed bronze with 84.35m. Pakistan's Arshad Nadeem, the reigning Olympic champion, finished fourth at 80.29m.\n\n🇪🇸 El esrilanqués Rumesh Tharanga Pathirage ganó el oro en lanzamiento de jabalina masculino en los Juegos Asiáticos 2026 en Aichi-Nagoya con un lanzamiento de 88.55m. El indio Yashvir Singh se llevó la plata con una marca personal de 85.72m, y Rohit Yadav obtuvo el bronce con 84.35m. El paquistaní Arshad Nadeem, actual campeón olímpico, terminó cuarto con 80.29m.\n\nSources: The Tribune (India) / IANS — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
   "hashtags": [
     "#MATRIX24",
     "#AsianGames",
@@ -94,7 +94,7 @@
     "#Sports"
   ],
   "image_generation_prompt": "AI-generated non-documentary editorial illustration of an outdoor athletics stadium javelin throw competition, a stylized generic athlete mid-throw silhouette with no identifiable facial likeness, a neutral scoreboard element, evening stadium lights, restrained professional sports-newsroom aesthetic, no real team logos or flags with symbols, no fabricated documentary details, vertical 4:5 composition. Include a small clear label: AI-GENERATED EDITORIAL VISUAL.",
-  "verification_note": "Claim Consensus Gate: The Tribune (India) and IANS independently reported identical material facts from the 2026 Asian Games men's javelin final on Sept. 28, 2026 \u2014 Pathirage's (Sri Lanka) gold-medal 88.55m, Yashvir Singh's silver at 85.72m, Rohit Yadav's bronze at 84.35m, and Arshad Nadeem's (Pakistan) fourth-place 80.29m \u2014 with no conflicting figures between the two reports.",
+  "verification_note": "Claim Consensus Gate: The Tribune (India) and IANS independently reported identical material facts from the 2026 Asian Games men's javelin final on Sept. 28, 2026 — Pathirage's (Sri Lanka) gold-medal 88.55m, Yashvir Singh's silver at 85.72m, Rohit Yadav's bronze at 84.35m, and Arshad Nadeem's (Pakistan) fourth-place 80.29m — with no conflicting figures between the two reports.",
   "verification_status": "verified_claim_consensus",
   "editorial_promotion": {
     "manifest_path": "editorial/promotions/matrix24-20260928-asian-games-mens-javelin-final.json",
@@ -134,8 +134,5 @@
   ],
   "publish_attempt_id": "381686af-6c12-494d-9da7-7bf8f9684ff3",
   "publishing_started_at": "2026-09-28T22:35:54.144Z",
-  "provider": "metricool",
-  "published_at": "2026-09-29T01:11:00Z",
-  "publication_method": "manual_metricool",
-  "instagram_media_id": "pending_verification_metricool"
+  "provider": "metricool"
 }

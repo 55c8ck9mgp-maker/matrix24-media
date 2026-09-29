@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:50:05Z",
   "content_id": "matrix24-20260928-meta-enterprise-platform-launch-corrected",
-  "status": "published",
+  "status": "publishing",
   "headline": "Meta launches Meta Enterprise Platform, names ex-MongoDB CEO CJ Desai to lead new AI business unit",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -105,7 +105,7 @@
       ]
     }
   ],
-  "caption": "\ud83c\uddfa\ud83c\uddf8 Meta unveiled the Meta Enterprise Platform on Sept. 28, calling it a new pillar of its business that will bring its AI stack \u2014 including the Muse assistant, Meta Business Agent, Muse API and Muse Code \u2014 to enterprise customers. Chirantan \"CJ\" Desai, MongoDB's former CEO and president, joins as Chief Enterprise Platform Officer, reporting directly to Mark Zuckerberg. MongoDB shares fell sharply the same day after his departure was announced.\n\n\ud83c\uddea\ud83c\uddf8 Meta present\u00f3 el 28 de septiembre la Meta Enterprise Platform, a la que calific\u00f3 como un nuevo pilar de su negocio que llevar\u00e1 su conjunto de herramientas de IA \u2014incluyendo el asistente Muse, Meta Business Agent, Muse API y Muse Code\u2014 a clientes empresariales. Chirantan \"CJ\" Desai, expresidente y CEO de MongoDB, se incorpora como Chief Enterprise Platform Officer y reportar\u00e1 directamente a Mark Zuckerberg. Ese mismo d\u00eda las acciones de MongoDB cayeron con fuerza tras anunciarse su salida.\n\nSources: Meta Newsroom / TechCrunch / CNBC / Bloomberg \u2014 Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotograf\u00eda documental.",
+  "caption": "🇺🇸 Meta unveiled the Meta Enterprise Platform on Sept. 28, calling it a new pillar of its business that will bring its AI stack — including the Muse assistant, Meta Business Agent, Muse API and Muse Code — to enterprise customers. Chirantan \"CJ\" Desai, MongoDB's former CEO and president, joins as Chief Enterprise Platform Officer, reporting directly to Mark Zuckerberg. MongoDB shares fell sharply the same day after his departure was announced.\n\n🇪🇸 Meta presentó el 28 de septiembre la Meta Enterprise Platform, a la que calificó como un nuevo pilar de su negocio que llevará su conjunto de herramientas de IA —incluyendo el asistente Muse, Meta Business Agent, Muse API y Muse Code— a clientes empresariales. Chirantan \"CJ\" Desai, expresidente y CEO de MongoDB, se incorpora como Chief Enterprise Platform Officer y reportará directamente a Mark Zuckerberg. Ese mismo día las acciones de MongoDB cayeron con fuerza tras anunciarse su salida.\n\nSources: Meta Newsroom / TechCrunch / CNBC / Bloomberg — Sept. 28, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
   "hashtags": [
     "#MATRIX24",
     "#Meta",
@@ -154,8 +154,5 @@
   ],
   "publish_attempt_id": "1b3b1948-e10f-4fe8-b555-a6b45c919d7f",
   "publishing_started_at": "2026-09-28T22:35:54.144Z",
-  "provider": "metricool",
-  "published_at": "2026-09-29T01:11:00Z",
-  "publication_method": "manual_metricool",
-  "instagram_media_id": "pending_verification_metricool"
+  "provider": "metricool"
 }
