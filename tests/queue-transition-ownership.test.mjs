@@ -122,9 +122,7 @@ test('a record appearing in any state other than blocked_media is rejected, not 
 
 
 test('published terminal repair may remove invalid media id but preserves valid evidence', () => {
-  const before = baseRecord('published');
-  before.instagram_permalink = 'https://www.instagram.com/p/ABC123/';
-  before.instagram_media_id = 'https://www.instagram.com/p/ABC123/';
+  const before = { ...ready, status: 'published', published_at: '2026-09-28T11:02:00Z', instagram_permalink: 'https://www.instagram.com/p/ABC123/', instagram_media_id: 'https://www.instagram.com/p/ABC123/' };
   const after = structuredClone(before);
   delete after.instagram_media_id;
   const result = classifyQueueWrite(before, after);
@@ -133,9 +131,7 @@ test('published terminal repair may remove invalid media id but preserves valid 
 });
 
 test('published terminal repair cannot remove or replace valid media id', () => {
-  const before = baseRecord('published');
-  before.instagram_permalink = 'https://www.instagram.com/p/ABC123/';
-  before.instagram_media_id = '123456_7890';
+  const before = { ...ready, status: 'published', published_at: '2026-09-28T11:02:00Z', instagram_permalink: 'https://www.instagram.com/p/ABC123/', instagram_media_id: '123456_7890' };
   const removed = structuredClone(before);
   delete removed.instagram_media_id;
   assert.equal(classifyQueueWrite(before, removed).ok, false);
