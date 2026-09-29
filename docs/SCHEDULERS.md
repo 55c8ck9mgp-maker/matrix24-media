@@ -34,28 +34,9 @@ Tres condiciones del diseño lo agravan, y el historial de `queue/` lo confirma
   monitor o publicador pausar/activar automatizaciones. Esto está prohibido
   desde LKG v2 y lo reafirma este registro.
 
-### INC-018 fix: Publication Reservation workflow
+### Core v2 publication ownership (2026-09-29)
 
-A partir del 2026-09-28, la escritura SHA-condicional que crea `publish_attempt_id`
-se ha movido de la tarea LLM Auto Publisher a un determinístico workflow de GitHub
-Actions: `.github/workflows/publication-reservation.yml`. Este cambio elimina la
-operación que activaba la denegación de seguridad de ChatGPT de la tarea LLM
-completamente.
-
-**Antes (roto):**
-- Auto Publisher intenta: `ready_to_publish -> publishing` (crea `publish_attempt_id`)
-- ChatGPT deniega: `github_reservation_write_safety_denial`
-- Auto Publisher desactivado: `is_enabled=false`
-- Contenido queda atascado en `ready_to_publish`
-
-**Después (fijo):**
-- Publication Reservation workflow (cada 5 min): `ready_to_publish -> publishing`
-- Auto Publisher solo procede: `publishing -> published` (invoca Metricool)
-- No escritura LLM arriesgada, sin denegación
-
-La reactivación de Auto Publisher ahora es segura (ver "Reconciliación cuando un
-scheduler falla" abajo); la denegación de seguridad no se repetirá porque ya no
-realiza esa escritura.
+The legacy Publication Reservation path is disabled. ChatGPT Publisher is the sole owner of the durable `ready_to_publish -> publishing` claim and exactly one external scheduling attempt. Core v2 Reconciler independently owns confirmation from `publishing` / `publish_unknown`; it never publishes or retries. Claude and legacy publishers are excluded from this transition.
 
 ## Registro de schedulers
 
@@ -63,11 +44,11 @@ realiza esa escritura.
 | --- | --- | --- | --- | --- |
 | Promotion Controller | GitHub Actions `editorial-queue-promotion.yml` | `*/15`, push, dispatch | Promotion | Sólo crea el registro (`null -> blocked_media`) vía PR revisable |
 | Media Worker `matrix24-publisher` | Cloudflare cron | `*/15 * * * *` | Media | `blocked_media -> processing_media -> ready_to_publish` |
-| Claude Publisher | GitHub Actions `claude-publisher.yml` | plan `*/30`; publish sólo por dispatch de Claude + aprobación del owner en el environment `instagram-production` | Publication | `ready_to_publish -> publishing -> published / publish_unknown`, liberación a `ready_to_publish` sólo si el contenedor falló (ver `docs/CLAUDE_PUBLISHER.md`) |
-| Publication Reservation | GitHub Actions `publication-reservation.yml` | **deprecado 2026-09-29**, sólo manual | Publication | No usar: su reserva Metricool ya no tiene consumidor |
-| Auto Publisher | Tarea ChatGPT | **debe permanecer desactivada** (reemplazada por Claude Publisher) | Publication | Ninguna |
+| ChatGPT Publisher | ChatGPT scheduled task | hourly | Publication | `ready_to_publish -> publishing`; one durable claim and at most one external attempt |
+| Publication Reservation | GitHub Actions legacy tombstone | disabled | Publication | None |
+| Legacy Auto Publisher / Claude Publisher | legacy | disabled | Publication | None |
 | Reconciliación de claims de media | GitHub Actions `media-claim-reconciliation.yml` (manual) | manual | Media | Vía PR de cola: `processing_media -> ready_to_publish` (adopta JPEG existente), `-> blocked_media` (libera claim sin media) o `-> discarded` (owner) |
-| Reconciliación Instagram | GitHub Actions `instagram-reconciliation.yml` | `20,50 * * * *` | Recovery | Sólo lectura hacia Instagram. Con `INSTAGRAM_RECONCILIATION_APPLY=true`: `publishing`/`publish_unknown -> published` y enriquece `published` con coincidencia única de caption |
+| Core v2 Reconciler | ChatGPT scheduled task | hourly | Reconciliation | `publishing` / `publish_unknown -> published` only with positive matching external evidence; never publishes |
 | Metricool recovery | GitHub Actions `metricool-recovery.yml` | **deprecado 2026-09-29**, sólo manual | Recovery | Ninguna (sólo informe) |
 | Production state audit | GitHub Actions `production-state-audit.yml` | `7 * * * *` | Observation | Ninguna |
 | Queue transition ownership | GitHub Actions `queue-transition-ownership.yml` | push/PR sobre `queue/` | Observation | Ninguna |
@@ -148,9 +129,7 @@ Reglas:
 3. Un scheduler nunca activa, desactiva ni reprograma otro scheduler. Si el
    dueño está caído (por ejemplo `is_enabled=false`), el aviso va al owner,
    que es el único que puede reactivar la tarea en su plataforma.
-4. Antes de reactivar el Auto Publisher después de una denegación de
-   seguridad, confirmar que la escritura de reserva ya no la hace la tarea
-   LLM; si no, se repetirá la desactivación.
+4. Legacy Auto Publisher, Claude Publisher and Publication Reservation remain disabled. Do not reactivate them; ChatGPT Publisher and Core v2 Reconciler are the assigned owners.
 
 ## Evidencia (historial de `queue/` hasta `d6b58a8`)
 
