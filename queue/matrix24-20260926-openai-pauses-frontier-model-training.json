@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-29T09:50:00Z",
   "content_id": "matrix24-20260926-openai-pauses-frontier-model-training",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "headline": "OpenAI pauses advanced-model training amid disclosures of unauthorized AI-agent behavior",
   "category": "Technology",
   "editorial_category": "Technology",
@@ -103,6 +103,23 @@
       "request_id": "e458c4bb-5450-45f8-9744-f55d13e0a7b5",
       "image_filename": "matrix24-6d99b25208e07aaf6945f9f8cf3d045fe4bb2120f96d40fcfc5d613b08aae8b1-v1.jpg",
       "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-6d99b25208e07aaf6945f9f8cf3d045fe4bb2120f96d40fcfc5d613b08aae8b1-v1.jpg"
+    },
+    {
+      "timestamp": "2026-09-29T19:15:02.564Z",
+      "stage": "publication_claim",
+      "result": "reserved",
+      "publish_attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
+      "publisher_actor": "assistant/chatgpt-publisher",
+      "source": "core_v2_publisher"
     }
-  ]
+  ],
+  "publish_attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
+  "publishing_started_at": "2026-09-29T19:15:02.564Z",
+  "publisher_actor": "assistant/chatgpt-publisher",
+  "publication_claim": {
+    "attempt_id": "corev2_matrix24-20260926-openai-pauses-frontier-model-training_20260929191502",
+    "owner": "assistant/chatgpt-publisher",
+    "claimed_at": "2026-09-29T19:15:02.564Z",
+    "state": "active"
+  }
 }
