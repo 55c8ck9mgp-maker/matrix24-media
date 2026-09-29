@@ -24,7 +24,7 @@ on:
         type: boolean
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   # Serialize Metricool recovery to avoid duplicate API calls for the same stalled record
@@ -53,13 +53,10 @@ jobs:
           count=$(node -e 'const p=require("./stalled-plan.json"); process.stdout.write(String(p.count||0))')
           echo "count=$count" >> "$GITHUB_OUTPUT"
 
-      - name: Invoke Metricool recovery
+      - name: Reconcile gate (fail closed; no external retry)
         if: steps.detect.outputs.count != '0' && steps.detect.outputs.count != ''
         env:
-          METRICOOL_API_KEY: ${{ secrets.METRICOOL_API_KEY }}
-          METRICOOL_ACCOUNT_ID: ${{ secrets.METRICOOL_ACCOUNT_ID }}
           DRY_RUN: ${{ github.event.inputs.dry_run || false }}
-          GH_TOKEN: ${{ github.token }}
         run: node scripts/invoke-metricool-recovery.mjs stalled-plan.json
 
       - name: Summary
