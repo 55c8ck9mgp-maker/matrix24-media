@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-kyiv-academy-sciences-strike",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "Russian strike kills woman at Kyiv's National Academy of Sciences amid nationwide bombardment",
   "category": "World",
   "editorial_category": "World",
@@ -86,8 +86,25 @@
     "approved_at": "2026-09-28T21:20:47Z",
     "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-kyiv-academy-sciences-strike. Sources re-checked against the retained claims on 2026-09-28. Preserve exactly-once admission and zero-duplicate protection."
   },
-  "media_claim": {
-    "id": "24a56172-23d7-4f7f-95ef-cc54ae8188c9",
-    "started_at": "2026-09-29T12:01:42.712Z"
-  }
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-6c375348ad0de26ba4527933acecd17f76a4ce015b84046cbc8e46ba62e758f6-v1.jpg",
+  "image_filename": "matrix24-6c375348ad0de26ba4527933acecd17f76a4ce015b84046cbc8e46ba62e758f6-v1.jpg",
+  "media_ready_at": "2026-09-29T12:01:54.229Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 186942,
+    "alpha": false
+  },
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-29T12:01:54.229Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "24a56172-23d7-4f7f-95ef-cc54ae8188c9",
+      "image_filename": "matrix24-6c375348ad0de26ba4527933acecd17f76a4ce015b84046cbc8e46ba62e758f6-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-6c375348ad0de26ba4527933acecd17f76a4ce015b84046cbc8e46ba62e758f6-v1.jpg"
+    }
+  ]
 }
