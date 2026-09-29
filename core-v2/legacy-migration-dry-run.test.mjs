@@ -1,0 +1,11 @@
+import assert from "node:assert/strict";
+import {execFileSync} from "node:child_process";
+const out=execFileSync(process.execPath,["core-v2/legacy-migration-dry-run.mjs","queue"],{encoding:"utf8"});
+const r=JSON.parse(out);
+assert.equal(r.mode,"DRY_RUN_ONLY");
+assert.equal(r.total,r.unique_content_ids);
+assert.equal(r.duplicates,0);
+assert.equal(r.errors.length,0);
+assert.ok(r.total>0);
+console.log(`Legacy migration dry-run: PASS (${r.total} unique records, 0 duplicates)`);
+console.log(JSON.stringify(r.counts));

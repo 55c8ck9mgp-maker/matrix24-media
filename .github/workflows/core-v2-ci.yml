@@ -1,0 +1,74 @@
+name: Core v2 contract CI
+
+on:
+  pull_request:
+    paths:
+      - "core-v2/**"
+      - ".github/workflows/core-v2-ci.yml"
+  push:
+    branches:
+      - "rebuild/core-v2"
+    paths:
+      - "core-v2/**"
+      - ".github/workflows/core-v2-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contract-and-simulation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: State contract tests
+        run: node core-v2/core-v2-state-contract.test.mjs
+      - name: End-to-end dry-run
+        run: node core-v2/core-v2-simulation.test.mjs
+
+      - name: Actor authority tests
+        run: node core-v2/actor-authority.test.mjs
+      - name: Reconciler matching regression tests
+        run: node core-v2/reconciler-match.test.mjs
+      - name: Reconciliation exactly-once tests
+        run: node core-v2/reconciliation-decision.test.mjs
+      - name: Claude Publisher dry-run network barrier
+        run: node core-v2/publisher-adapter-dry-run.test.mjs
+      - name: Integrated failure-mode simulation
+        run: node core-v2/integrated-failure-simulation.test.mjs
+      - name: Activation freeze guard tests
+        run: node core-v2/activation-freeze-guard.test.mjs
+      - name: Three consecutive dry cycles
+        run: node core-v2/three-cycle-dry-run.test.mjs
+      - name: Readiness evaluator safety
+        run: node core-v2/readiness-evaluator.test.mjs
+      - name: Legacy migration dry-run
+        run: node core-v2/legacy-migration-dry-run.test.mjs
+      - name: Generate migration manifest
+        run: node core-v2/generate-migration-manifest.mjs queue > core-v2-migration-manifest.json
+      - name: Generate migration summary
+        run: node core-v2/generate-migration-summary.mjs
+      - name: Verify migration summary integrity
+        run: node core-v2/migration-summary-integrity.test.mjs
+      - name: Publish migration summary to job summary
+        run: cat core-v2/MIGRATION-SUMMARY.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Build write-disabled import plan
+        run: node core-v2/import-legacy-dry-run.mjs
+      - name: Verify importer write lock
+        run: node core-v2/import-legacy-dry-run.test.mjs
+      - name: Upload import plan
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-v2-import-plan
+          path: core-v2-import-plan.json
+          retention-days: 30
+      - name: Upload migration manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-v2-migration-manifest
+          path: core-v2-migration-manifest.json
+          retention-days: 30
