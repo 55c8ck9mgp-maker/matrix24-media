@@ -94,3 +94,55 @@ test('real engine + real GitHub adapter: a genuine SHA conflict is reported as a
 
   assert.equal(result.action, 'reservation_conflict');
 });
+
+
+test('duplicate delivery of the same attempt authorizes exactly one provider send total', async () => {
+  const initial = record();
+  const github = fakeGithub(initial);
+  const adapter = createGitHubQueueAdapter({
+    repo: '55c8ck9mgp-maker/matrix24-media',
+    getAccessToken: async () => 'x'.repeat(20),
+    fetchImpl: github.fetchImpl
+  });
+  let sends = 0;
+  const statefulAdapter = {
+    ...adapter,
+    async send() {
+      sends += 1;
+      return {kind: 'ambiguous'};
+    }
+  };
+
+  const first = {...initial, sha: sha('a')};
+  const firstResult = await runPublicationCycle({
+    request: requestFor(first),
+    identity: identity(),
+    current: first,
+    adapter: statefulAdapter
+  });
+  assert.equal(firstResult.action, 'reconcile_only');
+  assert.equal(sends, 1);
+
+  // Simulate duplicate delivery after the first invocation durably claimed
+  // the record. The second delivery observes the same queue state rather than
+  // a fresh fixture. It must route to reconciliation and never call send again.
+  const remote = github.currentState();
+  const secondCurrent = {...remote};
+  const secondResult = await runPublicationCycle({
+    request: {
+      content_id: secondCurrent.content_id,
+      queue_path: secondCurrent.queue_path,
+      expected_sha: secondCurrent.sha,
+      attempt_id: attempt,
+      requested_at: '2026-09-27T23:01:00Z'
+    },
+    identity: identity(),
+    current: secondCurrent,
+    adapter: statefulAdapter
+  });
+
+  assert.equal(secondResult.action, 'reconcile_only');
+  assert.equal(sends, 1);
+  assert.equal(github.currentState().publish_attempt_id, attempt);
+  assert.equal(github.currentState().status, 'publishing');
+});
