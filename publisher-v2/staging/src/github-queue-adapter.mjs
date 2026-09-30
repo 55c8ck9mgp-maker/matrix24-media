@@ -72,9 +72,24 @@ export function createGitHubQueueAdapter({repo, getAccessToken, fetchImpl = fetc
       // attempted and no automatic recovery).
       return result.kind === 'written' ? {kind:'reserved',record:result.record} : result;
     },
-    async markUnknown({record,attemptId,reason}) {
+    async persistPreSend({record,attemptId}) {
       const current = await ownedCurrent(record,attemptId);
-      const result = await write(pathFor(current),current.sha,transition(current,'publish_unknown',attemptId,'publish_unknown',{publish_unknown_reason:reason}),'publisher-v2: quarantine ambiguous publication');
+      const next = append(current,{timestamp:new Date().toISOString(),stage:'publication',result:'metricool_pre_send',provider:'metricool',publish_attempt_id:attemptId,source:'publisher_v2'});
+      const result = await write(pathFor(current),current.sha,next,'publisher-v2: persist Metricool pre-send receipt');
+      return result.kind === 'written' ? {kind:'pre_send_persisted',record:result.record} : result;
+    },
+    async markUnknown({record,attemptId,reason,providerResult=null}) {
+      const current = await ownedCurrent(record,attemptId);
+      const receipt = providerResult?.classification?.receipt;
+      const matchingReceipt = receipt?.kind === 'metricool_scheduled' &&
+        receipt.content_id === current.content_id && receipt.attempt_id === attemptId &&
+        typeof receipt.metricool_id === 'string' && receipt.metricool_id.length > 0 &&
+        typeof receipt.metricool_uuid === 'string' && receipt.metricool_uuid.length > 0;
+      const receiptFields = matchingReceipt ? {
+        metricool_scheduled_post_id: receipt.metricool_id,
+        metricool_scheduled_post_uuid: receipt.metricool_uuid
+      } : {};
+      const result = await write(pathFor(current),current.sha,transition(current,'publish_unknown',attemptId,'publish_unknown',{publish_unknown_reason:reason,...receiptFields}),'publisher-v2: quarantine ambiguous publication');
       // engine.mjs does not currently branch on this kind, but keep the same
       // translation convention as reserve()/archive()/returnReady() so the
       // module's public contract is uniform and does not surprise a future
