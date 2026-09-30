@@ -27,15 +27,15 @@ test('stale SHA and non-ready state conflict before any conditional write',async
 });
 test('GitHub write conflict remains a conflict and never reports reservation',async()=>{const f=fakeGithub({putStatus:409});assert.deepEqual(await adapter(f).reserve(plan()),{kind:'conflict'});assert.equal(f.calls.length,2);});
 test('unknown GitHub outcomes fail closed without response or token leakage',async()=>{const f={fetchImpl:async()=>response(503,{message:'secret-like-provider-payload'})};await assert.rejects(()=>adapter(f).reserve(plan()),error=>error.code==='GITHUB_QUEUE_READ_UNCONFIRMED');});
-test('archive and quarantine re-read owned state and reject supplied snapshot drift',async()=>{
+test('attempt result persists evidence without taking a recovery transition',async()=>{
  const initial=record({status:'publishing',publish_attempt_id:attempt,provider:'metricool'});
  const f=fakeGithub({initial});const a=adapter(f);const owned={...initial,sha:sha('a')};
- // Same translation requirement as reserve(): engine.mjs only accepts 'archived'.
- assert.equal((await a.archive({record:owned,attemptId:attempt,instagram_media_id:'18000000000000001',instagram_permalink:null})).kind,'archived');assert.equal(f.calls.length,2);
- await assert.rejects(()=>a.markUnknown({record:{...owned,caption:'forged'},attemptId:attempt,reason:'timeout'}),error=>error.code==='GITHUB_STATE_CHANGED');
+ const result=await a.persistAttemptResult({record:owned,attemptId:attempt,providerResult:{kind:'published',instagram_media_id:'18000000000000001'},reason:'positive_send_requires_reconciliation'});
+ assert.equal(result.kind,'attempt_result_persisted');assert.equal(result.record.status,'publishing');assert.equal(result.record.instagram_media_id,'18000000000000001');assert.equal(f.calls.length,2);
 });
+
 test('adapter rejects arbitrary repos, paths, missing SHA, and short-lived identity failure',async()=>{
  assert.throws(()=>createGitHubQueueAdapter({repo:'bad',getAccessToken:async()=> 'x'.repeat(20)}),/GITHUB_ADAPTER_CONFIG_INVALID/);
  const f=fakeGithub();const a=createGitHubQueueAdapter({repo:'55c8ck9mgp-maker/matrix24-media',getAccessToken:async()=>null,fetchImpl:f.fetchImpl});await assert.rejects(()=>a.reserve(plan()),error=>error.code==='GITHUB_APP_TOKEN_UNAVAILABLE');
- await assert.rejects(()=>adapter(f).archive({record:record({queue_path:'docs/x',sha:sha('a'),publish_attempt_id:attempt}),attemptId:attempt,instagram_media_id:'18000000000000001'}),error=>error.code==='GITHUB_QUEUE_PATH_INVALID');
+ await assert.rejects(()=>adapter(f).persistAttemptResult({record:record({queue_path:'docs/x',sha:sha('a'),publish_attempt_id:attempt}),attemptId:attempt,providerResult:{},reason:'fixture'}),error=>error.code==='GITHUB_QUEUE_PATH_INVALID');
 });
