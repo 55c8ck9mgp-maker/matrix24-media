@@ -1,6 +1,11 @@
 name: Queue discovery index
 
 on:
+  pull_request:
+    paths:
+      - 'scripts/build-queue-index.mjs'
+      - 'tests/queue-index.test.mjs'
+      - '.github/workflows/queue-discovery-index.yml'
   push:
     branches: [main]
     paths:
@@ -29,6 +34,7 @@ jobs:
       - name: Derive index
         run: node scripts/build-queue-index.mjs
       - name: Commit derived index only when changed
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           if git diff --quiet -- queue-index.json; then exit 0; fi
           git config user.name matrix24-queue-index
