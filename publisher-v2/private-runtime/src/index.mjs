@@ -13,6 +13,21 @@ export async function preflightIdentity(env,dependencies={}) {
   assertPrivateStagingConfig(env);
   return mintInstallationToken({appId:env.GITHUB_APP_ID,privateKeyPem:env.GITHUB_APP_PRIVATE_KEY,installationId:env.GITHUB_INSTALLATION_ID,fetchImpl:dependencies.fetchImpl,cryptoImpl:dependencies.cryptoImpl,nowSeconds:dependencies.nowSeconds});
 }
+export async function verifyStagingIdentity(env,dependencies={}) {
+  const result=await preflightIdentity(env,dependencies);
+  const token=result.token;
+  const repo=env.STAGING_REPOSITORY;
+  const fetchImpl=dependencies.fetchImpl || fetch;
+  const response=await fetchImpl('https://api.github.com/repos/'+repo,{
+    method:'GET',
+    headers:{accept:'application/vnd.github+json',authorization:'Bearer '+token,'x-github-api-version':'2022-11-28','cache-control':'no-store'}
+  });
+  if(!response.ok) blocked('STAGING_REPOSITORY_READ_UNCONFIRMED');
+  const body=await response.json();
+  if(body?.full_name!==repo || body?.private!==true) blocked('STAGING_REPOSITORY_IDENTITY_MISMATCH');
+  return {ok:true,repository:repo,private:true,expires_at:result.expiresAt};
+}
+
 export default {
   async fetch() { return new Response('Not found',{status:404,headers:{'cache-control':'no-store'}}); },
   async scheduled() { /* No cron is configured. Future activation requires a separate reviewed change. */ }
