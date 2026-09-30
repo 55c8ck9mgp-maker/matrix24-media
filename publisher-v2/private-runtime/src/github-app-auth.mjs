@@ -49,16 +49,6 @@ async function safeGitHubErrorDetails(response) {
   if (resource) details.push('RATE_LIMIT_RESOURCE',resource);
   return '_'+details.join('_');
 }
-function decodePem(pem) {
-  if (typeof pem !== 'string') throw failure('GITHUB_APP_KEY_INVALID');
-  const normalized=pem.trim().replace(/\\n/g,'\n');
-  const match=normalized.match(/-----BEGIN (PRIVATE KEY|RSA PRIVATE KEY)-----([\s\S]*?)-----END \1-----/);
-  if (!match) throw failure('GITHUB_APP_KEY_INVALID');
-  const body=match[2].replace(/\s/g,'');
-  if (!/^[A-Za-z0-9+/]+={0,2}$/.test(body)) throw failure('GITHUB_APP_KEY_INVALID');
-  let bytes; try { bytes=Uint8Array.from(atob(body),c=>c.charCodeAt(0)); } catch { throw failure('GITHUB_APP_KEY_INVALID'); }
-  return match[1] === 'RSA PRIVATE KEY' ? wrapPkcs1AsPkcs8(bytes) : bytes;
-}
 export function isSupportedGitHubAppPrivateKey(pem) { try { decodePem(pem); return true; } catch { return false; } }
 export async function createGitHubAppJwt({appId,privateKeyPem,nowSeconds=Math.floor(Date.now()/1000),cryptoImpl=crypto}={}) {
   if (!/^[1-9][0-9]*$/.test(String(appId))) throw failure('GITHUB_APP_ID_INVALID');
