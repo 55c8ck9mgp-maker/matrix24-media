@@ -7,9 +7,7 @@ function fixtureAdapter(outcome = {}) {
     async reserve(plan) { return outcome.reserve || {kind:'reserved',record:plan.replacement}; },
     async persistPreSend({record}) { return outcome.persistPreSend || {kind:'pre_send_persisted',record}; },
     async send() { return outcome.send || {kind:'ambiguous'}; },
-    async archive() { return outcome.archive || {kind:'archive_failed'}; },
-    async markUnknown() { return outcome.markUnknown || {kind:'marked_unknown'}; },
-    async returnReady() { return outcome.returnReady || {kind:'returned_ready'}; },
+    async persistAttemptResult({record}) { return outcome.persistAttemptResult || {kind:'attempt_result_persisted',record}; },
     async reconcile() { return outcome.reconcile || {kind:'reconciled'}; }
   };
 }

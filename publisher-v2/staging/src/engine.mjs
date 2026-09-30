@@ -11,9 +11,9 @@ function ownedReservation(record, attemptId) {
   return record?.status === 'publishing' && record.publish_attempt_id === attemptId && record.provider === 'metricool';
 }
 
-async function quarantine(adapter, record, attemptId, reason, providerResult = null) {
+async function persistForReconciliation(adapter, record, attemptId, reason, providerResult = null) {
   try {
-    await adapter.markUnknown({record, attemptId, reason, providerResult});
+    await adapter.persistAttemptResult?.({record, attemptId, reason, providerResult});
   } catch {
     // The durable reservation survives. Recovery must reconcile it, never resend.
   }
@@ -63,25 +63,13 @@ export async function runPublicationCycle({request, identity, current, adapter})
   try {
     send = await adapter.send?.({record:owned, attemptId:request.attempt_id});
   } catch {
-    return quarantine(adapter, owned, request.attempt_id, 'send_exception');
+    return persistForReconciliation(adapter, owned, request.attempt_id, 'send_exception');
   }
   if (send?.kind === 'not_invoked' && send.proof === 'transport_not_called') {
-    try {
-      const released = await adapter.returnReady?.({record:owned, attemptId:request.attempt_id, reason:'action_not_invoked'});
-      return released?.kind === 'returned_ready' ? safeResult('returned_ready') : safeResult('reconcile_only',{reason:'release_unconfirmed'});
-    } catch {
-      return safeResult('reconcile_only',{reason:'release_unconfirmed'});
-    }
+    return persistForReconciliation(adapter, owned, request.attempt_id, 'action_not_invoked', send);
   }
   if (send?.kind !== 'published' || !mediaId(send.instagram_media_id)) {
-    return quarantine(adapter, owned, request.attempt_id, 'send_ambiguous', send);
+    return persistForReconciliation(adapter, owned, request.attempt_id, 'send_ambiguous', send);
   }
-  try {
-    const archived = await adapter.archive?.({record:owned, attemptId:request.attempt_id,
-      instagram_media_id:send.instagram_media_id, instagram_permalink:send.instagram_permalink || null});
-    if (archived?.kind === 'archived') return safeResult('published',{instagram_media_id:send.instagram_media_id});
-  } catch {
-    // The social write may have succeeded. Leave claim intact and reconcile only.
-  }
-  return safeResult('reconcile_only',{reason:'archive_unconfirmed_after_positive_send'});
+  return persistForReconciliation(adapter, owned, request.attempt_id, 'positive_send_requires_reconciliation', send);
 }
