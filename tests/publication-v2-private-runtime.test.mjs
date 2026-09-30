@@ -15,7 +15,7 @@ test('GitHub App JWT is short-lived and RSA-signed',async()=>{
  assert.equal(verify('RSA-SHA256',Buffer.from(header+'.'+payload),pair.publicKey,Buffer.from(signature.replace(/-/g,'+').replace(/_/g,'/'),'base64url')),true);
 });
 test('GitHub App JWT accepts GitHub RSA PEM and escaped-newline secret serialization',async()=>{
- for (const privateKeyPem of [pkcs1Pem, String(pkcs1Pem).replace(/\n/g,'\\\\n')]) {
+ for (const privateKeyPem of [pkcs1Pem, String(pkcs1Pem).replace(/\n/g,'\\n')]) {
   const jwt=await createGitHubAppJwt({appId:env.GITHUB_APP_ID,privateKeyPem,nowSeconds:1000,cryptoImpl:webcrypto});
   const [header,payload,signature]=jwt.split('.');
   assert.deepEqual(decode(payload),{iat:940,exp:1540,iss:'5101330'});
@@ -24,7 +24,7 @@ test('GitHub App JWT accepts GitHub RSA PEM and escaped-newline secret serializa
 });
 test('private runtime accepts supported key envelopes but refuses malformed secrets',()=>{
  assert.equal(assertPrivateStagingConfig({...env,GITHUB_APP_PRIVATE_KEY:pkcs1Pem}),true);
- assert.equal(assertPrivateStagingConfig({...env,GITHUB_APP_PRIVATE_KEY:String(pkcs1Pem).replace(/\n/g,'\\\\n')}),true);
+ assert.equal(assertPrivateStagingConfig({...env,GITHUB_APP_PRIVATE_KEY:String(pkcs1Pem).replace(/\n/g,'\\n')}),true);
  assert.throws(()=>assertPrivateStagingConfig({...env,GITHUB_APP_PRIVATE_KEY:'-----BEGIN RSA PRIVATE KEY-----\\nnot-base64\\n-----END RSA PRIVATE KEY-----'}));
 });
 test('private runtime refuses public fetch and stays disabled until a separate activation',async()=>{
