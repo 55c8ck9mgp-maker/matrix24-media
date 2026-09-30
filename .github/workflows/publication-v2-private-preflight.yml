@@ -1,0 +1,45 @@
+name: Publication v2 private preflight
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: publication-v2-staging
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "22"
+      - name: Verify private runtime remains fail-closed
+        run: node --test tests/publication-v2-private-runtime.test.mjs
+      - name: Verify required Worker secret bindings by name only
+        shell: bash
+        run: |
+          set -euo pipefail
+          json="$(npx --yes wrangler@4.139.0 secret list --config publisher-v2/private-runtime/wrangler.jsonc --json)"
+          node -e '
+            const bindings=JSON.parse(process.argv[1]);
+            const names=new Set(bindings.map(x=>x.name));
+            const required=["GITHUB_APP_ID","GITHUB_INSTALLATION_ID","GITHUB_APP_PRIVATE_KEY"];
+            const missing=required.filter(x=>!names.has(x));
+            console.log("Required GitHub App bindings:", required.map(x=>names.has(x)?x+":present":x+":missing").join(", "));
+            if(missing.length){ console.error("Missing required bindings:",missing.join(", ")); process.exit(1); }
+          ' "$json"
+      - name: Confirm activation remains disabled
+        run: |
+          node -e '
+            const fs=require("fs");
+            const raw=fs.readFileSync("publisher-v2/private-runtime/wrangler.jsonc","utf8");
+            if(!raw.includes("\\"PUBLISHER_V2_ENABLED\\": \\"false\\"")) process.exit(1);
+            console.log("PUBLISHER_V2_ENABLED=false");
+          '
