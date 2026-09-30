@@ -1,0 +1,38 @@
+name: Verify Cloudflare deployment token
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    environment: publication-v2-staging
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: e2776b03d0f07550fa6d0bbe80f87dbe
+      WORKER_NAME: matrix24-publisher-v2-staging
+    steps:
+      - name: Verify token and read-only Worker access
+        run: |
+          node <<'NODE'
+          const token = process.env.CLOUDFLARE_API_TOKEN;
+          if (!token) throw new Error('CLOUDFLARE_TOKEN_MISSING');
+          const headers = { Authorization: `Bearer ${token}` };
+          const checks = [
+            ['TOKEN', 'https://api.cloudflare.com/client/v4/user/tokens/verify'],
+            ['ACCOUNT', `https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}`],
+            ['WORKER', `https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}/workers/services/${process.env.WORKER_NAME}`],
+          ];
+          for (const [label, url] of checks) {
+            const response = await fetch(url, { headers });
+            const body = await response.json().catch(() => null);
+            if (!response.ok || !body?.success) {
+              throw new Error(`CLOUDFLARE_${label}_CHECK_FAILED_HTTP_${response.status}`);
+            }
+            console.log(`CLOUDFLARE_${label}_CHECK_OK`);
+          }
+          NODE
