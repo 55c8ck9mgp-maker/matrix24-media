@@ -38,6 +38,10 @@ Tres condiciones del diseño lo agravan, y el historial de `queue/` lo confirma
 
 The legacy Publication Reservation path is disabled. ChatGPT Publisher is the sole owner of the durable `ready_to_publish -> publishing` claim and exactly one external scheduling attempt. Core v2 Reconciler independently owns confirmation from `publishing` / `publish_unknown`; it never publishes or retries. Claude and legacy publishers are excluded from this transition.
 
+### Publisher v2 cutover boundary (2026-09-30)
+
+The private Cloudflare Publisher v2 runtime is a staging candidate only. It does **not** own the production `ready_to_publish -> publishing` transition yet: `PUBLISHER_V2_ENABLED=false`, it has no cron/public route, and its GitHub App is repository-scoped to the isolated staging repository. Ownership must not transfer until the deployed runtime proves its real GitHub App identity against staging and a separately reviewed cutover authorizes the change. CI fixture cycles are not live Phase 1 cycles.
+
 ## Registro de schedulers
 
 | Scheduler | Runtime | Cadencia | Plano | Puede escribir en `queue/` |
