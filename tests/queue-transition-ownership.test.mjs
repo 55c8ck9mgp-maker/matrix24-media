@@ -34,6 +34,26 @@ test('a second media run replacing a live media claim is a scheduler race', () =
   assert.ok(r.violations.includes('media_claim_owner_overwritten'));
 });
 
+test('publishing enrichment stays on the same attempt and never owns confirmation', () => {
+  const enriched = {
+    ...publishing,
+    metricool_scheduled_post_id: '382857076',
+    metricool_scheduled_post_uuid: 'fixture-receipt',
+  };
+  const receipt = classifyQueueWrite(publishing, enriched);
+  assert.equal(receipt.ok, true);
+  assert.equal(receipt.plane, PLANES.PUBLICATION);
+  assert.equal(receipt.transition, 'publishing->publishing');
+
+  const secondAttempt = { ...enriched, publish_attempt_id: 'att-2' };
+  assert.ok(classifyQueueWrite(publishing, secondAttempt).violations.includes('claim_owner_overwritten'));
+
+  const confirmed = { ...enriched, status: 'published', instagram_media_id: '17901642846667497' };
+  const confirmation = classifyQueueWrite(enriched, confirmed);
+  assert.equal(confirmation.ok, true);
+  assert.equal(confirmation.plane, PLANES.RECOVERY);
+});
+
 test('another attempt cannot overwrite a live publication reservation', () => {
   const stolen = { ...publishing, publish_attempt_id: 'att-2' };
   assert.ok(classifyQueueWrite(publishing, stolen).violations.includes('claim_owner_overwritten'));
