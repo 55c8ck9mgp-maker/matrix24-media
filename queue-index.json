@@ -240,10 +240,10 @@
     },
     {
       "content_id": "matrix24-20260928-spacex-starship-flight14-first-orbit",
-      "status": "blocked_media",
+      "status": "ready_to_publish",
       "path": "queue/matrix24-20260928-spacex-starship-flight14-first-orbit.json",
-      "blob_sha": "09ab4fb8da7d637ff08f763dcda4ed571f296955",
-      "actionable": false,
+      "blob_sha": "7cacc7bf5ec0bbed3d2a0197dd49a0dafcbe852f",
+      "actionable": true,
       "publish_attempt_id": null,
       "publishing_started_at": null
     }
