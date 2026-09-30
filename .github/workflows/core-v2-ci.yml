@@ -7,6 +7,7 @@ on:
       - ".github/workflows/core-v2-ci.yml"
   push:
     branches:
+      - "main"
       - "rebuild/core-v2"
     paths:
       - "core-v2/**"
