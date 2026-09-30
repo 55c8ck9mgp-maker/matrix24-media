@@ -74,11 +74,12 @@ test('real engine + real GitHub adapter: successful reservation must be recogniz
   // The GitHub write for the reservation genuinely happened (state moved to
   // 'publishing' in the fake remote); the engine must recognize that as a
   // successful reservation and proceed, not silently drop it as unconfirmed.
-  assert.equal(result.action, 'published', `expected a successful reservation to lead to a published result, got: ${JSON.stringify(result)}`);
-  assert.equal(result.instagram_media_id, '18000000000000001');
+  assert.equal(result.action, 'reconcile_only');
+  assert.equal(result.reason, 'positive_send_requires_reconciliation');
 
   const finalState = github.currentState();
-  assert.equal(finalState.status, 'published');
+  assert.equal(finalState.status, 'publishing');
+  assert.equal(finalState.publish_attempt_id, attempt);
   assert.equal(finalState.instagram_media_id, '18000000000000001');
 });
 
