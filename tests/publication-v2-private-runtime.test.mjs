@@ -32,8 +32,8 @@ test('private runtime refuses public fetch and stays disabled until a separate a
  for(const changed of [{PUBLISHER_V2_ENABLED:'true'},{STAGING_REPOSITORY:'55c8ck9mgp-maker/matrix24-media'},{GITHUB_APP_PRIVATE_KEY:'bad'}]) assert.throws(()=>assertPrivateStagingConfig({...env,...changed}));
 });
 test('installation token is minted only after private staging preflight',async()=>{
- const calls=[];const result=await preflightIdentity(env,{cryptoImpl:webcrypto,nowSeconds:1000,fetchImpl:async(url,init)=>{calls.push({url,init});return new Response(JSON.stringify({token:'x'.repeat(30),expires_at:'2026-09-28T00:00:00Z'}),{status:201});}});
- assert.equal(result.expiresAt,'2026-09-28T00:00:00Z');assert.equal(calls.length,1);assert.match(calls[0].url,/installations\/165591323\/access_tokens$/);assert.match(calls[0].init.headers.authorization,/^Bearer /);assert.equal(result.token,'x'.repeat(30));assert.equal(calls[0].init.headers.authorization.includes('x'.repeat(30)),false);
+ const calls=[];const result=await preflightIdentity(env,{cryptoImpl:webcrypto,nowSeconds:1000,fetchImpl:async(url,init)=>{calls.push({url,init});if(url==='https://api.github.com/app') return new Response('{}',{status:200});return new Response(JSON.stringify({token:'x'.repeat(30),expires_at:'2026-09-28T00:00:00Z'}),{status:201});}});
+ assert.equal(result.expiresAt,'2026-09-28T00:00:00Z');assert.equal(calls.length,2);assert.equal(calls[0].url,'https://api.github.com/app');assert.match(calls[1].url,/installations\/165591323\/access_tokens$/);assert.match(calls[1].init.headers.authorization,/^Bearer /);assert.equal(result.token,'x'.repeat(30));assert.equal(calls[1].init.headers.authorization.includes('x'.repeat(30)),false);
 });
 
 
@@ -41,12 +41,13 @@ test('staging identity verification is read-only and returns non-sensitive metad
  const calls=[];
  const fetchImpl=async(url,init)=>{
   calls.push({url,method:init?.method});
+  if(url==='https://api.github.com/app') return new Response('{}',{status:200});
   if(url.includes('/access_tokens')) return new Response(JSON.stringify({token:'x'.repeat(30),expires_at:'2026-09-30T17:00:00Z'}),{status:201});
   return new Response(JSON.stringify({full_name:env.STAGING_REPOSITORY,private:true}),{status:200});
  };
  const result=await verifyStagingIdentity(env,{cryptoImpl:webcrypto,nowSeconds:1000,fetchImpl});
  assert.deepEqual(result,{ok:true,repository:env.STAGING_REPOSITORY,private:true,expires_at:'2026-09-30T17:00:00Z'});
- assert.equal(calls.length,2);
- assert.equal(calls[1].method,'GET');
- assert.match(calls[1].url,/matrix24-publication-v2-staging$/);
+ assert.equal(calls.length,3);
+ assert.equal(calls[2].method,'GET');
+ assert.match(calls[2].url,/matrix24-publication-v2-staging$/);
 });
