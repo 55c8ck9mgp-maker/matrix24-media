@@ -2,7 +2,7 @@
   "schema_version": 1,
   "authoritative": false,
   "source": "derived_from_queue_blobs",
-  "queue_records": 27,
+  "queue_records": 28,
   "entries": [
     {
       "content_id": "matrix24-20260922-arctic-security-deal",
@@ -244,6 +244,15 @@
       "path": "queue/matrix24-20260928-spacex-starship-flight14-first-orbit.json",
       "blob_sha": "7cacc7bf5ec0bbed3d2a0197dd49a0dafcbe852f",
       "actionable": true,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260928-typhoon-surigae-japan-daito-izu-islands",
+      "status": "blocked_media",
+      "path": "queue/matrix24-20260928-typhoon-surigae-japan-daito-izu-islands.json",
+      "blob_sha": "c03c7298235f62e5516551f1f0a904dd4c53e1b4",
+      "actionable": false,
       "publish_attempt_id": null,
       "publishing_started_at": null
     }
