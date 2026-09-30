@@ -46,7 +46,7 @@ export function createReconciliationArchiveAdapter({
   if (typeof accountId !== 'string' || !/^[0-9]+$/.test(accountId)) throw fail('RECONCILIATION_ACCOUNT_ID_INVALID');
   if (typeof expectedUsername !== 'string' || expectedUsername.length === 0) throw fail('RECONCILIATION_USERNAME_INVALID');
   if (typeof getAccessToken !== 'function') throw fail('RECONCILIATION_TOKEN_PROVIDER_INVALID');
-  if (!queueAdapter || typeof queueAdapter.archive !== 'function') throw fail('RECONCILIATION_QUEUE_ADAPTER_INVALID');
+  if (!queueAdapter || typeof queueAdapter.confirmPublished !== 'function') throw fail('RECONCILIATION_QUEUE_ADAPTER_INVALID');
 
   return {
     // record: the queue record as currently read from GitHub (must include sha).
@@ -85,10 +85,9 @@ export function createReconciliationArchiveAdapter({
       }
 
       // Only a durably confirmed, account-bound, exact media ID may complete
-      // the record. archive() itself re-reads and re-checks ownership before
-      // writing (github-queue-adapter.mjs's ownedCurrent()), so this call
-      // still cannot archive a record that has since changed underneath us.
-      return queueAdapter.archive({
+      // the record. The Reconciliation writer re-reads the record and applies
+      // a SHA-conditional write before taking the terminal transition.
+      return queueAdapter.confirmPublished({
         record,
         attemptId,
         instagram_media_id: assessment.media_id,
