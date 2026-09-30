@@ -9,6 +9,8 @@ on:
       - "tests/publication-v2-*.test.mjs"
       - "tests/metricool-schedule-transport.test.mjs"
       - "tests/reservation-broker-policy.test.mjs"
+      - "tests/reconciliation-archive-adapter.test.mjs"
+      - "tests/reconciliation-queue-adapter.test.mjs"
       - ".github/workflows/publication-v2-ci.yml"
   push:
     branches:
@@ -20,6 +22,8 @@ on:
       - "tests/publication-v2-*.test.mjs"
       - "tests/metricool-schedule-transport.test.mjs"
       - "tests/reservation-broker-policy.test.mjs"
+      - "tests/reconciliation-archive-adapter.test.mjs"
+      - "tests/reconciliation-queue-adapter.test.mjs"
       - ".github/workflows/publication-v2-ci.yml"
 
 permissions:
@@ -50,3 +54,5 @@ jobs:
         run: node --test tests/reservation-broker-policy.test.mjs
       - name: Reconciliation archive adapter
         run: node --test tests/reconciliation-archive-adapter.test.mjs
+      - name: Reconciliation queue CAS writer
+        run: node --test tests/reconciliation-queue-adapter.test.mjs
