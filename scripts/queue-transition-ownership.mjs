@@ -42,11 +42,15 @@ export const TRANSITION_OWNERS = Object.freeze({
   'processing_media->blocked_media': PLANES.MEDIA,
   'ready_to_publish->publishing': PLANES.PUBLICATION,
   'publishing->publishing': PLANES.PUBLICATION,
-  'publishing->published': PLANES.PUBLICATION,
-  'publishing->publish_unknown': PLANES.PUBLICATION,
-  'publishing->ready_to_publish': PLANES.PUBLICATION,
+  // Publication owns only the external-attempt claim/write. Confirmation and
+  // uncertainty resolution are independent Reconciliation responsibilities.
+  'publishing->published': PLANES.RECOVERY,
+  'publishing->publish_unknown': PLANES.RECOVERY,
+  // Releasing a claim for a proven not-invoked attempt is a human recovery
+  // decision; it must never be performed by the Publisher that created it.
+  'publishing->ready_to_publish': PLANES.OWNER_MANUAL,
   'publish_unknown->published': PLANES.RECOVERY,
-  'publish_unknown->ready_to_publish': PLANES.RECOVERY,
+  'publish_unknown->ready_to_publish': PLANES.OWNER_MANUAL,
   'published->published': PLANES.RECOVERY
 });
 
@@ -56,7 +60,7 @@ const PLANE_FIELDS = Object.freeze({
   [PLANES.MEDIA]: MEDIA_FIELDS,
   [PLANES.PUBLICATION]: new Set([...CLAIM_FIELDS, ...EVIDENCE_FIELDS, 'incident_history']),
   [PLANES.RECOVERY]: new Set([...CLAIM_FIELDS, ...EVIDENCE_FIELDS, 'incident_history']),
-  [PLANES.OWNER_MANUAL]: null
+  [PLANES.OWNER_MANUAL]: new Set([...CLAIM_FIELDS, ...EVIDENCE_FIELDS, 'incident_history'])
 });
 
 const present = v => v != null && v !== '';
