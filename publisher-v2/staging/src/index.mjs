@@ -5,6 +5,7 @@ const json = (data, status = 200) => new Response(JSON.stringify(data), {status,
 function fixtureAdapter(outcome = {}) {
   return {
     async reserve(plan) { return outcome.reserve || {kind:'reserved',record:plan.replacement}; },
+    async persistPreSend({record}) { return outcome.persistPreSend || {kind:'pre_send_persisted',record}; },
     async send() { return outcome.send || {kind:'ambiguous'}; },
     async archive() { return outcome.archive || {kind:'archive_failed'}; },
     async markUnknown() { return outcome.markUnknown || {kind:'marked_unknown'}; },
