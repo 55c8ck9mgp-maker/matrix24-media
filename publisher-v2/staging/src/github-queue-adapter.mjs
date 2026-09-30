@@ -78,38 +78,28 @@ export function createGitHubQueueAdapter({repo, getAccessToken, fetchImpl = fetc
       const result = await write(pathFor(current),current.sha,next,'publisher-v2: persist Metricool pre-send receipt');
       return result.kind === 'written' ? {kind:'pre_send_persisted',record:result.record} : result;
     },
-    async markUnknown({record,attemptId,reason,providerResult=null}) {
+    async persistAttemptResult({record,attemptId,providerResult,reason}) {
       const current = await ownedCurrent(record,attemptId);
       const receipt = providerResult?.classification?.receipt;
       const matchingReceipt = receipt?.kind === 'metricool_scheduled' &&
         receipt.content_id === current.content_id && receipt.attempt_id === attemptId &&
         typeof receipt.metricool_id === 'string' && receipt.metricool_id.length > 0 &&
         typeof receipt.metricool_uuid === 'string' && receipt.metricool_uuid.length > 0;
+      const positiveMediaId = typeof providerResult?.instagram_media_id === 'string' && /^[0-9]+$/.test(providerResult.instagram_media_id);
       const receiptFields = matchingReceipt ? {
         metricool_scheduled_post_id: receipt.metricool_id,
         metricool_scheduled_post_uuid: receipt.metricool_uuid
       } : {};
-      const result = await write(pathFor(current),current.sha,transition(current,'publish_unknown',attemptId,'publish_unknown',{publish_unknown_reason:reason,...receiptFields}),'publisher-v2: quarantine ambiguous publication');
-      // engine.mjs does not currently branch on this kind, but keep the same
-      // translation convention as reserve()/archive()/returnReady() so the
-      // module's public contract is uniform and does not surprise a future
-      // caller that starts checking it.
-      return result.kind === 'written' ? {kind:'marked_unknown',record:result.record} : result;
-    },
-    async returnReady({record,attemptId,reason}) {
-      const current = await ownedCurrent(record,attemptId);
-      const result = await write(pathFor(current),current.sha,transition(current,'ready_to_publish',attemptId,'returned_ready',{publish_attempt_id:null,publishing_started_at:null,provider:null,return_ready_reason:reason}),'publisher-v2: return proven pre-write no-op to ready');
-      return result.kind === 'written' ? {kind:'returned_ready',record:result.record} : result;
-    },
-    async archive({record,attemptId,instagram_media_id,instagram_permalink}) {
-      if (typeof instagram_media_id !== 'string' || !/^[0-9]+$/.test(instagram_media_id)) throw fail('INSTAGRAM_MEDIA_ID_INVALID');
-      const current = await ownedCurrent(record,attemptId);
-      const result = await write(pathFor(current),current.sha,transition(current,'published',attemptId,'published',{instagram_media_id,instagram_permalink,published_at:new Date().toISOString()}),'publisher-v2: archive confirmed Instagram publication');
-      // Same translation as reserve(): engine.mjs only accepts 'archived' as
-      // proof the durable publish record was written; without this mapping a
-      // genuinely successful archive is reported as 'reconcile_only', which
-      // is safe (no re-send) but wrongly leaves a real success unconfirmed.
-      return result.kind === 'written' ? {kind:'archived',record:result.record} : result;
+      const evidenceFields = positiveMediaId ? {
+        instagram_media_id: providerResult.instagram_media_id,
+        instagram_permalink: providerResult.instagram_permalink || null
+      } : {};
+      const next = append({...current,...receiptFields,...evidenceFields}, {
+        timestamp:new Date().toISOString(),stage:'publication',result:'attempt_result_persisted',provider:'metricool',
+        publish_attempt_id:attemptId,reason:reason || null,source:'publisher_v2'
+      });
+      const result = await write(pathFor(current),current.sha,next,'publisher-v2: persist publication attempt result');
+      return result.kind === 'written' ? {kind:'attempt_result_persisted',record:result.record} : result;
     }
   };
 }
