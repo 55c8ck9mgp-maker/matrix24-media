@@ -46,6 +46,8 @@ jobs:
         run: node --test tests/publication-v2-github-adapter.test.mjs
       - name: Engine and adapter integration
         run: node --test tests/publication-v2-integration.test.mjs
+      - name: Three consecutive E2E cycles
+        run: node --test tests/publication-v2-e2e.test.mjs
       - name: Private runtime identity boundary
         run: node --test tests/publication-v2-private-runtime.test.mjs
       - name: Metricool transport contract
