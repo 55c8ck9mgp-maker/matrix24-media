@@ -1,0 +1,30 @@
+name: Deploy Publication v2 identity caller
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: publication-v2-staging
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "22"
+      - name: Caller safety contract
+        run: node --test tests/publication-v2-identity-caller.test.mjs
+      - name: Dry run
+        run: npx wrangler deploy --dry-run --config publisher-v2/identity-caller/wrangler.jsonc
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      - name: Deploy inert private caller
+        run: npx wrangler deploy --config publisher-v2/identity-caller/wrangler.jsonc --keep-vars
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
