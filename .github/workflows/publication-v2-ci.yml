@@ -50,6 +50,8 @@ jobs:
         run: node --test tests/publication-v2-e2e.test.mjs
       - name: Private runtime identity boundary
         run: node --test tests/publication-v2-private-runtime.test.mjs
+      - name: Cutover gate contract
+        run: node --test tests/publication-v2-cutover-gate.test.mjs
       - name: Metricool transport contract
         run: node --test tests/metricool-schedule-transport.test.mjs
       - name: Reservation broker policy
