@@ -27,6 +27,28 @@ function decodePem(pem) {
   let bytes; try { bytes=Uint8Array.from(atob(body),c=>c.charCodeAt(0)); } catch { throw failure('GITHUB_APP_KEY_INVALID'); }
   return match[1] === 'RSA PRIVATE KEY' ? wrapPkcs1AsPkcs8(bytes) : bytes;
 }
+function safeHeader(headers,name,pattern) {
+  const value=typeof headers?.get === 'function' ? headers.get(name) : null;
+  return typeof value === 'string' && pattern.test(value) ? value : null;
+}
+async function safeGitHubErrorDetails(response) {
+  let category='REDACTED';
+  try {
+    const payload=await response.clone().json();
+    const message=typeof payload?.message === 'string' ? payload.message : '';
+    if (message === 'Bad credentials') category='BAD_CREDENTIALS';
+    else if (/^API rate limit exceeded/i.test(message)) category='RATE_LIMIT';
+    else if (/abuse detection/i.test(message)) category='ABUSE_DETECTION';
+  } catch {}
+  const details=['DIAGNOSTIC',category];
+  const requestId=safeHeader(response?.headers,'x-github-request-id',/^[A-Za-z0-9:_-]{1,128}$/);
+  const remaining=safeHeader(response?.headers,'x-ratelimit-remaining',/^\d{1,8}$/);
+  const resource=safeHeader(response?.headers,'x-ratelimit-resource',/^[a-z_]{1,32}$/);
+  if (requestId) details.push('REQUEST_ID',requestId);
+  if (remaining) details.push('RATE_LIMIT_REMAINING',remaining);
+  if (resource) details.push('RATE_LIMIT_RESOURCE',resource);
+  return '_'+details.join('_');
+}
 export function isSupportedGitHubAppPrivateKey(pem) { try { decodePem(pem); return true; } catch { return false; } }
 export async function createGitHubAppJwt({appId,privateKeyPem,nowSeconds=Math.floor(Date.now()/1000),cryptoImpl=crypto}={}) {
   if (!/^[1-9][0-9]*$/.test(String(appId))) throw failure('GITHUB_APP_ID_INVALID');
@@ -43,9 +65,9 @@ export async function mintInstallationToken({appId,privateKeyPem,installationId,
   const jwt=await createGitHubAppJwt({appId,privateKeyPem,nowSeconds,cryptoImpl});
   const headers={accept:'application/vnd.github+json',authorization:'Bearer '+jwt,'x-github-api-version':'2022-11-28'};
   const appResponse=await fetchImpl('https://api.github.com/app',{method:'GET',headers});
-  if (!appResponse.ok) { const status=[401,403,404,422].includes(appResponse.status)?appResponse.status:'OTHER'; throw failure('GITHUB_APP_JWT_UNCONFIRMED_HTTP_'+status); }
+  if (!appResponse.ok) { const status=[401,403,404,422].includes(appResponse.status)?appResponse.status:'OTHER'; throw failure('GITHUB_APP_JWT_UNCONFIRMED_HTTP_'+status+await safeGitHubErrorDetails(appResponse)); }
   const response=await fetchImpl('https://api.github.com/app/installations/'+installationId+'/access_tokens',{method:'POST',headers});
-  if (!response.ok) { const status=[401,403,404,422].includes(response.status)?response.status:'OTHER'; throw failure('GITHUB_INSTALLATION_TOKEN_UNCONFIRMED_HTTP_'+status); }
+  if (!response.ok) { const status=[401,403,404,422].includes(response.status)?response.status:'OTHER'; throw failure('GITHUB_INSTALLATION_TOKEN_UNCONFIRMED_HTTP_'+status+await safeGitHubErrorDetails(response)); }
   const body=await response.json();
   if (typeof body?.token!=='string' || body.token.length<20 || typeof body.expires_at!=='string') throw failure('GITHUB_INSTALLATION_TOKEN_INVALID');
   return {token:body.token,expiresAt:body.expires_at};
