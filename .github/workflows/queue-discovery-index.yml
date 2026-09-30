@@ -37,7 +37,7 @@ jobs:
       - name: Commit derived index only when changed
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- queue-index.json; then exit 0; fi
+          if git diff --quiet -- queue-index.json && git ls-files --error-unmatch queue-index.json >/dev/null 2>&1; then exit 0; fi
           git config user.name matrix24-queue-index
           git config user.email matrix24-queue-index@users.noreply.github.com
           git add queue-index.json
