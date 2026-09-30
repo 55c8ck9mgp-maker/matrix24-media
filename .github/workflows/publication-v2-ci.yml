@@ -1,0 +1,52 @@
+name: Publication v2 safety CI
+
+on:
+  pull_request:
+    paths:
+      - "publisher-v2/**"
+      - "scripts/reservation-broker-policy.mjs"
+      - "worker/staging/reliability/metricool-adapter.mjs"
+      - "tests/publication-v2-*.test.mjs"
+      - "tests/metricool-schedule-transport.test.mjs"
+      - "tests/reservation-broker-policy.test.mjs"
+      - ".github/workflows/publication-v2-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "publisher-v2/**"
+      - "scripts/reservation-broker-policy.mjs"
+      - "worker/staging/reliability/metricool-adapter.mjs"
+      - "tests/publication-v2-*.test.mjs"
+      - "tests/metricool-schedule-transport.test.mjs"
+      - "tests/reservation-broker-policy.test.mjs"
+      - ".github/workflows/publication-v2-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  safety-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "22"
+      - name: Publication v2 engine
+        run: node --test tests/publication-v2-engine.test.mjs
+      - name: GitHub CAS adapter
+        run: node --test tests/publication-v2-github-adapter.test.mjs
+      - name: Engine and adapter integration
+        run: node --test tests/publication-v2-integration.test.mjs
+      - name: Private runtime identity boundary
+        run: node --test tests/publication-v2-private-runtime.test.mjs
+      - name: Metricool transport contract
+        run: node --test tests/metricool-schedule-transport.test.mjs
+      - name: Reservation broker policy
+        run: node --test tests/reservation-broker-policy.test.mjs
+      - name: Reconciliation archive adapter
+        run: node --test tests/reconciliation-archive-adapter.test.mjs
