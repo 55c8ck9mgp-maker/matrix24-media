@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-spacex-starship-flight14-first-orbit",
-  "status": "blocked_media",
+  "status": "processing_media",
   "headline": "SpaceX's Starship reaches Earth orbit for the first time on 14th test flight",
   "category": "Science",
   "editorial_category": "Science",
@@ -101,5 +101,9 @@
     "draft_sha256": "0693f9213b7a56278187c952c7f1588fdffff98e85bca0d178df6ae377f36811",
     "approved_at": "2026-09-28T21:20:47Z",
     "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-spacex-starship-flight14-first-orbit. Sources re-checked against the retained claims on 2026-09-28. Preserve exactly-once admission and zero-duplicate protection."
+  },
+  "media_claim": {
+    "id": "1e908c90-ac7c-4676-8e4a-6044ebaed6ae",
+    "started_at": "2026-09-30T08:46:14.834Z"
   }
 }
