@@ -71,6 +71,7 @@ jobs:
           node --test \
             tests/production-state-audit.test.mjs \
             tests/queue-transition-ownership.test.mjs \
+            tests/core-v2-ownership-compat.test.mjs \
             tests/promotion-work-selection.test.mjs \
             tests/promotion-controller-trigger.test.mjs \
             tests/matrix24-health.test.mjs \
