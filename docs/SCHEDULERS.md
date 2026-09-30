@@ -67,11 +67,11 @@ Codificada en `scripts/queue-transition-ownership.mjs` (`TRANSITION_OWNERS`).
 | `processing_media -> blocked_media` | Media (reconciliador manual) | Libera `media_claim` sin URL, con entrada `media_reconciliation`/`released_no_media` del mismo claim |
 | `ready_to_publish -> publishing` | Publication | `publish_attempt_id` nuevo, sin claim ni evidencia previa |
 | `publishing -> publishing` | Publication | Mismo `publish_attempt_id` (recibos del proveedor) |
-| `publishing -> published` | Publication | Evidencia positiva ligada a Instagram |
-| `publishing -> publish_unknown` | Publication | Mismo intento |
-| `publishing -> ready_to_publish` | Publication | Entrada de historial del mismo intento y ningún recibo del proveedor |
+| `publishing -> published` | Recovery | Evidencia positiva ligada a Instagram; Publisher no confirma su propio side effect |
+| `publishing -> publish_unknown` | Recovery | Mismo intento; resultado externo ambiguo |
+| `publishing -> ready_to_publish` | Owner / Human Recovery | Sólo con prueba durable `not_invoked`; nunca por edad ni por decisión automática del Publisher |
 | `publish_unknown -> published` | Recovery | Evidencia positiva |
-| `publish_unknown -> ready_to_publish` | Recovery | Igual que la liberación anterior |
+| `publish_unknown -> ready_to_publish` | Owner / Human Recovery | Sólo con prueba durable `not_invoked`; nunca por ausencia de evidencia positiva |
 | `published -> published` | Recovery | Sólo añade permalink/Media ID ausente o quita campos de claim residuales |
 | `* -> discarded`, corrección editorial pre-claim | Owner (manual) | Se reporta como advertencia, nunca silenciosa |
 
