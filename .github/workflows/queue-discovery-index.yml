@@ -1,0 +1,44 @@
+name: Queue discovery index
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/build-queue-index.mjs'
+      - 'tests/queue-index.test.mjs'
+      - '.github/workflows/queue-discovery-index.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'queue/*.json'
+      - 'scripts/build-queue-index.mjs'
+      - 'tests/queue-index.test.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: queue-discovery-index-main
+  cancel-in-progress: true
+
+jobs:
+  derive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - run: node --test tests/queue-index.test.mjs
+      - name: Derive index
+        run: node scripts/build-queue-index.mjs
+      - name: Commit derived index only when changed
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          if git diff --quiet -- queue-index.json; then exit 0; fi
+          git config user.name matrix24-queue-index
+          git config user.email matrix24-queue-index@users.noreply.github.com
+          git add queue-index.json
+          git commit -m "chore: refresh derived queue discovery index"
+          git push
