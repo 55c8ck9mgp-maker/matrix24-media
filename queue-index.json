@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "authoritative": false,
+  "source": "derived_from_queue_blobs",
+  "queue_records": 26,
+  "entries": [
+    {
+      "content_id": "matrix24-20260922-arctic-security-deal",
+      "status": "published",
+      "path": "queue/matrix24-20260922-arctic-security-deal.json",
+      "blob_sha": "1f9e1dd6c9079332b25dd39dbbea2e320f0f3508",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260922-us-iran-talks-un",
+      "status": "published",
+      "path": "queue/matrix24-20260922-us-iran-talks-un.json",
+      "blob_sha": "88a8749d8e83e9a668c041deed2c2a6bb2d06fe4",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260923-ethiopia-tigray-flights",
+      "status": "published",
+      "path": "queue/matrix24-20260923-ethiopia-tigray-flights.json",
+      "blob_sha": "69be6cf31b0ae3a7bddc012ace591c99994084bc",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260923-kyiv-drone-strikes",
+      "status": "published",
+      "path": "queue/matrix24-20260923-kyiv-drone-strikes.json",
+      "blob_sha": "8a70988a6500df3fb96a5b9580013afac2d144d5",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260923-south-africa-house-party-shooting",
+      "status": "published",
+      "path": "queue/matrix24-20260923-south-africa-house-party-shooting.json",
+      "blob_sha": "0f85c05a89827a92e68e35064b3bfea52482ab7e",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260923-un-ai-security-council",
+      "status": "published",
+      "path": "queue/matrix24-20260923-un-ai-security-council.json",
+      "blob_sha": "ba0e5eebb7e33d429d3516c34cb932db5608f470",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260924-anthropic-akamai-cloud-deal",
+      "status": "discarded",
+      "path": "queue/matrix24-20260924-anthropic-akamai-cloud-deal.json",
+      "blob_sha": "a022e20345e6c9ae7150a84f97b23eabe2e8fcd5",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260924-australia-ai-agent-government-breach",
+      "status": "published",
+      "path": "queue/matrix24-20260924-australia-ai-agent-government-breach.json",
+      "blob_sha": "1fd631cbd2f0efdd703b06ec57b9b369f8145025",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260924-el-nino-very-strong-event",
+      "status": "published",
+      "path": "queue/matrix24-20260924-el-nino-very-strong-event.json",
+      "blob_sha": "f8ecd28078a1629080f7ca9a362c737e3fece403",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260924-india-nse-ipo-debut",
+      "status": "published",
+      "path": "queue/matrix24-20260924-india-nse-ipo-debut.json",
+      "blob_sha": "81811070073fbdab45f1385e673ad21052c45476",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260924-new-zealand-state-cyber-threat",
+      "status": "published",
+      "path": "queue/matrix24-20260924-new-zealand-state-cyber-threat.json",
+      "blob_sha": "bedf4eb9e920c014e037d63e40f6ec6454e91e7b",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260924-saudi-houthi-missiles",
+      "status": "published",
+      "path": "queue/matrix24-20260924-saudi-houthi-missiles.json",
+      "blob_sha": "3d53670eecd93fe775a18e75d5d6be0bf42b937e",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260924-shin-ohashi-200m-breaststroke-world-record",
+      "status": "published",
+      "path": "queue/matrix24-20260924-shin-ohashi-200m-breaststroke-world-record.json",
+      "blob_sha": "e137b35a52be09736413662b9febf6af751d8732",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260924-us-judge-white-house-media-access",
+      "status": "published",
+      "path": "queue/matrix24-20260924-us-judge-white-house-media-access.json",
+      "blob_sha": "7ddb4f59ef77dbc94866e3bd029394a2bb47846d",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260926-bangkok-heavy-rain-flooding",
+      "status": "published",
+      "path": "queue/matrix24-20260926-bangkok-heavy-rain-flooding.json",
+      "blob_sha": "2a34b13ec57d26c45475c55233bb2a273bc7d1cf",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260926-england-new-zealand-wxv-rugby",
+      "status": "published",
+      "path": "queue/matrix24-20260926-england-new-zealand-wxv-rugby.json",
+      "blob_sha": "e06103c264e6acde4b84ef0a5deef67c83eb8b1e",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260926-openai-pauses-frontier-model-training",
+      "status": "published",
+      "path": "queue/matrix24-20260926-openai-pauses-frontier-model-training.json",
+      "blob_sha": "7c1d0ee6ea272cd3fefb108309088c9053f66193",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260926-virat-kohli-2027-world-cup-final",
+      "status": "published",
+      "path": "queue/matrix24-20260926-virat-kohli-2027-world-cup-final.json",
+      "blob_sha": "d4df0b9bf9de35ac2e4302161d8573ea01a7bbc3",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260927-raf-fairford-explosives-arrests",
+      "status": "published",
+      "path": "queue/matrix24-20260927-raf-fairford-explosives-arrests.json",
+      "blob_sha": "3aaf4d5bee536110e7776bb49832b21e6752c712",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260927-uttar-pradesh-floods-landslides",
+      "status": "published",
+      "path": "queue/matrix24-20260927-uttar-pradesh-floods-landslides.json",
+      "blob_sha": "2f952ec0decd17a5bd62fae0e35c3515c2892d38",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260928-asian-games-mens-javelin-final",
+      "status": "published",
+      "path": "queue/matrix24-20260928-asian-games-mens-javelin-final.json",
+      "blob_sha": "11b031fa8749e2c312ef64d92b5a7cb97d66f5bb",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260928-citrix-netscaler-zero-day-exploited",
+      "status": "published",
+      "path": "queue/matrix24-20260928-citrix-netscaler-zero-day-exploited.json",
+      "blob_sha": "a3a7e581afe44194422ab23187c9ff3b90789293",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260928-colombia-imf-fiscal-crisis-talks",
+      "status": "published",
+      "path": "queue/matrix24-20260928-colombia-imf-fiscal-crisis-talks.json",
+      "blob_sha": "a9752e4b9c686f5046b5be5b9b5f0ac2bd4d3510",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260928-hurricane-polo-baja-california-landfall",
+      "status": "published",
+      "path": "queue/matrix24-20260928-hurricane-polo-baja-california-landfall.json",
+      "blob_sha": "a130d7050779326e07ea6a6d951ce4ea91e2c688",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260928-kyiv-academy-sciences-strike",
+      "status": "published",
+      "path": "queue/matrix24-20260928-kyiv-academy-sciences-strike.json",
+      "blob_sha": "9255ce73a47228f0233ad2c4420d98a3fc594570",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260928-meta-enterprise-platform-launch-corrected",
+      "status": "published",
+      "path": "queue/matrix24-20260928-meta-enterprise-platform-launch-corrected.json",
+      "blob_sha": "076d3f9f3217c4f5b541c39862c081a9bc891e19",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    }
+  ]
+}
