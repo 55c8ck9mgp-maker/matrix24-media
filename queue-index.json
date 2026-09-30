@@ -2,7 +2,7 @@
   "schema_version": 1,
   "authoritative": false,
   "source": "derived_from_queue_blobs",
-  "queue_records": 26,
+  "queue_records": 27,
   "entries": [
     {
       "content_id": "matrix24-20260922-arctic-security-deal",
@@ -234,6 +234,15 @@
       "status": "published",
       "path": "queue/matrix24-20260928-meta-enterprise-platform-launch-corrected.json",
       "blob_sha": "076d3f9f3217c4f5b541c39862c081a9bc891e19",
+      "actionable": false,
+      "publish_attempt_id": null,
+      "publishing_started_at": null
+    },
+    {
+      "content_id": "matrix24-20260928-spacex-starship-flight14-first-orbit",
+      "status": "blocked_media",
+      "path": "queue/matrix24-20260928-spacex-starship-flight14-first-orbit.json",
+      "blob_sha": "09ab4fb8da7d637ff08f763dcda4ed571f296955",
       "actionable": false,
       "publish_attempt_id": null,
       "publishing_started_at": null
