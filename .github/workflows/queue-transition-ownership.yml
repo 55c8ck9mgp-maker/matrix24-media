@@ -16,6 +16,10 @@ on:
       - main
     paths:
       - 'queue/*.json'
+      - 'scripts/queue-transition-ownership.mjs'
+      - 'scripts/audit-queue-transitions.mjs'
+      - 'tests/queue-transition-ownership.test.mjs'
+      - '.github/workflows/queue-transition-ownership.yml'
   repository_dispatch:
     types: [promotion_validation]
   workflow_dispatch:
