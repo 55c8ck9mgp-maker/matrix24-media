@@ -1,0 +1,81 @@
+{
+  "content_id": "matrix24-20260930-china-factory-pmi-expansion",
+  "researched_at": "2026-09-30T23:03:18Z",
+  "event_date": "2026-09-30",
+  "headline": "China's official manufacturing PMI returns to expansion at 50.1 in September",
+  "category": "World",
+  "editorial_category": "World",
+  "verified_source_urls": [
+    "https://www.reuters.com/world/china/chinese-factory-activity-returns-growth-september-amid-ai-boom-2026-09-30/",
+    "https://apnews.com/article/b53c7e697fc842de4c9a57ac5362cd05"
+  ],
+  "source_records": [
+    {
+      "source_name": "Reuters",
+      "publication_date": "2026-09-30",
+      "url": "https://www.reuters.com/world/china/chinese-factory-activity-returns-growth-september-amid-ai-boom-2026-09-30/",
+      "supports": [
+        "China's official manufacturing PMI rose to 50.1 in September from 49.8 in August.",
+        "The September reading ended two consecutive months of contraction."
+      ],
+      "independent_source_id": "reuters",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Associated Press",
+      "publication_date": "2026-09-30",
+      "url": "https://apnews.com/article/b53c7e697fc842de4c9a57ac5362cd05",
+      "supports": [
+        "China's official manufacturing PMI rose to 50.1 in September from 49.8 in August.",
+        "The September reading marked the first expansion in three months."
+      ],
+      "independent_source_id": "associated_press",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "China's official manufacturing PMI rose to 50.1 in September from 49.8 in August.",
+      "material": true,
+      "normalized_value": "country=China|indicator=official_manufacturing_PMI|2026-09=50.1|2026-08=49.8",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/china/chinese-factory-activity-returns-growth-september-amid-ai-boom-2026-09-30/",
+          "normalized_value": "country=China|indicator=official_manufacturing_PMI|2026-09=50.1|2026-08=49.8"
+        },
+        {
+          "url": "https://apnews.com/article/b53c7e697fc842de4c9a57ac5362cd05",
+          "normalized_value": "country=China|indicator=official_manufacturing_PMI|2026-09=50.1|2026-08=49.8"
+        }
+      ]
+    },
+    {
+      "claim": "The September reading returned China's official manufacturing PMI to expansion after two consecutive months of contraction.",
+      "material": true,
+      "normalized_value": "country=China|indicator=official_manufacturing_PMI|status=expansion|prior_contraction_months=2",
+      "observations": [
+        {
+          "url": "https://www.reuters.com/world/china/chinese-factory-activity-returns-growth-september-amid-ai-boom-2026-09-30/",
+          "normalized_value": "country=China|indicator=official_manufacturing_PMI|status=expansion|prior_contraction_months=2"
+        },
+        {
+          "url": "https://apnews.com/article/b53c7e697fc842de4c9a57ac5362cd05",
+          "normalized_value": "country=China|indicator=official_manufacturing_PMI|status=expansion|prior_contraction_months=2"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 China's official manufacturing PMI rose to 50.1 in September from 49.8 in August, returning above the 50-point line that separates expansion from contraction after two consecutive months below it. Reuters and the Associated Press independently reported the same official figures.\n\n🇪🇸 El PMI manufacturero oficial de China subió a 50.1 en septiembre desde 49.8 en agosto, regresando por encima del nivel de 50 que separa expansión de contracción después de dos meses consecutivos por debajo de ese nivel. Reuters y Associated Press reportaron de forma independiente las mismas cifras oficiales.\n\nSources: Reuters / Associated Press — Sept. 30, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#China",
+    "#Manufacturing",
+    "#PMI",
+    "#Economy"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a modern Chinese industrial manufacturing district with factory silhouettes, container logistics and a clean abstract economic gauge crossing above a neutral threshold, no readable text, no logos, no identifiable people, restrained international-news composition, vertical 4:5. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Reuters and the Associated Press independently report the same retained material facts from September 30, 2026: China's official manufacturing PMI rose to 50.1 in September from 49.8 in August, returning to expansion after two consecutive months of contraction. Repository reconciliation before intake found no matching content_id or material China-PMI overlap in editorial/verified, editorial/promotions, or queue; no editorial-intake branches were present and the only open PR was unrelated queue work.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
