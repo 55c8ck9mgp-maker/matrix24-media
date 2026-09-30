@@ -12,6 +12,7 @@ on:
       - 'queue/*.json'
       - 'scripts/build-queue-index.mjs'
       - 'tests/queue-index.test.mjs'
+      - '.github/workflows/queue-discovery-index.yml'
   workflow_dispatch:
 
 permissions:
