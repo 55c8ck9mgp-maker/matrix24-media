@@ -1,4 +1,4 @@
-import {mintInstallationToken} from './github-app-auth.mjs';
+import {mintInstallationToken,isSupportedGitHubAppPrivateKey} from './github-app-auth.mjs';
 
 function blocked(code) { const error=new Error(code); error.code=code; throw error; }
 export function assertPrivateStagingConfig(env={}) {
@@ -6,7 +6,7 @@ export function assertPrivateStagingConfig(env={}) {
   if (env.PUBLISHER_V2_ENABLED!=='false') blocked('PUBLISHER_MUST_START_DISABLED');
   if (!/^55c8ck9mgp-maker\/matrix24-publication-v2-staging$/.test(env.STAGING_REPOSITORY||'')) blocked('STAGING_REPOSITORY_REQUIRED');
   if (!/^[1-9][0-9]*$/.test(String(env.GITHUB_APP_ID)) || !/^[1-9][0-9]*$/.test(String(env.GITHUB_INSTALLATION_ID))) blocked('GITHUB_APP_BINDING_REQUIRED');
-  if (typeof env.GITHUB_APP_PRIVATE_KEY!=='string' || !env.GITHUB_APP_PRIVATE_KEY.includes('BEGIN PRIVATE KEY')) blocked('GITHUB_APP_SECRET_REQUIRED');
+  if (!isSupportedGitHubAppPrivateKey(env.GITHUB_APP_PRIVATE_KEY)) blocked('GITHUB_APP_SECRET_REQUIRED');
   return true;
 }
 export async function preflightIdentity(env,dependencies={}) {
