@@ -5,6 +5,13 @@ on:
       - 'scripts/publisher_lifecycle_audit.py'
       - 'tests/test_publisher_lifecycle_audit.py'
       - '.github/workflows/publisher-lifecycle-audit.yml'
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'scripts/publisher_lifecycle_audit.py'
+      - 'tests/test_publisher_lifecycle_audit.py'
+      - '.github/workflows/publisher-lifecycle-audit.yml'
 permissions:
   contents: read
 jobs:
