@@ -22,7 +22,9 @@ test('each normal transition is owned by exactly one plane', () => {
   assert.equal(reserve.ok, true);
   assert.equal(reserve.plane, PLANES.PUBLICATION);
   const done = { ...publishing, status: 'published', instagram_media_id: '17901642846667497', published_at: '2026-09-28T11:02:00Z' };
-  assert.deepEqual(classifyQueueWrite(publishing, done).violations, []);
+  const confirmed = classifyQueueWrite(publishing, done);
+  assert.deepEqual(confirmed.violations, []);
+  assert.equal(confirmed.plane, PLANES.RECOVERY);
 });
 
 test('a second media run replacing a live media claim is a scheduler race', () => {
@@ -60,10 +62,19 @@ test('media plane may not touch publication claim fields', () => {
   assert.ok(r.violations.includes('mixed_plane_write:media:publish_attempt_id'));
 });
 
+test('confirmation belongs to recovery, never publication', () => {
+  const unknown = { ...publishing, status: 'publish_unknown' };
+  assert.equal(classifyQueueWrite(publishing, unknown).plane, PLANES.RECOVERY);
+  const done = { ...publishing, status: 'published', instagram_media_id: '17901642846667497', published_at: '2026-09-28T11:02:00Z' };
+  assert.equal(classifyQueueWrite(publishing, done).plane, PLANES.RECOVERY);
+});
+
 test('releasing a claim needs durable not-invoked evidence for that attempt', () => {
   const released = { ...ready, publish_attempt_history: [...publishing.publish_attempt_history,
     { timestamp: '2026-09-28T11:01:00Z', stage: 'publication', result: 'not_invoked', publish_attempt_id: 'att-1' }] };
-  assert.equal(classifyQueueWrite(publishing, released).ok, true);
+  const release = classifyQueueWrite(publishing, released);
+  assert.equal(release.ok, true);
+  assert.equal(release.plane, PLANES.OWNER_MANUAL);
   const silent = { ...ready, publish_attempt_history: publishing.publish_attempt_history };
   assert.ok(classifyQueueWrite(publishing, silent).violations.includes('claim_released_without_not_invoked_proof'));
   const sent = { ...publishing, metricool_scheduled_post_id: 1 };
