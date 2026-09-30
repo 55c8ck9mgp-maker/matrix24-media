@@ -146,3 +146,48 @@ test('duplicate delivery of the same attempt authorizes exactly one provider sen
   assert.equal(github.currentState().publish_attempt_id, attempt);
   assert.equal(github.currentState().status, 'publishing');
 });
+
+
+test('post-send failure matrix never authorizes a second provider call on redelivery', async () => {
+  const scenarios = [
+    {name:'provider_timeout', send:async()=>{ throw new Error('timeout'); }},
+    {name:'ambiguous_response', send:async()=>({kind:'ambiguous'})},
+    {name:'positive_result', send:async()=>({kind:'published',instagram_media_id:'18000000000000001'})}
+  ];
+
+  for (const scenario of scenarios) {
+    const initial = record();
+    const github = fakeGithub(initial);
+    const adapter = createGitHubQueueAdapter({
+      repo:'55c8ck9mgp-maker/matrix24-media',
+      getAccessToken:async()=> 'x'.repeat(20),
+      fetchImpl:github.fetchImpl
+    });
+    let sends = 0;
+    const statefulAdapter = {
+      ...adapter,
+      async send(input) { sends += 1; return scenario.send(input); },
+      async reconcile() { return {kind:'unconfirmed'}; }
+    };
+
+    const first = {...initial,sha:sha('a')};
+    const firstResult = await runPublicationCycle({
+      request:requestFor(first),identity:identity(),current:first,adapter:statefulAdapter
+    });
+    assert.equal(firstResult.action,'reconcile_only',scenario.name);
+    assert.equal(sends,1,scenario.name);
+
+    const remote = github.currentState();
+    const secondResult = await runPublicationCycle({
+      request:{
+        content_id:remote.content_id,queue_path:remote.queue_path,expected_sha:remote.sha,
+        attempt_id:attempt,requested_at:'2026-09-27T23:02:00Z'
+      },
+      identity:identity(),current:{...remote},adapter:statefulAdapter
+    });
+    assert.equal(secondResult.action,'reconcile_only',scenario.name);
+    assert.equal(sends,1,scenario.name);
+    assert.equal(github.currentState().publish_attempt_id,attempt,scenario.name);
+    assert.equal(github.currentState().status,'publishing',scenario.name);
+  }
+});
