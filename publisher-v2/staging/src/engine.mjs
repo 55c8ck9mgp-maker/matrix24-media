@@ -11,9 +11,9 @@ function ownedReservation(record, attemptId) {
   return record?.status === 'publishing' && record.publish_attempt_id === attemptId && record.provider === 'metricool';
 }
 
-async function quarantine(adapter, record, attemptId, reason) {
+async function quarantine(adapter, record, attemptId, reason, providerResult = null) {
   try {
-    await adapter.markUnknown({record, attemptId, reason});
+    await adapter.markUnknown({record, attemptId, reason, providerResult});
   } catch {
     // The durable reservation survives. Recovery must reconcile it, never resend.
   }
@@ -45,26 +45,39 @@ export async function runPublicationCycle({request, identity, current, adapter})
     return safeResult('reservation_unconfirmed');
   }
 
+  // Persist a durable pre-send receipt before crossing the provider boundary.
+  // If this write is not confirmed, Metricool MUST NOT be invoked.
+  let owned = reserved.record;
+  try {
+    const preSend = await adapter.persistPreSend?.({record:owned, attemptId:request.attempt_id});
+    if (preSend?.kind !== 'pre_send_persisted' || !ownedReservation(preSend.record, request.attempt_id)) {
+      return safeResult('reconcile_only',{reason:'pre_send_receipt_unconfirmed'});
+    }
+    owned = preSend.record;
+  } catch {
+    return safeResult('reconcile_only',{reason:'pre_send_receipt_unconfirmed'});
+  }
+
   // The only social boundary. Nothing after this point authorizes a second call.
   let send;
   try {
-    send = await adapter.send?.({record:reserved.record, attemptId:request.attempt_id});
+    send = await adapter.send?.({record:owned, attemptId:request.attempt_id});
   } catch {
-    return quarantine(adapter, reserved.record, request.attempt_id, 'send_exception');
+    return quarantine(adapter, owned, request.attempt_id, 'send_exception');
   }
   if (send?.kind === 'not_invoked' && send.proof === 'transport_not_called') {
     try {
-      const released = await adapter.returnReady?.({record:reserved.record, attemptId:request.attempt_id, reason:'action_not_invoked'});
+      const released = await adapter.returnReady?.({record:owned, attemptId:request.attempt_id, reason:'action_not_invoked'});
       return released?.kind === 'returned_ready' ? safeResult('returned_ready') : safeResult('reconcile_only',{reason:'release_unconfirmed'});
     } catch {
       return safeResult('reconcile_only',{reason:'release_unconfirmed'});
     }
   }
   if (send?.kind !== 'published' || !mediaId(send.instagram_media_id)) {
-    return quarantine(adapter, reserved.record, request.attempt_id, 'send_ambiguous');
+    return quarantine(adapter, owned, request.attempt_id, 'send_ambiguous', send);
   }
   try {
-    const archived = await adapter.archive?.({record:reserved.record, attemptId:request.attempt_id,
+    const archived = await adapter.archive?.({record:owned, attemptId:request.attempt_id,
       instagram_media_id:send.instagram_media_id, instagram_permalink:send.instagram_permalink || null});
     if (archived?.kind === 'archived') return safeResult('published',{instagram_media_id:send.instagram_media_id});
   } catch {

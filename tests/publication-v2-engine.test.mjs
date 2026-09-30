@@ -11,6 +11,7 @@ const adapter=(overrides={})=>{
  const calls=[];
  return {calls,
   reserve:async plan=>(calls.push('reserve'),overrides.reserve?.(plan) || {kind:'reserved',record:plan.replacement}),
+  persistPreSend:async input=>(calls.push('persistPreSend'),overrides.persistPreSend?.(input) || {kind:'pre_send_persisted',record:input.record}),
   send:async input=>(calls.push('send'),overrides.send?.(input) || {kind:'published',instagram_media_id:'18000000000000001'}),
   archive:async input=>(calls.push('archive'),overrides.archive?.(input) || {kind:'archived'}),
   markUnknown:async input=>(calls.push('markUnknown'),overrides.markUnknown?.(input) || {kind:'marked_unknown'}),
@@ -22,7 +23,7 @@ const run=async (changes={}, overrides={})=>{const a=adapter(overrides); return 
 
 test('confirmed reservation permits exactly one send then durable archive',async()=>{
  const {a,result}=await run();
- assert.deepEqual(a.calls,['reserve','send','archive']);
+ assert.deepEqual(a.calls,['reserve','persistPreSend','send','archive']);
  assert.deepEqual(result,{action:'published',external_send_authorized:false,instagram_media_id:'18000000000000001'});
 });
 test('invalid identity, stale SHA, conflict and malformed reservation never send',async()=>{
@@ -34,23 +35,27 @@ test('invalid identity, stale SHA, conflict and malformed reservation never send
  ];
  for(const [changes,overrides] of cases){const {a,result}=await run(changes,overrides);assert.equal(a.calls.includes('send'),false);assert.notEqual(result.action,'published');}
 });
+test('unconfirmed pre-send receipt blocks provider call',async()=>{
+ const {a,result}=await run({},{persistPreSend:()=>({kind:'conflict'})});
+ assert.deepEqual(a.calls,['reserve','persistPreSend']);assert.equal(result.reason,'pre_send_receipt_unconfirmed');assert.equal(a.calls.includes('send'),false);
+});
 test('ambiguous response is quarantined and has no retry path',async()=>{
  const {a,result}=await run({},{send:()=>({kind:'ambiguous'})});
- assert.deepEqual(a.calls,['reserve','send','markUnknown']); assert.equal(result.action,'reconcile_only');
+ assert.deepEqual(a.calls,['reserve','persistPreSend','send','markUnknown']); assert.equal(result.action,'reconcile_only');
 });
 test('send exception is quarantined with no second send',async()=>{
  const {a,result}=await run({},{send:()=>{throw new Error('network')}});
- assert.deepEqual(a.calls,['reserve','send','markUnknown']); assert.equal(result.reason,'send_exception');
+ assert.deepEqual(a.calls,['reserve','persistPreSend','send','markUnknown']); assert.equal(result.reason,'send_exception');
 });
 test('archive failure after positive media ID reconciles rather than resend',async()=>{
  const {a,result}=await run({},{archive:()=>{throw new Error('github unavailable')}});
- assert.deepEqual(a.calls,['reserve','send','archive']); assert.equal(result.reason,'archive_unconfirmed_after_positive_send');
+ assert.deepEqual(a.calls,['reserve','persistPreSend','send','archive']); assert.equal(result.reason,'archive_unconfirmed_after_positive_send');
 });
 test('proved pre-write no-op may return ready; unproved outcome quarantines',async()=>{
  const noOp=await run({},{send:()=>({kind:'not_invoked',proof:'transport_not_called'})});
- assert.deepEqual(noOp.a.calls,['reserve','send','returnReady']);assert.equal(noOp.result.action,'returned_ready');
+ assert.deepEqual(noOp.a.calls,['reserve','persistPreSend','send','returnReady']);assert.equal(noOp.result.action,'returned_ready');
  const unsafe=await run({},{send:()=>({kind:'not_invoked'})});
- assert.deepEqual(unsafe.a.calls,['reserve','send','markUnknown']);assert.equal(unsafe.result.action,'reconcile_only');
+ assert.deepEqual(unsafe.a.calls,['reserve','persistPreSend','send','markUnknown']);assert.equal(unsafe.result.action,'reconcile_only');
 });
 test('unresolved state is reconciliation-only and never reserves or sends',async()=>{
  const a=adapter();const result=await runPublicationCycle({request:request(),identity:identity(),current:{...current(),status:'publish_unknown'},adapter:a});
