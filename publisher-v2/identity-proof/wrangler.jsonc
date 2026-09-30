@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "matrix24-publisher-v2-identity-proof",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-09-30",
+  "services": [
+    {
+      "binding": "IDENTITY_GATE",
+      "service": "matrix24-publisher-v2-identity-caller",
+      "entrypoint": "IdentityGate",
+      "remote": true
+    }
+  ]
+}
