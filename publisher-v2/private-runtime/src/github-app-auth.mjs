@@ -42,7 +42,7 @@ export async function mintInstallationToken({appId,privateKeyPem,installationId,
   if (!/^[1-9][0-9]*$/.test(String(installationId)) || typeof fetchImpl!=='function') throw failure('GITHUB_INSTALLATION_INVALID');
   const jwt=await createGitHubAppJwt({appId,privateKeyPem,nowSeconds,cryptoImpl});
   const response=await fetchImpl('https://api.github.com/app/installations/'+installationId+'/access_tokens',{method:'POST',headers:{accept:'application/vnd.github+json',authorization:'Bearer '+jwt,'x-github-api-version':'2022-11-28'}});
-  if (!response.ok) throw failure('GITHUB_INSTALLATION_TOKEN_UNCONFIRMED');
+  if (!response.ok) { const status=[401,403,404,422].includes(response.status)?response.status:'OTHER'; throw failure('GITHUB_INSTALLATION_TOKEN_UNCONFIRMED_HTTP_'+status); }
   const body=await response.json();
   if (typeof body?.token!=='string' || body.token.length<20 || typeof body.expires_at!=='string') throw failure('GITHUB_INSTALLATION_TOKEN_INVALID');
   return {token:body.token,expiresAt:body.expires_at};
