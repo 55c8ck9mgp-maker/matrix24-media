@@ -22,19 +22,24 @@ jobs:
           node-version: "22"
       - name: Verify private runtime remains fail-closed
         run: node --test tests/publication-v2-private-runtime.test.mjs
-      - name: Verify required Worker secret bindings by name only
+      - name: Verify Worker GitHub App bindings without exposing values
         shell: bash
         run: |
           set -euo pipefail
-          output="$(npx --yes wrangler@4.139.0 secret list --config publisher-v2/private-runtime/wrangler.jsonc)"
+          secrets="$(npx --yes wrangler@4.139.0 secret list --config publisher-v2/private-runtime/wrangler.jsonc)"
+          config="$(cat publisher-v2/private-runtime/wrangler.jsonc)"
           node -e '
-            const output=process.argv[1];
-            const required=["GITHUB_APP_ID","GITHUB_INSTALLATION_ID","GITHUB_APP_PRIVATE_KEY"];
-            const present=new Set(required.filter(name=>output.includes(name)));
-            const missing=required.filter(name=>!present.has(name));
-            console.log("Required GitHub App bindings:",required.map(name=>present.has(name)?name+":present":name+":missing").join(", "));
+            const secrets=process.argv[1];
+            const config=process.argv[2];
+            const checks=[
+              ["GITHUB_APP_ID",config.includes("\\\"GITHUB_APP_ID\\\"")],
+              ["GITHUB_INSTALLATION_ID",config.includes("\\\"GITHUB_INSTALLATION_ID\\\"")],
+              ["GITHUB_APP_PRIVATE_KEY",secrets.includes("GITHUB_APP_PRIVATE_KEY")]
+            ];
+            console.log("Required GitHub App bindings:",checks.map(([name,ok])=>name+":"+(ok?"present":"missing")).join(", "));
+            const missing=checks.filter(([,ok])=>!ok).map(([name])=>name);
             if(missing.length){ console.error("Missing required bindings:",missing.join(", ")); process.exit(1); }
-          ' "$output"
+          ' "$secrets" "$config"
       - name: Confirm activation remains disabled
         run: |
           node -e '
