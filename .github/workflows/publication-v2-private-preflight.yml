@@ -26,15 +26,15 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          json="$(npx --yes wrangler@4.139.0 secret list --config publisher-v2/private-runtime/wrangler.jsonc --json)"
+          output="$(npx --yes wrangler@4.139.0 secret list --config publisher-v2/private-runtime/wrangler.jsonc)"
           node -e '
-            const bindings=JSON.parse(process.argv[1]);
-            const names=new Set(bindings.map(x=>x.name));
+            const output=process.argv[1];
             const required=["GITHUB_APP_ID","GITHUB_INSTALLATION_ID","GITHUB_APP_PRIVATE_KEY"];
-            const missing=required.filter(x=>!names.has(x));
-            console.log("Required GitHub App bindings:", required.map(x=>names.has(x)?x+":present":x+":missing").join(", "));
+            const present=new Set(required.filter(name=>output.includes(name)));
+            const missing=required.filter(name=>!present.has(name));
+            console.log("Required GitHub App bindings:",required.map(name=>present.has(name)?name+":present":name+":missing").join(", "));
             if(missing.length){ console.error("Missing required bindings:",missing.join(", ")); process.exit(1); }
-          ' "$json"
+          ' "$output"
       - name: Confirm activation remains disabled
         run: |
           node -e '
