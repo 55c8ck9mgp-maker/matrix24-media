@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-09-28T21:20:47Z",
   "content_id": "matrix24-20260928-spacex-starship-flight14-first-orbit",
-  "status": "processing_media",
+  "status": "ready_to_publish",
   "headline": "SpaceX's Starship reaches Earth orbit for the first time on 14th test flight",
   "category": "Science",
   "editorial_category": "Science",
@@ -102,8 +102,25 @@
     "approved_at": "2026-09-28T21:20:47Z",
     "approval_note": "Editorial promotion approved for exactly one deterministic Promotion Controller admission for content_id matrix24-20260928-spacex-starship-flight14-first-orbit. Sources re-checked against the retained claims on 2026-09-28. Preserve exactly-once admission and zero-duplicate protection."
   },
-  "media_claim": {
-    "id": "1e908c90-ac7c-4676-8e4a-6044ebaed6ae",
-    "started_at": "2026-09-30T08:46:14.834Z"
-  }
+  "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3cf0ba37ffc8ae68ffd4f47a32feee45e5b58af6dda72fccbf3cd52a7d899583-v1.jpg",
+  "image_filename": "matrix24-3cf0ba37ffc8ae68ffd4f47a32feee45e5b58af6dda72fccbf3cd52a7d899583-v1.jpg",
+  "media_ready_at": "2026-09-30T08:46:26.294Z",
+  "image_spec": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1350,
+    "size_bytes": 171869,
+    "alpha": false
+  },
+  "publish_attempt_history": [
+    {
+      "timestamp": "2026-09-30T08:46:26.294Z",
+      "stage": "media_pipeline",
+      "result": "success",
+      "request_id": "1e908c90-ac7c-4676-8e4a-6044ebaed6ae",
+      "image_filename": "matrix24-3cf0ba37ffc8ae68ffd4f47a32feee45e5b58af6dda72fccbf3cd52a7d899583-v1.jpg",
+      "public_image_url": "https://hrbzhfffhdepqepjrfcq.supabase.co/storage/v1/object/public/matrix24/matrix24-3cf0ba37ffc8ae68ffd4f47a32feee45e5b58af6dda72fccbf3cd52a7d899583-v1.jpg"
+    }
+  ]
 }
