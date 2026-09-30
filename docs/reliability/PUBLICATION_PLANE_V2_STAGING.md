@@ -20,8 +20,9 @@ ready_to_publish + current SHA
   -> GitHub conditional reservation (future adapter)
   -> publishing + attempt_id
   -> one Metricool call maximum (future adapter)
-  -> published + instagram_media_id
-     or publish_unknown / reconciliation only
+  -> persist provider receipt/evidence while status remains publishing
+  -> reconciliation decides published / publish_unknown
+     or Human Recovery performs an explicitly authorized release
 ```
 
 The engine receives adapters rather than importing GitHub or Metricool. It
@@ -29,8 +30,7 @@ cannot send unless the adapter returns a record that is already durably owned
 by the requested attempt ID. It never calls `send` on rejected, stale or
 conflicted reservations. It handles a timeout/exception as ambiguous. A
 positive provider result followed by archive failure also becomes reconciliation
-only; no second provider call is authorized. The sole return to ready requires
-explicit proof `transport_not_called`.
+only; no second provider call is authorized. Publisher v2 never returns a claimed record to ready; any release belongs to Human Recovery.
 
 ## Required production adapter, not in this PR
 
@@ -54,21 +54,13 @@ explicit proof `transport_not_called`.
    `docs/reliability/POSTIZ_TRANSPORT_STAGING.md` for its own gate list;
    requires the owner to self-host Postiz and connect Instagram there
    before any live verification is possible).
-5. Reconciliation adapter that can archive a matching Instagram media ID but
-   cannot initiate a replacement publication. — Built:
-   `publisher-v2/staging/src/reconciliation-archive-adapter.mjs` composes the
-   already-deployed read-side lookup (`worker/staging/reliability/
-   direct-media-client.mjs` + `policy.mjs`) with the already-fixed
-   `github-queue-adapter.archive()`. It takes a candidate media ID as an
-   explicit input (same shape as the existing manual
-   `instagram-reconciliation.yml` workflow) rather than auto-discovering
-   candidates, and refuses to archive any record that is not owned by the
-   supplied attempt ID or not in an unresolved (`publishing`/
-   `publish_unknown`) state — so it cannot be used to force through a record
-   that was never reserved in the first place (see
-   `tests/reconciliation-archive-adapter.test.mjs`). Not wired into any
-   workflow yet: doing so still needs the same GitHub App identity gate as
-   the reservation broker, plus a read-capable Instagram token.
+5. Reconciliation remains a separate owner. Publisher v2 does not expose or
+   invoke archive, markUnknown, or returnReady operations. After one provider
+   attempt it may persist the provider receipt/evidence only while the queue
+   remains `publishing`; Reconciliation owns terminal confirmation and Human
+   Recovery owns an explicitly authorized release. Any reconciliation runtime
+   must use its own reviewed adapter and identity boundary and cannot initiate
+   a replacement publication.
 6. Sanitized lifecycle/audit entries correlated by attempt ID. No raw provider
    payloads, headers or secrets in GitHub or public logs.
 
