@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "matrix24-publisher-v2-private-scheduler",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-09-30",
+  "workers_dev": false,
+  "preview_urls": false,
+  "vars": {
+    "PUBLISHER_V2_ENABLED": "false",
+    "STAGING_REPOSITORY": "55c8ck9mgp-maker/matrix24-publication-v2-staging"
+  },
+  "services": [
+    {
+      "binding": "IDENTITY_GATE",
+      "service": "matrix24-publisher-v2-identity-caller",
+      "entrypoint": "IdentityGate"
+    }
+  ]
+}
