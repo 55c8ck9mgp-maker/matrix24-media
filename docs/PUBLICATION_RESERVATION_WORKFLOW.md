@@ -1,4 +1,4 @@
-# Publication Reservation Workflow (INC-018 fix)
+# SUPERSEDED — HISTORICAL ONLY\n\n> This design is not active. Core v2 owns publication claims; `.github/workflows/publication-reservation.yml` is a disabled read-only tombstone. Do not restore the schedules, writers, or Auto Publisher split described below. Current ownership is defined by `core-v2/actor-authority.mjs` and `scripts/queue-transition-ownership.mjs`.\n\n# Publication Reservation Workflow (INC-018 fix)
 
 ## Problem Statement
 

@@ -1,4 +1,4 @@
-# Claude Publisher (approval-gated publication)
+# LEGACY — HISTORICAL ONLY\n\n> This approval-gated publisher design is not active. `.github/workflows/claude-publisher.yml` is now a manual read-only diagnostic plan with no publish job or write permission. Core v2 is authoritative; do not use the activation/setup/rollback instructions below to restore this publisher.\n\n# Claude Publisher (approval-gated publication)
 
 Replaces the ChatGPT Auto Publisher (disabled since INC-018) and the scheduled
 Publication Reservation workflow. Nothing is published on a schedule: every post

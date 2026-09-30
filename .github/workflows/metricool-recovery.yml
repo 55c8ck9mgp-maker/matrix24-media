@@ -7,18 +7,7 @@ name: Metricool recovery (DEPRECATED, manual only)
 # `instagram-reconciliation.yml` (read-only toward Instagram). Kept for one
 # release as a manual, read-only detection report; delete after that.
 
-# Automatic recovery for Polo publications stalled in Metricool.
-#
-# This workflow detects queue records that have been stuck in 'publishing'
-# status without receiving an instagram_media_id for >30 minutes. When found,
-# it invokes Metricool API as a secondary path (Plan B) to create the Instagram
-# post and recover the publication without blocking the queue.
-#
-# Plan A (primary): Auto Publisher → Metricool API → instagram_media_id
-# Plan B (recovery): stalled detection → this workflow → Metricool API
-#
-# Runs every 5 minutes + manual dispatch for operator control.
-
+# Historical note: the former scheduled Plan B writer was removed. This workflow\n# is manual detection only and its invoked module is permanently fail-closed:\n# no Metricool POST, no queue write, and no publication retry.\n
 on:
   workflow_dispatch:
     inputs:
