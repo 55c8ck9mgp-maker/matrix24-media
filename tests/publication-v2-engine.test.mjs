@@ -13,18 +13,16 @@ const adapter=(overrides={})=>{
   reserve:async plan=>(calls.push('reserve'),overrides.reserve?.(plan) || {kind:'reserved',record:plan.replacement}),
   persistPreSend:async input=>(calls.push('persistPreSend'),overrides.persistPreSend?.(input) || {kind:'pre_send_persisted',record:input.record}),
   send:async input=>(calls.push('send'),overrides.send?.(input) || {kind:'published',instagram_media_id:'18000000000000001'}),
-  archive:async input=>(calls.push('archive'),overrides.archive?.(input) || {kind:'archived'}),
-  markUnknown:async input=>(calls.push('markUnknown'),overrides.markUnknown?.(input) || {kind:'marked_unknown'}),
-  returnReady:async input=>(calls.push('returnReady'),overrides.returnReady?.(input) || {kind:'returned_ready'}),
+  persistAttemptResult:async input=>(calls.push('persistAttemptResult'),overrides.persistAttemptResult?.(input) || {kind:'attempt_result_persisted',record:input.record}),
   reconcile:async input=>(calls.push('reconcile'),overrides.reconcile?.(input) || {kind:'reconciled'})
  };
 };
 const run=async (changes={}, overrides={})=>{const a=adapter(overrides); return {a,result:await runPublicationCycle({request:request(),identity:identity(),current:current(),adapter:a,...changes})};};
 
-test('confirmed reservation permits exactly one send then durable archive',async()=>{
+test('confirmed reservation permits exactly one send then hands durable evidence to reconciliation',async()=>{
  const {a,result}=await run();
- assert.deepEqual(a.calls,['reserve','persistPreSend','send','archive']);
- assert.deepEqual(result,{action:'published',external_send_authorized:false,instagram_media_id:'18000000000000001'});
+ assert.deepEqual(a.calls,['reserve','persistPreSend','send','persistAttemptResult']);
+ assert.deepEqual(result,{action:'reconcile_only',external_send_authorized:false,reason:'positive_send_requires_reconciliation'});
 });
 test('invalid identity, stale SHA, conflict and malformed reservation never send',async()=>{
  const cases=[
@@ -41,21 +39,21 @@ test('unconfirmed pre-send receipt blocks provider call',async()=>{
 });
 test('ambiguous response is quarantined and has no retry path',async()=>{
  const {a,result}=await run({},{send:()=>({kind:'ambiguous'})});
- assert.deepEqual(a.calls,['reserve','persistPreSend','send','markUnknown']); assert.equal(result.action,'reconcile_only');
+ assert.deepEqual(a.calls,['reserve','persistPreSend','send','persistAttemptResult']); assert.equal(result.action,'reconcile_only');
 });
 test('send exception is quarantined with no second send',async()=>{
  const {a,result}=await run({},{send:()=>{throw new Error('network')}});
- assert.deepEqual(a.calls,['reserve','persistPreSend','send','markUnknown']); assert.equal(result.reason,'send_exception');
+ assert.deepEqual(a.calls,['reserve','persistPreSend','send','persistAttemptResult']); assert.equal(result.reason,'send_exception');
 });
-test('archive failure after positive media ID reconciles rather than resend',async()=>{
- const {a,result}=await run({},{archive:()=>{throw new Error('github unavailable')}});
- assert.deepEqual(a.calls,['reserve','persistPreSend','send','archive']); assert.equal(result.reason,'archive_unconfirmed_after_positive_send');
+test('attempt-result persistence failure after positive media ID reconciles rather than resend',async()=>{
+ const {a,result}=await run({},{persistAttemptResult:()=>{throw new Error('github unavailable')}});
+ assert.deepEqual(a.calls,['reserve','persistPreSend','send','persistAttemptResult']); assert.equal(result.reason,'positive_send_requires_reconciliation');
 });
-test('proved pre-write no-op may return ready; unproved outcome quarantines',async()=>{
+test('proved and unproved no-send outcomes both hand off without Publisher releasing the claim',async()=>{
  const noOp=await run({},{send:()=>({kind:'not_invoked',proof:'transport_not_called'})});
- assert.deepEqual(noOp.a.calls,['reserve','persistPreSend','send','returnReady']);assert.equal(noOp.result.action,'returned_ready');
+ assert.deepEqual(noOp.a.calls,['reserve','persistPreSend','send','persistAttemptResult']);assert.equal(noOp.result.action,'reconcile_only');assert.equal(noOp.result.reason,'action_not_invoked');
  const unsafe=await run({},{send:()=>({kind:'not_invoked'})});
- assert.deepEqual(unsafe.a.calls,['reserve','persistPreSend','send','markUnknown']);assert.equal(unsafe.result.action,'reconcile_only');
+ assert.deepEqual(unsafe.a.calls,['reserve','persistPreSend','send','persistAttemptResult']);assert.equal(unsafe.result.action,'reconcile_only');
 });
 test('unresolved state is reconciliation-only and never reserves or sends',async()=>{
  const a=adapter();const result=await runPublicationCycle({request:request(),identity:identity(),current:{...current(),status:'publish_unknown'},adapter:a});
