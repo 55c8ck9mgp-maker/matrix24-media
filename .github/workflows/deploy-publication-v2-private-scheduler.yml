@@ -1,0 +1,29 @@
+name: Deploy Publication v2 private scheduler
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: publication-v2-staging
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Scheduler safety contract
+        run: node --test tests/publication-v2-private-scheduler.test.mjs
+      - name: Dry run
+        run: npx wrangler deploy --dry-run --config publisher-v2/private-scheduler/wrangler.jsonc
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      - name: Deploy inert private scheduler
+        run: npx wrangler deploy --config publisher-v2/private-scheduler/wrangler.jsonc --keep-vars
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
