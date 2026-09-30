@@ -15,6 +15,8 @@ test('identity proof is manual, remote-binding only, and provider-free',()=>{
  assert.match(workflow,/contents: read/);
  assert.doesNotMatch(workflow,/schedule:/);
  assert.doesNotMatch(workflow,/wrangler deploy/);
+ assert.match(workflow,/npm install --no-save --ignore-scripts wrangler@4\.145\.0/);
+ assert.match(workflow,/node publisher-v2\/identity-proof\/run\.mjs/);
  const combined=workflow+fs.readFileSync('publisher-v2/identity-proof/src/index.mjs','utf8')+fs.readFileSync('publisher-v2/identity-proof/run.mjs','utf8');
  assert.doesNotMatch(combined,/METRICOOL|INSTAGRAM|ready_to_publish|publish_attempt_id/i);
 });

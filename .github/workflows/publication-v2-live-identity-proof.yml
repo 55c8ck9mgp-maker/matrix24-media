@@ -17,7 +17,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install pinned Wrangler for proof runner
+        run: npm install --no-save --ignore-scripts wrangler@4.145.0
       - name: Run read-only remote identity proof
-        run: npx --yes --package wrangler@4.145.0 node publisher-v2/identity-proof/run.mjs
+        run: node publisher-v2/identity-proof/run.mjs
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
