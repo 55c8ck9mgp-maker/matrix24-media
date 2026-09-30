@@ -73,6 +73,16 @@ failure, unknown receipt, recovery with a matching media ID, and recovery with
 no match. Assert one provider call at most in every ambiguous case. Do not use
 Kohli, any production queue record, or the old Auto Publisher scheduler.
 
+## Current private-runtime gate — 2026-09-30
+
+The isolated private runtime is now deployed as `matrix24-publisher-v2-staging` with `workers_dev=false`, preview URLs disabled, no cron, and `PUBLISHER_V2_ENABLED=false`. Its repository boundary is `55c8ck9mgp-maker/matrix24-publication-v2-staging`; production queue records are outside this boundary.
+
+The GitHub App bindings have been configured in the deployed Worker, but activation remains blocked until the deployed runtime proves a real GitHub App installation-token exchange and read access to the isolated staging repository. Unit tests or dashboard binding presence do not substitute for that proof.
+
+This proof MUST NOT be obtained by opening a public HTTP route, adding a cron solely for testing, copying the GitHub App private key into another control plane, enabling a provider transport, or touching a production queue record. If no existing private invocation mechanism can execute the proof, the gate remains fail-closed. A later reviewed private scheduler/service identity may satisfy the gate as part of the intended production architecture.
+
+No Metricool/Instagram call and no production canary is authorized by this document. Phase 2 remains separately gated by explicit owner approval.
+
 ## Commands
 
 ```sh
