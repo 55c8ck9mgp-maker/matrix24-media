@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "matrix24-publisher-v2-identity-caller",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-09-30",
+  "workers_dev": false,
+  "preview_urls": false,
+  "vars": {
+    "MATRIX24_MODE": "publisher-v2-identity-preflight"
+  },
+  "services": [
+    {
+      "binding": "PUBLISHER_IDENTITY",
+      "service": "matrix24-publisher-v2-staging",
+      "entrypoint": "IdentityPreflight"
+    }
+  ]
+}
