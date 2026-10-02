@@ -1,0 +1,81 @@
+{
+  "content_id": "matrix24-20261001-kyiv-school-bridge-drone-strikes",
+  "researched_at": "2026-10-02T12:42:56Z",
+  "event_date": "2026-10-01",
+  "headline": "Russian drones hit a Kyiv school and a Dnipro River bridge as Moscow presses its aerial campaign on Ukraine",
+  "category": "World",
+  "editorial_category": "World",
+  "verified_source_urls": [
+    "https://www.ksat.com/news/world/2026/10/01/a-russian-drone-hits-a-kyiv-school-as-moscow-presses-its-aerial-campaign-against-ukraine/",
+    "https://www.aljazeera.com/news/2026/10/1/russian-drone-hits-school-in-ukraines-kyiv-as-moscow-presses-air-assault"
+  ],
+  "source_records": [
+    {
+      "source_name": "Associated Press (via KSAT)",
+      "publication_date": "2026-10-01",
+      "url": "https://www.ksat.com/news/world/2026/10/01/a-russian-drone-hits-a-kyiv-school-as-moscow-presses-its-aerial-campaign-against-ukraine/",
+      "supports": [
+        "A Russian drone struck a school in Kyiv on October 1, 2026, and no casualties were reported because children and staff were sheltering at the time.",
+        "Russian drones also struck an important bridge over the Dnipro River in Kyiv on the same day, disrupting traffic."
+      ],
+      "independent_source_id": "associated_press",
+      "source_role": "independent_report"
+    },
+    {
+      "source_name": "Al Jazeera",
+      "publication_date": "2026-10-01",
+      "url": "https://www.aljazeera.com/news/2026/10/1/russian-drone-hits-school-in-ukraines-kyiv-as-moscow-presses-air-assault",
+      "supports": [
+        "A Russian drone struck a school in Kyiv on October 1, 2026, and no casualties were reported because children and staff were sheltering at the time.",
+        "Russian drones also struck an important bridge over the Dnipro River in Kyiv on the same day, disrupting metro and ground public transport."
+      ],
+      "independent_source_id": "al_jazeera",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "A Russian drone struck a school in Kyiv on October 1, 2026, and no casualties were reported because children and staff were sheltering at the time.",
+      "material": true,
+      "normalized_value": "date=2026-10-01|location=Kyiv_school|event=drone_strike|casualties=none_reported|reason=occupants_in_shelters",
+      "observations": [
+        {
+          "url": "https://www.ksat.com/news/world/2026/10/01/a-russian-drone-hits-a-kyiv-school-as-moscow-presses-its-aerial-campaign-against-ukraine/",
+          "normalized_value": "date=2026-10-01|location=Kyiv_school|event=drone_strike|casualties=none_reported|reason=occupants_in_shelters"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/1/russian-drone-hits-school-in-ukraines-kyiv-as-moscow-presses-air-assault",
+          "normalized_value": "date=2026-10-01|location=Kyiv_school|event=drone_strike|casualties=none_reported|reason=occupants_in_shelters"
+        }
+      ]
+    },
+    {
+      "claim": "Russian drones also struck an important bridge over the Dnipro River in Kyiv on the same day, disrupting transit across the capital.",
+      "material": true,
+      "normalized_value": "date=2026-10-01|location=Dnipro_River_bridge_Kyiv|event=drone_strike|effect=transit_disrupted",
+      "observations": [
+        {
+          "url": "https://www.ksat.com/news/world/2026/10/01/a-russian-drone-hits-a-kyiv-school-as-moscow-presses-its-aerial-campaign-against-ukraine/",
+          "normalized_value": "date=2026-10-01|location=Dnipro_River_bridge_Kyiv|event=drone_strike|effect=transit_disrupted"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/1/russian-drone-hits-school-in-ukraines-kyiv-as-moscow-presses-air-assault",
+          "normalized_value": "date=2026-10-01|location=Dnipro_River_bridge_Kyiv|event=drone_strike|effect=transit_disrupted"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 A Russian drone struck a school in Kyiv on Oct. 1 during another wave of aerial attacks on the Ukrainian capital; no casualties were reported because children and staff were sheltering at the time. The same day, Russian drones also hit an important bridge over the Dnipro River, disrupting transit across the city, part of what officials described as a continuing campaign of bombardment against Ukraine.\n\n🇪🇸 Un dron ruso impactó una escuela en Kiev el 1 de octubre durante otra oleada de ataques aéreos sobre la capital ucraniana; no se reportaron víctimas porque los niños y el personal se encontraban refugiados en ese momento. El mismo día, drones rusos también alcanzaron un importante puente sobre el río Dniéper, interrumpiendo el tránsito en la ciudad, en lo que las autoridades describieron como una campaña continua de bombardeo contra Ucrania.\n\nSources: Associated Press / Al Jazeera — Oct. 1, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#Ukraine",
+    "#Kyiv",
+    "#Russia",
+    "#WorldNews"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration of a damaged brick school facade at dawn in a Central European capital, smoke rising near a distant river bridge in the background, emergency responders rendered generically with no identifiable individuals, restrained breaking-news composition, no readable text, no flags, no fabricated documentary details, vertical 4:5 composition. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: Associated Press reporting (carried by KSAT) and an independent Al Jazeera report both confirm that a Russian drone struck a school in Kyiv on October 1, 2026, with no casualties because occupants were sheltering, and that Russian drones also struck a bridge over the Dnipro River in Kyiv the same day, disrupting transit. A secondary detail (AP cites damage to a data center; Al Jazeera cites fire at a nuclear-research facility) was not corroborated across both sources and was dropped from claim_checks rather than included without consensus. Repository searches of editorial/verified/, open editorial-intake/* and promotion/* branches (china-factory-pmi-expansion, micron-record-ai-memory-earnings, spacex-crew13-fastest-docking-iss) found no existing draft or in-flight PR covering this Kyiv school/bridge drone-strike story before intake.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
