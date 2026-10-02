@@ -1,0 +1,81 @@
+{
+  "content_id": "matrix24-20261001-spacex-crew13-fastest-docking-iss",
+  "researched_at": "2026-10-02T10:43:01Z",
+  "event_date": "2026-10-01",
+  "headline": "SpaceX's Crew-13 launches four astronauts to ISS, sets fastest U.S. docking time on record",
+  "category": "Science",
+  "editorial_category": "Science",
+  "verified_source_urls": [
+    "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+    "https://www.space.com/space-exploration/human-spaceflight/spacex-crew-13-astronaut-mission-iss-launch"
+  ],
+  "source_records": [
+    {
+      "source_name": "NASA",
+      "publication_date": "2026-10-01",
+      "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+      "supports": [
+        "On October 1, 2026, SpaceX launched the Crew-13 mission to the International Space Station aboard a Falcon 9 rocket and Crew Dragon spacecraft from Cape Canaveral Space Force Station, Florida, carrying a four-person crew: NASA's Jessica Watkins (commander) and Luke Delaney (pilot), CSA's Joshua Kutryk, and Roscosmos's Sergey Teteryatnikov.",
+        "The Crew Dragon docked to the ISS approximately 7 hours 50 minutes after launch, the fastest launch-to-docking time achieved by a U.S. spacecraft in ISS history."
+      ],
+      "independent_source_id": "nasa",
+      "source_role": "primary_authority"
+    },
+    {
+      "source_name": "Space.com",
+      "publication_date": "2026-10-01",
+      "url": "https://www.space.com/space-exploration/human-spaceflight/spacex-crew-13-astronaut-mission-iss-launch",
+      "supports": [
+        "On October 1, 2026, SpaceX launched the Crew-13 mission to the International Space Station aboard a Falcon 9 rocket and Crew Dragon spacecraft from Cape Canaveral Space Force Station, Florida, carrying a four-person crew: NASA's Jessica Watkins (commander) and Luke Delaney (pilot), CSA's Joshua Kutryk, and Roscosmos's Sergey Teteryatnikov.",
+        "The Crew Dragon docked to the ISS approximately 7 hours 50 minutes after launch, the fastest launch-to-docking time achieved by a U.S. spacecraft in ISS history."
+      ],
+      "independent_source_id": "space_com",
+      "source_role": "independent_report"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "On October 1, 2026, SpaceX launched the Crew-13 mission to the International Space Station aboard a Falcon 9 rocket and Crew Dragon spacecraft from Cape Canaveral Space Force Station, Florida, carrying a four-person crew: NASA's Jessica Watkins (commander) and Luke Delaney (pilot), CSA's Joshua Kutryk, and Roscosmos's Sergey Teteryatnikov.",
+      "material": true,
+      "normalized_value": "mission=Crew-13|date=2026-10-01|site=Cape_Canaveral_SLC-40|vehicle=Falcon9_CrewDragon|crew=Watkins,Delaney,Kutryk,Teteryatnikov",
+      "observations": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "normalized_value": "mission=Crew-13|date=2026-10-01|site=Cape_Canaveral_SLC-40|vehicle=Falcon9_CrewDragon|crew=Watkins,Delaney,Kutryk,Teteryatnikov"
+        },
+        {
+          "url": "https://www.space.com/space-exploration/human-spaceflight/spacex-crew-13-astronaut-mission-iss-launch",
+          "normalized_value": "mission=Crew-13|date=2026-10-01|site=Cape_Canaveral_SLC-40|vehicle=Falcon9_CrewDragon|crew=Watkins,Delaney,Kutryk,Teteryatnikov"
+        }
+      ]
+    },
+    {
+      "claim": "The Crew Dragon docked to the ISS approximately 7 hours 50 minutes after launch, the fastest launch-to-docking time achieved by a U.S. spacecraft in ISS history.",
+      "material": true,
+      "normalized_value": "docking_duration=7h50m|record=fastest_US_spacecraft_launch_to_dock_ISS",
+      "observations": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "normalized_value": "docking_duration=7h50m|record=fastest_US_spacecraft_launch_to_dock_ISS"
+        },
+        {
+          "url": "https://www.space.com/space-exploration/human-spaceflight/spacex-crew-13-astronaut-mission-iss-launch",
+          "normalized_value": "docking_duration=7h50m|record=fastest_US_spacecraft_launch_to_dock_ISS"
+        }
+      ]
+    }
+  ],
+  "caption": "🇺🇸 SpaceX launched NASA's Crew-13 mission on October 1, bringing four astronauts to the International Space Station aboard a Falcon 9 and Crew Dragon from Cape Canaveral, Florida. The crew — NASA's Jessica Watkins and Luke Delaney, Canada's Joshua Kutryk, and Russia's Sergey Teteryatnikov — docked about 7 hours 50 minutes after liftoff, the fastest launch-to-docking time ever achieved by a U.S. spacecraft en route to the ISS. They join Expedition 75 for a roughly six-month stay focused on human-health and microgravity research.\n\n🇪🇸 SpaceX lanzó la misión Crew-13 de la NASA el 1 de octubre, llevando a cuatro astronautas a la Estación Espacial Internacional a bordo de un Falcon 9 y una Crew Dragon desde Cabo Cañaveral, Florida. La tripulación —Jessica Watkins y Luke Delaney de la NASA, Joshua Kutryk de Canadá y Sergey Teteryatnikov de Rusia— acopló unas 7 horas y 50 minutos después del despegue, el tiempo de acoplamiento más rápido logrado por una nave estadounidense rumbo a la EEI. Se unen a la Expedición 75 para una estancia de unos seis meses dedicada a investigación de salud humana y microgravedad.\n\nSources: NASA, Space.com — Oct. 1, 2026.\n\nAI-generated editorial visual; not a documentary photograph. / Visual editorial generado con IA; no es una fotografía documental.",
+  "hashtags": [
+    "#MATRIX24",
+    "#SpaceX",
+    "#NASA",
+    "#ISS",
+    "#Space"
+  ],
+  "image_generation_prompt": "AI-generated non-documentary editorial illustration symbolizing a crewed spacecraft docking with a space station: abstract stylized capsule approaching a generic modular space station silhouette against a star field and curved blue Earth limb, glowing thruster trails, clean modern sci-fi illustration style, no real agency logos or insignia, no readable text, no identifiable faces, vertical 4:5 composition. Clearly label: AI-GENERATED EDITORIAL VISUAL.",
+  "verification_note": "Claim Consensus Gate: NASA's official mission press release and Space.com's independent launch report agree on the launch date, site, vehicle, and four-person crew of Crew-13, and both separately describe the ~7h50m launch-to-docking time as a new speed record for a U.S. spacecraft reaching the ISS. No conflicting material claims were found between the two sources.",
+  "verification_status": "verified_claim_consensus",
+  "promotion_eligible": false,
+  "candidate_status": "verified_draft_requires_editorial_promotion"
+}
