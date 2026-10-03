@@ -39,6 +39,10 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Discover fresh editorial candidates
+        if: github.event_name == 'schedule'
+        run: node scripts/editorial-engine-v2.mjs
+
       - name: Rebuild the exact approved record from current main
         id: promotion
         env:
