@@ -18,6 +18,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  models: read
 
 concurrency:
   # Serialize promotion admissions repository-wide. A second manifest must not race
@@ -39,9 +40,33 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Discover fresh editorial candidates
+      - name: Discover and prepare one fresh editorial candidate
         if: github.event_name == 'schedule'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MATRIX24_CREATE_DRAFT: '1'
         run: node scripts/editorial-engine-v2.mjs
+
+      - name: Submit discovered candidate through existing intake guard
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mapfile -t drafts < <(git status --porcelain -- 'editorial/verified/*.json' | awk '{print $2}')
+          if [ "${#drafts[@]}" -eq 0 ]; then
+            echo "editorial engine: no new consensus candidate"
+          elif [ "${#drafts[@]}" -ne 1 ]; then
+            echo "editorial engine rejected: expected at most one draft"; exit 1
+          else
+            draft="${drafts[0]}"
+            content_id="$(basename "$draft" .json)"
+            branch="editorial-intake/$content_id"
+            git switch -c "$branch"
+            git add -- "$draft"
+            git -c user.name='matrix24-editorial' -c user.email='matrix24-editorial@users.noreply.github.com' commit -m "Editorial intake: $content_id"
+            git push origin "$branch"
+            gh pr create --base main --head "$branch" --title "Editorial intake: $content_id" --body "Automated candidate from MATRIX24 Editorial Engine v2. Existing editorial intake guard remains authoritative."
+          fi
 
       - name: Rebuild the exact approved record from current main
         id: promotion
