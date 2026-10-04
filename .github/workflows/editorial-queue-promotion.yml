@@ -1,206 +1,39 @@
-name: Create editorial queue promotion PR
+name: MATRIX 24 Lite Editorial Research
 
 on:
   workflow_dispatch:
-    inputs:
-      manifest_path:
-        description: Approved manifest already merged to main (editorial/promotions/*.json)
-        required: true
-        type: string
-  push:
-    branches:
-      - main
-    paths:
-      - 'editorial/promotions/*.json'
   schedule:
     - cron: '17 * * * *'
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
   models: read
 
 concurrency:
-  # Serialize promotion admissions repository-wide. A second manifest must not race
-  # duplicate/content-id checks while another promotion PR is being prepared.
-  group: editorial-queue-promotion
+  group: matrix24-lite-editorial
   cancel-in-progress: false
 
 jobs:
-  create-reviewable-queue-pr:
+  research:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
 
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
 
-      - name: Discover and prepare one fresh editorial candidate
-        if: github.event_name == 'schedule'
+      - name: Research and verify international news
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          MATRIX24_CREATE_DRAFT: '1'
         run: node scripts/editorial-engine-v2.mjs
 
-      - name: Submit discovered candidate through existing intake guard
-        if: github.event_name == 'schedule'
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Production boundary
         run: |
-          mapfile -t drafts < <(git status --porcelain -- 'editorial/verified/*.json' | awk '{print $2}')
-          if [ "${#drafts[@]}" -eq 0 ]; then
-            echo "editorial engine: no new consensus candidate"
-          elif [ "${#drafts[@]}" -ne 1 ]; then
-            echo "editorial engine rejected: expected at most one draft"; exit 1
-          else
-            draft="${drafts[0]}"
-            content_id="$(basename "$draft" .json)"
-            branch="editorial-intake/$content_id"
-            git switch -c "$branch"
-            git add -- "$draft"
-            git -c user.name='matrix24-editorial' -c user.email='matrix24-editorial@users.noreply.github.com' commit -m "Editorial intake: $content_id"
-            git push origin "$branch"
-            gh pr create --base main --head "$branch" --title "Editorial intake: $content_id" --body "Automated candidate from MATRIX24 Editorial Engine v2. Existing editorial intake guard remains authoritative."
-          fi
-
-      - name: Rebuild the exact approved record from current main
-        id: promotion
-        env:
-          DISPATCH_MANIFEST_PATH: ${{ inputs.manifest_path }}
-          BEFORE_SHA: ${{ github.event.before }}
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          git fetch --no-tags origin main
-          git checkout --detach origin/main
-          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
-            MANIFEST_PATH="$DISPATCH_MANIFEST_PATH"
-          elif [ "$EVENT_NAME" = "schedule" ]; then
-            node scripts/select-promotion-work.mjs > .promotion-selection.json
-            cat .promotion-selection.json
-            MANIFEST_PATH="$(node -e 'const r=require("./.promotion-selection.json"); process.stdout.write(r.manifest_path || "")')"
-            quarantined="$(node -e 'const r=require("./.promotion-selection.json"); process.stdout.write(String((r.quarantined||[]).length))')"
-            if [ "$quarantined" -gt 0 ]; then
-              echo "::warning::Promotion recovery quarantined $quarantined invalid approved manifest(s); valid independent work may continue."
-            fi
-            if [ -z "$MANIFEST_PATH" ]; then
-              echo "promotion controller: no valid approved unadmitted manifest"
-              echo "has_work=false" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-          else
-            mapfile -t manifests < <(git diff --name-only "$BEFORE_SHA" origin/main -- 'editorial/promotions/*.json')
-            if [ "${#manifests[@]}" -ne 1 ]; then
-              echo "promotion controller rejected: expected exactly one changed promotion manifest, found ${#manifests[@]}"
-              exit 1
-            fi
-            MANIFEST_PATH="${manifests[0]}"
-          fi
-          case "$MANIFEST_PATH" in
-            editorial/promotions/*.json) ;;
-            *) echo "promotion controller rejected: unsafe manifest path"; exit 1 ;;
-          esac
-          result="$(node scripts/prepare-editorial-queue-pr.mjs "$MANIFEST_PATH" .promotion-output)"
-          printf '%s' "$result" > promotion-result.json
-          node -e 'const r=require("./promotion-result.json"); require("fs").appendFileSync(process.env.GITHUB_OUTPUT, `has_work=true\ncontent_id=${r.content_id}\nqueue_path=${r.output_path}\nmanifest_path=${r.manifest_path}\n`)'
-
-      - name: Create or reuse exactly one queue-only promotion branch
-        if: steps.promotion.outputs.has_work == 'true'
-        id: queue_branch
-        env:
-          GH_TOKEN: ${{ github.token }}
-          CONTENT_ID: ${{ steps.promotion.outputs.content_id }}
-          QUEUE_PATH: ${{ steps.promotion.outputs.queue_path }}
-          MANIFEST_PATH: ${{ steps.promotion.outputs.manifest_path }}
-        run: |
-          mapfile -t existing_branches < <(gh pr list --state open --base main --json headRefName,title --jq '.[] | select(.title == "Queue approved promotion: '"$CONTENT_ID"'") | .headRefName')
-          if [ "${#existing_branches[@]}" -gt 1 ]; then
-            echo "promotion controller rejected: multiple open promotion PRs exist for $CONTENT_ID"
-            exit 1
-          fi
-          if [ "${#existing_branches[@]}" -eq 1 ]; then
-            branch="${existing_branches[0]}"
-            expected_branch="promotion/${CONTENT_ID}"
-            [ "$branch" = "$expected_branch" ] || { echo "promotion controller rejected: existing PR uses unexpected branch $branch"; exit 1; }
-            echo "Refreshing existing promotion branch for $CONTENT_ID from current main: $branch"
-            git switch -C "$branch" origin/main
-            mkdir -p "$(dirname "$QUEUE_PATH")"
-            cp ".promotion-output/$QUEUE_PATH" "$QUEUE_PATH"
-            git diff --check
-            git add -- "$QUEUE_PATH"
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Refresh approved editorial promotion: $CONTENT_ID"
-            git push --force-with-lease origin "$branch"
-            echo "promotion_branch=$branch" >> "$GITHUB_OUTPUT"
-            echo "reuse_existing=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          branch="promotion/${CONTENT_ID}"
-          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
-            echo "promotion controller rejected: deterministic branch exists without exactly one matching open PR: $branch"
-            exit 1
-          fi
-          git switch -c "$branch"
-          mkdir -p "$(dirname "$QUEUE_PATH")"
-          cp ".promotion-output/$QUEUE_PATH" "$QUEUE_PATH"
-          git diff --check
-          git add -- "$QUEUE_PATH"
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Queue approved editorial promotion: $CONTENT_ID"
-          printf '%s\n\n%s\n' \
-            "Creates exactly one blocked_media queue record from the approved manifest: $MANIFEST_PATH." \
-            'The record is rebuilt from the trusted main revision. Merging this PR remains a separate editorial and production decision.' > pr-body.md
-          git push origin "$branch"
-          echo "promotion_branch=$branch" >> "$GITHUB_OUTPUT"
-          echo "reuse_existing=false" >> "$GITHUB_OUTPUT"
-          echo "Promotion branch pushed successfully: $branch"
-
-      - name: Create exactly one reviewable promotion PR
-        if: steps.promotion.outputs.has_work == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          CONTENT_ID: ${{ steps.promotion.outputs.content_id }}
-          PROMOTION_BRANCH: ${{ steps.queue_branch.outputs.promotion_branch }}
-        run: |
-          existing="$(gh pr list --state open --base main --head "$PROMOTION_BRANCH" --json number --jq 'length')"
-          if [ "$existing" -gt 1 ]; then
-            echo "promotion controller rejected: more than one open PR exists for $PROMOTION_BRANCH"
-            exit 1
-          fi
-          if [ "$existing" -eq 1 ]; then
-            echo "Exactly one promotion PR already exists; reusing it."
-          else
-            gh pr create \
-              --base main \
-              --head "$PROMOTION_BRANCH" \
-              --title "Queue approved promotion: $CONTENT_ID" \
-              --body-file pr-body.md
-          fi
-
-          pr_json="$(gh pr view "$PROMOTION_BRANCH" --json number,baseRefOid,headRefOid)"
-          pr_number="$(printf '%s' "$pr_json" | jq -r '.number')"
-          base_sha="$(printf '%s' "$pr_json" | jq -r '.baseRefOid')"
-          head_sha="$(printf '%s' "$pr_json" | jq -r '.headRefOid')"
-          [ -n "$pr_number" ] && [ "$pr_number" != "null" ] || { echo "promotion controller rejected: PR number unavailable"; exit 1; }
-          [ -n "$base_sha" ] && [ "$base_sha" != "null" ] || { echo "promotion controller rejected: base SHA unavailable"; exit 1; }
-          [ -n "$head_sha" ] && [ "$head_sha" != "null" ] || { echo "promotion controller rejected: head SHA unavailable"; exit 1; }
-
-          gh api --method POST "repos/$GITHUB_REPOSITORY/dispatches" \
-            -f event_type='editorial_promotion_guard' \
-            -F "client_payload[pr_number]=$pr_number" \
-            -f "client_payload[content_id]=$CONTENT_ID" \
-            -f "client_payload[promotion_branch]=$PROMOTION_BRANCH" \
-            -f "client_payload[base_sha]=$base_sha" \
-            -f "client_payload[head_sha]=$head_sha"
-          echo "Editorial promotion guard dispatched automatically for PR #$pr_number."
-
-          gh api --method POST "repos/$GITHUB_REPOSITORY/dispatches" \
-            -f event_type='promotion_validation' \
-            -F "client_payload[pr_number]=$pr_number" \
-            -f "client_payload[content_id]=$CONTENT_ID" \
-            -f "client_payload[promotion_branch]=$PROMOTION_BRANCH" \
-            -f "client_payload[base_sha]=$base_sha" \
-            -f "client_payload[head_sha]=$head_sha"
-          echo "Production and ownership promotion validation dispatched for PR #$pr_number."
+          echo "MATRIX24 Lite research complete."
+          echo "Legacy Intake/Promotion/Queue admission is disabled in this workflow."
+          echo "Publication is allowed only through the Lite preflight -> Metricool path."
