@@ -50,15 +50,17 @@ for(const item of items){
   g.items.push(item);
 }
 
+const relevanceTerms = /war|ceasefire|election|president|prime minister|government|earthquake|hurricane|typhoon|flood|wildfire|attack|missile|nuclear|economy|inflation|central bank|trade|tariff|sanction|summit|climate|outbreak|space|technology|cyber|security|record|crisis|disaster/i;
 const candidates=groups.map(g=>{
   const unique=[...new Map(g.items.map(x=>[x.source_id,x])).values()];
   return {
     headline:g.items[0].title,
     region:g.items[0].region,
     sources:unique.map(x=>({source_name:x.source,independent_source_id:x.source_id,url:x.link,published_at:x.published_at,title:x.title})),
-    consensus_ready:unique.length>=2
+    consensus_ready:unique.length>=2,
+    international_relevance: relevanceTerms.test(g.items.map(x=>x.title+' '+x.description).join(' '))
   };
-}).filter(x=>x.consensus_ready).slice(0,20);
+}).filter(x=>x.consensus_ready && x.international_relevance).slice(0,20);
 
 console.log(JSON.stringify({generated_at:new Date().toISOString(),fresh_items:items.length,consensus_candidates:candidates.length,candidates},null,2));
 // Fail closed: no candidate enters editorial/verified, queue, Metricool or Instagram here.
@@ -70,15 +72,20 @@ async function buildDraft(candidate){
   const token=process.env.GITHUB_TOKEN;
   if(!token) return null;
   const sourceText=[];
-  for(const s of candidate.sources.slice(0,3)){
+  const seenPublishers=new Set();
+  for(const s of candidate.sources.slice(0,4)){
+    if(seenPublishers.has(s.independent_source_id)) continue;
     try{
       const r=await fetch(s.url,{headers:{'user-agent':'MATRIX24/2.0'}});
       const html=await r.text();
-      sourceText.push({source_name:s.source_name,independent_source_id:s.independent_source_id,url:s.url,text:clean(html).slice(0,7000)});
+      const text=clean(html).slice(0,7000);
+      if(text.length<500) continue;
+      sourceText.push({source_name:s.source_name,independent_source_id:s.independent_source_id,url:s.url,text});
+      seenPublishers.add(s.independent_source_id);
     }catch{}
   }
-  if(sourceText.length<2) return null;
-  const prompt=`Create ONE conservative MATRIX24 editorial draft from the supplied independent reports. Retain only material facts explicitly supported by at least two independent sources. If there is no such material factual consensus, return {"reject":true}. Output JSON only. Required keys: headline,category,editorial_category,caption,image_generation_prompt,verification_note,claim,normalized_value,supports. caption must contain English AND Spanish context, clearly separated with 🇺🇸 and 🇪🇸. supports must be an array with one concise support string per supplied source. Do not invent facts. Sources: ${JSON.stringify(sourceText)}`;
+  if(sourceText.length<2 || new Set(sourceText.map(s=>s.independent_source_id)).size<2) return null;
+  const prompt=`Create ONE conservative MATRIX24 editorial draft from the supplied independent reports. Retain only material facts explicitly supported by at least two independent publishers. The story must have clear international significance beyond a purely local incident. If there is no such material factual consensus, return {"reject":true}. Output JSON only. Required keys: headline,category,editorial_category,caption,image_generation_prompt,verification_note,claim,normalized_value,supports. caption must contain English AND Spanish context, clearly separated with 🇺🇸 and 🇪🇸. supports must be an array with one concise support string per supplied source. Do not invent facts. Sources: ${JSON.stringify(sourceText)}`;
   const r=await fetch('https://models.github.ai/inference/chat/completions',{
     method:'POST',
     headers:{'Authorization':`Bearer ${token}`,'Content-Type':'application/json','Accept':'application/vnd.github+json'},
