@@ -7,10 +7,17 @@ const feeds = [
   { source: 'BBC', source_id: 'bbc', region: 'europe', url: 'https://feeds.bbci.co.uk/news/world/europe/rss.xml' },
   { source: 'BBC', source_id: 'bbc', region: 'asia', url: 'https://feeds.bbci.co.uk/news/world/asia/rss.xml' },
   { source: 'NPR', source_id: 'npr', region: 'world', url: 'https://feeds.npr.org/1004/rss.xml' },
-  { source: 'DW', source_id: 'dw', region: 'world', url: 'https://rss.dw.com/rdf/rss-en-world' }
+  { source: 'DW', source_id: 'dw', region: 'world', url: 'https://rss.dw.com/rdf/rss-en-world' },
+  { source: 'France 24', source_id: 'france24', region: 'world', url: 'https://www.france24.com/en/rss' },
+  { source: 'Al Jazeera', source_id: 'aljazeera', region: 'world', url: 'https://www.aljazeera.com/xml/rss/all.xml' }
 ];
 
 const cutoff = Date.now() - 24 * 60 * 60 * 1000;
+const globalSignals = ['government','president','prime minister','election','war','conflict','ceasefire','attack','earthquake','flood','storm','hurricane','wildfire','economy','inflation','trade','tariff','sanction','market','health','outbreak','climate','energy','technology','cyber','space','nasa','science','record'];
+const globallyRelevant = item => {
+  const text=(item.title+' '+item.description).toLowerCase();
+  return globalSignals.some(k=>text.includes(k));
+};
 const clean = (s='') => s.replace(/<!\[CDATA\[|\]\]>/g,'').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/\s+/g,' ').trim();
 const field = (block,name) => clean((block.match(new RegExp('<'+name+'[^>]*>([\\s\\S]*?)<\\/'+name+'>','i'))||[])[1]||'');
 const words = s => new Set(clean(s).toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(w=>w.length>3));
@@ -34,6 +41,7 @@ for (const feed of feeds) {
   } catch(e) { console.log('feed skipped',feed.source,e.message); }
 }
 
+items=items.filter(globallyRelevant);
 items.sort((a,b)=>Date.parse(b.published_at)-Date.parse(a.published_at));
 const groups=[];
 for(const item of items){
