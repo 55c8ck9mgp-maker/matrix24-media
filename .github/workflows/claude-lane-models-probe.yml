@@ -1,0 +1,24 @@
+name: Claude Lane models probe (branch only)
+on:
+  push:
+    branches: [claude/lane-models-probe]
+permissions:
+  contents: read
+  models: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          for variant in plain headers jsonfmt; do
+            case $variant in
+              plain) H=(); BODY='{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Reply with the JSON {\"ok\":true}"}]}';;
+              headers) H=(-H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28"); BODY='{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Reply with the JSON {\"ok\":true}"}]}';;
+              jsonfmt) H=(-H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28"); BODY='{"model":"openai/gpt-4o-mini","response_format":{"type":"json_object"},"messages":[{"role":"user","content":"Reply with the JSON {\"ok\":true}"}]}';;
+            esac
+            out=$(curl -sS -L -w ' HTTP=%{http_code} CT=%{content_type}' -X POST "${H[@]}" -H "Content-Type: application/json" -H "Authorization: Bearer $GITHUB_TOKEN" https://models.github.ai/inference/chat/completions -d "$BODY" | tr -d '\r\n' | cut -c1-400)
+            echo "::notice title=$variant::$out"
+          done
