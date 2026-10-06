@@ -1,0 +1,36 @@
+name: Claude IG token check (read-only)
+
+# Read-only verification of the IG_CLAUDE_ACCESS_TOKEN repository secret.
+# Runs only on pushes to this claude/* branch. It reads the account profile and
+# the content publishing quota. It never creates a container, never publishes,
+# never writes to the repository, and never prints the token.
+
+on:
+  push:
+    branches: [claude/ig-token-check]
+    paths: [.github/workflows/claude-ig-token-check.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Read profile and publishing quota
+        env:
+          IG_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          EXPECTED_USER_ID: '17841423605720355'
+        run: |
+          set -euo pipefail
+          if [ -z "${IG_TOKEN:-}" ]; then echo "RESULT: secret missing"; exit 1; fi
+          api='https://graph.instagram.com/v23.0'
+          me=$(curl -sS -H "Authorization: Bearer ${IG_TOKEN}" "${api}/me?fields=user_id,username,account_type")
+          echo "$me" | jq '{user_id, username, account_type, error: (.error | if . then {type, code, message} else null end)}'
+          uid=$(echo "$me" | jq -r '.user_id // empty')
+          if [ "$uid" != "$EXPECTED_USER_ID" ]; then echo "RESULT: profile read failed or wrong account"; exit 1; fi
+          quota=$(curl -sS -H "Authorization: Bearer ${IG_TOKEN}" "${api}/${uid}/content_publishing_limit?fields=config,quota_usage")
+          echo "$quota" | jq '{data, error: (.error | if . then {type, code, message} else null end)}'
+          if echo "$quota" | jq -e '.error' >/dev/null; then echo "RESULT: publish permission not confirmed"; exit 1; fi
+          echo "RESULT: OK — token valid for @$(echo "$me" | jq -r .username), publish quota readable"
