@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-google-constellation-nuclear-power-deal",
+  "created_at": "2026-10-06T19:33:10Z",
+  "category": "Technology",
+  "headline": "Google signs 20-year deal with Constellation for 890 MW of new nuclear power",
+  "headline_es": "Google firma un acuerdo de 20 años con Constellation por 890 MW de nueva energía nuclear",
+  "caption_es": "Google y Constellation Energy anunciaron el martes un acuerdo de 20 años que sumará 890 megavatios de nueva capacidad nuclear, respaldado por una inversión de 4.300 millones de dólares para modernizar 11 reactores en Illinois, Nueva Jersey y Pensilvania. Las acciones de Constellation subieron más de un 12% tras el anuncio, mientras las tecnológicas compiten por asegurar energía para sus centros de datos de IA.",
+  "caption_en": "Google and Constellation Energy announced on Tuesday a 20-year agreement that will add 890 megawatts of new nuclear capacity, backed by $4.3 billion in investment to upgrade 11 reactors in Illinois, New Jersey and Pennsylvania. Constellation shares jumped more than 12% after the announcement, as tech companies race to secure power for AI data centers.",
+  "source_urls": [
+    "https://finance.yahoo.com/technology/article/google-signs-20-year-nuclear-deal-with-constellation-energy-to-power-ai-build-out-131104702.html",
+    "https://www.bnnbloomberg.ca/business/technology/2026/10/06/google-enters-massive-36-gw-power-deal-with-constellation-energy/"
+  ],
+  "source_names": [
+    "Yahoo Finance",
+    "BNN Bloomberg"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Google",
+    "#NuclearEnergy",
+    "#AI",
+    "#Energy"
+  ],
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-06T19:36:20.693Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
