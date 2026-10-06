@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-messi-plays-final-match-for-argentina",
+  "status": "draft",
+  "created_at": "2026-10-06T23:30:00Z",
+  "category": "Sports",
+  "headline": "Lionel Messi plays his farewell match for Argentina against Benin in Buenos Aires",
+  "headline_es": "Lionel Messi juega su partido de despedida con Argentina ante Benín en Buenos Aires",
+  "caption_en": "Lionel Messi is playing his last match for Argentina, a friendly against Benin at the Estadio Monumental in Buenos Aires. The forward is ending his international career after Argentina's defeat in the 2026 World Cup final. He leaves as the national team's all-time top scorer with 125 goals, having won the 2022 World Cup with Argentina.",
+  "caption_es": "Lionel Messi disputa su último partido con Argentina, un amistoso ante Benín en el Estadio Monumental de Buenos Aires. El delantero cierra su carrera internacional tras la derrota de Argentina en la final del Mundial 2026. Se despide como máximo goleador histórico de la selección, con 125 goles, tras haber ganado el Mundial 2022 con Argentina.",
+  "source_urls": [
+    "https://abcnews.com/Sports/wireStory/messi-set-emotional-argentina-farewell-buenos-aires-friendly-137012736",
+    "https://www.beinsports.com/en-us/soccer/friendlies/articles/live-blog-argentina-vs-benin-messi-s-farewell-with-la-albiceleste-2026-10-06"
+  ],
+  "source_names": ["AP (via ABC News)", "beIN Sports"],
+  "hashtags": ["#MATRIX24", "#Messi", "#Argentina", "#Fútbol"],
+  "summary_es": "Messi juega su último partido con Argentina, un amistoso ante Benín en el Monumental, tras perder la final del Mundial 2026. Se va con 125 goles, récord de la selección.",
+  "summary_en": "Messi plays his last match for Argentina, a friendly against Benin at the Monumental, after losing the 2026 World Cup final. He leaves with a national-record 125 goals.",
+  "highlight_es": "partido de despedida",
+  "highlight_en": "farewell match",
+  "visual_label": "Monumental",
+  "image_prompt": "Packed football stadium at night under bright floodlights, sky-blue and white streamers and confetti in the stands, empty green pitch with a lone ball on the centre spot, wide cinematic view, no people's faces, no text, no logos",
+  "map": {
+    "focus": ["Argentina"],
+    "marker": {"lat": -34.545, "lon": -58.4498, "label": "Buenos Aires"},
+    "labels": {"Argentina": "Argentina"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
