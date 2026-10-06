@@ -1,0 +1,31 @@
+name: Claude Lane Publisher (dry-run)
+
+# Step 2 of docs/CLAUDE_LANE.md. DRY-RUN ONLY: reads the lane queue, the
+# account feed and the publishing quota, and prints what it would publish.
+# No repository write permission, no timer trigger, and run-publisher.mjs
+# refuses live mode.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: claude-lane-publisher
+  cancel-in-progress: false
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Plan (dry-run)
+        env:
+          CLAUDE_LANE_MODE: dry-run
+          IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          IG_CLAUDE_USER_ID: '17841423605720355'
+        run: node scripts/claude-lane/run-publisher.mjs
