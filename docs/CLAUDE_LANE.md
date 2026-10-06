@@ -70,6 +70,13 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
    `run-lane.mjs` and workflow `claude-lane-pipeline.yml` (every 2 h at :41).
    While `CLAUDE_LANE_ENABLED` is not `true` every run is a dry run that
    uploads the draft and card as the `claude-lane-preview` artifact.
+3c. Drafts written by Claude (2026-10-06). GitHub Models answered every request
+   with a bare "OK", so the bilingual drafts are written by a Claude scheduled
+   research task ("MATRIX 24 — Claude Lane drafts") that pushes only
+   `claude-lane/drafts/<content_id>.json` to branch `claude/lane-drafts`. The
+   pipeline adopts at most one new, valid, < 24 h old draft per run, resets all
+   state fields, renders the card and marks it `ready_to_publish`. The LLM
+   task never touches `main`, `queue/` or Instagram.
 4. Token renewal job — `refresh-token.mjs` + `claude-lane-token-refresh.yml` (Mondays 09:23 UTC). Red run = owner action needed.
 5. Justen sets `CLAUDE_LANE_ENABLED=true`; first live post observed.
 
