@@ -70,7 +70,7 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
    `run-lane.mjs` and workflow `claude-lane-pipeline.yml` (every 2 h at :41).
    While `CLAUDE_LANE_ENABLED` is not `true` every run is a dry run that
    uploads the draft and card as the `claude-lane-preview` artifact.
-4. Token renewal job.
+4. Token renewal job — `refresh-token.mjs` + `claude-lane-token-refresh.yml` (Mondays 09:23 UTC). Red run = owner action needed.
 5. Justen sets `CLAUDE_LANE_ENABLED=true`; first live post observed.
 
 ## Rollback
