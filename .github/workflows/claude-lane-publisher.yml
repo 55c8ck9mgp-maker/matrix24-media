@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: claude-lane-publisher
+  group: claude-lane
   cancel-in-progress: false
 
 jobs:

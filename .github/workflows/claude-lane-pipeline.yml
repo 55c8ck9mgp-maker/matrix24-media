@@ -1,0 +1,55 @@
+name: Claude Lane Pipeline
+
+# docs/CLAUDE_LANE.md. Every 2 hours: reconcile -> produce one bilingual story ->
+# publish one story. Commits and Instagram publication happen ONLY when the
+# repository variable CLAUDE_LANE_ENABLED is exactly "true" (set by Justen).
+# Otherwise the run is a dry run and the draft + card are uploaded as an artifact.
+# Writes are limited to claude-lane/ by scripts/claude-lane/git-store.mjs.
+on:
+  schedule:
+    - cron: '41 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: claude-lane
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 20
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Renderer dependencies
+        run: |
+          sudo apt-get install -y --no-install-recommends fonts-dejavu-core >/dev/null
+          python3 -m pip install --quiet 'pillow==12.*'
+      - name: Run lane
+        env:
+          CLAUDE_LANE_ENABLED: ${{ vars.CLAUDE_LANE_ENABLED }}
+          IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          IG_CLAUDE_USER_ID: '17841423605720355'
+          GITHUB_TOKEN: ${{ github.token }}
+          LANE_OUT: ${{ runner.temp }}/lane-out
+        run: |
+          mkdir -p "$LANE_OUT"
+          git config user.name matrix24-claude-lane
+          git config user.email matrix24-claude-lane@users.noreply.github.com
+          node scripts/claude-lane/run-lane.mjs
+      - name: Upload dry-run preview
+        if: always() && vars.CLAUDE_LANE_ENABLED != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-lane-preview
+          path: ${{ runner.temp }}/lane-out
+          if-no-files-found: ignore
