@@ -2,27 +2,27 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
-const workflow=fs.readFileSync('.github/workflows/editorial-queue-promotion.yml','utf8');
+// The legacy Promotion Controller was retired by the owner's cutover on
+// 2026-10-03 (96e12c9). This file now runs only the read-only "Lite Editorial
+// Research" job. These tests lock that boundary in place instead of asserting
+// the retired triggers.
+const workflow = fs.readFileSync('.github/workflows/editorial-queue-promotion.yml', 'utf8');
 
-test('Promotion Controller has event and periodic recovery triggers',()=>{
-  assert.match(workflow,/push:\n\s+branches:\n\s+- main/);
-  assert.match(workflow,/paths:\n\s+- 'editorial\/promotions\/\*\.json'/);
-  assert.match(workflow,/schedule:\n\s+- cron: '\*\/15 \* \* \* \*'/);
-  assert.match(workflow,/EVENT_NAME.*github\.event_name/);
-  assert.match(workflow,/EVENT_NAME" = "schedule/);
+test('editorial workflow is the read-only Lite research job', () => {
+  assert.match(workflow, /^name: MATRIX 24 Lite Editorial Research/m);
+  assert.match(workflow, /contents: read/);
+  assert.doesNotMatch(workflow, /contents:\s*write/);
+  assert.doesNotMatch(workflow, /pull-requests:\s*write/);
 });
 
-test('scheduled recovery delegates candidate validation to a testable selector',()=>{
-  assert.match(workflow,/node scripts\/select-promotion-work\.mjs > \.promotion-selection\.json/);
-  assert.match(workflow,/has_work=false/);
-  assert.match(workflow,/has_work=true/);
-  assert.match(workflow,/quarantined invalid approved manifest/);
-  assert.match(workflow,/group: editorial-queue-promotion/);
-  assert.doesNotMatch(workflow,/gh pr merge|--merge|--squash|--rebase/);
+test('retired promotion path cannot create queue records, branches or PRs', () => {
+  assert.doesNotMatch(workflow, /editorial\/promotions\/\*\.json/);
+  assert.doesNotMatch(workflow, /gh pr (create|merge)|git push|--squash|--rebase/);
+  assert.doesNotMatch(workflow, /queue\//);
 });
 
-test('no-work schedule path cannot fall through into branch or PR creation',()=>{
-  const gates=workflow.match(/if: steps\.promotion\.outputs\.has_work == 'true'/g) || [];
-  assert.equal(gates.length,2);
-  assert.match(workflow,/no valid approved unadmitted manifest/);
+test('research job stays serialized and bounded', () => {
+  assert.match(workflow, /group: matrix24-lite-editorial/);
+  assert.match(workflow, /cancel-in-progress: false/);
+  assert.match(workflow, /timeout-minutes: \d+/);
 });
