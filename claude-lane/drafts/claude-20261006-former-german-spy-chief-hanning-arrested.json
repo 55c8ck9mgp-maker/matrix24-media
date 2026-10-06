@@ -1,0 +1,21 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-former-german-spy-chief-hanning-arrested",
+  "status": "draft",
+  "created_at": "2026-10-06T16:27:04Z",
+  "category": "Security / Geopolitics",
+  "headline": "Former German spy chief August Hanning arrested on suspicion of working for a foreign intelligence service",
+  "headline_es": "Detienen al exjefe de espionaje alemán August Hanning por presunto trabajo para un servicio de inteligencia extranjero",
+  "caption_en": "German federal prosecutors arrested August Hanning, who led the BND foreign intelligence service until 2005, on Tuesday. They allege he used classified material from a former BND office manager, also arrested, to prepare an analysis for an officer of a foreign intelligence service. Around 2,000 documents were allegedly passed to him over the years; prosecutors have not named the foreign country.",
+  "caption_es": "La Fiscalía federal alemana detuvo el martes a August Hanning, quien dirigió el servicio de inteligencia exterior BND hasta 2005. Lo acusa de haber usado material clasificado de un exjefe de oficina del BND, también detenido, para preparar un análisis destinado a un oficial de un servicio de inteligencia extranjero. Según la acusación, le entregaron unos 2.000 documentos a lo largo de los años; la Fiscalía no ha identificado al país extranjero.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/6/former-german-spy-chief-arrested-on-suspicion-of-treason-and-espionage",
+    "https://www.irishtimes.com/world/europe/2026/10/06/former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/"
+  ],
+  "source_names": ["Al Jazeera", "The Irish Times"],
+  "hashtags": ["#MATRIX24", "#Germany", "#BND", "#Espionage", "#Security"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
