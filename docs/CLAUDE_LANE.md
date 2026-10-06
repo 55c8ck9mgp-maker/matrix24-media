@@ -80,6 +80,16 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
    pipeline adopts at most one new, valid, < 24 h old draft per run, resets all
    state fields, renders the card and marks it `ready_to_publish`. The LLM
    task never touches `main`, `queue/` or Instagram.
+3d. Card v2 (2026-10-06, Justen's request): `claude-lane/render/` builds a
+   1080x1350 card from an HTML template (headlines ES/EN with highlights,
+   locator map from Natural Earth via world-atlas, summaries, sources) and
+   screenshots it with Chromium. The illustration is generated with Cloudflare
+   Workers AI (FLUX.1 schnell, free allocation, secret `CF_AI_TOKEN`) from the
+   draft's `image_prompt` plus fixed safety rules: generic scenes only, no
+   identifiable real people, no text/logos/flags, never presented as a photo of
+   the event. Cards with an illustration show "Ilustración IA · AI
+   illustration" and the caption adds an AI note (`ai_illustration: true`).
+   Any failure falls back to the v1 text card; a story is never blocked.
 4. Token renewal job — `refresh-token.mjs` + `claude-lane-token-refresh.yml` (Mondays 09:23 UTC). Red run = owner action needed.
 5. Justen sets `CLAUDE_LANE_ENABLED=true`; first live post observed.
 
