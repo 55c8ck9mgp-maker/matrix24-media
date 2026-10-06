@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { runPublisher, DAILY_CAP } from '../scripts/claude-lane/publisher.mjs';
+import { runPublisher, MIN_SPACING_MS } from '../scripts/claude-lane/publisher.mjs';
 import { findDuplicate } from '../scripts/claude-lane/dedupe.mjs';
 import { fsReadOnlyStore } from '../scripts/claude-lane/run-publisher.mjs';
 import { checkLaneTransition } from '../scripts/claude-lane/lane-record.mjs';
@@ -114,12 +114,17 @@ test('claim conflict stops before Instagram', async () => {
   assert.deepEqual(ig.calls, ['feed']);
 });
 
-test('daily cap and quota floor', async () => {
-  const done = Array.from({ length: DAILY_CAP }, (_, i) => rec(`p${i}`, {
+test('no daily cap; minimum spacing and quota floor', async () => {
+  const many = Array.from({ length: 30 }, (_, i) => rec(`p${i}`, {
     status: 'published', publish_attempt_id: `x${i}`, ig_media_id: `${i + 1}`, reserved_at: '2026-10-06T01:00:00Z',
     headline: `Story number ${i} about different topic entirely`,
   }));
-  assert.equal((await run({ mode: 'live', enabled: true, store: fakeStore([...done, rec('a')]), ig: fakeIg() })).outcome, 'daily_cap');
+  assert.equal((await run({ mode: 'dry-run', store: fakeStore([...many, rec('a')]), ig: fakeIg() })).outcome, 'would_publish');
+  const recent = rec('r', { status: 'published', publish_attempt_id: 'y', ig_media_id: '77', headline: 'Another unrelated topic for spacing test',
+    reserved_at: new Date(NOW - MIN_SPACING_MS + 60000).toISOString() });
+  assert.equal((await run({ mode: 'live', enabled: true, store: fakeStore([recent, rec('a')]), ig: fakeIg() })).outcome, 'spacing');
+  const older = { ...recent, reserved_at: new Date(NOW - MIN_SPACING_MS - 1000).toISOString() };
+  assert.equal((await run({ mode: 'dry-run', store: fakeStore([older, rec('a')]), ig: fakeIg() })).outcome, 'would_publish');
   assert.equal((await run({ mode: 'live', enabled: true, store: fakeStore([rec('a')]), ig: fakeIg(), readQuota: async () => ({ total: 100, used: 95 }) })).outcome, 'quota_low');
   assert.equal((await run({ mode: 'live', enabled: true, store: fakeStore([rec('a')]), ig: fakeIg(), readQuota: async () => { throw new Error('x'); } })).outcome, 'quota_unknown');
 });

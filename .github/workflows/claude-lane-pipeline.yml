@@ -1,6 +1,6 @@
 name: Claude Lane Pipeline
 
-# docs/CLAUDE_LANE.md. Every hour: reconcile -> produce one bilingual story ->
+# docs/CLAUDE_LANE.md. Every 15 minutes: reconcile -> produce one bilingual story ->
 # publish one story. Drafts come from Claude's research task on branch
 # claude/lane-drafts (claude-lane/drafts/*.json). Commits and Instagram publication happen ONLY when the
 # repository variable CLAUDE_LANE_ENABLED is exactly "true" (set by Justen).
@@ -8,7 +8,7 @@ name: Claude Lane Pipeline
 # Writes are limited to claude-lane/ by scripts/claude-lane/git-store.mjs.
 on:
   schedule:
-    - cron: '41 * * * *'
+    - cron: '4,19,34,49 * * * *'
   workflow_dispatch:
 
 permissions:

@@ -35,8 +35,11 @@ lane (ChatGPT Publisher). The two lanes never share queue records.
 4. **No blind retry.** A returned media ID means `published`. Anything
    else means `publish_unknown`; it is resolved only by positive evidence
    in the feed, never by age, and never republished automatically.
-5. **Daily cap.** At most 4 Claude Lane posts per UTC day, and none if the
-   account's `content_publishing_limit` shows less than 10 remaining.
+5. **Volume and spacing (changed by Justen 2026-10-06).** No daily cap: the
+   lane publishes as much relevant news as exists, 24/7. Limits: at least 15
+   minutes between lane posts, and none when the account's
+   `content_publishing_limit` shows fewer than 10 posts remaining (Instagram
+   allows 100 API posts per 24 h, shared with the Core v2 lane).
 6. **Kill switch.** Each run exits without side effects unless
    `CLAUDE_LANE_ENABLED` is exactly `true`.
 7. **No secrets in logs or records.** The token is used only as a header.
@@ -67,7 +70,7 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
    non-initial capitalized name not present in the sources), `git-store.mjs`
    (CAS on blob hash, only `claude-lane/` paths, a claim counts only once it is
    on `origin/main`), `reconcile.mjs` (exact single caption match only),
-   `run-lane.mjs` and workflow `claude-lane-pipeline.yml` (hourly at :41; drafts task hourly at :20).
+   `run-lane.mjs` and workflow `claude-lane-pipeline.yml` (every 15 min at :04/:19/:34/:49; drafts task hourly at :20, up to 3 drafts per run).
    While `CLAUDE_LANE_ENABLED` is not `true` every run is a dry run that
    uploads the draft and card as the `claude-lane-preview` artifact.
 3c. Drafts written by Claude (2026-10-06). GitHub Models answered every request

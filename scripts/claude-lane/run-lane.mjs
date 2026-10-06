@@ -13,7 +13,7 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { createInstagramClient } from '../instagram-graph.mjs';
 import { validateLaneRecord } from './lane-record.mjs';
-import { runPublisher, DAILY_CAP } from './publisher.mjs';
+import { runPublisher } from './publisher.mjs';
 import { reconcile } from './reconcile.mjs';
 import { createGitStore } from './git-store.mjs';
 import { fsReadOnlyStore, loadOthers } from './run-publisher.mjs';
@@ -66,8 +66,6 @@ export function adoptDraft(raw, now) {
 async function produce(store, now, drafts = readBranchDrafts()) {
   const entries = await store.list();
   if (entries.some(e => ['draft', 'ready_to_publish'].includes(e.record.status))) return { outcome: 'backlog_present' };
-  const today = now.toISOString().slice(0, 10);
-  if (entries.filter(e => String(e.record.created_at).startsWith(today)).length >= DAILY_CAP) return { outcome: 'daily_cap' };
 
   const known = new Set(entries.map(e => e.record.content_id));
   const rejected = [];
