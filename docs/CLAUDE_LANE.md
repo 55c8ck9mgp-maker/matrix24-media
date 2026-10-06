@@ -67,7 +67,7 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
    non-initial capitalized name not present in the sources), `git-store.mjs`
    (CAS on blob hash, only `claude-lane/` paths, a claim counts only once it is
    on `origin/main`), `reconcile.mjs` (exact single caption match only),
-   `run-lane.mjs` and workflow `claude-lane-pipeline.yml` (every 2 h at :41).
+   `run-lane.mjs` and workflow `claude-lane-pipeline.yml` (hourly at :41; drafts task hourly at :20).
    While `CLAUDE_LANE_ENABLED` is not `true` every run is a dry run that
    uploads the draft and card as the `claude-lane-preview` artifact.
 3c. Drafts written by Claude (2026-10-06). GitHub Models answered every request
