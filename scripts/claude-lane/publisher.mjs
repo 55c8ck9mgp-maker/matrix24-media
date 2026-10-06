@@ -7,7 +7,9 @@
 import { validateLaneRecord, checkLaneTransition, composeCaption } from './lane-record.mjs';
 import { findDuplicate } from './dedupe.mjs';
 
-export const DAILY_CAP = 4;
+// No daily cap (Justen, 2026-10-06): volume follows the news. Limits are the
+// account's Instagram quota floor and a minimum spacing between posts.
+export const MIN_SPACING_MS = 15 * 60 * 1000;
 export const MIN_QUOTA_REMAINING = 10;
 
 const utcDay = ms => new Date(ms).toISOString().slice(0, 10);
@@ -41,8 +43,9 @@ export async function runPublisher({
   if (!ready.length) return { outcome: 'no_candidate' };
   const { record: candidate, sha } = ready[0];
 
+  const lastReserved = Math.max(0, ...entries.map(e => Date.parse(e.record.reserved_at || '') || 0));
+  if (now - lastReserved < MIN_SPACING_MS) return { outcome: 'spacing', next_after: new Date(lastReserved + MIN_SPACING_MS).toISOString() };
   const today = entries.filter(e => e.record.reserved_at && utcDay(Date.parse(e.record.reserved_at)) === utcDay(now)).length;
-  if (today >= DAILY_CAP) return { outcome: 'daily_cap', today };
 
   let quota;
   try { quota = await readQuota(); } catch { return { outcome: 'quota_unknown' }; }

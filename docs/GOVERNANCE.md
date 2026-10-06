@@ -152,7 +152,8 @@ approval (gate G4 does not apply to it) because Justen chose full
 autonomy for it. It is isolated by design: its own queue
 (`claude-lane/queue/`), its own Meta app and token
 (`IG_CLAUDE_ACCESS_TOKEN`), deterministic GitHub Actions code for the
-side effect, a daily cap, a cross-lane duplicate check against `queue/`
+side effect, a 15-minute minimum spacing and an Instagram quota floor (no
+daily cap since 2026-10-06, Justen's decision), a cross-lane duplicate check against `queue/`
 and the live feed, and a kill switch only Justen controls. Details and
 rollback: `docs/CLAUDE_LANE.md`.
 
