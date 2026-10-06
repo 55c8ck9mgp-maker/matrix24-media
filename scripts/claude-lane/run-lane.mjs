@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-// Claude Lane pipeline: reconcile -> produce one story -> publish one story.
+// Claude Lane pipeline: reconcile -> adopt one Claude-written draft -> publish one story.
+// (GitHub Models returned a bare "OK" to every request on 2026-10-06, so drafts are
+// written by Claude's scheduled research task instead; research.mjs is kept for its
+// tested discovery and fact-guard helpers.)
 // Writes and publishing happen ONLY when CLAUDE_LANE_ENABLED is exactly "true"
 // (repository variable set by Justen). Otherwise every stage is a dry run: the
 // draft and its card are written to $LANE_OUT for inspection and nothing is
@@ -14,7 +17,6 @@ import { runPublisher, DAILY_CAP } from './publisher.mjs';
 import { reconcile } from './reconcile.mjs';
 import { createGitStore } from './git-store.mjs';
 import { fsReadOnlyStore, loadOthers } from './run-publisher.mjs';
-import { FEEDS, parseFeed, consensus, pickCandidate, buildPrompt, callModel, guardFacts, toRecord } from './research.mjs';
 import { mediaUrl, mediaPath } from './media-url.mjs';
 
 const LIVE = process.env.CLAUDE_LANE_ENABLED === 'true';
@@ -26,6 +28,7 @@ const log = (stage, obj) => {
   if (process.env.GITHUB_ACTIONS) console.log(`::notice title=lane ${stage}::${line.replace(/\n/g, ' ').slice(0, 900)}`);
 };
 
+export { produce };
 export function renderCard(record) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'card-'));
   const inp = path.join(tmp, 'r.json'); const out = path.join(tmp, 'c.jpg');
@@ -34,46 +37,60 @@ export function renderCard(record) {
   return fs.readFileSync(out);
 }
 
-async function produce(store, now) {
+export const DRAFTS_BRANCH = 'claude/lane-drafts';
+export const DRAFTS_DIR = 'claude-lane/drafts';
+const gitOut = args => execFileSync('git', args, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+
+// Drafts written by Claude's scheduled research task live on DRAFTS_BRANCH under
+// DRAFTS_DIR. The pipeline adopts at most one new draft per run into the lane
+// queue on main, renders its card and marks it ready_to_publish.
+export function readBranchDrafts() {
+  try { gitOut(['fetch', '-q', 'origin', `${DRAFTS_BRANCH}:refs/remotes/origin/${DRAFTS_BRANCH}`]); } catch { return []; }
+  let names = [];
+  try { names = gitOut(['ls-tree', '--name-only', `origin/${DRAFTS_BRANCH}`, `${DRAFTS_DIR}/`]).split('\n').filter(n => n.endsWith('.json')); } catch { return []; }
+  const out = [];
+  for (const n of names) {
+    try { out.push(JSON.parse(gitOut(['show', `origin/${DRAFTS_BRANCH}:${n}`]))); } catch { /* unreadable draft skipped */ }
+  }
+  return out.sort((a, b) => String(a.created_at).localeCompare(String(b.created_at)));
+}
+
+export function adoptDraft(raw, now) {
+  // Only content fields are taken from the draft; state fields are reset here.
+  const keep = ['lane', 'content_id', 'created_at', 'category', 'headline', 'headline_es', 'caption_es', 'caption_en', 'source_urls', 'source_names', 'hashtags'];
+  const rec = Object.fromEntries(keep.filter(k => raw?.[k] !== undefined).map(k => [k, raw[k]]));
+  return { ...rec, status: 'draft', image_url: null, publish_attempt_id: null, ig_media_id: null,
+    history: [{ at: now.toISOString(), event: 'adopted_from_drafts_branch' }] };
+}
+
+async function produce(store, now, drafts = readBranchDrafts()) {
   const entries = await store.list();
   if (entries.some(e => ['draft', 'ready_to_publish'].includes(e.record.status))) return { outcome: 'backlog_present' };
   const today = now.toISOString().slice(0, 10);
-  if (entries.filter(e => e.record.created_at.startsWith(today)).length >= DAILY_CAP) return { outcome: 'daily_cap' };
+  if (entries.filter(e => String(e.record.created_at).startsWith(today)).length >= DAILY_CAP) return { outcome: 'daily_cap' };
 
-  const cutoff = now.getTime() - 12 * 3600 * 1000;
-  const items = [];
-  for (const feed of FEEDS) {
-    try {
-      const r = await fetch(feed.url, { headers: { 'user-agent': 'MATRIX24-ClaudeLane/1.0' } });
-      if (r.ok) items.push(...parseFeed(await r.text(), feed, cutoff));
-    } catch { /* a missing feed only narrows discovery */ }
+  const known = new Set(entries.map(e => e.record.content_id));
+  const rejected = [];
+  for (const raw of drafts) {
+    if (!raw || known.has(raw.content_id)) continue;
+    const record = adoptDraft(raw, now);
+    const errs = validateLaneRecord(record);
+    if (errs.length) { rejected.push({ id: raw.content_id, errs }); continue; }
+    if (Date.parse(record.created_at) < now.getTime() - 24 * 3600 * 1000) { rejected.push({ id: raw.content_id, errs: ['STALE_DRAFT'] }); continue; }
+    const jpg = renderCard(record);
+    const ready = { ...record, status: 'ready_to_publish', image_url: mediaUrl(record.content_id),
+      history: [...record.history, { at: now.toISOString(), event: 'rendered' }] };
+    if (!LIVE) {
+      fs.writeFileSync(path.join(OUT, `${record.content_id}.json`), JSON.stringify(ready, null, 2));
+      fs.writeFileSync(path.join(OUT, `${record.content_id}.jpg`), jpg);
+      return { outcome: 'would_create', content_id: record.content_id, headline_es: record.headline_es, rejected };
+    }
+    const w1 = await store.write(record, null, `claude-lane: adopt draft ${record.content_id}`);
+    if (!w1.ok) return { outcome: 'draft_write_failed', rejected };
+    const w2 = await store.write(ready, w1.sha, `claude-lane: render ${record.content_id}`, [{ path: mediaPath(record.content_id), buffer: jpg }]);
+    return { outcome: w2.ok ? 'created' : 'render_write_failed', content_id: record.content_id, rejected };
   }
-  const others = [...loadOthers(), ...entries.map(e => ({ id: e.record.content_id, headline: e.record.headline, source_urls: e.record.source_urls }))];
-  const candidate = pickCandidate(consensus(items), others);
-  if (!candidate) return { outcome: 'no_candidate', items: items.length };
-
-  const draft = await callModel(buildPrompt(candidate), { token: process.env.GITHUB_TOKEN, model: process.env.LANE_MODEL || undefined });
-  const problems = guardFacts(draft, candidate);
-  if (problems.length) return { outcome: 'draft_rejected', problems, headline: candidate.headline };
-  const record = toRecord(draft, candidate, now);
-  const errs = validateLaneRecord(record);
-  if (errs.length) return { outcome: 'draft_invalid', errors: errs };
-  if (entries.some(e => e.record.content_id === record.content_id)) return { outcome: 'id_exists' };
-
-  const jpg = renderCard(record);
-  const ready = { ...record, status: 'ready_to_publish', image_url: mediaUrl(record.content_id),
-    history: [...record.history, { at: now.toISOString(), event: 'rendered' }] };
-  if (validateLaneRecord(ready).length) return { outcome: 'ready_invalid', errors: validateLaneRecord(ready) };
-
-  if (!LIVE) {
-    fs.writeFileSync(path.join(OUT, `${record.content_id}.json`), JSON.stringify(ready, null, 2));
-    fs.writeFileSync(path.join(OUT, `${record.content_id}.jpg`), jpg);
-    return { outcome: 'would_create', content_id: record.content_id, headline_es: record.headline_es };
-  }
-  const w1 = await store.write(record, null, `claude-lane: draft ${record.content_id}`);
-  if (!w1.ok) return { outcome: 'draft_write_failed' };
-  const w2 = await store.write(ready, w1.sha, `claude-lane: render ${record.content_id}`, [{ path: mediaPath(record.content_id), buffer: jpg }]);
-  return { outcome: w2.ok ? 'created' : 'render_write_failed', content_id: record.content_id };
+  return { outcome: drafts.length ? 'no_new_valid_draft' : 'no_drafts', rejected };
 }
 
 async function main() {

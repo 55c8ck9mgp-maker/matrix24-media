@@ -1,7 +1,8 @@
 name: Claude Lane Pipeline
 
 # docs/CLAUDE_LANE.md. Every 2 hours: reconcile -> produce one bilingual story ->
-# publish one story. Commits and Instagram publication happen ONLY when the
+# publish one story. Drafts come from Claude's research task on branch
+# claude/lane-drafts (claude-lane/drafts/*.json). Commits and Instagram publication happen ONLY when the
 # repository variable CLAUDE_LANE_ENABLED is exactly "true" (set by Justen).
 # Otherwise the run is a dry run and the draft + card are uploaded as an artifact.
 # Writes are limited to claude-lane/ by scripts/claude-lane/git-store.mjs.
@@ -12,7 +13,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: claude-lane
