@@ -19,7 +19,7 @@ jobs:
         run: |
           set -uo pipefail
           [ -n "${CF_AI_TOKEN:-}" ] || { echo "::error title=probe::CF_AI_TOKEN missing"; exit 1; }
-          body='{"prompt":"Editorial illustration, cinematic photo style: three grey military training jets parked on an airfield apron at dusk, forested mountains behind, military trucks in the background, no text, no logos, no people","steps":4,"width":1024,"height":1024}'
+          body='{"prompt":"Editorial illustration, cinematic photo style: three grey military training jets parked on an airfield apron at dusk, forested mountains behind, military trucks in the background, no text, no logos, no people","steps":4}'
           curl -sS -X POST -H "Authorization: Bearer ${CF_AI_TOKEN}" -H "Content-Type: application/json" \
             "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell" -d "$body" > out.json
           echo "::notice title=probe::$(jq -c '{success, errors, has_image: (.result.image != null)}' out.json)"
