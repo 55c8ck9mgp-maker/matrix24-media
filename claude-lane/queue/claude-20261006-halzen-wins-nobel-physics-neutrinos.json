@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-halzen-wins-nobel-physics-neutrinos",
+  "created_at": "2026-10-06T15:22:27Z",
+  "category": "Science",
+  "headline": "Belgian physicist Francis Halzen wins Nobel Prize in Physics for Antarctic neutrino detector",
+  "headline_es": "El físico belga Francis Halzen gana el Nobel de Física por su detector de neutrinos en la Antártida",
+  "caption_es": "El físico belga Francis Halzen ganó el Premio Nobel de Física 2026, anunció el martes en Estocolmo la Real Academia Sueca de Ciencias. Fue reconocido por IceCube, un gigantesco detector instalado en el hielo bajo el Polo Sur, en la Antártida, que capta neutrinos, las esquivas partículas procedentes del espacio conocidas como \"partículas fantasma\".",
+  "caption_en": "Belgian physicist Francis Halzen has won the 2026 Nobel Prize in Physics, the Royal Swedish Academy of Sciences announced on Tuesday in Stockholm. He was recognized for IceCube, a giant detector in the ice beneath the South Pole in Antarctica that captures neutrinos, the elusive particles from space known as \"ghost particles\".",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/6/francis-halzen-wins-nobel-prize-in-physics-for-work-on-ghost-particles",
+    "https://www.euronews.com/2026/10/06/belgian-physicist-wins-nobel-for-turning-antarctic-ice-into-a-telescope"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Euronews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#NobelPrize",
+    "#Physics",
+    "#Neutrinos",
+    "#Science"
+  ],
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-06T16:52:37.467Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
