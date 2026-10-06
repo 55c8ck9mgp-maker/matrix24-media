@@ -56,7 +56,11 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
    A claim may return to `ready_to_publish` only with a `not_invoked`
    history entry for the same attempt (container failed or never ready, so
    `media_publish` was provably not called).
-3. Image rendering for lane stories (free tooling only).
+3. Image rendering for lane stories (free tooling only) —
+   `scripts/claude-lane/render_card.py` draws a 1080x1350 text card (no AI
+   imagery). The JPEG is committed to `claude-lane/media/` and served from
+   raw.githubusercontent.com (`media-url.mjs`); verified 2026-10-06 that the
+   URL returns `image/jpeg` and Instagram accepts it for a private container.
 4. Token renewal job.
 5. Justen sets `CLAUDE_LANE_ENABLED=true`; first live post observed.
 
