@@ -23,8 +23,11 @@ jobs:
           URL: https://raw.githubusercontent.com/${{ github.repository }}/claude/lane-hosting-check/claude-lane/media/hosting-check.jpg
         run: |
           set -uo pipefail
-          echo "== raw headers"; curl -sSI "$URL" | grep -iE '^HTTP|content-type|content-length'
-          echo "== container (private, never published)"
-          curl -sS -X POST -H "Authorization: Bearer ${IG_TOKEN}" \
+          hdr=$(curl -sSI "$URL" | grep -iE '^HTTP|content-type' | tr -d '\r' | tr '\n' ' ')
+          echo "::notice title=raw headers::${hdr}"
+          res=$(curl -sS -X POST -H "Authorization: Bearer ${IG_TOKEN}" \
             --data-urlencode "image_url=${URL}" --data-urlencode "caption=hosting check - not published" \
-            "https://graph.instagram.com/v23.0/${UID_}/media" | jq '{id_present: (.id != null), error: (.error | if . then {type, code, error_subcode, message} else null end)}'
+            "https://graph.instagram.com/v23.0/${UID_}/media")
+          summary=$(echo "$res" | jq -c '{id_present: (.id != null), error: (.error | if . then {type, code, error_subcode, message} else null end)}')
+          echo "::notice title=container::${summary}"
+          echo "$res" | jq -e '.id' >/dev/null
