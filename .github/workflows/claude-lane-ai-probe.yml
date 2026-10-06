@@ -1,0 +1,29 @@
+name: Claude Lane AI image probe (branch only)
+# One-shot check that CF_AI_TOKEN can generate an image with Workers AI.
+# Pushes the sample JPEG back to this probe branch only. Never publishes.
+on:
+  push:
+    branches: [claude/lane-ai-probe]
+    paths: [.github/workflows/claude-lane-ai-probe.yml]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - env:
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
+          CF_ACCOUNT_ID: e2776b03d0f07550fa6d0bbe80f87dbe
+        run: |
+          set -uo pipefail
+          [ -n "${CF_AI_TOKEN:-}" ] || { echo "::error title=probe::CF_AI_TOKEN missing"; exit 1; }
+          body='{"prompt":"Editorial illustration, cinematic photo style: three grey military training jets parked on an airfield apron at dusk, forested mountains behind, military trucks in the background, no text, no logos, no people","steps":4,"width":1024,"height":1024}'
+          curl -sS -X POST -H "Authorization: Bearer ${CF_AI_TOKEN}" -H "Content-Type: application/json" \
+            "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell" -d "$body" > out.json
+          echo "::notice title=probe::$(jq -c '{success, errors, has_image: (.result.image != null)}' out.json)"
+          jq -e '.result.image' out.json >/dev/null || exit 1
+          mkdir -p probe && jq -r '.result.image' out.json | base64 -d > probe/sample.jpg
+          git config user.name matrix24-claude-lane && git config user.email matrix24-claude-lane@users.noreply.github.com
+          git add probe/sample.jpg && git commit -q -m "probe: Workers AI sample" && git push -q origin HEAD:claude/lane-ai-probe
