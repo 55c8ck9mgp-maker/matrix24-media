@@ -47,7 +47,7 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
 
 ## Build order (each step its own PR)
 
-1. Lane queue schema and validator, with tests.
+1. Lane queue schema and validator, with tests — `scripts/claude-lane/lane-record.mjs`, `tests/claude-lane-record.test.mjs`, CI `claude-lane-ci.yml`.
 2. Publisher workflow in dry-run mode (builds the container payload,
    never calls `media_publish`), with tests for rules 1–7.
 3. Image rendering for lane stories (free tooling only).

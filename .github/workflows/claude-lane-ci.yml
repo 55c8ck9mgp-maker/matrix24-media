@@ -1,0 +1,24 @@
+name: Claude Lane CI
+
+# Validates Claude Lane code and records. Read-only; never publishes.
+on:
+  pull_request:
+    paths: ['claude-lane/**', 'scripts/claude-lane/**', 'tests/claude-lane-*', '.github/workflows/claude-lane-*']
+  push:
+    branches: [main]
+    paths: ['claude-lane/**', 'scripts/claude-lane/**', 'tests/claude-lane-*', '.github/workflows/claude-lane-*']
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - run: node --test tests/claude-lane-*.test.mjs tests/workflow-publication-capability.test.mjs
+      - run: node scripts/claude-lane/validate-lane-queue.mjs

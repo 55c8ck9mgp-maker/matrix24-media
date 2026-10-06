@@ -1,0 +1,100 @@
+// Claude Lane queue record: schema and transition rules.
+// Spec: docs/CLAUDE_LANE.md. Records live in claude-lane/queue/<content_id>.json
+// and are never mixed with the Core v2 queue under queue/.
+
+export const LANE = 'claude';
+export const STATUSES = Object.freeze([
+  'draft', 'ready_to_publish', 'publishing', 'published', 'publish_unknown', 'skipped_duplicate',
+]);
+export const CAPTION_MAX = 2200;
+export const HASHTAGS_MAX = 30;
+const ID_RE = /^claude-\d{8}-[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const ISO_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/;
+
+const isHttps = value => {
+  try { return new URL(value).protocol === 'https:'; } catch { return false; }
+};
+const hostOf = value => new URL(value).hostname.replace(/^www\./, '').toLowerCase();
+const nonEmpty = value => typeof value === 'string' && value.trim().length > 0;
+
+export function composeCaption(record) {
+  const tags = (record.hashtags ?? []).join(' ');
+  const sources = `Fuentes / Sources: ${(record.source_names ?? []).join(', ')}`;
+  return [`🇪🇸 ${record.caption_es.trim()}`, `🇺🇸 ${record.caption_en.trim()}`, sources, tags]
+    .filter(nonEmpty).join('\n\n');
+}
+
+export function validateLaneRecord(record) {
+  const errors = [];
+  const need = (cond, code) => { if (!cond) errors.push(code); };
+  if (!record || typeof record !== 'object' || Array.isArray(record)) return ['NOT_AN_OBJECT'];
+
+  need(record.lane === LANE, 'LANE_MUST_BE_CLAUDE');
+  need(typeof record.content_id === 'string' && ID_RE.test(record.content_id), 'BAD_CONTENT_ID');
+  need(STATUSES.includes(record.status), 'BAD_STATUS');
+  need(typeof record.created_at === 'string' && ISO_RE.test(record.created_at), 'BAD_CREATED_AT');
+  need(nonEmpty(record.headline), 'MISSING_HEADLINE');
+  need(nonEmpty(record.caption_es), 'MISSING_CAPTION_ES');
+  need(nonEmpty(record.caption_en), 'MISSING_CAPTION_EN');
+
+  const urls = Array.isArray(record.source_urls) ? record.source_urls : [];
+  need(urls.length >= 2 && urls.every(isHttps), 'NEED_TWO_HTTPS_SOURCES');
+  if (urls.length >= 2 && urls.every(isHttps)) {
+    need(new Set(urls.map(hostOf)).size >= 2, 'SOURCES_NOT_INDEPENDENT');
+  }
+  need(Array.isArray(record.source_names) && record.source_names.length >= 2
+    && record.source_names.every(nonEmpty), 'NEED_SOURCE_NAMES');
+
+  const tags = record.hashtags ?? [];
+  need(Array.isArray(tags) && tags.length <= HASHTAGS_MAX
+    && tags.every(t => /^#[\p{L}\p{N}_]+$/u.test(t)), 'BAD_HASHTAGS');
+
+  if (nonEmpty(record.caption_es) && nonEmpty(record.caption_en) && Array.isArray(record.source_names)) {
+    need(composeCaption(record).length <= CAPTION_MAX, 'CAPTION_TOO_LONG');
+  }
+
+  const s = record.status;
+  const afterReady = ['ready_to_publish', 'publishing', 'published', 'publish_unknown'].includes(s);
+  if (afterReady) need(isHttps(record.image_url) && /\.jpe?g(\?|$)/i.test(record.image_url), 'NEED_HTTPS_JPEG');
+  if (['publishing', 'published', 'publish_unknown'].includes(s)) {
+    need(nonEmpty(record.publish_attempt_id), 'MISSING_PUBLISH_ATTEMPT_ID');
+  } else {
+    need(record.publish_attempt_id == null, 'UNEXPECTED_PUBLISH_ATTEMPT_ID');
+  }
+  if (s === 'published') need(/^\d+$/.test(String(record.ig_media_id ?? '')), 'PUBLISHED_NEEDS_MEDIA_ID');
+  else need(record.ig_media_id == null, 'UNEXPECTED_MEDIA_ID');
+  need(Array.isArray(record.history), 'MISSING_HISTORY');
+  return errors;
+}
+
+// Allowed lane transitions. There is deliberately no automatic way back to
+// ready_to_publish from publishing/publish_unknown: that would be a blind retry.
+const TRANSITIONS = {
+  'null->draft': 'research',
+  'draft->ready_to_publish': 'render',
+  'draft->skipped_duplicate': 'dedupe',
+  'ready_to_publish->skipped_duplicate': 'dedupe',
+  'ready_to_publish->publishing': 'publisher',
+  'publishing->published': 'publisher',
+  'publishing->publish_unknown': 'publisher',
+  'publish_unknown->published': 'reconciler',
+};
+
+export function checkLaneTransition(prev, next) {
+  const from = prev ? prev.status : 'null';
+  const key = `${from}->${next.status}`;
+  if (from === next.status) {
+    if (prev.publish_attempt_id !== next.publish_attempt_id) return { ok: false, error: 'ATTEMPT_ID_CHANGED' };
+    if (prev.ig_media_id && prev.ig_media_id !== next.ig_media_id) return { ok: false, error: 'MEDIA_ID_CHANGED' };
+    return { ok: true, owner: 'noop' };
+  }
+  const owner = TRANSITIONS[key];
+  if (!owner) return { ok: false, error: `TRANSITION_NOT_ALLOWED:${key}` };
+  if (key === 'ready_to_publish->publishing' && prev.publish_attempt_id != null) {
+    return { ok: false, error: 'ATTEMPT_ALREADY_USED' };
+  }
+  if (from === 'publishing' && prev.publish_attempt_id !== next.publish_attempt_id) {
+    return { ok: false, error: 'ATTEMPT_ID_CHANGED' };
+  }
+  return { ok: true, owner };
+}
