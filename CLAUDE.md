@@ -13,6 +13,22 @@ This partly restores the separation of duties removed on 2026-09-27:
 Claude still approves editorial promotions and merges code, but a
 publication now also needs Justen's approval (gate G4).
 
+## Claude Lane exception (approved by Justen 2026-10-06)
+Justen authorized a second, separate publication lane owned by Claude that
+publishes autonomously, without per-batch approval, to the same Instagram
+account. It is fully specified in `docs/CLAUDE_LANE.md`. Its limits:
+- It uses its own queue, `claude-lane/queue/`, and never reads for
+  publication, writes, reserves or reconciles anything under `queue/`.
+  The ChatGPT/Core v2 lane keeps sole ownership of `queue/` transitions.
+- The side effect is performed only by deterministic, reviewed GitHub
+  Actions code using `IG_CLAUDE_ACCESS_TOKEN`; Claude never calls a
+  publishing API from a chat or an LLM task.
+- It stays off until the repository variable `CLAUDE_LANE_ENABLED` is
+  `true`, which only Justen sets; deleting it or setting `false` stops it.
+- Every Production invariant below applies to it unchanged.
+Where the bullets below forbid Claude from publishing or require batch
+approval, they apply to `queue/` and every other path except this lane.
+
 ## Role
 Claude is the **Orchestrator** for MATRIX 24: integration owner,
 editorial-approval authority (first approval layer), and the final

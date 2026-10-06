@@ -51,6 +51,7 @@ The private Cloudflare Publisher v2 runtime is a staging candidate only. It does
 | ChatGPT Publisher | ChatGPT scheduled task | hourly | Publication | `ready_to_publish -> publishing`; one durable claim and at most one external attempt |
 | Publication Reservation | GitHub Actions legacy tombstone | disabled | Publication | None |
 | Legacy Auto Publisher / Claude Publisher | legacy | disabled | Publication | None |
+| Claude Lane Publisher | GitHub Actions (por construir) | por definir; apagado hasta `CLAUDE_LANE_ENABLED=true` | Publication (carril propio) | **Ninguna en `queue/`**; sólo `claude-lane/queue/` |
 | Reconciliación de claims de media | GitHub Actions `media-claim-reconciliation.yml` (manual) | manual | Media | Vía PR de cola: `processing_media -> ready_to_publish` (adopta JPEG existente), `-> blocked_media` (libera claim sin media) o `-> discarded` (owner) |
 | Core v2 Reconciler | ChatGPT scheduled task | hourly | Reconciliation | `publishing` / `publish_unknown -> published` only with positive matching external evidence; never publishes |
 | Metricool recovery | GitHub Actions `metricool-recovery.yml` | **deprecado 2026-09-29**, sólo manual | Recovery | Ninguna (sólo informe) |

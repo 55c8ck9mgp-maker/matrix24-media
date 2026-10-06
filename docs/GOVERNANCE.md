@@ -65,6 +65,8 @@ gates in `docs/CONTROL-MODEL.md` pass.
 | Promote draft to queue (`approved: true`) | Claude | Claude | Promotion Controller | Justen |
 | Media generation | — | Pipeline rules | Cloudflare Worker | Claude spot-checks |
 | Publish a batch | Claude (batch proposal) | **Justen** | Publication pipeline | Claude, Justen |
+| Publish from the Claude Lane (`claude-lane/queue/`) | Claude | Claude, within `docs/CLAUDE_LANE.md` limits (authorized by Justen 2026-10-06) | Claude Lane workflow | Justen (daily summary) |
+| Turn the Claude Lane on/off (`CLAUDE_LANE_ENABLED`) | Claude | **Justen** | Justen | — |
 | Resolve `publish_unknown` | Claude (evidence) | Claude on positive evidence only; otherwise Justen | Reconciliation workflow | Justen |
 | Discard a record | Claude | **Justen** | Owner-approved PR | — |
 | Code change, non-production (docs, tests, staging) | Anyone | Claude | Claude merges | Justen (PR record) |
@@ -141,6 +143,18 @@ Until G4 is implemented and enabled by Justen in Phase 2, no new
 publication path is turned on. The existing pipeline stays as-is (no
 regression of the autonomous path), with the Auto Publisher disabled per
 INC-018.
+
+## 7a. Claude Lane (2026-10-06)
+
+Justen approved, on 2026-10-06, a second publication lane owned by
+Claude, separate from the Core v2 lane. It publishes without per-batch
+approval (gate G4 does not apply to it) because Justen chose full
+autonomy for it. It is isolated by design: its own queue
+(`claude-lane/queue/`), its own Meta app and token
+(`IG_CLAUDE_ACCESS_TOKEN`), deterministic GitHub Actions code for the
+side effect, a daily cap, a cross-lane duplicate check against `queue/`
+and the live feed, and a kill switch only Justen controls. Details and
+rollback: `docs/CLAUDE_LANE.md`.
 
 ## 8. Changing this document
 
