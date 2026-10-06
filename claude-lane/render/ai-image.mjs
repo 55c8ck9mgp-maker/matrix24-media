@@ -2,7 +2,7 @@
 // daily allocation). Returns a JPEG Buffer or null; any failure falls back to a
 // card without illustration. The prompt is wrapped with fixed safety rules.
 export const MODEL = '@cf/black-forest-labs/flux-1-schnell';
-export const SAFETY = 'Generic editorial illustration. No text, no letters, no logos, no flags with text, '
+export const SAFETY = 'Generic editorial illustration. No text, no letters, no numbers, no signage, no logos, no flags, no insignia, '
   + 'no identifiable real people, no faces in close-up, no gore, no depiction of a real specific event as if it were a news photo.';
 
 export function buildPrompt(imagePrompt) {

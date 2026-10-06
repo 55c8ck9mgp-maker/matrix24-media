@@ -33,9 +33,11 @@ export function mapSvg({ focus = [], marker = null, labels = {}, width = 420, he
   let [[x0, y0], [x1, y1]] = focusF.length ? geoBounds(fc) : [[marker.lon - 4, marker.lat - 4], [marker.lon + 4, marker.lat + 4]];
   if (x1 - x0 > 180) { x0 = -170; x1 = 170; } // antimeridian / huge countries
   const padX = Math.max((x1 - x0) * 0.6, 3); const padY = Math.max((y1 - y0) * 0.6, 3);
-  const box = { type: 'Feature', geometry: { type: 'Polygon', coordinates: [[
-    [x0 - padX, Math.max(y0 - padY, -80)], [x1 + padX, Math.max(y0 - padY, -80)], [x1 + padX, Math.min(y1 + padY, 82)],
-    [x0 - padX, Math.min(y1 + padY, 82)], [x0 - padX, Math.max(y0 - padY, -80)]]] } };
+  // MultiPoint of the padded corners: no polygon winding, so fitExtent always
+  // zooms to the focus area instead of the whole globe.
+  const box = { type: 'MultiPoint', coordinates: [
+    [x0 - padX, Math.max(y0 - padY, -80)], [x1 + padX, Math.max(y0 - padY, -80)],
+    [x1 + padX, Math.min(y1 + padY, 82)], [x0 - padX, Math.min(y1 + padY, 82)]] };
   const proj = geoMercator().fitExtent([[0, 0], [width, height]], box);
   const path = geoPath(proj);
   const focusIds = new Set(focusF.map(f => f.id));
@@ -53,6 +55,7 @@ export function mapSvg({ focus = [], marker = null, labels = {}, width = 420, he
     return `<text x="${p[0].toFixed(1)}" y="${p[1].toFixed(1)}" class="${cls}">${esc(text.toUpperCase())}</text>`;
   };
   const texts = [...named.map(f => label(f, 'lbl')), ...focusF.map(f => label(f, 'lbl-focus'))].join('');
+  // (focus label sits at the centroid; the marker label is drawn above-right of the pin)
   let pin = '';
   if (marker && Number.isFinite(marker.lat) && Number.isFinite(marker.lon)) {
     const p = proj([marker.lon, marker.lat]);
