@@ -4,7 +4,7 @@ name: Claude Lane card v2 preview (branch only)
 on:
   push:
     branches: [claude/lane-card-preview]
-    paths: [claude-lane/preview/*.json, .github/workflows/claude-lane-card-preview.yml]
+    paths: [claude-lane/preview/*.json, claude-lane/render/**, .github/workflows/claude-lane-card-preview.yml]
 permissions:
   contents: write
 jobs:
