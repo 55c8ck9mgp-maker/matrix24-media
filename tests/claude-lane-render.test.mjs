@@ -14,7 +14,14 @@ const base = {
   hashtags: [], image_url: null, publish_attempt_id: null, ig_media_id: null, history: [],
 };
 
-test('renders a 1080x1350 JPEG under Instagram limits, also for very long headlines', () => {
+// Pillow is installed only by Claude Lane CI (which sets CLAUDE_LANE_REQUIRE_RENDER=1
+// so a missing dependency fails there). Other suites that run tests/*.test.mjs
+// skip the render check instead of failing for an unrelated missing package.
+let hasPillow = true;
+try { execFileSync('python3', ['-c', 'import PIL'], { stdio: 'ignore' }); } catch { hasPillow = false; }
+const skipRender = !hasPillow && process.env.CLAUDE_LANE_REQUIRE_RENDER !== '1' && 'Pillow not installed';
+
+test('renders a 1080x1350 JPEG under Instagram limits, also for very long headlines', { skip: skipRender }, () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'card-'));
   for (const [name, rec] of [['n', base], ['long', { ...base, headline_es: 'Palabra '.repeat(60), headline: 'Word '.repeat(60) }]]) {
     const inp = path.join(dir, `${name}.json`); const out = path.join(dir, `${name}.jpg`);
