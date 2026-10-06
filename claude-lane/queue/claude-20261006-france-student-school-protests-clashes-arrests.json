@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-france-student-school-protests-clashes-arrests",
+  "created_at": "2026-10-06T18:33:10Z",
+  "category": "World",
+  "headline": "French high school protests over crumbling schools spread as arrests top 6,100",
+  "headline_es": "Se extienden las protestas estudiantiles en Francia por escuelas deterioradas; más de 6.100 detenidos",
+  "caption_es": "Estudiantes de secundaria bloquearon colegios y marcharon en toda Francia el martes para protestar por edificios deteriorados y la falta de personal, con enfrentamientos en ciudades como Estrasburgo, Lyon y Rennes. Más de 6.100 personas, en su mayoría menores, han sido detenidas desde el inicio de las protestas, y la policía informa de 715 agentes heridos. Un joven de 15 años perdió una mano tras un incidente con una granada policial.",
+  "caption_en": "High school students blockaded schools and marched across France on Tuesday, protesting run-down buildings and staff shortages, with clashes reported in cities including Strasbourg, Lyon and Rennes. More than 6,100 people, most of them minors, have been arrested since the protests began, and police say 715 officers have been injured. A 15-year-old lost his hand after an incident involving a police grenade.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount",
+    "https://www.abc.net.au/news/2026-10-07/protesting-pupils-blockade-french-high-schools-again/107236514"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "ABC News (Australia)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#France",
+    "#Education",
+    "#Protests",
+    "#Francia"
+  ],
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-06T18:52:04.128Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
