@@ -1,0 +1,38 @@
+name: Claude Lane card v2 preview (branch only)
+# Renders sample cards with real AI illustrations and maps, and pushes the JPEGs
+# to this preview branch for review. Never publishes, never touches main.
+on:
+  push:
+    branches: [claude/lane-card-preview]
+    paths: [claude-lane/preview/*.json, .github/workflows/claude-lane-card-preview.yml]
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - run: |
+          cd claude-lane/render && npm install --no-audit --no-fund --silent
+          npx playwright install --with-deps chromium >/dev/null
+      - env:
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
+          CF_ACCOUNT_ID: e2776b03d0f07550fa6d0bbe80f87dbe
+        run: |
+          mkdir -p claude-lane/preview/out
+          for f in claude-lane/preview/*.json; do
+            node -e "
+              const fs=require('fs');(async()=>{
+              const {generateImage}=await import('./claude-lane/render/ai-image.mjs');
+              const {renderCard}=await import('./claude-lane/render/render-card.mjs');
+              const r=JSON.parse(fs.readFileSync(process.argv[1]));
+              const ill=await generateImage(r.image_prompt,{token:process.env.CF_AI_TOKEN,accountId:process.env.CF_ACCOUNT_ID});
+              console.log('::notice title=preview::'+r.content_id+' ai='+Boolean(ill));
+              fs.writeFileSync('claude-lane/preview/out/'+r.content_id+'.jpg', await renderCard(r,{illustration:ill}));})()" "$f"
+          done
+          git config user.name matrix24-claude-lane && git config user.email matrix24-claude-lane@users.noreply.github.com
+          git add claude-lane/preview/out && git commit -q -m "preview: card v2 samples" && git push -q origin HEAD:claude/lane-card-preview

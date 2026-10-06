@@ -1,0 +1,43 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261006-former-german-spy-chief-hanning-arrested",
+ "created_at": "2026-10-06T16:27:04Z",
+ "category": "Security / Geopolitics",
+ "headline": "Former German spy chief August Hanning arrested on suspicion of working for a foreign intelligence service",
+ "headline_es": "Detienen al exjefe del espionaje alemán August Hanning, sospechoso de trabajar para inteligencia extranjera",
+ "caption_es": "La Fiscalía federal alemana detuvo el martes a August Hanning, quien dirigió el servicio de inteligencia exterior BND hasta 2005. Lo acusa de haber usado material clasificado de un exjefe de oficina del BND, también detenido, para preparar un análisis destinado a un oficial de un servicio de inteligencia extranjero. Según la acusación, le entregaron unos 2.000 documentos a lo largo de los años; la Fiscalía no ha identificado al país extranjero.",
+ "caption_en": "German federal prosecutors arrested August Hanning, who led the BND foreign intelligence service until 2005, on Tuesday. They allege he used classified material from a former BND office manager, also arrested, to prepare an analysis for an officer of a foreign intelligence service. Around 2,000 documents were allegedly passed to him over the years; prosecutors have not named the foreign country.",
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/10/6/former-german-spy-chief-arrested-on-suspicion-of-treason-and-espionage",
+  "https://www.irishtimes.com/world/europe/2026/10/06/former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "The Irish Times"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Germany",
+  "#BND",
+  "#Espionage",
+  "#Security"
+ ],
+ "history": [],
+ "status": "draft",
+ "summary_es": "La fiscalía federal alemana detuvo a August Hanning, jefe del BND hasta 2005, por presuntamente usar material clasificado para preparar un análisis para un servicio de inteligencia extranjero.",
+ "summary_en": "German federal prosecutors arrested August Hanning, head of the BND until 2005, alleging he used classified material to prepare an analysis for a foreign intelligence service.",
+ "highlight_es": "August Hanning",
+ "highlight_en": "August Hanning",
+ "image_prompt": "Modern government intelligence headquarters building at night in Berlin, glass facade, security fence and floodlights, rain on the pavement, moody blue tones",
+ "visual_label": "BND",
+ "map": {
+  "focus": [
+   "Germany"
+  ],
+  "marker": {
+   "lat": 49.01,
+   "lon": 8.4,
+   "label": "Karlsruhe"
+  }
+ }
+}

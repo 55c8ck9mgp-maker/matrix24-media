@@ -17,11 +17,32 @@ const isHttps = value => {
 const hostOf = value => new URL(value).hostname.replace(/^www\./, '').toLowerCase();
 const nonEmpty = value => typeof value === 'string' && value.trim().length > 0;
 
+export const AI_NOTE = 'Imagen ilustrativa generada con IA; no es una fotografía del hecho. / AI-generated illustration; not a photograph of the event.';
+
 export function composeCaption(record) {
   const tags = (record.hashtags ?? []).join(' ');
   const sources = `Fuentes / Sources: ${(record.source_names ?? []).join(', ')}`;
-  return [`🇪🇸 ${record.caption_es.trim()}`, `🇺🇸 ${record.caption_en.trim()}`, sources, tags]
-    .filter(nonEmpty).join('\n\n');
+  return [`🇪🇸 ${record.caption_es.trim()}`, `🇺🇸 ${record.caption_en.trim()}`, sources,
+    record.ai_illustration ? AI_NOTE : '', tags].filter(nonEmpty).join('\n\n');
+}
+
+// Optional visual fields written by the drafts task (card v2). All are optional;
+// invalid values are rejected so a bad draft never reaches the renderer.
+function visualErrors(r) {
+  const e = [];
+  const str = (k, max) => { if (r[k] != null && (typeof r[k] !== 'string' || r[k].length > max)) e.push(`BAD_${k.toUpperCase()}`); };
+  str('summary_es', 300); str('summary_en', 280); str('highlight_es', 60); str('highlight_en', 60);
+  str('image_prompt', 700); str('visual_label', 30);
+  if (r.ai_illustration != null && typeof r.ai_illustration !== 'boolean') e.push('BAD_AI_ILLUSTRATION');
+  if (r.map != null) {
+    const m = r.map;
+    const okFocus = Array.isArray(m.focus) && m.focus.length <= 4 && m.focus.every(x => typeof x === 'string' && x.length <= 40);
+    const mk = m.marker;
+    const okMarker = mk == null || (Number.isFinite(mk.lat) && Math.abs(mk.lat) <= 90 && Number.isFinite(mk.lon)
+      && Math.abs(mk.lon) <= 180 && (mk.label == null || (typeof mk.label === 'string' && mk.label.length <= 30)));
+    if (typeof m !== 'object' || !okFocus || !okMarker) e.push('BAD_MAP');
+  }
+  return e;
 }
 
 export function validateLaneRecord(record) {
@@ -64,6 +85,7 @@ export function validateLaneRecord(record) {
   if (s === 'published') need(/^\d+$/.test(String(record.ig_media_id ?? '')), 'PUBLISHED_NEEDS_MEDIA_ID');
   else need(record.ig_media_id == null, 'UNEXPECTED_MEDIA_ID');
   need(Array.isArray(record.history), 'MISSING_HISTORY');
+  errors.push(...visualErrors(record));
   return errors;
 }
 

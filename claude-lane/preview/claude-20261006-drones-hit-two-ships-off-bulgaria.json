@@ -1,0 +1,43 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261006-drones-hit-two-ships-off-bulgaria",
+ "created_at": "2026-10-06T20:29:33Z",
+ "category": "Security / Geopolitics",
+ "headline": "Drones hit two commercial ships in Bulgaria's Black Sea economic zone; one sinks",
+ "headline_es": "Drones atacan dos buques comerciales en la zona económica de Bulgaria en el mar Negro; uno se hunde",
+ "caption_es": "Dos buques comerciales fueron alcanzados por drones en la madrugada del martes en la zona económica exclusiva de Bulgaria en el mar Negro, a unos 130 km de la costa. El Alfa Watan, con bandera de Togo, se hundió y Bulgaria inició la búsqueda de su tripulación, mientras que los 18 tripulantes del Able, con bandera de Palaos, fueron evacuados, dos de ellos con heridas graves. El primer ministro Rumen Radev lo calificó de ataque inaceptable; el origen de los drones no se estableció de inmediato.",
+ "caption_en": "Two commercial vessels were struck by drones early Tuesday in Bulgaria's exclusive economic zone in the Black Sea, about 130 km off the coast. The Togo-flagged Alfa Watan sank and Bulgaria launched a search for its crew, while all 18 crew of the Palau-flagged Able were evacuated, two of them seriously injured. Prime Minister Rumen Radev called it an unacceptable attack; the origin of the drones was not immediately established.",
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/10/6/bulgaria-says-two-commercial-vessels-were-hit-in-drone-attack-in-its-waters",
+  "https://abcnews.com/International/wireStory/bulgarian-pm-drone-attack-2-commercial-vessels-blatant-137025648"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "Associated Press"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Bulgaria",
+  "#BlackSea",
+  "#Drones",
+  "#Shipping"
+ ],
+ "history": [],
+ "status": "draft",
+ "summary_es": "Drones atacaron dos buques comerciales en la zona económica exclusiva de Bulgaria en el mar Negro; uno de ellos se hundió.",
+ "summary_en": "Drones struck two commercial ships in Bulgaria's exclusive economic zone in the Black Sea; one of them sank.",
+ "highlight_es": "mar Negro",
+ "highlight_en": "Black Sea",
+ "image_prompt": "Cargo ship at sea under a dark stormy sky, smoke rising on the horizon, choppy grey water, wide cinematic view",
+ "visual_label": "Mar Negro",
+ "map": {
+  "focus": [
+   "Bulgaria"
+  ],
+  "marker": {
+   "lat": 42.9,
+   "lon": 28.6,
+   "label": "Mar Negro"
+  }
+ }
+}

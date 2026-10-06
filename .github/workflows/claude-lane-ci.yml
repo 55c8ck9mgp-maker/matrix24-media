@@ -24,6 +24,7 @@ jobs:
         run: |
           sudo apt-get install -y --no-install-recommends fonts-dejavu-core >/dev/null
           python3 -m pip install --quiet 'pillow==12.*'
+          cd claude-lane/render && npm install --no-audit --no-fund --silent
       - env:
           CLAUDE_LANE_REQUIRE_RENDER: '1'
         run: node --test tests/claude-lane-*.test.mjs tests/workflow-publication-capability.test.mjs
