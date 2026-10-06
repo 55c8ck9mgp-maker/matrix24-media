@@ -22,10 +22,10 @@
     "#AI",
     "#Energy"
   ],
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261006-google-constellation-nuclear-power-deal.jpg",
   "publish_attempt_id": "90a2d704-61a7-4242-b3e8-bee3eed8299c",
-  "ig_media_id": null,
+  "ig_media_id": "18109677725227989",
   "history": [
     {
       "at": "2026-10-06T19:36:20.693Z",
@@ -39,7 +39,14 @@
       "at": "2026-10-06T19:36:54.609Z",
       "event": "reserved",
       "publish_attempt_id": "90a2d704-61a7-4242-b3e8-bee3eed8299c"
+    },
+    {
+      "at": "2026-10-06T19:37:07.555Z",
+      "event": "published",
+      "publish_attempt_id": "90a2d704-61a7-4242-b3e8-bee3eed8299c",
+      "ig_media_id": "18109677725227989"
     }
   ],
-  "reserved_at": "2026-10-06T19:36:54.609Z"
+  "reserved_at": "2026-10-06T19:36:54.609Z",
+  "permalink": "https://www.instagram.com/p/DeKjQJnD3M1/"
 }
