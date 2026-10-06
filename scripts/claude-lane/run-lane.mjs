@@ -29,6 +29,20 @@ const log = (stage, obj) => {
 };
 
 export { produce };
+// Card v2: AI illustration (Workers AI) + map + HTML template rendered by Chromium.
+// Any failure falls back to the v1 Pillow text card, so a story is never blocked.
+export async function renderCardV2(record) {
+  try {
+    const { renderCard: renderHtml } = await import('../../claude-lane/render/render-card.mjs');
+    const { generateImage } = await import('../../claude-lane/render/ai-image.mjs');
+    const illustration = await generateImage(record.image_prompt, { token: process.env.CF_AI_TOKEN, accountId: process.env.CF_ACCOUNT_ID });
+    const jpg = await renderHtml(record, { illustration });
+    return { jpg, ai_illustration: Boolean(illustration), renderer: 'v2' };
+  } catch (e) {
+    return { jpg: renderCard(record), ai_illustration: false, renderer: `v1:${String(e.message).slice(0, 80)}` };
+  }
+}
+
 export function renderCard(record) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'card-'));
   const inp = path.join(tmp, 'r.json'); const out = path.join(tmp, 'c.jpg');
@@ -57,7 +71,8 @@ export function readBranchDrafts() {
 
 export function adoptDraft(raw, now) {
   // Only content fields are taken from the draft; state fields are reset here.
-  const keep = ['lane', 'content_id', 'created_at', 'category', 'headline', 'headline_es', 'caption_es', 'caption_en', 'source_urls', 'source_names', 'hashtags'];
+  const keep = ['lane', 'content_id', 'created_at', 'category', 'headline', 'headline_es', 'caption_es', 'caption_en', 'source_urls', 'source_names', 'hashtags',
+    'summary_es', 'summary_en', 'highlight_es', 'highlight_en', 'image_prompt', 'visual_label', 'map'];
   const rec = Object.fromEntries(keep.filter(k => raw?.[k] !== undefined).map(k => [k, raw[k]]));
   return { ...rec, status: 'draft', image_url: null, publish_attempt_id: null, ig_media_id: null,
     history: [{ at: now.toISOString(), event: 'adopted_from_drafts_branch' }] };
@@ -75,9 +90,11 @@ async function produce(store, now, drafts = readBranchDrafts()) {
     const errs = validateLaneRecord(record);
     if (errs.length) { rejected.push({ id: raw.content_id, errs }); continue; }
     if (Date.parse(record.created_at) < now.getTime() - 24 * 3600 * 1000) { rejected.push({ id: raw.content_id, errs: ['STALE_DRAFT'] }); continue; }
-    const jpg = renderCard(record);
-    const ready = { ...record, status: 'ready_to_publish', image_url: mediaUrl(record.content_id),
-      history: [...record.history, { at: now.toISOString(), event: 'rendered' }] };
+    const card = await renderCardV2(record);
+    const jpg = card.jpg;
+    const ready = { ...record, status: 'ready_to_publish', image_url: mediaUrl(record.content_id), ai_illustration: card.ai_illustration,
+      history: [...record.history, { at: now.toISOString(), event: 'rendered', renderer: card.renderer, ai_illustration: card.ai_illustration }] };
+    if (validateLaneRecord(ready).length) { rejected.push({ id: raw.content_id, errs: validateLaneRecord(ready) }); continue; }
     if (!LIVE) {
       fs.writeFileSync(path.join(OUT, `${record.content_id}.json`), JSON.stringify(ready, null, 2));
       fs.writeFileSync(path.join(OUT, `${record.content_id}.jpg`), jpg);
