@@ -1,0 +1,21 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-paramount-closes-warner-bros-merger-skydance",
+  "status": "draft",
+  "created_at": "2026-10-06T17:38:25Z",
+  "category": "Economy",
+  "headline": "Paramount closes $110 billion Warner Bros. Discovery merger, creating new media giant Skydance",
+  "headline_es": "Paramount cierra su fusión de 110.000 millones de dólares con Warner Bros. Discovery y nace Skydance",
+  "caption_en": "Paramount completed its $110 billion takeover of Warner Bros. Discovery on Tuesday, combining the two Hollywood studios into a single company named Skydance. The group, led by David Ellison, brings together streaming services Paramount+ and HBO Max with networks including CBS and CNN.",
+  "caption_es": "Paramount completó este martes la adquisición de Warner Bros. Discovery por 110.000 millones de dólares, uniendo a los dos estudios de Hollywood en una sola compañía llamada Skydance. El grupo, dirigido por David Ellison, reúne los servicios de streaming Paramount+ y HBO Max con cadenas como CBS y CNN.",
+  "source_urls": [
+    "https://www.nbcphiladelphia.com/news/business/paramount-completes-warner-bros-merger-to-form-skydance/4474843/",
+    "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/"
+  ],
+  "source_names": ["Associated Press (via NBC10 Philadelphia)", "TechCrunch"],
+  "hashtags": ["#MATRIX24", "#Paramount", "#WarnerBros", "#Skydance", "#Hollywood"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
