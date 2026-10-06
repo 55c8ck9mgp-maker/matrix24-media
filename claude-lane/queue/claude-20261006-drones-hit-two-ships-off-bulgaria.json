@@ -22,7 +22,7 @@
     "#Drones",
     "#Shipping"
   ],
-  "status": "ready_to_publish",
+  "status": "skipped_duplicate",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261006-drones-hit-two-ships-off-bulgaria.jpg",
   "publish_attempt_id": null,
   "ig_media_id": null,
@@ -34,6 +34,13 @@
     {
       "at": "2026-10-06T20:48:10.493Z",
       "event": "rendered"
+    },
+    {
+      "at": "2026-10-06T20:48:43.663Z",
+      "event": "skipped_duplicate",
+      "reason": "similar_recent_post",
+      "with": "18112699541129890",
+      "detail": "0.92"
     }
   ]
 }
