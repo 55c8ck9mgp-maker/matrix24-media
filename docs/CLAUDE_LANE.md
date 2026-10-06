@@ -49,7 +49,13 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
 
 1. Lane queue schema and validator, with tests — `scripts/claude-lane/lane-record.mjs`, `tests/claude-lane-record.test.mjs`, CI `claude-lane-ci.yml`.
 2. Publisher workflow in dry-run mode (builds the container payload,
-   never calls `media_publish`), with tests for rules 1–7.
+   never calls `media_publish`), with tests for rules 1–7 —
+   `scripts/claude-lane/publisher.mjs` (engine, already covers the live
+   sequence against fakes), `dedupe.mjs`, `run-publisher.mjs` (refuses live),
+   workflow `claude-lane-publisher.yml` (manual, read-only).
+   A claim may return to `ready_to_publish` only with a `not_invoked`
+   history entry for the same attempt (container failed or never ready, so
+   `media_publish` was provably not called).
 3. Image rendering for lane stories (free tooling only).
 4. Token renewal job.
 5. Justen sets `CLAUDE_LANE_ENABLED=true`; first live post observed.

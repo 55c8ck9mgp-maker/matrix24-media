@@ -78,6 +78,9 @@ const TRANSITIONS = {
   'publishing->published': 'publisher',
   'publishing->publish_unknown': 'publisher',
   'publish_unknown->published': 'reconciler',
+  // Only when media_publish was provably never called (container failed or
+  // never became ready): nothing can be public, so the claim is released.
+  'publishing->ready_to_publish': 'publisher_not_invoked',
 };
 
 export function checkLaneTransition(prev, next) {
@@ -92,6 +95,13 @@ export function checkLaneTransition(prev, next) {
   if (!owner) return { ok: false, error: `TRANSITION_NOT_ALLOWED:${key}` };
   if (key === 'ready_to_publish->publishing' && prev.publish_attempt_id != null) {
     return { ok: false, error: 'ATTEMPT_ALREADY_USED' };
+  }
+  if (key === 'publishing->ready_to_publish') {
+    const last = Array.isArray(next.history) ? next.history[next.history.length - 1] : null;
+    if (!last || last.event !== 'not_invoked' || last.publish_attempt_id !== prev.publish_attempt_id) {
+      return { ok: false, error: 'RELEASE_NEEDS_NOT_INVOKED_PROOF' };
+    }
+    return { ok: true, owner };
   }
   if (from === 'publishing' && prev.publish_attempt_id !== next.publish_attempt_id) {
     return { ok: false, error: 'ATTEMPT_ID_CHANGED' };
