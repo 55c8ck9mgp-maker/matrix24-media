@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-armed-men-from-belarus-threaten-latvian-soldiers",
+  "created_at": "2026-10-06T22:33:49Z",
+  "category": "Security / Geopolitics",
+  "headline": "Armed masked men from Belarus threaten Latvian soldiers, then cross border and steal cameras",
+  "headline_es": "Hombres armados desde Bielorrusia amenazan a soldados letones y luego cruzan la frontera",
+  "caption_es": "El ministro del Interior de Letonia, Janis Dombrava, afirmó que escoltas armados en el lado bielorruso amenazaron a soldados letones mientras empujaban hacia la frontera a un grupo de unos 20 migrantes. Horas después, hombres enmascarados entraron en Letonia, dañaron un armario eléctrico y robaron cámaras de vigilancia antes de regresar a Bielorrusia, antes de que llegaran los guardias fronterizos. Dombrava advirtió que estos incidentes podrían tener graves consecuencias para Bielorrusia.",
+  "caption_en": "Latvia's interior minister Janis Dombrava said armed escorts on the Belarusian side threatened Latvian soldiers while pushing a group of about 20 migrants toward the border. Hours later, masked men crossed into Latvia, damaged an electrical cabinet and stole surveillance cameras before returning to Belarus ahead of border guards. Dombrava warned that such incidents could have serious consequences for Belarus.",
+  "source_urls": [
+    "https://kyivindependent.com/armed-individuals-from-belarus-threaten-latvian-soldiers-at-border-followed-by-another-breach/",
+    "https://meduza.io/en/news/2026/10/07/latvian-officials-say-armed-masked-men-threatened-troops-while-trying-to-push-20-migrants-across-from-belarus-then-crossed-into-latvia-themselves-and-stole-surveillance-cameras"
+  ],
+  "source_names": [
+    "The Kyiv Independent",
+    "Meduza"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Latvia",
+    "#Belarus",
+    "#Letonia",
+    "#Security"
+  ],
+  "summary_es": "Escoltas armados amenazaron a soldados letones al empujar a unos 20 migrantes hacia la frontera; luego hombres enmascarados cruzaron y robaron cámaras de vigilancia.",
+  "summary_en": "Armed escorts threatened Latvian soldiers while pushing about 20 migrants to the border; masked men later crossed and stole surveillance cameras.",
+  "highlight_es": "amenazan a soldados letones",
+  "highlight_en": "threaten Latvian soldiers",
+  "image_prompt": "Remote forest border at dusk with a tall metal fence, a surveillance camera mast and a watchtower, misty birch and pine trees, muted cold colors, wide cinematic view, no people",
+  "visual_label": "Frontera",
+  "map": {
+    "focus": [
+      "Latvia",
+      "Belarus"
+    ],
+    "labels": {
+      "Latvia": "Letonia",
+      "Belarus": "Bielorrusia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-06T22:36:35.888Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
