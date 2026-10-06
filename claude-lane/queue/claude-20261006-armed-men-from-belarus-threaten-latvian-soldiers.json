@@ -38,10 +38,10 @@
       "Belarus": "Bielorrusia"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261006-armed-men-from-belarus-threaten-latvian-soldiers.jpg",
   "publish_attempt_id": "21fec9b8-15f4-46bd-b091-5c78dd200608",
-  "ig_media_id": null,
+  "ig_media_id": "18130189222781697",
   "history": [
     {
       "at": "2026-10-06T22:36:35.888Z",
@@ -57,8 +57,15 @@
       "at": "2026-10-06T22:37:30.120Z",
       "event": "reserved",
       "publish_attempt_id": "21fec9b8-15f4-46bd-b091-5c78dd200608"
+    },
+    {
+      "at": "2026-10-06T22:37:39.943Z",
+      "event": "published",
+      "publish_attempt_id": "21fec9b8-15f4-46bd-b091-5c78dd200608",
+      "ig_media_id": "18130189222781697"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-06T22:37:30.120Z"
+  "reserved_at": "2026-10-06T22:37:30.120Z",
+  "permalink": "https://www.instagram.com/p/DeK36vIFCF7/"
 }
