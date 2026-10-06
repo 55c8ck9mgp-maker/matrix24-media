@@ -13,12 +13,11 @@ jobs:
       - env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          for variant in plain headers jsonfmt; do
-            case $variant in
-              plain) H=(); BODY='{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Reply with the JSON {\"ok\":true}"}]}';;
-              headers) H=(-H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28"); BODY='{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Reply with the JSON {\"ok\":true}"}]}';;
-              jsonfmt) H=(-H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28"); BODY='{"model":"openai/gpt-4o-mini","response_format":{"type":"json_object"},"messages":[{"role":"user","content":"Reply with the JSON {\"ok\":true}"}]}';;
-            esac
-            out=$(curl -sS -L -w ' HTTP=%{http_code} CT=%{content_type}' -X POST "${H[@]}" -H "Content-Type: application/json" -H "Authorization: Bearer $GITHUB_TOKEN" https://models.github.ai/inference/chat/completions -d "$BODY" | tr -d '\r\n' | cut -c1-400)
-            echo "::notice title=$variant::$out"
+          c=$(curl -sS -w ' HTTP=%{http_code}' -H "Authorization: Bearer $GITHUB_TOKEN" https://models.github.ai/catalog/models | tr -d '\r\n' | cut -c1-300)
+          echo "::notice title=catalog::$c"
+          for m in openai/gpt-4.1 openai/gpt-4o-mini; do
+            out=$(curl -sS -i -X POST -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" -H "Content-Type: application/json" -H "Authorization: Bearer $GITHUB_TOKEN" https://models.github.ai/inference/chat/completions -d "{\"model\":\"$m\",\"messages\":[{\"role\":\"user\",\"content\":\"Say hi\"}]}" | tr -d '\r' | tr '\n' '|' | cut -c1-700)
+            echo "::notice title=$m::$out"
           done
+          o=$(curl -sS -w ' HTTP=%{http_code}' -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $GITHUB_TOKEN" "https://models.github.ai/orgs/${GITHUB_REPOSITORY_OWNER}/inference/chat/completions" -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Say hi"}]}' | tr -d '\r\n' | cut -c1-300)
+          echo "::notice title=org-variant::$o"
