@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-kenya-confirms-first-ebola-case",
+  "created_at": "2026-10-06T19:33:10Z",
+  "category": "World",
+  "headline": "Kenya confirms its first Ebola case after a patient arriving from Congo dies in Nairobi",
+  "headline_es": "Kenia confirma su primer caso de ébola tras la muerte en Nairobi de un paciente llegado del Congo",
+  "caption_es": "Kenia confirmó su primer caso de ébola, anunció el martes el ministro de Salud, Aden Duale. El paciente, un ciudadano keniano que llegó el sábado desde la República Democrática del Congo vía Uganda, murió en Nairobi. Las autoridades aislaron durante 21 días a 28 contactos, entre ellos familiares y trabajadores sanitarios, y rastrean a 23 pasajeros del vuelo procedente de Uganda.",
+  "caption_en": "Kenya has confirmed its first case of Ebola, Health Minister Aden Duale announced on Tuesday. The patient, a Kenyan citizen who arrived on Saturday from the Democratic Republic of Congo via Uganda, died in Nairobi. Authorities have isolated 28 contacts, including relatives and health workers, for 21 days and are tracing 23 passengers from the flight from Uganda.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi",
+    "https://www.clickorlando.com/health/2026/10/06/kenya-confirms-first-ebola-case-imported-from-congo-after-patient-dies-in-nairobi/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Associated Press"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Kenya",
+    "#Ebola",
+    "#PublicHealth",
+    "#Africa"
+  ],
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-06T19:57:57.287Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
