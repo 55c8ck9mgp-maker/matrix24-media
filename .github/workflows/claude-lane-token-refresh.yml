@@ -1,0 +1,25 @@
+name: Claude Lane token refresh
+
+# Weekly refresh of IG_CLAUDE_ACCESS_TOKEN (docs/CLAUDE_LANE.md rule 8).
+# Read-only for the repository. A red run means Justen must act (the run's
+# annotation says why); GitHub emails the owner on failure.
+on:
+  schedule:
+    - cron: '23 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - env:
+          IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+        run: node scripts/claude-lane/refresh-token.mjs
