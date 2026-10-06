@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261006-tropical-depression-nine-forms-gulf-hurricane-threat",
+  "created_at": "2026-10-06T21:28:00Z",
+  "category": "Climate",
+  "headline": "Tropical Depression Nine forms in the Gulf, forecast to become the Atlantic season's first hurricane",
+  "headline_es": "Se forma la Depresión Tropical Nueve en el Golfo; se prevé que sea el primer huracán de la temporada atlántica",
+  "caption_es": "La Depresión Tropical Nueve se formó el martes en el suroeste del Golfo, frente a México, y se prevé que se fortalezca hasta convertirse en la tormenta tropical Isaías y luego en el primer huracán de la temporada atlántica 2026, posiblemente de categoría 2. Los pronosticadores esperan que gire hacia el norte, rumbo a la costa del Golfo de EE. UU. entre Luisiana y el Panhandle de Florida, alrededor del fin de semana, con riesgo de lluvias intensas, marejada ciclónica e inundaciones repentinas.",
+  "caption_en": "Tropical Depression Nine formed on Tuesday in the southwestern Gulf off Mexico and is forecast to strengthen into Tropical Storm Isaias and then the first hurricane of the 2026 Atlantic season, possibly reaching Category 2. Forecasters expect it to turn north toward the U.S. Gulf Coast between Louisiana and the Florida Panhandle around the weekend, bringing heavy rain, storm surge and flash flooding risks.",
+  "source_urls": [
+    "https://weather.com/2026/10/06/storms/hurricane/tropical-storm-isaias-gulf-coast-louisiana-florida",
+    "https://www.foxweather.com/weather-news/tropical-depression-nine-forms-atlantic-track-become-isaias-hurricane"
+  ],
+  "source_names": [
+    "The Weather Channel",
+    "FOX Weather"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Isaias",
+    "#Hurricane",
+    "#GulfCoast",
+    "#Weather"
+  ],
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-06T21:47:39.103Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
