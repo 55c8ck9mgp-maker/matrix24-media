@@ -61,6 +61,15 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
    imagery). The JPEG is committed to `claude-lane/media/` and served from
    raw.githubusercontent.com (`media-url.mjs`); verified 2026-10-06 that the
    URL returns `image/jpeg` and Instagram accepts it for a private container.
+3b. Producer and pipeline — `research.mjs` (RSS consensus: the same event
+   from >= 2 independent outlets in the last 12 h; bilingual draft written by
+   GitHub Models with the job token, free; `guardFacts` rejects any number or
+   non-initial capitalized name not present in the sources), `git-store.mjs`
+   (CAS on blob hash, only `claude-lane/` paths, a claim counts only once it is
+   on `origin/main`), `reconcile.mjs` (exact single caption match only),
+   `run-lane.mjs` and workflow `claude-lane-pipeline.yml` (every 2 h at :41).
+   While `CLAUDE_LANE_ENABLED` is not `true` every run is a dry run that
+   uploads the draft and card as the `claude-lane-preview` artifact.
 4. Token renewal job.
 5. Justen sets `CLAUDE_LANE_ENABLED=true`; first live post observed.
 
