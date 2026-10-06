@@ -1,0 +1,30 @@
+name: Claude Lane hosting check (one-shot, no publish)
+
+# Verifies that a JPEG committed to this public repo is reachable through
+# raw.githubusercontent.com and that Instagram accepts that URL when creating a
+# PRIVATE media container. It never calls media_publish; an unpublished
+# container is private and expires on its own. Branch-only; not merged.
+on:
+  push:
+    branches: [claude/lane-hosting-check]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Fetch headers and create a private container
+        env:
+          IG_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          UID_: '17841423605720355'
+          URL: https://raw.githubusercontent.com/${{ github.repository }}/claude/lane-hosting-check/claude-lane/media/hosting-check.jpg
+        run: |
+          set -uo pipefail
+          echo "== raw headers"; curl -sSI "$URL" | grep -iE '^HTTP|content-type|content-length'
+          echo "== container (private, never published)"
+          curl -sS -X POST -H "Authorization: Bearer ${IG_TOKEN}" \
+            --data-urlencode "image_url=${URL}" --data-urlencode "caption=hosting check - not published" \
+            "https://graph.instagram.com/v23.0/${UID_}/media" | jq '{id_present: (.id != null), error: (.error | if . then {type, code, error_subcode, message} else null end)}'
