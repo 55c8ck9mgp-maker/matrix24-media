@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-south-korea-nuri-rocket-launches-15-satellites",
+  "created_at": "2026-10-07T05:01:49Z",
+  "category": "Science",
+  "headline": "South Korea's Nuri rocket puts a record 15 satellites into orbit on its fifth launch",
+  "headline_es": "El cohete surcoreano Nuri pone en órbita un récord de 15 satélites en su quinto lanzamiento",
+  "caption_es": "El cohete surcoreano Nuri, de fabricación nacional, despegó el miércoles a las 12:25 hora local desde el Centro Espacial Naro, en Goheung, y desplegó con éxito los 15 satélites que transportaba, una carga récord para el programa. La quinta misión llevaba como carga principal cinco microsatélites de observación de la Tierra y diez CubeSats para experimentos espaciales.",
+  "caption_en": "South Korea's homegrown Nuri rocket lifted off from the Naro Space Center in Goheung at 12:25 p.m. local time on Wednesday and successfully deployed all 15 satellites it carried, a record payload for the program. The fifth mission carried five Earth-observation microsatellites as its main payload and ten CubeSats for space experiments.",
+  "source_urls": [
+    "https://www.koreajoongangdaily.com/business/nuri-rocket-successfully-launches-with-15-satellites/12908968",
+    "https://en.sedaily.com/finance/2026/10/07/nuri-rocket-separates-all-15-satellites-in-successful-launch",
+    "https://www.koreaherald.com/article/10895637"
+  ],
+  "source_names": [
+    "Korea JoongAng Daily",
+    "Seoul Economic Daily",
+    "The Korea Herald"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Nuri",
+    "#SouthKorea",
+    "#Space",
+    "#Satellites"
+  ],
+  "summary_es": "El cohete Nuri despegó desde el Centro Espacial Naro y desplegó los 15 satélites a bordo: cinco microsatélites de observación y diez CubeSats.",
+  "summary_en": "Nuri lifted off from the Naro Space Center and deployed all 15 satellites on board: five observation microsatellites and ten CubeSats.",
+  "highlight_es": "15 satélites",
+  "highlight_en": "15 satellites",
+  "image_prompt": "A slender white three-stage rocket lifting off from a coastal launch pad under a clear midday sky, bright exhaust plume and billowing steam clouds, green hills and sea in the background, wide cinematic view, no text, no logos, no flags",
+  "visual_label": "Nuri",
+  "map": {
+    "focus": [
+      "South Korea"
+    ],
+    "marker": {
+      "lat": 34.43,
+      "lon": 127.53,
+      "label": "Goheung"
+    },
+    "labels": {
+      "South Korea": "Corea del Sur"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T05:21:07.400Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
