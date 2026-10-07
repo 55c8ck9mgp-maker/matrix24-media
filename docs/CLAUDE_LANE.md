@@ -93,6 +93,40 @@ All eight Production invariants in `CLAUDE.md` apply unchanged.
 4. Token renewal job — `refresh-token.mjs` + `claude-lane-token-refresh.yml` (Mondays 09:23 UTC). Red run = owner action needed.
 5. Justen sets `CLAUDE_LANE_ENABLED=true`; first live post observed.
 
+## Facebook (approved by Justen 2026-10-07)
+
+Justen asked that the lane's stories also appear on the Matrix24global
+Facebook Page, as the Core v2 lane's did through Metricool. Built as a
+separate mirror, not inside the Instagram publisher (Phase 3 rule: no single
+transaction across platforms):
+
+- Code: `scripts/claude-lane/facebook.mjs` (engine, Graph API client),
+  `scripts/claude-lane/run-facebook.mjs`, workflow
+  `claude-lane-facebook.yml` (`11,26,41,56 * * * *`, 7 minutes after the
+  Instagram pipeline, same `claude-lane` concurrency group).
+- Access: Meta app "MATRIX 24 Claude Publisher", use case "Manage everything
+  on your Page", permissions `pages_show_list`, `pages_read_engagement`,
+  `pages_manage_posts`, granted by Justen for the Matrix24global Page only
+  (page id `1300936266441859`). Secret `FB_CLAUDE_USER_TOKEN` (user token,
+  about 60 days); the Page token is derived in memory on every run and is
+  never stored or logged. Each run reports the days left and turns into a
+  warning under 14 days; renewal is a manual owner step for now.
+- What it posts: only stories the Instagram side already marked
+  `published` (or `reconciled`) in the last hour, oldest first, one per run,
+  at least 10 minutes apart. Same caption and image as Instagram. Turning it
+  on never back-fills older stories.
+- State: only the record's `facebook` sub-object is written
+  (`publishing` claim committed before the call, then `published` with the
+  post id, `publish_unknown` or `failed`). Status, attempt id and Instagram
+  fields are never touched; `checkFacebookTransition` rejects any write that
+  would. No state goes back, so there is never a second attempt for a story.
+- Switch: live only when `CLAUDE_LANE_ENABLED` **and**
+  `CLAUDE_LANE_FB_ENABLED` are exactly `true` (both set by Justen). Otherwise
+  scheduled runs are skipped and manual or push runs are read-only dry runs.
+- Rollback: set `CLAUDE_LANE_FB_ENABLED` to `false` (Instagram keeps
+  running); revoke with `DELETE /me/permissions` from the app or delete the
+  `FB_CLAUDE_USER_TOKEN` secret; full removal reverts the PR.
+
 ## Rollback
 
 - Immediate stop: set `CLAUDE_LANE_ENABLED` to `false` or delete it.

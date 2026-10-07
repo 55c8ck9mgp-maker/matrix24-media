@@ -47,6 +47,22 @@ function visualErrors(r) {
   return e;
 }
 
+export const FB_STATUSES = Object.freeze(['publishing', 'published', 'publish_unknown', 'failed']);
+
+// Optional `facebook` sub-object written only by scripts/claude-lane/facebook.mjs
+// (Facebook Page mirror, approved by Justen 2026-10-07).
+export function facebookErrors(record) {
+  const fb = record?.facebook;
+  if (fb == null) return [];
+  const e = [];
+  if (typeof fb !== 'object' || Array.isArray(fb)) return ['BAD_FACEBOOK'];
+  if (record.status !== 'published') e.push('FACEBOOK_BEFORE_INSTAGRAM_PUBLISHED');
+  if (!FB_STATUSES.includes(fb.status)) e.push('BAD_FACEBOOK_STATUS');
+  if (!nonEmpty(fb.attempt_id)) e.push('MISSING_FACEBOOK_ATTEMPT_ID');
+  if (fb.status === 'published' && !/^\d+(?:_\d+)?$/.test(String(fb.post_id ?? ''))) e.push('FACEBOOK_PUBLISHED_NEEDS_POST_ID');
+  return e;
+}
+
 export function validateLaneRecord(record) {
   const errors = [];
   const need = (cond, code) => { if (!cond) errors.push(code); };
@@ -88,6 +104,7 @@ export function validateLaneRecord(record) {
   else need(record.ig_media_id == null, 'UNEXPECTED_MEDIA_ID');
   need(Array.isArray(record.history), 'MISSING_HISTORY');
   errors.push(...visualErrors(record));
+  errors.push(...facebookErrors(record));
   return errors;
 }
 
