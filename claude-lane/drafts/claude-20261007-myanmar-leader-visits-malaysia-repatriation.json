@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-myanmar-leader-visits-malaysia-repatriation",
+  "status": "draft",
+  "created_at": "2026-10-07T08:28:30Z",
+  "category": "Security / Geopolitics",
+  "headline": "Myanmar's Min Aung Hlaing visits Malaysia as repatriation of Myanmar nationals draws criticism",
+  "headline_es": "Min Aung Hlaing, de Myanmar, visita Malasia entre críticas por la repatriación de sus ciudadanos",
+  "caption_en": "Myanmar President Min Aung Hlaing began a two-day visit to Malaysia on Wednesday for talks with Prime Minister Anwar Ibrahim, with the return of Myanmar nationals high on the agenda. The UN refugee agency and rights groups warn returnees face danger amid Myanmar's civil war. Malaysia hosts about 215,600 registered refugees and asylum seekers, including some 126,000 Rohingya.",
+  "caption_es": "El presidente de Myanmar, Min Aung Hlaing, inició este miércoles una visita de dos días a Malasia para reunirse con el primer ministro Anwar Ibrahim, con el retorno de ciudadanos birmanos como tema central. La agencia de la ONU para los refugiados y grupos de derechos humanos advierten que los retornados corren peligro por la guerra civil en Myanmar. Malasia acoge a unos 215.600 refugiados y solicitantes de asilo registrados, entre ellos unos 126.000 rohinyás.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/7/myanmars-min-aung-hlaing-visits-malaysia-amid-concerns-over-repatriations",
+    "https://www.arabnews.com/world/myanmars-min-aung-hlaing-visits-malaysia-amid-criticism-over-repatriation-of-nationals-3005005"
+  ],
+  "source_names": ["Al Jazeera", "Associated Press (via Arab News)"],
+  "hashtags": ["#MATRIX24", "#Myanmar", "#Malasia", "#Rohingya", "#WorldNews"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Min Aung Hlaing se reúne con Anwar Ibrahim en una visita de dos días centrada en la repatriación. La ONU y grupos de derechos humanos advierten de riesgos para los retornados.",
+  "summary_en": "Min Aung Hlaing meets Anwar Ibrahim on a two-day visit focused on repatriation. The UN and rights groups warn returnees face risks.",
+  "highlight_es": "visita Malasia",
+  "highlight_en": "visits Malaysia",
+  "visual_label": "Kuala Lumpur",
+  "image_prompt": "Modern airport apron in a tropical city at morning, a parked government jet beside a red carpet with no people, palm trees and a distant city skyline under humid hazy sky, wide cinematic view, no text, no flags, no logos",
+  "map": {
+    "focus": ["Malaysia", "Myanmar"],
+    "marker": {"lat": 3.14, "lon": 101.69, "label": "Kuala Lumpur"},
+    "labels": {"Malaysia": "Malasia", "Myanmar": "Myanmar"}
+  }
+}
