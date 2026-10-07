@@ -41,10 +41,10 @@
       "United States of America": "Estados Unidos"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261007-fed-minutes-signal-another-rate-hike.jpg",
   "publish_attempt_id": "30114222-3214-4378-97df-30284ab5374f",
-  "ig_media_id": null,
+  "ig_media_id": "17960020425228148",
   "history": [
     {
       "at": "2026-10-07T19:24:53.212Z",
@@ -60,8 +60,15 @@
       "at": "2026-10-07T19:25:48.838Z",
       "event": "reserved",
       "publish_attempt_id": "30114222-3214-4378-97df-30284ab5374f"
+    },
+    {
+      "at": "2026-10-07T19:26:04.136Z",
+      "event": "published",
+      "publish_attempt_id": "30114222-3214-4378-97df-30284ab5374f",
+      "ig_media_id": "17960020425228148"
     }
   ],
   "ai_illustration": false,
-  "reserved_at": "2026-10-07T19:25:48.838Z"
+  "reserved_at": "2026-10-07T19:25:48.838Z",
+  "permalink": "https://www.instagram.com/p/DeNGx5eGdBk/"
 }
