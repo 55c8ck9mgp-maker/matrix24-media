@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-israel-marks-three-years-since-october-7",
+  "status": "draft",
+  "created_at": "2026-10-07T06:24:28Z",
+  "category": "World",
+  "headline": "Israel marks three years since the October 7 attack as Gaza's death toll tops 74,000",
+  "headline_es": "Israel conmemora tres años del ataque del 7 de octubre; los muertos en Gaza superan los 74.000",
+  "caption_en": "Israelis held memorials on Wednesday, including at the Nova music festival site, three years after the Hamas-led attack that killed about 1,200 people and took 251 hostages into Gaza. More than 74,000 Palestinians have been killed in the war that followed, according to Gaza health authorities. A ceasefire took effect on October 10, 2025, but Israeli strikes in Gaza have continued.",
+  "caption_es": "Los israelíes celebraron actos de memoria el miércoles, incluso en el lugar del festival de música Nova, tres años después del ataque encabezado por Hamás que mató a unas 1.200 personas y llevó a 251 rehenes a Gaza. Más de 74.000 palestinos han muerto en la guerra posterior, según las autoridades sanitarias de Gaza. Un alto el fuego entró en vigor el 10 de octubre de 2025, pero los ataques israelíes en Gaza han continuado.",
+  "source_urls": [
+    "https://www.news4jax.com/news/world/2026/10/07/israelis-mourn-on-the-anniversary-of-the-oct-7-attack-as-palestinians-grapple-with-war-it-sparked/",
+    "https://cyprus-mail.com/2026/10/07/israel-marks-three-years-since-october-7-attack-as-election-looms"
+  ],
+  "source_names": ["Associated Press (News4JAX)", "Reuters (Cyprus Mail)"],
+  "hashtags": ["#MATRIX24", "#Israel", "#Gaza", "#October7", "#WorldNews"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Israel recordó a las unas 1.200 víctimas y los 251 rehenes del ataque de Hamás de 2023. En Gaza, más de 74.000 palestinos han muerto en la guerra, según autoridades sanitarias locales.",
+  "summary_en": "Israel remembered the roughly 1,200 killed and 251 taken hostage in the 2023 Hamas-led attack. In Gaza, more than 74,000 Palestinians have been killed in the war, per local health authorities.",
+  "highlight_es": "tres años",
+  "highlight_en": "three years",
+  "visual_label": "7 de octubre",
+  "image_prompt": "Rows of memorial candles burning at dusk on an open field with dry grass, soft wind, muted sky fading to night, solemn wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": ["Israel", "Palestine"],
+    "labels": {"Israel": "Israel", "Palestine": "Palestina"}
+  }
+}
