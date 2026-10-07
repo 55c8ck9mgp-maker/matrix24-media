@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-07T22:29:36Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261007-maduro-new-torture-charges-americans",
+  "category": "Colombia / Latin America",
+  "headline": "Maduro and his wife expected to face new US charges over alleged torture of Americans",
+  "headline_es": "Maduro y su esposa enfrentarían nuevos cargos en EE. UU. por presunta tortura de estadounidenses",
+  "caption_en": "Ousted Venezuelan President Nicolás Maduro and his wife, Cilia Flores, are expected to face new US criminal charges over the alleged torture of Americans held in Venezuela, a US official said, after CNN first reported the plan. The announcement could come as soon as Thursday. The couple, captured by US forces in Caracas in January, have pleaded not guilty to drug trafficking charges in New York.",
+  "caption_es": "El expresidente venezolano Nicolás Maduro y su esposa, Cilia Flores, enfrentarían nuevos cargos penales en Estados Unidos por la presunta tortura de estadounidenses detenidos en Venezuela, según dijo un funcionario estadounidense, después de que CNN informara primero del plan. El anuncio podría llegar este jueves. La pareja, capturada por fuerzas estadounidenses en Caracas en enero, se declaró no culpable de cargos de narcotráfico en Nueva York.",
+  "source_urls": [
+    "https://edition.cnn.com/2026/10/07/politics/maduro-face-new-torture-charges",
+    "https://www.scmp.com/news/world/americas/article/3370104/venezuelas-maduro-face-new-us-charges-over-alleged-torture-americans-official-says"
+  ],
+  "source_names": [
+    "CNN",
+    "Reuters (SCMP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Venezuela",
+    "#Maduro",
+    "#EEUU"
+  ],
+  "summary_es": "Un funcionario de EE. UU. dice que Maduro y Cilia Flores serían acusados por la presunta tortura de estadounidenses detenidos en Venezuela. El anuncio podría llegar el jueves.",
+  "summary_en": "A US official says Maduro and Cilia Flores are expected to be charged over the alleged torture of Americans held in Venezuela. An announcement could come Thursday.",
+  "highlight_es": "nuevos cargos",
+  "highlight_en": "new US charges",
+  "visual_label": "Nueva York",
+  "image_prompt": "Exterior of a classical stone federal courthouse with tall columns and wide steps on an overcast morning in a large city, empty plaza in front, wide cinematic view",
+  "map": {
+    "focus": [
+      "Venezuela",
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 40.7128,
+      "lon": -74.006,
+      "label": "Nueva York"
+    },
+    "labels": {
+      "Venezuela": "Venezuela",
+      "United States of America": "Estados Unidos"
+    }
+  }
+}
