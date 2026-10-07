@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-australia-high-court-blocks-coal-mine",
+  "created_at": "2026-10-07T07:28:35Z",
+  "category": "Climate",
+  "headline": "Australia's High Court blocks Mount Pleasant coal mine expansion over climate impact",
+  "headline_es": "El Tribunal Supremo de Australia frena la ampliación de la mina de carbón Mount Pleasant",
+  "caption_es": "El Tribunal Supremo de Australia bloqueó la ampliación de la mina de carbón Mount Pleasant, en Nueva Gales del Sur, propiedad de MACH Energy. Los jueces concluyeron que las autoridades de planificación no consideraron debidamente cómo minimizar las emisiones de gases de efecto invernadero del proyecto. La ampliación habría extendido la vida de la mina hasta 2048 y duplicado aproximadamente su producción; el caso fue impulsado por un grupo comunitario local.",
+  "caption_en": "Australia's High Court has blocked the expansion of the Mount Pleasant coal mine in New South Wales, owned by MACH Energy. The judges found planning authorities failed to properly consider how to minimise the project's greenhouse gas emissions. The expansion would have extended the mine's life to 2048 and roughly doubled its output; the case was brought by a local community group.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/7/australia-top-court-rules-against-coal-mine-expansion-citing-climate-harm",
+    "https://www.timeslive.co.za/news/world/2026-10-07-australian-high-court-blocks-coal-mine-in-climate-case/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "TimesLIVE (Reuters)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Australia",
+    "#Clima",
+    "#Climate",
+    "#Carbon"
+  ],
+  "summary_es": "El máximo tribunal australiano anuló la ampliación hasta 2048 de la mina Mount Pleasant por no evaluarse bien sus emisiones.",
+  "summary_en": "Australia's top court struck down the mine's expansion to 2048, saying its emissions were not properly considered.",
+  "highlight_es": "mina de carbón Mount Pleasant",
+  "highlight_en": "Mount Pleasant coal mine",
+  "image_prompt": "Open-cut coal mine terraces in a green river valley at dusk, idle haul trucks and conveyor belts, a classical courthouse facade with columns symbolically overlaid in the sky, wide cinematic view",
+  "visual_label": "Mount Pleasant",
+  "map": {
+    "focus": [
+      "Australia"
+    ],
+    "marker": {
+      "lat": -32.25,
+      "lon": 150.85,
+      "label": "Valle Hunter"
+    },
+    "labels": {
+      "Australia": "Australia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T07:49:50.809Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
