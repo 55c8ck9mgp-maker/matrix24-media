@@ -29,10 +29,10 @@
   "highlight_en": "AI boom",
   "image_prompt": "Modern city skyline at dusk with a large data center glowing in the foreground, oil storage tanks and power lines on one side, stacks of coins on a reflective table in front, balanced tension, wide cinematic view, no text, no logos",
   "visual_label": "FMI",
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261007-imf-chief-warns-ai-energy-debt.jpg",
   "publish_attempt_id": "035e809f-b5ae-4f5a-9b55-813aec4cc1ff",
-  "ig_media_id": null,
+  "ig_media_id": "18134705842738787",
   "history": [
     {
       "at": "2026-10-07T11:48:58.449Z",
@@ -48,8 +48,15 @@
       "at": "2026-10-07T11:49:36.012Z",
       "event": "reserved",
       "publish_attempt_id": "035e809f-b5ae-4f5a-9b55-813aec4cc1ff"
+    },
+    {
+      "at": "2026-10-07T11:49:49.373Z",
+      "event": "published",
+      "publish_attempt_id": "035e809f-b5ae-4f5a-9b55-813aec4cc1ff",
+      "ig_media_id": "18134705842738787"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-07T11:49:36.012Z"
+  "reserved_at": "2026-10-07T11:49:36.012Z",
+  "permalink": "https://www.instagram.com/p/DeMSkT0kVMu/"
 }
