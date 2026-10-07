@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-houthis-strike-aden-airport",
+  "created_at": "2026-10-07T06:24:28Z",
+  "category": "Security / Geopolitics",
+  "headline": "Houthis fire ballistic missiles at Aden airport as Saudi coalition intercepts missile near Riyadh",
+  "headline_es": "Los hutíes lanzan misiles contra el aeropuerto de Adén; Arabia Saudí intercepta otro cerca de Riad",
+  "caption_es": "Los hutíes de Yemen, alineados con Irán, atacaron el Aeropuerto Internacional de Adén con misiles balísticos la madrugada del miércoles. Adén está en manos del gobierno yemení reconocido internacionalmente y no se reportaron víctimas. Por separado, la coalición liderada por Arabia Saudí dijo haber interceptado un misil balístico hutí al norte de la capital saudí, Riad.",
+  "caption_en": "Yemen's Iran-aligned Houthis targeted Aden International Airport with ballistic missiles early Wednesday. Aden is held by Yemen's internationally recognised government, and no casualties were reported. Separately, the Saudi-led coalition said it intercepted a Houthi ballistic missile north of the Saudi capital, Riyadh.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/liveblog/2026/10/7/iran-war-live-yemen-forces-claim-control-over-strategic-taiz-mountain-peak",
+    "https://www.al-monitor.com/originals/2026/10/houthis-attack-aden-airport-fighting-intensifies-yemen"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Al-Monitor (Reuters)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Yemen",
+    "#Houthis",
+    "#WorldNews"
+  ],
+  "summary_es": "Los hutíes atacaron con misiles el aeropuerto de Adén, controlado por el gobierno yemení; no hubo víctimas. La coalición saudí interceptó otro misil al norte de Riad.",
+  "summary_en": "The Houthis fired missiles at Aden airport, held by Yemen's government; no casualties were reported. The Saudi-led coalition intercepted another missile north of Riyadh.",
+  "highlight_es": "aeropuerto de Adén",
+  "highlight_en": "Aden airport",
+  "image_prompt": "Empty airport runway on a dry coastal plain at dawn, control tower in the distance, rugged volcanic hills and the sea behind, faint missile contrail high in a hazy sky, sober wide cinematic view, no people",
+  "visual_label": "Adén",
+  "map": {
+    "focus": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "marker": {
+      "lat": 12.83,
+      "lon": 45.03,
+      "label": "Adén"
+    },
+    "labels": {
+      "Yemen": "Yemen",
+      "Saudi Arabia": "Arabia Saudí"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T06:27:14.482Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
