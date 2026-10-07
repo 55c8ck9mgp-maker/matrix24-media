@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-yemen-fighting-displaces-200000-un",
+  "status": "draft",
+  "created_at": "2026-10-07T15:34:16Z",
+  "category": "World",
+  "headline": "Yemen fighting has displaced more than 200,000 people since early September, UN agency says",
+  "headline_es": "Los combates en Yemen han desplazado a más de 200.000 personas desde septiembre, según la ONU",
+  "caption_en": "More than 200,000 people have been displaced in Yemen since fighting between the Houthis and Saudi-backed government forces escalated in early September, up from about 76,000 in mid-September, the UN's International Organization for Migration said. Displacement spans 10 governorates, with Taiz the hardest hit, and more than 3,700 people have fled by sea to Djibouti. It is the most serious escalation since the 2022 UN-brokered truce.",
+  "caption_es": "Más de 200.000 personas han sido desplazadas en Yemen desde que los combates entre los hutíes y las fuerzas del Gobierno respaldadas por Arabia Saudí se intensificaron a comienzos de septiembre, frente a unas 76.000 a mediados de ese mes, informó la Organización Internacional para las Migraciones de la ONU. El desplazamiento abarca 10 gobernaciones, con Taiz como la más afectada, y más de 3.700 personas han huido por mar a Yibuti. Es la escalada más grave desde la tregua de 2022 mediada por la ONU.",
+  "source_urls": [
+    "https://www.al-monitor.com/originals/2026/10/more-200000-people-displaced-fighting-yemen-began-says-un-agency",
+    "https://www.turkiyetoday.com/world/un-says-more-than-200000-displaced-as-yemen-fighting-intensifies-3229833"
+  ],
+  "source_names": ["Al-Monitor (Reuters)", "Türkiye Today"],
+  "hashtags": ["#MATRIX24", "#Yemen", "#ONU", "#Taiz"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La OIM de la ONU cifra en más de 200.000 los desplazados en Yemen desde inicios de septiembre. Taiz es la zona más afectada y más de 3.700 personas huyeron por mar a Yibuti.",
+  "summary_en": "The UN's IOM says more than 200,000 people have been displaced in Yemen since early September. Taiz is hardest hit and over 3,700 fled by sea to Djibouti.",
+  "highlight_es": "más de 200.000 personas",
+  "highlight_en": "more than 200,000 people",
+  "visual_label": "Taiz",
+  "image_prompt": "Rows of white humanitarian tents in a dusty valley beneath rugged brown mountains, water containers stacked beside a dirt track, hazy afternoon light, wide cinematic view, no identifiable people, no text, no logos, no flags.",
+  "map": {
+    "focus": ["Yemen"],
+    "marker": {"lat": 13.58, "lon": 44.02, "label": "Taiz"},
+    "labels": {"Yemen": "Yemen"}
+  }
+}

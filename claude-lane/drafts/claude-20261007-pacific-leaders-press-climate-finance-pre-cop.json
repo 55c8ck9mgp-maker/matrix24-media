@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-pacific-leaders-press-climate-finance-pre-cop",
+  "status": "draft",
+  "created_at": "2026-10-07T15:34:16Z",
+  "category": "Climate",
+  "headline": "Pacific leaders press wealthy nations for climate finance at pre-COP31 summit in Fiji",
+  "headline_es": "Líderes del Pacífico exigen financiación climática a los países ricos en la cumbre pre-COP31 de Fiyi",
+  "caption_en": "Pacific island leaders used a pre-COP31 meeting in Fiji to press wealthy nations for more and faster climate finance, ahead of the UN climate summit next month. Before the talks, leaders visited Tuvalu to see the effects of rising seas firsthand. The region's new Pacific Resilience Facility aims to raise 500 million dollars but has secured less than half of that target.",
+  "caption_es": "Los líderes de las islas del Pacífico aprovecharon una reunión previa a la COP31 en Fiyi para exigir a los países ricos más financiación climática y con mayor rapidez, antes de la cumbre climática de la ONU del próximo mes. Antes de las conversaciones, los líderes visitaron Tuvalu para ver de cerca los efectos del aumento del nivel del mar. El nuevo Fondo de Resiliencia del Pacífico busca reunir 500 millones de dólares, pero ha conseguido menos de la mitad de esa meta.",
+  "source_urls": [
+    "https://www.manilatimes.net/2026/10/07/world/pacific-presses-world-for-help-surviving-climate-change-at-pre-cop-summit/2440626",
+    "https://www.climatechangenews.com/2026/10/06/pacific-leaders-rail-at-climate-finance-failures-after-pre-cop-trip-to-tuvalu/"
+  ],
+  "source_names": ["The Manila Times (AFP)", "Climate Home News"],
+  "hashtags": ["#MATRIX24", "#COP31", "#Pacífico", "#Tuvalu", "#ClimateChange"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "En una reunión previa a la COP31 en Fiyi, los líderes del Pacífico pidieron más financiación climática. Antes visitaron Tuvalu para ver el impacto del aumento del mar.",
+  "summary_en": "At a pre-COP31 meeting in Fiji, Pacific leaders called for more climate finance. Beforehand they visited Tuvalu to see the impact of rising seas.",
+  "highlight_es": "financiación climática",
+  "highlight_en": "climate finance",
+  "visual_label": "Pre-COP31",
+  "image_prompt": "Low-lying Pacific atoll with a narrow strip of palm trees and small houses, turquoise lagoon on one side and rising ocean waves washing over a seawall on the other, bright tropical light, wide aerial cinematic view, no people, no text, no flags.",
+  "map": {
+    "focus": ["Fiji", "Tuvalu"],
+    "marker": {"lat": -17.80, "lon": 177.42, "label": "Nadi"},
+    "labels": {"Fiji": "Fiyi", "Tuvalu": "Tuvalu"}
+  }
+}
