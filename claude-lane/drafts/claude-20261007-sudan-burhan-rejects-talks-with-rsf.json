@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-sudan-burhan-rejects-talks-with-rsf",
+  "status": "draft",
+  "created_at": "2026-10-07T05:21:55Z",
+  "category": "Security / Geopolitics",
+  "headline": "Sudan's army chief al-Burhan rejects talks with the RSF, vows to retake every inch of territory",
+  "headline_es": "El jefe del ejército de Sudán, al-Burhan, rechaza negociar con las RSF y promete recuperar todo el país",
+  "caption_en": "Sudan's military leader Abdel Fattah al-Burhan said in Merowe, Northern State, that the army will keep pursuing the 'military option' against the paramilitary Rapid Support Forces and rejected negotiations. The war, which began in April 2023, has killed tens of thousands and displaced about 13 million people.",
+  "caption_es": "El líder militar de Sudán, Abdel Fattah al-Burhan, afirmó en Merowe, en el estado del Norte, que el ejército seguirá con la 'opción militar' contra las paramilitares Fuerzas de Apoyo Rápido (RSF) y rechazó negociar. La guerra, iniciada en abril de 2023, ha dejado decenas de miles de muertos y unos 13 millones de desplazados.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/7/sudans-al-burhan-rejects-talks-vows-to-retake-all-territory-from-rsf",
+    "https://www.aa.com.tr/en/africa/sudan-s-burhan-vows-to-continue-military-campaign-until-every-inch-retaken/4080182"
+  ],
+  "source_names": ["Al Jazeera", "Anadolu Agency"],
+  "hashtags": ["#MATRIX24", "#Sudan", "#Sudán", "#RSF", "#WorldNews"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Al-Burhan dijo que el ejército seguirá combatiendo a las RSF hasta recuperar cada rincón del país. La guerra, desde abril de 2023, ha desplazado a unos 13 millones de personas.",
+  "summary_en": "Al-Burhan said the army will keep fighting the RSF until it retakes every inch of the country. The war, since April 2023, has displaced about 13 million people.",
+  "highlight_es": "rechaza negociar",
+  "highlight_en": "rejects talks",
+  "visual_label": "Sudán",
+  "image_prompt": "Wide desert landscape along the Nile in northern Sudan at dusk, empty military trucks parked near sand dunes, distant palm trees and river, dusty hazy sky, sober cinematic view, no people",
+  "map": {
+    "focus": ["Sudan"],
+    "marker": {"lat": 18.48, "lon": 31.82, "label": "Merowe"},
+    "labels": {"Sudan": "Sudán"}
+  }
+}
