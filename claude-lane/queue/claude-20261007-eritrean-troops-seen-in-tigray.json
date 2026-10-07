@@ -1,0 +1,57 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-eritrean-troops-seen-in-tigray",
+  "created_at": "2026-10-07T20:40:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Eritrean troops seen in Ethiopia's Tigray as fears grow of a wider regional war",
+  "headline_es": "Tropas de Eritrea son vistas en Tigray, Etiopía, ante el temor de una guerra regional",
+  "caption_es": "Residentes y un funcionario local afirman que soldados eritreos se han desplegado en Adigrat y sus alrededores, una ciudad de la región de Tigray, en el norte de Etiopía, cerca de la frontera con Eritrea. Esto ocurre unas dos semanas después de que se reanudaran los combates en Tigray, un conflicto que amenaza con convertirse en una guerra regional. Fuerzas progubernamentales entraron el domingo en Mekelle, la capital de Tigray.",
+  "caption_en": "Residents and a local official say Eritrean soldiers have been deployed in and around Adigrat, a town in Ethiopia's northern Tigray region near the Eritrean border. The sighting comes about two weeks after fighting resumed in Tigray, a conflict that threatens to widen into a regional war. Pro-government forces entered the Tigrayan capital, Mekelle, on Sunday.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/7/witnesses-spot-eritrean-troops-inside-northern-ethiopia-as-tensions-flare",
+    "https://www.arabnews.com/world/eritrean-troops-deploy-in-ethiopias-tigray-region-local-official-residents-3005051"
+  ],
+  "source_names": [
+    "Al Jazeera (Reuters)",
+    "Arab News (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ethiopia",
+    "#Etiopía",
+    "#Eritrea",
+    "#Tigray",
+    "#WorldNews"
+  ],
+  "summary_es": "Testigos y un funcionario local reportan soldados eritreos en Adigrat, en el norte de Tigray, dos semanas después de reanudarse los combates en la región etíope.",
+  "summary_en": "Witnesses and a local official report Eritrean soldiers in Adigrat, northern Tigray, two weeks after fighting resumed in the Ethiopian region.",
+  "highlight_es": "Tropas de Eritrea",
+  "highlight_en": "Eritrean troops",
+  "image_prompt": "Empty mountain road winding through the rugged highlands of northern Ethiopia toward a distant border ridge, dry terraced hills and acacia trees under a hazy sky, sober wide cinematic landscape, no people, no vehicles",
+  "visual_label": "Tigray",
+  "map": {
+    "focus": [
+      "Ethiopia",
+      "Eritrea"
+    ],
+    "marker": {
+      "lat": 14.28,
+      "lon": 39.46,
+      "label": "Adigrat"
+    },
+    "labels": {
+      "Ethiopia": "Etiopía",
+      "Eritrea": "Eritrea"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T20:48:56.638Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
