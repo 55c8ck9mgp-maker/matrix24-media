@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-eu-envoys-approve-new-russia-sanctions",
+  "status": "draft",
+  "created_at": "2026-10-07T10:33:17Z",
+  "category": "Security / Geopolitics",
+  "headline": "EU envoys approve new Russia sanctions on 743 people and 826 military-industrial firms",
+  "headline_es": "Embajadores de la UE aprueban nuevas sanciones a Rusia contra 743 personas y 826 empresas militares",
+  "caption_en": "EU member states' ambassadors approved a new set of sanctions against Russia on Wednesday, targeting 743 individuals and 826 organizations in its military-industrial complex. The listings also include 77 State Duma deputies elected in occupied Ukrainian territories, plus 31 people and 6 entities linked to the use of chemical weapons.",
+  "caption_es": "Los embajadores de los Estados miembros de la UE aprobaron este miércoles un nuevo paquete de sanciones contra Rusia, dirigido a 743 personas y 826 organizaciones de su complejo militar-industrial. Las listas incluyen además a 77 diputados de la Duma Estatal elegidos en territorios ocupados de Ucrania, y a 31 personas y 6 entidades vinculadas al uso de armas químicas.",
+  "source_urls": [
+    "https://112.ua/en/es-zatverdiv-novi-sankcii-proti-rosii-obmezenna-dla-743-osib-i-826-vijskovih-pidpriemstv-189781",
+    "https://unn.ua/en/news/eu-ambassadors-agree-on-sanctions-against-russias-defense-industry-and-77-state-duma-deputies-media"
+  ],
+  "source_names": [
+    "112 Ukraine",
+    "UNN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#UE",
+    "#EU",
+    "#Rusia",
+    "#Sanciones"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Las sanciones apuntan a la industria de defensa rusa e incluyen a 77 diputados de la Duma elegidos en zonas ocupadas de Ucrania.",
+  "summary_en": "The sanctions target Russia's defense industry and include 77 Duma deputies elected in occupied areas of Ukraine.",
+  "highlight_es": "nuevas sanciones",
+  "highlight_en": "new Russia sanctions",
+  "visual_label": "Sanciones UE",
+  "image_prompt": "Modern glass European institutional building at dusk with a long conference table and empty chairs visible through the windows, an industrial factory with cranes faintly reflected in the glass, no text, no flags, wide cinematic view",
+  "map": {
+    "focus": [
+      "Russia"
+    ],
+    "labels": {
+      "Russia": "Rusia"
+    }
+  }
+}
