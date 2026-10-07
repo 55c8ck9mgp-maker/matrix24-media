@@ -114,7 +114,13 @@ test('only Instagram-published stories from the last hour, oldest first, never b
   const r = await run({ mode: 'dry-run', store, fb: fakeFb() });
   assert.equal(r.content_id, 'claude-20261007-older'); assert.equal(r.waiting, 2);
   const none = fakeStore([rec('old', { publishedAt: NOW - FB_WINDOW_MS - 60000 })]);
-  assert.equal((await run({ mode: 'dry-run', store: none, fb: fakeFb() })).outcome, 'no_candidate');
+  const fbNone = fakeFb();
+  const nr = await run({ mode: 'dry-run', store: none, fb: fbNone });
+  assert.equal(nr.outcome, 'no_candidate'); assert.equal(nr.page_access, 'ok:');
+  assert.deepEqual(fbNone.calls, ['access']); // dry run still proves page access
+  const fbLive = fakeFb();
+  assert.equal((await run({ mode: 'live', enabled: true, store: none, fb: fbLive })).outcome, 'no_candidate');
+  assert.deepEqual(fbLive.calls, []); assert.equal(none.writes.length, 0);
 });
 
 test('spacing between Facebook posts', async () => {
@@ -161,7 +167,7 @@ test('result classification: only clear rejections are "failed"', () => {
   assert.equal(classifyPostResult({ networkError: true }).outcome, 'publish_unknown');
 });
 
-test('client: page token resolved from the user token, tokens never in URLs', async () => {
+test('client: page token resolved from the user token, tokens never in publishing URLs', async () => {
   const seen = [];
   const fetchImpl = async (url, opts = {}) => {
     seen.push({ url, opts });
@@ -172,7 +178,7 @@ test('client: page token resolved from the user token, tokens never in URLs', as
   const masked = [];
   const fb = createFacebookClient({ userToken: 'USER-SECRET', pageId: '1300936266441859', fetchImpl, onSecret: s => masked.push(s) });
   const access = await fb.pageAccess();
-  assert.deepEqual(access, { ok: true, page_id: '1300936266441859', page_name: 'Matrix24global' });
+  assert.deepEqual(access, { ok: true, page_id: '1300936266441859', page_name: 'Matrix24global', via: 'me_accounts' });
   assert.equal(JSON.stringify(access).includes('SECRET'), false);
   assert.deepEqual(masked, ['PAGE-SECRET']);
   const r = await fb.postPhoto({ url: 'https://x/y.jpg', caption: 'c' });
@@ -188,4 +194,24 @@ test('client: page missing or without CREATE_CONTENT is refused', async () => {
   assert.deepEqual(other.pages_returned, ['42:Other']); assert.equal(JSON.stringify(other).includes('SECRET'), false);
   assert.equal((await mk([{ id: '1300936266441859', tasks: ['ANALYZE'], access_token: 't' }]).pageAccess()).reason, 'page_missing_create_content');
   assert.equal((await createFacebookClient({ userToken: '', pageId: '1' }).pageAccess()).reason, 'missing_user_token');
+});
+
+test('client: business-owned page missing from /me/accounts is reached directly and verified', async () => {
+  const PAGE = '1300936266441859';
+  const make = debugData => async (url, opts = {}) => {
+    if (url.includes('/me/accounts')) return { status: 200, json: async () => ({ data: [] }) };
+    if (url.includes(`/${PAGE}?fields`)) return { status: 200, json: async () => ({ id: PAGE, name: 'Matrix24global', access_token: 'PAGE-SECRET' }) };
+    if (url.includes('/debug_token')) { assert.equal(url.includes('SECRET'), true); return { status: 200, json: async () => ({ data: debugData }) }; }
+    throw new Error(`unexpected ${url}`);
+  };
+  const okData = { is_valid: true, type: 'PAGE', profile_id: PAGE, scopes: ['pages_manage_posts', 'pages_show_list'] };
+  const ok = await createFacebookClient({ userToken: 'u', pageId: PAGE, fetchImpl: make(okData) }).pageAccess();
+  assert.deepEqual(ok, { ok: true, page_id: PAGE, page_name: 'Matrix24global', via: 'page_direct' });
+  const wrongType = await createFacebookClient({ userToken: 'u', pageId: PAGE, fetchImpl: make({ ...okData, type: 'USER' }) }).pageAccess();
+  assert.equal(wrongType.reason, 'page_token_not_verified');
+  const noPost = await createFacebookClient({ userToken: 'u', pageId: PAGE, fetchImpl: make({ ...okData, scopes: ['pages_show_list'] }) }).pageAccess();
+  assert.equal(noPost.reason, 'page_token_missing_manage_posts');
+  const otherPage = await createFacebookClient({ userToken: 'u', pageId: PAGE, fetchImpl: make({ ...okData, profile_id: '9' }) }).pageAccess();
+  assert.equal(otherPage.reason, 'page_token_not_verified');
+  for (const r of [ok, wrongType, noPost, otherPage]) assert.equal(JSON.stringify(r).includes('SECRET'), false);
 });

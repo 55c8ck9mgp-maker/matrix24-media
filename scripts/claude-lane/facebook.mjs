@@ -61,8 +61,10 @@ export function classifyPostResult({ status, body, networkError }) {
   return { outcome: 'publish_unknown', reason: `http_${status}${err?.code ? `_code_${err.code}` : ''}` };
 }
 
-// Thin Graph API client. Tokens travel only in headers or POST bodies and are
-// never put in a URL, a log line or an error message.
+// Thin Graph API client. Tokens travel in headers or POST bodies, never in a log
+// line, record or error message. The one exception is debug_token's input_token,
+// which the API accepts only as a query parameter (read-only call; every token is
+// masked in the Actions log before any request).
 export function createFacebookClient({ userToken, pageId, fetchImpl = fetch, onSecret = () => {} }) {
   let pageToken = null;
   const getJson = async (url, token) => {
@@ -77,14 +79,33 @@ export function createFacebookClient({ userToken, pageId, fetchImpl = fetch, onS
       if (!nonEmpty(userToken)) return { ok: false, reason: 'missing_user_token' };
       const { status, body } = await getJson(`${GRAPH}/me/accounts?fields=id,name,tasks,access_token&limit=100`, userToken);
       if (status !== 200) return { ok: false, reason: `accounts_http_${status}${body?.error?.code ? `_code_${body.error.code}` : ''}` };
-      const page = (body?.data || []).find(p => String(p.id) === String(pageId));
+      const listed = (body?.data || []).find(p => String(p.id) === String(pageId));
+      if (listed) {
+        if (!Array.isArray(listed.tasks) || !listed.tasks.includes('CREATE_CONTENT')) return { ok: false, reason: 'page_missing_create_content' };
+        if (!nonEmpty(listed.access_token)) return { ok: false, reason: 'page_token_missing' };
+        pageToken = listed.access_token;
+        onSecret(pageToken);
+        return { ok: true, page_id: String(listed.id), page_name: listed.name, via: 'me_accounts' };
+      }
+      // Pages owned by a business portfolio are often missing from /me/accounts
+      // even when the token's granular scopes target them (seen 2026-10-07).
+      // Documented alternative: ask the Page itself for its token, then confirm
+      // with debug_token that it is a PAGE token for this page that can post.
+      const direct = await getJson(`${GRAPH}/${pageId}?fields=id,name,access_token`, userToken);
       // Page ids and names are public, so the diagnosis may list them; tokens are never included.
-      if (!page) return { ok: false, reason: 'page_not_granted', pages_returned: (body?.data || []).map(p => `${p.id}:${p.name ?? ''}`).slice(0, 10) };
-      if (!Array.isArray(page.tasks) || !page.tasks.includes('CREATE_CONTENT')) return { ok: false, reason: 'page_missing_create_content' };
-      if (!nonEmpty(page.access_token)) return { ok: false, reason: 'page_token_missing' };
-      pageToken = page.access_token;
-      onSecret(pageToken);
-      return { ok: true, page_id: String(page.id), page_name: page.name };
+      const pagesReturned = (body?.data || []).map(p => `${p.id}:${p.name ?? ''}`).slice(0, 10);
+      if (direct.status !== 200 || !nonEmpty(direct.body?.access_token)) {
+        return { ok: false, reason: `page_not_granted${direct.body?.error?.code ? `_code_${direct.body.error.code}` : ''}`, pages_returned: pagesReturned };
+      }
+      const candidate = direct.body.access_token;
+      onSecret(candidate);
+      const q = new URLSearchParams({ input_token: candidate });
+      const dbg = await getJson(`${GRAPH}/debug_token?${q}`, candidate);
+      const d = dbg.body?.data;
+      if (!d || d.is_valid !== true || d.type !== 'PAGE' || String(d.profile_id) !== String(pageId)) return { ok: false, reason: 'page_token_not_verified' };
+      if (!(d.scopes || []).includes('pages_manage_posts')) return { ok: false, reason: 'page_token_missing_manage_posts' };
+      pageToken = candidate;
+      return { ok: true, page_id: String(direct.body.id), page_name: direct.body.name, via: 'page_direct' };
     },
     // Expiry of the stored user token (0 = never). Read-only.
     async tokenInfo() {
@@ -131,7 +152,11 @@ export async function runFacebook({
     .map(e => ({ ...e, at: instagramPublishedAt(e.record) }))
     .filter(e => e.at != null && now - e.at <= windowMs && now >= e.at)
     .sort((a, b) => a.at - b.at);
-  if (!eligible.length) return { outcome: 'no_candidate', stuck };
+  if (!eligible.length) {
+    // A dry run still proves the Page access, so problems show up before going live.
+    if (!live) { const a = await fb.pageAccess(); return { outcome: 'no_candidate', page_access: a.ok ? `ok:${a.via ?? ''}` : a.reason, stuck }; }
+    return { outcome: 'no_candidate', stuck };
+  }
   if (now - lastReserved < FB_MIN_SPACING_MS) return { outcome: 'spacing', next_after: new Date(lastReserved + FB_MIN_SPACING_MS).toISOString(), stuck };
 
   const access = await fb.pageAccess();
@@ -149,7 +174,7 @@ export async function runFacebook({
   };
   check(candidate, reserved);
   if (!live) {
-    return { outcome: 'would_post', content_id: candidate.content_id, page: access.page_name, image_url: candidate.image_url,
+    return { outcome: 'would_post', content_id: candidate.content_id, page: access.page_name, via: access.via ?? null, image_url: candidate.image_url,
       caption_length: caption.length, waiting: eligible.length, stuck };
   }
 
