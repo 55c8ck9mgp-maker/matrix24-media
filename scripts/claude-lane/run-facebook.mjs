@@ -8,7 +8,11 @@ import { createFacebookClient, runFacebook, TOKEN_WARN_DAYS } from './facebook.m
 import { createGitStore } from './git-store.mjs';
 import { fsReadOnlyStore } from './run-publisher.mjs';
 
-const LIVE = process.env.CLAUDE_LANE_ENABLED === 'true' && process.env.CLAUDE_LANE_FB_ENABLED === 'true';
+// Owner switches. Surrounding whitespace is ignored (a value typed on a phone
+// arrived as "true" plus an invisible character on 2026-10-07); anything other
+// than the word true keeps the run dry.
+const switchOn = v => typeof v === 'string' && v.trim() === 'true';
+const LIVE = switchOn(process.env.CLAUDE_LANE_ENABLED) && switchOn(process.env.CLAUDE_LANE_FB_ENABLED);
 const GHA = Boolean(process.env.GITHUB_ACTIONS);
 const log = (stage, obj, level = 'notice') => {
   const line = JSON.stringify({ stage, live: LIVE, ...obj });
@@ -17,6 +21,8 @@ const log = (stage, obj, level = 'notice') => {
 };
 
 async function main() {
+  // Switch values are repository variables, not secrets: logging their exact form is safe.
+  log('switches', { lane: JSON.stringify(process.env.CLAUDE_LANE_ENABLED ?? null), facebook: JSON.stringify(process.env.CLAUDE_LANE_FB_ENABLED ?? null) });
   const userToken = process.env.FB_CLAUDE_USER_TOKEN;
   const pageId = process.env.FB_PAGE_ID;
   if (GHA && userToken) console.log(`::add-mask::${userToken}`);

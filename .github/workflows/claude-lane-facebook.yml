@@ -29,7 +29,9 @@ jobs:
   facebook:
     # Scheduled runs only when Facebook is switched on; dispatch/push always run
     # (as a dry run while the switch is off).
-    if: github.event_name != 'schedule' || vars.CLAUDE_LANE_FB_ENABLED == 'true'
+    # startsWith tolerates a trailing space/newline typed on a phone (2026-10-07);
+    # the script trims and requires exactly "true" before going live.
+    if: github.event_name != 'schedule' || startsWith(vars.CLAUDE_LANE_FB_ENABLED, 'true')
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
