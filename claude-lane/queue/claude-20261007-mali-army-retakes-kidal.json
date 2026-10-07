@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-mali-army-retakes-kidal",
+  "created_at": "2026-10-07T23:38:35Z",
+  "category": "Security / Geopolitics",
+  "headline": "Mali's army retakes northern rebel stronghold Kidal with help from Russia's Africa Corps",
+  "headline_es": "El ejército de Malí retoma Kidal, bastión rebelde del norte, con apoyo del Africa Corps ruso",
+  "caption_es": "El gobierno de transición de Malí afirma que sus fuerzas recuperaron la ciudad de Kidal, en el norte del país, en una operación aérea y terrestre apoyada por el Africa Corps de Rusia. El Frente de Liberación de Azawad, grupo separatista tuareg que tomó la ciudad a comienzos de este año, dijo que realizó una retirada controlada y culpó al uso intenso de medios aéreos por parte de la unidad rusa. Según oficiales, las tropas entraron sin encontrar resistencia.",
+  "caption_en": "Mali's transitional government says its forces have recaptured the northern city of Kidal in an air and ground operation backed by Russia's Africa Corps. The Tuareg separatist Azawad Liberation Front, which seized the city earlier this year, said it carried out a controlled withdrawal and blamed heavy use of air power by the Russian unit. Officials say troops entered the city without meeting resistance.",
+  "source_urls": [
+    "https://www.winknews.com/news/international/mali-says-its-forces-have-retaken-the-northern-rebel-stronghold-of-kidal/article_c427f9c9-651e-536a-b5e7-59f606010eb4.html",
+    "https://www.arabnews.pk/middle-east/malian-forces-enter-kidal-after-tuareg-withdrawal-amid-russian-support-3003336"
+  ],
+  "source_names": [
+    "WINK News (AP)",
+    "Arab News (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Mali",
+    "#Malí",
+    "#Kidal",
+    "#Sahel",
+    "#WorldNews"
+  ],
+  "summary_es": "Malí dice haber recuperado Kidal con apoyo ruso. El grupo separatista tuareg FLA afirma que se retiró de forma controlada; los soldados entraron sin resistencia.",
+  "summary_en": "Mali says it recaptured Kidal with Russian support. The Tuareg separatist FLA says it withdrew in a controlled manner; troops entered without resistance.",
+  "highlight_es": "retoma Kidal",
+  "highlight_en": "retakes",
+  "image_prompt": "Wide desert landscape in the Sahara with low sandstone hills and a small town of flat-roofed earthen buildings on the horizon, an empty sand track leading toward it, harsh midday light, sober cinematic view, no people, no vehicles",
+  "visual_label": "Kidal",
+  "map": {
+    "focus": [
+      "Mali"
+    ],
+    "marker": {
+      "lat": 18.44,
+      "lon": 1.41,
+      "label": "Kidal"
+    },
+    "labels": {
+      "Mali": "Malí"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T23:49:07.323Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
