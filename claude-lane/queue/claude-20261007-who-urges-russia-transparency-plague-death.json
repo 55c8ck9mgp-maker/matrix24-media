@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-who-urges-russia-transparency-plague-death",
+  "created_at": "2026-10-07T13:35:50Z",
+  "category": "Science",
+  "headline": "WHO chief urges Russia to be transparent after reported plague death at Siberian lab",
+  "headline_es": "La OMS pide transparencia a Rusia tras la muerte atribuida a la peste en un laboratorio siberiano",
+  "caption_es": "El director general de la OMS, Tedros Adhanom Ghebreyesus, pidió este miércoles a Rusia compartir información oportuna, completa y transparente conforme al Reglamento Sanitario Internacional. El llamado se produce tras la muerte de una técnica de laboratorio del Instituto de Investigación Antipeste de Irkutsk, en Siberia, cuyo caso fue vinculado en informes a la peste neumónica. Tedros afirmó que se necesita información clara para evaluar cualquier riesgo para la salud pública.",
+  "caption_en": "WHO Director-General Tedros Adhanom Ghebreyesus called on Russia on Wednesday to share timely, complete and transparent information under the International Health Regulations. The appeal follows the death of a laboratory technician at the Irkutsk Anti-Plague Research Institute in Siberia, whose case was linked in reports to pneumonic plague. Tedros said clear information is needed to assess any public health risk.",
+  "source_urls": [
+    "https://www.arabnews.com/world/who-chief-urges-transparency-amid-russia-plague-reports-3005060",
+    "https://www.trtworld.com/article/4fa3adb23f4b"
+  ],
+  "source_names": [
+    "Arab News (AFP)",
+    "TRT World"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#OMS",
+    "#WHO",
+    "#Rusia",
+    "#Peste"
+  ],
+  "summary_es": "Tedros exige a Moscú información completa sobre la muerte de una técnica del instituto antipeste de Irkutsk, vinculada en informes a la peste neumónica.",
+  "summary_en": "Tedros asks Moscow for full information on a technician's death at Irkutsk's anti-plague institute, linked in reports to pneumonic plague.",
+  "highlight_es": "OMS pide transparencia",
+  "highlight_en": "WHO chief",
+  "image_prompt": "Empty high-containment biology laboratory with a sealed glovebox, sample racks and test tubes under cool blue light, a snowy Siberian city skyline faintly visible through a window, clinical and calm atmosphere, no people, no text, no logos.",
+  "visual_label": "Irkutsk",
+  "map": {
+    "focus": [
+      "Russia"
+    ],
+    "marker": {
+      "lat": 52.29,
+      "lon": 104.3,
+      "label": "Irkutsk"
+    },
+    "labels": {
+      "Russia": "Rusia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T13:50:37.224Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
