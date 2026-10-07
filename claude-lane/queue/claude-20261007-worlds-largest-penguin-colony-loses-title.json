@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-worlds-largest-penguin-colony-loses-title",
+  "created_at": "2026-10-07T20:40:00Z",
+  "category": "Climate",
+  "headline": "Chinstrap penguin numbers collapse on Zavodovski Island, which loses its largest-colony title",
+  "headline_es": "Se desploman los pingüinos barbijo en la isla Zavodovski, que pierde el título de mayor colonia",
+  "caption_es": "La población de pingüinos barbijo en la isla Zavodovski, cerca de la Antártida, cayó cerca de un 63% entre 2011 y 2025, alrededor de un 7% al año, según un estudio del British Antarctic Survey publicado en Current Biology. Los investigadores lo vinculan al calentamiento del océano, que empuja el kril, su principal alimento, más al sur; una erupción volcánica de 2016 fue descartada como causa principal. Los pingüinos macaroni de la isla aumentaron.",
+  "caption_en": "Chinstrap penguin numbers on Zavodovski Island, near Antarctica, fell by about 63% between 2011 and 2025, a decline of roughly 7% a year, according to a British Antarctic Survey study in Current Biology. Researchers link the drop to ocean warming that pushes krill, the birds' main food, further south; a 2016 volcanic eruption was ruled out as the main cause. Macaroni penguins on the island grew in number.",
+  "source_urls": [
+    "https://www.cnn.com/2026/10/07/climate/chinstrap-penguins-antarctica-zavodovski-island",
+    "https://www.cbsnews.com/news/penguin-population-collapse-climate-change-study/"
+  ],
+  "source_names": [
+    "CNN",
+    "CBS News (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Climate",
+    "#Clima",
+    "#Penguins",
+    "#Antarctica"
+  ],
+  "summary_es": "Los pingüinos barbijo de la isla Zavodovski cayeron un 63% entre 2011 y 2025. El calentamiento del océano aleja el kril del que se alimentan.",
+  "summary_en": "Chinstrap penguins on Zavodovski Island fell 63% from 2011 to 2025. Ocean warming is pushing their krill food supply further south.",
+  "highlight_es": "pingüinos barbijo",
+  "highlight_en": "penguin numbers collapse",
+  "image_prompt": "Remote volcanic island in the stormy Southern Ocean, dark ash slopes dotted with a thinning colony of small black-and-white penguins, grey waves and drifting ice, overcast polar light, wide documentary-style nature scene",
+  "visual_label": "Zavodovski",
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T21:02:49.948Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
