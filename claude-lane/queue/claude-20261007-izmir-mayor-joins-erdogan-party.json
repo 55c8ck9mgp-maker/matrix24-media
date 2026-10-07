@@ -41,10 +41,10 @@
       "Turkey": "Turquía"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261007-izmir-mayor-joins-erdogan-party.jpg",
   "publish_attempt_id": "c3a46baf-f66b-44bc-89c1-cbc0e873ce3e",
-  "ig_media_id": null,
+  "ig_media_id": "17942935806088804",
   "history": [
     {
       "at": "2026-10-07T12:58:12.854Z",
@@ -60,8 +60,15 @@
       "at": "2026-10-07T12:58:51.709Z",
       "event": "reserved",
       "publish_attempt_id": "c3a46baf-f66b-44bc-89c1-cbc0e873ce3e"
+    },
+    {
+      "at": "2026-10-07T12:59:02.967Z",
+      "event": "published",
+      "publish_attempt_id": "c3a46baf-f66b-44bc-89c1-cbc0e873ce3e",
+      "ig_media_id": "17942935806088804"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-07T12:58:51.709Z"
+  "reserved_at": "2026-10-07T12:58:51.709Z",
+  "permalink": "https://www.instagram.com/p/DeMafoPlL4N/"
 }
