@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-isaias-hurricane-watch-us-gulf-coast",
+  "created_at": "2026-10-07T22:29:36Z",
+  "category": "Climate",
+  "headline": "Hurricane watch issued for US Gulf Coast as Tropical Storm Isaias strengthens",
+  "headline_es": "Emiten vigilancia de huracán en la costa del Golfo de EE. UU. ante la tormenta Isaías",
+  "caption_es": "Rige una vigilancia de huracán desde Bay St. Louis, Misisipi, hasta Indian Pass, Florida, mientras la tormenta tropical Isaías se fortalece en el Golfo, con una vigilancia de marejada ciclónica desde la desembocadura del río Misisipi hasta Yankeetown, Florida. Se prevé que Isaías se convierta en el primer huracán de la temporada atlántica y toque tierra como categoría 2 entre la noche del viernes y la madrugada del sábado, en algún punto entre Luisiana y el Panhandle de Florida.",
+  "caption_en": "A hurricane watch is in effect from Bay St. Louis, Mississippi, to Indian Pass, Florida, as Tropical Storm Isaias strengthens in the Gulf, with a storm surge watch from the mouth of the Mississippi River to Yankeetown, Florida. Isaias is forecast to become the Atlantic season's first hurricane and to make landfall as a Category 2 late Friday or early Saturday, somewhere between Louisiana and the Florida Panhandle.",
+  "source_urls": [
+    "https://weather.com/2026/10/07/storms/hurricane/tropical-storm-hurricane-isaias-gulf-coast-louisiana-florida",
+    "https://www.accuweather.com/en/hurricane/isaias-to-strengthen-into-atlantics-first-hurricane-before-reaching-us-coast-early-this-weekend/1942566"
+  ],
+  "source_names": [
+    "The Weather Channel",
+    "AccuWeather"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Isaias",
+    "#Huracan",
+    "#GolfoDeMexico"
+  ],
+  "summary_es": "Vigilancia de huracán entre Misisipi y Florida. Isaías sería el primer huracán de la temporada y tocaría tierra como categoría 2 entre el viernes y el sábado.",
+  "summary_en": "Hurricane watch from Mississippi to Florida. Isaias is expected to become the season's first hurricane and make landfall as a Category 2 late Friday or early Saturday.",
+  "highlight_es": "vigilancia de huracán",
+  "highlight_en": "Hurricane watch",
+  "image_prompt": "Satellite-style view of a large spiraling storm system over a deep blue gulf, swirling white cloud bands approaching a low green coastline, dramatic wide view",
+  "visual_label": "Isaías",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 30.4,
+      "lon": -87.2,
+      "label": "Costa del Golfo"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T22:47:28.520Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
