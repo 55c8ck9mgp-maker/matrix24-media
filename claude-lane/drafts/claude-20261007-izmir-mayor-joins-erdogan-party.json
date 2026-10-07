@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-izmir-mayor-joins-erdogan-party",
+  "status": "draft",
+  "created_at": "2026-10-07T12:32:59Z",
+  "category": "World",
+  "headline": "Mayor of Izmir, Turkey's opposition stronghold, joins Erdogan's AK Party",
+  "headline_es": "El alcalde de Esmirna, bastión opositor de Turquía, se une al partido de Erdogan",
+  "caption_en": "Cemil Tugay, mayor of Izmir, Turkey's third-largest city, formally joined President Recep Tayyip Erdogan's ruling AK Party at a ceremony in Ankara on Wednesday. Tugay won Izmir for the opposition CHP in 2024 with about 49% of the vote against 37% for the AKP candidate, and left the CHP in June after a court ruling on the party's leadership. The opposition denounced the switch as the result of pressure.",
+  "caption_es": "Cemil Tugay, alcalde de Esmirna, la tercera ciudad más grande de Turquía, se unió formalmente este miércoles al gobernante Partido AK del presidente Recep Tayyip Erdogan en una ceremonia en Ankara. Tugay ganó Esmirna para el opositor CHP en 2024 con cerca del 49% de los votos frente al 37% del candidato del AKP, y dejó el CHP en junio tras un fallo judicial sobre el liderazgo del partido. La oposición denunció el cambio como fruto de presiones.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/07/izmirs-centre-left-mayor-joins-erdogans-ak-party-shocking-turkish-opposition",
+    "https://www.al-monitor.com/originals/2026/10/mayor-turkeys-secular-stronghold-izmir-joins-erdogans-party"
+  ],
+  "source_names": ["Euronews", "Al-Monitor (Reuters)"],
+  "hashtags": ["#MATRIX24", "#Turquía", "#Turkey", "#Esmirna", "#Erdogan"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El alcalde de Esmirna, elegido por el opositor CHP en 2024, se pasó al partido gobernante de Erdogan. La oposición habla de presiones.",
+  "summary_en": "Izmir's mayor, elected for the opposition CHP in 2024, has switched to Erdogan's ruling party. The opposition says he was pressured.",
+  "highlight_es": "Esmirna",
+  "highlight_en": "Izmir",
+  "visual_label": "Esmirna",
+  "image_prompt": "Wide view of a Mediterranean coastal city at dusk, waterfront promenade along a calm bay, a historic clock tower in a square, hills with dense buildings in the background, warm evening light, cinematic composition, no people in focus, no text, no flags.",
+  "map": {
+    "focus": ["Turkey"],
+    "marker": {"lat": 38.42, "lon": 27.14, "label": "Esmirna"},
+    "labels": {"Turkey": "Turquía"}
+  }
+}
