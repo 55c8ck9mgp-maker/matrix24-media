@@ -1,0 +1,52 @@
+name: Claude Lane Facebook
+
+# docs/CLAUDE_LANE.md, "Facebook" (approved by Justen 2026-10-07). Posts to the
+# Matrix24global Facebook Page, once, each story the lane already published on
+# Instagram in the last hour. Separate from the Instagram pipeline: it only writes
+# the `facebook` sub-object of claude-lane/queue records, through the lane-only
+# git store.
+# Live only when vars.CLAUDE_LANE_ENABLED and vars.CLAUDE_LANE_FB_ENABLED are both
+# exactly "true" (set by Justen). Otherwise it is a read-only dry run.
+on:
+  schedule:
+    - cron: '11,26,41,56 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/claude-lane/facebook.mjs'
+      - 'scripts/claude-lane/run-facebook.mjs'
+      - '.github/workflows/claude-lane-facebook.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: claude-lane
+  cancel-in-progress: false
+
+jobs:
+  facebook:
+    # Scheduled runs only when Facebook is switched on; dispatch/push always run
+    # (as a dry run while the switch is off).
+    if: github.event_name != 'schedule' || vars.CLAUDE_LANE_FB_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 20
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Mirror to Facebook
+        env:
+          CLAUDE_LANE_ENABLED: ${{ vars.CLAUDE_LANE_ENABLED }}
+          CLAUDE_LANE_FB_ENABLED: ${{ vars.CLAUDE_LANE_FB_ENABLED }}
+          FB_CLAUDE_USER_TOKEN: ${{ secrets.FB_CLAUDE_USER_TOKEN }}
+          FB_PAGE_ID: '1300936266441859'
+        run: |
+          git config user.name matrix24-claude-lane
+          git config user.email matrix24-claude-lane@users.noreply.github.com
+          node scripts/claude-lane/run-facebook.mjs

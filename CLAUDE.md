@@ -26,6 +26,10 @@ account. It is fully specified in `docs/CLAUDE_LANE.md`. Its limits:
 - It stays off until the repository variable `CLAUDE_LANE_ENABLED` is
   `true`, which only Justen sets; deleting it or setting `false` stops it.
 - Every Production invariant below applies to it unchanged.
+- Facebook (approved by Justen 2026-10-07): the lane also mirrors its own
+  Instagram-published stories to the Matrix24global Facebook Page through
+  `claude-lane-facebook.yml`, only when `CLAUDE_LANE_FB_ENABLED` is also
+  `true` (set by Justen). Details in `docs/CLAUDE_LANE.md` ("Facebook").
 Where the bullets below forbid Claude from publishing or require batch
 approval, they apply to `queue/` and every other path except this lane.
 
