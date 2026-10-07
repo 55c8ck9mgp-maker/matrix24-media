@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-student-stabs-several-at-polish-school",
+  "status": "draft",
+  "created_at": "2026-10-07T23:38:35Z",
+  "category": "World",
+  "headline": "Knife attack at a school in Ostroleka, Poland, wounds students and teachers; 19-year-old held",
+  "headline_es": "Ataque con arma blanca en una escuela de Ostroleka, Polonia, hiere a alumnos y docentes",
+  "caption_en": "At least eight people, including students and teachers, were wounded on Wednesday when an attacker used a sharp tool at a school in the Polish town of Ostroleka. Police arrested a 19-year-old man shortly afterwards. Prosecutors have not disclosed a motive, and the school will remain closed during the investigation.",
+  "caption_es": "Al menos ocho personas, entre ellas alumnos y docentes, resultaron heridas el miércoles cuando un atacante usó un objeto punzante en una escuela de la ciudad polaca de Ostroleka. La policía detuvo poco después a un hombre de 19 años. La fiscalía no ha revelado un móvil y la escuela permanecerá cerrada durante la investigación.",
+  "source_urls": [
+    "https://www.news4jax.com/news/world/2026/10/07/19-year-old-student-in-poland-injures-9-people-in-a-school-attack/",
+    "https://www.malaymail.com/news/sports/2026/10/07/seven-wounded-in-polish-school-stabbing-police-arrest-19-year-old-man/238144"
+  ],
+  "source_names": [
+    "News4JAX (AP)",
+    "Malay Mail (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Poland",
+    "#Polonia",
+    "#Europe",
+    "#WorldNews"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Al menos ocho heridos, entre alumnos y docentes, en un ataque en una escuela de Ostroleka. La policía detuvo a un joven de 19 años; el móvil se desconoce.",
+  "summary_en": "At least eight people, students and teachers among them, were hurt in an attack at a school in Ostroleka. Police arrested a 19-year-old; no motive given.",
+  "highlight_es": "Ostroleka, Polonia",
+  "highlight_en": "Ostroleka, Poland",
+  "visual_label": "Ostroleka",
+  "image_prompt": "Empty school corridor with closed classroom doors and lockers, police tape across the far end, quiet late-afternoon light through tall windows, somber cinematic view, no people",
+  "map": {
+    "focus": ["Poland"],
+    "marker": {"lat": 53.08, "lon": 21.57, "label": "Ostroleka"},
+    "labels": {"Poland": "Polonia"}
+  }
+}
