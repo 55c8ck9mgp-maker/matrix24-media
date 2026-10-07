@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-fed-minutes-signal-another-rate-hike",
+  "created_at": "2026-10-07T18:39:20Z",
+  "category": "Economy",
+  "headline": "Fed minutes show most officials expect another interest rate hike this year",
+  "headline_es": "Las actas de la Fed muestran que la mayoría prevé otra subida de tasas este año",
+  "caption_es": "Las actas de la reunión de septiembre de la Reserva Federal de EE. UU., publicadas este miércoles, muestran que la mayoría de los funcionarios consideró que probablemente será apropiada otra subida de tasas de interés antes de fin de año. Los responsables coincidieron en que la inflación sigue elevada. En septiembre la Fed subió su tasa clave en un cuarto de punto, y las actas no dieron una señal clara sobre el momento del próximo movimiento.",
+  "caption_en": "Minutes of the US Federal Reserve's September meeting, released Wednesday, show most officials judged that another interest rate increase will likely be appropriate before the end of the year. Policymakers agreed that inflation remains elevated. In September the Fed raised its key rate by a quarter point, and the minutes gave no clear signal on the timing of the next move.",
+  "source_urls": [
+    "https://www.kiro7.com/news/business/federal-reserve/KVZKZ3TEPEYVLBM4Y5WDFQDGP4/",
+    "https://www.fxstreet.com/news/fed-minutes-set-to-provide-some-insight-into-the-timing-of-next-rate-hikes-202610071400"
+  ],
+  "source_names": [
+    "Associated Press (via KIRO 7)",
+    "FXStreet"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#FederalReserve",
+    "#Economía",
+    "#Economy",
+    "#Inflación"
+  ],
+  "summary_es": "Tras el alza de un cuarto de punto en septiembre, los funcionarios ven la inflación aún elevada y anticipan otra subida antes de fin de año.",
+  "summary_en": "After a quarter-point hike in September, officials see inflation still elevated and expect another increase before year-end.",
+  "highlight_es": "otra subida de tasas",
+  "highlight_en": "another interest rate hike",
+  "image_prompt": "Neoclassical marble central bank building with tall columns under a cloudy sky, a rising line graph glowing faintly in the foreground, stacks of coins on a polished table, no text, wide cinematic view",
+  "visual_label": "Fed",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 38.89,
+      "lon": -77.05,
+      "label": "Washington"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T19:24:53.212Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
