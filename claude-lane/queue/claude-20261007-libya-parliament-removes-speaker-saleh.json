@@ -40,10 +40,10 @@
       "Libya": "Libia"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261007-libya-parliament-removes-speaker-saleh.jpg",
   "publish_attempt_id": "80e729b5-23f7-4793-bf1a-06e3aa6349ab",
-  "ig_media_id": null,
+  "ig_media_id": "18075809873733969",
   "history": [
     {
       "at": "2026-10-07T15:05:02.955Z",
@@ -59,8 +59,15 @@
       "at": "2026-10-07T15:05:49.832Z",
       "event": "reserved",
       "publish_attempt_id": "80e729b5-23f7-4793-bf1a-06e3aa6349ab"
+    },
+    {
+      "at": "2026-10-07T15:06:03.141Z",
+      "event": "published",
+      "publish_attempt_id": "80e729b5-23f7-4793-bf1a-06e3aa6349ab",
+      "ig_media_id": "18075809873733969"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-07T15:05:49.832Z"
+  "reserved_at": "2026-10-07T15:05:49.832Z",
+  "permalink": "https://www.instagram.com/p/DeMpBozm7kO/"
 }
