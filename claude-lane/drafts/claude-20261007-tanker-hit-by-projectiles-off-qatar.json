@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-tanker-hit-by-projectiles-off-qatar",
+  "status": "draft",
+  "created_at": "2026-10-07T21:29:37Z",
+  "category": "Security / Geopolitics",
+  "headline": "Tanker hit by multiple projectiles off Qatar's north coast; casualties reported",
+  "headline_es": "Un petrolero es alcanzado por varios proyectiles frente a la costa norte de Qatar; hay víctimas",
+  "caption_en": "A tanker sailing about 51 nautical miles off Qatar's north coast reported being struck by multiple projectiles on Wednesday, the UK Maritime Trade Operations agency (UKMTO) said. Casualties were reported, but no number was given. The vessel was not identified, the origin of the projectiles was not specified, and authorities are investigating.",
+  "caption_es": "Un petrolero que navegaba a unas 51 millas náuticas de la costa norte de Qatar informó el miércoles que fue alcanzado por varios proyectiles, según la agencia británica de Operaciones de Comercio Marítimo (UKMTO). Se reportaron víctimas, sin precisar cuántas. El buque no fue identificado, no se indicó el origen de los proyectiles y las autoridades investigan.",
+  "source_urls": [
+    "https://www.arabtimesonline.com/news/tanker-hit-by-multiple-projectiles-off-qatar-casualties-reported/",
+    "https://www.arabnews.pk/middle-east/tanker-off-qatar-reports-hits-from-multiple-projectiles-maritime-agency-3003500"
+  ],
+  "source_names": ["Arab Times", "Arab News (AFP)"],
+  "hashtags": ["#MATRIX24", "#Qatar", "#GolfoPérsico", "#Seguridad", "#Shipping"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La agencia UKMTO informó que un petrolero fue alcanzado por varios proyectiles a unas 51 millas náuticas de la costa norte de Qatar. Hay víctimas; las autoridades investigan.",
+  "summary_en": "UKMTO said a tanker was struck by multiple projectiles about 51 nautical miles off Qatar's north coast. Casualties were reported; authorities are investigating.",
+  "highlight_es": "petrolero",
+  "highlight_en": "Tanker",
+  "visual_label": "Golfo Pérsico",
+  "image_prompt": "Large oil tanker sailing on a calm Gulf sea at dusk, thin plume of grey smoke rising from its deck, warm hazy sky, distant flat coastline, wide cinematic view, no people visible",
+  "map": {
+    "focus": ["Qatar"],
+    "marker": {"lat": 26.98, "lon": 51.2, "label": "Norte de Qatar"},
+    "labels": {"Qatar": "Qatar"}
+  }
+}
