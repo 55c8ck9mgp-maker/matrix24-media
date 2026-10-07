@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-kosovo-parliament-elects-new-president",
+  "created_at": "2026-10-07T14:35:00Z",
+  "category": "World",
+  "headline": "Kosovo's parliament elects Justina Shiroka Pula president, averting a snap election",
+  "headline_es": "El Parlamento de Kosovo elige presidenta a Justina Shiroka Pula y evita elecciones anticipadas",
+  "caption_es": "El Parlamento de Kosovo eligió presidenta a la economista Justina Shiroka Pula en una votación secreta que terminó minutos después del plazo de medianoche, con 81 votos en una cámara de 120 escaños, uno más que el umbral exigido. La votación se produjo tras un acuerdo de última hora por el que los diputados aprobaron primero enmiendas a la ley de las Salas Especializadas de Kosovo, el tribunal que juzga crímenes de guerra. Sin una presidenta elegida a tiempo, el Parlamento habría sido disuelto y Kosovo habría afrontado otras elecciones anticipadas.",
+  "caption_en": "Kosovo's parliament elected economist Justina Shiroka Pula as president in a secret ballot that ended minutes after the midnight deadline, with 81 votes in the 120-seat legislature, one more than the required threshold. The vote followed a last-minute agreement under which lawmakers first approved amendments to the law on the Kosovo Specialist Chambers, the court handling war crimes cases. Without a president elected in time, parliament would have been dissolved and Kosovo would have faced another early election.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/7/justina-shiroka-pula-kosovos-new-president-elected-during-a-crisis",
+    "https://www.rferl.org/a/kosovo-elects-president-opposition-deal-war-crimes/33871583.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "RFE/RL"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Kosovo",
+    "#Balcanes",
+    "#Balkans"
+  ],
+  "summary_es": "Kosovo eligió presidenta por 81 votos, justo al vencer el plazo, tras un pacto sobre la ley del tribunal de crímenes de guerra. Se evitan elecciones anticipadas.",
+  "summary_en": "Kosovo elected a president with 81 votes right at the deadline, after a deal on the war crimes court law. An early election is averted.",
+  "highlight_es": "elige presidenta",
+  "highlight_en": "elects",
+  "image_prompt": "Empty modern parliamentary chamber at night, curved rows of wooden desks, a vacant speaker's podium, warm overhead lighting, a large clock on the wall showing near midnight, wide cinematic interior view, no people, no text, no flags, no insignia.",
+  "visual_label": "Pristina",
+  "map": {
+    "focus": [
+      "Kosovo"
+    ],
+    "marker": {
+      "lat": 42.67,
+      "lon": 21.17,
+      "label": "Pristina"
+    },
+    "labels": {
+      "Kosovo": "Kosovo"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T14:49:46.005Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
