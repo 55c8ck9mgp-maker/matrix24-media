@@ -42,6 +42,25 @@ The legacy Publication Reservation path is disabled. ChatGPT Publisher is the so
 
 The private Cloudflare Publisher v2 runtime is a staging candidate only. It does **not** own the production `ready_to_publish -> publishing` transition yet: `PUBLISHER_V2_ENABLED=false`, it has no cron/public route, and its GitHub App is repository-scoped to the isolated staging repository. Ownership must not transfer until the deployed runtime proves its real GitHub App identity against staging and a separately reviewed cutover authorizes the change. CI fixture cycles are not live Phase 1 cycles.
 
+### ChatGPT en pausa (2026-10-07, decisión de Justen)
+
+Desde el 2026-10-07 todas las tareas de ChatGPT de MATRIX 24 (ChatGPT
+Publisher, Core v2 Reconciler, Editorial Engine y su Health Watch) están en
+pausa por decisión del owner. Sólo publica el Claude Lane
+(`claude-lane/queue/`, ver `docs/CLAUDE_LANE.md`).
+
+- Las filas de ChatGPT de la tabla de abajo describen la asignación vigente
+  cuando se reactiven; mientras dure la pausa no corre ninguna.
+- Al pausar no quedaba ningún registro de `queue/` en `publishing` ni
+  `publish_unknown`, así que nada queda pendiente de reconciliación. El único
+  `ready_to_publish` (Starship Flight 14, del 28 sep) se descartó el mismo día
+  por decisión de Justen.
+- Un registro de `queue/` que quede en `ready_to_publish` durante la pausa no
+  es un incidente INC-018: es esperado. No se reasigna su publicación a otro
+  scheduler.
+- Reactivar es decisión de Justen en la plataforma de ChatGPT; al hacerlo,
+  se actualiza esta sección.
+
 ## Registro de schedulers
 
 | Scheduler | Runtime | Cadencia | Plano | Puede escribir en `queue/` |
