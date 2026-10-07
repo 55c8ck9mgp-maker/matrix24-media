@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-attacks-on-saudi-airports-kill-three",
+  "created_at": "2026-10-07T19:30:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Attacks on two Saudi airports kill three foreign nationals and injure 36",
+  "headline_es": "Ataques contra dos aeropuertos saudíes matan a tres extranjeros y hieren a 36",
+  "caption_es": "La Autoridad General de Aviación Civil de Arabia Saudí informó que ataques contra el aeropuerto de Abha y el Aeropuerto Internacional Rey Jalid de Riad dejaron tres muertos y 36 heridos. En Abha murieron una mujer marroquí y una mujer argelina y 28 personas resultaron heridas; en Riad murió un residente sudanés y ocho personas resultaron heridas, entre ellas cinco ciudadanos saudíes.",
+  "caption_en": "Saudi Arabia's General Authority of Civil Aviation said attacks on Abha airport and King Khalid International Airport in Riyadh killed three people and injured 36. At Abha, a Moroccan woman and an Algerian woman were killed and 28 people were hurt; in Riyadh, a Sudanese resident was killed and eight people were injured, including five Saudi citizens.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports",
+    "https://english.alarabiya.net/News/saudi-arabia/2026/10/07/three-killed-36-injured-in-attacks-on-saudi-airports"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Al Arabiya"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudí",
+    "#SaudiArabia",
+    "#Riyadh",
+    "#Abha"
+  ],
+  "summary_es": "La aviación civil saudí informó de tres muertos, todos extranjeros, y 36 heridos en ataques contra los aeropuertos de Abha y Riad.",
+  "summary_en": "Saudi civil aviation reported three foreign nationals killed and 36 injured in attacks on the airports of Abha and Riyadh.",
+  "highlight_es": "dos aeropuertos saudíes",
+  "highlight_en": "two Saudi airports",
+  "image_prompt": "Empty modern airport terminal and control tower at dusk in a desert city, runway lights glowing, a thin haze in the sky, quiet tense atmosphere, wide cinematic view",
+  "visual_label": "Abha y Riad",
+  "map": {
+    "focus": [
+      "Saudi Arabia"
+    ],
+    "marker": {
+      "lat": 18.24,
+      "lon": 42.66,
+      "label": "Abha"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudí"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T19:47:30.222Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
