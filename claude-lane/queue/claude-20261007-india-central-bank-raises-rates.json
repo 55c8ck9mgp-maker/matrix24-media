@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-india-central-bank-raises-rates",
+  "created_at": "2026-10-07T07:28:35Z",
+  "category": "Economy",
+  "headline": "India's central bank raises key rate to 5.50%, its first hike in nearly four years",
+  "headline_es": "El banco central de India sube su tasa clave al 5,50%, primera alza en casi cuatro años",
+  "caption_es": "El Banco de la Reserva de India elevó este miércoles su tasa repo en 25 puntos básicos, hasta el 5,50%, su primer aumento desde febrero de 2023. El gobernador Sanjay Malhotra dijo que el Comité de Política Monetaria votó por unanimidad a favor de la subida, citando mayores riesgos de inflación y el alto precio del petróleo. El banco también cambió su postura a un endurecimiento calibrado, lo que deja abierta la puerta a nuevas alzas.",
+  "caption_en": "The Reserve Bank of India raised its repo rate by 25 basis points to 5.50% on Wednesday, its first increase since February 2023. Governor Sanjay Malhotra said the Monetary Policy Committee voted unanimously for the hike, citing rising inflation risks and high crude oil prices. The bank also shifted its stance to calibrated tightening, signalling further increases are possible.",
+  "source_urls": [
+    "https://www.tribuneindia.com/news/bank-rate/rbi-raises-repo-rate-by-25-bps-to-5-50-as-per-market-expectations-as-inflation-risks-strengthen",
+    "https://www.nationalheraldindia.com/business/rbi-raises-repo-rate-to-550-what-it-means-for-your-loans-and-household-budget",
+    "https://upstox.com/news/personal-finance/investing/rbi-october-mpc-repo-rate-hiked-for-the-first-time-in-nearly-4-years-what-it-means-for-fixed-deposit-investors/article-201422/"
+  ],
+  "source_names": [
+    "The Tribune",
+    "National Herald",
+    "Upstox News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#India",
+    "#Economía",
+    "#Economy",
+    "#RBI"
+  ],
+  "summary_es": "La tasa repo pasa del 5,25% al 5,50% por unanimidad ante el aumento de la inflación y el encarecimiento del crudo.",
+  "summary_en": "The repo rate rises from 5.25% to 5.50% in a unanimous vote amid rising inflation risks and high oil prices.",
+  "highlight_es": "primera alza",
+  "highlight_en": "first hike",
+  "image_prompt": "Stack of Indian rupee coins beside a rising line graph on a desk, a grand central bank building with columns in soft morning light in the background, no text, wide cinematic view",
+  "visual_label": "Tasa repo",
+  "map": {
+    "focus": [
+      "India"
+    ],
+    "marker": {
+      "lat": 18.93,
+      "lon": 72.83,
+      "label": "Bombay"
+    },
+    "labels": {
+      "India": "India"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T08:23:16.840Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
