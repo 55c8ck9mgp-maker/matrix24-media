@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-drone-boats-set-tanker-ablaze-off-sochi",
+  "created_at": "2026-10-07T16:34:34Z",
+  "category": "Security / Geopolitics",
+  "headline": "Drone boats set oil tanker ablaze off Russia's Sochi; all 23 Indian crew rescued",
+  "headline_es": "Drones navales incendian un petrolero frente a Sochi, Rusia; rescatan a sus 23 tripulantes indios",
+  "caption_es": "El petrolero Aframax Rio, con bandera de Liberia, se incendió en el mar Negro frente a la ciudad turística rusa de Sochi tras ser alcanzado por drones navales. Los 23 tripulantes, todos de nacionalidad india, fueron rescatados. Las autoridades locales cerraron temporalmente las playas cercanas mientras ardía el buque. Nadie ha reivindicado el ataque, que se suma a otros contra buques mercantes en el mar Negro.",
+  "caption_en": "The Liberian-flagged oil tanker Aframax Rio caught fire in the Black Sea off the Russian resort city of Sochi after being struck by unmanned surface vessels. All 23 crew members, all Indian nationals, were rescued. Local authorities temporarily closed nearby beaches as the blaze burned. No one has claimed the attack, which follows strikes on other merchant ships in the Black Sea.",
+  "source_urls": [
+    "https://splash247.com/aframax-rio-blaze-underscores-widening-black-sea-threat/",
+    "https://www.theweek.in/news/world/2026/10/07/drone-attack-sets-oil-tanker-with-23-indians-ablaze-near-russias-sochi.html",
+    "https://www.rferl.org/a/oil-tanker-hit-by-naval-drone-near-sochi-sparking-massive-fire-on-black-sea/33872002.html"
+  ],
+  "source_names": [
+    "Splash247",
+    "The Week",
+    "Radio Free Europe/Radio Liberty"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#BlackSea",
+    "#Russia",
+    "#Shipping",
+    "#Drones"
+  ],
+  "summary_es": "Drones navales alcanzaron al petrolero Aframax Rio frente a Sochi y provocaron un gran incendio. Los 23 tripulantes indios fueron rescatados.",
+  "summary_en": "Drone boats struck the tanker Aframax Rio off Sochi, sparking a major fire. All 23 Indian crew members were rescued.",
+  "highlight_es": "petrolero",
+  "highlight_en": "oil tanker ablaze",
+  "image_prompt": "Large oil tanker at sea with a column of dark smoke rising from its deck, calm grey Black Sea water, distant coastal hills under an overcast sky, wide cinematic view, no people visible",
+  "visual_label": "Mar Negro",
+  "map": {
+    "focus": [
+      "Russia"
+    ],
+    "marker": {
+      "lat": 43.6,
+      "lon": 39.72,
+      "label": "Sochi"
+    },
+    "labels": {
+      "Russia": "Rusia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T16:51:28.396Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
