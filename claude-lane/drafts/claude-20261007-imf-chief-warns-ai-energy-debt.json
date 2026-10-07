@@ -1,0 +1,37 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-imf-chief-warns-ai-energy-debt",
+  "status": "draft",
+  "created_at": "2026-10-07T11:34:59Z",
+  "category": "Economy",
+  "headline": "IMF chief warns AI boom, energy shock and high debt are straining the world economy",
+  "headline_es": "La jefa del FMI advierte que la IA, la energía y la deuda presionan la economía mundial",
+  "caption_en": "IMF Managing Director Kristalina Georgieva said on Wednesday in Singapore that an AI investment boom, high energy prices and heavy public debt are pressuring the global economy at the same time. Speaking ahead of the IMF-World Bank annual meetings in Bangkok, she urged governments to stop delaying fiscal reforms and central banks to stay vigilant on inflation. She also warned that AI gains are concentrated in a few countries.",
+  "caption_es": "La directora gerente del FMI, Kristalina Georgieva, afirmó este miércoles en Singapur que el auge de la inversión en inteligencia artificial, los altos precios de la energía y la elevada deuda pública presionan a la vez a la economía mundial. Antes de las reuniones anuales del FMI y el Banco Mundial en Bangkok, pidió a los gobiernos no seguir aplazando ajustes fiscales y a los bancos centrales mantenerse alerta ante la inflación. También advirtió que los beneficios de la IA se concentran en pocos países.",
+  "source_urls": [
+    "https://www.clickondetroit.com/business/2026/10/07/imf-chief-urges-countries-to-do-more-to-curb-debt-and-regulate-ai/",
+    "https://www.trtworld.com/article/2cddbe3feb43"
+  ],
+  "source_names": [
+    "Associated Press (via WDIV ClickOnDetroit)",
+    "Anadolu Agency (via TRT World)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#FMI",
+    "#IMF",
+    "#Economía",
+    "#Economy",
+    "#AI"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Georgieva habló en Singapur antes de las reuniones anuales del FMI en Bangkok y pidió reformas fiscales sin más demoras.",
+  "summary_en": "Speaking in Singapore ahead of the IMF annual meetings in Bangkok, Georgieva urged governments to stop delaying fiscal reforms.",
+  "highlight_es": "IA",
+  "highlight_en": "AI boom",
+  "visual_label": "FMI",
+  "image_prompt": "Modern city skyline at dusk with a large data center glowing in the foreground, oil storage tanks and power lines on one side, stacks of coins on a reflective table in front, balanced tension, wide cinematic view, no text, no logos"
+}
