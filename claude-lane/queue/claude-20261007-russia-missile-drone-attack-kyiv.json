@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-russia-missile-drone-attack-kyiv",
+  "created_at": "2026-10-07T03:35:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Explosions rock Kyiv as Russia launches overnight missile attack after Zelensky's warning",
+  "headline_es": "Explosiones sacuden Kiev en un ataque ruso con misiles tras la advertencia de Zelenski",
+  "caption_es": "Se escucharon explosiones en Kiev en la madrugada del miércoles 7 de octubre, mientras Rusia lanzaba un ataque con misiles contra Ucrania y sonaban las alertas antiaéreas en la capital. La Fuerza Aérea de Ucrania había advertido que bombarderos estratégicos rusos, entre ellos aviones Tu-95, estaban en el aire durante la noche. Un día antes, el presidente Volodímir Zelenski advirtió que Rusia preparaba un ataque masivo y pidió tomar en serio las alertas. El alcance de los daños no estaba claro de inmediato.",
+  "caption_en": "Explosions were heard in Kyiv early Wednesday, October 7, as Russia launched a missile attack on Ukraine and air raid alerts sounded in the capital. Ukraine's Air Force had warned that Russian strategic bombers, including Tu-95 aircraft, were airborne overnight. A day earlier, President Volodymyr Zelensky warned that Russia was preparing a mass strike and urged people to take alerts seriously. The extent of the damage was not immediately clear.",
+  "source_urls": [
+    "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+    "https://mezha.net/eng/news/8ac8c5ac_ukraine_raises_air"
+  ],
+  "source_names": [
+    "The Kyiv Independent",
+    "Mezha"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ukraine",
+    "#Kyiv",
+    "#Russia"
+  ],
+  "summary_es": "Rusia lanzó un ataque con misiles en la madrugada del miércoles; hubo alertas antiaéreas y explosiones en Kiev. Zelenski había advertido de un ataque masivo.",
+  "summary_en": "Russia launched a missile attack early Wednesday; air raid alerts and explosions were reported in Kyiv. Zelensky had warned of a mass strike.",
+  "highlight_es": "Explosiones sacuden Kiev",
+  "highlight_en": "Explosions rock Kyiv",
+  "image_prompt": "Night skyline of a large European city with a wide river and bridges, searchlights sweeping a dark cloudy sky, distant air defense tracer lights, wide cinematic view, no people, no text",
+  "visual_label": "Kiev",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 50.45,
+      "lon": 30.52,
+      "label": "Kiev"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T03:50:23.911Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
