@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-ronaldo-apologizes-for-portugal-walkout",
+  "created_at": "2026-10-07T01:29:11Z",
+  "category": "Sports",
+  "headline": "Cristiano Ronaldo apologizes for leaving Portugal's camp, says coach Jorge Jesus broke his word",
+  "headline_es": "Cristiano Ronaldo pide perdón por abandonar la concentración de Portugal y acusa a Jorge Jesus",
+  "caption_es": "Cristiano Ronaldo pidió disculpas a sus compañeros de Portugal por abandonar la concentración de la selección durante la ventana de la Liga de Naciones. En un extenso comunicado, afirmó que el seleccionador Jorge Jesus incumplió un acuerdo sobre sus minutos, después de calentar ante Noruega sin llegar a jugar. Ronaldo dijo que acepta una sanción de la Federación Portuguesa de Fútbol y que seguirá disponible para Portugal tras cualquier suspensión.",
+  "caption_en": "Cristiano Ronaldo apologized to his Portugal teammates for walking out of the national team camp during the Nations League window. In a long statement, he said coach Jorge Jesus broke an agreement over his playing time, after he warmed up against Norway but was not used. Ronaldo said he accepts punishment from the Portuguese Football Federation and will remain available for Portugal after any suspension.",
+  "source_urls": [
+    "https://www.aljazeera.com/sports/2026/10/6/ronaldo-apologizes-for-portugal-walkout-says-jesus-broke-promise",
+    "https://english.aawsat.com/sports/5326799-ronaldo-says-portugal-coach-broke-promises-apologizes-walkout"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Asharq Al-Awsat"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ronaldo",
+    "#Portugal",
+    "#NationsLeague",
+    "#Fútbol"
+  ],
+  "summary_es": "Ronaldo se disculpó por dejar la concentración de Portugal, acusó a Jorge Jesus de incumplir un acuerdo sobre sus minutos y dijo que acepta una sanción.",
+  "summary_en": "Ronaldo apologized for leaving Portugal's camp, accused coach Jorge Jesus of breaking a playing-time agreement and said he accepts a suspension.",
+  "highlight_es": "pide perdón",
+  "highlight_en": "apologizes",
+  "image_prompt": "Empty football training pitch at dusk with a row of orange cones, a lone ball on the grass and an empty team bench under stadium floodlights, moody cinematic wide view, no people, no text, no logos, no flags",
+  "visual_label": "Selección",
+  "map": {
+    "focus": [
+      "Portugal"
+    ],
+    "labels": {
+      "Portugal": "Portugal"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-07T01:48:39.513Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
