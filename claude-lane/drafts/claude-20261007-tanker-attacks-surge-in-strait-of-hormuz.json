@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-tanker-attacks-surge-in-strait-of-hormuz",
+  "status": "draft",
+  "created_at": "2026-10-07T17:33:23Z",
+  "category": "Security / Geopolitics",
+  "headline": "Attacks on ships in the Strait of Hormuz surge as Iran steps up pressure on Gulf shipping",
+  "headline_es": "Se disparan los ataques contra buques en el estrecho de Ormuz mientras Irán presiona al tráfico del Golfo",
+  "caption_en": "Attacks on tankers and other ships in the Strait of Hormuz have risen sharply in recent days, according to maritime security data cited by Reuters and Bloomberg. Iran's Revolutionary Guards are blamed for the incidents. The surge comes as Gulf oil shipments had been recovering toward pre-war levels, raising new risks for global energy supplies.",
+  "caption_es": "Los ataques contra petroleros y otros buques en el estrecho de Ormuz han aumentado con fuerza en los últimos días, según datos de seguridad marítima citados por Reuters y Bloomberg. Los incidentes se atribuyen a la Guardia Revolucionaria de Irán. El repunte llega cuando los envíos de petróleo del Golfo se estaban recuperando hacia niveles previos a la guerra, lo que abre nuevos riesgos para el suministro mundial de energía.",
+  "summary_es": "Los ataques contra buques en Ormuz aumentan con fuerza, justo cuando el petróleo del Golfo volvía a fluir hacia niveles previos a la guerra.",
+  "summary_en": "Attacks on ships in Hormuz are rising sharply, just as Gulf oil flows were recovering toward pre-war levels.",
+  "highlight_es": "estrecho de Ormuz",
+  "highlight_en": "Strait of Hormuz",
+  "visual_label": "Ormuz",
+  "image_prompt": "Several large oil tankers sailing through a narrow sea strait between arid rocky coastlines, hazy evening light, a patrol boat in the distance, wide cinematic aerial view, no people visible",
+  "map": {
+    "focus": ["Iran", "Oman"],
+    "marker": {"lat": 26.57, "lon": 56.25, "label": "Estrecho de Ormuz"},
+    "labels": {"Iran": "Irán", "Oman": "Omán"}
+  },
+  "source_urls": [
+    "https://www.al-monitor.com/originals/2026/10/attacks-tankers-hormuz-hit-highest-any-week-start-iran-war-sources-say",
+    "https://www.insurancejournal.com/news/international/2026/10/07/888260.htm"
+  ],
+  "source_names": ["Al-Monitor (Reuters)", "Insurance Journal (Bloomberg)"],
+  "hashtags": ["#MATRIX24", "#Hormuz", "#Iran", "#Oil", "#Shipping"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

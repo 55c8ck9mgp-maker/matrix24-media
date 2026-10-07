@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261007-iea-speeds-up-emergency-oil-release",
+  "status": "draft",
+  "created_at": "2026-10-07T17:33:23Z",
+  "category": "Economy",
+  "headline": "IEA members agree to speed up release of 100 million barrels of emergency oil",
+  "headline_es": "Los miembros de la AIE acuerdan acelerar la liberación de 100 millones de barriles de reservas",
+  "caption_en": "Member countries of the International Energy Agency agreed on Wednesday to accelerate the release of about 100 million barrels still pending from the emergency oil stock program launched in March. Diesel stocks will be prioritized as fuel prices soar amid the war with Iran. IEA members hold about 1.1 billion barrels in emergency reserves, including more than 200 million barrels of diesel.",
+  "caption_es": "Los países miembros de la Agencia Internacional de la Energía acordaron este miércoles acelerar la liberación de unos 100 millones de barriles aún pendientes del programa de reservas de emergencia lanzado en marzo. Se dará prioridad al diésel ante la fuerte subida de los combustibles por la guerra con Irán. Los miembros de la AIE tienen unos 1.100 millones de barriles en reservas de emergencia, incluidos más de 200 millones de barriles de diésel.",
+  "summary_es": "La AIE acelera la salida de unos 100 millones de barriles de sus reservas de emergencia y dará prioridad al diésel ante el alza de precios.",
+  "summary_en": "The IEA will speed up the release of about 100 million barrels from emergency reserves, prioritizing diesel as prices soar.",
+  "highlight_es": "100 millones de barriles",
+  "highlight_en": "100 million barrels",
+  "visual_label": "Reservas",
+  "image_prompt": "Rows of large white cylindrical oil storage tanks at an industrial reserve site, pipelines in the foreground, dramatic sky at sunset, wide cinematic view, no people visible",
+  "source_urls": [
+    "https://gvwire.com/2026/10/07/iea-to-accelerate-oil-reserve-release-says-100-million-barrels-still-to-come/",
+    "https://www.thenationalnews.com/business/energy/2026/10/07/iea-members-support-faster-release-of-reserve-oil-stocks/"
+  ],
+  "source_names": ["GV Wire (Reuters)", "The National"],
+  "hashtags": ["#MATRIX24", "#IEA", "#Oil", "#Diesel", "#Energy"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
