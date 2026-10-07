@@ -26,7 +26,8 @@ async function main() {
     const info = await fb.tokenInfo();
     const daysLeft = info.ok && info.expires_at ? Math.floor((info.expires_at * 1000 - Date.now()) / 86400000) : null;
     const expiresAt = info.ok ? (info.expires_at ? new Date(info.expires_at * 1000).toISOString() : 'never') : null;
-    log('token', { ok: info.ok, valid: info.valid ?? null, expires_at: expiresAt, days_left: daysLeft, reason: info.reason ?? null },
+    log('token', { ok: info.ok, valid: info.valid ?? null, expires_at: expiresAt, days_left: daysLeft, reason: info.reason ?? null,
+      granular: info.granular ?? null },
       daysLeft != null && daysLeft < TOKEN_WARN_DAYS ? 'warning' : 'notice');
   } catch (e) {
     log('token', { ok: false, reason: 'token_info_error' }, 'warning');
