@@ -78,7 +78,8 @@ export function createFacebookClient({ userToken, pageId, fetchImpl = fetch, onS
       const { status, body } = await getJson(`${GRAPH}/me/accounts?fields=id,name,tasks,access_token&limit=100`, userToken);
       if (status !== 200) return { ok: false, reason: `accounts_http_${status}${body?.error?.code ? `_code_${body.error.code}` : ''}` };
       const page = (body?.data || []).find(p => String(p.id) === String(pageId));
-      if (!page) return { ok: false, reason: 'page_not_granted' };
+      // Page ids and names are public, so the diagnosis may list them; tokens are never included.
+      if (!page) return { ok: false, reason: 'page_not_granted', pages_returned: (body?.data || []).map(p => `${p.id}:${p.name ?? ''}`).slice(0, 10) };
       if (!Array.isArray(page.tasks) || !page.tasks.includes('CREATE_CONTENT')) return { ok: false, reason: 'page_missing_create_content' };
       if (!nonEmpty(page.access_token)) return { ok: false, reason: 'page_token_missing' };
       pageToken = page.access_token;
@@ -92,7 +93,8 @@ export function createFacebookClient({ userToken, pageId, fetchImpl = fetch, onS
       let body = null; try { body = await res.json(); } catch { body = null; }
       const d = body?.data;
       if (!d) return { ok: false, reason: `debug_http_${res.status}` };
-      return { ok: true, valid: d.is_valid === true, expires_at: Number(d.expires_at) || 0, scopes: d.scopes || [] };
+      const granular = (d.granular_scopes || []).map(g => ({ scope: g.scope, target_ids: (g.target_ids || []).map(String) }));
+      return { ok: true, valid: d.is_valid === true, expires_at: Number(d.expires_at) || 0, scopes: d.scopes || [], granular };
     },
     async postPhoto({ url, caption }) {
       if (!pageToken) throw new Error('PAGE_ACCESS_NOT_RESOLVED');
@@ -133,7 +135,7 @@ export async function runFacebook({
   if (now - lastReserved < FB_MIN_SPACING_MS) return { outcome: 'spacing', next_after: new Date(lastReserved + FB_MIN_SPACING_MS).toISOString(), stuck };
 
   const access = await fb.pageAccess();
-  if (!access.ok) return { outcome: 'page_access_error', reason: access.reason, stuck };
+  if (!access.ok) return { outcome: 'page_access_error', reason: access.reason, pages_returned: access.pages_returned ?? null, stuck };
 
   const { record: candidate, sha } = eligible[0];
   const caption = composeCaption(candidate);

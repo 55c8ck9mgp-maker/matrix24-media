@@ -184,6 +184,8 @@ test('client: page token resolved from the user token, tokens never in URLs', as
 test('client: page missing or without CREATE_CONTENT is refused', async () => {
   const mk = data => createFacebookClient({ userToken: 'u', pageId: '1300936266441859', fetchImpl: async () => ({ status: 200, json: async () => ({ data }) }) });
   assert.equal((await mk([]).pageAccess()).reason, 'page_not_granted');
+  const other = await mk([{ id: '42', name: 'Other', tasks: ['CREATE_CONTENT'], access_token: 'SECRET' }]).pageAccess();
+  assert.deepEqual(other.pages_returned, ['42:Other']); assert.equal(JSON.stringify(other).includes('SECRET'), false);
   assert.equal((await mk([{ id: '1300936266441859', tasks: ['ANALYZE'], access_token: 't' }]).pageAccess()).reason, 'page_missing_create_content');
   assert.equal((await createFacebookClient({ userToken: '', pageId: '1' }).pageAccess()).reason, 'missing_user_token');
 });
