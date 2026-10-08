@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-north-korea-rejects-seoul-medical-aid",
+  "status": "draft",
+  "created_at": "2026-10-08T07:35:35Z",
+  "category": "Security / Geopolitics",
+  "headline": "North Korea's Kim Yo Jong rejects Seoul's medical aid plan as a 'farce'",
+  "headline_es": "Kim Yo Jong, de Corea del Norte, rechaza la ayuda médica de Seúl como una 'farsa'",
+  "caption_en": "Senior North Korean official Kim Yo Jong denounced South Korea's plan to send medical equipment to a Pyongyang hospital, calling it a farce, in a statement carried by state agency KCNA on Thursday. She said Seoul would have to show the utmost respect, consideration and sincerity to restore relations, and accused it of staging a recent landmine incident in the DMZ. Seoul had sought a UN sanctions exemption for the shipment.",
+  "caption_es": "La alta funcionaria norcoreana Kim Yo Jong denunció el plan de Corea del Sur de enviar equipos médicos a un hospital de Pyongyang y lo calificó de farsa, en un comunicado difundido el jueves por la agencia estatal KCNA. Afirmó que Seúl tendría que mostrar el máximo respeto, consideración y sinceridad para restablecer las relaciones, y lo acusó de montar un reciente incidente con minas terrestres en la zona desmilitarizada. Seúl había pedido a la ONU una exención de sanciones para el envío.",
+  "source_urls": [
+    "https://koreaherald.com/article/10897168",
+    "https://news.sbs.co.kr/english/article.do?news_id=N1008788990"
+  ],
+  "source_names": ["The Korea Herald", "SBS News"],
+  "hashtags": ["#MATRIX24", "#NorthKorea", "#SouthKorea", "#CoreaDelNorte", "#Geopolitics"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Kim Yo Jong rechazó el envío de equipos médicos surcoreanos a un hospital de Pyongyang y exigió a Seúl el máximo respeto para restablecer las relaciones.",
+  "summary_en": "Kim Yo Jong rejected South Korea's plan to send medical equipment to a Pyongyang hospital and said Seoul must show utmost respect to restore ties.",
+  "highlight_es": "ayuda médica",
+  "highlight_en": "medical aid plan",
+  "visual_label": "Corea",
+  "image_prompt": "Empty medical equipment crates on a loading dock beside a closed border gate, barbed wire fence and misty green hills behind, overcast sky, quiet tense atmosphere, wide cinematic view",
+  "map": {
+    "focus": ["North Korea", "South Korea"],
+    "marker": {"lat": 39.0392, "lon": 125.7625, "label": "Pyongyang"},
+    "labels": {"North Korea": "Corea del Norte", "South Korea": "Corea del Sur"}
+  }
+}
