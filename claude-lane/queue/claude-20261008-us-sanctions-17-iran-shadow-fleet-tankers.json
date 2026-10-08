@@ -38,14 +38,21 @@
       "United States of America": "Estados Unidos"
     }
   },
-  "status": "draft",
-  "image_url": null,
+  "status": "ready_to_publish",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261008-us-sanctions-17-iran-shadow-fleet-tankers.jpg",
   "publish_attempt_id": null,
   "ig_media_id": null,
   "history": [
     {
       "at": "2026-10-08T20:26:34.542Z",
       "event": "adopted_from_drafts_branch"
+    },
+    {
+      "at": "2026-10-08T20:26:34.542Z",
+      "event": "rendered",
+      "renderer": "v2",
+      "ai_illustration": true
     }
-  ]
+  ],
+  "ai_illustration": true
 }
