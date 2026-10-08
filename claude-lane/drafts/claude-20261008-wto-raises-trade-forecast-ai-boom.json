@@ -1,0 +1,36 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-wto-raises-trade-forecast-ai-boom",
+  "status": "draft",
+  "created_at": "2026-10-08T15:31:00Z",
+  "category": "Economy",
+  "headline": "WTO doubles its 2026 goods trade growth forecast to 3.9% as the AI boom offsets the Gulf crisis",
+  "headline_es": "La OMC duplica al 3,9 % su previsión de comercio de bienes para 2026 gracias al auge de la IA",
+  "caption_en": "The World Trade Organization now expects global merchandise trade volumes to grow 3.9% in 2026, up from 1.9% in its spring forecast, and 4.1% in 2027. Trade in AI-related goods such as semiconductors and servers rose 67% year on year and made up 47% of goods trade growth in the first half. The WTO warned that the Middle East conflict keeps weighing on trade through energy costs and shipping disruption.",
+  "caption_es": "La Organización Mundial del Comercio prevé ahora que el volumen del comercio mundial de mercancías crezca un 3,9 % en 2026, frente al 1,9 % de su previsión de primavera, y un 4,1 % en 2027. El comercio de bienes ligados a la IA, como semiconductores y servidores, subió un 67 % interanual y representó el 47 % del crecimiento del comercio de bienes en el primer semestre. La OMC advirtió que el conflicto en Oriente Medio sigue pesando sobre el comercio por los costes de la energía y las alteraciones del transporte marítimo.",
+  "source_urls": [
+    "https://www.wsbtv.com/news/business/wto-raises/25HAMNUEXM53VMMHKLDUHXHS2Y/",
+    "https://www.globalbankingandfinance.com/wto-upgrades-goods-trade-forecast-ai-boom-offsets-middle/"
+  ],
+  "source_names": [
+    "Associated Press (via WSB-TV)",
+    "Reuters (via Global Banking & Finance Review)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#OMC",
+    "#WTO",
+    "#Comercio",
+    "#IA"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Los chips y servidores para IA impulsan el comercio mundial, mientras la crisis en el Golfo encarece la energía y altera las rutas marítimas.",
+  "summary_en": "Chips and servers for AI are driving world trade, while the Gulf crisis raises energy costs and disrupts shipping routes.",
+  "highlight_es": "3,9 %",
+  "highlight_en": "3.9%",
+  "visual_label": "Comercio 3,9 %",
+  "image_prompt": "Large container port at sunrise with gantry cranes loading a cargo ship, stacked containers, a stylized glowing microchip motif in the sky, wide cinematic view"
+}
