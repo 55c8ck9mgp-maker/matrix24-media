@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-us-proposes-70000-fee-student-work-program",
+  "created_at": "2026-10-08T01:37:04Z",
+  "category": "World",
+  "headline": "US proposes $70,000 fee for international students' post-study work program",
+  "headline_es": "EE. UU. propone una tarifa de 70.000 dólares al programa de trabajo de estudiantes extranjeros",
+  "caption_es": "El Departamento de Seguridad Nacional de EE. UU. propuso una tarifa de 70.000 dólares por cada nueva solicitud al programa OPT, que permite a estudiantes internacionales trabajar en su campo durante o después de sus estudios. Las renovaciones costarían 30.000 dólares y las pagarían las universidades. El DHS alega fraude y abusos; grupos educativos advierten que alejará a estudiantes extranjeros. La norma abre un periodo de comentarios de 60 días.",
+  "caption_en": "The US Department of Homeland Security proposed a $70,000 fee for each new application to Optional Practical Training (OPT), which lets international students work in their field during or after their studies. Renewals would cost $30,000, paid by schools. DHS cites fraud and abuse; education groups warn it will deter foreign students. The rule opens a 60-day comment period.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/politics/trump-administration-proposes-a-70000-fee-for-international-students-to-work-in-the-u-s",
+    "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/"
+  ],
+  "source_names": [
+    "PBS NewsHour (AP)",
+    "STAT"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#EEUU",
+    "#Estudiantes",
+    "#Educación",
+    "#OPT"
+  ],
+  "summary_es": "El DHS propone cobrar 70.000 dólares por cada nueva solicitud OPT y 30.000 por renovación. Grupos educativos temen que aleje a estudiantes extranjeros.",
+  "summary_en": "DHS proposes $70,000 per new OPT application and $30,000 per renewal. Education groups fear it will drive away international students.",
+  "highlight_es": "70.000 dólares",
+  "highlight_en": "$70,000 fee",
+  "image_prompt": "University campus quad with classic brick buildings at golden hour, empty graduation chairs and a scattered stack of paperwork on a bench, calm wide view",
+  "visual_label": "OPT",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T02:19:40.150Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
