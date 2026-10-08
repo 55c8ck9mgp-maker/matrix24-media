@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-brent-above-100-asian-stocks-fall",
+  "created_at": "2026-10-08T08:23:38Z",
+  "category": "Economy",
+  "headline": "Brent crude holds above $100 a barrel as Asian stock markets fall",
+  "headline_es": "El Brent se mantiene sobre 100 dólares por barril y caen las bolsas de Asia",
+  "caption_es": "El crudo Brent cotizó el jueves por encima de 100 dólares por barril, ante la persistente preocupación por el suministro de petróleo a través del estrecho de Ormuz en medio del conflicto de Estados Unidos con Irán. Las bolsas asiáticas cayeron, con pérdidas en el Nikkei 225 de Tokio, el Kospi de Corea del Sur y el Hang Seng de Hong Kong. El alza de los rendimientos de los bonos del Tesoro de EE. UU. sumó presión sobre las acciones.",
+  "caption_en": "Brent crude traded above $100 a barrel on Thursday as worries over oil supplies through the Strait of Hormuz persisted amid the US conflict with Iran. Asian shares fell, with losses in Tokyo's Nikkei 225, South Korea's Kospi and Hong Kong's Hang Seng. Rising US Treasury yields added pressure on stocks.",
+  "source_urls": [
+    "https://abcnews.com/Business/wireStory/asian-shares-fall-oil-prices-hold-steady-100-136325759",
+    "https://uk.investing.com/news/stock-market-news/asia-stocks-fall-as-surging-oil-yields-weigh-samsung-slips-despite-record-profit-4900277"
+  ],
+  "source_names": [
+    "AP (via ABC News)",
+    "Investing.com"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Petróleo",
+    "#Brent",
+    "#Mercados",
+    "#Ormuz"
+  ],
+  "summary_es": "La inquietud por el paso de petróleo por el estrecho de Ormuz sostiene al Brent sobre los 100 dólares. Tokio, Seúl y Hong Kong cerraron en rojo.",
+  "summary_en": "Concern over oil flows through the Strait of Hormuz kept Brent above $100. Markets in Tokyo, Seoul and Hong Kong fell.",
+  "highlight_es": "100 dólares",
+  "highlight_en": "above $100 a barrel",
+  "image_prompt": "Oil tanker sailing past offshore platforms at dusk, with a glowing stock market screen showing falling red lines overlaid on a city skyline in the background, wide cinematic view, no text",
+  "visual_label": "Brent",
+  "map": {
+    "focus": [
+      "Iran",
+      "Oman"
+    ],
+    "marker": {
+      "lat": 26.57,
+      "lon": 56.25,
+      "label": "Estrecho de Ormuz"
+    },
+    "labels": {
+      "Iran": "Irán",
+      "Oman": "Omán"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T08:51:38.844Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
