@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-china-suspect-south-korea-bank-hacks",
+  "created_at": "2026-10-08T02:32:23Z",
+  "category": "Technology",
+  "headline": "CrowdStrike says suspect in China may be behind South Korea bank hacks that used AI tools",
+  "headline_es": "CrowdStrike: un sospechoso en China podría estar detrás de ataques a bancos surcoreanos",
+  "caption_es": "La firma de ciberseguridad CrowdStrike afirma que un joven de 26 años en la provincia china de Guangdong podría estar detrás de una ola de ciberataques contra entidades financieras de Corea del Sur, entre ellas Shinhan Bank y KB Kookmin Bank, entre finales de septiembre y principios de octubre. Según la firma, el atacante recurrió a ARTEX, una herramienta de código abierto para pruebas de penetración, junto con modelos de lenguaje de IA. La policía surcoreana investiga.",
+  "caption_en": "Cybersecurity firm CrowdStrike says a 26-year-old in China's Guangdong province may be behind a wave of cyberattacks on South Korean financial institutions, including Shinhan Bank and KB Kookmin Bank, between late September and early October. According to the firm, the attacker relied on ARTEX, an open-source penetration-testing tool, along with AI language models. South Korean police are investigating.",
+  "source_urls": [
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/10/08/suspect-behind-south-korea-bank-hacks-may-be-26-year-old-in-china-cybersecurity-firm-says",
+    "https://news.jkn.co.kr/editions/english/post/1011889"
+  ],
+  "source_names": [
+    "Reuters (via Internazionale)",
+    "JKN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ciberseguridad",
+    "#CoreaDelSur",
+    "#IA",
+    "#Cybersecurity"
+  ],
+  "summary_es": "CrowdStrike señala a un sospechoso de 26 años en Guangdong, China. Usó una herramienta de código abierto y modelos de IA para automatizar los ataques. La policía surcoreana investiga.",
+  "summary_en": "CrowdStrike points to a 26-year-old suspect in Guangdong, China, who used an open-source tool and AI models to automate the attacks. South Korean police are investigating.",
+  "highlight_es": "bancos surcoreanos",
+  "highlight_en": "South Korea bank hacks",
+  "image_prompt": "Dark server room with rows of glowing racks, red warning lights on network panels and streams of abstract data lines, cool blue cinematic lighting, wide view",
+  "visual_label": "Ciberataque",
+  "map": {
+    "focus": [
+      "South Korea",
+      "China"
+    ],
+    "labels": {
+      "South Korea": "Corea del Sur",
+      "China": "China"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T02:37:00.644Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
