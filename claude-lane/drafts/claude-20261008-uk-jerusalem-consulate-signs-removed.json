@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-uk-jerusalem-consulate-signs-removed",
+  "status": "draft",
+  "created_at": "2026-10-08T06:30:05Z",
+  "category": "World",
+  "headline": "UK consulate in East Jerusalem removes its signs as Israel's closure deadline expires",
+  "headline_es": "El consulado británico en Jerusalén Este retira sus letreros al vencer el plazo de Israel",
+  "caption_en": "Workers removed the plaque and signs of Britain's consulate in East Jerusalem as Israel's deadline to shut it arrived on Thursday, though the British flag was still flying. Israel ordered the closure 30 days ago in response to UK sanctions on West Bank settlements, including a ban on settlement goods. The order does not affect the UK embassy in Tel Aviv.",
+  "caption_es": "Operarios retiraron la placa y los letreros del consulado británico en Jerusalén Este al vencer este jueves el plazo de Israel para cerrarlo, aunque la bandera británica seguía izada. Israel ordenó el cierre hace 30 días en respuesta a las sanciones del Reino Unido contra los asentamientos de Cisjordania, que incluyen la prohibición de importar sus productos. La orden no afecta a la embajada británica en Tel Aviv.",
+  "source_urls": [
+    "https://www.jpost.com/israel-news/article-910988",
+    "https://www.aljazeera.com/news/2026/10/8/signage-at-uk-consulate-in-east-jerusalem-removed-as-israels-deadline-over"
+  ],
+  "source_names": [
+    "The Jerusalem Post (Reuters)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ReinoUnido",
+    "#Israel",
+    "#Jerusalén",
+    "#Diplomacia"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Israel ordenó cerrar el consulado tras las sanciones británicas a los asentamientos. Londres no ha dicho si sigue operando; la sede atiende a los palestinos de Jerusalén, Cisjordania y Gaza.",
+  "summary_en": "Israel ordered the closure after UK sanctions on settlements. London has not said whether it still operates; the mission serves Palestinians in Jerusalem, the West Bank and Gaza.",
+  "highlight_es": "consulado británico",
+  "highlight_en": "UK consulate",
+  "visual_label": "Consulado",
+  "image_prompt": "Old stone diplomatic building with arched windows and an empty wall where a plaque once hung, quiet street with olive trees, soft morning light, wide view",
+  "map": {
+    "focus": ["Israel", "Palestine"],
+    "marker": {"lat": 31.79, "lon": 35.23, "label": "Jerusalén Este"},
+    "labels": {"Israel": "Israel", "Palestine": "Palestina"}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-south-korea-vows-action-fuel-shipments-russia",
+  "status": "draft",
+  "created_at": "2026-10-08T06:30:05Z",
+  "category": "Security / Geopolitics",
+  "headline": "South Korea vows legal action if fuel shipments to Russia are confirmed",
+  "headline_es": "Corea del Sur promete actuar si se confirman envíos de combustible a Rusia",
+  "caption_en": "South Korea's Foreign Ministry said it has not confirmed any commercial fuel exports to Russia and will act under the law if violations are found. A Ukrainian sanctions adviser to President Zelenskyy said about 176,000 tonnes of fuel, mostly diesel, were shipped from Korean ports to Russia in July and August. Seoul says diesel and jet fuel for commercial use are not on its export control list for Russia.",
+  "caption_es": "El Ministerio de Exteriores de Corea del Sur afirmó que no ha confirmado exportaciones comerciales de combustible a Rusia y que actuará conforme a la ley si se detectan infracciones. Un asesor de sanciones del presidente ucraniano Zelenski dijo que unas 176.000 toneladas de combustible, sobre todo diésel, salieron de puertos coreanos hacia Rusia en julio y agosto. Seúl señala que el diésel y el combustible de aviación de uso comercial no figuran en su lista de control de exportaciones a Rusia.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/8/south-korea-pledges-legal-action-over-alleged-fuel-exports-to-russia",
+    "https://www.koreatimes.co.kr/foreignaffairs/20261008/korea-says-no-confirmed-fuel-exports-to-russia-vows-strict-enforcement-of-export-controls"
+  ],
+  "source_names": [
+    "Al Jazeera (Reuters)",
+    "The Korea Times (Yonhap)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CoreaDelSur",
+    "#Rusia",
+    "#Ucrania",
+    "#Sanciones"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Ucrania denuncia que unas 176.000 toneladas de combustible salieron de puertos coreanos hacia Rusia. Seúl dice que no lo ha confirmado y que revisará rutas y destinos de los buques.",
+  "summary_en": "Ukraine says about 176,000 tonnes of fuel left Korean ports for Russia. Seoul says it has not confirmed this and will check the vessels' routes and destinations.",
+  "highlight_es": "combustible a Rusia",
+  "highlight_en": "fuel shipments to Russia",
+  "visual_label": "Diésel",
+  "image_prompt": "Oil tanker moored at an industrial port with large white fuel storage tanks and pipelines, grey overcast sky, calm water, wide cinematic view",
+  "map": {
+    "focus": ["South Korea", "Russia"],
+    "labels": {"South Korea": "Corea del Sur", "Russia": "Rusia"}
+  }
+}
