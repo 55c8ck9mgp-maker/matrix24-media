@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-openai-revenue-report-drags-tech-stocks",
+  "created_at": "2026-10-08T21:36:49Z",
+  "category": "Economy",
+  "headline": "Chip stocks fall and Nasdaq drops 1.3% after report on lower OpenAI revenue",
+  "headline_es": "Caen las acciones de chips y el Nasdaq baja 1,3% tras informe sobre menores ingresos de OpenAI",
+  "caption_es": "Las acciones tecnológicas cayeron el jueves en Wall Street después de que el Financial Times informara que los ingresos anualizados de OpenAI rondaban los 50.000 millones de dólares, por debajo de las cifras que circulaban antes. El Nasdaq Composite cerró con una baja de alrededor del 1,3% y el S&P 500 perdió cerca del 0,5%, mientras el Dow subió un 0,1%. Los fabricantes de chips encabezaron la caída: Nvidia bajó 2,9% y Micron, 4,8%.",
+  "caption_en": "Technology shares slid on Wall Street on Thursday after the Financial Times reported that OpenAI's annualized revenue was about $50 billion, below figures previously circulated. The Nasdaq Composite closed down about 1.3% and the S&P 500 lost about 0.5%, while the Dow edged up 0.1%. Chipmakers led the decline, with Nvidia down 2.9% and Micron down 4.8%.",
+  "source_urls": [
+    "https://www.kiplinger.com/investing/stocks/openai-revenue-woes-weigh-on-tech-stocks-stock-market-today",
+    "https://en.sedaily.com/international/2026/10/09/chip-stocks-tumble-on-openai-revenue-miss-oil-jumps-4"
+  ],
+  "source_names": [
+    "Kiplinger",
+    "Seoul Economic Daily"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#WallStreet",
+    "#OpenAI",
+    "#Nasdaq",
+    "#Economía"
+  ],
+  "summary_es": "Un informe del Financial Times situó los ingresos anualizados de OpenAI en unos 50.000 millones de dólares. Nvidia y Micron lideraron la caída del Nasdaq.",
+  "summary_en": "A Financial Times report put OpenAI's annualized revenue at about $50 billion. Nvidia and Micron led the Nasdaq's decline.",
+  "highlight_es": "acciones de chips",
+  "highlight_en": "Chip stocks fall",
+  "image_prompt": "Close-up of computer microchips on a circuit board beside a glowing stock market screen showing a falling red line, dark moody lighting, wide cinematic view",
+  "visual_label": "Wall Street",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 40.7069,
+      "lon": -74.0113,
+      "label": "Nueva York"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T22:20:36.595Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
