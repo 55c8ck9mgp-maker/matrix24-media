@@ -1,0 +1,58 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-explosions-heard-riyadh-houthi-missile-claim",
+  "created_at": "2026-10-08T09:30:11Z",
+  "category": "Security / Geopolitics",
+  "headline": "Explosions heard across Riyadh as Houthis claim missile attack on its main airport",
+  "headline_es": "Se oyen explosiones en Riad mientras los hutíes reivindican un ataque con misil a su aeropuerto",
+  "caption_es": "Testigos reportaron varias explosiones en Riad, la capital saudí, el jueves 8 de octubre. Los hutíes de Yemen dijeron haber disparado un misil balístico contra el Aeropuerto Internacional Rey Khalid, una afirmación no confirmada de forma independiente; Arabia Saudita no confirmó de inmediato un impacto ni daños. El grupo respaldado por Irán ha reivindicado repetidos ataques contra aeropuertos saudíes en los últimos días, mientras se intensifican los combates en Yemen.",
+  "caption_en": "Witnesses reported several explosions across the Saudi capital Riyadh on Thursday, October 8. Yemen's Houthis said they fired a ballistic missile at King Khalid International Airport, a claim not independently confirmed; there was no immediate Saudi confirmation of a strike or of damage. The Iran-backed group has claimed repeated attacks on Saudi airports in recent days as fighting in Yemen escalates.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/08/houthis-claim-missile-strike-on-riyadh-airport-as-explosions-heard-in-saudi-capital",
+    "https://www.anews.com.tr/world/2026/10/08/yemens-houthis-claim-ballistic-missile-strike-on-king-khalid-airport-in-riyadh",
+    "https://www.timesofisrael.com/liveblog_entry/explosions-heard-in-riyadh-amid-fighting-between-saudi-arabia-houthis"
+  ],
+  "source_names": [
+    "Euronews",
+    "Anadolu Agency (A News)",
+    "AFP (The Times of Israel)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Riyadh",
+    "#SaudiArabia",
+    "#Yemen",
+    "#ArabiaSaudita"
+  ],
+  "summary_es": "Testigos oyeron varias explosiones en Riad. Los hutíes dicen haber lanzado un misil balístico contra el aeropuerto Rey Khalid; Arabia Saudita no confirmó de inmediato un impacto.",
+  "summary_en": "Witnesses heard several explosions in Riyadh. The Houthis say they fired a ballistic missile at King Khalid airport; Saudi Arabia did not immediately confirm a strike.",
+  "highlight_es": "explosiones en Riad",
+  "highlight_en": "Explosions heard across Riyadh",
+  "image_prompt": "Modern desert city skyline at dawn seen from a distance, airport control tower and empty runway in the foreground, hazy sky with a faint trail of smoke high above, tense quiet atmosphere, wide cinematic view",
+  "visual_label": "Riad",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 24.9576,
+      "lon": 46.6988,
+      "label": "Riad"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudita",
+      "Yemen": "Yemen"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T13:51:01.492Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
