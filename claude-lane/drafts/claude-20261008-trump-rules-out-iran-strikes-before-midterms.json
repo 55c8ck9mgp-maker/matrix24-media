@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-trump-rules-out-iran-strikes-before-midterms",
+  "status": "draft",
+  "created_at": "2026-10-08T17:29:13Z",
+  "category": "Security / Geopolitics",
+  "headline": "Trump says the US will not attack Iran before the November 3 midterm elections",
+  "headline_es": "Trump dice que EE. UU. no atacará a Irán antes de las elecciones del 3 de noviembre",
+  "caption_en": "President Trump said on Truth Social that the United States will not attack Iran before the November 3 midterm elections, after reports that renewed strikes were under consideration. He said the US blockade remains in full force, claimed oil is flowing through the Strait of Hormuz, and described talks with Iran as productive without giving details.",
+  "caption_es": "El presidente Trump afirmó en Truth Social que Estados Unidos no atacará a Irán antes de las elecciones legislativas del 3 de noviembre, tras informes de que se estudiaban nuevos ataques. Dijo que el bloqueo estadounidense sigue plenamente vigente, aseguró que el petróleo fluye por el estrecho de Ormuz y calificó de productivas las conversaciones con Irán, sin dar detalles.",
+  "summary_es": "Trump descartó atacar a Irán antes de los comicios de mitad de mandato, pero mantiene el bloqueo y habla de conversaciones productivas con Teherán.",
+  "summary_en": "Trump ruled out attacking Iran before the midterms, but kept the blockade in force and spoke of productive talks with Tehran.",
+  "highlight_es": "no atacará a Irán",
+  "highlight_en": "will not attack Iran",
+  "visual_label": "Irán",
+  "image_prompt": "Oil tankers sailing through a calm strait at sunrise, rugged desert coastline on both sides, a distant naval vessel on the horizon, wide cinematic view, no people, no markings",
+  "map": {
+    "focus": ["Iran"],
+    "labels": {"Iran": "Irán"}
+  },
+  "source_urls": [
+    "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/",
+    "https://abcnews.com/International/live-updates/iran-live-updates-trump-us-attack-iran-ahead/?id=137063637"
+  ],
+  "source_names": ["CBS News", "ABC News"],
+  "hashtags": ["#MATRIX24", "#Iran", "#Irán", "#Trump", "#Hormuz"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

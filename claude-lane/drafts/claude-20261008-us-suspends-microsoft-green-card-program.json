@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-us-suspends-microsoft-green-card-program",
+  "status": "draft",
+  "created_at": "2026-10-08T17:29:13Z",
+  "category": "Economy",
+  "headline": "US suspends Microsoft and seven other firms from green card program, alleging visa abuse",
+  "headline_es": "EE. UU. suspende a Microsoft y otras siete empresas de un programa de green cards",
+  "caption_en": "Vice President JD Vance said Microsoft is being suspended from the PERM program, which lets employers sponsor foreign workers for green cards, accusing it of abusing the H-1B visa system. The Labor Department said Adobe, Cognizant, Infosys, Tata, Wipro, HCL and Capgemini are also suspended. Officials also announced J-1 visa investigations at nine US universities.",
+  "caption_es": "El vicepresidente JD Vance anunció que Microsoft queda suspendida del programa PERM, que permite a empresas patrocinar green cards para trabajadores extranjeros, y la acusó de abusar del sistema de visas H-1B. El Departamento de Trabajo dijo que Adobe, Cognizant, Infosys, Tata, Wipro, HCL y Capgemini también fueron suspendidas. Además, se anunciaron investigaciones sobre visas J-1 en nueve universidades de EE. UU.",
+  "summary_es": "Washington acusa a Microsoft de abusar de las visas H-1B y suspende a ocho empresas del programa PERM de residencia permanente.",
+  "summary_en": "Washington accuses Microsoft of abusing H-1B visas and suspends eight companies from the PERM permanent residency program.",
+  "highlight_es": "suspende a Microsoft",
+  "highlight_en": "suspends Microsoft",
+  "visual_label": "H-1B",
+  "image_prompt": "Modern glass office towers of a technology campus under a cloudy sky, an empty plaza with a stack of paper forms and a rubber stamp on a desk in the foreground, wide cinematic view, no people, no logos, no text",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 38.9072, "lon": -77.0369, "label": "Washington"},
+    "labels": {"United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://www.foxbusiness.com/politics/vance-suspends-microsoft-others-from-foreign-workers-applying-green-cards-accuses-company-visa-abuse",
+    "https://spectrumlocalnews.com/nc/charlotte/politics/2026/10/08/microsoft-h-1b-visa-fraud-white-house-fraud-task-force"
+  ],
+  "source_names": ["Fox Business", "Spectrum News"],
+  "hashtags": ["#MATRIX24", "#Microsoft", "#H1B", "#GreenCard", "#Inmigración"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
