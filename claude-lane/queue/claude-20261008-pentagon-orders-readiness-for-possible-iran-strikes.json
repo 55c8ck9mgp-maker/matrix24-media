@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-pentagon-orders-readiness-for-possible-iran-strikes",
+  "created_at": "2026-10-08T04:40:10Z",
+  "category": "Security / Geopolitics",
+  "headline": "Pentagon orders US Central Command to prepare for possible renewed strikes on Iran, Axios reports",
+  "headline_es": "El Pentágono ordena preparar posibles nuevos ataques contra Irán, según Axios",
+  "caption_es": "El Pentágono pidió al Comando Central de EE. UU. completar los preparativos para una posible reanudación de grandes operaciones de combate contra Irán, informó Axios citando a funcionarios estadounidenses. No hay fecha fijada y el presidente Trump no ha tomado una decisión final. Entre los posibles objetivos figuran instalaciones energéticas, infraestructura y sitios nucleares iraníes, e Israel probablemente participaría. Un funcionario de la Casa Blanca dijo que todas las opciones siguen disponibles para el presidente.",
+  "caption_en": "The Pentagon has told US Central Command to finish preparing for a possible resumption of major combat operations against Iran, Axios reported, citing US officials. No date has been set and President Trump has not made a final decision. Possible targets include Iranian energy sites, infrastructure and nuclear facilities, and Israel would likely take part. A White House official said all options remain available to the president.",
+  "source_urls": [
+    "https://www.business-standard.com/world-news/us-prepares-military-for-possible-new-iran-strikes-trump-yet-to-decide-126100800105_1.html",
+    "https://english.ajel.sa/world/2pdat62j6"
+  ],
+  "source_names": [
+    "Business Standard",
+    "Ajel"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#Irán",
+    "#Pentagon",
+    "#MiddleEast"
+  ],
+  "summary_es": "El Comando Central debe completar preparativos para una posible reanudación del combate contra Irán. No hay fecha y Trump aún no decide.",
+  "summary_en": "Central Command must finish preparing for a possible return to major combat against Iran. No date is set and Trump has not decided.",
+  "highlight_es": "posibles nuevos ataques",
+  "highlight_en": "possible renewed strikes",
+  "image_prompt": "Aircraft carrier sailing on a calm sea at dusk, fighter jets parked on the flight deck, distant arid coastline under an orange sky, wide cinematic view, no people, no markings",
+  "visual_label": "CENTCOM",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "labels": {
+      "Iran": "Irán"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T04:50:25.962Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
