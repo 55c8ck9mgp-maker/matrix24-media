@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-crew-12-astronauts-splash-down-california",
+  "created_at": "2026-10-08T16:34:52Z",
+  "category": "Science",
+  "headline": "NASA's Crew-12 astronauts splash down off California after nearly eight months on the ISS",
+  "headline_es": "Los astronautas de la Crew-12 amerizan frente a California tras casi ocho meses en la EEI",
+  "caption_es": "Una cápsula Dragon de SpaceX con los astronautas de la NASA Jessica Meir y Jack Hathaway, la astronauta de la ESA Sophie Adenot y el cosmonauta de Roscosmos Andréi Fediáyev amerizó el jueves en el Pacífico frente a Los Ángeles a las 11:34 (hora del este de EE. UU.). La tripulación de la Crew-12 pasó casi ocho meses a bordo de la Estación Espacial Internacional. Fue el primer vuelo espacial para Hathaway y Adenot.",
+  "caption_en": "A SpaceX Dragon carrying NASA astronauts Jessica Meir and Jack Hathaway, ESA astronaut Sophie Adenot and Roscosmos cosmonaut Andrey Fedyaev splashed down in the Pacific off Los Angeles at 11:34 a.m. EDT on Thursday. The four-person Crew-12 spent nearly eight months aboard the International Space Station. It was the first spaceflight for Hathaway and Adenot.",
+  "source_urls": [
+    "https://www.space.com/space-exploration/international-space-station/spacex-crew-12-iss-astronaut-mission-return-to-earth",
+    "https://www.nasa.gov/blogs/spacestation/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/"
+  ],
+  "source_names": [
+    "Space.com",
+    "NASA"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#NASA",
+    "#SpaceX",
+    "#EEI",
+    "#Espacio"
+  ],
+  "summary_es": "Cuatro tripulantes de EE. UU., Europa y Rusia regresan a la Tierra en una cápsula Dragon tras casi ocho meses en la Estación Espacial Internacional.",
+  "summary_en": "Four crew members from the US, Europe and Russia return to Earth in a Dragon capsule after nearly eight months on the International Space Station.",
+  "highlight_es": "amerizan",
+  "highlight_en": "splash down",
+  "image_prompt": "White space capsule floating on a calm blue Pacific Ocean after splashdown, parachutes drifting on the water nearby, a recovery ship and small fast boats approaching under a bright morning sky, wide cinematic view",
+  "visual_label": "Crew-12",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 33.6,
+      "lon": -118.6,
+      "label": "Los Ángeles"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T18:54:05.533Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
