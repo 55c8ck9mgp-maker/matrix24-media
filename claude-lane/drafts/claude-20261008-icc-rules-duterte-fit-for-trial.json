@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-icc-rules-duterte-fit-for-trial",
+  "status": "draft",
+  "created_at": "2026-10-08T20:29:21Z",
+  "category": "World",
+  "headline": "ICC judges rule former Philippine President Rodrigo Duterte fit to stand trial",
+  "headline_es": "Jueces de la CPI declaran al expresidente filipino Rodrigo Duterte apto para ser juzgado",
+  "caption_en": "Judges at the International Criminal Court found former Philippine President Rodrigo Duterte fit to stand trial on crimes against humanity charges linked to his anti-drug campaign. The decision relied on an assessment by a panel of medical experts. His trial is set to begin on November 30 in The Hague.",
+  "caption_es": "Los jueces de la Corte Penal Internacional determinaron que el expresidente filipino Rodrigo Duterte está en condiciones de ser juzgado por cargos de crímenes de lesa humanidad vinculados a su campaña antidrogas. La decisión se basó en la evaluación de un panel de expertos médicos. El juicio está previsto para comenzar el 30 de noviembre en La Haya.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules",
+    "https://globalnation.inquirer.net/341195/icc-finds-duterte-fit-for-trial-cites-improved-health"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Philippine Daily Inquirer"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Duterte",
+    "#CPI",
+    "#Filipinas"
+  ],
+  "summary_es": "La Corte Penal Internacional concluyó, tras un examen médico, que Duterte puede enfrentar el juicio por crímenes de lesa humanidad, que comenzará el 30 de noviembre.",
+  "summary_en": "After a medical review, the ICC concluded Duterte can face trial for crimes against humanity. The trial is set to open on November 30.",
+  "highlight_es": "apto para ser juzgado",
+  "highlight_en": "fit to stand trial",
+  "visual_label": "La Haya",
+  "image_prompt": "Modern international courthouse building with glass facade and tall towers under an overcast sky, empty plaza in front, calm wide cinematic view",
+  "map": {
+    "focus": [
+      "Netherlands",
+      "Philippines"
+    ],
+    "marker": {
+      "lat": 52.0705,
+      "lon": 4.3007,
+      "label": "La Haya"
+    },
+    "labels": {
+      "Netherlands": "Países Bajos",
+      "Philippines": "Filipinas"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
