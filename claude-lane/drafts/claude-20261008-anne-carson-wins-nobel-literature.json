@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-anne-carson-wins-nobel-literature",
+  "status": "draft",
+  "created_at": "2026-10-08T11:29:09Z",
+  "category": "World",
+  "headline": "Canadian poet Anne Carson wins the 2026 Nobel Prize in Literature",
+  "headline_es": "La poeta canadiense Anne Carson gana el Premio Nobel de Literatura 2026",
+  "caption_en": "Canadian poet and essayist Anne Carson has won the 2026 Nobel Prize in Literature. She was honored for a bold, inventive body of work that, in playful dialogue with the classical tradition, has created new forms for contemporary literature. Carson, a University of Toronto graduate, has combined poetry with translation and teaching the classics.",
+  "caption_es": "La poeta y ensayista canadiense Anne Carson ganó el Premio Nobel de Literatura 2026. Fue reconocida por una obra audaz e inventiva que, en diálogo lúdico con la tradición clásica, ha creado nuevas formas para la literatura contemporánea. Carson, graduada de la Universidad de Toronto, ha combinado la poesía con la traducción y la enseñanza de los clásicos.",
+  "summary_es": "La poeta y ensayista canadiense es premiada por una obra audaz que dialoga con la tradición clásica y crea nuevas formas para la literatura contemporánea.",
+  "summary_en": "The Canadian poet and essayist is honored for a bold body of work in dialogue with the classical tradition that created new forms for contemporary literature.",
+  "highlight_es": "Premio Nobel de Literatura",
+  "highlight_en": "Nobel Prize in Literature",
+  "visual_label": "Literatura",
+  "image_prompt": "Stack of old books beside ancient Greek marble column fragments and a fountain pen on a wooden desk, warm lamplight, quiet library background, wide cinematic view",
+  "map": {
+    "focus": ["Canada"],
+    "marker": {"lat": 43.6532, "lon": -79.3832, "label": "Toronto"},
+    "labels": {"Canada": "Canadá"}
+  },
+  "source_urls": [
+    "https://www.irishtimes.com/culture/books/2026/10/08/anne-carson-wins-nobel-prize-in-literature-2026/",
+    "https://www.utoronto.ca/news/anne-carson-wins-nobel-prize"
+  ],
+  "source_names": ["The Irish Times", "University of Toronto News"],
+  "hashtags": ["#MATRIX24", "#Nobel", "#Literatura", "#Literature", "#AnneCarson"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
