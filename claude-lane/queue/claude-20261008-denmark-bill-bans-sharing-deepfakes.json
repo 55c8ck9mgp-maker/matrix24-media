@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-denmark-bill-bans-sharing-deepfakes",
+  "created_at": "2026-10-08T09:30:11Z",
+  "category": "Technology",
+  "headline": "Denmark proposes ban on sharing deepfakes of people's faces and voices without consent",
+  "headline_es": "Dinamarca propone prohibir compartir deepfakes de rostros y voces sin consentimiento",
+  "caption_es": "La ministra de Cultura de Dinamarca, Zenia Stampe, propone este jueves un proyecto de ley que prohibiría compartir imitaciones digitales realistas de la apariencia y la voz de una persona sin su consentimiento, tanto para el público como para los artistas. Un objetivo clave es que las empresas tecnológicas retiren rápidamente el contenido manipulado. La sátira, la parodia y la caricatura quedan exentas. El proyecto aún necesita la aprobación del parlamento, y Stampe espera que entre en vigor hacia el cambio de año.",
+  "caption_en": "Denmark's culture minister Zenia Stampe is proposing a bill on Thursday that would ban sharing realistic digital imitations of a person's appearance and voice without their consent, covering the public as well as artists. A key aim is to make tech companies take down manipulated content quickly. Satire, parody and caricature are exempt. The bill still needs parliamentary approval, and Stampe hopes it takes effect around the turn of the year.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/08/denmark-introduces-a-bill-protecting-peoples-faces-and-voices-from-deepfakes",
+    "https://www.thedailystar.net/news/technology/news/denmark-plans-ban-sharing-ai-deepfakes-without-consent-4293531"
+  ],
+  "source_names": [
+    "Euronews",
+    "Reuters (The Daily Star)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Denmark",
+    "#Deepfakes",
+    "#AI",
+    "#Dinamarca"
+  ],
+  "summary_es": "Un proyecto de ley danés prohibiría compartir imitaciones digitales realistas del rostro y la voz de una persona sin su consentimiento y busca que las plataformas las retiren rápido.",
+  "summary_en": "A Danish bill would ban sharing realistic digital imitations of a person's face and voice without consent and aims to make platforms remove them quickly.",
+  "highlight_es": "deepfakes",
+  "highlight_en": "deepfakes",
+  "image_prompt": "Abstract digital scene of a faceless human silhouette made of glowing wireframe mesh beside a sound waveform, split into a real and a pixelated copy, dark blue background with soft light, no text, wide cinematic view",
+  "visual_label": "Deepfakes",
+  "map": {
+    "focus": [
+      "Denmark"
+    ],
+    "marker": {
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "label": "Copenhague"
+    },
+    "labels": {
+      "Denmark": "Dinamarca"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T13:24:48.420Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
