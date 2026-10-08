@@ -131,7 +131,12 @@ export function createInstagramClient({ accessToken, igUserId = 'me', fetchImpl 
     if (r.ok && typeof r.body?.id === 'string' && NUMERIC_ID.test(r.body.id)) {
       return { outcome: 'published', mediaId: r.body.id };
     }
-    return { outcome: 'unknown', reason: `publish_http_${r.status}` };
+    // Numeric Meta error codes only (no message text) so the cause is diagnosable
+    // from the record; the outcome stays 'unknown' whatever the code says.
+    const err = r.body?.error;
+    const code = Number.isInteger(err?.code) ? `_code_${err.code}` : '';
+    const sub = Number.isInteger(err?.error_subcode) ? `_sub_${err.error_subcode}` : '';
+    return { outcome: 'unknown', reason: `publish_http_${r.status}${code}${sub}` };
   }
 
   return { listRecentMedia, getMedia, createContainer, waitContainer, publishContainer };

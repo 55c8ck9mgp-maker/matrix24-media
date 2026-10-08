@@ -5,6 +5,9 @@
 export const LANE = 'claude';
 export const STATUSES = Object.freeze([
   'draft', 'ready_to_publish', 'publishing', 'published', 'publish_unknown', 'skipped_duplicate',
+  // Terminal. Only the owner's recovery workflow sets it, from publish_unknown,
+  // after a fresh feed read shows no matching post (docs/CLAUDE_LANE.md "Recovery").
+  'discarded',
 ]);
 export const CAPTION_MAX = 2200;
 export const HASHTAGS_MAX = 30;
@@ -93,9 +96,9 @@ export function validateLaneRecord(record) {
   }
 
   const s = record.status;
-  const afterReady = ['ready_to_publish', 'publishing', 'published', 'publish_unknown'].includes(s);
+  const afterReady = ['ready_to_publish', 'publishing', 'published', 'publish_unknown', 'discarded'].includes(s);
   if (afterReady) need(isHttps(record.image_url) && /\.jpe?g(\?|$)/i.test(record.image_url), 'NEED_HTTPS_JPEG');
-  if (['publishing', 'published', 'publish_unknown'].includes(s)) {
+  if (['publishing', 'published', 'publish_unknown', 'discarded'].includes(s)) {
     need(nonEmpty(record.publish_attempt_id), 'MISSING_PUBLISH_ATTEMPT_ID');
   } else {
     need(record.publish_attempt_id == null, 'UNEXPECTED_PUBLISH_ATTEMPT_ID');
@@ -103,9 +106,21 @@ export function validateLaneRecord(record) {
   if (s === 'published') need(/^\d+$/.test(String(record.ig_media_id ?? '')), 'PUBLISHED_NEEDS_MEDIA_ID');
   else need(record.ig_media_id == null, 'UNEXPECTED_MEDIA_ID');
   need(Array.isArray(record.history), 'MISSING_HISTORY');
+  if (s === 'discarded') {
+    need(Array.isArray(record.history) && record.history.some(h => isOwnerDiscard(h, record.publish_attempt_id)),
+      'DISCARD_NEEDS_OWNER_RECORD');
+  }
   errors.push(...visualErrors(record));
   errors.push(...facebookErrors(record));
   return errors;
+}
+
+// The owner's discard record: who decided, for which attempt, and the evidence
+// (a complete feed read with zero matches).
+export function isOwnerDiscard(entry, attemptId) {
+  return Boolean(entry) && entry.event === 'owner_discard' && nonEmpty(attemptId)
+    && entry.publish_attempt_id === attemptId && nonEmpty(entry.decided_by)
+    && Number.isInteger(entry.feed_checked) && entry.feed_checked > 0 && entry.feed_matches === 0;
 }
 
 // Allowed lane transitions. There is deliberately no automatic way back to
@@ -119,6 +134,10 @@ const TRANSITIONS = {
   'publishing->published': 'publisher',
   'publishing->publish_unknown': 'publisher',
   'publish_unknown->published': 'reconciler',
+  // Owner recovery only: the last history entry must be the owner's discard for
+  // this same attempt, with a fresh feed read that found no match. Terminal: the
+  // story is never re-queued, so this can never become a second publication.
+  'publish_unknown->discarded': 'owner_discard',
   // Only when media_publish was provably never called (container failed or
   // never became ready): nothing can be public, so the claim is released.
   'publishing->ready_to_publish': 'publisher_not_invoked',
@@ -142,6 +161,13 @@ export function checkLaneTransition(prev, next) {
     if (!last || last.event !== 'not_invoked' || last.publish_attempt_id !== prev.publish_attempt_id) {
       return { ok: false, error: 'RELEASE_NEEDS_NOT_INVOKED_PROOF' };
     }
+    return { ok: true, owner };
+  }
+  if (key === 'publish_unknown->discarded') {
+    const last = Array.isArray(next.history) ? next.history[next.history.length - 1] : null;
+    if (prev.publish_attempt_id !== next.publish_attempt_id) return { ok: false, error: 'ATTEMPT_ID_CHANGED' };
+    if (next.ig_media_id != null) return { ok: false, error: 'UNEXPECTED_MEDIA_ID' };
+    if (!isOwnerDiscard(last, prev.publish_attempt_id)) return { ok: false, error: 'DISCARD_NEEDS_OWNER_RECORD' };
     return { ok: true, owner };
   }
   if (from === 'publishing' && prev.publish_attempt_id !== next.publish_attempt_id) {

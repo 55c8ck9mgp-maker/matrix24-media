@@ -15,6 +15,9 @@ const allowedWriters = new Set([
   // Facebook Page mirror (approved by Justen 2026-10-07): writes only the
   // `facebook` sub-object of claude-lane/ records, only when both switches are 'true'.
   'claude-lane-facebook.yml',
+  // Owner-only recovery (approved by Justen 2026-10-08): manual, writes only a
+  // publish_unknown -> discarded record under claude-lane/, never publishes.
+  'claude-lane-discard.yml',
 ]);
 const forbiddenPublicationSecrets = /secrets\.(?:IG_PUBLISH_TOKEN|METRICOOL_API_KEY|METRICOOL_ACCOUNT_ID)/;
 
@@ -55,4 +58,16 @@ test('Claude Lane Facebook mirror is gated by both owner switches and the lane-o
   assert.match(wf, /node scripts\/claude-lane\/run-facebook\.mjs/);
   assert.doesNotMatch(wf, /git push|git add|gh pr/);
   assert.doesNotMatch(wf, /secrets\.(IG_PUBLISH_TOKEN|IG_READ_TOKEN|METRICOOL|IG_CLAUDE_ACCESS_TOKEN)/);
+});
+
+test('Claude Lane discard is manual, owner-only and never publishes', () => {
+  const wf = fs.readFileSync(path.join(dir, 'claude-lane-discard.yml'), 'utf8');
+  assert.match(wf, /^on:\s*\n\s+workflow_dispatch:/m);
+  assert.doesNotMatch(wf, /\bschedule\s*:|\bpush\s*:|pull_request/);
+  assert.match(wf, /if: github\.actor == github\.repository_owner/);
+  assert.match(wf, /DISCARD_APPLY: \$\{\{ inputs\.apply \}\}/);
+  assert.match(wf, /node scripts\/claude-lane\/run-discard\.mjs/);
+  assert.doesNotMatch(wf, /git push|git add|gh pr|run-lane|publisher/);
+  const src = fs.readFileSync('scripts/claude-lane/discard.mjs', 'utf8') + fs.readFileSync('scripts/claude-lane/run-discard.mjs', 'utf8');
+  assert.doesNotMatch(src, /publishContainer|createContainer|media_publish/);
 });
