@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-russian-glide-bomb-kramatorsk-buses",
+  "created_at": "2026-10-08T11:29:09Z",
+  "category": "Security / Geopolitics",
+  "headline": "Russian strike on buses in Ukraine's Kramatorsk kills at least 33",
+  "headline_es": "Ataque ruso contra autobuses en Kramatorsk, Ucrania, deja al menos 33 muertos",
+  "caption_es": "Un ataque ruso alcanzó el jueves dos autobuses urbanos en una parada de Kramatorsk, en el este de Ucrania y cerca del frente, y dejó al menos 33 muertos y 18 heridos, según las autoridades locales. La policía indicó que se usó una bomba planeadora. El concejo municipal lo calificó de crimen contra civiles; Rusia niega atacar a civiles.",
+  "caption_en": "A Russian strike hit two city buses at a bus stop in Kramatorsk, in eastern Ukraine near the front line, on Thursday, killing at least 33 people and wounding 18, local authorities said. Police said a glide bomb was used. The city council called it a crime against civilians; Russia denies targeting civilians.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/8/russia-attack-in-ukraines-kramatorsk-kills-12",
+    "https://abc.net.au/news/2026-10-08/ukraine-russia-bus-stop-strike-attack-bomb/107245320"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "ABC News (Australia)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Kramatorsk",
+    "#Rusia"
+  ],
+  "summary_es": "Una bomba planeadora rusa alcanzó dos autobuses urbanos en una parada cerca del frente. Hay al menos 33 muertos y 18 heridos, según las autoridades.",
+  "summary_en": "A Russian glide bomb hit two city buses at a stop near the front line. At least 33 people were killed and 18 wounded, authorities said.",
+  "highlight_es": "al menos 33 muertos",
+  "highlight_en": "kills at least 33",
+  "image_prompt": "Empty city bus stop shelter on a grey autumn street in an eastern European industrial town, overcast sky, distant haze, somber mood, no people, wide cinematic view",
+  "visual_label": "Kramatorsk",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 48.7389,
+      "lon": 37.5848,
+      "label": "Kramatorsk"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T15:52:08.489Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
