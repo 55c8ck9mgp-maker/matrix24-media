@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-wmo-el-nino-to-peak-in-december",
+  "created_at": "2026-10-08T10:29:42Z",
+  "category": "Climate",
+  "headline": "El Niño will keep strengthening and peak in December, UN weather agency warns",
+  "headline_es": "El Niño seguirá intensificándose y alcanzará su pico en diciembre, advierte la ONU",
+  "caption_es": "La Organización Meteorológica Mundial afirma que El Niño seguirá fortaleciéndose y alcanzará su pico en diciembre, posiblemente como uno de los más intensos desde al menos 1950, con una probabilidad cercana al 100 % de que dure hasta febrero de 2027. Se prevé que la temperatura superficial del Pacífico supere la normal en unos 3,7 °C entre octubre y diciembre, por encima del récord de 2,6 °C de 2015-2016. La agencia espera temperaturas superiores a la media en gran parte del planeta y mayor riesgo de sequías e inundaciones.",
+  "caption_en": "The World Meteorological Organization says El Niño will strengthen further and peak in December, possibly as one of the strongest since at least 1950, with a near-100% chance it lasts through February 2027. Pacific sea-surface temperatures are forecast at about 3.7°C above normal for October-December, beyond the 2.6°C record of 2015-2016. The agency expects above-average temperatures across much of the globe and higher drought and flood risks.",
+  "source_urls": [
+    "https://www.dawn.com/news/2035638/el-nino-will-intensify-then-peak-in-december-un",
+    "https://capitalfm.africa/el-nino-to-peak-in-december-in-potentially-strongest-event-since-1950-wmo-warns/",
+    "https://wmo.int/news/media-centre/sea-surface-temperatures-reflect-strengthening-el-nino"
+  ],
+  "source_names": [
+    "AFP (via Dawn)",
+    "Capital FM Kenya",
+    "World Meteorological Organization"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ElNiño",
+    "#Clima",
+    "#Climate",
+    "#WMO"
+  ],
+  "summary_es": "La OMM prevé lluvias más intensas en el Cuerno de África y el sureste de Sudamérica, y más sequía en la India, el sur de Centroamérica y el noroeste de Sudamérica.",
+  "summary_en": "WMO expects wetter conditions in the Greater Horn of Africa and southeastern South America, and drier ones in India, southern Central America and northwestern South America.",
+  "highlight_es": "El Niño",
+  "highlight_en": "El Niño",
+  "image_prompt": "Vast warm tropical Pacific Ocean under a hazy orange sky, heat shimmer over the water, towering storm clouds on the horizon, a weather buoy in the foreground, wide cinematic view",
+  "visual_label": "El Niño",
+  "map": {
+    "focus": [
+      "Ecuador",
+      "Peru"
+    ],
+    "labels": {
+      "Ecuador": "Ecuador",
+      "Peru": "Perú"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T14:52:22.867Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
