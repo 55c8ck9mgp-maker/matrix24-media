@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-italy-parliament-approves-meloni-electoral-reform",
+  "status": "draft",
+  "created_at": "2026-10-08T12:33:41Z",
+  "category": "World",
+  "headline": "Italy's parliament gives final approval to Meloni's contested electoral reform",
+  "headline_es": "El Parlamento italiano aprueba definitivamente la polémica reforma electoral de Meloni",
+  "caption_en": "Italy's Chamber of Deputies gave final approval to Prime Minister Giorgia Meloni's electoral reform in a secret ballot, 227 votes to 164. The law replaces the mixed system with a fully proportional one and gives bonus seats for a majority to the alliance that reaches a 42% vote threshold. The center-left opposition says it undermines democracy and has pledged to take it to the Constitutional Court. A national election is due next year.",
+  "caption_es": "La Cámara de Diputados de Italia aprobó definitivamente la reforma electoral de la primera ministra Giorgia Meloni en votación secreta, por 227 votos contra 164. La ley sustituye el sistema mixto por uno totalmente proporcional y otorga escaños adicionales para lograr la mayoría a la alianza que alcance un umbral del 42% de los votos. La oposición de centroizquierda afirma que socava la democracia y se ha comprometido a llevarla ante el Tribunal Constitucional. Las elecciones generales están previstas para el próximo año.",
+  "source_urls": [
+    "https://www.clickondetroit.com/news/world/2026/10/08/italys-parliament-gives-final-approval-to-melonis-electoral-reform/",
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/10/08/italy-s-meloni-secures-final-approval-for-contested-electoral-reform"
+  ],
+  "source_names": [
+    "Associated Press",
+    "Reuters"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Italia",
+    "#Italy",
+    "#Meloni",
+    "#ReformaElectoral"
+  ],
+  "summary_es": "La Cámara de Diputados aprobó la ley por 227 votos contra 164: sistema proporcional con bonificación de escaños para la alianza que alcance el 42%. La oposición promete llevarla al Tribunal Constitucional.",
+  "summary_en": "Deputies approved the law 227-164: a proportional system with bonus seats for an alliance reaching 42%. The opposition plans a Constitutional Court challenge.",
+  "highlight_es": "reforma electoral",
+  "highlight_en": "electoral reform",
+  "visual_label": "Stabilicum",
+  "image_prompt": "Grand semicircular parliament chamber with rows of empty wooden benches and red seats, warm light from a glass ceiling, ballot box in the foreground, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": ["Italy"],
+    "marker": {"lat": 41.9028, "lon": 12.4964, "label": "Roma"},
+    "labels": {"Italy": "Italia"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
