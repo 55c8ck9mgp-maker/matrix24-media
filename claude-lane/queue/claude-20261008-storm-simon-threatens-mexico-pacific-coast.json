@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-storm-simon-threatens-mexico-pacific-coast",
+  "created_at": "2026-10-08T01:37:04Z",
+  "category": "Colombia / Latin America",
+  "headline": "Tropical Storm Simón forms off Mexico, forecast to near Puerto Vallarta as a hurricane",
+  "headline_es": "Se forma la tormenta tropical Simón y podría llegar a Puerto Vallarta como huracán",
+  "caption_es": "La tormenta tropical Simón se formó el miércoles en el Pacífico mexicano, al sur de Lázaro Cárdenas, Michoacán. Los pronósticos prevén que se fortalezca hasta convertirse en huracán, y el Servicio Meteorológico Nacional estima que podría llegar a la zona de Puerto Vallarta el domingo como huracán categoría 2. Se esperan lluvias fuertes, con posibles inundaciones y deslaves, en varios estados del occidente y sur del país.",
+  "caption_en": "Tropical Storm Simón formed in Mexico's Pacific on Wednesday, south of Lázaro Cárdenas, Michoacán. Forecasters expect it to strengthen into a hurricane, and Mexico's National Weather Service projects it could reach the Puerto Vallarta area on Sunday as a Category 2 hurricane. Heavy rain, possible flooding and landslides are forecast for several western and southern states.",
+  "source_urls": [
+    "https://www.univision.com/noticias/fenomenos-naturales/tormenta-tropical-simon-se-convertiria-en-huracan-en-24-horas-y-amenaza-costas-mexicanas",
+    "https://www.elfinanciero.com.mx/estados/2026/10/07/simon-pegara-a-mexico-como-huracan-categoria-2-cuando-estara-frente-a-las-costas-de-puerto-vallarta/"
+  ],
+  "source_names": [
+    "Univision",
+    "El Financiero"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Simón",
+    "#México",
+    "#Huracán",
+    "#PuertoVallarta"
+  ],
+  "summary_es": "Simón se formó frente a Michoacán y el SMN prevé que llegue a Puerto Vallarta el domingo como huracán categoría 2, con lluvias fuertes y riesgo de deslaves.",
+  "summary_en": "Simón formed off Michoacán; Mexico's weather service projects it could reach Puerto Vallarta on Sunday as a Category 2 hurricane, with heavy rain and landslide risk.",
+  "highlight_es": "tormenta tropical Simón",
+  "highlight_en": "Tropical Storm Simón",
+  "image_prompt": "Satellite-style view of a swirling tropical storm over a deep blue ocean approaching a mountainous green coastline, dramatic clouds, wide cinematic perspective",
+  "visual_label": "Simón",
+  "map": {
+    "focus": [
+      "Mexico"
+    ],
+    "marker": {
+      "lat": 20.65,
+      "lon": -105.23,
+      "label": "Puerto Vallarta"
+    },
+    "labels": {
+      "Mexico": "México"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T01:49:59.141Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
