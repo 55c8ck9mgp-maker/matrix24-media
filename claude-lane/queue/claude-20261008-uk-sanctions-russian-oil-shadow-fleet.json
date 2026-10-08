@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-uk-sanctions-russian-oil-shadow-fleet",
+  "created_at": "2026-10-08T16:34:52Z",
+  "category": "Security / Geopolitics",
+  "headline": "UK imposes 38 new Russia sanctions targeting oil, shadow fleet tankers and crypto exchanges",
+  "headline_es": "Reino Unido impone 38 nuevas sanciones a Rusia contra petróleo, flota fantasma y criptobolsas",
+  "caption_es": "La Cancillería británica anunció 38 nuevas designaciones de sanciones contra personas y entidades que vincula al petróleo ruso, la fabricación militar y la evasión de sanciones. Incluyen 12 petroleros que, según Londres, pertenecen a la flota fantasma rusa, plataformas de criptomonedas y de pagos, y 17 proveedores de bienes como máquinas herramienta y componentes electrónicos usados para fabricar misiles y drones.",
+  "caption_en": "Britain's Foreign Office announced 38 new sanctions designations against people and entities it links to Russian oil, military manufacturing and sanctions evasion. They include 12 tankers it says belong to Russia's shadow fleet, crypto exchanges and payment platforms, and 17 suppliers of goods such as machine tools and electronics used to make missiles and drones.",
+  "source_urls": [
+    "https://theprint.in/world/uk-announces-new-round-of-russia-sanctions-targeting-financial-services-shadow-fleet/3066039/",
+    "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922"
+  ],
+  "source_names": [
+    "Reuters (via ThePrint)",
+    "The Moscow Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ReinoUnido",
+    "#Rusia",
+    "#Sanciones",
+    "#Ucrania"
+  ],
+  "summary_es": "Londres amplía su presión sobre los ingresos petroleros de Moscú y las redes que le ayudan a esquivar las sanciones por la guerra en Ucrania.",
+  "summary_en": "London steps up pressure on Moscow's oil revenue and the networks that help it evade sanctions over the war in Ukraine.",
+  "highlight_es": "38 nuevas sanciones",
+  "highlight_en": "38 new Russia sanctions",
+  "image_prompt": "Ageing oil tanker anchored on a dark grey sea at dusk, rust-streaked hull, distant offshore loading buoy, overcast sky, moody wide cinematic view",
+  "visual_label": "Flota fantasma",
+  "map": {
+    "focus": [
+      "United Kingdom",
+      "Russia"
+    ],
+    "labels": {
+      "United Kingdom": "Reino Unido",
+      "Russia": "Rusia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T19:20:41.446Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
