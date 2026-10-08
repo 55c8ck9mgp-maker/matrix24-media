@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-first-foreign-airline-flight-lands-iran",
+  "status": "draft",
+  "created_at": "2026-10-08T08:23:38Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iraqi Airways flight lands in Tehran, first by a foreign airline since the war began",
+  "headline_es": "Un vuelo de Iraqi Airways aterriza en Teherán, el primero de una aerolínea extranjera desde la guerra",
+  "caption_en": "An Iraqi Airways flight from Najaf, Iraq, landed at Tehran's Imam Khomeini airport on Thursday, Iranian state media reported. It was described as the first commercial flight by a foreign airline to land in Iran since the war began. The flight followed a US sanctions waiver granted to the Iraqi carrier.",
+  "caption_es": "Un vuelo de Iraqi Airways procedente de Nayaf, Irak, aterrizó el jueves en el aeropuerto Imam Jomeini de Teherán, informaron los medios estatales iraníes. Fue descrito como el primer vuelo comercial de una aerolínea extranjera en aterrizar en Irán desde el inicio de la guerra. El vuelo se realizó tras una exención de sanciones que Estados Unidos otorgó a la aerolínea iraquí.",
+  "source_urls": [
+    "https://www.timesofisrael.com/liveblog_entry/iran-says-1st-flight-by-foreign-airline-landed-since-start-of-war-after-us-issued-sanctions-waiver-for-iraqi-carrier/",
+    "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/"
+  ],
+  "source_names": [
+    "AFP (via The Times of Israel)",
+    "CBS News"
+  ],
+  "hashtags": ["#MATRIX24", "#Irán", "#Irak", "#Aviación"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Según la televisión estatal iraní, es el primer vuelo comercial de una aerolínea extranjera que llega a Irán desde que comenzó la guerra.",
+  "summary_en": "Iranian state TV said it was the first commercial flight by a foreign airline to land in Iran since the war began.",
+  "highlight_es": "primero de una aerolínea extranjera",
+  "highlight_en": "first by a foreign airline",
+  "visual_label": "Najaf-Teherán",
+  "image_prompt": "Generic white passenger jet without markings landing on a desert airport runway at sunrise, mountains in the distance, warm hazy light, wide cinematic view",
+  "map": {
+    "focus": ["Iran", "Iraq"],
+    "marker": {"lat": 35.416, "lon": 51.152, "label": "Teherán"},
+    "labels": {"Iran": "Irán", "Iraq": "Irak"}
+  }
+}
