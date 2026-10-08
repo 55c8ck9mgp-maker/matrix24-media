@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-drone-strike-halts-yandex-data-center",
+  "status": "draft",
+  "created_at": "2026-10-08T13:43:35Z",
+  "category": "Technology",
+  "headline": "Drone attack halts a Yandex data center in Russia's Ryazan region",
+  "headline_es": "Ataque con drones paraliza un centro de datos de Yandex en Riazán, Rusia",
+  "caption_en": "Operations were suspended at a Yandex data center in Sasovo, in Russia's Ryazan region, after a reported overnight Ukrainian drone attack. No casualties were reported. Users reported disruptions to Yandex Cloud and Yandex Documents; the company said workloads were shifted to its other facilities. Russia has been striking Ukrainian data centers since September.",
+  "caption_es": "Se suspendieron las operaciones de un centro de datos de Yandex en Sásovo, en la región rusa de Riazán, tras un ataque nocturno con drones atribuido a Ucrania. No se reportaron víctimas. Los usuarios reportaron fallas en Yandex Cloud y Yandex Documentos; la empresa dijo que trasladó la carga a sus otras instalaciones. Rusia ataca centros de datos ucranianos desde septiembre.",
+  "summary_es": "Un ataque nocturno con drones obligó a suspender un centro de datos de Yandex en Sásovo. Hubo fallas en servicios en la nube, sin víctimas reportadas.",
+  "summary_en": "An overnight drone attack forced Yandex to suspend a data center in Sasovo. Cloud services were disrupted; no casualties were reported.",
+  "highlight_es": "centro de datos de Yandex",
+  "highlight_en": "Yandex data center",
+  "visual_label": "Yandex",
+  "image_prompt": "Large windowless data center building at night in the autumn Russian countryside, faint smoke rising from the roof, rows of cooling units, dim orange glow, no people, wide cinematic view",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 54.35, "lon": 41.92, "label": "Sásovo"},
+    "labels": {"Russia": "Rusia"}
+  },
+  "source_urls": [
+    "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+    "https://therecord.media/yandex-russia-drone-ukraine"
+  ],
+  "source_names": ["The Moscow Times", "The Record"],
+  "hashtags": ["#MATRIX24", "#Yandex", "#Rusia", "#Ucrania", "#Tecnologia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

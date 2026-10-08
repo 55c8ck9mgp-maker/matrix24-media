@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-south-korea-recalls-ambassador-ukraine",
+  "status": "draft",
+  "created_at": "2026-10-08T13:43:35Z",
+  "category": "Security / Geopolitics",
+  "headline": "South Korea recalls its ambassador to Ukraine in row over North Korean POWs",
+  "headline_es": "Corea del Sur retira a su embajador en Ucrania por disputa sobre prisioneros norcoreanos",
+  "caption_en": "South Korea is recalling its ambassador to Ukraine after Kyiv publicly disclosed the transfer of two captured North Korean soldiers to the South. Seoul says the disclosure broke a confidentiality agreement and endangered the soldiers' families; Ukraine denies any such deal existed. Seoul said it hopes to resolve the dispute through talks.",
+  "caption_es": "Corea del Sur retira a su embajador en Ucrania después de que Kiev revelara públicamente el traslado al Sur de dos soldados norcoreanos capturados. Seúl afirma que la revelación violó un acuerdo de confidencialidad y puso en riesgo a las familias de los soldados; Ucrania niega que existiera tal acuerdo. Seúl dijo que espera resolver la disputa mediante el diálogo.",
+  "summary_es": "Seúl acusa a Kiev de violar un acuerdo de confidencialidad al revelar el traslado de dos prisioneros norcoreanos. Ucrania niega que existiera ese acuerdo.",
+  "summary_en": "Seoul accuses Kyiv of breaking a confidentiality deal by disclosing the transfer of two North Korean POWs. Ukraine denies any such deal existed.",
+  "highlight_es": "retira a su embajador",
+  "highlight_en": "recalls its ambassador",
+  "visual_label": "Seúl-Kiev",
+  "image_prompt": "Empty modern embassy building entrance with closed glass doors on a quiet autumn morning, bare flagpoles, soft grey light, diplomatic atmosphere, no people, no flags, wide cinematic view",
+  "map": {
+    "focus": ["South Korea", "Ukraine"],
+    "labels": {"South Korea": "Corea del Sur", "Ukraine": "Ucrania"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/8/south-korea-recalls-envoy-to-kyiv-over-diplomatic-row-with-ukraine",
+    "https://www.euronews.com/2026/10/08/south-korea-recalls-ambassador-to-ukraine-in-north-korean-prisoner-of-war-row"
+  ],
+  "source_names": ["Al Jazeera", "Euronews"],
+  "hashtags": ["#MATRIX24", "#CoreaDelSur", "#SouthKorea", "#Ucrania", "#Ukraine"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
