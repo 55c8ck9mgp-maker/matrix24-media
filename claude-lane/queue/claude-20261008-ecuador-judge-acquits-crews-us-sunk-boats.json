@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-ecuador-judge-acquits-crews-us-sunk-boats",
+  "created_at": "2026-10-08T03:25:04Z",
+  "category": "Colombia / Latin America",
+  "headline": "Ecuador judge acquits 32 fishermen whose boats were sunk in US anti-drug operations",
+  "headline_es": "Jueza de Ecuador declara inocentes a 32 pescadores de barcos hundidos por EE. UU.",
+  "caption_es": "Una jueza de Ecuador declaró inocentes de asociación ilícita vinculada al narcotráfico a 32 tripulantes de dos barcos pesqueros, el Conquista 2 y el María Candelaria. Las embarcaciones fueron destruidas por fuerzas de EE. UU. en el Pacífico entre finales de agosto y mediados de septiembre; su abogado afirmó que la Fiscalía no presentó pruebas de delito. Es el primero de tres juicios que involucran a 88 tripulantes.",
+  "caption_en": "A judge in Ecuador declared 32 crew members of two fishing boats, the Conquista 2 and the María Candelaria, innocent of illicit association linked to drug trafficking. The boats were destroyed by US forces in the Pacific between late August and mid-September; their lawyer said prosecutors presented no evidence of a crime. It is the first of three trials involving 88 crew members.",
+  "source_urls": [
+    "https://www.semana.com/mundo/articulo/declaran-inocentes-a-32-tripulantes-de-embarcaciones-destruidas-por-estados-unidos-en-el-pacifico/202624/",
+    "https://www.eldiario.ec/ecuador/justicia-ecuatoriana-ratifica-la-inocencia-de-32-pescadores-procesados-tras-el-hundimiento-de-barcos-por-eeuu-07102026/"
+  ],
+  "source_names": [
+    "Semana",
+    "El Diario (Ecuador)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ecuador",
+    "#EstadosUnidos",
+    "#Justicia",
+    "#LatinAmerica"
+  ],
+  "summary_es": "El Comando Sur de EE. UU. dijo que los barcos abastecían de combustible a lanchas del narcotráfico. La jueza concluyó que no se probó ningún delito.",
+  "summary_en": "US Southern Command said the boats refueled drug-trafficking speedboats. The judge found no crime was proven.",
+  "highlight_es": "inocentes a 32 pescadores",
+  "highlight_en": "acquits 32 fishermen",
+  "image_prompt": "Empty wooden fishing boats moored at a tropical Pacific harbor at dusk, nets piled on the dock, calm water and distant hills, wide cinematic view",
+  "visual_label": "Pacífico",
+  "map": {
+    "focus": [
+      "Ecuador"
+    ],
+    "labels": {
+      "Ecuador": "Ecuador"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T03:51:08.153Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
