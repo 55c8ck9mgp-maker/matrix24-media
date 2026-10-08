@@ -34,7 +34,9 @@ lane (ChatGPT Publisher). The two lanes never share queue records.
    `media_publish` call per attempt.
 4. **No blind retry.** A returned media ID means `published`. Anything
    else means `publish_unknown`; it is resolved only by positive evidence
-   in the feed, never by age, and never republished automatically.
+   in the feed, never by age, and never republished automatically. While a
+   record is `publishing` or `publish_unknown` the lane publishes nothing
+   else; the owner clears a confirmed failure with the Recovery workflow.
 5. **Volume and spacing (changed by Justen 2026-10-06).** No daily cap: the
    lane publishes as much relevant news as exists, 24/7. Limits: at least 15
    minutes between lane posts, and none when the account's
@@ -126,6 +128,36 @@ transaction across platforms):
 - Rollback: set `CLAUDE_LANE_FB_ENABLED` to `false` (Instagram keeps
   running); revoke with `DELETE /me/permissions` from the app or delete the
   `FB_CLAUDE_USER_TOKEN` secret; full removal reverts the PR.
+
+## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
+
+A `publish_unknown` record blocks the whole lane until it is resolved. The
+reconciler resolves it to `published` when the post is in the feed. When the
+owner has checked Instagram and the post is not there, the owner runs
+**Claude Lane discard (owner only)** (`claude-lane-discard.yml`):
+
+1. Actions → *Claude Lane discard (owner only)* → Run workflow, with
+   `content_id`, the same id again in `confirm_content_id`, and a `reason`.
+   Leave `apply` off first: it is a dry run that reports what would happen.
+2. Run it again with `apply` on. The job runs only for the repository owner.
+
+`scripts/claude-lane/discard.mjs` re-reads the feed and refuses unless the
+read succeeds, reaches back past the attempt's `reserved_at`, and shows no post
+that matches the caption exactly or loosely; the record must be
+`publish_unknown` and at least 15 minutes old. It then writes `discarded`
+(terminal) with an `owner_discard` history entry naming who decided, the
+attempt id and the feed evidence. It never publishes, retries or re-queues:
+the story is not posted again by the lane (it also stays in the lane's
+duplicate check). If the post later turns up, it is a published post with a
+`discarded` record; nothing is posted twice.
+
+The publisher also records the numeric Meta error code of a failed
+`media_publish` in the reason (e.g. `publish_http_400_code_9007`), so the
+cause of the next `publish_unknown` can be read from the record.
+
+Rollback: revert the PR. If a `discarded` record already exists, the
+reverted validator would reject it, so the owner first decides what that
+record becomes; the switch `CLAUDE_LANE_ENABLED` still stops the lane at once.
 
 ## Rollback
 

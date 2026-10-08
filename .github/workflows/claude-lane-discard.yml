@@ -1,0 +1,57 @@
+name: Claude Lane discard (owner only)
+
+# docs/CLAUDE_LANE.md "Recovery". Manual, owner-only recovery for a Claude Lane
+# record stuck in publish_unknown (it blocks the lane). It never publishes or
+# retries: it re-reads the Instagram feed and, only if no post could be this
+# story, marks the record `discarded` (terminal; the story is never re-queued).
+# Without apply=true it is a dry run that changes nothing.
+on:
+  workflow_dispatch:
+    inputs:
+      content_id:
+        description: 'content_id of the publish_unknown record'
+        required: true
+      confirm_content_id:
+        description: 'Type the same content_id again to confirm'
+        required: true
+      reason:
+        description: 'Why (e.g. "checked Instagram, post not there")'
+        required: true
+      apply:
+        description: 'Write the discard (false = dry run)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: claude-lane
+  cancel-in-progress: false
+
+jobs:
+  discard:
+    if: github.actor == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 20
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Discard
+        env:
+          IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          IG_CLAUDE_USER_ID: '17841423605720355'
+          DISCARD_CONTENT_ID: ${{ inputs.content_id }}
+          DISCARD_CONFIRM: ${{ inputs.confirm_content_id }}
+          DISCARD_REASON: ${{ inputs.reason }}
+          DISCARD_APPLY: ${{ inputs.apply }}
+          DISCARD_DECIDED_BY: ${{ github.actor }}
+        run: |
+          git config user.name matrix24-claude-lane
+          git config user.email matrix24-claude-lane@users.noreply.github.com
+          node scripts/claude-lane/run-discard.mjs
