@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-saudi-coalition-strikes-82-houthi-targets",
+  "status": "draft",
+  "created_at": "2026-10-08T05:29:22Z",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi-led coalition says it destroyed 82 Houthi targets in Yemen after airport attacks",
+  "headline_es": "La coalición liderada por Arabia Saudí dice haber destruido 82 objetivos hutíes en Yemen",
+  "caption_en": "The Saudi-led coalition said it destroyed 82 Houthi military targets in Yemen's Saada, Hodeidah, Al-Jawf and Marib provinces, including 11 ballistic missile storage sites in Saada's mountains. Spokesman Turki al-Maliki presented the strikes as a response to Houthi attacks on Riyadh and Abha airports, which Saudi authorities say killed three people and injured 36.",
+  "caption_es": "La coalición liderada por Arabia Saudí afirmó haber destruido 82 objetivos militares hutíes en las provincias yemeníes de Saada, Hodeida, Al Yauf y Marib, entre ellos 11 depósitos de misiles balísticos en las montañas de Saada. Su portavoz, Turki al Maliki, presentó los ataques como respuesta a los ataques hutíes contra los aeropuertos de Riad y Abha, que según las autoridades saudíes dejaron tres muertos y 36 heridos.",
+  "source_urls": [
+    "https://gulfnews.com/world/gulf/saudi/escalation-in-yemen-saudi-led-forces-respond-to-houthi-assaults-on-civilian-airports-1.500702452",
+    "https://www.malaymail.com/news/world/2026/10/08/saudi-led-coalition-says-82-houthi-targets-destroyed-across-yemen/238164"
+  ],
+  "source_names": ["Gulf News", "Malay Mail (Bernama-Anadolu)"],
+  "hashtags": ["#MATRIX24", "#Yemen", "#ArabiaSaudí", "#Hutíes"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La coalición dice haber atacado depósitos de misiles, centros de mando y arsenales hutíes en cuatro provincias, tras los ataques contra los aeropuertos de Riad y Abha.",
+  "summary_en": "The coalition says it hit Houthi missile stores, command centres and weapons depots in four provinces after attacks on Riyadh and Abha airports.",
+  "highlight_es": "82 objetivos hutíes",
+  "highlight_en": "82 Houthi targets",
+  "visual_label": "Yemen",
+  "image_prompt": "Rugged arid mountain range at dusk with distant military jets crossing a hazy orange sky, empty desert valley below, wide cinematic view",
+  "map": {
+    "focus": ["Yemen", "Saudi Arabia"],
+    "marker": {"lat": 16.94, "lon": 43.76, "label": "Saada"},
+    "labels": {"Yemen": "Yemen", "Saudi Arabia": "Arabia Saudí"}
+  }
+}

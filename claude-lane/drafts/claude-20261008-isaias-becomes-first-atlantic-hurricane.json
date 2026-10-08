@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-isaias-becomes-first-atlantic-hurricane",
+  "status": "draft",
+  "created_at": "2026-10-08T05:29:22Z",
+  "category": "Climate",
+  "headline": "Isaias becomes the Atlantic season's first hurricane; warnings issued for US Gulf Coast",
+  "headline_es": "Isaías se convierte en el primer huracán del Atlántico; alertas en la costa del Golfo de EE.UU.",
+  "caption_en": "Isaias strengthened into a Category 1 hurricane in the Gulf late Wednesday, the first hurricane of the 2026 Atlantic season, with sustained winds of 75 mph. A hurricane warning now runs from Ocean Springs, Mississippi, to Florida's Bay/Gulf County line, and landfall on the northern Gulf Coast is possible late Friday or early Saturday, with storm surge and heavy rain expected.",
+  "caption_es": "Isaías se intensificó a huracán de categoría 1 en el golfo el miércoles por la noche, el primero de la temporada atlántica de 2026, con vientos sostenidos de 75 millas por hora. Hay aviso de huracán desde Ocean Springs, Misisipi, hasta el límite de los condados Bay y Gulf en Florida, y podría tocar tierra en la costa norte del golfo entre la noche del viernes y el sábado, con marejada ciclónica y lluvias intensas.",
+  "source_urls": [
+    "https://cbs12.com/news/local/hurricane-isaias-forms-in-the-gulf",
+    "https://weather.com/2026/10/08/storms/hurricane/tropical-storm-hurricane-isaias-gulf-coast-louisiana-florida"
+  ],
+  "source_names": ["CBS12", "The Weather Channel"],
+  "hashtags": ["#MATRIX24", "#Isaias", "#Huracán", "#Hurricane", "#Golfo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Con vientos de 75 millas por hora, Isaías avanza hacia la costa norte del golfo; hay aviso de huracán entre Misisipi y el oeste de Florida.",
+  "summary_en": "With 75 mph winds, Isaias is heading for the northern Gulf Coast; a hurricane warning covers Mississippi to the Florida Panhandle.",
+  "highlight_es": "primer huracán",
+  "highlight_en": "first hurricane",
+  "visual_label": "Isaías",
+  "image_prompt": "Satellite-style view of a well-formed hurricane spiral over a warm blue gulf approaching a low sandy coastline with palm trees, dramatic clouds, wide cinematic perspective",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 30.41, "lon": -88.83, "label": "Ocean Springs"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}
