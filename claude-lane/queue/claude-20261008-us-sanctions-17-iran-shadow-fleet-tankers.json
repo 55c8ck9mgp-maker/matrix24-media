@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-us-sanctions-17-iran-shadow-fleet-tankers",
+  "created_at": "2026-10-08T18:28:45Z",
+  "category": "Security / Geopolitics",
+  "headline": "US sanctions 17 tankers in push to shut down most of Iran's remaining shadow fleet",
+  "headline_es": "EE.UU. sanciona 17 petroleros para desmantelar casi toda la flota fantasma restante de Irán",
+  "caption_es": "El Tesoro de Estados Unidos impuso este jueves sanciones a 17 buques y a sus propietarios, a los que vincula con la flota fantasma de Irán, dentro de una campaña que denomina Operación Economic Outcast. Funcionarios estadounidenses afirmaron que la medida neutraliza la mayor parte de la flota fantasma que le queda a Irán, utilizada para transportar su petróleo.",
+  "caption_en": "The US Treasury on Thursday imposed sanctions on 17 vessels and their owners that it links to Iran's shadow fleet, under a campaign it calls Operation Economic Outcast. US officials said the action neutralizes most of Iran's remaining shadow fleet, which carries its oil.",
+  "source_urls": [
+    "https://theprint.in/world/us-imposes-fresh-sanctions-on-irans-shadow-fleet/3066137/",
+    "https://www.iranintl.com/en/202610085342"
+  ],
+  "source_names": [
+    "Reuters (via ThePrint)",
+    "Iran International"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#EEUU",
+    "#Iran",
+    "#Sanciones",
+    "#Petroleo"
+  ],
+  "summary_es": "Washington intensifica la presión económica sobre Teherán apuntando a los buques que transportan su crudo fuera de los canales oficiales.",
+  "summary_en": "Washington steps up economic pressure on Tehran by targeting the ships that carry its crude outside official channels.",
+  "highlight_es": "17 petroleros",
+  "highlight_en": "17 tankers",
+  "image_prompt": "Several large oil tankers anchored in a hazy grey sea at dawn, rust-streaked hulls, calm water, distant coastline, wide cinematic view",
+  "visual_label": "Flota fantasma",
+  "map": {
+    "focus": [
+      "Iran",
+      "United States of America"
+    ],
+    "labels": {
+      "Iran": "Irán",
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T20:26:34.542Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
