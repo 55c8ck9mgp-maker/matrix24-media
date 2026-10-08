@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-maradona-trial-prosecutors-seek-12-years",
+  "created_at": "2026-10-08T20:29:21Z",
+  "category": "Colombia / Latin America",
+  "headline": "Prosecutors seek up to 12 years in prison for Maradona's medical team",
+  "headline_es": "La fiscalía pide hasta 12 años de prisión para el equipo médico de Maradona",
+  "caption_es": "La fiscalía argentina pidió penas de hasta 12 años de prisión para los profesionales de la salud juzgados por la muerte de Diego Maradona en 2020. La pena más alta fue solicitada para su médico de cabecera, Leopoldo Luque. Siete acusados enfrentan cargos de homicidio con dolo eventual por presuntamente no haberle brindado la atención adecuada. Los alegatos continúan antes del veredicto.",
+  "caption_en": "Prosecutors in Argentina asked for prison sentences of up to 12 years for the health professionals on trial over the 2020 death of football legend Diego Maradona. The longest term was requested for his lead physician, Leopoldo Luque. Seven defendants face homicide charges with eventual intent for allegedly failing to give him proper care. Closing arguments continue before a verdict.",
+  "source_urls": [
+    "https://www.aljazeera.com/sports/2026/10/8/prosecutors-in-maradona-death-trial-seek-sentences-up-to-12-years",
+    "https://buenosairesherald.com/politics/judiciary/maradonas-death-prosecution-requests-12-year-sentence-for-lead-medical-advisor"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Buenos Aires Herald"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Maradona",
+    "#Argentina",
+    "#Fútbol"
+  ],
+  "summary_es": "En el juicio por la muerte de Maradona, la fiscalía pidió 12 años para el médico Leopoldo Luque. Siete acusados enfrentan cargos de homicidio con dolo eventual.",
+  "summary_en": "In the Maradona death trial, prosecutors asked for 12 years for physician Leopoldo Luque. Seven defendants face homicide charges with eventual intent.",
+  "highlight_es": "hasta 12 años",
+  "highlight_en": "up to 12 years",
+  "image_prompt": "Empty football stadium at dusk with a lone ball on the center spot, a stethoscope resting on the grass in the foreground, somber muted light, wide cinematic view",
+  "visual_label": "Juicio",
+  "map": {
+    "focus": [
+      "Argentina"
+    ],
+    "labels": {
+      "Argentina": "Argentina"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T21:50:03.564Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
