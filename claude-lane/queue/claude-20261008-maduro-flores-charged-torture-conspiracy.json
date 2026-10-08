@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-maduro-flores-charged-torture-conspiracy",
+  "created_at": "2026-10-08T19:37:32Z",
+  "category": "Colombia / Latin America",
+  "headline": "US charges Maduro and Cilia Flores with conspiracy to torture detainees in Venezuela",
+  "headline_es": "EE. UU. acusa a Maduro y a Cilia Flores de conspirar para torturar a detenidos en Venezuela",
+  "caption_es": "Fiscales federales de Manhattan revelaron una acusación ampliada que imputa al expresidente venezolano Nicolás Maduro y a su esposa, Cilia Flores, el delito de conspiración para cometer tortura. Según el documento, detenidos en cárceles venezolanas, entre ellos ciudadanos estadounidenses, sufrieron descargas eléctricas, asfixia y golpizas. Ese mismo día, el juez Alvin Hellerstein rechazó la solicitud de libertad de Flores. Ambos se habían declarado no culpables de cargos anteriores de narcotráfico.",
+  "caption_en": "Federal prosecutors in Manhattan unsealed a superseding indictment charging former Venezuelan President Nicolás Maduro and his wife, Cilia Flores, with conspiracy to commit torture. It alleges detainees, including US citizens, suffered electric shocks, asphyxiation and beatings in Venezuelan prisons. The same day, Judge Alvin Hellerstein denied Flores' request for release. Both had pleaded not guilty to earlier drug charges.",
+  "source_urls": [
+    "https://www.justice.gov/usao-sdny/pr/nicolas-maduro-moros-and-cilia-adela-flores-de-maduro-charged-torture",
+    "https://abc11.com/story/former-venezuelan-president-nicolas-maduro-wife-face-new-charges-alleged-torture/19921698/"
+  ],
+  "source_names": [
+    "US Attorney's Office, SDNY",
+    "ABC News (ABC11)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Venezuela",
+    "#Maduro",
+    "#EEUU"
+  ],
+  "summary_es": "Una acusación ampliada en Nueva York imputa a Maduro y a Cilia Flores conspiración para torturar a presos, incluidos estadounidenses. Un juez negó la libertad a Flores.",
+  "summary_en": "A superseding indictment in New York charges Maduro and Cilia Flores with conspiring to torture prisoners, including Americans. A judge denied Flores' release.",
+  "highlight_es": "conspirar para torturar",
+  "highlight_en": "conspiracy to torture",
+  "image_prompt": "Wooden judge's gavel resting on a stack of thick legal documents on a dark desk, dim courtroom benches blurred in the background, cool blue light, moody cinematic close-up",
+  "visual_label": "Manhattan",
+  "map": {
+    "focus": [
+      "Venezuela",
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 40.7128,
+      "lon": -74.006,
+      "label": "Nueva York"
+    },
+    "labels": {
+      "Venezuela": "Venezuela",
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T20:51:35.984Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
