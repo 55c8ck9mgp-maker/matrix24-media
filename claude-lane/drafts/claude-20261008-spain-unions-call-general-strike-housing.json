@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-spain-unions-call-general-strike-housing",
+  "status": "draft",
+  "created_at": "2026-10-08T00:33:48Z",
+  "category": "World",
+  "headline": "Spain's two largest unions call a general strike over housing for November 11",
+  "headline_es": "Los dos mayores sindicatos de España convocan una huelga general por la vivienda el 11 de noviembre",
+  "caption_en": "Spain's UGT and CCOO unions have called a nationwide general strike for November 11 over rising rents and evictions, the first both have jointly backed in 14 years. It comes weeks before the November 29 snap election called by Prime Minister Pedro Sánchez after parliament rejected decrees to curb evictions and cap rent rises. The Bank of Spain estimates a housing shortfall of about 750,000 homes.",
+  "caption_es": "Los sindicatos UGT y CCOO convocaron una huelga general en toda España para el 11 de noviembre por la subida de los alquileres y los desahucios, la primera que respaldan juntos en 14 años. Llega semanas antes de las elecciones anticipadas del 29 de noviembre, convocadas por el presidente del Gobierno, Pedro Sánchez, después de que el Parlamento rechazara decretos para frenar los desahucios y limitar las subidas de alquiler. El Banco de España calcula un déficit de unas 750.000 viviendas.",
+  "source_urls": [
+    "https://theprint.in/world/spanish-unions-call-general-strike-for-november-11-weeks-before-snap-election/3064934/",
+    "https://www.aljazeera.com/news/2026/10/7/spanish-unions-call-general-strike-over-housing-before-snap-election"
+  ],
+  "source_names": [
+    "ThePrint (Reuters)",
+    "Al Jazeera"
+  ],
+  "hashtags": ["#MATRIX24", "#España", "#Spain", "#Vivienda", "#HuelgaGeneral", "#WorldNews"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "UGT y CCOO llaman a una huelga general el 11 de noviembre por los alquileres y los desahucios, semanas antes de las elecciones anticipadas del 29 de noviembre.",
+  "summary_en": "UGT and CCOO call a November 11 general strike over rents and evictions, weeks before Spain's November 29 snap election.",
+  "highlight_es": "huelga general",
+  "highlight_en": "general strike",
+  "visual_label": "Vivienda",
+  "image_prompt": "Row of older Madrid-style apartment buildings with wrought-iron balconies and closed shutters at dusk, a quiet empty city street below, warm streetlights, sober wide cinematic view, no people, no text, no signs, no flags",
+  "map": {
+    "focus": ["Spain"],
+    "marker": {"lat": 40.42, "lon": -3.70, "label": "Madrid"},
+    "labels": {"Spain": "España"}
+  }
+}
