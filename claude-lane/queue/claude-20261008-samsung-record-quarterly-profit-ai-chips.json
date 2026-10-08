@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261008-samsung-record-quarterly-profit-ai-chips",
+  "created_at": "2026-10-08T03:25:04Z",
+  "category": "Economy",
+  "headline": "Samsung forecasts record quarterly profit of 107.4 trillion won on AI chip demand",
+  "headline_es": "Samsung prevé ganancia trimestral récord de 107,4 billones de wones por los chips de IA",
+  "caption_es": "Samsung Electronics estima su ganancia operativa de julio a septiembre en unos 107,4 billones de wones (cerca de 80.000 millones de dólares), un récord y casi nueve veces la de hace un año. Los ingresos rondarían los 195 billones de wones, un alza de alrededor del 127 %. Reuters vincula el salto al fuerte aumento de los precios de los chips de memoria impulsado por la demanda de IA; los resultados detallados se publicarán a finales de este mes.",
+  "caption_en": "Samsung Electronics estimates its July-September operating profit at about 107.4 trillion won (around $80 billion), a record and nearly nine times the level of a year earlier. Revenue is put at about 195 trillion won, up roughly 127%. Reuters links the jump to soaring memory chip prices driven by AI demand; detailed results are due later this month.",
+  "source_urls": [
+    "https://www.brecorder.com/news/40443235/samsung-flags-80-billion-profit-on-ai-boom-highest-quarterly-for-any-tech-company",
+    "https://www.koreaherald.com/article/10896336"
+  ],
+  "source_names": [
+    "Reuters (via Business Recorder)",
+    "The Korea Herald"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Samsung",
+    "#Economía",
+    "#IA",
+    "#Semiconductors"
+  ],
+  "summary_es": "Es la cuarta ganancia trimestral récord seguida de Samsung. La demanda de memoria para inteligencia artificial disparó los precios de los chips.",
+  "summary_en": "It is Samsung's fourth straight record quarterly profit, as AI-driven demand for memory chips sent prices sharply higher.",
+  "highlight_es": "ganancia trimestral récord",
+  "highlight_en": "record quarterly profit",
+  "image_prompt": "Close-up of a silicon wafer and memory chip modules on a clean-room workbench, soft blue and violet lighting, futuristic semiconductor factory blurred in the background, wide cinematic view",
+  "visual_label": "Chips de IA",
+  "map": {
+    "focus": [
+      "South Korea"
+    ],
+    "marker": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "label": "Seúl"
+    },
+    "labels": {
+      "South Korea": "Corea del Sur"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-08T04:21:33.768Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
