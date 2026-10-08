@@ -45,10 +45,10 @@
       "Yemen": "Yemen"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261008-explosions-heard-riyadh-houthi-missile-claim.jpg",
   "publish_attempt_id": "7e7a5039-8487-4959-a2ca-f6cc4b97a370",
-  "ig_media_id": null,
+  "ig_media_id": "18071911034489365",
   "history": [
     {
       "at": "2026-10-08T13:51:01.492Z",
@@ -64,8 +64,15 @@
       "at": "2026-10-08T13:51:39.992Z",
       "event": "reserved",
       "publish_attempt_id": "7e7a5039-8487-4959-a2ca-f6cc4b97a370"
+    },
+    {
+      "at": "2026-10-08T13:51:53.405Z",
+      "event": "published",
+      "publish_attempt_id": "7e7a5039-8487-4959-a2ca-f6cc4b97a370",
+      "ig_media_id": "18071911034489365"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-08T13:51:39.992Z"
+  "reserved_at": "2026-10-08T13:51:39.992Z",
+  "permalink": "https://www.instagram.com/p/DePFVQ4FScc/"
 }
