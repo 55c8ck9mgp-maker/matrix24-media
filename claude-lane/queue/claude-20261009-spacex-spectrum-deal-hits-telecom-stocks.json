@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-spacex-spectrum-deal-hits-telecom-stocks",
+  "created_at": "2026-10-09T12:37:30Z",
+  "category": "Technology",
+  "headline": "Telecom stocks slide in the US and Europe after SpaceX buys US low-band spectrum",
+  "headline_es": "Las acciones de telecomunicaciones caen tras la compra de espectro de SpaceX en EE. UU.",
+  "caption_es": "SpaceX acordó comprar a Grain Management su cartera nacional de espectro de banda baja de 800 MHz en Estados Unidos, un acuerdo que el Wall Street Journal valoró en unos 8.000 millones de dólares. Las frecuencias servirán para el servicio móvil directo al dispositivo de Starlink, y la operación necesita aprobación regulatoria. Las acciones de AT&T, Verizon y T-Mobile cayeron, y las telecos europeas también bajaron.",
+  "caption_en": "SpaceX agreed to buy Grain Management's nationwide 800 MHz low-band spectrum portfolio in the US, a deal the Wall Street Journal valued at about $8 billion. The airwaves are meant to support Starlink's direct-to-device mobile service, and the deal needs regulatory approval. Shares of AT&T, Verizon and T-Mobile fell, and European telecom stocks also dropped.",
+  "source_urls": [
+    "https://www.marketscreener.com/news/oil-relief-lifts-european-stocks-but-telecoms-tumble-on-spacex-s-us-spectrum-deal-ce785ddfd18df024",
+    "https://www.datacenterdynamics.com/en/news/spacex-to-acquire-grains-800mhz-spectrum-assets-to-further-advance-carrier-ambitions/",
+    "https://finimize.com/content/telecom-stocks-fell-as-spacex-bought-key-spectrum"
+  ],
+  "source_names": [
+    "Reuters (via MarketScreener)",
+    "DCD",
+    "Finimize"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#SpaceX",
+    "#Starlink",
+    "#Telecom",
+    "#Tecnología"
+  ],
+  "summary_es": "SpaceX compra espectro de 800 MHz en EE. UU. para Starlink, valorado en unos 8.000 millones de dólares según el WSJ; caen AT&T, Verizon, T-Mobile y telecos europeas.",
+  "summary_en": "SpaceX is buying nationwide US 800 MHz spectrum for Starlink, valued at about $8 billion per the WSJ; AT&T, Verizon, T-Mobile and European telecoms fell.",
+  "highlight_es": "acciones de telecomunicaciones caen",
+  "highlight_en": "Telecom stocks slide",
+  "image_prompt": "Communications satellite orbiting above Earth at night, thin beams of light reaching a cell tower on a hilltop below, city lights in the distance, cool blue tones, wide cinematic view",
+  "visual_label": "Espectro",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T18:53:14.146Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
