@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-apple-cuts-iphone-18-pro-orders",
+  "status": "draft",
+  "created_at": "2026-10-09T08:30:05Z",
+  "category": "Technology",
+  "headline": "Apple cuts iPhone 18 Pro component orders amid soft demand, Nikkei Asia reports",
+  "headline_es": "Apple recorta pedidos de componentes del iPhone 18 Pro por demanda débil, según Nikkei Asia",
+  "caption_en": "Apple has asked some suppliers to reduce production of components for the iPhone 18 Pro and Pro Max, Nikkei Asia reported, citing unnamed sources. October component orders were cut by at least 15% from original plans, with weaker demand and higher memory chip costs, which pushed prices up, cited as factors. According to the report, Apple has been more conservative on shipments since early September.",
+  "caption_es": "Apple pidió a algunos proveedores reducir la producción de componentes para el iPhone 18 Pro y el Pro Max, informó Nikkei Asia citando fuentes no identificadas. Los pedidos de componentes de octubre se recortaron al menos un 15% frente a lo previsto, y se señalan como factores una demanda más débil y el mayor costo de los chips de memoria, que elevó los precios. Según el informe, Apple se ha vuelto más prudente con los envíos desde principios de septiembre.",
+  "source_urls": [
+    "https://www.aol.com/articles/apple-cuts-iphone-18-pro-060531000.html",
+    "https://ng.investing.com/news/stock-market-news/apple-cuts-iphone18-pro-component-orders-amid-sluggish-demand-nikkei-2728518"
+  ],
+  "source_names": ["Reuters", "Investing.com"],
+  "hashtags": ["#MATRIX24", "#Apple", "#iPhone", "#Tecnología", "#Technology"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Los pedidos de componentes de octubre para el iPhone 18 Pro y Pro Max bajaron al menos un 15%, según Nikkei Asia, por una demanda más débil y el alto costo de la memoria.",
+  "summary_en": "October component orders for the iPhone 18 Pro and Pro Max were cut by at least 15%, Nikkei Asia reports, citing weaker demand and higher memory chip costs.",
+  "highlight_es": "iPhone 18 Pro",
+  "highlight_en": "iPhone 18 Pro",
+  "visual_label": "iPhone 18 Pro",
+  "image_prompt": "Modern electronics assembly line with rows of unbranded smartphone circuit boards and memory chips on conveyor belts, a few idle robotic arms, cool blue factory lighting, wide cinematic view, no logos, no text"
+}
