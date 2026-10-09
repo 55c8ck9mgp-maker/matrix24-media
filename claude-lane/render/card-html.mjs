@@ -35,6 +35,7 @@ header{position:absolute;top:36px;left:56px;right:56px;display:flex;justify-cont
 .logo{font:400 64px/0.9 Anton,Impact,sans-serif;letter-spacing:2px}.logo b{color:#e11d2a;font-weight:400}
 .logo small{display:block;font:600 18px Oswald,Arial;letter-spacing:12px;color:#fff;margin-top:8px;padding-top:6px;border-top:3px solid #e11d2a;width:300px;text-align:right}
 nav{font:500 15px Oswald,Arial;letter-spacing:5px;color:#c8d0e0;margin-top:14px}
+.brk{background:#e11d2a;color:#fff;font:700 22px Oswald,Arial;letter-spacing:3px;padding:10px 18px;margin-top:8px;text-transform:uppercase}
 .heads{position:absolute;top:150px;left:56px;width:${hasMap ? 560 : 968}px}
 .h-es{border-left:8px solid #e11d2a;padding-left:22px;font:400 ${esSize}px/1.02 Anton,Impact,sans-serif;text-transform:uppercase;text-shadow:0 3px 12px rgba(0,0,0,.6)}
 .h-en{margin-top:22px;border-left:8px solid #e11d2a;padding-left:22px;font:400 ${enSize}px/1.08 Anton,Impact,sans-serif;text-transform:uppercase;color:#f2f4f8}
@@ -51,7 +52,7 @@ footer .src{border-left:5px solid #e11d2a;padding-left:14px}footer .src span{col
 footer .brand{font:500 15px Oswald,Arial;letter-spacing:6px;border-bottom:3px solid #e11d2a;padding-bottom:6px}
 </style></head><body>
 <div class="bgimg"></div><div class="glow"></div>
-<header><div class="logo">MATRIX <b>24</b><small>GLOBAL</small></div>${hasMap ? '' : '<nav>NOTICIAS | ANÁLISIS | CONTEXTO GLOBAL</nav>'}</header>
+<header><div class="logo">MATRIX <b>24</b><small>GLOBAL</small></div>${r.breaking === true ? '<div class="brk">Última hora · Breaking</div>' : hasMap ? '' : '<nav>NOTICIAS | ANÁLISIS | CONTEXTO GLOBAL</nav>'}</header>
 <div class="heads"><div class="h-es">${highlight(es, r.highlight_es)}</div><div class="h-en">${highlight(r.headline, r.highlight_en)}</div></div>
 ${hasMap ? `<div class="map">${mapSvg}</div>` : ''}
 <div class="cat">${esc(r.category || 'World')}</div>

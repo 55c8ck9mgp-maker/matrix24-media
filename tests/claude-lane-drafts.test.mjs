@@ -48,10 +48,13 @@ test('breaking drafts are adopted first, oldest first within each group', () => 
   assert.deepEqual(ids, ['brk-old', 'brk-new', 'fake', 'old', 'mid']);
 });
 
-test('breaking flag is not copied into the queue record', () => {
+test('breaking flag is copied only when exactly true', () => {
   const r = adoptDraft(draft('b', { breaking: true }), NOW);
-  assert.equal(r.breaking, undefined);
+  assert.equal(r.breaking, true);
   assert.deepEqual(validateLaneRecord(r), []);
+  assert.equal(adoptDraft(draft('c', { breaking: 'yes' }), NOW).breaking, undefined);
+  assert.equal(adoptDraft(draft('d'), NOW).breaking, undefined);
+  assert.deepEqual(validateLaneRecord({ ...r, breaking: 'yes' }), ['BAD_BREAKING_FLAG']);
 });
 
 test('dry-run adopts a breaking draft ahead of an older normal draft', { skip }, async () => {

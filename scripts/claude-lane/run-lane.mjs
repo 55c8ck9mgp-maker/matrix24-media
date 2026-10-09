@@ -70,8 +70,8 @@ export function readBranchDrafts() {
 }
 
 // Breaking-news drafts (breaking: true, set by the research task) are adopted
-// before any other draft; within each group the oldest goes first. The flag only
-// orders adoption: it is not copied into the queue record and changes nothing else.
+// before any other draft; within each group the oldest goes first. The flag is
+// copied to the record only when exactly true; it drives the card's breaking badge.
 export function orderDrafts(drafts) {
   const rank = d => (d?.breaking === true ? 0 : 1);
   return [...drafts].sort((a, b) => rank(a) - rank(b) || String(a?.created_at).localeCompare(String(b?.created_at)));
@@ -82,6 +82,7 @@ export function adoptDraft(raw, now) {
   const keep = ['lane', 'content_id', 'created_at', 'category', 'headline', 'headline_es', 'caption_es', 'caption_en', 'source_urls', 'source_names', 'hashtags',
     'summary_es', 'summary_en', 'highlight_es', 'highlight_en', 'image_prompt', 'visual_label', 'map'];
   const rec = Object.fromEntries(keep.filter(k => raw?.[k] !== undefined).map(k => [k, raw[k]]));
+  if (raw?.breaking === true) rec.breaking = true;
   return { ...rec, status: 'draft', image_url: null, publish_attempt_id: null, ig_media_id: null,
     history: [{ at: now.toISOString(), event: 'adopted_from_drafts_branch' }] };
 }
