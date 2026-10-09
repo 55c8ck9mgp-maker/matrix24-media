@@ -41,9 +41,9 @@
       "Mexico": "México"
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261009-mazatlan-prison-riot-leaves-10-dead.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "f484d625-9153-4aff-8b7d-f65353935660",
   "ig_media_id": null,
   "history": [
     {
@@ -55,7 +55,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-09T07:51:18.380Z",
+      "event": "reserved",
+      "publish_attempt_id": "f484d625-9153-4aff-8b7d-f65353935660"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-09T07:51:18.380Z"
 }
