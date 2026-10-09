@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-ethiopia-tells-un-eritrea-invaded-tigray",
+  "status": "draft",
+  "created_at": "2026-10-09T15:42:45Z",
+  "category": "Security / Geopolitics",
+  "headline": "Ethiopia tells the UN it faces an 'all-out invasion' by Eritrea and must defend itself",
+  "headline_es": "Etiopía denuncia ante la ONU una 'invasión total' de Eritrea y dice que debe defenderse",
+  "caption_en": "Ethiopia has told the UN Security Council that Eritrean forces have pushed up to 60 km into its northern territory, describing it as an all-out invasion and saying it has no choice but to defend itself. Foreign Minister Gedion Timothewos demanded the troops' withdrawal. Eritrea rejects the accusations and denies backing the rebels fighting Ethiopian federal forces; the two neighbours have already severed diplomatic ties.",
+  "caption_es": "Etiopía comunicó al Consejo de Seguridad de la ONU que fuerzas eritreas han avanzado hasta 60 km en su territorio del norte, lo que describe como una invasión total, y afirmó que no tiene más opción que defenderse. El canciller Gedion Timothewos exigió la retirada de las tropas. Eritrea rechaza las acusaciones y niega apoyar a los rebeldes que combaten a las fuerzas federales etíopes; ambos vecinos ya rompieron relaciones diplomáticas.",
+  "source_urls": [
+    "https://aljazeera.com/news/2026/10/9/ethiopia-and-eritrea-accuse-one-another-of-launching-war",
+    "https://www.polity.org.za/article/ethiopia-says-it-must-defend-itself-against-eritreas-all-out-invasion-2026-10-09"
+  ],
+  "source_names": ["Al Jazeera", "Reuters (via Polity)"],
+  "hashtags": ["#MATRIX24", "#Ethiopia", "#Eritrea", "#Tigray", "#ONU"],
+  "summary_es": "Etiopía dice a la ONU que tropas eritreas avanzaron hasta 60 km en el norte del país y que debe defenderse. Eritrea rechaza las acusaciones.",
+  "summary_en": "Ethiopia tells the UN that Eritrean troops pushed up to 60 km into its north and that it must defend itself. Eritrea rejects the claims.",
+  "highlight_es": "invasión total",
+  "highlight_en": "all-out invasion",
+  "visual_label": "Tigray",
+  "image_prompt": "Dusty highland road winding through rugged mountains in the Horn of Africa at dusk, empty military supply trucks parked by the roadside, dramatic clouds, wide cinematic view",
+  "map": {
+    "focus": ["Ethiopia", "Eritrea"],
+    "marker": {"lat": 14.28, "lon": 39.46, "label": "Adigrat (Tigray)"},
+    "labels": {"Ethiopia": "Etiopía", "Eritrea": "Eritrea"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

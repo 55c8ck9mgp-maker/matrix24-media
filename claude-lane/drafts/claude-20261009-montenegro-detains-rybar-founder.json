@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-montenegro-detains-rybar-founder",
+  "status": "draft",
+  "created_at": "2026-10-09T15:42:45Z",
+  "category": "Security / Geopolitics",
+  "headline": "Montenegro detains founder of Russian pro-war Telegram channel Rybar",
+  "headline_es": "Montenegro detiene al fundador de Rybar, canal ruso de Telegram a favor de la guerra",
+  "caption_en": "Montenegrin police and security services detained Mikhail Zvinchuk, founder of the pro-Kremlin war blog Rybar, in the coastal town of Risan on Friday, along with his wife and three associates. Prime Minister Milojko Spajic confirmed the detention, saying Montenegro is protecting its interests. Rybar has more than 1.5 million Telegram followers, and the US has offered up to $10 million for information on its activities.",
+  "caption_es": "La policía y los servicios de seguridad de Montenegro detuvieron el viernes en la localidad costera de Risan a Mijaíl Zvinchuk, fundador del blog bélico prorruso Rybar, junto con su esposa y tres colaboradores. El primer ministro Milojko Spajic confirmó la detención y dijo que Montenegro protege sus intereses. Rybar tiene más de 1,5 millones de seguidores en Telegram, y EE. UU. ofrece hasta 10 millones de dólares por información sobre sus actividades.",
+  "source_urls": [
+    "https://kyivindependent.com/founder-of-russian-war-propaganda-channel-rybar-detained-in-montenegro/",
+    "https://www.themoscowtimes.com/2026/10/09/montenegro-arrests-founder-of-influential-russian-pro-war-blog-rybar-a93929"
+  ],
+  "source_names": ["The Kyiv Independent", "The Moscow Times"],
+  "hashtags": ["#MATRIX24", "#Montenegro", "#Russia", "#Rybar", "#Desinformación"],
+  "summary_es": "Montenegro detuvo en Risan a Mijaíl Zvinchuk, fundador del canal prorruso Rybar, junto con su esposa y tres colaboradores.",
+  "summary_en": "Montenegro detained Mikhail Zvinchuk, founder of the pro-Kremlin channel Rybar, in Risan along with his wife and three associates.",
+  "highlight_es": "Rybar",
+  "highlight_en": "Rybar",
+  "visual_label": "Bahía de Kotor",
+  "image_prompt": "Quiet stone town on the shore of a fjord-like Adriatic bay surrounded by steep mountains, a police car parked near a seaside hotel, smartphone glowing on a café table in the foreground, overcast morning, wide cinematic view",
+  "map": {
+    "focus": ["Montenegro"],
+    "marker": {"lat": 42.515, "lon": 18.695, "label": "Risan"},
+    "labels": {"Montenegro": "Montenegro"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
