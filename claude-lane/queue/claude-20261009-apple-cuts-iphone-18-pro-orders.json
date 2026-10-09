@@ -28,7 +28,7 @@
   "highlight_en": "iPhone 18 Pro",
   "image_prompt": "Modern electronics assembly line with rows of unbranded smartphone circuit boards and memory chips on conveyor belts, a few idle robotic arms, cool blue factory lighting, wide cinematic view, no logos, no text",
   "visual_label": "iPhone 18 Pro",
-  "status": "publish_unknown",
+  "status": "discarded",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261009-apple-cuts-iphone-18-pro-orders.jpg",
   "publish_attempt_id": "7a04764a-00c8-43f2-b2c6-f4e6de70382b",
   "ig_media_id": null,
@@ -53,6 +53,15 @@
       "event": "publish_unknown",
       "publish_attempt_id": "7a04764a-00c8-43f2-b2c6-f4e6de70382b",
       "reason": "publish_http_400_code_9007_sub_2207027"
+    },
+    {
+      "at": "2026-10-09T16:34:29.749Z",
+      "event": "owner_discard",
+      "publish_attempt_id": "7a04764a-00c8-43f2-b2c6-f4e6de70382b",
+      "decided_by": "55c8ck9mgp-maker",
+      "feed_checked": 100,
+      "feed_matches": 0,
+      "reason": "error 9007, no publicado"
     }
   ],
   "ai_illustration": true,
