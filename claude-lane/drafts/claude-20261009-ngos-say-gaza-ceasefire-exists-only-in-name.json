@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-ngos-say-gaza-ceasefire-exists-only-in-name",
+  "status": "draft",
+  "created_at": "2026-10-09T21:23:26Z",
+  "category": "World",
+  "headline": "Over 100 aid and rights groups say Gaza's ceasefire exists only in name, a year on",
+  "headline_es": "Más de 100 ONG afirman que el alto el fuego en Gaza solo existe de nombre, un año después",
+  "caption_en": "More than 100 humanitarian and human rights organisations, including Amnesty International, Save the Children and the Norwegian Refugee Council, said on Friday that the Gaza ceasefire exists only on paper one year after it was agreed. Their joint statement says more than 1,400 Palestinians, including over 300 children, have been killed since then. The groups called for unimpeded aid access, support for reconstruction and accountability.",
+  "caption_es": "Más de 100 organizaciones humanitarias y de derechos humanos, entre ellas Amnistía Internacional, Save the Children y el Consejo Noruego para Refugiados, afirmaron el viernes que el alto el fuego en Gaza solo existe sobre el papel un año después de su acuerdo. Su declaración conjunta indica que más de 1.400 palestinos, entre ellos más de 300 niños, han muerto desde entonces. Los grupos pidieron acceso sin trabas a la ayuda, apoyo a la reconstrucción y rendición de cuentas.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/9/gaza-ceasefire-exists-in-name-only-more-than-100-ngos-say",
+    "https://www.trtworld.com/article/47e17b923f92"
+  ],
+  "source_names": ["Al Jazeera", "TRT World"],
+  "hashtags": ["#MATRIX24", "#Gaza", "#AltoElFuego", "#Ceasefire", "#WorldNews"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Un año después del alto el fuego, más de 100 ONG denuncian que más de 1.400 palestinos, entre ellos más de 300 niños, han muerto en Gaza y piden acceso pleno a la ayuda.",
+  "summary_en": "A year into the ceasefire, over 100 NGOs say more than 1,400 Palestinians, including over 300 children, have been killed in Gaza and call for full aid access.",
+  "highlight_es": "solo existe de nombre",
+  "highlight_en": "exists only in name",
+  "visual_label": "Gaza",
+  "image_prompt": "Empty coastal street lined with heavily damaged concrete buildings under a pale dusty sky, a row of white humanitarian aid trucks parked in the distance, the Mediterranean sea faintly visible on the horizon, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Palestine", "Israel"],
+    "marker": {"lat": 31.5, "lon": 34.45, "label": "Gaza"},
+    "labels": {"Palestine": "Palestina", "Israel": "Israel"}
+  }
+}
