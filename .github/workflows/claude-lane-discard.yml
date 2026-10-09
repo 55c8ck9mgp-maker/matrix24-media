@@ -42,6 +42,13 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
+      # Read the newest main, never the checkout's snapshot: a discard decided
+      # on a stale view (not_found / status_discarded seen 2026-10-09) must not happen.
+      - name: Sync to latest main
+        run: |
+          git fetch --depth 50 origin main
+          git reset --hard origin/main
+          echo "discard reads main at $(git rev-parse --short HEAD)"
       - name: Discard
         env:
           IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
