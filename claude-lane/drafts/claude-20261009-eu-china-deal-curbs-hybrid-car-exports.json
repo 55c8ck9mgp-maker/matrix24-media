@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-eu-china-deal-curbs-hybrid-car-exports",
+  "status": "draft",
+  "created_at": "2026-10-09T14:30:19Z",
+  "category": "Economy",
+  "headline": "EU and China reach preliminary deal that could halve Chinese hybrid car exports to Europe",
+  "headline_es": "UE y China logran un acuerdo preliminar que podría reducir a la mitad la venta de híbridos chinos",
+  "caption_en": "The European Union and China reached a preliminary agreement on trade in hybrid vehicles and some raw materials, EU Trade Commissioner Maros Sefcovic announced in Beijing on Friday. Sefcovic said the deal could cut Chinese exports of these vehicles to the EU by more than half. The understanding is not final: EU leaders still have to review and approve it.",
+  "caption_es": "La Unión Europea y China alcanzaron un acuerdo preliminar sobre el comercio de vehículos híbridos y algunas materias primas, anunció el viernes en Pekín el comisario europeo de Comercio, Maros Sefcovic. Según Sefcovic, el pacto podría reducir en más de la mitad las exportaciones chinas de estos vehículos a la UE. El entendimiento no es definitivo: los líderes de la UE aún deben revisarlo y aprobarlo.",
+  "summary_es": "El comisario Maros Sefcovic dijo en Pekín que el pacto podría recortar en más de la mitad las exportaciones chinas de híbridos a la UE. Falta el visto bueno de los líderes europeos.",
+  "summary_en": "Commissioner Maros Sefcovic said in Beijing the deal could cut Chinese hybrid exports to the EU by more than half. EU leaders still have to approve it.",
+  "highlight_es": "a la mitad",
+  "highlight_en": "halve",
+  "visual_label": "Híbridos",
+  "image_prompt": "Rows of new generic hybrid cars parked at a large seaport terminal waiting to be loaded onto a car carrier ship, cranes and containers in the background, overcast sky, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["China"],
+    "marker": {"lat": 39.90, "lon": 116.40, "label": "Pekín"},
+    "labels": {"China": "China"}
+  },
+  "source_urls": [
+    "https://www.euronews.com/2026/10/09/eu-and-china-clinch-deal-over-cars-after-heated-trade-talks-as-brussels-pushes-to-rebalanc",
+    "https://cphpost.dk/2026-10-09/global/eu-and-china-reach-preliminary-trade-agreement-on-hybrid-cars-and-raw-materials/"
+  ],
+  "source_names": ["Euronews", "The Copenhagen Post (Ritzau)"],
+  "hashtags": ["#MATRIX24", "#EU", "#China", "#Trade", "#Comercio"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

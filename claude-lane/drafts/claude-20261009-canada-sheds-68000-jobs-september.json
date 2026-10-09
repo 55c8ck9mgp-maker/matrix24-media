@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-canada-sheds-68000-jobs-september",
+  "status": "draft",
+  "created_at": "2026-10-09T14:30:19Z",
+  "category": "Economy",
+  "headline": "Canada loses 68,000 jobs in September as unemployment rises to 6.5%",
+  "headline_es": "Canadá pierde 68.000 empleos en septiembre y el desempleo sube al 6,5%",
+  "caption_en": "Canada's economy shed about 68,000 jobs in September, its second straight monthly decline, and the unemployment rate rose to 6.5% from 6.4%, Statistics Canada data showed. Losses were led by educational services and health care and social assistance, while manufacturing lost about 13,000 jobs. The labour force participation rate fell to 64.8%, and employment among young people aged 15 to 24 dropped by 48,000.",
+  "caption_es": "La economía de Canadá perdió unos 68.000 empleos en septiembre, su segundo descenso mensual consecutivo, y la tasa de desempleo subió del 6,4% al 6,5%, según datos de Estadísticas Canadá. Las mayores pérdidas se dieron en servicios educativos y en salud y asistencia social, mientras que la manufactura perdió unos 13.000 puestos. La tasa de participación laboral cayó al 64,8% y el empleo de jóvenes de 15 a 24 años bajó en 48.000.",
+  "summary_es": "Segundo mes seguido de pérdidas de empleo. Educación y salud encabezaron los recortes; la participación laboral cayó al 64,8%.",
+  "summary_en": "A second straight month of job losses. Education and health care led the declines; labour force participation fell to 64.8%.",
+  "highlight_es": "68.000 empleos",
+  "highlight_en": "68,000 jobs",
+  "visual_label": "Empleo",
+  "image_prompt": "Empty office desks and chairs in a quiet open-plan workspace with large windows overlooking a snowy Canadian city skyline at dusk, muted cool tones, wide view, no people, no text",
+  "map": {
+    "focus": ["Canada"],
+    "marker": {"lat": 45.42, "lon": -75.70, "label": "Ottawa"},
+    "labels": {"Canada": "Canadá"}
+  },
+  "source_urls": [
+    "https://www.bnnbloomberg.ca/business/economics/2026/10/09/canadas-employment-surprisingly-shrinks-in-september-jobless-rate-inches-up/",
+    "https://www.hrreporter.com/focus-areas/recruitment-and-staffing/canada-loses-68000-jobs-in-september/394999"
+  ],
+  "source_names": ["Reuters (via BNN Bloomberg)", "Canadian HR Reporter"],
+  "hashtags": ["#MATRIX24", "#Canada", "#Canadá", "#Economy", "#Empleo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
