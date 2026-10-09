@@ -68,14 +68,23 @@
       "at": "2026-10-09T18:56:11.676Z",
       "event": "facebook_reserved",
       "facebook_attempt_id": "cc6d149c-7500-48c5-8916-0881d007f1ee"
+    },
+    {
+      "at": "2026-10-09T18:56:18.488Z",
+      "event": "facebook_published",
+      "facebook_attempt_id": "cc6d149c-7500-48c5-8916-0881d007f1ee",
+      "facebook_post_id": "1300936266441859_122118531045477315"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-09T18:53:53.409Z",
   "permalink": "https://www.instagram.com/p/DeSMtn-lPms/",
   "facebook": {
-    "status": "publishing",
+    "status": "published",
     "attempt_id": "cc6d149c-7500-48c5-8916-0881d007f1ee",
-    "reserved_at": "2026-10-09T18:56:11.676Z"
+    "reserved_at": "2026-10-09T18:56:11.676Z",
+    "post_id": "1300936266441859_122118531045477315",
+    "photo_id": "122118531021477315",
+    "published_at": "2026-10-09T18:56:18.488Z"
   }
 }
