@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-navi-pillay-wins-nobel-peace-prize",
+  "status": "draft",
+  "created_at": "2026-10-09T10:31:00Z",
+  "category": "World",
+  "headline": "South African jurist Navi Pillay wins the 2026 Nobel Peace Prize",
+  "headline_es": "La jurista sudafricana Navi Pillay gana el Premio Nobel de la Paz 2026",
+  "caption_en": "The Norwegian Nobel Committee awarded the 2026 Nobel Peace Prize on Friday to Navanethem \"Navi\" Pillay, 85, for her work to advance peace and international law. The South African jurist is a former UN human rights chief and has served as a judge at the International Criminal Court. The committee received 287 nominations this year.",
+  "caption_es": "El Comité Noruego del Nobel otorgó el viernes el Premio Nobel de la Paz 2026 a Navanethem \"Navi\" Pillay, de 85 años, por su labor en favor de la paz y el derecho internacional. La jurista sudafricana fue alta comisionada de la ONU para los derechos humanos y ha sido jueza de la Corte Penal Internacional. El comité recibió 287 candidaturas este año.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay",
+    "https://www.cbsnews.com/news/nobel-peace-prize-2026-navanethem-navi-pillay-south-africa/"
+  ],
+  "source_names": ["Al Jazeera", "CBS News"],
+  "hashtags": ["#MATRIX24", "#NobelPeacePrize", "#PremioNobel", "#NaviPillay", "#WorldNews"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Navi Pillay, de 85 años, ex alta comisionada de la ONU para los derechos humanos y ex jueza de la CPI, fue premiada por su labor en favor de la paz y el derecho internacional.",
+  "summary_en": "Navi Pillay, 85, a former UN human rights chief and ICC judge, was honored for her work to advance peace and international law.",
+  "highlight_es": "Premio Nobel de la Paz",
+  "highlight_en": "Nobel Peace Prize",
+  "visual_label": "Nobel de la Paz",
+  "image_prompt": "Golden medal resting on an open law book beside a wooden judge's gavel and balanced brass scales of justice, soft warm light in a quiet wood-panelled hall, shallow depth of field, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["South Africa"],
+    "labels": {"South Africa": "Sudáfrica"}
+  }
+}
