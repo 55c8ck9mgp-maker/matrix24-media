@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-brussels-austerity-march-clashes",
+  "created_at": "2026-10-09T11:34:21Z",
+  "category": "World",
+  "headline": "Clashes erupt near Brussels central station as thousands march against austerity",
+  "headline_es": "Disturbios junto a la estación central de Bruselas en una marcha contra la austeridad",
+  "caption_es": "Miles de personas marcharon el viernes en Bruselas contra los recortes presupuestarios del Gobierno belga en una jornada nacional de protesta sindical. Cerca de la estación central, jóvenes encapuchados y vestidos de negro lanzaron piedras y petardos contra la policía, que respondió con gases lacrimógenos y cañones de agua, y se incendiaron bicicletas compartidas. El transporte público de la ciudad sufrió interrupciones.",
+  "caption_en": "Thousands of people marched in Brussels on Friday against the Belgian government's budget cuts in a national day of union action. Near the central station, masked youths dressed in black threw stones and fireworks at police, who responded with tear gas and water cannon, and shared bikes were set on fire. Public transport across the city was disrupted.",
+  "source_urls": [
+    "https://infonews.ca/news/7950102/police-and-masked-protesters-clash-in-brussels-as-anti-austerity-rally-disrupts-city/",
+    "https://www.lavenir.net/regions/bruxelles/2026/10/09/manif-nationale-du-9-octobre-en-belgique-climat-demeutes-pres-de-la-gare-centrale-a-bruxelles-paves-feux-dartifice-canon-a-eau-et-lacrymo-IQ53FPCDUNAAJFXTGJTNMESRUE/"
+  ],
+  "source_names": [
+    "Associated Press (via iNFOnews)",
+    "Belga (via L'Avenir)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brussels",
+    "#Bruselas",
+    "#Belgium",
+    "#Austerity"
+  ],
+  "summary_es": "La policía usó gases lacrimógenos y cañones de agua contra jóvenes encapuchados junto a la estación central durante una jornada sindical contra los recortes.",
+  "summary_en": "Police used tear gas and water cannon against masked youths near the central station during a union day of action against budget cuts.",
+  "highlight_es": "Bruselas",
+  "highlight_en": "Brussels",
+  "image_prompt": "Empty European city boulevard near a grand stone railway station on a grey overcast day, wet cobblestones, a stopped tram and scattered blank placards on the pavement, faint haze in the air, wide cinematic view, no people, no text, no logos, no flags",
+  "visual_label": "Bruselas",
+  "map": {
+    "focus": [
+      "Belgium"
+    ],
+    "marker": {
+      "lat": 50.8453,
+      "lon": 4.3571,
+      "label": "Bruselas"
+    },
+    "labels": {
+      "Belgium": "Bélgica"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T17:18:51.693Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
