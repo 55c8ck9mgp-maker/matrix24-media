@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-us-sanctions-international-criminal-court",
+  "status": "draft",
+  "created_at": "2026-10-09T16:29:18Z",
+  "category": "Security / Geopolitics",
+  "headline": "US sanctions the International Criminal Court itself, banning transactions with the tribunal",
+  "headline_es": "EE. UU. sanciona a la Corte Penal Internacional y prohíbe las transacciones con el tribunal",
+  "caption_en": "US Secretary of State Marco Rubio announced on Friday sanctions targeting the International Criminal Court as an institution, banning transactions with the court in a move that goes beyond earlier sanctions on its judges and prosecutors. Washington cited the court's arrest warrants for Israeli leaders and its probe in Afghanistan. The ICC said its work will continue; the step came hours after former ICC judge Navi Pillay won the Nobel Peace Prize.",
+  "caption_es": "El secretario de Estado de EE. UU., Marco Rubio, anunció el viernes sanciones contra la Corte Penal Internacional como institución, prohibiendo las transacciones con el tribunal, un paso que va más allá de las sanciones previas a sus jueces y fiscales. Washington citó las órdenes de arresto de la corte contra dirigentes israelíes y su investigación en Afganistán. La CPI afirmó que su trabajo continuará; la medida llegó horas después de que la exjueza de la CPI Navi Pillay ganara el Nobel de la Paz.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation",
+    "https://www.middleeasteye.net/news/us-sanctions-international-criminal-court-major-escalation-after-former-judge-awarded-nobel",
+    "https://www.cnbcafrica.com/2026/us-imposes-sanctions-on-international-criminal-court-hours-after-former-judge-wins-nobel"
+  ],
+  "source_names": ["Al Jazeera", "Middle East Eye", "Reuters (via CNBC Africa)"],
+  "hashtags": ["#MATRIX24", "#ICC", "#CPI", "#Sanctions", "#Sanciones"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Rubio anunció que EE. UU. prohíbe las transacciones con la CPI como institución. La corte dice que seguirá trabajando.",
+  "summary_en": "Rubio said the US is banning transactions with the ICC as an institution. The court says its work will go on.",
+  "highlight_es": "Corte Penal Internacional",
+  "highlight_en": "International Criminal Court",
+  "visual_label": "CPI",
+  "image_prompt": "Modern international courthouse building with glass facade at dusk in a European city, empty plaza in front, scales of justice sculpture in the foreground, heavy padlock and chain on a closed metal gate, wide cinematic view, muted blue tones",
+  "map": {
+    "focus": ["Netherlands", "United States of America"],
+    "marker": {"lat": 52.07, "lon": 4.30, "label": "La Haya"},
+    "labels": {"Netherlands": "Países Bajos", "United States of America": "Estados Unidos"}
+  }
+}
