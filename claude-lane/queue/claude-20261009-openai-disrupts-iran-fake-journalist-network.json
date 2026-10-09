@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-openai-disrupts-iran-fake-journalist-network",
+  "created_at": "2026-10-09T03:30:28Z",
+  "category": "Technology",
+  "headline": "OpenAI says Iran-linked network used fake journalists to place US-Iran war articles",
+  "headline_es": "OpenAI dice que una red vinculada a Irán usó periodistas falsos sobre la guerra",
+  "caption_es": "OpenAI afirma que desarticuló una operación de influencia originada en Irán que usó al menos siete perfiles de periodistas ficticios para ofrecer artículos sobre la guerra entre Estados Unidos e Irán. Casi 100 textos se publicaron o redistribuyeron en una docena de medios, en su mayoría pequeños y medianos. Los operadores usaron ChatGPT para ayudar a redactar contenido, y su actividad en redes sociales tuvo poca interacción.",
+  "caption_en": "OpenAI says it disrupted an influence operation originating in Iran that used at least seven fictitious journalist personas to pitch articles about the US-Iran war. Nearly 100 pieces were published or syndicated across about a dozen mostly small and mid-sized outlets. The operators used ChatGPT to help write content, and their social media activity drew little engagement.",
+  "source_urls": [
+    "https://www.aljazeera.com/amp/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait?update=5029824",
+    "https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "CyberScoop"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#OpenAI",
+    "#Desinformación",
+    "#Irán",
+    "#Tech"
+  ],
+  "summary_es": "Una red con origen en Irán usó siete periodistas ficticios y ChatGPT para colocar casi 100 artículos sobre la guerra en una docena de medios.",
+  "summary_en": "An Iran-origin network used seven fake journalist personas and ChatGPT to place nearly 100 war articles in about a dozen outlets.",
+  "highlight_es": "periodistas falsos",
+  "highlight_en": "fake journalists",
+  "image_prompt": "Dark desk with several laptops and a stack of printed newspapers, screens glowing with blurred abstract article layouts, empty office chairs, blue and amber light, moody cinematic view, no people, no readable text, no logos",
+  "visual_label": "Desinformación",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "labels": {
+      "Iran": "Irán"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T03:51:20.566Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
