@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
-import { adoptDraft, produce } from '../scripts/claude-lane/run-lane.mjs';
+import { adoptDraft, orderDrafts, produce } from '../scripts/claude-lane/run-lane.mjs';
 import { validateLaneRecord } from '../scripts/claude-lane/lane-record.mjs';
 
 const NOW = new Date('2026-10-06T16:00:00Z');
@@ -35,4 +35,26 @@ test('already adopted, stale or backlog drafts are not adopted', async () => {
   assert.equal(stale.rejected[0].errs[0], 'STALE_DRAFT');
   assert.equal((await produce(store([{ ...draft('q'), status: 'ready_to_publish', image_url: 'https://x/a.jpg' }]), NOW, [draft('b')])).outcome, 'backlog_present');
   assert.equal((await produce(store(), NOW, [])).outcome, 'no_drafts');
+});
+
+test('breaking drafts are adopted first, oldest first within each group', () => {
+  const ids = orderDrafts([
+    draft('old', { created_at: '2026-10-06T14:00:00Z' }),
+    draft('brk-new', { created_at: '2026-10-06T15:50:00Z', breaking: true }),
+    draft('mid', { created_at: '2026-10-06T15:00:00Z' }),
+    draft('brk-old', { created_at: '2026-10-06T15:40:00Z', breaking: true }),
+    draft('fake', { created_at: '2026-10-06T13:00:00Z', breaking: 'yes' }),
+  ]).map(d => d.content_id.split('-').slice(2).join('-'));
+  assert.deepEqual(ids, ['brk-old', 'brk-new', 'fake', 'old', 'mid']);
+});
+
+test('breaking flag is not copied into the queue record', () => {
+  const r = adoptDraft(draft('b', { breaking: true }), NOW);
+  assert.equal(r.breaking, undefined);
+  assert.deepEqual(validateLaneRecord(r), []);
+});
+
+test('dry-run adopts a breaking draft ahead of an older normal draft', { skip }, async () => {
+  const r = await produce(store(), NOW, [draft('normal', { created_at: '2026-10-06T14:00:00Z' }), draft('urgent', { breaking: true })]);
+  assert.equal(r.outcome, 'would_create'); assert.equal(r.content_id, 'claude-20261006-urgent');
 });
