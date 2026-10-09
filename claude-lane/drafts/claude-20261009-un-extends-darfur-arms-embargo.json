@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-un-extends-darfur-arms-embargo",
+  "status": "draft",
+  "created_at": "2026-10-09T03:30:28Z",
+  "category": "World",
+  "headline": "UN Security Council extends Darfur arms embargo but blocks a Sudan-wide ban",
+  "headline_es": "La ONU prorroga el embargo de armas a Darfur pero bloquea una prohibición en todo Sudán",
+  "caption_en": "The 15-member UN Security Council unanimously voted on Thursday to extend the arms embargo on Sudan's Darfur region by two months, until December 11. The United States had pushed to expand the embargo to all of Sudan, but veto-holding Russia and China opposed the broader measure and argued for keeping the existing sanctions regime. Negotiations on the US proposal continue.",
+  "caption_es": "Los 15 miembros del Consejo de Seguridad de la ONU votaron por unanimidad el jueves prorrogar dos meses, hasta el 11 de diciembre, el embargo de armas a la región sudanesa de Darfur. Estados Unidos impulsaba extender el embargo a todo Sudán, pero Rusia y China, que tienen derecho de veto, se opusieron a la medida más amplia y defendieron mantener el régimen de sanciones vigente. Las negociaciones sobre la propuesta estadounidense continúan.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/9/un-extends-darfur-arms-embargo-blocks-broader-sudan-sanctions-proposal",
+    "https://www.arabnews.com/middle-east/un-extends-darfur-arms-embargo-by-two-months-3005360",
+    "https://www.thenationalnews.com/news/us/2026/10/08/un-sudan-arms-embargo/"
+  ],
+  "source_names": ["Al Jazeera", "Arab News (AFP)", "The National"],
+  "hashtags": ["#MATRIX24", "#Sudán", "#Darfur", "#ONU", "#WorldNews"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El Consejo de Seguridad prorrogó por unanimidad el embargo a Darfur hasta el 11 de diciembre; Rusia y China frenaron la propuesta de EE.UU. de ampliarlo a todo Sudán.",
+  "summary_en": "The Security Council unanimously extended the Darfur embargo to December 11; Russia and China blocked a US bid to widen it to all of Sudan.",
+  "highlight_es": "embargo de armas a Darfur",
+  "highlight_en": "Darfur arms embargo",
+  "visual_label": "Darfur",
+  "image_prompt": "Vast arid Sahel desert landscape with a lonely dirt road and scattered acacia trees under a hazy orange sky, empty wooden supply crates sealed with chains in the foreground, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": ["Sudan"],
+    "marker": {"lat": 13.63, "lon": 25.35, "label": "Darfur"},
+    "labels": {"Sudan": "Sudán"}
+  }
+}
