@@ -29,19 +29,43 @@ def font(bold, size):
     raise SystemExit('FONT_MISSING: install fonts-dejavu-core')
 
 
-def fit_lines(draw, text, bold, max_w, max_lines, start, floor):
-    """Largest font size whose wrapped text fits max_w within max_lines."""
-    for size in range(start, floor - 1, -2):
-        f = font(bold, size)
-        avg = draw.textlength('abcdefghijklmnopqrstuvwxyz', font=f) / 26
-        width_chars = max(8, int(max_w / avg))
-        lines = textwrap.wrap(text, width=width_chars)
-        if len(lines) <= max_lines and all(draw.textlength(l, font=f) <= max_w for l in lines):
-            return f, lines
+def _wrap_at(draw, text, bold, max_w, max_lines, size):
+    """Lines of text at one font size, or None if they do not fit."""
+    f = font(bold, size)
+    avg = draw.textlength('abcdefghijklmnopqrstuvwxyz', font=f) / 26
+    width_chars = max(8, int(max_w / avg))
+    lines = textwrap.wrap(text, width=width_chars)
+    if len(lines) <= max_lines and all(draw.textlength(l, font=f) <= max_w for l in lines):
+        return lines
+    return None
+
+
+def _fallback(draw, text, bold, max_w, max_lines, floor):
     f = font(bold, floor)
     lines = textwrap.wrap(text, width=int(max_w / (draw.textlength('a', font=f) or 1)))[:max_lines]
     lines[-1] = lines[-1].rstrip(' .,;:') + '…'
     return f, lines
+
+
+def fit_lines(draw, text, bold, max_w, max_lines, start, floor):
+    """Largest font size whose wrapped text fits max_w within max_lines."""
+    for size in range(start, floor - 1, -2):
+        lines = _wrap_at(draw, text, bold, max_w, max_lines, size)
+        if lines is not None:
+            return font(bold, size), lines
+    return _fallback(draw, text, bold, max_w, max_lines, floor)
+
+
+def fit_pair(draw, a_text, a_bold, a_lines, b_text, b_bold, b_lines, max_w, start, floor):
+    """One shared font size for two headlines (Spanish and English), so both
+    blocks render at the same size. Returns (size, (a_font, a_lines), (b_font, b_lines))."""
+    for size in range(start, floor - 1, -2):
+        a = _wrap_at(draw, a_text, a_bold, max_w, a_lines, size)
+        b = _wrap_at(draw, b_text, b_bold, max_w, b_lines, size)
+        if a is not None and b is not None:
+            return size, (font(a_bold, size), a), (font(b_bold, size), b)
+    return floor, _fallback(draw, a_text, a_bold, max_w, a_lines, floor), \
+        _fallback(draw, b_text, b_bold, max_w, b_lines, floor)
 
 
 def render(record, out_path):
@@ -72,14 +96,14 @@ def render(record, out_path):
     d.text((m + 18, 308), cat, font=cf, fill=WHITE)
 
     es = record.get('headline_es') or record['headline']
-    hf, hl = fit_lines(d, es.upper(), True, W - 2 * m, 6, 84, 44)
+    _, (hf, hl), (ef, el) = fit_pair(d, es.upper(), True, 6, record['headline'], True, 4,
+                                     W - 2 * m, 84, 28)
     y = 380
     for line in hl:
         d.text((m, y), line, font=hf, fill=WHITE)
         y += int(hf.size * 1.15)
 
     y += 30
-    ef, el = fit_lines(d, record['headline'], False, W - 2 * m, 4, 40, 28)
     for line in el:
         d.text((m, y), line, font=ef, fill=YELLOW)
         y += int(ef.size * 1.25)
