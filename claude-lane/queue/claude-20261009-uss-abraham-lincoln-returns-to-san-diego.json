@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-uss-abraham-lincoln-returns-to-san-diego",
+  "created_at": "2026-10-09T02:29:32Z",
+  "category": "Security / Geopolitics",
+  "headline": "USS Abraham Lincoln returns to San Diego after more than 10 months deployed in the Iran war",
+  "headline_es": "El USS Abraham Lincoln regresa a San Diego tras más de 10 meses desplegado en la guerra con Irán",
+  "caption_es": "El portaaviones USS Abraham Lincoln regresó el jueves a su puerto base de San Diego, tras zarpar en noviembre de 2025 para un despliegue que lo llevó a Oriente Medio y a la guerra de Estados Unidos con Irán. El secretario de Defensa, Pete Hegseth, otorgó a la tripulación la Mención Presidencial de Unidad y señaló que el grupo de ataque realizó 3.693 misiones de combate. El largo despliegue estuvo marcado por informes de escasez de suministros y desgaste de la tripulación.",
+  "caption_en": "The aircraft carrier USS Abraham Lincoln returned to its home port of San Diego on Thursday, after leaving in November 2025 for a deployment that took it to the Middle East and the US war with Iran. Defense Secretary Pete Hegseth awarded the crew the Presidential Unit Citation, saying the strike group flew 3,693 combat missions. The long deployment drew reports of supply shortages and strain on the crew.",
+  "source_urls": [
+    "https://www.scrippsnews.com/us-news/military/uss-abraham-lincoln-returns-to-san-diego-after-troubled-10-month-deployment-amid-iran-war",
+    "https://www.nbcsandiego.com/news/local/uss-abraham-lincoln-carrier-will-return-to-san-diego-on-thursday/4082907/"
+  ],
+  "source_names": [
+    "Scripps News",
+    "NBC San Diego"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#USNavy",
+    "#Irán",
+    "#SanDiego"
+  ],
+  "summary_es": "El portaaviones volvió a San Diego tras más de 10 meses de despliegue; su grupo de ataque realizó 3.693 misiones de combate en la guerra con Irán.",
+  "summary_en": "The carrier returned to San Diego after more than 10 months away; its strike group flew 3,693 combat missions in the Iran war.",
+  "highlight_es": "regresa a San Diego",
+  "highlight_en": "returns to San Diego",
+  "image_prompt": "Large generic aircraft carrier entering a calm bay at sunrise, city skyline and hills in the background, tugboats alongside, seagulls, wide cinematic view, no text, no markings, no flags",
+  "visual_label": "Portaaviones",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 32.72,
+      "lon": -117.16,
+      "label": "San Diego"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T03:00:02.371Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
