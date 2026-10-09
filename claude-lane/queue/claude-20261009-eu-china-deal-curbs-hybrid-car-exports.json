@@ -71,14 +71,23 @@
       "at": "2026-10-09T20:02:08.068Z",
       "event": "facebook_reserved",
       "facebook_attempt_id": "ef201812-af9f-4bf8-9c04-6e2764a3df66"
+    },
+    {
+      "at": "2026-10-09T20:02:14.340Z",
+      "event": "facebook_published",
+      "facebook_attempt_id": "ef201812-af9f-4bf8-9c04-6e2764a3df66",
+      "facebook_post_id": "1300936266441859_122118553743477315"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-09T19:59:11.165Z",
   "permalink": "https://www.instagram.com/p/DeSUL4ZoAGu/",
   "facebook": {
-    "status": "publishing",
+    "status": "published",
     "attempt_id": "ef201812-af9f-4bf8-9c04-6e2764a3df66",
-    "reserved_at": "2026-10-09T20:02:08.068Z"
+    "reserved_at": "2026-10-09T20:02:08.068Z",
+    "post_id": "1300936266441859_122118553743477315",
+    "photo_id": "122118553719477315",
+    "published_at": "2026-10-09T20:02:14.340Z"
   }
 }
