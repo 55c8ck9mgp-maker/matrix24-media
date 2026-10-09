@@ -69,6 +69,14 @@ export function readBranchDrafts() {
   return out.sort((a, b) => String(a.created_at).localeCompare(String(b.created_at)));
 }
 
+// Breaking-news drafts (breaking: true, set by the research task) are adopted
+// before any other draft; within each group the oldest goes first. The flag only
+// orders adoption: it is not copied into the queue record and changes nothing else.
+export function orderDrafts(drafts) {
+  const rank = d => (d?.breaking === true ? 0 : 1);
+  return [...drafts].sort((a, b) => rank(a) - rank(b) || String(a?.created_at).localeCompare(String(b?.created_at)));
+}
+
 export function adoptDraft(raw, now) {
   // Only content fields are taken from the draft; state fields are reset here.
   const keep = ['lane', 'content_id', 'created_at', 'category', 'headline', 'headline_es', 'caption_es', 'caption_en', 'source_urls', 'source_names', 'hashtags',
@@ -84,7 +92,7 @@ async function produce(store, now, drafts = readBranchDrafts()) {
 
   const known = new Set(entries.map(e => e.record.content_id));
   const rejected = [];
-  for (const raw of drafts) {
+  for (const raw of orderDrafts(drafts)) {
     if (!raw || known.has(raw.content_id)) continue;
     const record = adoptDraft(raw, now);
     const errs = validateLaneRecord(record);
