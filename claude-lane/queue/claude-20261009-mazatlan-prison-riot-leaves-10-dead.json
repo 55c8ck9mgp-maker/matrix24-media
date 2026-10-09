@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-mazatlan-prison-riot-leaves-10-dead",
+  "created_at": "2026-10-09T07:41:47Z",
+  "category": "Colombia / Latin America",
+  "headline": "Prison riot in Mexico's Sinaloa state leaves 10 dead and 16 injured",
+  "headline_es": "Motín en una cárcel del estado mexicano de Sinaloa deja 10 muertos y 16 heridos",
+  "caption_es": "Un enfrentamiento dentro del penal El Castillo de Mazatlán, en el estado mexicano de Sinaloa, dejó el jueves nueve reclusos y un familiar muertos, según la Secretaría de Seguridad Pública de Sinaloa. Dieciséis internos fueron trasladados para recibir atención médica, y las fuerzas de seguridad ingresaron a la prisión, que según las autoridades ya está bajo control. Sinaloa sufre la violencia entre facciones rivales del cártel de Sinaloa.",
+  "caption_en": "A clash inside El Castillo prison in Mazatlán, in Mexico's Sinaloa state, killed nine inmates and one family member on Thursday, according to Sinaloa's Public Security Secretariat. Sixteen inmates were taken for medical treatment, and security forces entered the prison, which authorities say is now under control. Sinaloa has been hit by violence between rival factions of the Sinaloa cartel.",
+  "source_urls": [
+    "https://www.wftv.com/news/world/prison-riot-mexicos/SJCCPPWN5M23DCQ5KMDT2L25ME/",
+    "https://www.aljazeera.com/news/2026/10/9/mexico-prison-clash-in-strife-torn-sinaloa-state-leaves-10-dead"
+  ],
+  "source_names": [
+    "Associated Press (via WFTV)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#México",
+    "#Sinaloa",
+    "#Mazatlán",
+    "#WorldNews"
+  ],
+  "summary_es": "Nueve reclusos y un familiar murieron en un enfrentamiento en el penal El Castillo de Mazatlán; 16 internos resultaron heridos y las autoridades dicen que la prisión está bajo control.",
+  "summary_en": "Nine inmates and one relative died in a clash at El Castillo prison in Mazatlán; 16 inmates were injured and officials say the prison is under control.",
+  "highlight_es": "10 muertos",
+  "highlight_en": "10 dead",
+  "image_prompt": "High concrete prison walls with coiled razor wire and a guard watchtower at dusk, empty floodlit perimeter road, palm trees and distant coastal hills in the background, moody cinematic wide view, no people, no text, no logos, no flags",
+  "visual_label": "Mazatlán",
+  "map": {
+    "focus": [
+      "Mexico"
+    ],
+    "marker": {
+      "lat": 23.22,
+      "lon": -106.42,
+      "label": "Mazatlán"
+    },
+    "labels": {
+      "Mexico": "México"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T07:50:41.757Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
