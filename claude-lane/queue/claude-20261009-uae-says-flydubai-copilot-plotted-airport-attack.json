@@ -1,0 +1,58 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-uae-says-flydubai-copilot-plotted-airport-attack",
+  "created_at": "2026-10-09T17:29:28Z",
+  "category": "Security / Geopolitics",
+  "headline": "UAE says flydubai co-pilot planned to crash a Tel Aviv-bound jet into Ben Gurion Airport",
+  "headline_es": "EAU dice que un copiloto de flydubai planeó estrellar un avión contra el aeropuerto Ben Gurión",
+  "caption_es": "El fiscal general de Emiratos Árabes Unidos afirmó el viernes que el copiloto omaní Hamam al-Hammami planeó tomar el control de un vuelo de flydubai entre Dubái y Tel Aviv el 30 de septiembre y estrellarlo contra una terminal del aeropuerto Ben Gurión de Israel. Otro piloto y varios pasajeros lo detuvieron a bordo, y el avión aterrizó de emergencia en Arabia Saudita. Según EAU, confesó haber actuado solo tras dos vuelos previos a Tel Aviv para estudiar la ruta; la investigación sobre posibles cómplices continúa.",
+  "caption_en": "The UAE attorney general said on Friday that Omani co-pilot Hamam al-Hammami planned to seize a flydubai flight from Dubai to Tel Aviv on September 30 and crash it into a terminal at Israel's Ben Gurion Airport. He was stopped on board by another pilot and passengers, and the plane made an emergency landing in Saudi Arabia. According to the UAE, he confessed to acting alone after two earlier flights to Tel Aviv to study the route; the search for possible accomplices continues.",
+  "source_urls": [
+    "https://www.arabnews.com/middle-east/uae-prosecutor-omani-flydubai-co-pilot-planned-suicide-attack-on-ben-gurion-airport-3005507",
+    "https://www.timesofisrael.com/liveblog_entry/uae-admits-flydubai-copilot-was-planning-9-11-style-suicide-attack-on-ben-gurion-airport/",
+    "https://www.ynetnews.com/article/s1evrc8igg"
+  ],
+  "source_names": [
+    "Arab News (Reuters)",
+    "The Times of Israel",
+    "Ynet News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#UAE",
+    "#Israel",
+    "#Aviation",
+    "#flydubai"
+  ],
+  "summary_es": "El copiloto omaní fue reducido a bordo por otro piloto y pasajeros el 30 de septiembre; el avión aterrizó de emergencia en Arabia Saudita.",
+  "summary_en": "The Omani co-pilot was subdued on board by another pilot and passengers on September 30; the plane made an emergency landing in Saudi Arabia.",
+  "highlight_es": "aeropuerto Ben Gurión",
+  "highlight_en": "Ben Gurion Airport",
+  "image_prompt": "Empty airliner cockpit at dusk seen from behind the seats, instrument panels glowing, clouds and a distant coastline through the windshield, tense cinematic atmosphere, no people, no text, no logos, no flags",
+  "visual_label": "Ben Gurión",
+  "map": {
+    "focus": [
+      "Israel",
+      "United Arab Emirates"
+    ],
+    "marker": {
+      "lat": 32.0114,
+      "lon": 34.8867,
+      "label": "Ben Gurión"
+    },
+    "labels": {
+      "Israel": "Israel",
+      "United Arab Emirates": "Emiratos Árabes Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T21:20:44.262Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
