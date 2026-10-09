@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-labour-beats-green-leader-london-byelection",
+  "status": "draft",
+  "created_at": "2026-10-09T06:34:28Z",
+  "category": "World",
+  "headline": "Labour holds Starmer's former London seat, defeating Green Party leader Zack Polanski",
+  "headline_es": "El laborismo retiene el antiguo escaño de Starmer en Londres y derrota al líder verde Polanski",
+  "caption_en": "Labour's Sagal Abdi-Wali, leader of the local council, won the Holborn and St Pancras by-election in central London with 12,292 votes, ahead of Green Party leader Zack Polanski with 8,928. The seat was left vacant when Keir Starmer stood down as an MP after being replaced as prime minister. Polanski said he will remain Green leader.",
+  "caption_es": "Sagal Abdi-Wali, del Partido Laborista y líder del consejo local, ganó la elección parcial de Holborn y St Pancras, en el centro de Londres, con 12.292 votos, por delante del líder del Partido Verde, Zack Polanski, con 8.928. El escaño quedó vacante cuando Keir Starmer renunció como diputado tras ser reemplazado como primer ministro. Polanski afirmó que seguirá al frente de los Verdes.",
+  "summary_es": "La laborista Sagal Abdi-Wali ganó con 12.292 votos frente a 8.928 del líder verde Zack Polanski, en el escaño que dejó Keir Starmer.",
+  "summary_en": "Labour's Sagal Abdi-Wali won with 12,292 votes to 8,928 for Green leader Zack Polanski, in the seat vacated by Keir Starmer.",
+  "highlight_es": "retiene",
+  "highlight_en": "Labour holds",
+  "visual_label": "Londres",
+  "image_prompt": "Ballot box on a wooden table in a quiet polling station hall at night, stacks of folded paper ballots, soft warm light, London terraced houses visible through a rain-streaked window, wide cinematic view",
+  "map": {
+    "focus": ["United Kingdom"],
+    "marker": {"lat": 51.53, "lon": -0.12, "label": "Londres"},
+    "labels": {"United Kingdom": "Reino Unido"}
+  },
+  "source_urls": [
+    "https://cyprus-mail.com/2026/10/09/uk-pm-burnhams-labour-fends-off-left-wing-greens-in-local-election",
+    "https://www.thejc.com/news/politics/polanski-defeated-as-labour-wins-holborn-and-st-pancras-by-election-ksa0hdx9"
+  ],
+  "source_names": ["Reuters (via Cyprus Mail)", "The Jewish Chronicle"],
+  "hashtags": ["#MATRIX24", "#UK", "#ReinoUnido", "#Labour", "#Elecciones"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
