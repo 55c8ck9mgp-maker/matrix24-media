@@ -1,0 +1,34 @@
+name: Claude Lane blocked alert
+
+# Notifies the owner with a GitHub issue when a Claude Lane record blocks the
+# lane (publish_unknown, or publishing left behind). Read-only over the queue:
+# it never publishes, retries, discards or edits records. See
+# scripts/claude-lane/blocked-alert.mjs and docs/CLAUDE_LANE.md "Recovery".
+on:
+  schedule:
+    - cron: '12,42 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          sparse-checkout: |
+            claude-lane/queue
+            scripts/claude-lane
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Check for blocked lane records
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/claude-lane/run-blocked-alert.mjs
