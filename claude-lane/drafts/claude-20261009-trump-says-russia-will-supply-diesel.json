@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-trump-says-russia-will-supply-diesel",
+  "status": "draft",
+  "created_at": "2026-10-09T19:29:59Z",
+  "category": "Economy",
+  "headline": "Trump says Russia will supply diesel to US and global markets",
+  "headline_es": "Trump dice que Rusia suministrará diésel a EE. UU. y al mercado mundial",
+  "caption_en": "US President Donald Trump said on Friday that Russia will supply diesel to the American and global markets, announcing the move on Truth Social. Trump said more than 300,000 tons would be released immediately. Diesel prices have been near record highs.",
+  "caption_es": "El presidente de Estados Unidos, Donald Trump, afirmó este viernes en Truth Social que Rusia suministrará diésel al mercado estadounidense y mundial. Trump dijo que más de 300.000 toneladas se liberarían de inmediato. Los precios del diésel se han mantenido cerca de máximos históricos.",
+  "source_urls": [
+    "https://www.nbcnews.com/business/energy/trump-putin-diesel-prices-rcna602566",
+    "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+    "https://gvwire.com/2026/10/09/trump-big-announcement-coming-up-on-diesel/"
+  ],
+  "source_names": [
+    "NBC News",
+    "The Kyiv Independent",
+    "Reuters (GV Wire)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Diesel",
+    "#Rusia",
+    "#Russia",
+    "#Energía"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Trump anunció en Truth Social que Rusia venderá diésel a EE. UU. y al mundo, con más de 300.000 toneladas de inmediato, en medio de precios récord.",
+  "summary_en": "Trump announced on Truth Social that Russia will sell diesel to the US and the world, over 300,000 tons immediately, as prices hover near records.",
+  "highlight_es": "Rusia suministrará diésel",
+  "highlight_en": "Russia will supply diesel",
+  "visual_label": "Diésel",
+  "image_prompt": "Large fuel tanker ship docked at an industrial oil terminal at sunset, storage tanks and pipelines along the quay, calm grey water, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Russia",
+      "United States of America"
+    ],
+    "labels": {
+      "Russia": "Rusia",
+      "United States of America": "Estados Unidos"
+    }
+  }
+}
