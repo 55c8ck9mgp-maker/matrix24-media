@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-ukraine-us-envoys-talks-energy-ceasefire",
+  "created_at": "2026-10-09T00:30:49Z",
+  "category": "Security / Geopolitics",
+  "headline": "Ukrainian delegation to meet Trump envoys in US on a partial energy ceasefire",
+  "headline_es": "Delegación ucraniana se reunirá con enviados de Trump en EE. UU. por una tregua energética",
+  "caption_es": "Una delegación ucraniana que incluye a Rustem Umerov y Kirilo Budánov se reunirá desde el viernes en Estados Unidos con los enviados estadounidenses Steve Witkoff y Jared Kushner, en conversaciones que durarían dos días. Entre las propuestas figura un alto el fuego parcial sobre infraestructura energética y envíos de grano. El presidente Zelenski dijo no estar listo para decir qué es realista y advirtió que Rusia podría hacer lo contrario por despecho.",
+  "caption_en": "A Ukrainian delegation including Rustem Umerov and Kyrylo Budanov is due to meet US envoys Steve Witkoff and Jared Kushner in the United States from Friday, in talks expected to last two days. Proposals include a partial ceasefire covering energy infrastructure and grain shipping. President Zelensky said he was not ready to say what is realistic, warning Russia could do the opposite out of spite.",
+  "source_urls": [
+    "https://www.axios.com/2026/10/08/ukraine-russia-war-kushner-witkoff-negotiations-winter",
+    "https://kyivindependent.com/zelensky-sends-delegation-to-meet-trump-envoys-as-he-hints-at-secret-us-russia-economic-talks/"
+  ],
+  "source_names": [
+    "Axios",
+    "The Kyiv Independent"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Diplomacia"
+  ],
+  "summary_es": "Negociadores de Ucrania y enviados de EE. UU. discutirán durante dos días un alto el fuego parcial sobre energía y envíos de grano. Zelenski se mostró cauto.",
+  "summary_en": "Ukrainian negotiators and US envoys will spend two days discussing a partial ceasefire on energy and grain shipping. Zelensky struck a cautious tone.",
+  "highlight_es": "tregua energética",
+  "highlight_en": "partial energy ceasefire",
+  "image_prompt": "Long empty negotiating table with rows of chairs and water glasses in a bright modern conference room, high-voltage power lines and grain silos visible through tall windows at sunset, calm cinematic wide view",
+  "visual_label": "Tregua",
+  "map": {
+    "focus": [
+      "Ukraine",
+      "United States of America"
+    ],
+    "labels": {
+      "Ukraine": "Ucrania",
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T01:01:04.198Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
