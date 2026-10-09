@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-brazil-orders-eduardo-bolsonaro-prison",
+  "created_at": "2026-10-09T00:30:49Z",
+  "category": "Colombia / Latin America",
+  "headline": "Brazil's Supreme Court orders Eduardo Bolsonaro to start prison term and cancels his passports",
+  "headline_es": "El Supremo de Brasil ordena a Eduardo Bolsonaro cumplir su condena y anula sus pasaportes",
+  "caption_es": "El juez del Supremo Tribunal Federal de Brasil Alexandre de Moraes ordenó que el exdiputado Eduardo Bolsonaro, hijo del expresidente Jair Bolsonaro, empiece a cumplir una condena de cuatro años y dos meses, y emitió una orden de arresto. Fue condenado por coacción en un proceso judicial por buscar presión de Estados Unidos sobre autoridades brasileñas durante el juicio por golpe de Estado contra su padre. Eduardo, que vive en EE. UU., dice ser perseguido.",
+  "caption_en": "Brazilian Supreme Court Justice Alexandre de Moraes ordered former congressman Eduardo Bolsonaro, son of ex-president Jair Bolsonaro, to begin serving a sentence of four years and two months and issued an arrest warrant. He was convicted of coercion in legal proceedings for seeking US pressure on Brazilian authorities during his father's coup trial. Eduardo, who lives in the United States, says he is being persecuted.",
+  "source_urls": [
+    "https://www.courthousenews.com/brazil-supreme-court-orders-arrest-of-eduardo-bolsonaro-presidential-candidates-brother/",
+    "https://www.riotimesonline.com/eduardo-bolsonaro-prison-order-passports-canceled/"
+  ],
+  "source_names": [
+    "Courthouse News Service",
+    "The Rio Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#Bolsonaro",
+    "#STF"
+  ],
+  "summary_es": "Alexandre de Moraes ordenó el arresto de Eduardo Bolsonaro, condenado a 4 años y 2 meses por coacción, y canceló sus pasaportes. Él vive en Estados Unidos.",
+  "summary_en": "Justice Alexandre de Moraes ordered the arrest of Eduardo Bolsonaro, sentenced to 4 years 2 months for coercion, and cancelled his passports. He lives in the US.",
+  "highlight_es": "Eduardo Bolsonaro",
+  "highlight_en": "Eduardo Bolsonaro",
+  "image_prompt": "Modernist white supreme court building with slender curved columns under a dramatic dusk sky, wide reflecting plaza in front, a closed passport lying on a wooden desk in the foreground, cinematic lighting",
+  "visual_label": "Brasilia",
+  "map": {
+    "focus": [
+      "Brazil"
+    ],
+    "marker": {
+      "lat": -15.7939,
+      "lon": -47.8828,
+      "label": "Brasilia"
+    },
+    "labels": {
+      "Brazil": "Brasil"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T00:33:37.345Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
