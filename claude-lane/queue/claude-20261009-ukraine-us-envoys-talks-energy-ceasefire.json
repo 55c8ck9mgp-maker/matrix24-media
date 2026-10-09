@@ -37,10 +37,10 @@
       "United States of America": "Estados Unidos"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261009-ukraine-us-envoys-talks-energy-ceasefire.jpg",
   "publish_attempt_id": "e2f9050b-0c84-4b9f-8abd-0a76af1bd20f",
-  "ig_media_id": null,
+  "ig_media_id": "18094662476152006",
   "history": [
     {
       "at": "2026-10-09T01:01:04.198Z",
@@ -56,8 +56,15 @@
       "at": "2026-10-09T01:01:41.800Z",
       "event": "reserved",
       "publish_attempt_id": "e2f9050b-0c84-4b9f-8abd-0a76af1bd20f"
+    },
+    {
+      "at": "2026-10-09T01:02:03.898Z",
+      "event": "published",
+      "publish_attempt_id": "e2f9050b-0c84-4b9f-8abd-0a76af1bd20f",
+      "ig_media_id": "18094662476152006"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-09T01:01:41.800Z"
+  "reserved_at": "2026-10-09T01:01:41.800Z",
+  "permalink": "https://www.instagram.com/p/DeQSAtWjNV4/"
 }
