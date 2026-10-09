@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-japan-cabinet-approves-food-tax-cut",
+  "status": "draft",
+  "created_at": "2026-10-09T12:37:30Z",
+  "category": "Economy",
+  "headline": "Japan approves bill to cut the consumption tax on food from 8% to 1% for two years",
+  "headline_es": "Japón aprueba un proyecto para bajar del 8% al 1% el impuesto al consumo de alimentos",
+  "caption_en": "Japan's government under Prime Minister Sanae Takaichi approved a bill to lower the consumption tax on food and drinks from 8% to 1% for two years, starting in April 2027. It would be the first cut since the tax was introduced in 1989. The plan, which also includes cash benefits for lower earners, is expected to cost about 10 trillion yen (about $63 billion), and the government aims to pass it by December 12.",
+  "caption_es": "El Gobierno de Japón, encabezado por la primera ministra Sanae Takaichi, aprobó un proyecto de ley para bajar del 8% al 1% el impuesto al consumo de alimentos y bebidas durante dos años, a partir de abril de 2027. Sería el primer recorte desde que se creó el impuesto en 1989. El plan, que incluye ayudas en efectivo para personas de menores ingresos, costaría unos 10 billones de yenes (unos 63.000 millones de dólares), y el Gobierno busca aprobarlo antes del 12 de diciembre.",
+  "summary_es": "El impuesto a alimentos y bebidas bajaría del 8% al 1% durante dos años desde abril de 2027; sería el primer recorte desde 1989.",
+  "summary_en": "The tax on food and drinks would fall from 8% to 1% for two years from April 2027, the first cut since the tax began in 1989.",
+  "highlight_es": "del 8% al 1%",
+  "highlight_en": "from 8% to 1%",
+  "visual_label": "Japón",
+  "image_prompt": "Neat supermarket aisle with shelves of fresh vegetables, rice bags and packaged groceries, a shopping basket in the foreground, warm bright lighting, wide view, no people, no text",
+  "map": {
+    "focus": ["Japan"],
+    "marker": {"lat": 35.68, "lon": 139.69, "label": "Tokio"},
+    "labels": {"Japan": "Japón"}
+  },
+  "source_urls": [
+    "https://news.cgtn.com/news/2026-10-09/Japan-s-cabinet-approves-bill-for-1st-food-consumption-tax-cut-1R6blDjgAh2/p.html",
+    "https://www.anews.com.tr/world/2026/10/09/japans-government-moves-to-slash-food-tax-to-ease-prices"
+  ],
+  "source_names": ["CGTN", "A News"],
+  "hashtags": ["#MATRIX24", "#Japan", "#Japón", "#Economy", "#Economía"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
