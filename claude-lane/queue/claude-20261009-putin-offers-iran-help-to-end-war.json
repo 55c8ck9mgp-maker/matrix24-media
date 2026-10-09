@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-putin-offers-iran-help-to-end-war",
+  "created_at": "2026-10-09T02:29:32Z",
+  "category": "Security / Geopolitics",
+  "headline": "Putin tells Iran's Pezeshkian that Russia is ready to help end the war",
+  "headline_es": "Putin dice a Pezeshkian que Rusia está lista para ayudar a terminar la guerra",
+  "caption_es": "El presidente ruso, Vladímir Putin, se reunió el jueves en Turkmenistán con el presidente iraní, Masud Pezeshkian, antes de una cumbre de la Comunidad de Estados Independientes. Putin afirmó que Moscú está dispuesto a hacer todo lo que esté a su alcance para ayudar a poner fin a la guerra que comenzó con los ataques de Estados Unidos e Israel contra Irán el 28 de febrero. Las negociaciones entre Teherán y Washington parecen estancadas.",
+  "caption_en": "Russian President Vladimir Putin met Iranian President Masoud Pezeshkian in Turkmenistan on Thursday, ahead of a summit of the Commonwealth of Independent States. Putin said Moscow is ready to do everything in its power to help end the war that began with US-Israeli strikes on Iran on February 28. Talks between Tehran and Washington appear to be at an impasse.",
+  "source_urls": [
+    "https://www.arabnews.com/middle-east/putin-tells-iran-leader-will-do-everything-to-help-end-war-3005362",
+    "https://www.aljazeera.com/amp/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait"
+  ],
+  "source_names": [
+    "Arab News (AFP)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Rusia",
+    "#Irán",
+    "#Putin",
+    "#Geopolitics"
+  ],
+  "summary_es": "Putin se reunió con Pezeshkian en Turkmenistán antes de la cumbre de la CEI y ofreció la ayuda de Rusia para poner fin a la guerra en Irán.",
+  "summary_en": "Putin met Pezeshkian in Turkmenistan ahead of a CIS summit and offered Russia's help to end the war in Iran.",
+  "highlight_es": "ayudar a terminar la guerra",
+  "highlight_en": "help end the war",
+  "image_prompt": "Empty formal diplomatic meeting room with two armchairs facing each other, small table with water glasses, large windows overlooking the Caspian Sea coastline at dusk, warm muted lighting, wide cinematic view, no people, no text, no flags",
+  "visual_label": "Cumbre CEI",
+  "map": {
+    "focus": [
+      "Turkmenistan",
+      "Iran"
+    ],
+    "marker": {
+      "lat": 40.02,
+      "lon": 52.98,
+      "label": "Avaza"
+    },
+    "labels": {
+      "Turkmenistan": "Turkmenistán",
+      "Iran": "Irán"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T02:37:56.250Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
