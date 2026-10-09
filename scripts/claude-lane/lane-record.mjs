@@ -87,6 +87,9 @@ export function validateLaneRecord(record) {
   need(Array.isArray(record.source_names) && record.source_names.length >= 2
     && record.source_names.every(nonEmpty), 'NEED_SOURCE_NAMES');
 
+  // Optional breaking-news flag: absent, or exactly true.
+  need(record.breaking === undefined || record.breaking === true, 'BAD_BREAKING_FLAG');
+
   const tags = record.hashtags ?? [];
   need(Array.isArray(tags) && tags.length <= HASHTAGS_MAX
     && tags.every(t => /^#[\p{L}\p{N}_]+$/u.test(t)), 'BAD_HASHTAGS');

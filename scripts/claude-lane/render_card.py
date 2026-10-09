@@ -84,11 +84,12 @@ def render(record, out_path):
     d.text((m + d.textlength('MATRIX ', font=font(True, 54)), 56), '24', font=font(True, 54), fill=YELLOW)
     d.text((m, 118), 'G L O B A L', font=font(False, 22), fill=GREY)
 
-    badge_f = font(True, 26)
-    badge = 'ÚLTIMA HORA · BREAKING'
-    bw = d.textlength(badge, font=badge_f) + 40
-    d.rounded_rectangle([W - m - bw, 62, W - m, 112], radius=8, fill=RED)
-    d.text((W - m - bw + 20, 72), badge, font=badge_f, fill=WHITE)
+    if record.get('breaking') is True:  # badge only on real breaking news
+        badge_f = font(True, 26)
+        badge = 'ÚLTIMA HORA · BREAKING'
+        bw = d.textlength(badge, font=badge_f) + 40
+        d.rounded_rectangle([W - m - bw, 62, W - m, 112], radius=8, fill=RED)
+        d.text((W - m - bw + 20, 72), badge, font=badge_f, fill=WHITE)
 
     cat = (record.get('category') or 'World').upper()
     cf = font(True, 26)

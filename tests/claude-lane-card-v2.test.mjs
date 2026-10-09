@@ -64,3 +64,10 @@ test('locator map highlights the focus country and draws the marker', { skip: sk
   assert.equal(mapMod.mapSvg({ focus: ['Atlantis'] }), null);
   assert.ok(mapMod.findCountry('United States'));
 });
+
+test('breaking badge appears only on breaking records', () => {
+  assert.match(cardHtml({ ...base(), breaking: true }), /class="brk">Última hora · Breaking</);
+  assert.doesNotMatch(cardHtml(base()), /class="brk"/);
+  assert.doesNotMatch(cardHtml({ ...base(), breaking: 'yes' }), /class="brk"/);
+  assert.match(cardHtml({ ...base(), map: undefined }), /<nav>/);
+});

@@ -129,6 +129,18 @@ transaction across platforms):
   running); revoke with `DELETE /me/permissions` from the app or delete the
   `FB_CLAUDE_USER_TOKEN` secret; full removal reverts the PR.
 
+## Breaking news (approved by Justen 2026-10-09)
+- Research runs twice per hour (two scheduled drafts tasks, :20 and :50).
+- A draft may carry `breaking: true` (exactly `true`; the validator rejects
+  any other value). Only major events first reported in the last ~90 min
+  qualify. The two-independent-sources rule applies unchanged.
+- The pipeline adopts breaking drafts before any other draft (oldest first
+  within each group). A story already `ready_to_publish` is not preempted.
+- The flag is kept on the queue record and is the only thing that shows the
+  "Última hora · Breaking" badge on the card; other cards carry no badge.
+- Publisher, dedupe, Facebook mirror and state machine ignore the flag.
+- Rollback: revert the PRs; drafts without the flag behave as before.
+
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
 
 A `publish_unknown` record blocks the whole lane until it is resolved. The
