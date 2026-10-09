@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-unctad-global-growth-slows-energy-shock",
+  "created_at": "2026-10-09T11:34:21Z",
+  "category": "Economy",
+  "headline": "UN trade agency sees global growth slowing to 2.6% in 2026 amid Middle East energy shock",
+  "headline_es": "La agencia de comercio de la ONU prevé que el crecimiento mundial baje al 2,6% en 2026",
+  "caption_es": "UN Trade and Development (UNCTAD) informó el viernes que el crecimiento económico mundial probablemente se desacelerará al 2,6% en 2026, frente al 2,9% del año pasado, por el impacto energético de la crisis en Oriente Medio. Se prevé que el comercio de bienes y servicios crezca alrededor de un 4% tras alcanzar un récord de 35 billones de dólares en 2025, un aumento impulsado en parte por precios más altos.",
+  "caption_en": "UN Trade and Development (UNCTAD) said on Friday that global economic growth is likely to slow to 2.6% in 2026, down from 2.9% last year, as the energy shock from the Middle East crisis weighs on the world economy. Trade in goods and services is projected to grow about 4% after reaching a record $35 trillion in 2025, a rise partly driven by higher prices.",
+  "source_urls": [
+    "https://www.brecorder.com/news/40443454/world-economic-growth-to-slow-to-26-in-2026-un-trade-body-says",
+    "https://www.aa.com.tr/en/economy/un-forecasts-global-growth-to-slow-to-26-in-2026-amid-energy-shock/4083260"
+  ],
+  "source_names": [
+    "Reuters (via Business Recorder)",
+    "Anadolu Agency"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#UNCTAD",
+    "#GlobalEconomy",
+    "#EconomiaMundial",
+    "#Trade"
+  ],
+  "summary_es": "UNCTAD prevé un crecimiento mundial del 2,6% en 2026, frente al 2,9% de 2025, por el impacto energético de la crisis en Oriente Medio.",
+  "summary_en": "UNCTAD expects world growth of 2.6% in 2026, down from 2.9% in 2025, as the Middle East energy shock weighs on the global economy.",
+  "highlight_es": "crecimiento mundial",
+  "highlight_en": "global growth",
+  "image_prompt": "Large container port at dusk with stacked shipping containers, gantry cranes and an oil tanker at anchor in the background, a faint downward-trending line glowing across the sky, wide cinematic view, no people, no text, no logos, no flags",
+  "visual_label": "UNCTAD",
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T17:42:15.588Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
