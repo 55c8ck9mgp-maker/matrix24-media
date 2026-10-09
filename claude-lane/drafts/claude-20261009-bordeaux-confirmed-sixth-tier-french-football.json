@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-bordeaux-confirmed-sixth-tier-french-football",
+  "status": "draft",
+  "created_at": "2026-10-09T01:35:22Z",
+  "category": "Sports",
+  "headline": "Six-time French champions Bordeaux confirmed in the sixth tier of French football",
+  "headline_es": "Bordeaux, seis veces campeón de Francia, confirmado en la sexta división del fútbol francés",
+  "caption_en": "The Nouvelle-Aquitaine regional league confirmed that Girondins de Bordeaux will play in Regional 1, the sixth tier of French football, after summer sanctions for failing to secure about 10 million euros and meet debt payments. The club, sold last month for a symbolic one euro to US group Park Bench, has a plan to halve its debt from 26 to 13 million euros over 12 years. A commercial court is due to review it on October 20.",
+  "caption_es": "La liga regional de Nueva Aquitania confirmó que el Girondins de Bordeaux jugará en Regional 1, la sexta categoría del fútbol francés, tras ser sancionado en verano por no garantizar unos 10 millones de euros ni cumplir pagos de deuda. El club, vendido el mes pasado por un euro simbólico al grupo estadounidense Park Bench, tiene un plan para reducir su deuda a la mitad, de 26 a 13 millones de euros, en 12 años. Un tribunal comercial lo revisará el 20 de octubre.",
+  "source_urls": [
+    "https://www.aljazeera.com/sports/2026/10/8/bordeaux-relegated-to-french-sixth-tier-for-financial-irregularities",
+    "https://www.thescore.com/news/3618523"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "theScore"
+  ],
+  "hashtags": ["#MATRIX24", "#Bordeaux", "#Futbol", "#Francia"],
+  "summary_es": "La liga de Nueva Aquitania confirmó a Bordeaux en Regional 1 tras sanciones financieras. Sus nuevos dueños, Park Bench, buscan reducir la deuda de 26 a 13 millones de euros.",
+  "summary_en": "The Nouvelle-Aquitaine league confirmed Bordeaux in Regional 1 after financial sanctions. New owners Park Bench plan to cut the debt from 26 to 13 million euros.",
+  "highlight_es": "sexta división",
+  "highlight_en": "sixth tier",
+  "visual_label": "Bordeaux",
+  "image_prompt": "Empty modern football stadium at dusk with rows of vacant seats, a single football resting on the centre circle, soft floodlights and long shadows, melancholic wide cinematic view",
+  "map": {
+    "focus": ["France"],
+    "marker": {"lat": 44.8378, "lon": -0.5792, "label": "Burdeos"},
+    "labels": {"France": "Francia"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
