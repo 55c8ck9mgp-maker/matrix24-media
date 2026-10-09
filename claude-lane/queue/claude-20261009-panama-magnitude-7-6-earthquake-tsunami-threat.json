@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-panama-magnitude-7-6-earthquake-tsunami-threat",
+  "created_at": "2026-10-09T19:29:59Z",
+  "category": "Colombia / Latin America",
+  "headline": "Magnitude 7.6 earthquake shakes Panama and triggers a tsunami threat",
+  "headline_es": "Sismo de magnitud 7,6 sacude Panamá y activa una amenaza de tsunami",
+  "caption_es": "Un potente sismo de magnitud 7,6 se registró este viernes cerca del extremo sur de Panamá, según el Servicio Geológico de Estados Unidos (USGS). El Sistema de Alerta de Tsunamis de EE. UU. emitió una amenaza de tsunami tras el terremoto. Los edificios se sacudieron en Ciudad de Panamá, donde la gente evacuó hacia las calles.",
+  "caption_en": "A powerful magnitude 7.6 earthquake struck near the southern tip of Panama on Friday, according to the US Geological Survey. The US Tsunami Warning System issued a tsunami threat after the quake. Buildings shook in Panama City, where people evacuated into the streets.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/09/tsunami-threat-after-76-magnitude-earthquake-strikes-panama-usgs-says",
+    "https://6abc.com/story/panama-earthquake-76-shakes-region/19925359/"
+  ],
+  "source_names": [
+    "Euronews",
+    "Associated Press (6abc)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Panamá",
+    "#Sismo",
+    "#Earthquake",
+    "#Tsunami"
+  ],
+  "summary_es": "El USGS reportó un sismo de magnitud 7,6 cerca del extremo sur de Panamá. EE. UU. emitió una amenaza de tsunami y en Ciudad de Panamá la gente salió a las calles.",
+  "summary_en": "The USGS reported a magnitude 7.6 quake near Panama's southern tip. The US issued a tsunami threat, and people in Panama City evacuated into the streets.",
+  "highlight_es": "magnitud 7,6",
+  "highlight_en": "Magnitude 7.6",
+  "image_prompt": "Tropical Pacific coastline at dusk with a modern city skyline in the distance, calm but ominous sea, a stylized seismograph trace glowing across the sky, palm trees in the foreground, wide cinematic view, no people, no text",
+  "visual_label": "Sismo 7,6",
+  "map": {
+    "focus": [
+      "Panama"
+    ],
+    "marker": {
+      "lat": 7.35,
+      "lon": -80.4,
+      "label": "Pitaloza Arriba"
+    },
+    "labels": {
+      "Panama": "Panamá"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T22:02:35.768Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
