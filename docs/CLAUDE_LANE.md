@@ -155,6 +155,12 @@ The publisher also records the numeric Meta error code of a failed
 `media_publish` in the reason (e.g. `publish_http_400_code_9007`), so the
 cause of the next `publish_unknown` can be read from the record.
 
+Settle pause (2026-10-09, watchdog): after the container reports `FINISHED`
+the publisher waits `PUBLISH_SETTLE_MS` (20 s) before its single
+`media_publish` call, because Meta answered 9007/2207027 ("media not ready")
+right after `FINISHED`. Waiting adds no call; any non-success is still
+`publish_unknown`. Rollback: revert the PR.
+
 Rollback: revert the PR. If a `discarded` record already exists, the
 reverted validator would reject it, so the owner first decides what that
 record becomes; the switch `CLAUDE_LANE_ENABLED` still stops the lane at once.

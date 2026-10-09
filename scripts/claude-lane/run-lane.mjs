@@ -13,7 +13,7 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { createInstagramClient } from '../instagram-graph.mjs';
 import { validateLaneRecord } from './lane-record.mjs';
-import { runPublisher } from './publisher.mjs';
+import { runPublisher, PUBLISH_SETTLE_MS } from './publisher.mjs';
 import { reconcile } from './reconcile.mjs';
 import { createGitStore } from './git-store.mjs';
 import { fsReadOnlyStore, loadOthers } from './run-publisher.mjs';
@@ -127,7 +127,7 @@ async function main() {
   try { produced = await produce(store, now); } catch (e) { produced = { outcome: 'produce_error', error: e.message }; }
   log('produce', produced);
   if (LIVE && produced.outcome === 'created') await new Promise(r => setTimeout(r, 30000)); // let raw.githubusercontent serve the new JPEG
-  const published = await runPublisher({ mode: LIVE ? 'live' : 'dry-run', enabled: LIVE, store, ig, readQuota, others: loadOthers() });
+  const published = await runPublisher({ mode: LIVE ? 'live' : 'dry-run', enabled: LIVE, store, ig, readQuota, others: loadOthers(), settleMs: PUBLISH_SETTLE_MS });
   log('publish', published.caption ? { ...published, caption: `${published.caption.slice(0, 80)}…` } : published);
 }
 

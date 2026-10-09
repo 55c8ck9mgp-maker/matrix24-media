@@ -11,6 +11,11 @@ import { findDuplicate } from './dedupe.mjs';
 // account's Instagram quota floor and a minimum spacing between posts.
 export const MIN_SPACING_MS = 15 * 60 * 1000;
 export const MIN_QUOTA_REMAINING = 10;
+// Pause between the container reporting FINISHED and the single media_publish
+// call. Meta answered 9007/2207027 ("media not ready") right after FINISHED on
+// 2026-10-09 (and a bare 400 on 2026-10-08), leaving publish_unknown records.
+// The pause is read-only waiting; it never adds a second publish call.
+export const PUBLISH_SETTLE_MS = 20 * 1000;
 
 const utcDay = ms => new Date(ms).toISOString().slice(0, 10);
 
@@ -28,6 +33,7 @@ function assertWritable(prev, rec) {
 export async function runPublisher({
   mode = 'dry-run', enabled = false, store, ig, readQuota, others = [],
   now = Date.now(), newAttemptId = () => crypto.randomUUID(),
+  settleMs = 0, sleep = ms => new Promise(r => setTimeout(r, ms)),
 }) {
   if (mode !== 'dry-run' && mode !== 'live') return { outcome: 'bad_mode' };
   const live = mode === 'live';
@@ -92,6 +98,7 @@ export async function runPublisher({
   if (!container.ok) return release(container.reason);
   const readyState = await ig.waitContainer(container.containerId);
   if (!readyState.ok) return release(readyState.reason);
+  if (settleMs > 0) await sleep(settleMs);
 
   // The only public side effect. Exactly once per attempt (rules 3 and 4).
   const pub = await ig.publishContainer(container.containerId);

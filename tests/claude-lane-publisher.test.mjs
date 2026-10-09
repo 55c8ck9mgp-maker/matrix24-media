@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { runPublisher, MIN_SPACING_MS } from '../scripts/claude-lane/publisher.mjs';
+import { runPublisher, MIN_SPACING_MS, PUBLISH_SETTLE_MS } from '../scripts/claude-lane/publisher.mjs';
 import { findDuplicate } from '../scripts/claude-lane/dedupe.mjs';
 import { fsReadOnlyStore } from '../scripts/claude-lane/run-publisher.mjs';
 import { checkLaneTransition } from '../scripts/claude-lane/lane-record.mjs';
@@ -173,4 +173,31 @@ test('step 2 workflow is dry-run only: no write permission, no schedule, live re
   assert.match(wf, /CLAUDE_LANE_MODE: dry-run/);
   assert.throws(() => execFileSync('node', ['scripts/claude-lane/run-publisher.mjs'], {
     env: { ...process.env, CLAUDE_LANE_MODE: 'live' }, stdio: 'pipe' }));
+});
+
+test('settle pause: waits after FINISHED, then publishes exactly once', async () => {
+  const store = fakeStore([rec('a')]); const ig = fakeIg();
+  const slept = [];
+  const sleep = async ms => { slept.push(ms); ig.calls.push('settle'); };
+  const r = await run({ mode: 'live', enabled: true, store, ig, settleMs: PUBLISH_SETTLE_MS, sleep });
+  assert.equal(r.outcome, 'published');
+  assert.deepEqual(slept, [PUBLISH_SETTLE_MS]);
+  assert.ok(PUBLISH_SETTLE_MS >= 10000 && PUBLISH_SETTLE_MS <= 60000);
+  assert.deepEqual(ig.calls.filter(c => ['container', 'wait', 'settle', 'publish'].includes(c)), ['container', 'wait', 'settle', 'publish']);
+});
+
+test('settle pause: not-ready container is released without sleeping or publishing', async () => {
+  const store = fakeStore([rec('a')]); const ig = fakeIg({ ready: { ok: false, reason: 'container_not_ready' } });
+  let slept = 0;
+  const r = await run({ mode: 'live', enabled: true, store, ig, settleMs: PUBLISH_SETTLE_MS, sleep: async () => { slept++; } });
+  assert.equal(r.outcome, 'not_invoked'); assert.equal(slept, 0);
+  assert.ok(!ig.calls.includes('publish'));
+});
+
+test('settle pause: a 9007 after the pause is still publish_unknown, never retried', async () => {
+  const store = fakeStore([rec('a')]);
+  const ig = fakeIg({ publish: { outcome: 'unknown', reason: 'publish_http_400_code_9007_sub_2207027' } });
+  const r = await run({ mode: 'live', enabled: true, store, ig, settleMs: PUBLISH_SETTLE_MS, sleep: async () => {} });
+  assert.equal(r.outcome, 'publish_unknown');
+  assert.equal(ig.calls.filter(c => c === 'publish').length, 1);
 });
