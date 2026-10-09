@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-palestinians-delay-legislative-elections",
+  "created_at": "2026-10-09T12:37:30Z",
+  "category": "World",
+  "headline": "Palestinians to delay first legislative elections in 20 years by several months",
+  "headline_es": "Los palestinos aplazarán varios meses sus primeras elecciones legislativas en 20 años",
+  "caption_es": "El vicepresidente palestino Hussein al-Sheikh comunicó a Francia, en una carta fechada el 8 de octubre, que las elecciones legislativas previstas para el 28 de noviembre se aplazarán varios meses. La carta, dirigida al canciller francés Jean-Noël Barrot, afirma que las condiciones en las que se basaba el calendario no se han dado y que votar ahora afectaría su inclusividad e integridad. No se fijó una nueva fecha.",
+  "caption_en": "Palestinian Vice President Hussein al-Sheikh told France in a letter dated October 8 that the legislative vote planned for November 28 will be postponed by several months. The letter, addressed to French Foreign Minister Jean-Noël Barrot, says the conditions the schedule relied on have not materialized and that holding the vote now would undermine its inclusiveness and integrity. No new date was given.",
+  "source_urls": [
+    "https://www.timesofisrael.com/liveblog_entry/palestinian-authority-confirms-it-is-postponing-first-legislative-elections-in-20-years",
+    "https://www.newarab.com/news/palestinian-elections-set-delay-due-worsening-conditions"
+  ],
+  "source_names": [
+    "The Times of Israel",
+    "The New Arab"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Palestine",
+    "#Palestina",
+    "#Elections",
+    "#Elecciones"
+  ],
+  "summary_es": "Una carta a Francia anuncia que la votación del 28 de noviembre se retrasará varios meses porque no se cumplen las condiciones; no hay nueva fecha.",
+  "summary_en": "A letter to France says the November 28 vote will slip by several months because the required conditions have not materialized; no new date was set.",
+  "highlight_es": "aplazarán varios meses",
+  "highlight_en": "delay",
+  "image_prompt": "Empty polling station with stacked ballot boxes and folded voting booths in a quiet hall, soft afternoon light through tall windows, muted tones, wide cinematic view, no people",
+  "visual_label": "Elecciones",
+  "map": {
+    "focus": [
+      "Palestine"
+    ],
+    "labels": {
+      "Palestine": "Palestina"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-09T18:23:19.541Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
