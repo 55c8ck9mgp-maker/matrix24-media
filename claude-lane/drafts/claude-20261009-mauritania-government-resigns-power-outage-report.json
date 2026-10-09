@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261009-mauritania-government-resigns-power-outage-report",
+  "status": "draft",
+  "created_at": "2026-10-09T18:36:04Z",
+  "category": "World",
+  "headline": "Mauritania's government resigns a day after a report on fires that caused major blackouts",
+  "headline_es": "El gobierno de Mauritania dimite un día después de un informe sobre incendios que causaron apagones",
+  "caption_en": "Mauritania's Prime Minister Mokhtar Ould Djay submitted his government's resignation to President Mohamed Ould Ghazouani on Friday, state media reported. It came a day after an independent commission delivered its report on August fires at two power substations that left much of the capital, Nouakchott, without electricity for several days. The report cited serious shortcomings in prevention, electrical protection, supervision of works and emergency management.",
+  "caption_es": "El primer ministro de Mauritania, Mokhtar Ould Djay, presentó el viernes la dimisión de su gobierno al presidente Mohamed Ould Ghazouani, informaron los medios estatales. Ocurrió un día después de que una comisión independiente entregara su informe sobre los incendios de agosto en dos subestaciones eléctricas, que dejaron sin luz durante varios días a gran parte de la capital, Nuakchot. El informe señaló graves fallas en prevención, protección eléctrica, supervisión de obras y gestión de emergencias.",
+  "summary_es": "La dimisión llegó un día después de un informe independiente sobre los incendios de agosto en dos subestaciones, que dejaron a Nuakchot varios días sin electricidad.",
+  "summary_en": "The resignation came a day after an independent report on August fires at two substations that left Nouakchott without power for several days.",
+  "highlight_es": "gobierno de Mauritania dimite",
+  "highlight_en": "government resigns",
+  "visual_label": "Nuakchot",
+  "image_prompt": "Electrical substation with transformers and high-voltage power lines at dusk on the edge of a desert city, sandy haze, darkened low-rise buildings in the background, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Mauritania"],
+    "marker": {"lat": 18.08, "lon": -15.98, "label": "Nuakchot"},
+    "labels": {"Mauritania": "Mauritania"}
+  },
+  "source_urls": [
+    "https://www.channelstv.com/2026/10/09/mauritanian-pm-govt-resign-after-five-day-power-outage/",
+    "https://www.africaradio.com/actualite-116924-mauritanie-pourquoi-le-gouvernement-du-premier-ministre-mokhtar-ould-djiay-a-t-il-demissionne"
+  ],
+  "source_names": ["Channels Television (AFP)", "Africa Radio"],
+  "hashtags": ["#MATRIX24", "#Mauritania", "#África", "#WorldNews"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
