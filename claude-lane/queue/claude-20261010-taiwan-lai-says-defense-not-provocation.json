@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-taiwan-lai-says-defense-not-provocation",
+  "created_at": "2026-10-10T03:29:27Z",
+  "category": "Security / Geopolitics",
+  "headline": "Taiwan's Lai says higher defense spending is not meant to provoke China",
+  "headline_es": "Lai afirma que el mayor gasto en defensa de Taiwán no busca provocar a China",
+  "caption_es": "En su discurso del Día Nacional este sábado, el presidente de Taiwán, Lai Ching-te, afirmó que el aumento de la inversión en defensa busca disuadir y no provocar, y prometió capacidades asimétricas y resiliencia de toda la sociedad. Dijo que Pekín mantiene la presión sobre la isla con actividad militar y de zona gris, mientras el Ministerio de Defensa taiwanés reportó otra patrulla de preparación para el combate china con 19 aeronaves.",
+  "caption_en": "In his National Day address on Saturday, Taiwan's President Lai Ching-te said increased defense investment aims to deter, not to provoke, and pledged asymmetric capabilities and whole-of-society resilience. He said Beijing keeps pressuring the island with military and gray-zone activity, while Taiwan's defense ministry reported another Chinese combat readiness patrol involving 19 aircraft.",
+  "source_urls": [
+    "https://focustaiwan.tw/politics/202610100003",
+    "https://www.933thedrive.com/2026/10/09/taiwan-president-to-say-boosting-its-defences-is-not-provocation/"
+  ],
+  "source_names": [
+    "Focus Taiwan (CNA)",
+    "Reuters"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Taiwán",
+    "#China",
+    "#Defensa"
+  ],
+  "summary_es": "En el Día Nacional, Lai dijo que Taiwán reforzará su defensa para disuadir, no para provocar, ante la creciente presión militar de China.",
+  "summary_en": "On National Day, Lai said Taiwan will strengthen its defenses to deter, not provoke, amid growing military pressure from China.",
+  "highlight_es": "no busca provocar",
+  "highlight_en": "not meant to provoke",
+  "image_prompt": "Coastal patrol vessel on a calm strait at dusk, distant island skyline with mountains, radar dish on a coastal hill, wide cinematic view, muted blue tones",
+  "visual_label": "Estrecho de Taiwán",
+  "map": {
+    "focus": [
+      "Taiwan",
+      "China"
+    ],
+    "marker": {
+      "lat": 25.04,
+      "lon": 121.51,
+      "label": "Taipéi"
+    },
+    "labels": {
+      "Taiwan": "Taiwán",
+      "China": "China"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T03:50:03.084Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
