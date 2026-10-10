@@ -43,7 +43,7 @@
       "Mexico": "México"
     }
   },
-  "status": "ready_to_publish",
+  "status": "skipped_duplicate",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261010-simon-becomes-category-4-hurricane-mexico.jpg",
   "publish_attempt_id": null,
   "ig_media_id": null,
@@ -57,6 +57,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-10T08:48:44.758Z",
+      "event": "skipped_duplicate",
+      "reason": "similar_recent_post",
+      "with": "17985255993095850",
+      "detail": "0.63"
     }
   ],
   "ai_illustration": true
