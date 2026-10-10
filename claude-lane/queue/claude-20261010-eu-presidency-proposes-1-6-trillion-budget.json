@@ -30,9 +30,9 @@
   "highlight_en": "€1.6 trillion",
   "image_prompt": "Modern glass European institutional building at dusk with rows of empty conference chairs visible through windows, stacks of documents and a calculator on a table in the foreground, wide cinematic view",
   "visual_label": "Presupuesto UE",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261010-eu-presidency-proposes-1-6-trillion-budget.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "5010e326-bc4c-4e4e-abbd-efc260726cde",
   "ig_media_id": null,
   "history": [
     {
@@ -44,7 +44,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-10T11:35:56.580Z",
+      "event": "reserved",
+      "publish_attempt_id": "5010e326-bc4c-4e4e-abbd-efc260726cde"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-10T11:35:56.580Z"
 }
