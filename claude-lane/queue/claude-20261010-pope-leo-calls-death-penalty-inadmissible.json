@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-pope-leo-calls-death-penalty-inadmissible",
+  "created_at": "2026-10-10T18:58:20Z",
+  "category": "World",
+  "headline": "Pope Leo calls death penalty inadmissible as US plans livestreamed execution",
+  "headline_es": "El papa León llama inadmisible la pena de muerte ante una ejecución transmitida en EE. UU.",
+  "caption_es": "El papa León XIV calificó la pena de muerte de \"inadmisible\" en una publicación en X con motivo del Día Mundial contra la Pena de Muerte este sábado, sin mencionar ningún caso concreto. Horas antes, el secretario de Estado del Vaticano, el cardenal Pietro Parolin, criticó el plan de EE. UU. de transmitir en directo el fusilamiento de Nidal Hasan, condenado por el tiroteo de 2009 en Fort Hood que dejó 13 muertos. La ejecución está prevista para el 3 de diciembre.",
+  "caption_en": "Pope Leo XIV called the death penalty \"inadmissible\" in a post on X marking the World Day Against the Death Penalty on Saturday, without naming any specific case. Hours earlier, Vatican Secretary of State Cardinal Pietro Parolin criticized the US plan to livestream the firing-squad execution of Nidal Hasan, convicted of the 2009 Fort Hood shooting that killed 13 people. The execution is scheduled for December 3.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution",
+    "https://www.cbsnews.com/news/pope-leo-death-penalty-us-fort-hood-execution-firing-squad/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Vaticano",
+    "#PenaDeMuerte",
+    "#DeathPenalty",
+    "#PopeLeo"
+  ],
+  "summary_es": "En el Día Mundial contra la Pena de Muerte, León XIV la calificó de inadmisible. El Vaticano criticó el plan de transmitir en directo una ejecución militar en EE. UU. el 3 de diciembre.",
+  "summary_en": "On the World Day Against the Death Penalty, Leo XIV called it inadmissible. The Vatican criticized a US plan to livestream a military execution set for December 3.",
+  "highlight_es": "inadmisible",
+  "highlight_en": "inadmissible",
+  "image_prompt": "St. Peter's Square colonnade at dusk under a grey sky, empty stone plaza with soft warm lamplight, wide cinematic view, no people, no text",
+  "visual_label": "Vaticano",
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T19:17:46.635Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
