@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-lebanon-arrests-hezbollah-suspects-explosives",
+  "status": "draft",
+  "created_at": "2026-10-10T19:29:41Z",
+  "category": "Security / Geopolitics",
+  "headline": "Lebanon arrests two suspected Hezbollah members carrying half a ton of explosives",
+  "headline_es": "Líbano detiene a dos presuntos miembros de Hezbolá con media tonelada de explosivos",
+  "caption_en": "Lebanese security forces arrested two men suspected of belonging to Hezbollah after finding about half a ton of explosives in their car at a checkpoint in Dahr al-Baidar, in eastern Lebanon. The car was heading toward Beirut, and the intended destination of the explosives has not been disclosed. Investigators are questioning the two men.",
+  "caption_es": "Las fuerzas de seguridad libanesas detuvieron a dos hombres sospechosos de pertenecer a Hezbolá tras hallar cerca de media tonelada de explosivos en su automóvil en un puesto de control en Dahr al-Baidar, en el este de Líbano. El vehículo se dirigía hacia Beirut y no se ha revelado el destino previsto de los explosivos. Los investigadores interrogan a los dos hombres.",
+  "source_urls": [
+    "https://english.aawsat.com/arab-world/5328113-judicial-source-lebanon-arrests-2-suspected-hezbollah-members-over-explosives",
+    "https://www.naharnet.com/stories/en/323036-reports-suspected-hezbollah-members-held-carrying-500-kg-of-explosives"
+  ],
+  "source_names": ["Asharq Al-Awsat", "Naharnet"],
+  "hashtags": ["#MATRIX24", "#Lebanon", "#Líbano", "#Hezbollah", "#Security"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Dos presuntos miembros de Hezbolá fueron detenidos en un control en el este de Líbano con cerca de media tonelada de explosivos en su auto, rumbo a Beirut.",
+  "summary_en": "Two suspected Hezbollah members were arrested at a checkpoint in eastern Lebanon with about half a ton of explosives in their car, heading toward Beirut.",
+  "highlight_es": "media tonelada de explosivos",
+  "highlight_en": "half a ton of explosives",
+  "visual_label": "Dahr al-Baidar",
+  "image_prompt": "Security checkpoint on a winding mountain highway at dusk, concrete barriers and traffic cones, a single unmarked car stopped under floodlights, pine-covered hills in the background, wide cinematic view",
+  "map": {
+    "focus": ["Lebanon"],
+    "marker": {"lat": 33.81, "lon": 35.77, "label": "Dahr al-Baidar"},
+    "labels": {"Lebanon": "Líbano"}
+  }
+}
