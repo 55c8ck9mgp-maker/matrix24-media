@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-us-lifts-41-year-lebanon-flight-ban",
+  "created_at": "2026-10-10T10:35:36Z",
+  "category": "World",
+  "headline": "US lifts 41-year-old restrictions on direct flights to Lebanon",
+  "headline_es": "EE. UU. levanta las restricciones de 41 años a los vuelos directos con Líbano",
+  "caption_es": "Estados Unidos levantó las restricciones que impedían los vuelos directos con Líbano desde 1985, impuestas tras el secuestro del vuelo 847 de TWA, desviado a Beirut. El presidente Trump ordenó el cambio hace unas dos semanas y se conoció el sábado, cuando el presidente libanés, Joseph Aoun, lo celebró como una señal de confianza en las medidas de seguridad aérea de Líbano. Trump planteó la idea durante la visita de Aoun a Washington en julio.",
+  "caption_en": "The United States has lifted restrictions that have blocked direct flights with Lebanon since 1985, imposed after the hijacking of TWA Flight 847 to Beirut. President Trump ordered the change about two weeks ago, and it became public on Saturday when Lebanese President Joseph Aoun welcomed it as a sign of confidence in Lebanon's aviation security measures. Trump first raised the idea during Aoun's visit to Washington in July.",
+  "source_urls": [
+    "https://english.aawsat.com/arab-world/5327978-lebanon-welcomes-trumps-move-lift-41-year-us-flight-ban",
+    "https://today.lorientlejour.com/article/1550346/lebanonus-direct-flights-trump-lifts-40-year-old-restrictions-but-resumption-still-years-away.html"
+  ],
+  "source_names": [
+    "Asharq Al-Awsat",
+    "L'Orient Today"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Lebanon",
+    "#Líbano",
+    "#USA",
+    "#Aviation"
+  ],
+  "summary_es": "Washington levantó las restricciones a los vuelos directos con Líbano vigentes desde 1985. El presidente Joseph Aoun celebró la decisión.",
+  "summary_en": "Washington has lifted restrictions on direct flights with Lebanon in place since 1985. President Joseph Aoun welcomed the decision.",
+  "highlight_es": "vuelos directos",
+  "highlight_en": "direct flights",
+  "image_prompt": "Commercial passenger jet on final approach over a Mediterranean coastal city at golden hour, calm blue sea and hills in the background, generic unmarked aircraft, wide cinematic view",
+  "visual_label": "Beirut",
+  "map": {
+    "focus": [
+      "Lebanon"
+    ],
+    "marker": {
+      "lat": 33.8938,
+      "lon": 35.5018,
+      "label": "Beirut"
+    },
+    "labels": {
+      "Lebanon": "Líbano"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T10:47:02.502Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
