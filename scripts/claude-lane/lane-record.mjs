@@ -101,6 +101,16 @@ export function validateLaneRecord(record) {
   const s = record.status;
   const afterReady = ['ready_to_publish', 'publishing', 'published', 'publish_unknown', 'discarded'].includes(s);
   if (afterReady) need(isHttps(record.image_url) && /\.jpe?g(\?|$)/i.test(record.image_url), 'NEED_HTTPS_JPEG');
+  // Optional media format (absent = 'image', the existing behaviour).
+  const fmt = record.media_format ?? 'image';
+  need(['image', 'carousel', 'reel'].includes(fmt), 'BAD_MEDIA_FORMAT');
+  if (fmt === 'carousel' && afterReady) {
+    need(Array.isArray(record.carousel_urls) && record.carousel_urls.length >= 2 && record.carousel_urls.length <= 10
+      && record.carousel_urls.every(u => isHttps(u) && /\.jpe?g(\?|$)/i.test(u)), 'BAD_CAROUSEL_URLS');
+  }
+  if (fmt === 'reel' && afterReady) {
+    need(isHttps(record.video_url) && /\.mp4(\?|$)/i.test(record.video_url), 'NEED_HTTPS_MP4');
+  }
   if (['publishing', 'published', 'publish_unknown', 'discarded'].includes(s)) {
     need(nonEmpty(record.publish_attempt_id), 'MISSING_PUBLISH_ATTEMPT_ID');
   } else {
