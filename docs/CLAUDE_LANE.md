@@ -150,6 +150,17 @@ transaction across platforms):
 - Decisions it informs (volume, format, language) stay with the owner.
 - Rollback: disable the workflow in the Actions tab, or revert the PR.
 
+## Carousels (staging plan, added 2026-10-10)
+- Code: `scripts/claude-lane/carousel-plan.mjs` (pure; validates 2 to 10
+  https slides and a caption up to 2200 characters, and lists the Graph API
+  steps). Tests: `tests/claude-lane-carousel-plan.test.mjs`.
+- NOT wired into the publisher. Wiring needs a staging run first and owner
+  approval (the owner approved building carousels in staging, 2026-10-10).
+- Rule: no `media_publish` until every child is FINISHED. Failures before
+  that release the claim as `not_invoked`; a failure at publish is
+  `publish_unknown`, which the existing recovery path handles.
+- Rollback: nothing is live; delete the module or revert the PR.
+
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
 
 A `publish_unknown` record blocks the whole lane until it is resolved. The
