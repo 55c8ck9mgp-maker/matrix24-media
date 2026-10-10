@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-riyadh-airport-attacked-again",
+  "created_at": "2026-10-10T14:29:18Z",
+  "category": "Security / Geopolitics",
+  "headline": "Riyadh airport hit by new attack as loud blasts are heard",
+  "headline_es": "Nuevo ataque contra el aeropuerto de Riad: se escuchan fuertes explosiones",
+  "caption_es": "El sábado se escucharon fuertes explosiones en el Aeropuerto Internacional Rey Jalid de Riad, que según funcionarios fue atacado de nuevo. El aeropuerto pidió a los pasajeros consultar el estado de sus vuelos con las aerolíneas antes de viajar. Hasta ahora no se han reportado víctimas. Ocurre tras una serie de ataques hutíes contra el aeropuerto esta semana, mientras fuerzas respaldadas por Arabia Saudita combaten a los hutíes en Yemen.",
+  "caption_en": "Loud explosions were heard on Saturday at King Khalid International Airport in Riyadh, which officials said was attacked again. The airport told passengers to check their flight status with airlines before travelling. No casualties have been reported so far. It follows a series of Houthi attacks on the airport this week as Saudi-backed forces fight the Houthis in Yemen.",
+  "source_urls": [
+    "https://cyprus-mail.com/2026/10/10/loud-blast-heard-at-riyadh-airport-as-airlines-cancel-more-flights",
+    "https://www.durangoherald.com/articles/associated-press/the-airport-in-the-saudi-capital-has-been-attacked-again-officials-say"
+  ],
+  "source_names": [
+    "Reuters (via Cyprus Mail)",
+    "Associated Press (via Durango Herald)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Riyadh",
+    "#SaudiArabia",
+    "#Yemen",
+    "#Houthis"
+  ],
+  "summary_es": "Funcionarios dicen que el aeropuerto de Riad fue atacado otra vez el sábado; testigos oyeron fuertes explosiones. Aún no hay víctimas reportadas.",
+  "summary_en": "Officials say Riyadh's airport was attacked again on Saturday; witnesses heard loud blasts. No casualties have been reported so far.",
+  "highlight_es": "aeropuerto de Riad",
+  "highlight_en": "Riyadh airport",
+  "image_prompt": "Empty modern airport terminal at dusk seen from the tarmac, grounded passenger jets parked at gates, distant haze in the desert sky, emergency vehicle lights in the far background, wide cinematic view",
+  "visual_label": "Riad",
+  "map": {
+    "focus": [
+      "Saudi Arabia"
+    ],
+    "marker": {
+      "lat": 24.96,
+      "lon": 46.7,
+      "label": "Aeropuerto Riad"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudita"
+    }
+  },
+  "breaking": true,
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T14:35:35.692Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
