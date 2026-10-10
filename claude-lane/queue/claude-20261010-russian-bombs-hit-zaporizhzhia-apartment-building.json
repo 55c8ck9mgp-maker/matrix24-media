@@ -40,9 +40,9 @@
       "Ukraine": "Ucrania"
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261010-russian-bombs-hit-zaporizhzhia-apartment-building.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "36d58584-5280-45b0-bec4-cadc2bd010fd",
   "ig_media_id": null,
   "history": [
     {
@@ -54,7 +54,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-10T05:37:30.342Z",
+      "event": "reserved",
+      "publish_attempt_id": "36d58584-5280-45b0-bec4-cadc2bd010fd"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-10T05:37:30.342Z"
 }
