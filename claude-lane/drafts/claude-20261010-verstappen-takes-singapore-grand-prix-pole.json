@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-verstappen-takes-singapore-grand-prix-pole",
+  "status": "draft",
+  "created_at": "2026-10-10T15:04:24Z",
+  "category": "Sports",
+  "headline": "Verstappen takes Singapore Grand Prix pole, just ahead of both Ferraris",
+  "headline_es": "Verstappen logra la pole del Gran Premio de Singapur, por delante de los dos Ferrari",
+  "caption_en": "Max Verstappen of Red Bull took pole position for the Singapore Grand Prix with a lap of 1:31.373 at Marina Bay, hours after winning the sprint. Ferrari's Charles Leclerc qualified second, 0.054 seconds behind, with teammate Lewis Hamilton third, followed by Kimi Antonelli of Mercedes and Lando Norris of McLaren.",
+  "caption_es": "Max Verstappen, de Red Bull, logró la pole position del Gran Premio de Singapur con una vuelta de 1:31.373 en Marina Bay, horas después de ganar la carrera sprint. Charles Leclerc, de Ferrari, se clasificó segundo a 0,054 segundos, con su compañero Lewis Hamilton tercero, seguido por Kimi Antonelli, de Mercedes, y Lando Norris, de McLaren.",
+  "summary_es": "Verstappen marcó 1:31.373 en Marina Bay y saldrá primero el domingo, con Leclerc a 0,054 segundos y Hamilton tercero.",
+  "summary_en": "Verstappen set a 1:31.373 at Marina Bay to start first on Sunday, with Leclerc 0.054s behind and Hamilton third.",
+  "highlight_es": "pole",
+  "highlight_en": "pole",
+  "visual_label": "Marina Bay",
+  "image_prompt": "Night street circuit lit by floodlights along a waterfront city skyline, an unbranded open-wheel race car on the track with light trails, wide cinematic view",
+  "map": {
+    "focus": ["Singapore"],
+    "marker": {"lat": 1.2914, "lon": 103.864, "label": "Marina Bay"},
+    "labels": {"Singapore": "Singapur"}
+  },
+  "source_urls": [
+    "https://www.the-race.com/formula-1/f1-2026-singapore-grand-prix-qualifying-results/",
+    "https://www.motorsportweek.com/2026/10/10/f1-2026-singapore-gp-qualifying-results/"
+  ],
+  "source_names": ["The Race", "Motorsport Week"],
+  "hashtags": ["#MATRIX24", "#F1", "#SingaporeGP", "#Verstappen"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
