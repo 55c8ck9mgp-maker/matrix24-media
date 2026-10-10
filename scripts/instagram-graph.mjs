@@ -139,5 +139,32 @@ export function createInstagramClient({ accessToken, igUserId = 'me', fetchImpl 
     return { outcome: 'unknown', reason: `publish_http_${r.status}${code}${sub}` };
   }
 
-  return { listRecentMedia, getMedia, createContainer, waitContainer, publishContainer };
+  // Carousel children and parent, and Reel containers. All are PRIVATE steps:
+  // none makes anything public. Only publishContainer does that.
+  async function createChildContainer({ imageUrl }) {
+    let r;
+    try { r = await postForm(`${igUserId}/media`, { image_url: imageUrl, is_carousel_item: 'true' }); }
+    catch { return { ok: false, reason: 'child_network' }; }
+    if (!r.ok || typeof r.body?.id !== 'string' || !NUMERIC_ID.test(r.body.id)) return { ok: false, reason: `child_http_${r.status}` };
+    return { ok: true, containerId: r.body.id };
+  }
+
+  async function createCarouselContainer({ childIds, caption }) {
+    if (!Array.isArray(childIds) || childIds.length < 2 || childIds.length > 10) return { ok: false, reason: 'carousel_bad_children' };
+    let r;
+    try { r = await postForm(`${igUserId}/media`, { media_type: 'CAROUSEL', children: childIds.join(','), caption }); }
+    catch { return { ok: false, reason: 'carousel_network' }; }
+    if (!r.ok || typeof r.body?.id !== 'string' || !NUMERIC_ID.test(r.body.id)) return { ok: false, reason: `carousel_http_${r.status}` };
+    return { ok: true, containerId: r.body.id };
+  }
+
+  async function createReelContainer({ videoUrl, caption }) {
+    let r;
+    try { r = await postForm(`${igUserId}/media`, { media_type: 'REELS', video_url: videoUrl, caption }); }
+    catch { return { ok: false, reason: 'reel_network' }; }
+    if (!r.ok || typeof r.body?.id !== 'string' || !NUMERIC_ID.test(r.body.id)) return { ok: false, reason: `reel_http_${r.status}` };
+    return { ok: true, containerId: r.body.id };
+  }
+
+  return { listRecentMedia, getMedia, createContainer, waitContainer, publishContainer, createChildContainer, createCarouselContainer, createReelContainer };
 }
