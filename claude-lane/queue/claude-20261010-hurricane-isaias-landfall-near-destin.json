@@ -1,0 +1,57 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-hurricane-isaias-landfall-near-destin",
+  "created_at": "2026-10-10T02:01:42Z",
+  "category": "Climate",
+  "headline": "Hurricane Isaias makes landfall near Destin, Florida, with 105 mph winds",
+  "headline_es": "El huracán Isaías toca tierra cerca de Destin, Florida, con vientos de 105 mph",
+  "caption_es": "El huracán Isaías tocó tierra cerca de Destin, en el Panhandle de Florida, hacia las 9:30 p.m. (hora del este) del viernes como tormenta de categoría 2, con vientos máximos sostenidos cercanos a 105 millas por hora, según el Centro Nacional de Huracanes. Isaías había alcanzado la categoría 3 más temprano el viernes. Cientos de miles de hogares y negocios se quedaron sin electricidad en la región mientras la tormenta entraba en tierra.",
+  "caption_en": "Hurricane Isaias made landfall near Destin, in the Florida Panhandle, at about 9:30 p.m. ET on Friday as a Category 2 storm with maximum sustained winds near 105 mph, according to the National Hurricane Center. Isaias had reached Category 3 earlier on Friday. Hundreds of thousands of homes and businesses lost power across the region as the storm moved ashore.",
+  "source_urls": [
+    "https://patch.com/florida/across-fl/hurricane-isaias-makes-landfall-near-destin-fl-category-2-storm",
+    "https://www.foxweather.com/live-news/live-updates-hurricane-isaias-threatens-the-gulf-coast-with-dangerous-landfall-expected-tonight",
+    "https://www.cbsnews.com/news/hurricane-isaias-first-storm-2026-atlantic-season-record/"
+  ],
+  "source_names": [
+    "Patch",
+    "FOX Weather",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Isaias",
+    "#Huracán",
+    "#Hurricane",
+    "#Florida"
+  ],
+  "summary_es": "Isaías entró en tierra como huracán de categoría 2 en el Panhandle de Florida; cientos de miles de clientes se quedaron sin luz.",
+  "summary_en": "Isaias came ashore as a Category 2 hurricane in the Florida Panhandle, leaving hundreds of thousands of customers without power.",
+  "highlight_es": "toca tierra",
+  "highlight_en": "makes landfall",
+  "image_prompt": "Hurricane winds bending palm trees along a dark sandy Gulf beach at night, heavy rain and towering waves crashing on a pier, wide cinematic view",
+  "visual_label": "Isaías",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 30.39,
+      "lon": -86.5,
+      "label": "Destin"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "breaking": true,
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T02:02:16.271Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
