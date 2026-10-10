@@ -1,0 +1,43 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-eu-presidency-proposes-1-6-trillion-budget",
+  "created_at": "2026-10-10T11:34:35Z",
+  "category": "Economy",
+  "headline": "Irish EU presidency proposes a €1.6 trillion budget for 2028-2034",
+  "headline_es": "La presidencia irlandesa de la UE propone un presupuesto de 1,6 billones de euros para 2028-2034",
+  "caption_es": "Irlanda, que ocupa la presidencia rotatoria de la UE, propuso el sábado que el presupuesto a largo plazo del bloque para 2028-2034 sea de 1,6 billones de euros, por debajo del plan de unos 2 billones presentado por la Comisión Europea. La cifra enfrenta ahora difíciles negociaciones entre los 27 Estados miembros, que buscan cerrar un acuerdo antes de fin de año.",
+  "caption_en": "Ireland, which holds the rotating EU presidency, proposed on Saturday that the bloc's 2028-2034 long-term budget total €1.6 trillion, below the roughly €2 trillion plan put forward by the European Commission. The figure now faces contentious negotiations among the 27 member states, which aim to reach a deal by the end of the year.",
+  "source_urls": [
+    "https://www.irishtimes.com/world/europe/2026/10/10/eu-presidency-proposes-8-cut-to-2028-2034-eu-budget-to-16tn/",
+    "https://www.investing.com/news/economy-news/eu-presidency-proposes-16-trillion-budget-for-20282034-4942071",
+    "https://kyivindependent.com/new-compromise-eu-budget-maintains-ukraine-support-but-trims-help-for-eu-integration/"
+  ],
+  "source_names": [
+    "The Irish Times",
+    "Investing.com",
+    "The Kyiv Independent"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#UE",
+    "#EU",
+    "#Economy",
+    "#Economía"
+  ],
+  "summary_es": "Irlanda propuso un presupuesto de la UE de 1,6 billones de euros para 2028-2034, menos que los 2 billones planteados por la Comisión Europea.",
+  "summary_en": "Ireland proposed a €1.6 trillion EU budget for 2028-2034, less than the €2 trillion sought by the European Commission.",
+  "highlight_es": "1,6 billones de euros",
+  "highlight_en": "€1.6 trillion",
+  "image_prompt": "Modern glass European institutional building at dusk with rows of empty conference chairs visible through windows, stacks of documents and a calculator on a table in the foreground, wide cinematic view",
+  "visual_label": "Presupuesto UE",
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T11:35:19.828Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
