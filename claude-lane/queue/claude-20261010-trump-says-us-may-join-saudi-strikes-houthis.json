@@ -43,10 +43,10 @@
       "Saudi Arabia": "Arabia Saudita"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261010-trump-says-us-may-join-saudi-strikes-houthis.jpg",
   "publish_attempt_id": "a2c5b279-b60e-43bb-8dcd-7f1c72a37987",
-  "ig_media_id": null,
+  "ig_media_id": "17955905250255258",
   "history": [
     {
       "at": "2026-10-10T18:00:24.113Z",
@@ -62,8 +62,15 @@
       "at": "2026-10-10T18:01:03.291Z",
       "event": "reserved",
       "publish_attempt_id": "a2c5b279-b60e-43bb-8dcd-7f1c72a37987"
+    },
+    {
+      "at": "2026-10-10T18:01:38.219Z",
+      "event": "published",
+      "publish_attempt_id": "a2c5b279-b60e-43bb-8dcd-7f1c72a37987",
+      "ig_media_id": "17955905250255258"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-10T18:01:03.291Z"
+  "reserved_at": "2026-10-10T18:01:03.291Z",
+  "permalink": "https://www.instagram.com/p/DeUrdsvj6_W/"
 }
