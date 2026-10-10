@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-trump-says-ukraine-needs-new-president",
+  "status": "draft",
+  "created_at": "2026-10-10T20:29:29Z",
+  "category": "Security / Geopolitics",
+  "headline": "Trump says Ukraine should get a new president as he blames Zelensky for diesel prices",
+  "headline_es": "Trump dice que Ucrania necesita un nuevo presidente y culpa a Zelenski del precio del diésel",
+  "caption_en": "US President Donald Trump said on Saturday that it is time for Ukraine to get a new president, urging a leader who can make a deal with Russia. He blamed Volodymyr Zelensky for high US diesel prices and told him to stop striking Russian oil refineries. The remarks came a day after Trump announced a deal for Russian diesel exports that Zelensky criticized.",
+  "caption_es": "El presidente de EE. UU., Donald Trump, dijo el sábado que es hora de que Ucrania tenga un nuevo presidente y pidió un líder capaz de pactar con Rusia. Culpó a Volodímir Zelenski de los altos precios del diésel en EE. UU. y le exigió dejar de atacar refinerías rusas. Sus palabras llegaron un día después de anunciar un acuerdo para exportaciones de diésel ruso que Zelenski criticó.",
+  "summary_es": "Trump pidió que Ucrania busque un líder que pueda pactar con Rusia, tras la disputa con Zelenski por el acuerdo de diésel ruso.",
+  "summary_en": "Trump urged Ukraine to find a leader who can make a deal with Russia, amid a dispute with Zelensky over a Russian diesel deal.",
+  "highlight_es": "nuevo presidente",
+  "highlight_en": "new president",
+  "visual_label": "Diésel",
+  "image_prompt": "Diesel fuel pump nozzles at an empty petrol station at dusk, an oil refinery silhouette in the distance under a heavy grey sky, wide cinematic view",
+  "map": {
+    "focus": ["Ukraine", "United States of America"],
+    "labels": {"Ukraine": "Ucrania", "United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://www.axios.com/2026/10/10/trump-ukraine-zelensky-replace-putin-diesel",
+    "https://globalnews.ca/news/12098573/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/"
+  ],
+  "source_names": ["Axios", "Global News (AP)"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Ukraine", "#Trump", "#Zelensky"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
