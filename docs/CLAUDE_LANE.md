@@ -168,6 +168,16 @@ transaction across platforms):
 - Not used: broadcast jingles or licensed music (rights risk).
 - Rollback: nothing is live; delete the module or revert the PR.
 
+## Reels (dry run, added 2026-10-10)
+- Code: `scripts/claude-lane/reel-render.mjs` builds the FFmpeg arguments for
+  a 1080x1920 MP4 from one published card and the news-style audio bed.
+  Tests: `tests/claude-lane-reel-render.test.mjs`.
+- Workflow `claude-lane-reels-dryrun.yml`: manual only. It renders one test
+  Reel and checks it with ffprobe. It never uploads or publishes.
+- NOT live. Publishing a Reel needs a staged end-to-end run and an owner
+  decision to enable it.
+- Rollback: nothing is live; delete the workflow or revert the PR.
+
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
 
 A `publish_unknown` record blocks the whole lane until it is resolved. The
