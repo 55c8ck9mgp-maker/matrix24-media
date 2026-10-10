@@ -141,6 +141,15 @@ transaction across platforms):
 - Publisher, dedupe, Facebook mirror and state machine ignore the flag.
 - Rollback: revert the PRs; drafts without the flag behave as before.
 
+## Growth observer (read-only, added 2026-10-10)
+- Code: `scripts/claude-lane/growth-report.mjs`, workflow
+  `claude-lane-growth-report.yml` (Mondays 13:17 UTC, plus manual run).
+- Uses only GET requests with `IG_CLAUDE_ACCESS_TOKEN`: followers, posts,
+  reach, saves and shares for the last 30 days, with a top-5 list. Output
+  goes to the job summary. Nothing is published, reserved, written or changed.
+- Decisions it informs (volume, format, language) stay with the owner.
+- Rollback: disable the workflow in the Actions tab, or revert the PR.
+
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
 
 A `publish_unknown` record blocks the whole lane until it is resolved. The
