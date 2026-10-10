@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-russian-bombs-hit-zaporizhzhia-apartment-building",
+  "status": "draft",
+  "created_at": "2026-10-10T05:28:15Z",
+  "category": "Security / Geopolitics",
+  "headline": "Russian guided bombs hit apartment building in Zaporizhzhia, killing four",
+  "headline_es": "Bombas guiadas rusas impactan un edificio en Zaporiyia y matan a cuatro personas",
+  "caption_en": "Russian guided aerial bombs struck a five-story residential building in the Ukrainian city of Zaporizhzhia early on Saturday, killing four people, according to the acting regional governor, Mykhailo Semikin. One entrance was partially destroyed and floors collapsed down to the second level. Rescuers are still searching the rubble, where one more person may be trapped.",
+  "caption_es": "Bombas aéreas guiadas rusas impactaron un edificio residencial de cinco pisos en la ciudad ucraniana de Zaporiyia en la madrugada del sábado y mataron a cuatro personas, según el gobernador regional interino, Mykhailo Semikin. Una de las entradas quedó parcialmente destruida y los pisos colapsaron hasta el segundo nivel. Los rescatistas siguen buscando entre los escombros, donde podría haber otra persona atrapada.",
+  "source_urls": [
+    "https://kyivindependent.com/russian-guided-bombs-hit-zaporizhzhia-apartment-building-killing-4-injuring-4/",
+    "https://news.liga.net/en/war/news/russia-struck-a-five-story-building-in-zaporizhzhia-four-dead-search-underway-for-a-person-under-the-rubble"
+  ],
+  "source_names": ["The Kyiv Independent", "LIGA.net"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Zaporiyia", "#Rusia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Un ataque con bombas guiadas destruyó parte de un edificio residencial de cinco pisos en Zaporiyia. Hay cuatro muertos y continúa la búsqueda entre los escombros.",
+  "summary_en": "A guided-bomb strike partly destroyed a five-story residential building in Zaporizhzhia. Four people were killed and the search of the rubble continues.",
+  "highlight_es": "Zaporiyia",
+  "highlight_en": "Zaporizhzhia",
+  "visual_label": "Zaporiyia",
+  "image_prompt": "Rescue vehicles with flashing lights parked near a damaged Soviet-era apartment block at dawn, rubble on the ground, grey overcast sky, no people visible, wide cinematic view, muted tones",
+  "map": {
+    "focus": ["Ukraine"],
+    "marker": {"lat": 47.84, "lon": 35.14, "label": "Zaporiyia"},
+    "labels": {"Ukraine": "Ucrania"}
+  }
+}
