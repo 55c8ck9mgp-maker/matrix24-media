@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-portugal-suspends-ronaldo-after-walkout",
+  "created_at": "2026-10-10T16:58:32Z",
+  "category": "Sports",
+  "headline": "Portugal suspends Cristiano Ronaldo after he walked out of the national team camp",
+  "headline_es": "Portugal suspende a Cristiano Ronaldo tras abandonar la concentración de la selección",
+  "caption_es": "La Federación Portuguesa de Fútbol suspendió provisionalmente a Cristiano Ronaldo, de 41 años, y le abrió un proceso disciplinario después de que abandonara la concentración de la selección por una disputa con el entrenador Jorge Jesus sobre sus minutos de juego. Según las normas de la federación, abandonar sin justificación puede acarrear una suspensión de uno a seis meses y una multa. Ronaldo pidió disculpas a los aficionados y dijo que aceptará las consecuencias.",
+  "caption_en": "The Portuguese Football Federation provisionally suspended Cristiano Ronaldo, 41, and opened disciplinary proceedings after he left the national team camp in a dispute with coach Jorge Jesus over playing time. Under federation rules, leaving without justification can bring a suspension of one to six months and a fine. Ronaldo apologized to fans and said he would accept the consequences.",
+  "source_urls": [
+    "https://www.nbcchicago.com/news/national-international/portugal-suspends-cristiano-ronaldo-disciplinary-walkout/4000503/",
+    "https://www.dawn.com/news/2036172/cristiano-ronaldo-provisionally-suspended-after-portugal-walkout"
+  ],
+  "source_names": [
+    "The Associated Press (via NBC Chicago)",
+    "AFP (via Dawn)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ronaldo",
+    "#Portugal",
+    "#Fútbol",
+    "#Football"
+  ],
+  "summary_es": "La federación portuguesa abrió un proceso disciplinario contra Ronaldo por dejar la concentración tras una disputa con el técnico Jorge Jesus. Arriesga de uno a seis meses de suspensión.",
+  "summary_en": "Portugal's federation opened disciplinary proceedings against Ronaldo for leaving camp after a dispute with coach Jorge Jesus. He faces a one-to-six-month ban.",
+  "highlight_es": "suspende a Cristiano Ronaldo",
+  "highlight_en": "suspends Cristiano Ronaldo",
+  "image_prompt": "Empty football stadium at dusk with a lone ball resting on the grass near the touchline, an empty substitutes' bench in the foreground, dramatic stadium lights, wide cinematic view",
+  "visual_label": "Selección",
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T16:59:04.452Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
