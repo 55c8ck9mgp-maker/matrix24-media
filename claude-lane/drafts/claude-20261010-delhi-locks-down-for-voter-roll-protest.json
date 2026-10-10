@@ -1,0 +1,37 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-delhi-locks-down-for-voter-roll-protest",
+  "status": "draft",
+  "created_at": "2026-10-10T06:10:20Z",
+  "category": "World",
+  "headline": "New Delhi deploys thousands of police and shuts metro stations ahead of voter-roll protest",
+  "headline_es": "Nueva Delhi despliega miles de policías y cierra estaciones de metro ante protesta electoral",
+  "caption_en": "Indian authorities deployed thousands of police and paramilitary personnel in New Delhi, closed metro stations and cancelled trains ahead of a Saturday protest by the youth-led Cockroach Janta Party. The group demands the resignation of Chief Election Commissioner Gyanesh Kumar over a voter-roll revision that has removed more than 130 million names. It says at least 10,000 people have been detained nationwide; the Election Commission says the revision removes duplicate and ineligible voters.",
+  "caption_es": "Las autoridades indias desplegaron miles de policías y paramilitares en Nueva Delhi, cerraron estaciones de metro y cancelaron trenes antes de una protesta convocada para este sábado por el movimiento juvenil Cockroach Janta Party. El grupo exige la renuncia del jefe de la Comisión Electoral, Gyanesh Kumar, por una revisión del padrón que ha eliminado más de 130 millones de nombres. Afirma que al menos 10.000 personas han sido detenidas en todo el país; la Comisión Electoral dice que la revisión elimina votantes duplicados y no aptos.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/10/india-deploys-police-and-restricts-transport-ahead-of-mass-protest-in-delhi",
+    "https://www.malaymail.com/news/world/2026/10/10/india-deploys-police-restricts-transport-ahead-of-major-protest-demanding-election-chief-resign/238549",
+    "https://www.thenewsminute.com/news/october-10-cjp-protest-in-delhi-trains-cancelled-57-metro-stations-to-be-shut"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "AFP via Malay Mail",
+    "The News Minute"
+  ],
+  "hashtags": ["#MATRIX24", "#India", "#NuevaDelhi", "#Elecciones", "#Protestas"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Miles de policías, metro cerrado y trenes cancelados en Nueva Delhi ante una protesta que exige la renuncia del jefe electoral por la depuración del padrón.",
+  "summary_en": "Thousands of police, closed metro stations and cancelled trains in New Delhi ahead of a protest demanding the election chief resign over the voter-roll purge.",
+  "highlight_es": "Nueva Delhi",
+  "highlight_en": "New Delhi",
+  "visual_label": "Nueva Delhi",
+  "image_prompt": "Empty wide avenue in a large South Asian capital lined with rows of metal crowd-control barricades, a closed metro station entrance with shutters down, early morning haze, wide cinematic view, no people, no text",
+  "map": {
+    "focus": ["India"],
+    "marker": {"lat": 28.61, "lon": 77.21, "label": "Nueva Delhi"},
+    "labels": {"India": "India"}
+  }
+}
