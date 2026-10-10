@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-ships-near-uae-told-to-leave-anchorages",
+  "status": "draft",
+  "created_at": "2026-10-10T21:29:14Z",
+  "category": "Security / Geopolitics",
+  "headline": "Ships near the UAE's Ras Al Khaimah told by radio to leave their anchorages",
+  "headline_es": "Ordenan por radio a barcos cerca de Ras al Jaima, en EAU, abandonar sus fondeaderos",
+  "caption_en": "The UK Maritime Trade Operations centre (UKMTO) said on Saturday that several ship captains near Ras Al Khaimah, in the United Arab Emirates, reported being told by VHF radio broadcast to leave their anchorages. The advisory did not say who sent the broadcasts. The report comes amid ongoing maritime security incidents around the Strait of Hormuz.",
+  "caption_es": "El centro británico de Operaciones de Comercio Marítimo (UKMTO) informó el sábado que varios capitanes de barcos cerca de Ras al Jaima, en los Emiratos Árabes Unidos, reportaron haber recibido por radio VHF la orden de abandonar sus fondeaderos. El aviso no indicó quién emitió las transmisiones. El reporte llega en medio de continuos incidentes de seguridad marítima en torno al estrecho de Ormuz.",
+  "source_urls": [
+    "https://www.devdiscourse.com/article/international/3990207-ukmto-says-vessels-near-uaes-ras-al-khaimah-told-to-leave-anchorages",
+    "https://www.anews.com.tr/world/2026/10/10/ships-near-uae-coast-told-to-leave-anchorages-in-radio-broadcast-uk-maritime-agency"
+  ],
+  "source_names": ["Reuters (via Devdiscourse)", "Anadolu Agency (via A News)"],
+  "hashtags": ["#MATRIX24", "#UKMTO", "#Ormuz", "#EAU", "#Hormuz"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Capitanes de barcos cerca de Ras al Jaima (EAU) recibieron por radio VHF la orden de dejar sus fondeaderos, según la agencia británica UKMTO. No se sabe quién envió las transmisiones.",
+  "summary_en": "Ship captains near Ras Al Khaimah (UAE) were told by VHF radio to leave their anchorages, UKMTO said. It is not known who sent the broadcasts.",
+  "highlight_es": "abandonar sus fondeaderos",
+  "highlight_en": "leave their anchorages",
+  "visual_label": "Ras al Jaima",
+  "image_prompt": "Several large cargo ships and tankers at anchor in calm Gulf waters at dusk, a ship's bridge with a VHF radio handset in the foreground, desert coastline in the distance, wide cinematic view",
+  "map": {
+    "focus": ["United Arab Emirates"],
+    "marker": {"lat": 25.79, "lon": 55.94, "label": "Ras al Jaima"},
+    "labels": {"United Arab Emirates": "Emiratos Árabes Unidos"}
+  }
+}
