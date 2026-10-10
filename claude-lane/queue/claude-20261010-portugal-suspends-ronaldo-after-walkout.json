@@ -28,9 +28,9 @@
   "highlight_en": "suspends Cristiano Ronaldo",
   "image_prompt": "Empty football stadium at dusk with a lone ball resting on the grass near the touchline, an empty substitutes' bench in the foreground, dramatic stadium lights, wide cinematic view",
   "visual_label": "Selección",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261010-portugal-suspends-ronaldo-after-walkout.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "f749e6f1-fee9-411b-b65c-af45f2be9179",
   "ig_media_id": null,
   "history": [
     {
@@ -42,7 +42,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-10T16:59:41.406Z",
+      "event": "reserved",
+      "publish_attempt_id": "f749e6f1-fee9-411b-b65c-af45f2be9179"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-10T16:59:41.406Z"
 }
