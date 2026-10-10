@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-sudan-drone-strike-blue-nile-displaced",
+  "status": "draft",
+  "created_at": "2026-10-10T11:53:36Z",
+  "category": "Security / Geopolitics",
+  "headline": "Drone strike kills dozens, including children, in Sudan's Blue Nile state",
+  "headline_es": "Ataque con dron mata a decenas de personas, entre ellas niños, en Nilo Azul, Sudán",
+  "caption_en": "A drone strike on Friday killed dozens of people, including children, in the Abu Shandi area of Sudan's Blue Nile state, near the border with Ethiopia, where people displaced by fighting had taken shelter. Death tolls differ: the regional government reported 30 dead, while the Emergency Lawyers group put the toll at 40 or more. Both blamed the paramilitary Rapid Support Forces, and the UN humanitarian office said it was appalled.",
+  "caption_es": "Un ataque con dron mató el viernes a decenas de personas, entre ellas niños, en la zona de Abu Shandi, en el estado sudanés de Nilo Azul, cerca de la frontera con Etiopía, donde se refugiaban personas desplazadas por los combates. Las cifras varían: el gobierno regional informó de 30 muertos, mientras que el grupo Abogados de Emergencia habla de 40 o más. Ambos culparon a las paramilitares Fuerzas de Apoyo Rápido, y la oficina humanitaria de la ONU se declaró consternada.",
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/drone-strike-sudan-kills-40-lebanon-welcomes-us-137154846",
+    "https://www.dabangasudan.org/en/all-news/article/drone-strikes-and-deadly-explosions-kill-scores-of-civilians-across-sudan",
+    "https://www.riotimesonline.com/sudan-blue-nile-drone-strike-2026/"
+  ],
+  "source_names": ["Associated Press (via ABC News)", "Radio Dabanga", "The Rio Times"],
+  "hashtags": ["#MATRIX24", "#Sudan", "#Sudán", "#BlueNile", "#Humanitarian"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Un ataque con dron contra un refugio de desplazados en Abu Shandi, Nilo Azul, dejó decenas de muertos. Las autoridades regionales culpan a las Fuerzas de Apoyo Rápido.",
+  "summary_en": "A drone strike on a shelter for displaced people in Abu Shandi, Blue Nile, killed dozens. Regional authorities blame the Rapid Support Forces.",
+  "highlight_es": "Ataque con dron",
+  "highlight_en": "Drone strike",
+  "visual_label": "Nilo Azul",
+  "image_prompt": "Makeshift tents and simple shelters on a dry savanna plain at dusk, a lone small drone silhouette in a hazy sky, distant low hills, somber muted colors, wide cinematic view, no people",
+  "map": {
+    "focus": ["Sudan"],
+    "labels": {"Sudan": "Sudán"}
+  }
+}

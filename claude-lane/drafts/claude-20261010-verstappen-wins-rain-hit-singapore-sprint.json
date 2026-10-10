@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-verstappen-wins-rain-hit-singapore-sprint",
+  "status": "draft",
+  "created_at": "2026-10-10T11:53:36Z",
+  "category": "Sports",
+  "headline": "Verstappen wins rain-hit Singapore Sprint as Russell crashes out on the first lap",
+  "headline_es": "Verstappen gana el Sprint de Singapur bajo la lluvia y Russell abandona en la primera vuelta",
+  "caption_en": "Max Verstappen of Red Bull won Saturday's rain-delayed Formula 1 Sprint at Singapore's Marina Bay circuit, ahead of Ferrari's Lewis Hamilton and Charles Leclerc. George Russell took the lead at the start but crashed at the end of the first lap and retired. Championship leader Kimi Antonelli finished fourth, while McLaren's Lando Norris and Oscar Piastri collided, finishing eighth and 14th.",
+  "caption_es": "Max Verstappen, de Red Bull, ganó el sábado el Sprint de Fórmula 1 en el circuito de Marina Bay, en Singapur, retrasado por la lluvia, por delante de Lewis Hamilton y Charles Leclerc, de Ferrari. George Russell tomó el liderato en la salida, pero chocó al final de la primera vuelta y abandonó. El líder del campeonato, Kimi Antonelli, terminó cuarto, mientras que Lando Norris y Oscar Piastri, de McLaren, chocaron entre sí y acabaron octavo y 14.º.",
+  "source_urls": [
+    "https://www.formula1.com/en/latest/article/verstappen-wins-dramatic-rain-hit-singapore-sprint-as-russell-crashes-and-mclarens-collide.4r90mH2skljBa5sinFAsyp",
+    "https://www.the-race.com/formula-1/f1-2026-singapore-grand-prix-sprint-race-result/"
+  ],
+  "source_names": ["Formula1.com", "The Race"],
+  "hashtags": ["#MATRIX24", "#F1", "#SingaporeGP", "#Verstappen", "#Formula1"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Verstappen ganó el Sprint de Singapur bajo la lluvia, por delante de los Ferrari de Hamilton y Leclerc. Russell abandonó tras chocar en la primera vuelta.",
+  "summary_en": "Verstappen won the rain-hit Singapore Sprint ahead of Ferrari's Hamilton and Leclerc. Russell retired after crashing on the first lap.",
+  "highlight_es": "Sprint de Singapur",
+  "highlight_en": "Singapore Sprint",
+  "visual_label": "Marina Bay",
+  "image_prompt": "Generic unmarked open-wheel race car speeding on a wet floodlit city street circuit at night, spray rising from the tires, blurred skyscraper lights reflected on the asphalt, wide cinematic view"
+}
