@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-mexico-convicts-three-surfer-killings",
+  "created_at": "2026-10-10T00:58:09Z",
+  "category": "Colombia / Latin America",
+  "headline": "Mexican judge convicts three men of killing Australian and US surfers",
+  "headline_es": "Juez mexicano declara culpables a tres hombres por asesinar a surfistas",
+  "caption_es": "Un juez de Ensenada, Baja California, declaró culpables a tres hombres del asesinato de los hermanos australianos Callum y Jake Robinson y de su amigo estadounidense Carter Rhoad durante un viaje de surf en abril de 2024. La sentencia se anunciará el 16 de octubre; la fiscalía pidió 210 años de prisión para cada acusado.",
+  "caption_en": "A judge in Ensenada, Baja California, found three men guilty of murdering Australian brothers Callum and Jake Robinson and their American friend Carter Rhoad during a surfing trip in April 2024. The sentence will be announced on October 16; prosecutors asked for 210 years in prison for each defendant.",
+  "source_urls": [
+    "https://cbsnews.com/news/men-guilty-mexico-australian-american-surfer-murders",
+    "https://abc.net.au/news/2026-10-10/jake-callum-robinson-mexico-murder-trial-verdict/107231538"
+  ],
+  "source_names": [
+    "CBS News / AP",
+    "ABC News (Australia)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#México",
+    "#BajaCalifornia",
+    "#Justicia"
+  ],
+  "summary_es": "Un juez de Ensenada halló culpables a tres hombres por el asesinato de dos surfistas australianos y un estadounidense en 2024. La sentencia llegará el 16 de octubre.",
+  "summary_en": "An Ensenada judge found three men guilty of killing two Australian surfers and an American in 2024. Sentencing is set for October 16.",
+  "highlight_es": "culpables",
+  "highlight_en": "convicts three men",
+  "image_prompt": "Empty Pacific coastline at dawn in Baja California, surfboards resting against a rocky bluff, quiet courthouse columns in soft light on the side, wide cinematic view, muted tones",
+  "visual_label": "Ensenada",
+  "map": {
+    "focus": [
+      "Mexico"
+    ],
+    "marker": {
+      "lat": 31.87,
+      "lon": -116.6,
+      "label": "Ensenada"
+    },
+    "labels": {
+      "Mexico": "México"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T01:20:04.490Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
