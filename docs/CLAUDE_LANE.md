@@ -178,6 +178,15 @@ transaction across platforms):
   decision to enable it.
 - Rollback: nothing is live; delete the workflow or revert the PR.
 
+## Format test (owner-authorized 2026-10-10)
+- One carousel (2 published cards) and one Reel (test video in
+  `claude-lane/media/format-test/`), each marked as a test and published ONCE.
+- Workflow `claude-lane-format-test.yml`: manual only, requires typing
+  `PUBLICAR_PRUEBA_FORMATOS`. Shares the `claude-lane` concurrency group.
+- No queue, repo or state writes. Any failure stops that format; no retry.
+- After the test: live carousel and Reel wiring needs a separate PR and owner
+  approval. Rollback: delete the two test posts in Instagram; delete the workflow.
+
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
 
 A `publish_unknown` record blocks the whole lane until it is resolved. The

@@ -1,0 +1,36 @@
+name: Claude Lane format test (owner-authorized, manual)
+
+# One carousel and one Reel, marked as tests, published once each. Manual only.
+# Requires the confirmation input. Authorized by Justen 2026-10-10. See
+# scripts/claude-lane/format-test.mjs and docs/CLAUDE_LANE.md "Format test".
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type PUBLICAR_PRUEBA_FORMATOS to publish the two test posts'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: claude-lane
+  cancel-in-progress: false
+
+jobs:
+  format-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Publish format test (carousel and Reel, once each)
+        env:
+          IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          CONFIRM_INPUT: ${{ inputs.confirm }}
+        run: node scripts/claude-lane/format-test.mjs
