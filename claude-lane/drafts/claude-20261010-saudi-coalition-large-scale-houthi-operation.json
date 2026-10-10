@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-saudi-coalition-large-scale-houthi-operation",
+  "status": "draft",
+  "created_at": "2026-10-10T02:01:42Z",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi-led coalition announces large-scale operation against Houthis after deadly Riyadh airport attack",
+  "headline_es": "La coalición saudí anuncia una operación a gran escala contra los hutíes tras el ataque a Riad",
+  "caption_en": "The Saudi-led coalition said it is carrying out a large-scale operation against Houthi personnel and military capabilities in Yemen and that it has destroyed 136 military targets. Saudi aviation authorities said attacks on Thursday on King Khalid International Airport in Riyadh, claimed by the Iran-backed Houthis, killed three Saudi citizens.",
+  "caption_es": "La coalición liderada por Arabia Saudita afirmó que lleva a cabo una operación a gran escala contra el personal y las capacidades militares de los hutíes en Yemen y que ha destruido 136 objetivos militares. Las autoridades de aviación saudíes dijeron que los ataques del jueves contra el Aeropuerto Internacional Rey Jalid de Riad, reivindicados por los hutíes, aliados de Irán, mataron a tres ciudadanos saudíes.",
+  "source_urls": [
+    "https://www.aljazeera.com/amp/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+  ],
+  "source_names": ["Al Jazeera", "CBS News"],
+  "hashtags": ["#MATRIX24", "#Yemen", "#ArabiaSaudita", "#Hutíes", "#Houthis"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La coalición dice haber destruido 136 objetivos militares hutíes en Yemen, tras el ataque reivindicado contra el aeropuerto de Riad que dejó tres muertos.",
+  "summary_en": "The coalition says it has destroyed 136 Houthi military targets in Yemen, following a claimed attack on Riyadh's airport that killed three.",
+  "highlight_es": "operación a gran escala",
+  "highlight_en": "large-scale operation",
+  "visual_label": "Yemen",
+  "image_prompt": "Military jets flying in formation over rugged desert mountains at dusk, distant haze over a dry valley, wide cinematic view",
+  "map": {
+    "focus": ["Yemen", "Saudi Arabia"],
+    "marker": {"lat": 24.96, "lon": 46.70, "label": "Riad"},
+    "labels": {"Yemen": "Yemen", "Saudi Arabia": "Arabia Saudita"}
+  }
+}
