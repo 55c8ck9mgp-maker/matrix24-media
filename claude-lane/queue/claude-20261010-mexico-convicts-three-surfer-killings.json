@@ -40,14 +40,21 @@
       "Mexico": "México"
     }
   },
-  "status": "draft",
-  "image_url": null,
+  "status": "ready_to_publish",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261010-mexico-convicts-three-surfer-killings.jpg",
   "publish_attempt_id": null,
   "ig_media_id": null,
   "history": [
     {
       "at": "2026-10-10T01:20:04.490Z",
       "event": "adopted_from_drafts_branch"
+    },
+    {
+      "at": "2026-10-10T01:20:04.490Z",
+      "event": "rendered",
+      "renderer": "v2",
+      "ai_illustration": true
     }
-  ]
+  ],
+  "ai_illustration": true
 }
