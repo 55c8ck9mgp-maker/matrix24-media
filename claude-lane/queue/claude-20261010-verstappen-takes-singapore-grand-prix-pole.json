@@ -40,10 +40,10 @@
       "Singapore": "Singapur"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261010-verstappen-takes-singapore-grand-prix-pole.jpg",
   "publish_attempt_id": "e1c8d75c-8248-46ec-aae1-8ce67c48e4aa",
-  "ig_media_id": null,
+  "ig_media_id": "18119267062940977",
   "history": [
     {
       "at": "2026-10-10T15:18:18.244Z",
@@ -59,8 +59,15 @@
       "at": "2026-10-10T15:18:55.207Z",
       "event": "reserved",
       "publish_attempt_id": "e1c8d75c-8248-46ec-aae1-8ce67c48e4aa"
+    },
+    {
+      "at": "2026-10-10T15:19:26.786Z",
+      "event": "published",
+      "publish_attempt_id": "e1c8d75c-8248-46ec-aae1-8ce67c48e4aa",
+      "ig_media_id": "18119267062940977"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-10T15:18:55.207Z"
+  "reserved_at": "2026-10-10T15:18:55.207Z",
+  "permalink": "https://www.instagram.com/p/DeUY59dFf_o/"
 }
