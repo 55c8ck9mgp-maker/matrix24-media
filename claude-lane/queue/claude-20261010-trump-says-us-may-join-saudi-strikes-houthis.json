@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-trump-says-us-may-join-saudi-strikes-houthis",
+  "created_at": "2026-10-10T17:59:51Z",
+  "category": "Security / Geopolitics",
+  "headline": "Trump says the US 'may' join Saudi strikes on the Houthis after missile hits Riyadh airport",
+  "headline_es": "Trump dice que EE. UU. 'podría' sumarse a los ataques saudíes contra los hutíes",
+  "caption_es": "El presidente Donald Trump dijo el sábado a periodistas que Estados Unidos evalúa si sumarse a los ataques saudíes contra los rebeldes hutíes de Yemen, aliados de Irán, y que decidirá rápidamente. Sus declaraciones llegaron después de que un misil impactara una terminal de pasajeros del Aeropuerto Internacional Rey Jalid de Riad, dejando heridos y obligando a suspender las operaciones. Los hutíes se han atribuido los ataques de esta semana contra aeropuertos saudíes.",
+  "caption_en": "President Donald Trump told reporters on Saturday that the United States is evaluating whether to join Saudi strikes on Yemen's Iran-backed Houthi rebels and would decide quickly. His remarks came after a missile struck a passenger terminal at Riyadh's King Khalid International Airport, wounding people and forcing the airport to suspend operations. The Houthis have claimed this week's attacks on Saudi airports.",
+  "source_urls": [
+    "https://www.eagletribune.com/region/trump-says-we-may-join-saudi-strikes-on-the-houthis-after-recent-attacks-but-has/article_8dab5436-df80-5c28-947d-e3b89fbda8a6.html",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+  ],
+  "source_names": [
+    "Associated Press (via Eagle-Tribune)",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Houthis",
+    "#Yemen",
+    "#SaudiArabia",
+    "#Trump"
+  ],
+  "summary_es": "Trump afirma que EE. UU. evalúa unirse a los ataques saudíes contra los hutíes y decidirá pronto, tras el impacto de un misil en una terminal del aeropuerto de Riad.",
+  "summary_en": "Trump says the US is weighing joining Saudi strikes on the Houthis and will decide quickly, after a missile hit a Riyadh airport terminal.",
+  "highlight_es": "'podría' sumarse",
+  "highlight_en": "'may' join Saudi strikes",
+  "image_prompt": "Aircraft carrier sailing on a calm sea at dusk with fighter jets parked on deck, rugged desert coastline on the horizon, wide cinematic view",
+  "visual_label": "Yemen",
+  "map": {
+    "focus": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "marker": {
+      "lat": 24.96,
+      "lon": 46.7,
+      "label": "Aeropuerto Riad"
+    },
+    "labels": {
+      "Yemen": "Yemen",
+      "Saudi Arabia": "Arabia Saudita"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T18:00:24.113Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
