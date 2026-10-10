@@ -159,6 +159,13 @@ transaction across platforms):
 - Rule: no `media_publish` until every child is FINISHED. Failures before
   that release the claim as `not_invoked`; a failure at publish is
   `publish_unknown`, which the existing recovery path handles.
+## Reels audio (staging, added 2026-10-10)
+- Code: `scripts/claude-lane/reel-audio.mjs` builds the FFmpeg command for an
+  ORIGINAL news-style bed (synth sting + low noise bed + fade-out, 5 to 60 s).
+  Tests: `tests/claude-lane-reel-audio.test.mjs`. Not wired into any publisher.
+- Limit: the Graph API cannot attach a trending or licensed track to a Reel.
+  The sound must be in the MP4 that is uploaded.
+- Not used: broadcast jingles or licensed music (rights risk).
 - Rollback: nothing is live; delete the module or revert the PR.
 
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
