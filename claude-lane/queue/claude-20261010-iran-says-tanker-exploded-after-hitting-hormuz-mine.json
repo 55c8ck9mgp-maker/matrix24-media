@@ -1,0 +1,57 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261010-iran-says-tanker-exploded-after-hitting-hormuz-mine",
+  "created_at": "2026-10-10T17:29:29Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's Guards say an oil tanker exploded after hitting a mine in the Strait of Hormuz",
+  "headline_es": "Guardia Revolucionaria de Irán dice que un petrolero explotó tras chocar con una mina en Ormuz",
+  "caption_es": "La Guardia Revolucionaria de Irán afirmó este sábado que un petrolero explotó y se incendió tras chocar con una mina naval mientras cruzaba el estrecho de Ormuz, según medios estatales iraníes. La Guardia no identificó el buque ni su bandera. Hasta el momento no hay confirmación independiente ni información sobre víctimas.",
+  "caption_en": "Iran's Revolutionary Guards said on Saturday that an oil tanker exploded and caught fire after hitting a naval mine while transiting the Strait of Hormuz, according to Iranian state media. The Guards did not name the tanker or its flag. There was no independent confirmation and no information on casualties so far.",
+  "source_urls": [
+    "https://www.jpost.com/middle-east/iran-news/article-911241",
+    "https://www.timesofisrael.com/liveblog_entry/irans-guards-says-oil-tanker-exploded-after-hitting-mine-in-hormuz"
+  ],
+  "source_names": [
+    "The Jerusalem Post",
+    "The Times of Israel"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Hormuz",
+    "#Iran",
+    "#Ormuz",
+    "#Petróleo"
+  ],
+  "summary_es": "Según medios estatales iraníes, un petrolero explotó y se incendió al chocar con una mina naval en el estrecho de Ormuz. No se identificó el buque ni hay confirmación independiente.",
+  "summary_en": "Iranian state media say a tanker exploded and caught fire after hitting a naval mine in the Strait of Hormuz. The vessel was not named and there is no independent confirmation.",
+  "highlight_es": "petrolero explotó",
+  "highlight_en": "oil tanker exploded",
+  "image_prompt": "Large oil tanker on a calm grey sea at dusk with a column of dark smoke rising far on the horizon, rugged arid coastline in the distance, wide cinematic view, no people, no text",
+  "visual_label": "Ormuz",
+  "map": {
+    "focus": [
+      "Iran",
+      "Oman"
+    ],
+    "marker": {
+      "lat": 26.57,
+      "lon": 56.25,
+      "label": "Estrecho de Ormuz"
+    },
+    "labels": {
+      "Iran": "Irán",
+      "Oman": "Omán"
+    }
+  },
+  "breaking": true,
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-10T17:34:02.623Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
