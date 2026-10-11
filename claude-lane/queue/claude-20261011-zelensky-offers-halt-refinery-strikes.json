@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-zelensky-offers-halt-refinery-strikes",
+  "created_at": "2026-10-11T12:58:19Z",
+  "category": "Security / Geopolitics",
+  "headline": "Zelensky says Ukraine will stop hitting Russian refineries if Russia spares its energy grid",
+  "headline_es": "Zelenski dice que Ucrania dejará de atacar refinerías rusas si Rusia respeta su red eléctrica",
+  "caption_es": "El presidente ucraniano, Volodímir Zelenski, dijo el domingo que Ucrania está dispuesta a dejar de atacar refinerías de petróleo rusas si Rusia deja de atacar la infraestructura energética ucraniana. En X afirmó que cualquier desescalada debe ser recíproca y contar con garantías reales. La oferta llegó un día después de que el presidente de EE. UU., Donald Trump, culpara a esos ataques del alza de los combustibles y le exigiera detenerlos.",
+  "caption_en": "Ukrainian President Volodymyr Zelensky said on Sunday that Ukraine is ready to stop striking Russian oil refineries if Russia stops attacking Ukraine's energy infrastructure. Writing on X, he said any de-escalation must be reciprocal and backed by real guarantees. The offer came a day after US President Donald Trump blamed the refinery strikes for rising fuel prices and told Zelensky to stop them.",
+  "source_urls": [
+    "https://www.france24.com/en/live-news/20261011-ukraine-to-stop-refinery-strikes-when-russia-curbs-energy-attacks-zelensky",
+    "https://www.newsweek.com/zelensky-stands-by-russian-refinery-strikes-as-trump-demands-hes-replaced-12552539"
+  ],
+  "source_names": [
+    "France 24 (AFP)",
+    "Newsweek"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Zelensky",
+    "#Energia"
+  ],
+  "summary_es": "Zelenski ofrece frenar los ataques a refinerías rusas a cambio de que Moscú deje de golpear la red energética de Ucrania.",
+  "summary_en": "Zelensky offers to halt strikes on Russian refineries if Moscow stops hitting Ukraine's energy grid.",
+  "highlight_es": "refinerías rusas",
+  "highlight_en": "Russian refineries",
+  "image_prompt": "Oil refinery towers and storage tanks at dusk beside high-voltage power lines stretching across a flat winter landscape, cold blue light, wide cinematic view",
+  "visual_label": "Refinerías",
+  "map": {
+    "focus": [
+      "Ukraine",
+      "Russia"
+    ],
+    "labels": {
+      "Ukraine": "Ucrania",
+      "Russia": "Rusia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-11T18:00:04.518Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
