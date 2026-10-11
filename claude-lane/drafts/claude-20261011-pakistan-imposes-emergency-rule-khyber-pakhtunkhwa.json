@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-pakistan-imposes-emergency-rule-khyber-pakhtunkhwa",
+  "status": "draft",
+  "created_at": "2026-10-11T09:58:10Z",
+  "category": "World",
+  "headline": "Pakistan imposes emergency rule in Khyber Pakhtunkhwa, the province run by Imran Khan's party",
+  "headline_es": "Pakistán impone el estado de emergencia en Khyber Pakhtunkhwa, gobernada por el partido de Imran Khan",
+  "caption_en": "President Asif Ali Zardari approved a state of emergency in Khyber Pakhtunkhwa on Sunday on the advice of Prime Minister Shehbaz Sharif's cabinet, citing the provincial government's disengagement from the fight against terrorism. The northwestern province is governed by Imran Khan's PTI, which has been marching toward Islamabad to demand the release of the jailed former prime minister. PTI said the province's elected government had been overthrown.",
+  "caption_es": "El presidente Asif Ali Zardari aprobó el domingo el estado de emergencia en Khyber Pakhtunkhwa por recomendación del gabinete del primer ministro Shehbaz Sharif, alegando que el gobierno provincial se desentendió de la lucha contra el terrorismo. La provincia del noroeste está gobernada por el PTI de Imran Khan, que marcha hacia Islamabad para exigir la liberación del ex primer ministro encarcelado. El PTI afirmó que el gobierno electo de la provincia fue derrocado.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/11/pakistan-imposes-emergency-rule-in-khyber-pakhtunkhwa",
+    "https://www.arabnews.pk/pakistan/pakistan-president-imposes-emergency-in-opposition-ruled-khyber-pakhtunkhwa-province-3003824"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Arab News Pakistan"
+  ],
+  "hashtags": ["#MATRIX24", "#Pakistan", "#Pakistán", "#ImranKhan", "#KhyberPakhtunkhwa"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El gobierno federal asume amplios poderes sobre la provincia del noroeste mientras el partido de Imran Khan avanza en su marcha hacia Islamabad.",
+  "summary_en": "The federal government takes broad powers over the northwestern province as Imran Khan's party presses its march toward Islamabad.",
+  "highlight_es": "estado de emergencia",
+  "highlight_en": "emergency rule",
+  "visual_label": "Peshawar",
+  "image_prompt": "Mountain highway in northwestern Pakistan at dusk with a line of empty parked trucks and metal road barriers, rugged brown hills in the background, government buildings silhouetted in the distance, wide cinematic view, no people, no text",
+  "map": {
+    "focus": ["Pakistan"],
+    "marker": {"lat": 34.01, "lon": 71.58, "label": "Peshawar"},
+    "labels": {"Pakistan": "Pakistán"}
+  }
+}

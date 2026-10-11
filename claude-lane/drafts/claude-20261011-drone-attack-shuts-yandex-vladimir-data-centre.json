@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-drone-attack-shuts-yandex-vladimir-data-centre",
+  "status": "draft",
+  "created_at": "2026-10-11T09:58:10Z",
+  "category": "Technology",
+  "headline": "Drone attack shuts down Yandex data centre in Russia's Vladimir, the third strike in a week",
+  "headline_es": "Un ataque con drones paraliza un centro de datos de Yandex en Vladímir, el tercero en una semana",
+  "caption_en": "Russian tech company Yandex said operations at its data centre in Vladimir, east of Moscow, were halted after a drone attack early Sunday, knocking several of its services offline. No injuries were reported. It is the third attack on Yandex data centres in a week, after strikes on facilities in Sasovo and Kaluga.",
+  "caption_es": "La tecnológica rusa Yandex informó que las operaciones de su centro de datos en Vladímir, al este de Moscú, quedaron suspendidas tras un ataque con drones la madrugada del domingo, que dejó fuera de servicio varias de sus plataformas. No se reportaron heridos. Es el tercer ataque contra centros de datos de Yandex en una semana, tras los ataques a instalaciones en Sásovo y Kaluga.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/11/russias-yandex-says-data-centre-in-vladimir-shut-down-after-drone-attack",
+    "https://www.kyivpost.com/post/86708"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Kyiv Post"
+  ],
+  "hashtags": ["#MATRIX24", "#Yandex", "#Rusia", "#Ucrania", "#Drones"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Yandex suspendió por completo su centro de datos de Vladímir; varios servicios quedaron caídos y la empresa opera en modo de emergencia.",
+  "summary_en": "Yandex fully suspended its Vladimir data centre; several services went down and the company is running in emergency mode.",
+  "highlight_es": "centro de datos",
+  "highlight_en": "Yandex data centre",
+  "visual_label": "Vladímir",
+  "image_prompt": "Large industrial data centre building at night in an autumn Russian landscape, rows of cooling units on the roof, a faint plume of smoke rising in the distance, darkened windows, wide cinematic view, no people, no text",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 56.13, "lon": 40.41, "label": "Vladímir"},
+    "labels": {"Russia": "Rusia"}
+  }
+}
