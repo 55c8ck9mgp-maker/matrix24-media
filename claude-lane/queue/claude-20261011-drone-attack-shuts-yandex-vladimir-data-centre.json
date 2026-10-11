@@ -41,10 +41,10 @@
       "Russia": "Rusia"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261011-drone-attack-shuts-yandex-vladimir-data-centre.jpg",
   "publish_attempt_id": "97ad3be4-4b24-4b45-95b3-7a582f7ea1d9",
-  "ig_media_id": null,
+  "ig_media_id": "18008257506004349",
   "history": [
     {
       "at": "2026-10-11T10:01:45.714Z",
@@ -60,8 +60,15 @@
       "at": "2026-10-11T10:02:24.310Z",
       "event": "reserved",
       "publish_attempt_id": "97ad3be4-4b24-4b45-95b3-7a582f7ea1d9"
+    },
+    {
+      "at": "2026-10-11T10:03:04.021Z",
+      "event": "published",
+      "publish_attempt_id": "97ad3be4-4b24-4b45-95b3-7a582f7ea1d9",
+      "ig_media_id": "18008257506004349"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-11T10:02:24.310Z"
+  "reserved_at": "2026-10-11T10:02:24.310Z",
+  "permalink": "https://www.instagram.com/p/DeWZes-lRQD/"
 }
