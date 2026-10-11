@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-india-frees-cockroach-movement-leaders",
+  "created_at": "2026-10-11T07:36:46Z",
+  "category": "World",
+  "headline": "India frees 'cockroach' movement leaders after thousands detained at Delhi protest",
+  "headline_es": "India libera a líderes del movimiento 'cucaracha' tras miles de detenidos en Delhi",
+  "caption_es": "Tres líderes del movimiento juvenil indio Cockroach Janta Party, entre ellos su fundador Abhijeet Dipke, fueron liberados con la condición de mantener la paz durante un año, tras ser detenidos al llegar en avión a Delhi el sábado. Miles de personas fueron detenidas en la capital mientras las autoridades intentaban impedir una protesta que exige la renuncia del jefe de la Comisión Electoral por una revisión del padrón electoral.",
+  "caption_en": "Three leaders of India's youth-led Cockroach Janta Party, including founder Abhijeet Dipke, were released on condition that they keep the peace for one year, after being detained from their flight on arrival in Delhi on Saturday. Thousands of people were detained across the capital as authorities moved to stop a protest demanding the resignation of the chief election commissioner over a voter-roll revision.",
+  "source_urls": [
+    "https://www.malaymail.com/news/world/2026/10/11/indian-court-releases-cockroach-movement-leaders-from-detention/238680",
+    "https://www.deccanherald.com/india/delhi/maintain-peace-for-a-year-cjps-abhijeet-dipke-saurav-das-and-ashutosh-ranka-released-on-condition-4178499",
+    "https://www.business-standard.com/india-news/delhi-protests-cjp-abhijeet-dipke-ranka-detained-police-traffic-diversions-126101100117_1.html"
+  ],
+  "source_names": [
+    "AFP via Malay Mail",
+    "Deccan Herald",
+    "Business Standard"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#India",
+    "#NuevaDelhi",
+    "#Protestas",
+    "#Elecciones"
+  ],
+  "summary_es": "Los tres líderes del Cockroach Janta Party quedaron libres con la condición de mantener la paz un año, tras una jornada con miles de detenidos en Delhi.",
+  "summary_en": "The three Cockroach Janta Party leaders were freed on a one-year keep-the-peace condition after a day of mass detentions in Delhi.",
+  "highlight_es": "libera",
+  "highlight_en": "frees",
+  "image_prompt": "Wide avenue in a large South Asian capital at dawn with rows of metal police barricades pushed aside, an empty city bus parked by the curb, soft haze and long shadows, wide cinematic view, no people, no text",
+  "visual_label": "Nueva Delhi",
+  "map": {
+    "focus": [
+      "India"
+    ],
+    "marker": {
+      "lat": 28.61,
+      "lon": 77.21,
+      "label": "Nueva Delhi"
+    },
+    "labels": {
+      "India": "India"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-11T07:48:09.415Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
