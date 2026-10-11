@@ -1,0 +1,52 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-migrant-boat-capsizes-off-djibouti-109-dead",
+  "status": "draft",
+  "created_at": "2026-10-11T11:54:08Z",
+  "category": "World",
+  "breaking": true,
+  "headline": "At least 109 migrants dead, including 15 children, after boat capsizes off Djibouti",
+  "headline_es": "Al menos 109 migrantes muertos, entre ellos 15 niños, al volcar una embarcación frente a Yibuti",
+  "caption_en": "A boat carrying more than 300 people from Djibouti toward Yemen capsized late Thursday or early Friday, the International Organization for Migration said on Sunday. At least 109 people died, including 15 children, more than 80 survived and at least 116 are still missing. The route across the Bab el-Mandeb Strait is used by migrants from the Horn of Africa seeking work and safety in Gulf countries.",
+  "caption_es": "Una embarcación que llevaba a más de 300 personas desde Yibuti hacia Yemen volcó entre la noche del jueves y la madrugada del viernes, informó el domingo la Organización Internacional para las Migraciones. Al menos 109 personas murieron, entre ellas 15 niños; más de 80 sobrevivieron y al menos 116 siguen desaparecidas. La ruta por el estrecho de Bab el-Mandeb la usan migrantes del Cuerno de África que buscan trabajo y seguridad en los países del Golfo.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/11/at-least-109-dead-over-100-missing-as-migrant-boat-capsizes-off-djibouti",
+    "https://www.whio.com/news/world/109-migrants/76APPUV23I6URF4D7WYCYOW36A/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Associated Press (via WHIO)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Djibouti",
+    "#Yibuti",
+    "#Migrants",
+    "#BabElMandeb"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La OIM informa de al menos 109 muertos y más de 116 desaparecidos en la ruta migratoria entre el Cuerno de África y Yemen.",
+  "summary_en": "The IOM reports at least 109 dead and over 116 missing on the migration route from the Horn of Africa to Yemen.",
+  "highlight_es": "109 migrantes muertos",
+  "highlight_en": "109 migrants dead",
+  "visual_label": "Golfo de Adén",
+  "image_prompt": "Empty small wooden boat drifting on a dark grey sea at dawn near an arid coastline, a distant rescue vessel on the horizon, overcast sky, wide cinematic view, no people, no text",
+  "map": {
+    "focus": [
+      "Djibouti",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 11.6,
+      "lon": 43.4,
+      "label": "Costa de Yibuti"
+    },
+    "labels": {
+      "Djibouti": "Yibuti",
+      "Yemen": "Yemen"
+    }
+  }
+}
