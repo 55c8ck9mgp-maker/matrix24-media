@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-11T15:23:36Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261011-tanker-hit-by-projectile-leaving-hormuz",
+  "category": "Security / Geopolitics",
+  "headline": "Tanker leaving the Strait of Hormuz damaged by unidentified projectile, UKMTO says",
+  "headline_es": "Un proyectil no identificado daña a un petrolero que salía del estrecho de Ormuz",
+  "caption_en": "A tanker sailing outbound from the Strait of Hormuz was struck on its port side by an unidentified projectile on Sunday, the UK Maritime Trade Operations centre said. All crew members were reported safe and no environmental impact was reported. The source of the projectile was not known and authorities are investigating.",
+  "caption_es": "Un petrolero que salía del estrecho de Ormuz fue alcanzado el domingo en su costado de babor por un proyectil no identificado, informó el centro británico de Operaciones de Comercio Marítimo (UKMTO). Toda la tripulación está a salvo y no se reportó impacto ambiental. Se desconoce el origen del proyectil y las autoridades investigan.",
+  "source_urls": [
+    "https://gulfnews.com/world/mena/tanker-struck-by-unidentified-projectile-in-strait-of-hormuz-ukmto-says-1.500706575",
+    "https://www.khan.co.kr/en/article/202610112258007/"
+  ],
+  "source_names": [
+    "Gulf News",
+    "The Kyunghyang Shinmun"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Hormuz",
+    "#Ormuz",
+    "#Shipping"
+  ],
+  "summary_es": "Un proyectil de origen desconocido alcanzó el costado de un petrolero que salía de Ormuz. La tripulación está a salvo y se investiga el ataque.",
+  "summary_en": "An unidentified projectile hit the port side of a tanker leaving Hormuz. All crew are safe and authorities are investigating.",
+  "highlight_es": "estrecho de Ormuz",
+  "highlight_en": "Strait of Hormuz",
+  "visual_label": "Ormuz",
+  "image_prompt": "Large oil tanker sailing through a narrow strait at dusk, rugged arid mountains on the shore, calm dark water, thin haze over the horizon, wide cinematic view",
+  "map": {
+    "focus": [
+      "Iran",
+      "Oman"
+    ],
+    "marker": {
+      "lat": 26.57,
+      "lon": 56.25,
+      "label": "Estrecho de Ormuz"
+    },
+    "labels": {
+      "Iran": "Irán",
+      "Oman": "Omán"
+    }
+  }
+}

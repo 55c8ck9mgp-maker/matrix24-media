@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-11T15:23:36Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261011-zelensky-elections-need-60-day-ceasefire",
+  "category": "Security / Geopolitics",
+  "headline": "Zelensky rejects Trump's call to replace him, says elections need a 60-day ceasefire",
+  "headline_es": "Zelenski rechaza el llamado de Trump a reemplazarlo: elecciones requieren 60 días de tregua",
+  "caption_en": "Ukrainian President Volodymyr Zelensky said on Sunday that it is up to Ukrainians to choose their leader, rejecting US President Donald Trump's call for a new president in Ukraine. In an interview with ABC News, he said Ukraine could hold elections if Russia agreed to a total ceasefire of 60 days, and urged Trump's team to ask Vladimir Putin for it.",
+  "caption_es": "El presidente ucraniano, Volodímir Zelenski, afirmó el domingo que corresponde a los ucranianos elegir a su líder, en rechazo al llamado del presidente estadounidense Donald Trump a que Ucrania tenga un nuevo presidente. En una entrevista con ABC News, dijo que Ucrania podría celebrar elecciones si Rusia acepta un alto el fuego total de 60 días, y pidió al equipo de Trump que se lo solicite a Vladímir Putin.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/11/up-to-our-people-to-pick-leader-zelenskyy-responds-to-trumps-pledge-for-new-elections-in-u",
+    "https://www.abc.net.au/news/2026-10-12/ukraine-trump-zelenskyy-elections/107254072"
+  ],
+  "source_names": [
+    "Euronews",
+    "ABC News (Australia)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ukraine",
+    "#Zelensky",
+    "#Trump",
+    "#Elecciones"
+  ],
+  "summary_es": "Zelenski dijo que elegir líder corresponde a los ucranianos y que habrá elecciones si Rusia acepta 60 días de alto el fuego total.",
+  "summary_en": "Zelensky said choosing a leader is up to Ukrainians and that elections could be held if Russia agrees to a 60-day total ceasefire.",
+  "highlight_es": "60 días de tregua",
+  "highlight_en": "60-day ceasefire",
+  "visual_label": "Kyiv",
+  "image_prompt": "Empty ballot box on a wooden table in a quiet government hall, tall windows with soft autumn light, a calendar on the wall, muted blue and yellow tones, wide cinematic view",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 50.45,
+      "lon": 30.52,
+      "label": "Kiev"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  }
+}
