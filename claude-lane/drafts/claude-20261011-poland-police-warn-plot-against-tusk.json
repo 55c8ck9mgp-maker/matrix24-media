@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-poland-police-warn-plot-against-tusk",
+  "status": "draft",
+  "created_at": "2026-10-11T10:29:00Z",
+  "category": "World",
+  "headline": "Polish police warn of a possible plot to attack PM Donald Tusk and the defense minister",
+  "headline_es": "La policía polaca alerta de un posible complot para atacar al primer ministro Donald Tusk",
+  "caption_en": "Poland's police said on Sunday they had received information about a possible attack on Prime Minister Donald Tusk and Defense Minister Władysław Kosiniak-Kamysz. An Interior Ministry spokesperson said ministers ordered appropriate measures and that security services and police would meet on the threat. No further details about the reported plot have been released.",
+  "caption_es": "La policía de Polonia informó el domingo que recibió información sobre un posible ataque contra el primer ministro Donald Tusk y el ministro de Defensa, Władysław Kosiniak-Kamysz. Una portavoz del Ministerio del Interior dijo que los ministros ordenaron las medidas adecuadas y que los servicios de seguridad y la policía se reunirían para tratar la amenaza. No se han divulgado más detalles sobre el presunto complot.",
+  "source_urls": [
+    "https://www.kwch.com/2026/10/11/polands-police-warn-possible-plot-attack-prime-minister-donald-tusk/",
+    "https://unn.ua/en/news/poland-warned-of-a-possible-attack-on-tusk-and-the-defense-minister"
+  ],
+  "source_names": [
+    "Associated Press",
+    "UNN"
+  ],
+  "hashtags": ["#MATRIX24", "#Poland", "#Polonia", "#Tusk", "#Security"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Las autoridades polacas convocaron una reunión de emergencia de los servicios de seguridad tras recibir el aviso; no hay más detalles por ahora.",
+  "summary_en": "Polish authorities called an emergency meeting of security services after the warning; no further details have been released so far.",
+  "highlight_es": "posible complot",
+  "highlight_en": "possible plot",
+  "visual_label": "Varsovia",
+  "image_prompt": "Government district of a European capital at grey morning light, empty plaza with metal security barriers and parked unmarked cars in front of a classical government building, calm tense atmosphere, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": ["Poland"],
+    "marker": {"lat": 52.23, "lon": 21.01, "label": "Varsovia"},
+    "labels": {"Poland": "Polonia"}
+  }
+}
