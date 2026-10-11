@@ -1,0 +1,36 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-verstappen-wins-singapore-grand-prix-first-time",
+  "status": "draft",
+  "created_at": "2026-10-11T13:54:29Z",
+  "category": "Sports",
+  "headline": "Verstappen wins the Singapore Grand Prix for the first time, ahead of Leclerc and Antonelli",
+  "headline_es": "Verstappen gana por primera vez el Gran Premio de Singapur, por delante de Leclerc y Antonelli",
+  "caption_en": "Red Bull's Max Verstappen won Sunday's Formula 1 Singapore Grand Prix from pole position, his first victory at Marina Bay, a day after also winning the Sprint. Ferrari's Charles Leclerc finished about seven seconds back in second and Mercedes' Kimi Antonelli was third, ahead of McLaren's Lando Norris and Oscar Piastri. Antonelli extended his championship lead over teammate George Russell, who recovered from 19th on the grid to ninth.",
+  "caption_es": "Max Verstappen, de Red Bull, ganó el domingo el Gran Premio de Singapur de Fórmula 1 desde la pole position, su primera victoria en Marina Bay, un día después de ganar también el Sprint. Charles Leclerc, de Ferrari, terminó segundo a unos siete segundos y Kimi Antonelli, de Mercedes, fue tercero, por delante de Lando Norris y Oscar Piastri, de McLaren. Antonelli amplió su ventaja en el campeonato sobre su compañero George Russell, que remontó del puesto 19 de la parrilla al noveno.",
+  "source_urls": [
+    "https://www.planetf1.com/news/singapore-grand-prix-2026-race-report",
+    "https://www.crash.net/f1/race-report/1107463/1/peerless-max-verstappen-beats-charles-leclerc-first-singapore-gp-win"
+  ],
+  "source_names": [
+    "PlanetF1",
+    "Crash.net"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#F1",
+    "#SingaporeGP",
+    "#Verstappen",
+    "#Formula1"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Verstappen ganó desde la pole su primer Gran Premio de Singapur, con Leclerc segundo y Antonelli tercero. Antonelli amplió su ventaja en el campeonato.",
+  "summary_en": "Verstappen won his first Singapore Grand Prix from pole, with Leclerc second and Antonelli third. Antonelli extended his championship lead.",
+  "highlight_es": "Gran Premio de Singapur",
+  "highlight_en": "Singapore Grand Prix",
+  "visual_label": "Marina Bay",
+  "image_prompt": "Generic unmarked open-wheel race car crossing a finish line on a floodlit city street circuit at night, chequered pattern on the track edge, blurred skyscraper lights and a harbor in the background, wide cinematic view"
+}
