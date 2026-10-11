@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-mandelblit-testifies-at-netanyahu-trial",
+  "status": "draft",
+  "created_at": "2026-10-11T11:30:47Z",
+  "category": "World",
+  "headline": "Ex-attorney general who indicted Netanyahu testifies at his corruption trial",
+  "headline_es": "El exfiscal general que acusó a Netanyahu declara en su juicio por corrupción",
+  "caption_en": "Former Israeli attorney general Avichai Mandelblit, who announced the indictment of Benjamin Netanyahu nearly seven years ago, testified on Sunday as a defense witness at the prime minister's corruption trial in Jerusalem, with Netanyahu in court. Questioned by the defense, he said some steps in the police investigation were taken without his authorization. The testimony comes about two weeks before Israel's October 27 election.",
+  "caption_es": "El ex fiscal general de Israel Avichai Mandelblit, que anunció la acusación contra Benjamín Netanyahu hace casi siete años, declaró este domingo como testigo de la defensa en el juicio por corrupción contra el primer ministro en Jerusalén, con Netanyahu presente en la sala. Interrogado por la defensa, dijo que algunas actuaciones de la investigación policial se realizaron sin su autorización. El testimonio llega unas dos semanas antes de las elecciones del 27 de octubre en Israel.",
+  "summary_es": "Mandelblit declaró como testigo de la defensa con Netanyahu en la sala y dijo que algunas actuaciones policiales se hicieron sin su autorización.",
+  "summary_en": "Mandelblit testified as a defense witness with Netanyahu in court, saying some police steps were taken without his authorization.",
+  "highlight_es": "exfiscal general",
+  "highlight_en": "Ex-attorney general",
+  "visual_label": "Jerusalén",
+  "image_prompt": "Empty wood-panelled courtroom with a judges' bench and witness stand, soft daylight through tall windows, stacks of legal files on a table, wide cinematic view, muted tones",
+  "map": {
+    "focus": ["Israel"],
+    "marker": {"lat": 31.778, "lon": 35.235, "label": "Jerusalén"},
+    "labels": {"Israel": "Israel"}
+  },
+  "source_urls": [
+    "https://www.ynetnews.com/article/b1ti1oujgl",
+    "https://www.timesofisrael.com/liveblog-october-11-2026",
+    "https://www.jfeed.com/crime-and-justice/tmqgpe"
+  ],
+  "source_names": ["Ynetnews", "The Times of Israel", "JFeed"],
+  "hashtags": ["#MATRIX24", "#Israel", "#Netanyahu", "#Justicia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
