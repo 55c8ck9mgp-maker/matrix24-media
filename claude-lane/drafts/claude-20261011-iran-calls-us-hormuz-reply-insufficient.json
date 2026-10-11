@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-iran-calls-us-hormuz-reply-insufficient",
+  "status": "draft",
+  "created_at": "2026-10-11T17:29:22Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran says the US reply to its conditions for reopening Hormuz is 'insufficient'",
+  "headline_es": "Irán dice que la respuesta de EE. UU. a sus condiciones para reabrir Ormuz es 'insuficiente'",
+  "caption_en": "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, said on Sunday that Washington's response to Iran's seven conditions for reopening the Strait of Hormuz was insufficient. He said the United States must clarify issues that remain unclear to Tehran.",
+  "caption_es": "Mohsen Rezaei, secretario del Consejo Supremo de Seguridad Nacional de Irán, afirmó el domingo que la respuesta de Washington a las siete condiciones iraníes para reabrir el estrecho de Ormuz fue insuficiente. Dijo que Estados Unidos debe aclarar los puntos que siguen sin estar claros para Teherán.",
+  "summary_es": "El secretario del Consejo Supremo de Seguridad Nacional de Irán calificó de insuficiente la respuesta de EE. UU. a las siete condiciones iraníes para reabrir Ormuz.",
+  "summary_en": "The secretary of Iran's Supreme National Security Council called the US reply to Iran's seven conditions for reopening Hormuz insufficient.",
+  "highlight_es": "insuficiente",
+  "highlight_en": "insufficient",
+  "visual_label": "Ormuz",
+  "image_prompt": "Oil tankers waiting at anchor in a narrow strait at dusk, rugged desert coastline on both sides, calm grey water, wide cinematic view",
+  "map": {
+    "focus": ["Iran"],
+    "marker": {"lat": 26.57, "lon": 56.25, "label": "Estrecho de Ormuz"},
+    "labels": {"Iran": "Irán"}
+  },
+  "source_urls": [
+    "https://www.arabnews.com/middle-east/iran-says-us-response-to-its-proposal-to-reopen-hormuz-was-insufficient-state-media-reports-3005806",
+    "https://www.jfeed.com/news-world/tmr5i1"
+  ],
+  "source_names": ["Arab News (Reuters)", "JFeed"],
+  "hashtags": ["#MATRIX24", "#Iran", "#Hormuz", "#EstadosUnidos"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
