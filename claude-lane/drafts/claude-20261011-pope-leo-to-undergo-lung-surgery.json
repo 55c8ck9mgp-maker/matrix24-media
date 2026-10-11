@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-pope-leo-to-undergo-lung-surgery",
+  "status": "draft",
+  "created_at": "2026-10-11T10:53:00Z",
+  "category": "World",
+  "headline": "Pope Leo XIV to undergo surgery to remove a nodule found on his lung",
+  "headline_es": "El papa León XIV será operado para extirpar un nódulo hallado en su pulmón",
+  "caption_en": "Pope Leo XIV announced during his Sunday Angelus address that he will have surgery in the coming days to remove a nodule on his lung. He said recent medical checks found it at a very early stage and that it is well localized, and that he accepted his doctors' advice to remove it. He asked the faithful for their prayers.",
+  "caption_es": "El papa León XIV anunció durante el Ángelus de este domingo que será operado en los próximos días para extirpar un nódulo en el pulmón. Dijo que controles médicos recientes lo detectaron en una fase muy temprana y que está bien localizado, y que aceptó el consejo de sus médicos de retirarlo. Pidió a los fieles que recen por él.",
+  "source_urls": [
+    "https://www.nbcphiladelphia.com/news/national-international/pope-leo-surgery-remove-nodule-on-his-lung/4477707/",
+    "https://uk.lapresse.it/news-en/2026/10/11/pope-surgery-for-lung-nodule-scheduled-in-the-coming-days"
+  ],
+  "source_names": ["The Associated Press (via NBC10 Philadelphia)", "LaPresse"],
+  "hashtags": ["#MATRIX24", "#PapaLeónXIV", "#Vaticano", "#PopeLeo", "#Noticias"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "León XIV anunció en el Ángelus que será operado en los próximos días. El nódulo fue detectado en una fase muy temprana y está bien localizado.",
+  "summary_en": "Leo XIV announced at the Angelus that he will have surgery in the coming days. The nodule was found at a very early stage and is well localized.",
+  "highlight_es": "será operado",
+  "highlight_en": "undergo surgery",
+  "visual_label": "Vaticano",
+  "image_prompt": "Quiet view of St. Peter's Square at dawn with the basilica dome in soft golden light, empty colonnades and a calm sky, wide cinematic view, no people, no text"
+}
