@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-trump-announces-russia-ukraine-energy-ceasefire",
+  "status": "draft",
+  "created_at": "2026-10-11T16:39:00Z",
+  "category": "Security / Geopolitics",
+  "breaking": true,
+  "headline": "Trump announces an immediate 'energy ceasefire' between Russia and Ukraine",
+  "headline_es": "Trump anuncia un 'alto el fuego energético' inmediato entre Rusia y Ucrania",
+  "caption_en": "US President Donald Trump said on Sunday that Russia and Ukraine had agreed to an 'energy ceasefire' taking effect immediately, warning both sides not to break it. He gave no details on its duration or how it would be verified, and neither Moscow nor Kyiv immediately commented. Earlier, Zelensky said Ukraine was ready to stop striking Russian refineries if Russia halted attacks on Ukraine's energy system.",
+  "caption_es": "El presidente de EE. UU., Donald Trump, dijo el domingo que Rusia y Ucrania acordaron un 'alto el fuego energético' con efecto inmediato y advirtió a ambas partes que no lo rompan. No dio detalles sobre su duración ni sobre cómo se verificaría, y ni Moscú ni Kiev comentaron de inmediato. Antes, Zelenski dijo que Ucrania estaba dispuesta a dejar de atacar refinerías rusas si Rusia frenaba sus ataques contra el sistema energético ucraniano.",
+  "summary_es": "Trump afirma que Rusia y Ucrania acordaron dejar de atacar infraestructura energética. Ni Moscú ni Kiev lo confirmaron de inmediato.",
+  "summary_en": "Trump says Russia and Ukraine agreed to stop attacking energy infrastructure. Neither Moscow nor Kyiv immediately confirmed it.",
+  "highlight_es": "alto el fuego energético",
+  "highlight_en": "energy ceasefire",
+  "visual_label": "Energía",
+  "image_prompt": "High-voltage power lines and an oil refinery at dusk on a wide snowy plain, calm sky, cinematic wide view, muted cold tones",
+  "map": {
+    "focus": ["Russia", "Ukraine"],
+    "labels": {"Russia": "Rusia", "Ukraine": "Ucrania"}
+  },
+  "source_urls": [
+    "https://www.kyivpost.com/post/86743",
+    "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire"
+  ],
+  "source_names": ["Kyiv Post", "FOX 13 / Associated Press"],
+  "hashtags": ["#MATRIX24", "#Ukraine", "#Russia", "#Energy", "#Trump"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
