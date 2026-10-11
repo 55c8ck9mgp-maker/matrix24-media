@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-tropical-storm-rachel-nears-baja-california",
+  "created_at": "2026-10-11T00:30:44Z",
+  "category": "Climate",
+  "headline": "Tropical Storm Rachel nears Baja California as San Diego faces a rare storm watch",
+  "headline_es": "La tormenta tropical Rachel se acerca a Baja California y San Diego, bajo una inusual vigilancia",
+  "caption_es": "Se pronosticaba que la tormenta tropical Rachel tocaría tierra en el norte de Baja California la noche del sábado, con avisos de tormenta tropical vigentes desde Baja California hasta la frontera con Estados Unidos. Una vigilancia de tormenta tropical cubre partes del sur de California, incluido San Diego, la primera para la región desde 2023. Los meteorólogos advierten de inundaciones repentinas en el sur de California y el suroeste de EE. UU., incluida Las Vegas, hasta el domingo.",
+  "caption_en": "Tropical Storm Rachel was forecast to make landfall in northern Baja California on Saturday night, with tropical storm warnings in effect from Baja California to the US border. A tropical storm watch covers parts of Southern California including San Diego, the first for the region since 2023. Forecasters warn of flash flooding across Southern California and the US Southwest, including Las Vegas, through Sunday.",
+  "source_urls": [
+    "https://abcnews.com/US/tropical-storm-rachel-fuel-dangerous-flash-flood-threat/story?id=137158727",
+    "https://weather.com/2026/10/10/forecast/regional/tropical-storm-rachel-california-southwest-hurricane-simon-puerto-vallarta"
+  ],
+  "source_names": [
+    "ABC News",
+    "The Weather Channel"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Rachel",
+    "#BajaCalifornia",
+    "#SanDiego",
+    "#Clima"
+  ],
+  "summary_es": "Rachel tocaría tierra en el norte de Baja California el sábado por la noche. San Diego está bajo vigilancia de tormenta tropical, la primera en la región desde 2023, con riesgo de inundaciones repentinas.",
+  "summary_en": "Rachel was forecast to hit northern Baja California Saturday night. San Diego is under a tropical storm watch, the region's first since 2023, with flash flooding possible.",
+  "highlight_es": "tormenta tropical Rachel",
+  "highlight_en": "Tropical Storm Rachel",
+  "image_prompt": "Dark tropical storm clouds rolling over a desert coastline with palm trees bending in strong wind, heavy rain sheets over the Pacific Ocean and rugged mountains, wide cinematic view",
+  "visual_label": "Baja California",
+  "map": {
+    "focus": [
+      "Mexico",
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 31.87,
+      "lon": -116.6,
+      "label": "Baja California"
+    },
+    "labels": {
+      "Mexico": "México",
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-11T00:56:40.929Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
