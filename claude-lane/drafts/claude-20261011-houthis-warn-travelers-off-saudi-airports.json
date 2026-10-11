@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-houthis-warn-travelers-off-saudi-airports",
+  "status": "draft",
+  "created_at": "2026-10-11T14:55:11Z",
+  "category": "Security / Geopolitics",
+  "headline": "Houthis warn airlines and travelers that Saudi airports and airspace are targets",
+  "headline_es": "Los hutíes advierten a aerolíneas y viajeros que aeropuertos y espacio aéreo saudíes son objetivos",
+  "caption_en": "Yemen's Houthis on Sunday renewed a warning to airlines, airport workers and travelers against using Saudi airports and airspace, which their military spokesman Yahya Saree described on X as exposed to targeting and a theater of operations for their forces. The warning follows Saturday's attack on Riyadh's King Khalid International Airport, which Saudi authorities say killed 12 people. The airport remained closed and Riyadh schools switched to remote learning.",
+  "caption_es": "Los hutíes de Yemen renovaron el domingo su advertencia a aerolíneas, trabajadores aeroportuarios y viajeros para que no usen los aeropuertos ni el espacio aéreo de Arabia Saudita, que su portavoz militar, Yahya Saree, describió en X como expuestos a ataques y como un teatro de operaciones de sus fuerzas. La advertencia llega tras el ataque del sábado contra el aeropuerto internacional Rey Khalid de Riad, en el que murieron 12 personas según las autoridades saudíes. El aeropuerto siguió cerrado y las escuelas de Riad pasaron a clases a distancia.",
+  "summary_es": "La advertencia llega tras el ataque que mató a 12 personas en el aeropuerto de Riad, que sigue cerrado; las escuelas de la capital pasaron a clases a distancia.",
+  "summary_en": "The warning follows the attack that killed 12 at Riyadh's airport, which remains closed; schools in the capital moved to remote learning.",
+  "highlight_es": "aeropuertos y espacio aéreo saudíes",
+  "highlight_en": "Saudi airports and airspace",
+  "visual_label": "Riad",
+  "image_prompt": "Empty airport departure hall at dusk with rows of vacant seats and a darkened runway visible through tall glass windows, grounded airliners parked in the distance, tense quiet atmosphere, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Saudi Arabia", "Yemen"],
+    "marker": {"lat": 24.9576, "lon": 46.6988, "label": "Riad"},
+    "labels": {"Saudi Arabia": "Arabia Saudita", "Yemen": "Yemen"}
+  },
+  "source_urls": [
+    "https://www.cbsnews.com/news/houthis-threat-saudi-airspace-attack-riyadh-airport/",
+    "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+  ],
+  "source_names": ["CBS News (AP)", "Al Jazeera"],
+  "hashtags": ["#MATRIX24", "#Yemen", "#SaudiArabia", "#Houthis", "#Riyadh"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
