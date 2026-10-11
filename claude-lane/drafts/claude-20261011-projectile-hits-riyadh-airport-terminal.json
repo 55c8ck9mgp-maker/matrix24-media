@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-projectile-hits-riyadh-airport-terminal",
+  "status": "draft",
+  "created_at": "2026-10-11T15:53:11Z",
+  "category": "Security / Geopolitics",
+  "headline": "Projectile hits a passenger terminal at Riyadh airport, Saudi-led coalition says",
+  "headline_es": "Un proyectil impacta una terminal de pasajeros del aeropuerto de Riad, según la coalición",
+  "caption_en": "The Saudi-led coalition in Yemen said on Sunday that a projectile struck a passenger terminal at Riyadh's King Khalid International Airport. The new strike came less than a day after Saturday's attack on the same airport, which Saudi authorities say killed 12 people and wounded more than 300. No details on casualties from Sunday's impact were immediately available.",
+  "caption_es": "La coalición liderada por Arabia Saudí en Yemen informó el domingo que un proyectil impactó una terminal de pasajeros del Aeropuerto Internacional Rey Jalid de Riad. El nuevo impacto se produjo menos de un día después del ataque del sábado contra el mismo aeropuerto, que según las autoridades saudíes dejó 12 muertos y más de 300 heridos. No se conocieron de inmediato detalles sobre víctimas del impacto del domingo.",
+  "source_urls": [
+    "https://www.kttc.com/2026/10/11/saudi-led-coalition-says-projectile-struck-passenger-terminal-riyadh-airport/",
+    "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis"
+  ],
+  "source_names": ["Associated Press (via KTTC)", "Al Jazeera"],
+  "hashtags": ["#MATRIX24", "#Riad", "#ArabiaSaudí", "#Yemen", "#Riyadh"],
+  "summary_es": "La coalición en Yemen dice que un proyectil alcanzó una terminal de pasajeros del aeropuerto de Riad, un día después del ataque que dejó 12 muertos.",
+  "summary_en": "The coalition in Yemen says a projectile hit a passenger terminal at Riyadh airport, a day after an attack that killed 12.",
+  "highlight_es": "terminal de pasajeros",
+  "highlight_en": "passenger terminal",
+  "visual_label": "Aeropuerto Riad",
+  "image_prompt": "Empty modern airport terminal exterior at dusk with grounded passenger jets on the apron, a thin column of distant smoke in the sky, desert city skyline in the background, wide cinematic view",
+  "map": {
+    "focus": ["Saudi Arabia", "Yemen"],
+    "marker": {"lat": 24.96, "lon": 46.70, "label": "Riad"},
+    "labels": {"Saudi Arabia": "Arabia Saudí", "Yemen": "Yemen"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
