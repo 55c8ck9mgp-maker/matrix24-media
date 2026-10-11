@@ -58,14 +58,23 @@
       "at": "2026-10-11T11:23:44.814Z",
       "event": "facebook_reserved",
       "facebook_attempt_id": "57d0b4e5-fbc9-49c3-91fc-b69b44385a6b"
+    },
+    {
+      "at": "2026-10-11T11:23:50.848Z",
+      "event": "facebook_published",
+      "facebook_attempt_id": "57d0b4e5-fbc9-49c3-91fc-b69b44385a6b",
+      "facebook_post_id": "1300936266441859_122119347903477315"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-11T11:19:37.895Z",
   "permalink": "https://www.instagram.com/p/DeWiUdDEZdt/",
   "facebook": {
-    "status": "publishing",
+    "status": "published",
     "attempt_id": "57d0b4e5-fbc9-49c3-91fc-b69b44385a6b",
-    "reserved_at": "2026-10-11T11:23:44.814Z"
+    "reserved_at": "2026-10-11T11:23:44.814Z",
+    "post_id": "1300936266441859_122119347903477315",
+    "photo_id": "122119347867477315",
+    "published_at": "2026-10-11T11:23:50.848Z"
   }
 }
