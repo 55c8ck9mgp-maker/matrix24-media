@@ -43,10 +43,10 @@
       "United States of America": "Estados Unidos"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261011-tropical-storm-rachel-nears-baja-california.jpg",
   "publish_attempt_id": "6906caf9-1293-46c4-bf4b-f93319d6a0a5",
-  "ig_media_id": null,
+  "ig_media_id": "18074230664479918",
   "history": [
     {
       "at": "2026-10-11T00:56:40.929Z",
@@ -62,8 +62,15 @@
       "at": "2026-10-11T00:57:18.605Z",
       "event": "reserved",
       "publish_attempt_id": "6906caf9-1293-46c4-bf4b-f93319d6a0a5"
+    },
+    {
+      "at": "2026-10-11T00:57:52.813Z",
+      "event": "published",
+      "publish_attempt_id": "6906caf9-1293-46c4-bf4b-f93319d6a0a5",
+      "ig_media_id": "18074230664479918"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-11T00:57:18.605Z"
+  "reserved_at": "2026-10-11T00:57:18.605Z",
+  "permalink": "https://www.instagram.com/p/DeVbGYVEWAt/"
 }
