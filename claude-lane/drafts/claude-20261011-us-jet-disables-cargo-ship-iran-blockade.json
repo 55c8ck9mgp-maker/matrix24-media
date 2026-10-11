@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-us-jet-disables-cargo-ship-iran-blockade",
+  "status": "draft",
+  "created_at": "2026-10-11T00:59:01Z",
+  "category": "Security / Geopolitics",
+  "headline": "US fighter jet disables cargo ship trying to run the blockade of Iran in the Gulf of Oman",
+  "headline_es": "Un caza de EE.UU. inutiliza un carguero que intentó romper el bloqueo a Irán en el golfo de Omán",
+  "caption_en": "The US military says one of its fighter jets struck the stern of the Panama-flagged cargo ship Ocean Molica in the Gulf of Oman with a precision munition, disabling its propulsion. US Central Command said the vessel had left an Iranian port and its crew ignored warnings while trying to run the US naval blockade of Iran. It said the crew was not harmed.",
+  "caption_es": "El ejército de EE.UU. afirma que uno de sus cazas alcanzó con una munición de precisión la popa del carguero Ocean Molica, con bandera de Panamá, en el golfo de Omán, y dejó inutilizada su propulsión. El Comando Central de EE.UU. dijo que el buque había zarpado de un puerto iraní y que su tripulación ignoró las advertencias al intentar romper el bloqueo naval estadounidense a Irán. Según el comando, la tripulación no resultó herida.",
+  "summary_es": "Un caza de EE.UU. golpeó la popa del carguero Ocean Molica, con bandera panameña, tras zarpar de un puerto iraní. El Comando Central dice que la tripulación no resultó herida.",
+  "summary_en": "A US jet struck the stern of the Panama-flagged Ocean Molica after it left an Iranian port. Central Command says the crew was unharmed.",
+  "highlight_es": "inutiliza un carguero",
+  "highlight_en": "disables cargo ship",
+  "visual_label": "Golfo de Omán",
+  "image_prompt": "Large cargo ship drifting on a calm grey sea at dusk, a fighter jet silhouette high in the distant sky, wide cinematic view, muted tones",
+  "map": {
+    "focus": ["Oman", "Iran"],
+    "marker": {"lat": 24.5, "lon": 58.5, "label": "Golfo de Omán"},
+    "labels": {"Oman": "Omán", "Iran": "Irán"}
+  },
+  "source_urls": [
+    "https://www.arabnews.com/middle-east/us-military-says-it-disabled-cargo-vessel-trying-to-run-iran-blockade-3005698",
+    "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-cargo-vessel-trying-run-iran-blockade-disabled"
+  ],
+  "source_names": ["Arab News (Reuters)", "Middle East Eye"],
+  "hashtags": ["#MATRIX24", "#Iran", "#GolfoDeOman", "#EEUU", "#Bloqueo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
