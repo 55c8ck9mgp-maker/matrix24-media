@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-burnham-confirms-russian-interference-brexit-vote",
+  "created_at": "2026-10-11T14:31:39Z",
+  "category": "World",
+  "headline": "UK PM Andy Burnham becomes first British leader to confirm Russian interference in Brexit vote",
+  "headline_es": "Andy Burnham, primer jefe de Gobierno británico en confirmar injerencia rusa en el Brexit",
+  "caption_es": "El primer ministro británico, Andy Burnham, afirmó que Rusia interfirió en el referéndum del Brexit de 2016, la primera vez que un jefe de Gobierno del Reino Unido confirma la implicación del Kremlin en esa votación. En el pódcast The Rest Is Politics, dijo que preguntó por ello al llegar al cargo este verano y recibió un sí claro. Añadió que habló de la influencia rusa en la política europea con el canciller alemán, Friedrich Merz, en Berlín.",
+  "caption_en": "UK Prime Minister Andy Burnham said Russia interfered in the 2016 Brexit referendum, the first time a British prime minister has confirmed Kremlin involvement in the vote. Speaking on The Rest Is Politics podcast, he said he asked about it after taking office this summer and received a clear yes. He said he had discussed Russian influence in European politics with German Chancellor Friedrich Merz in Berlin.",
+  "source_urls": [
+    "https://uk.news.yahoo.com/burnham-becomes-first-pm-confirm-114533727.html",
+    "https://kyivindependent.com/russia-behind-britains-brexit-vote-uk-prime-minister-admits-for-first-time-2/"
+  ],
+  "source_names": [
+    "The Independent",
+    "The Kyiv Independent"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brexit",
+    "#UK",
+    "#ReinoUnido",
+    "#Russia"
+  ],
+  "summary_es": "Burnham dijo que, al asumir el cargo, preguntó si Moscú intervino en el referéndum de 2016 y la respuesta fue un sí claro.",
+  "summary_en": "Burnham said that after taking office he asked whether Moscow was involved in the 2016 referendum and was given a clear yes.",
+  "highlight_es": "injerencia rusa",
+  "highlight_en": "Russian interference",
+  "image_prompt": "Empty wooden ballot box on a table in a quiet British polling hall, long shadows from tall windows, a chess board with a single knight piece nearby, muted grey and red tones, wide cinematic view, no people, no text, no flags, no logos",
+  "visual_label": "Brexit",
+  "map": {
+    "focus": [
+      "United Kingdom"
+    ],
+    "marker": {
+      "lat": 51.5,
+      "lon": -0.13,
+      "label": "Londres"
+    },
+    "labels": {
+      "United Kingdom": "Reino Unido"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-12T00:46:31.819Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
