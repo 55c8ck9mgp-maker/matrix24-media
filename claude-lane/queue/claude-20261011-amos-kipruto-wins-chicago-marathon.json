@@ -43,10 +43,10 @@
       "United States of America": "Estados Unidos"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261011-amos-kipruto-wins-chicago-marathon.jpg",
   "publish_attempt_id": "159bfcf4-c1a3-4d7b-a576-7dcaa61a17a4",
-  "ig_media_id": null,
+  "ig_media_id": "17973513162159104",
   "history": [
     {
       "at": "2026-10-12T06:38:20.990Z",
@@ -62,8 +62,15 @@
       "at": "2026-10-12T06:38:59.015Z",
       "event": "reserved",
       "publish_attempt_id": "159bfcf4-c1a3-4d7b-a576-7dcaa61a17a4"
+    },
+    {
+      "at": "2026-10-12T06:39:32.949Z",
+      "event": "published",
+      "publish_attempt_id": "159bfcf4-c1a3-4d7b-a576-7dcaa61a17a4",
+      "ig_media_id": "17973513162159104"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-12T06:38:59.015Z"
+  "reserved_at": "2026-10-12T06:38:59.015Z",
+  "permalink": "https://www.instagram.com/p/DeYm_raliQk/"
 }
