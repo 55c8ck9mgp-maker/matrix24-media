@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261011-amos-kipruto-wins-chicago-marathon",
+  "created_at": "2026-10-11T14:55:11Z",
+  "category": "Sports",
+  "headline": "Amos Kipruto wins the Chicago Marathon, dethroning defending champion Jacob Kiplimo",
+  "headline_es": "Amos Kipruto gana el Maratón de Chicago y destrona al campeón defensor Jacob Kiplimo",
+  "caption_es": "Amos Kipruto ganó el domingo el Maratón de Chicago y por fin se llevó el título tras terminar tercero en 2024 y segundo en 2025. Superó al campeón defensor, Jacob Kiplimo, que no pudo seguirle el ritmo en el tramo final de la carrera.",
+  "caption_en": "Amos Kipruto won the Chicago Marathon on Sunday, finally taking the title after finishing third in 2024 and second in 2025. He beat defending champion Jacob Kiplimo, who could not keep pace with him late in the race.",
+  "source_urls": [
+    "https://sports.yahoo.com/olympics/breaking-news/article/chicago-marathon-2026-kenyas-amos-kipruto-wins-race-after-placing-second-last-year-clayton-young-finishes-as-top-american-143824703.html",
+    "https://chicago.suntimes.com/chicago-marathon/2026/10/11/amos-kipruto-knocks-off-defending-champion-jacob-kiplimo-to-win-mens-chicago-marathon",
+    "https://www.nbcchicago.com/news/sports/chicago-marathon/after-finishing-2nd-and-3rd-amos-kipruto-finally-gets-his-chicago-marathon-win/4000816/"
+  ],
+  "source_names": [
+    "Yahoo Sports",
+    "Chicago Sun-Times",
+    "NBC Chicago"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ChicagoMarathon",
+    "#Marathon",
+    "#Athletics",
+    "#Running"
+  ],
+  "summary_es": "Kipruto había sido tercero en 2024 y segundo en 2025; esta vez superó en el tramo final al campeón defensor Jacob Kiplimo.",
+  "summary_en": "Kipruto had finished third in 2024 and second in 2025; this time he pulled away late from defending champion Jacob Kiplimo.",
+  "highlight_es": "Maratón de Chicago",
+  "highlight_en": "Chicago Marathon",
+  "image_prompt": "City marathon finish line on a wide downtown avenue with skyscrapers, empty finish banner frame without text, scattered paper cups on the asphalt, crisp autumn morning light, wide cinematic view, no people, no text, no logos, no flags",
+  "visual_label": "Maratón",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "label": "Chicago"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-12T06:38:20.990Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
