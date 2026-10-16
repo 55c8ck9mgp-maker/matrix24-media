@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-gaza-466-starvation-deaths-since-2024",
+  "status": "draft",
+  "created_at": "2026-10-16T15:59:18Z",
+  "category": "World",
+  "headline": "Gaza Health Ministry says 466 people have died of starvation since 2024",
+  "headline_es": "Ministerio de Salud de Gaza: 466 muertos por hambre desde 2024",
+  "caption_en": "Gaza's Health Ministry said on World Food Day that at least 466 Palestinians have died of malnutrition and starvation since 2024, including 157 children, and called conditions catastrophic despite the ceasefire. It estimates 74,200 children will need treatment for acute malnutrition through April 2027, and says anaemia among pregnant women reached 61% this year.",
+  "caption_es": "El Ministerio de Salud de Gaza afirmó en el Día Mundial de la Alimentación que al menos 466 palestinos han muerto por desnutrición y hambre desde 2024, entre ellos 157 niños, y calificó la situación de catastrófica pese al alto el fuego. Estima que 74.200 niños necesitarán tratamiento por desnutrición aguda hasta abril de 2027 y que la anemia en embarazadas llegó al 61 % este año.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/16/gaza-malnutrition-and-starvation-at-catastrophic-levels-health-ministry",
+    "https://www.aa.com.tr/en/middle-east/starvation-killed-466-palestinians-since-2024-says-gaza-health-ministry/4090946"
+  ],
+  "source_names": ["Al Jazeera", "Anadolu Agency"],
+  "hashtags": ["#MATRIX24", "#Gaza", "#WorldFoodDay", "#Hunger", "#DiaMundialDeLaAlimentación"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Gaza reporta al menos 466 muertes por hambre desde 2024, un tercio de ellas niños. 74.200 niños necesitarán tratamiento por desnutrición aguda.",
+  "summary_en": "Gaza reports at least 466 starvation deaths since 2024, about a third of them children; 74,200 children will need acute malnutrition care.",
+  "highlight_es": "466 muertos por hambre",
+  "highlight_en": "466 people",
+  "visual_label": "Hambre",
+  "image_prompt": "Empty metal food bowls and a few sacks of flour on a dusty concrete floor inside a damaged building, soft natural light through a broken window, muted tones, wide cinematic view",
+  "map": {
+    "focus": ["Palestine"],
+    "marker": {"lat": 31.50, "lon": 34.47, "label": "Gaza"},
+    "labels": {"Palestine": "Palestina"}
+  }
+}

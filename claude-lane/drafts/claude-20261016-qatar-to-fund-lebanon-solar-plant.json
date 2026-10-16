@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-qatar-to-fund-lebanon-solar-plant",
+  "status": "draft",
+  "created_at": "2026-10-16T15:59:18Z",
+  "category": "Economy",
+  "headline": "Qatar to fund and build a large solar power plant in Lebanon",
+  "headline_es": "Catar financiará y construirá una gran planta solar en Líbano",
+  "caption_en": "Qatar's Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani announced a large solar power plant for Lebanon during a visit to Beirut on Friday. QatarEnergy and France's TotalEnergies agreed to develop it jointly as a first project. Lebanese PM Nawaf Salam said Qatar will finance, build and operate it at no cost to the state, whose utility supplies only a few hours of power a day.",
+  "caption_es": "El primer ministro de Catar, el jeque Mohammed bin Abdulrahman Al Thani, anunció una gran planta de energía solar para Líbano durante una visita a Beirut este viernes. QatarEnergy y la francesa TotalEnergies acordaron desarrollarla conjuntamente como primer proyecto. El primer ministro libanés, Nawaf Salam, dijo que Catar la financiará, construirá y operará sin costo para el Estado, cuya empresa eléctrica solo suministra unas pocas horas de luz al día.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon",
+    "https://www.thenationalnews.com/news/mena/2026/10/16/qatar-pledges-to-help-modernise-lebanons-energy-sector-with-electricity-project/"
+  ],
+  "source_names": ["Al Jazeera", "The National"],
+  "hashtags": ["#MATRIX24", "#Lebanon", "#Qatar", "#SolarEnergy", "#Energy"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Catar anunció en Beirut una gran planta solar para Líbano, desarrollada por QatarEnergy y TotalEnergies, sin costo para el Estado libanés.",
+  "summary_en": "Qatar announced in Beirut a large solar plant for Lebanon, to be developed by QatarEnergy and TotalEnergies at no cost to the Lebanese state.",
+  "highlight_es": "planta solar",
+  "highlight_en": "solar power plant",
+  "visual_label": "Energía solar",
+  "image_prompt": "Rows of solar panels on a sunny Mediterranean hillside with a coastal city skyline and calm blue sea in the distance, power lines leading toward the city, wide cinematic view",
+  "map": {
+    "focus": ["Lebanon", "Qatar"],
+    "marker": {"lat": 33.89, "lon": 35.50, "label": "Beirut"},
+    "labels": {"Lebanon": "Líbano", "Qatar": "Catar"}
+  }
+}
