@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-four-killed-fighting-indonesia-forest-fire",
+  "status": "draft",
+  "created_at": "2026-10-16T14:00:47Z",
+  "category": "Climate",
+  "headline": "Four killed fighting forest fire in Indonesia as toxic haze spreads",
+  "headline_es": "Cuatro muertos al combatir un incendio forestal en Indonesia mientras se extiende la bruma",
+  "caption_en": "Four people died fighting a forest fire in Bromo Tengger Semeru National Park in East Java on Thursday, Indonesia's forestry ministry said, and two others suffered serious burns. Smoke from fires across Indonesia has spread to neighbouring countries, closing schools and causing respiratory problems.",
+  "caption_es": "Cuatro personas murieron el jueves mientras combatían un incendio forestal en el Parque Nacional Bromo Tengger Semeru, en Java Oriental, según el Ministerio Forestal de Indonesia, y otras dos sufrieron quemaduras graves. El humo de los incendios en Indonesia se ha extendido a países vecinos, donde ha obligado a cerrar escuelas y ha provocado problemas respiratorios.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/16/four-killed-as-indonesia-battles-worst-forest-fires-in-more-than-a-decade",
+    "https://www.arabnews.pk/world/four-killed-battling-indonesia-fires-as-toxic-haze-cloaks-region-3004330"
+  ],
+  "source_names": ["Al Jazeera", "AFP (via Arab News)"],
+  "hashtags": ["#MATRIX24", "#Indonesia", "#IncendiosForestales", "#Haze", "#Clima"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Cuatro personas murieron combatiendo un incendio en un parque nacional de Java Oriental. El humo de los incendios ya afecta a países vecinos.",
+  "summary_en": "Four people died fighting a blaze in an East Java national park. Smoke from Indonesia's fires is affecting neighbouring countries.",
+  "highlight_es": "incendio forestal",
+  "highlight_en": "forest fire",
+  "visual_label": "Java Oriental",
+  "image_prompt": "Forested volcanic hillside with a line of orange wildfire and thick grey smoke drifting across a hazy sky, distant mountain peaks, wide cinematic view, no people, no text",
+  "map": {
+    "focus": ["Indonesia"],
+    "marker": {"lat": -8.02, "lon": 112.95, "label": "Bromo Tengger"},
+    "labels": {"Indonesia": "Indonesia"}
+  }
+}
