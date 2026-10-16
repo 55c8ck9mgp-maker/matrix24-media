@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-coast-guard-rescues-16-off-baja-california",
+  "status": "draft",
+  "created_at": "2026-10-16T18:37:27Z",
+  "category": "Colombia / Latin America",
+  "headline": "At least 16 rescued from the Pacific off Baja California; search continues",
+  "headline_es": "Rescatan al menos a 16 personas en el Pacífico frente a Baja California",
+  "caption_en": "The US Coast Guard rescued at least 16 people from the Pacific Ocean, more than 100 miles west of Ensenada, Mexico, after a distress report around 1 a.m. on Friday. Survivors said up to 27 people may have been on board, rescuers found people in the water with no vessel in sight, and the search for others continues. The rescued were taken to hospitals in the San Diego area.",
+  "caption_es": "La Guardia Costera de Estados Unidos rescató al menos a 16 personas en el océano Pacífico, a más de 160 km al oeste de Ensenada, México, tras un aviso de emergencia hacia la 1 a. m. del viernes. Sobrevivientes dijeron que hasta 27 personas podrían haber ido a bordo; los rescatistas hallaron personas en el agua sin ninguna embarcación a la vista, y la búsqueda de otras continúa. Los rescatados fueron trasladados a hospitales de la zona de San Diego.",
+  "source_urls": [
+    "https://www.news4jax.com/news/national/2026/10/16/us-coast-guard-rescues-at-least-16-and-is-searching-for-more-in-the-water-off-mexicos-baja-coast/",
+    "https://www.10news.com/news/local-news/san-diego-news/more-than-a-dozen-rescued-from-vessel-in-distress-more-than-100-miles-offshore-from-ensenada-coast-guard-says"
+  ],
+  "source_names": ["Associated Press (via News4JAX)", "KGTV 10News San Diego"],
+  "hashtags": ["#MATRIX24", "#BajaCalifornia", "#Ensenada", "#Rescate", "#México"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La Guardia Costera de EE. UU. rescató al menos a 16 personas a más de 160 km de Ensenada. Hasta 27 podrían haber ido a bordo y la búsqueda sigue.",
+  "summary_en": "The US Coast Guard rescued at least 16 people more than 100 miles off Ensenada. Up to 27 may have been aboard; the search goes on.",
+  "highlight_es": "al menos a 16 personas",
+  "highlight_en": "At least 16 rescued",
+  "visual_label": "Ensenada",
+  "image_prompt": "Rescue helicopter hovering over a dark open Pacific Ocean at dawn, a coast guard cutter in the distance, choppy grey waves, wide cinematic view, no text, no logos, no people visible",
+  "map": {
+    "focus": ["Mexico"],
+    "marker": {"lat": 31.87, "lon": -118.9, "label": "Frente a Ensenada"},
+    "labels": {"Mexico": "México"}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-fed-warsh-warns-ai-shock-inflation",
+  "status": "draft",
+  "created_at": "2026-10-16T18:37:27Z",
+  "category": "Economy",
+  "headline": "Fed chair Warsh calls AI investment surge a 'shock', vows price stability",
+  "headline_es": "Warsh, jefe de la Fed, ve la inversión en IA como un 'shock' y promete estabilidad de precios",
+  "caption_en": "Speaking Friday at the IMF and World Bank annual meetings in Bangkok, US Federal Reserve chair Kevin Warsh said surging AI investment is one factor pushing inflation higher and pledged the Fed would deliver price stability. He declined to signal the Fed's next interest rate move after its quarter-point hike in September, the first increase in about three years.",
+  "caption_es": "En las reuniones anuales del FMI y el Banco Mundial en Bangkok, el presidente de la Reserva Federal de EE. UU., Kevin Warsh, dijo el viernes que el auge de la inversión en inteligencia artificial es uno de los factores que elevan la inflación y prometió que la Fed garantizará la estabilidad de precios. No quiso anticipar el próximo movimiento de tasas tras la subida de un cuarto de punto en septiembre, la primera en unos tres años.",
+  "source_urls": [
+    "https://abcnews.com/Business/fed-chair-kevin-warsh-warns-ai-shock-economy/story?id=137315708",
+    "https://www.pbs.org/newshour/economy/fed-chair-warsh-says-price-stability-is-key-but-shies-away-from-signals-about-rates"
+  ],
+  "source_names": ["ABC News", "Associated Press (via PBS NewsHour)"],
+  "hashtags": ["#MATRIX24", "#Fed", "#Inflación", "#Economía", "#IA"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Kevin Warsh dijo en Bangkok que la inversión en IA presiona la inflación y prometió estabilidad de precios, sin anticipar la próxima decisión de tasas.",
+  "summary_en": "Kevin Warsh said in Bangkok that AI investment is adding to inflation and pledged price stability, without signaling the next rate decision.",
+  "highlight_es": "'shock'",
+  "highlight_en": "'shock'",
+  "visual_label": "Fed",
+  "image_prompt": "Classical stone central bank building with columns at dusk, glowing data center server racks and rising price chart lines symbolically overlaid in the sky, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": ["Thailand"],
+    "marker": {"lat": 13.75, "lon": 100.5, "label": "Bangkok"},
+    "labels": {"Thailand": "Tailandia"}
+  }
+}
