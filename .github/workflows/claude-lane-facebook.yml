@@ -10,6 +10,14 @@ name: Claude Lane Facebook
 on:
   schedule:
     - cron: '11,26,41,56 * * * *'
+  # GitHub has been running the schedules only every ~4-5 h since 2026-10-12,
+  # so stories fell outside the 1-hour window. Also run right after each
+  # Instagram pipeline run on main (watchdog fix 2026-10-16); same gate, same
+  # once-only facebook claim, same concurrency group.
+  workflow_run:
+    workflows: ['Claude Lane Pipeline']
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
   push:
     branches: [main]
@@ -27,11 +35,11 @@ concurrency:
 
 jobs:
   facebook:
-    # Scheduled runs only when Facebook is switched on; dispatch/push always run
-    # (as a dry run while the switch is off).
+    # Scheduled and pipeline-chained runs only when Facebook is switched on;
+    # dispatch/push always run (as a dry run while the switch is off).
     # startsWith tolerates a trailing space/newline typed on a phone (2026-10-07);
     # the script trims and requires exactly "true" before going live.
-    if: github.event_name != 'schedule' || startsWith(vars.CLAUDE_LANE_FB_ENABLED, 'true')
+    if: (github.event_name != 'schedule' && github.event_name != 'workflow_run') || startsWith(vars.CLAUDE_LANE_FB_ENABLED, 'true')
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
