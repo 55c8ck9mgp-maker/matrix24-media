@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-hurricane-trudy-category-3-mexico-pacific",
+  "status": "draft",
+  "created_at": "2026-10-16T13:09:24Z",
+  "category": "Colombia / Latin America",
+  "headline": "Hurricane Trudy strengthens to Category 3 off Mexico's Pacific coast",
+  "headline_es": "El huracán Trudy se fortalece a categoría 3 frente al Pacífico mexicano",
+  "caption_en": "Trudy became a major Category 3 hurricane on Friday, about 400 km southwest of Acapulco, and is heading toward Mexico's southwestern and west-central Pacific coast. Authorities have issued hurricane alerts for the coast from Cabo Corrientes, Jalisco, to Punta San Telmo, Michoacán, with tropical storm alerts extending toward Zihuatanejo, Guerrero.",
+  "caption_es": "Trudy se convirtió el viernes en un huracán mayor de categoría 3, a unos 400 km al suroeste de Acapulco, y se dirige hacia la costa del Pacífico del suroeste y centro-oeste de México. Las autoridades emitieron alertas de huracán para la costa entre Cabo Corrientes, Jalisco, y Punta San Telmo, Michoacán, y alertas de tormenta tropical que se extienden hacia Zihuatanejo, Guerrero.",
+  "source_urls": [
+    "https://www.audacy.com/kcbsradio/news/world/hurricane-trudy-mexico-pacific-coast-storm-e0522909a549cb4a43a8ab532f7d3668",
+    "https://enfoquenoticias.com.mx/noticias/trudy-alcanza-categoria-3-y-amenaza-las-costas-del-pacifico-mexicano"
+  ],
+  "source_names": ["Associated Press (via Audacy)", "EFE (via Enfoque Noticias)"],
+  "hashtags": ["#MATRIX24", "#Trudy", "#HuracánTrudy", "#México", "#Huracán"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Trudy es ya huracán categoría 3 a unos 400 km de Acapulco. Hay alertas de huracán entre Cabo Corrientes y Punta San Telmo.",
+  "summary_en": "Trudy is now a Category 3 hurricane about 400 km from Acapulco. Hurricane alerts cover Cabo Corrientes to Punta San Telmo.",
+  "highlight_es": "categoría 3",
+  "highlight_en": "Category 3",
+  "visual_label": "Trudy",
+  "image_prompt": "Satellite-style view of a large spiraling hurricane with a clear eye over the deep blue Pacific Ocean approaching a mountainous green coastline, dramatic cloud bands, wide cinematic view, no text, no logos",
+  "map": {
+    "focus": ["Mexico"],
+    "marker": {"lat": 16.86, "lon": -99.88, "label": "Acapulco"},
+    "labels": {"Mexico": "México"}
+  }
+}

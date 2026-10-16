@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-china-proposes-export-curbs-ai-solar",
+  "status": "draft",
+  "created_at": "2026-10-16T13:09:24Z",
+  "category": "Technology",
+  "headline": "China proposes export curbs on AI, biotech and solar technologies",
+  "headline_es": "China propone restringir la exportación de tecnología de IA, biotecnología y solar",
+  "caption_en": "China's commerce and science ministries jointly published a draft plan on Friday to add 40 technologies to the catalogue of technologies whose export is banned or restricted. Twenty-three of them are in artificial intelligence, including advanced AI models and agents, with the rest in biotechnology, such as cell and gene therapy, and solar manufacturing. A commerce ministry spokesperson cited national security as a reason for the move.",
+  "caption_es": "Los ministerios de Comercio y de Ciencia y Tecnología de China publicaron el viernes un borrador para añadir 40 tecnologías al catálogo de tecnologías cuya exportación está prohibida o restringida. Veintitrés corresponden a inteligencia artificial, incluidos modelos avanzados de IA y agentes; el resto son de biotecnología, como terapias celulares y génicas, y de fabricación solar. Un portavoz del Ministerio de Comercio citó la seguridad nacional como uno de los motivos.",
+  "source_urls": [
+    "https://www.news4jax.com/business/2026/10/16/china-moves-to-curb-tech-exports-including-ai-citing-national-security-risks/",
+    "https://www.scmp.com/economy/china-economy/article/3371149/china-mulls-new-tech-export-bans-covering-ai-biotech-and-solar-power"
+  ],
+  "source_names": ["Associated Press (via News4JAX)", "South China Morning Post"],
+  "hashtags": ["#MATRIX24", "#China", "#InteligenciaArtificial", "#AI", "#Tecnología", "#Exportaciones"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Pekín publicó un borrador para restringir o prohibir la exportación de 40 tecnologías, 23 de ellas de inteligencia artificial, alegando seguridad nacional.",
+  "summary_en": "Beijing published a draft to ban or restrict exports of 40 technologies, 23 of them in AI, citing national security.",
+  "highlight_es": "exportación",
+  "highlight_en": "export curbs",
+  "visual_label": "IA",
+  "image_prompt": "Glowing server racks and computer chips beside rows of solar panels and a laboratory DNA model, arranged behind a stylized closed gate, cool blue and amber lighting, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["China"],
+    "marker": {"lat": 39.90, "lon": 116.40, "label": "Pekín"},
+    "labels": {"China": "China"}
+  }
+}
