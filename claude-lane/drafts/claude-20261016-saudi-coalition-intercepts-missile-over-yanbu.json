@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-saudi-coalition-intercepts-missile-over-yanbu",
+  "status": "draft",
+  "created_at": "2026-10-16T18:59:23Z",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi-led coalition intercepts ballistic missile aimed at Red Sea city of Yanbu",
+  "headline_es": "Coalición liderada por Arabia Saudita intercepta misil balístico dirigido a Yanbu",
+  "caption_en": "The Saudi-led coalition in Yemen said on Friday it intercepted and destroyed a ballistic missile launched toward Yanbu, a Red Sea city that hosts the end of a major oil pipeline. Spokesman Turki al-Malki said two cruise missiles were also downed over the Red Sea, along with three drones over southern Saudi Arabia and the Riyadh region. No damage or casualties were reported.",
+  "caption_es": "La coalición liderada por Arabia Saudita en Yemen informó el viernes que interceptó y destruyó un misil balístico lanzado hacia Yanbu, ciudad del mar Rojo donde termina un importante oleoducto. Su portavoz, Turki al-Malki, dijo que también fueron derribados dos misiles de crucero sobre el mar Rojo y tres drones sobre el sur de Arabia Saudita y la región de Riad. No se informó de daños ni víctimas.",
+  "source_urls": [
+    "https://today.lorientlejour.com/article/1551084/saudi-led-coalition-says-intercepts-missiles-drones-over-riyadh-other-areas.html",
+    "https://english.aawsat.com/gulf/5330363-coalition-intercepts-ballistic-cruise-missiles-and-uavs"
+  ],
+  "source_names": ["AFP (via L'Orient Today)", "Asharq Al-Awsat"],
+  "hashtags": ["#MATRIX24", "#ArabiaSaudita", "#Yemen", "#MarRojo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La coalición en Yemen dice que derribó un misil balístico hacia Yanbu, dos misiles de crucero sobre el mar Rojo y tres drones sobre el sur saudí y Riad. Sin daños reportados.",
+  "summary_en": "The coalition in Yemen says it downed a ballistic missile aimed at Yanbu, two cruise missiles over the Red Sea and three drones over southern Saudi Arabia and Riyadh. No damage reported.",
+  "highlight_es": "misil balístico",
+  "highlight_en": "ballistic missile",
+  "visual_label": "Yanbu",
+  "image_prompt": "Air defense radar station on a desert coastline at night, faint interceptor trail in the dark sky over the Red Sea, distant oil terminal lights on the shore, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": ["Saudi Arabia"],
+    "marker": {"lat": 24.09, "lon": 38.06, "label": "Yanbu"},
+    "labels": {"Saudi Arabia": "Arabia Saudita"}
+  }
+}
