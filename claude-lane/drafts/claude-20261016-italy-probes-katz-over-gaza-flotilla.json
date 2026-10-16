@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-italy-probes-katz-over-gaza-flotilla",
+  "status": "draft",
+  "created_at": "2026-10-16T15:05:53Z",
+  "category": "World",
+  "headline": "Italy places Israel's defence minister Katz under investigation over Gaza flotilla",
+  "headline_es": "Italia investiga al ministro de Defensa israelí Katz por la flotilla a Gaza",
+  "caption_en": "Rome prosecutors have placed Israeli Defence Minister Israel Katz, military chief Eyal Zamir and other senior military, police and prison officials under investigation over the treatment of Italian activists detained from the Global Sumud Flotilla. The probe, which expands an earlier case against minister Itamar Ben-Gvir, covers alleged torture and kidnapping during missions in 2025 and 2026. Being under investigation does not imply guilt; Israel says its Gaza blockade is lawful.",
+  "caption_es": "La Fiscalía de Roma investiga al ministro de Defensa israelí Israel Katz, al jefe del Ejército Eyal Zamir y a otros altos mandos militares, policiales y penitenciarios por el trato a activistas italianos detenidos de la Flotilla Global Sumud. La causa, que amplía una anterior contra el ministro Itamar Ben-Gvir, abarca presuntas torturas y secuestro durante misiones en 2025 y 2026. Estar investigado no implica culpabilidad; Israel sostiene que su bloqueo a Gaza es legal.",
+  "summary_es": "La Fiscalía de Roma amplía su causa por la flotilla a Gaza e incluye a Katz, al jefe del Ejército Zamir y a otros mandos israelíes por presuntas torturas y secuestro de activistas.",
+  "summary_en": "Rome prosecutors widened their Gaza flotilla probe to include Katz, army chief Zamir and other Israeli officials over alleged torture and kidnapping of activists.",
+  "highlight_en": "Katz under investigation",
+  "highlight_es": "investiga",
+  "visual_label": "Flotilla",
+  "image_prompt": "Small sailing boats on a calm blue Mediterranean sea at dusk, seen from a distance, with a classical stone courthouse facade with columns on the shore in the foreground, wide cinematic view, no people, no text",
+  "map": {
+    "focus": ["Italy", "Israel"],
+    "marker": {"lat": 41.9028, "lon": 12.4964, "label": "Roma"},
+    "labels": {"Italy": "Italia", "Israel": "Israel"}
+  },
+  "source_urls": [
+    "https://www.ansa.it/sito/notizie/cronaca/2026/10/16/assalto-alla-flotilla-indagato-a-roma-anche-il-ministro-della-difesa-katz_b61ef702-0fab-435f-be93-603087aa19b3.html",
+    "https://www.al-monitor.com/originals/2026/10/italy-names-senior-israelis-katz-probe-over-gaza-flotilla-activists"
+  ],
+  "source_names": ["ANSA", "Reuters (via Al-Monitor)"],
+  "hashtags": ["#MATRIX24", "#Italia", "#Israel", "#Gaza", "#Flotilla"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
