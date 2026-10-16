@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-abiy-names-interim-tigray-government",
+  "status": "draft",
+  "created_at": "2026-10-16T17:54:09Z",
+  "category": "World",
+  "headline": "Ethiopia's Abiy names interim government for Tigray, plans elections in six months",
+  "headline_es": "Abiy nombra un gobierno interino para Tigray y prevé elecciones en seis meses",
+  "caption_en": "Ethiopian Prime Minister Abiy Ahmed on Friday appointed an interim administration for the northern Tigray region, which federal forces retook after a TPLF-led offensive launched in September. The caretaker government is to serve for six months, with elections to follow. The TPLF had not responded to requests for comment.",
+  "caption_es": "El primer ministro etíope, Abiy Ahmed, nombró el viernes una administración interina para la región norteña de Tigray, que las fuerzas federales retomaron tras una ofensiva encabezada por el TPLF iniciada en septiembre. El gobierno provisional ejercerá durante seis meses, tras los cuales se celebrarán elecciones. El TPLF no había respondido a las solicitudes de comentarios.",
+  "summary_es": "Abiy Ahmed nombró una administración interina para Tigray tras la recuperación de la región por fuerzas federales. Gobernará seis meses antes de elecciones.",
+  "summary_en": "Abiy Ahmed named an interim administration for Tigray after federal forces retook the region. It will govern for six months before elections.",
+  "highlight_en": "interim government",
+  "highlight_es": "gobierno interino",
+  "visual_label": "Tigray",
+  "image_prompt": "Highland plateau landscape in northern Ethiopia with a modest government building at dawn, rugged mountains and dry fields in the background, calm and somber atmosphere, wide cinematic view",
+  "map": {
+    "focus": ["Ethiopia"],
+    "marker": {"lat": 13.4967, "lon": 39.4753, "label": "Mekelle"},
+    "labels": {"Ethiopia": "Etiopía"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray",
+    "https://www.timeslive.co.za/news/africa/2026-10-16-ethiopias-abiy-appoints-tigray-caretaker-government/"
+  ],
+  "source_names": ["Al Jazeera (AFP)", "TimesLIVE (Reuters)"],
+  "hashtags": ["#MATRIX24", "#Ethiopia", "#Tigray", "#Etiopía", "#Africa"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
