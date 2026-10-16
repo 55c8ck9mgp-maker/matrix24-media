@@ -8,7 +8,7 @@ name: Claude Lane Pipeline
 # Writes are limited to claude-lane/ by scripts/claude-lane/git-store.mjs.
 on:
   schedule:
-    - cron: '4,19,34,49 * * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 permissions:
