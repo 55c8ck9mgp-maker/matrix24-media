@@ -1,0 +1,29 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-italy-halves-air-traffic-network-fault",
+  "status": "draft",
+  "created_at": "2026-10-16T13:32:33Z",
+  "category": "Technology",
+  "headline": "Italy halves air traffic capacity after nationwide network fault",
+  "headline_es": "Italia reduce a la mitad su tráfico aéreo por una falla de red nacional",
+  "caption_en": "Italy's air navigation company ENAV cut national air traffic capacity by 50% on Friday after overnight problems in the data transmission network that supports air traffic control. Backup systems kept flights normal until 6 a.m., when flow restrictions began, causing delays and cancellations at airports including Rome Fiumicino. ENAV ruled out a cyberattack or any malicious activity and said operations remain safe.",
+  "caption_es": "ENAV, la empresa italiana de navegación aérea, redujo el viernes un 50% la capacidad del tráfico aéreo nacional tras problemas nocturnos en la red de transmisión de datos que sostiene el control aéreo. Los sistemas de respaldo mantuvieron los vuelos con normalidad hasta las 6 a.m., cuando empezaron las restricciones, con retrasos y cancelaciones en aeropuertos como Roma Fiumicino. ENAV descartó un ciberataque o cualquier acción malintencionada y aseguró que las operaciones siguen siendo seguras.",
+  "summary_es": "Una falla en la red de datos del control aéreo obligó a Italia a operar al 50% de su capacidad, con retrasos y cancelaciones. ENAV descartó un ciberataque.",
+  "summary_en": "A fault in the air traffic control data network forced Italy to run at 50% capacity, causing delays and cancellations. ENAV ruled out a cyberattack.",
+  "highlight_es": "a la mitad",
+  "highlight_en": "halves",
+  "visual_label": "ENAV",
+  "image_prompt": "Airport control tower at dawn with several passenger jets parked at gates on a quiet apron, departure boards glowing inside a terminal window, calm overcast sky, wide cinematic view",
+  "map": {"focus": ["Italy"], "marker": {"lat": 41.80, "lon": 12.25, "label": "Fiumicino"}, "labels": {"Italy": "Italia"}},
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/italys-air-traffic-cut-50-after-network-problems-137312084",
+    "https://www.ilfoglio.it/en/current-affairs/2026/10/16/news/why-air-traffic-in-italy-has-slowed-down-this-morning--410766",
+    "https://www.itij.com/latest/news/italy-halves-air-traffic-capacity-following-nationwide-technical-disruption"
+  ],
+  "source_names": ["Associated Press (via ABC News)", "Il Foglio", "ITIJ"],
+  "hashtags": ["#MATRIX24", "#Italia", "#Italy", "#ENAV", "#Aviación"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
