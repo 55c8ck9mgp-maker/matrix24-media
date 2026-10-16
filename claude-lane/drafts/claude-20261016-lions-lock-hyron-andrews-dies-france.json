@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-lions-lock-hyron-andrews-dies-france",
+  "status": "draft",
+  "created_at": "2026-10-16T16:35:00Z",
+  "category": "Sports",
+  "headline": "South African rugby lock Hyron Andrews dies in France before Champions Cup match",
+  "headline_es": "Muere en Francia el rugbista sudafricano Hyron Andrews antes de la Champions Cup",
+  "caption_en": "Lions lock Hyron Andrews, 31, died at the South African team's hotel near La Rochelle, France, ahead of Saturday's Champions Cup match against La Rochelle. SA Rugby said he died after a fall; the cause has not been officially confirmed. The Lions said the match will go ahead in his honour.",
+  "caption_es": "Hyron Andrews, segunda línea de los Lions de 31 años, murió en el hotel del equipo sudafricano cerca de La Rochelle, Francia, antes del partido de Champions Cup del sábado contra La Rochelle. SA Rugby dijo que murió tras una caída; la causa no ha sido confirmada oficialmente. Los Lions dijeron que el partido se jugará en su honor.",
+  "summary_es": "El segunda línea de los Lions, de 31 años, murió en el hotel del equipo cerca de La Rochelle. El partido del sábado se jugará en su honor.",
+  "summary_en": "The 31-year-old Lions lock died at the team hotel near La Rochelle. Saturday's match will go ahead in his honour.",
+  "highlight_es": "Hyron Andrews",
+  "highlight_en": "Hyron Andrews",
+  "visual_label": "Rugby",
+  "image_prompt": "Empty rugby stadium at dusk with a single rugby ball resting on the grass near the try line, soft floodlights and a quiet, solemn atmosphere, wide cinematic view, no text, no logos",
+  "map": {"focus": ["France"], "marker": {"lat": 46.16, "lon": -1.15, "label": "La Rochelle"}, "labels": {"France": "Francia"}},
+  "source_urls": [
+    "https://www.skysports.com/rugby-union/news/13599974/hyron-andrews-south-african-rugby-side-lions-confirm-sudden-death-of-player-ahead-of-champions-cup-match-in-france-against-la-rochelle",
+    "https://iol.co.za/sport/rugby/2026-10-16-sa-rugby-and-sharks-mourn-the-tragic-loss-of-lions-lock-hyron-andrews/"
+  ],
+  "source_names": ["Sky Sports", "IOL"],
+  "hashtags": ["#MATRIX24", "#Rugby", "#ChampionsCup", "#Sudáfrica"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

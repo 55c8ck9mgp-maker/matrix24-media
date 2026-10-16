@@ -1,0 +1,29 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-brazil-ends-six-day-workweek",
+  "status": "draft",
+  "created_at": "2026-10-16T16:35:00Z",
+  "category": "Colombia / Latin America",
+  "headline": "Brazil's Congress promulgates amendment ending the six-day workweek",
+  "headline_es": "Brasil promulga la enmienda que pone fin a la semana laboral de seis días",
+  "caption_en": "Brazil's Congress promulgated a constitutional amendment on Friday that ends the 6x1 schedule of six workdays and one day off, in a ceremony attended by President Lula. Workers are guaranteed two paid rest days a week, and the maximum workweek falls gradually from 44 to 40 hours with no pay cut.",
+  "caption_es": "El Congreso de Brasil promulgó este viernes una enmienda constitucional que pone fin a la jornada 6x1, de seis días de trabajo y uno de descanso, en una ceremonia con la presencia del presidente Lula. Los trabajadores tendrán dos días de descanso pagados por semana y la jornada máxima bajará de forma gradual de 44 a 40 horas, sin reducción salarial.",
+  "summary_es": "El Congreso promulgó la enmienda que elimina la escala 6x1: dos días de descanso pagados y una jornada máxima que baja gradualmente de 44 a 40 horas, sin recorte de salario.",
+  "summary_en": "Congress enacted the amendment ending the 6x1 schedule: two paid rest days a week and a maximum workweek cut gradually from 44 to 40 hours, with no pay cut.",
+  "highlight_es": "semana laboral de seis días",
+  "highlight_en": "six-day workweek",
+  "visual_label": "Jornada 6x1",
+  "image_prompt": "Modern Brazilian city street at dawn with office buildings and shops opening, a wall calendar with two highlighted rest days in the foreground, warm light, wide cinematic view, no text",
+  "map": {"focus": ["Brazil"], "marker": {"lat": -15.7998, "lon": -47.8645, "label": "Brasilia"}, "labels": {"Brazil": "Brasil"}},
+  "source_urls": [
+    "https://www.dgabc.com.br/Noticia/4353097/na-presenca-de-lula-congresso-promulga-pec-do-fim-da-escala-6%C3%971",
+    "https://www.metropoles.com/brasil/alcolumbre-celebra-promulgacao-da-pec-da-6x1-cumpri-a-minha-palavra",
+    "https://www.brasildefato.com.br/2026/10/16/com-presenca-de-lula-congresso-promulga-pec-e-oficializa-fim-da-escala-6x1-nesta-sexta-16/"
+  ],
+  "source_names": ["Diário do Grande ABC", "Metrópoles", "Brasil de Fato"],
+  "hashtags": ["#MATRIX24", "#Brasil", "#Brazil", "#Trabajo", "#Lula"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
