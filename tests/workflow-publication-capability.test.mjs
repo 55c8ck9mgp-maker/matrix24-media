@@ -54,7 +54,10 @@ test('Claude Lane Facebook mirror is gated by both owner switches and the lane-o
   const wf = fs.readFileSync(path.join(dir, 'claude-lane-facebook.yml'), 'utf8');
   assert.match(wf, /CLAUDE_LANE_ENABLED: \$\{\{ vars\.CLAUDE_LANE_ENABLED \}\}/);
   assert.match(wf, /CLAUDE_LANE_FB_ENABLED: \$\{\{ vars\.CLAUDE_LANE_FB_ENABLED \}\}/);
-  assert.match(wf, /if: github\.event_name != 'schedule' \|\| startsWith\(vars\.CLAUDE_LANE_FB_ENABLED, 'true'\)/);
+  assert.match(wf, /if: \(github\.event_name != 'schedule' && github\.event_name != 'workflow_run'\) \|\| startsWith\(vars\.CLAUDE_LANE_FB_ENABLED, 'true'\)/);
+  // Chained after the Instagram pipeline (2026-10-16): only that workflow, only on main.
+  assert.match(wf, /workflow_run:\s*\n\s+workflows: \['Claude Lane Pipeline'\]\s*\n\s+types: \[completed\]\s*\n\s+branches: \[main\]/);
+  assert.match(wf, /group: claude-lane\s*\n\s+cancel-in-progress: false/);
   assert.match(wf, /node scripts\/claude-lane\/run-facebook\.mjs/);
   assert.doesNotMatch(wf, /git push|git add|gh pr/);
   assert.doesNotMatch(wf, /secrets\.(IG_PUBLISH_TOKEN|IG_READ_TOKEN|METRICOOL|IG_CLAUDE_ACCESS_TOKEN)/);
