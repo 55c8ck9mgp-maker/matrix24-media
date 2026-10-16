@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-indonesia-stocks-plunge-msci-downgrade-warning",
+  "status": "draft",
+  "created_at": "2026-10-16T12:35:00Z",
+  "category": "Economy",
+  "headline": "Indonesian stocks suffer worst day since 1998 after MSCI downgrade warning",
+  "headline_es": "La bolsa de Indonesia sufre su peor día desde 1998 tras advertencia de MSCI",
+  "caption_en": "The Jakarta Composite index fell more than 10% on Friday, its steepest one-day drop since 1998, after index provider MSCI proposed removing Indonesia from its emerging-market category. MSCI cited persistent opacity in shareholding structures and suspected coordinated trading, and said it will consult investors before a final decision expected by mid-2027.",
+  "caption_es": "El índice Compuesto de Yakarta cayó más de un 10% el viernes, su mayor desplome en un solo día desde 1998, después de que el proveedor de índices MSCI propusiera retirar a Indonesia de su categoría de mercados emergentes. MSCI citó la persistente opacidad en las estructuras accionariales y sospechas de operaciones coordinadas, y dijo que consultará a los inversores antes de una decisión final prevista para mediados de 2027.",
+  "source_urls": [
+    "https://www.news4jax.com/business/2026/10/16/stocks-rebound-after-tech-sell-off-and-indonesia-shares-sink-on-market-downgrade-warning/",
+    "https://www.businesstoday.in/markets/stocks/story/indonesia-stocks-jakarta-composite-plunges-10-as-msci-reviews-emerging-market-status-561947-2026-10-16"
+  ],
+  "source_names": ["Associated Press (via News4JAX)", "Business Today"],
+  "hashtags": ["#MATRIX24", "#Indonesia", "#Bolsa", "#Mercados", "#Economía"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El índice de Yakarta se desplomó más de un 10%, su peor jornada desde 1998, tras la propuesta de MSCI de sacar a Indonesia de los mercados emergentes.",
+  "summary_en": "Jakarta's index dropped more than 10%, its worst day since 1998, after MSCI proposed removing Indonesia from emerging markets.",
+  "highlight_es": "peor día desde 1998",
+  "highlight_en": "worst day since 1998",
+  "visual_label": "Yakarta",
+  "image_prompt": "Stock exchange trading screens glowing red with sharply falling line charts, modern city skyline of tall towers at dusk in the background, tense atmosphere, wide cinematic view, no people, no readable text, no logos",
+  "map": {
+    "focus": ["Indonesia"],
+    "marker": {"lat": -6.21, "lon": 106.85, "label": "Yakarta"},
+    "labels": {"Indonesia": "Indonesia"}
+  }
+}

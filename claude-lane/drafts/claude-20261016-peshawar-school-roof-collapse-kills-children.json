@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-peshawar-school-roof-collapse-kills-children",
+  "status": "draft",
+  "created_at": "2026-10-16T12:35:00Z",
+  "category": "World",
+  "headline": "School roof collapse in Peshawar kills at least 30 children and a teacher",
+  "headline_es": "Derrumbe del techo de una escuela en Peshawar mata a al menos 30 niños y una maestra",
+  "caption_en": "The roof of a private school in the Dir Colony area of Peshawar, Pakistan, collapsed on Thursday, killing at least 30 children and a teacher and injuring dozens more. Police arrested the school owner, and officials said the building was structurally weak. Authorities in Khyber Pakhtunkhwa have ordered safety inspections of schools and an investigation into the collapse.",
+  "caption_es": "El techo de una escuela privada en la zona de Dir Colony, en Peshawar (Pakistán), se derrumbó el jueves y mató a al menos 30 niños y una maestra, además de dejar decenas de heridos. La policía detuvo al dueño de la escuela y las autoridades señalaron que el edificio era estructuralmente débil. Las autoridades de Khyber Pakhtunkhwa ordenaron inspecciones de seguridad en las escuelas y una investigación sobre el derrumbe.",
+  "source_urls": [
+    "https://www.news4jax.com/news/world/2026/10/16/pakistan-orders-school-inspections-as-relatives-say-they-warned-of-risks-before-deadly-collapse/",
+    "https://tribune.com.pk/story/2634963/at-least-seven-including-six-children-killed-as-school-roof-collapses-in-peshawar"
+  ],
+  "source_names": ["Associated Press (via News4JAX)", "The Express Tribune"],
+  "hashtags": ["#MATRIX24", "#Pakistán", "#Pakistan", "#Peshawar", "#Educación"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Al menos 30 niños y una maestra murieron al caer el techo de una escuela privada en Peshawar. El dueño fue detenido y se ordenaron inspecciones.",
+  "summary_en": "At least 30 children and a teacher died when a private school roof fell in Peshawar. The owner was arrested and inspections ordered.",
+  "highlight_es": "techo de una escuela",
+  "highlight_en": "School roof collapse",
+  "visual_label": "Peshawar",
+  "image_prompt": "Empty old brick school building on a narrow dusty street at dusk, a few wooden desks and a chalkboard visible through a doorway, construction safety tape across the entrance, somber muted light, wide view, no people, no text",
+  "map": {
+    "focus": ["Pakistan"],
+    "marker": {"lat": 34.01, "lon": 71.58, "label": "Peshawar"},
+    "labels": {"Pakistan": "Pakistán"}
+  }
+}
