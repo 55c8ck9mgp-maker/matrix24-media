@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-pope-leo-urges-putin-oleshky-ceasefire",
+  "status": "draft",
+  "created_at": "2026-10-16T17:36:11Z",
+  "category": "Security / Geopolitics",
+  "headline": "Pope Leo urges Putin to back a ceasefire to help civilians in Ukraine's Oleshky",
+  "headline_es": "El papa León pide a Putin un alto el fuego para ayudar a los civiles de Oleshky",
+  "caption_en": "Pope Leo XIV spoke by phone with Russian President Vladimir Putin from a hospital in Rome, according to the Holy See. The pope voiced deep concern about the humanitarian situation in Oleshky, in Ukraine's Kherson region, and called for a ceasefire so food and medical aid can reach the town and civilians can be evacuated safely. He also reaffirmed the Vatican's commitment to dialogue and peace.",
+  "caption_es": "El papa León XIV habló por teléfono con el presidente ruso, Vladímir Putin, desde un hospital de Roma, según la Santa Sede. El pontífice expresó su profunda preocupación por la situación humanitaria en Oleshky, en la región ucraniana de Jersón, y pidió un alto el fuego para que lleguen alimentos y ayuda médica a la ciudad y los civiles puedan ser evacuados de forma segura. También reafirmó el compromiso del Vaticano con el diálogo y la paz.",
+  "summary_es": "Desde el hospital, el papa León XIV pidió a Putin un alto el fuego en Oleshky, en Jersón, para permitir la entrada de ayuda y la evacuación segura de civiles.",
+  "summary_en": "From hospital, Pope Leo XIV asked Putin for a ceasefire in Oleshky, Kherson, to let aid in and allow civilians to be evacuated safely.",
+  "highlight_es": "alto el fuego",
+  "highlight_en": "ceasefire",
+  "visual_label": "Oleshky",
+  "image_prompt": "Old rotary telephone on a wooden desk beside a window overlooking a quiet river town at dusk, soft warm light, sense of diplomacy and distance, wide cinematic view",
+  "map": {
+    "focus": ["Ukraine"],
+    "marker": {"lat": 46.62, "lon": 32.72, "label": "Oleshky"},
+    "labels": {"Ukraine": "Ucrania"}
+  },
+  "source_urls": [
+    "https://www.americamagazine.org/vatican-dispatch/2026/10/16/pope-leo-vladimir-putin-russia-ukraine-war-peace/",
+    "https://en.interfax.com.ua/news/general/1221704.html",
+    "https://www.union-bulletin.com/news/world/pope-speaks-with-putin-denouncing-recent-attacks-as-he-shows-recovery-from-lung-surgery-progressing/article_ba515ec1-a219-5ca5-a472-4bf1a510891e.html"
+  ],
+  "source_names": ["America Magazine", "Interfax-Ukraine", "Associated Press"],
+  "hashtags": ["#MATRIX24", "#PapaLeón", "#Ucrania", "#Putin", "#Oleshky"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
