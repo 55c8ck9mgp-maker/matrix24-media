@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-zelensky-asks-eu-70-billion-2027",
+  "status": "draft",
+  "created_at": "2026-10-16T17:00:01Z",
+  "category": "Security / Geopolitics",
+  "headline": "Zelensky asks EU leaders for at least €70 billion to cover Ukraine's 2027 needs",
+  "headline_es": "Zelenski pide a la UE al menos 70.000 millones de euros para cubrir 2027",
+  "caption_en": "Ukrainian President Volodymyr Zelensky asked EU leaders at a summit in Brussels on Friday for at least €70 billion in additional support for 2027. He said the war will cost Ukraine €155 billion next year, with the money needed for defense, weapons and resilience.",
+  "caption_es": "El presidente ucraniano, Volodímir Zelenski, pidió este viernes a los líderes de la UE, reunidos en una cumbre en Bruselas, al menos 70.000 millones de euros de apoyo adicional para 2027. Afirmó que la guerra costará a Ucrania 155.000 millones de euros el próximo año, y que los fondos son necesarios para defensa, armamento y resiliencia.",
+  "summary_es": "En la cumbre de Bruselas, Zelenski pidió al menos 70.000 millones de euros extra para 2027 y cifró en 155.000 millones el coste de la guerra el próximo año.",
+  "summary_en": "At the Brussels summit, Zelensky sought at least €70 billion more for 2027, saying the war will cost Ukraine €155 billion next year.",
+  "highlight_es": "70.000 millones de euros",
+  "highlight_en": "€70 billion",
+  "visual_label": "Cumbre UE",
+  "image_prompt": "Modern European summit building with glass facade at dusk, a long conference table with empty chairs and microphones visible through the windows, cool blue light, wide cinematic view, no text, no flags",
+  "map": {"focus": ["Belgium", "Ukraine"], "marker": {"lat": 50.8427, "lon": 4.3826, "label": "Bruselas"}, "labels": {"Belgium": "Bélgica", "Ukraine": "Ucrania"}},
+  "source_urls": [
+    "https://kyivindependent.com/zelenskys-ask-300-patriots-70-billion-euros-and-russian-assets/",
+    "https://english.news.cn/20261016/7a63d3d9f7db44cf98345673e89b1669/c.html"
+  ],
+  "source_names": ["The Kyiv Independent", "Xinhua"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Ukraine", "#UE", "#EU"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-kast-first-chilean-state-visit-bolivia",
+  "status": "draft",
+  "created_at": "2026-10-16T17:00:01Z",
+  "category": "Colombia / Latin America",
+  "headline": "Kast makes first state visit to Bolivia by a Chilean president in 71 years",
+  "headline_es": "Kast realiza la primera visita de Estado de un presidente chileno a Bolivia en 71 años",
+  "caption_en": "Chilean President José Antonio Kast arrived in La Paz on Friday for talks with Bolivian President Rodrigo Paz, the first state visit by a Chilean leader since 1955. The agenda includes agreements on trade, connectivity and border security. The visit is aimed at opening a new stage in relations between the neighbors.",
+  "caption_es": "El presidente chileno, José Antonio Kast, llegó este viernes a La Paz para reunirse con el presidente boliviano, Rodrigo Paz, en la primera visita de Estado de un mandatario chileno desde 1955. La agenda incluye acuerdos de comercio, conectividad y seguridad fronteriza. La visita busca abrir una nueva etapa en la relación entre ambos vecinos.",
+  "summary_es": "Kast llegó a La Paz para reunirse con Rodrigo Paz: la primera visita de Estado de un presidente chileno desde 1955, con acuerdos de comercio, conectividad y seguridad fronteriza.",
+  "summary_en": "Kast landed in La Paz to meet Rodrigo Paz, the first state visit by a Chilean president since 1955, with deals on trade, connectivity and border security on the agenda.",
+  "highlight_es": "71 años",
+  "highlight_en": "71 years",
+  "visual_label": "Chile-Bolivia",
+  "image_prompt": "High Andean city in a wide valley under snow-capped mountains, a presidential motorcade of dark cars crossing a colonial plaza, clear midday light, wide cinematic view, no text, no flags",
+  "map": {
+    "focus": [
+      "Bolivia",
+      "Chile"
+    ],
+    "marker": {
+      "lat": -16.4955,
+      "lon": -68.1336,
+      "label": "La Paz"
+    },
+    "labels": {
+      "Bolivia": "Bolivia",
+      "Chile": "Chile"
+    }
+  },
+  "source_urls": [
+    "https://www.latercera.com/politica/noticia/presidente-kast-aterriza-a-bolivia-y-rompe-una-pausa-historica-de-71-anos/",
+    "https://www.infobae.com/america/agencias/2026/10/16/kast-llega-a-la-paz-para-abrir-una-nueva-etapa-en-relacion-bilateral-entre-bolivia-y-chile/"
+  ],
+  "source_names": [
+    "La Tercera",
+    "EFE (Infobae)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Chile",
+    "#Bolivia",
+    "#LatAm"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
