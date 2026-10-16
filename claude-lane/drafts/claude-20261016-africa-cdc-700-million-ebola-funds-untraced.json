@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-africa-cdc-700-million-ebola-funds-untraced",
+  "status": "draft",
+  "created_at": "2026-10-16T15:31:28Z",
+  "category": "World",
+  "headline": "Africa CDC says over $700 million in Congo Ebola funds unaccounted for",
+  "headline_es": "Africa CDC: más de 700 millones de dólares contra el ébola en Congo sin rendir cuentas",
+  "caption_en": "Africa CDC chief Jean Kaseya says more than $700 million in donor money for the Ebola response in Congo has not been accounted for by aid organisations. Donors disbursed over $900 million to implementing partners rather than the government, but only a fraction has been reported. Congo's health minister backed the demand, and groups that fail to justify their funds could lose accreditation.",
+  "caption_es": "El director de Africa CDC, Jean Kaseya, afirma que más de 700 millones de dólares donados para la respuesta al ébola en Congo no han sido justificados por las organizaciones de ayuda. Los donantes desembolsaron más de 900 millones a socios ejecutores y no al Gobierno, pero solo se ha reportado una fracción. El ministro de Salud congoleño respaldó la exigencia, y los grupos que no justifiquen sus fondos podrían perder su acreditación.",
+  "source_urls": [
+    "https://www.aol.com/articles/africa-cdc-says-over-700-134638000.html",
+    "https://www.riotimesonline.com/dr-congo-ebola-funds-700-million-2026/"
+  ],
+  "source_names": [
+    "Reuters (via AOL)",
+    "The Rio Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ebola",
+    "#DRCongo",
+    "#AfricaCDC",
+    "#GlobalHealth"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Africa CDC dice que más de 700 millones de dólares en fondos de donantes contra el ébola en Congo no están justificados. Exige transparencia a las ONG.",
+  "summary_en": "Africa CDC says over $700 million in donor Ebola funds in Congo are unaccounted for and demands transparency from aid groups.",
+  "highlight_es": "700 millones",
+  "highlight_en": "$700 million",
+  "visual_label": "Ébola",
+  "image_prompt": "Stacks of medical supply crates and a field clinic tent in a lush green tropical landscape, ledger papers and a calculator on a wooden table in the foreground, soft overcast light, wide cinematic view",
+  "map": {
+    "focus": [
+      "Dem. Rep. Congo"
+    ],
+    "labels": {
+      "Dem. Rep. Congo": "RD del Congo"
+    }
+  }
+}

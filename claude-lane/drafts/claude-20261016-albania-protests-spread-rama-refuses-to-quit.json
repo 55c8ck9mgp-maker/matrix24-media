@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-albania-protests-spread-rama-refuses-to-quit",
+  "status": "draft",
+  "created_at": "2026-10-16T15:31:28Z",
+  "category": "World",
+  "headline": "Albania's student protests spread beyond Tirana as Rama refuses to resign",
+  "headline_es": "Las protestas estudiantiles en Albania se extienden y Rama se niega a dimitir",
+  "caption_en": "Thousands of young Albanians marched again in Tirana as a student-led movement demanding Prime Minister Edi Rama's resignation spread to other cities. Protesters cite corruption, neglect of education and the sale of coastal land to a luxury resort backed by Jared Kushner. Rama has rejected calls to step down, while police have clashed with protesters in several cities.",
+  "caption_es": "Miles de jóvenes albaneses volvieron a marchar en Tirana mientras un movimiento liderado por estudiantes que exige la dimisión del primer ministro Edi Rama se extendió a otras ciudades. Los manifestantes denuncian corrupción, abandono de la educación y la venta de terrenos costeros a un complejo de lujo respaldado por Jared Kushner. Rama ha rechazado renunciar, y la policía se ha enfrentado con manifestantes en varias ciudades.",
+  "source_urls": [
+    "https://www.brecorder.com/news/40444562/thousands-march-in-albanian-capital-as-anti-government-protests-spread",
+    "https://www.aljazeera.com/news/2026/10/15/albanias-pm-dismisses-calls-to-resign-as-student-protests-spread"
+  ],
+  "source_names": [
+    "Reuters (via Business Recorder)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Albania",
+    "#Tirana",
+    "#EdiRama",
+    "#Europe"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Miles de estudiantes marchan en Tirana y las protestas llegan a otras ciudades. Exigen la renuncia de Edi Rama por corrupción y abandono de la educación.",
+  "summary_en": "Thousands of students march in Tirana as protests reach other cities, demanding PM Edi Rama resign over corruption and neglect of education.",
+  "highlight_es": "protestas estudiantiles",
+  "highlight_en": "student protests",
+  "visual_label": "Tirana",
+  "image_prompt": "Wide view of a city boulevard at dusk with an empty street lined with Balkan-style government buildings, scattered protest banners without text lying on the pavement, distant haze, cinematic lighting",
+  "map": {
+    "focus": [
+      "Albania"
+    ],
+    "marker": {
+      "lat": 41.3275,
+      "lon": 19.8187,
+      "label": "Tirana"
+    },
+    "labels": {
+      "Albania": "Albania"
+    }
+  }
+}
