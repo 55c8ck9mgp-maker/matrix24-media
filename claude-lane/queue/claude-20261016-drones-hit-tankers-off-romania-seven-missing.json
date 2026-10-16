@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-drones-hit-tankers-off-romania-seven-missing",
+  "created_at": "2026-10-16T10:24:39Z",
+  "category": "Security / Geopolitics",
+  "headline": "Drones hit two tankers off Romania; seven sailors missing",
+  "headline_es": "Drones impactan dos petroleros frente a Rumania; siete marinos desaparecidos",
+  "caption_es": "Dos petroleros fondeados cerca de la desembocadura del canal de Sulina, en Rumania, una ruta clave para las exportaciones ucranianas, se incendiaron tras ser atacados en el mar Negro. El presidente rumano, Nicusor Dan, afirmó que drones impactaron ambos barcos. Cinco personas fueron rescatadas del Wine Trader, con bandera de San Marino, y siete marinos siguen desaparecidos; el fuerte oleaje dificulta la búsqueda.",
+  "caption_en": "Two tankers anchored near the mouth of Romania's Sulina canal, a key route for Ukrainian exports, caught fire after being struck in the Black Sea. Romanian President Nicusor Dan said drones hit both ships. Five people were rescued from the San Marino-flagged Wine Trader and seven sailors remain missing, with rough seas hampering the search.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/15/ship-catches-fire-in-romanias-waters-amid-rising-attacks-in-the-black-sea",
+    "https://uk.news.yahoo.com/romania-resumes-search-seven-missing-092327296.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Reuters"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#MarNegro",
+    "#BlackSea",
+    "#Rumania",
+    "#Romania"
+  ],
+  "summary_es": "Dos petroleros fueron alcanzados por drones cerca del canal de Sulina. Siete marinos del Wine Trader siguen desaparecidos.",
+  "summary_en": "Two tankers were hit by drones near Romania's Sulina canal. Seven sailors from the Wine Trader are still missing.",
+  "highlight_es": "siete marinos desaparecidos",
+  "highlight_en": "seven sailors missing",
+  "image_prompt": "Chemical tanker anchored on a rough grey sea at dusk, distant smoke rising on the horizon, rescue helicopter silhouette in a stormy sky, wide cinematic view",
+  "visual_label": "Mar Negro",
+  "map": {
+    "focus": [
+      "Romania"
+    ],
+    "marker": {
+      "lat": 45.15,
+      "lon": 29.95,
+      "label": "Sulina"
+    },
+    "labels": {
+      "Romania": "Rumania"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-16T14:11:02.124Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
