@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-amazon-deforestation-lowest-since-1988",
+  "status": "draft",
+  "created_at": "2026-10-16T19:31:48Z",
+  "category": "Climate",
+  "headline": "Amazon deforestation in Brazil falls to its lowest level since records began in 1988",
+  "headline_es": "La deforestación de la Amazonía brasileña cae a su nivel más bajo desde 1988",
+  "caption_en": "Brazil's Amazon rainforest lost about 3,335 square kilometers between August 2025 and July 2026, the lowest annual deforestation since official satellite records began in 1988, according to government data released on Friday. The annual rate is measured from August to July.",
+  "caption_es": "La selva amazónica de Brasil perdió unos 3.335 kilómetros cuadrados entre agosto de 2025 y julio de 2026, la menor deforestación anual desde que comenzaron los registros oficiales por satélite en 1988, según datos del Gobierno publicados este viernes. La tasa anual se mide de agosto a julio.",
+  "summary_es": "La Amazonía brasileña perdió unos 3.335 km² entre agosto de 2025 y julio de 2026, la cifra más baja desde que empezaron los registros en 1988.",
+  "summary_en": "Brazil's Amazon lost about 3,335 km² from August 2025 to July 2026, the lowest annual figure since records began in 1988.",
+  "highlight_es": "nivel más bajo desde 1988",
+  "highlight_en": "lowest level",
+  "visual_label": "Amazonía",
+  "image_prompt": "Aerial view of dense green Amazon rainforest canopy with a winding river under soft morning mist, a small monitoring satellite silhouette high in the sky, wide cinematic view, no text",
+  "map": {"focus": ["Brazil"], "marker": {"lat": -3.4653, "lon": -62.2159, "label": "Amazonía"}, "labels": {"Brazil": "Brasil"}},
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/brazil-amazon-deforestation-fell-lowest-level-1988-137329441",
+    "https://www.933thedrive.com/2026/10/16/deforestation-in-brazils-amazon-falls-to-lowest-on-record-in-2025-26/"
+  ],
+  "source_names": ["Associated Press (via ABC News)", "Reuters"],
+  "hashtags": ["#MATRIX24", "#Amazonia", "#Amazon", "#Brasil", "#Clima"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
