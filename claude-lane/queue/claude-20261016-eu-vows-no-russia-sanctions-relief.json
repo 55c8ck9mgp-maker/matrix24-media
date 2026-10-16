@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-eu-vows-no-russia-sanctions-relief",
+  "created_at": "2026-10-16T10:24:39Z",
+  "category": "Security / Geopolitics",
+  "headline": "EU says Russia sanctions stay until war ends, readies 22nd package",
+  "headline_es": "La UE mantendrá sanciones a Rusia hasta que acabe la guerra",
+  "caption_es": "La presidenta de la Comisión Europea, Ursula von der Leyen, afirmó que la UE no levantará ninguna sanción a Rusia a menos que detenga la guerra, y que se prepara un 22.º paquete de sanciones. En una cumbre de la UE en Bruselas, dijo que Rusia no respetó la tregua energética anunciada por el presidente estadounidense Donald Trump y que, en cambio, intensificó sus ataques.",
+  "caption_en": "European Commission President Ursula von der Leyen said the EU will not lift any sanctions on Russia unless it stops the war, and that a 22nd sanctions package is being prepared. Speaking at an EU summit in Brussels, she said Russia did not respect the energy ceasefire announced by US President Donald Trump and escalated instead.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/16/eu-summit-leaders-to-rally-behind-zelenskyy-amid-bitter-row-with-trump",
+    "https://united24media.com/war-in-ukraine/not-a-single-minute-von-der-leyen-slams-russias-ceasefire-violations-as-eu-prepares-22nd-sanctions-package-23502"
+  ],
+  "source_names": [
+    "Euronews",
+    "UNITED24 Media"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#UE",
+    "#EU",
+    "#Rusia",
+    "#Ucrania",
+    "#Sanciones"
+  ],
+  "summary_es": "Von der Leyen dijo que no habrá alivio de sanciones mientras siga la guerra y que se prepara un 22.º paquete.",
+  "summary_en": "Von der Leyen said there will be no sanctions relief while the war continues and a 22nd package is in the works.",
+  "highlight_es": "sanciones a Rusia",
+  "highlight_en": "Russia sanctions",
+  "image_prompt": "Modern glass government building in Brussels at morning, rows of empty conference chairs and microphones in a large summit hall, soft blue light, wide cinematic view",
+  "visual_label": "Bruselas",
+  "map": {
+    "focus": [
+      "Belgium"
+    ],
+    "marker": {
+      "lat": 50.84,
+      "lon": 4.38,
+      "label": "Bruselas"
+    },
+    "labels": {
+      "Belgium": "Bélgica"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-16T18:08:10.072Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
