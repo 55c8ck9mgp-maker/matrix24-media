@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-istanbul-worst-floods-in-80-years",
+  "status": "draft",
+  "created_at": "2026-10-16T12:01:24Z",
+  "category": "Climate",
+  "headline": "Istanbul hit by its worst floods in more than 80 years; four dead",
+  "headline_es": "Estambul sufre sus peores inundaciones en más de 80 años; cuatro muertos",
+  "caption_en": "Turkey's interior minister Mustafa Ciftci called Istanbul's flooding the city's biggest flood disaster since 1942, and the death toll has risen to four after a man's body was found under a bridge in the Sariyer district. Authorities logged 9,850 reports of damage, with 46,000 personnel deployed to clear debris. Environment Minister Murat Kurum linked the floods to climate change.",
+  "caption_es": "El ministro del Interior de Turquía, Mustafa Ciftci, calificó las inundaciones de Estambul como el mayor desastre por inundaciones en la ciudad desde 1942, y el número de muertos subió a cuatro tras hallarse el cuerpo de un hombre bajo un puente en el distrito de Sariyer. Las autoridades registraron 9.850 reportes de daños y desplegaron 46.000 efectivos para retirar escombros. El ministro de Medio Ambiente, Murat Kurum, vinculó las inundaciones con el cambio climático.",
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/istanbuls-worst-floods-80-years-leave-4-dead-137314073",
+    "https://www.newarab.com/news/turkeys-istanbul-hit-worst-floods-80-years-4-dead",
+    "https://www.hurriyetdailynews.com/istanbul-faces-more-rain-as-flood-searches-continue-228190"
+  ],
+  "source_names": ["Associated Press (via ABC News)", "The New Arab", "Hürriyet Daily News"],
+  "hashtags": ["#MATRIX24", "#Estambul", "#Istanbul", "#Turquía", "#Inundaciones", "#Clima"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Cuatro muertos en Estambul por las peores inundaciones desde 1942. Hay 46.000 efectivos desplegados y 9.850 reportes de daños.",
+  "summary_en": "Four dead in Istanbul's worst flooding since 1942. Some 46,000 personnel deployed and 9,850 damage reports logged.",
+  "highlight_es": "peores inundaciones",
+  "highlight_en": "worst floods",
+  "visual_label": "Estambul",
+  "image_prompt": "Flooded city street on a hillside with muddy brown water flowing between buildings, abandoned cars partly submerged, heavy grey rain clouds, distant domes and minarets silhouetted on the skyline, wide cinematic view, no people, no text",
+  "map": {
+    "focus": ["Turkey"],
+    "marker": {"lat": 41.01, "lon": 28.98, "label": "Estambul"},
+    "labels": {"Turkey": "Turquía"}
+  }
+}
