@@ -71,14 +71,23 @@
       "at": "2026-10-17T18:02:08.495Z",
       "event": "facebook_reserved",
       "facebook_attempt_id": "91c58d86-8fe4-4860-b4d9-47e840e0c1a8"
+    },
+    {
+      "at": "2026-10-17T18:02:17.279Z",
+      "event": "facebook_published",
+      "facebook_attempt_id": "91c58d86-8fe4-4860-b4d9-47e840e0c1a8",
+      "facebook_post_id": "1300936266441859_122121854577477315"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-17T18:01:16.121Z",
   "permalink": "https://www.instagram.com/p/DemtDVXGb1_/",
   "facebook": {
-    "status": "publishing",
+    "status": "published",
     "attempt_id": "91c58d86-8fe4-4860-b4d9-47e840e0c1a8",
-    "reserved_at": "2026-10-17T18:02:08.495Z"
+    "reserved_at": "2026-10-17T18:02:08.495Z",
+    "post_id": "1300936266441859_122121854577477315",
+    "photo_id": "122121854553477315",
+    "published_at": "2026-10-17T18:02:17.279Z"
   }
 }
