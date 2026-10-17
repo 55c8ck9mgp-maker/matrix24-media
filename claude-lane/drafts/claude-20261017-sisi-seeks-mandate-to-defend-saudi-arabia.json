@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-sisi-seeks-mandate-to-defend-saudi-arabia",
+  "status": "draft",
+  "created_at": "2026-10-17T18:55:35Z",
+  "category": "Security / Geopolitics",
+  "headline": "Egypt's Sisi asks parliament to authorise defending Saudi Arabia if Riyadh requests help",
+  "headline_es": "Al Sisi pide al Parlamento egipcio autorización para defender a Arabia Saudí si Riad lo solicita",
+  "caption_en": "Egyptian President Abdel Fattah el-Sisi on Saturday called for an emergency session of parliament to authorise action in defence of Saudi Arabia, should the kingdom ask for it. Speaking at a military academy graduation, he said he was talking only about defence, not waging war. Saudi Arabia faces repeated Houthi attacks on its airports and oil facilities.",
+  "caption_es": "El presidente egipcio, Abdelfatah al Sisi, pidió el sábado una sesión de emergencia del Parlamento para autorizar acciones en defensa de Arabia Saudí, si el reino lo solicita. En una graduación de la academia militar, afirmó que se refería solo a la defensa y no a hacer la guerra. Arabia Saudí sufre repetidos ataques hutíes contra sus aeropuertos e instalaciones petroleras.",
+  "source_urls": [
+    "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia",
+    "https://www.thenationalnews.com/news/gulf/2026/10/17/egypts-sisi-seeks-parliamentary-approval-to-defend-saudi-arabia-if-asked/"
+  ],
+  "source_names": ["Al Jazeera", "The National"],
+  "hashtags": ["#MATRIX24", "#Egipto", "#ArabiaSaudí", "#Egypt"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Al Sisi quiere aval parlamentario para ayudar a defender al reino frente a los ataques hutíes. Dijo que solo se trata de defensa, no de atacar.",
+  "summary_en": "Sisi wants parliamentary backing to help defend the kingdom against Houthi attacks. He said it is only about defence, not attack.",
+  "highlight_es": "defender a Arabia Saudí",
+  "highlight_en": "defending Saudi Arabia",
+  "visual_label": "Mar Rojo",
+  "image_prompt": "Domed parliament-style building in a desert city at dusk, with a calm sea and a distant naval vessel on the horizon, warm sand tones, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Egypt", "Saudi Arabia"],
+    "marker": {"lat": 30.0444, "lon": 31.2357, "label": "El Cairo"},
+    "labels": {"Egypt": "Egipto", "Saudi Arabia": "Arabia Saudí"}
+  }
+}

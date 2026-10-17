@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-pope-leo-leaves-hospital-after-surgery",
+  "status": "draft",
+  "created_at": "2026-10-17T18:55:35Z",
+  "category": "World",
+  "headline": "Pope Leo XIV leaves hospital and returns to the Vatican after lung cancer surgery",
+  "headline_es": "El papa León XIV sale del hospital y regresa al Vaticano tras su cirugía de pulmón",
+  "caption_en": "Pope Leo XIV left Rome's Gemelli hospital on Saturday afternoon and returned to the Vatican, four days after surgery to remove a cancerous tumour from his right lung. His doctors said blood tests and a chest X-ray showed he was fit for discharge and that the operation had no complications. He is due to lead Sunday prayers from the window of the papal apartment.",
+  "caption_es": "El papa León XIV salió el sábado por la tarde del hospital Gemelli de Roma y regresó al Vaticano, cuatro días después de una cirugía para extirparle un tumor canceroso del pulmón derecho. Sus médicos indicaron que los análisis de sangre y una radiografía de tórax confirmaron que podía recibir el alta y que la operación no tuvo complicaciones. Está previsto que dirija el rezo del domingo desde la ventana del apartamento papal.",
+  "source_urls": [
+    "https://abcnews.com/International/pope-leo-xiv-discharged-hospital-return-vatican/story?id=137343868",
+    "https://www.abc.net.au/news/2026-10-18/pope-leo-leaves-hospital-after-surgery/107279894"
+  ],
+  "source_names": ["ABC News (US)", "ABC News (Australia)"],
+  "hashtags": ["#MATRIX24", "#PapaLeónXIV", "#Vaticano", "#PopeLeo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El pontífice dejó el hospital Gemelli cuatro días después de la extirpación de un tumor del pulmón derecho. Los médicos dijeron que la cirugía no tuvo complicaciones.",
+  "summary_en": "The pontiff left Gemelli hospital four days after a tumour was removed from his right lung. Doctors said the surgery had no complications.",
+  "highlight_es": "regresa al Vaticano",
+  "highlight_en": "returns to the Vatican",
+  "visual_label": "Vaticano",
+  "image_prompt": "Dome of a grand Renaissance basilica above a wide colonnaded square at golden hour, soft clouds, a quiet stone street in the foreground, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Italy"],
+    "marker": {"lat": 41.9029, "lon": 12.4534, "label": "Vaticano"},
+    "labels": {"Italy": "Italia"}
+  }
+}
