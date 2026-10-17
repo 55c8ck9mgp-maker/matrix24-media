@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-mexico-jails-three-for-surfers-murders",
+  "status": "draft",
+  "created_at": "2026-10-17T06:53:00Z",
+  "category": "Colombia / Latin America",
+  "headline": "Mexico sentences three men to 158 years each for killing Australian and US surfers",
+  "headline_es": "México condena a 158 años a tres hombres por matar a surfistas australianos y a un estadounidense",
+  "caption_en": "A judge in Ensenada, Mexico, on Friday sentenced three men to 158 years and nine months in prison each for killing Australian brothers Jake and Callum Robinson and their American friend Carter Rhoad. The three surfers were killed in April 2024 during a trip to Baja California. The judge also ordered the men to pay compensation to the victims' families.",
+  "caption_es": "Un juez de Ensenada, México, condenó el viernes a tres hombres a 158 años y nueve meses de prisión cada uno por el asesinato de los hermanos australianos Jake y Callum Robinson y de su amigo estadounidense Carter Rhoad. Los tres surfistas fueron asesinados en abril de 2024 durante un viaje a Baja California. El juez también ordenó a los condenados indemnizar a las familias de las víctimas.",
+  "source_urls": [
+    "https://theprint.in/world/three-sentenced-to-158-years-in-mexico-for-murder-of-australian-us-surfers/3074361/",
+    "https://www.abc.net.au/news/2026-10-17/jake-callum-robinson-mexico-murder-trial-sentence/107271152"
+  ],
+  "source_names": ["Reuters (via ThePrint)", "ABC News (Australia)"],
+  "hashtags": ["#MATRIX24", "#México", "#BajaCalifornia", "#Justicia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Un juez de Ensenada impuso 158 años y nueve meses de cárcel a cada uno de los tres acusados por el asesinato de tres surfistas en 2024.",
+  "summary_en": "A judge in Ensenada gave each of the three defendants 158 years and nine months in prison for the 2024 killing of three surfers.",
+  "highlight_es": "158 años",
+  "highlight_en": "158 years",
+  "visual_label": "Ensenada",
+  "image_prompt": "Empty wooden judge's bench with a gavel in a quiet courtroom, soft daylight through tall windows, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Mexico"],
+    "marker": {"lat": 31.87, "lon": -116.6, "label": "Ensenada"},
+    "labels": {"Mexico": "México"}
+  }
+}

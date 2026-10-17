@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-typhoon-champi-bears-down-on-guam",
+  "status": "draft",
+  "created_at": "2026-10-17T06:53:00Z",
+  "category": "Climate",
+  "headline": "Typhoon Champi bears down on Guam, expected near the island Sunday as a Category 3",
+  "headline_es": "El tifón Champi avanza hacia Guam y se espera cerca de la isla el domingo como categoría 3",
+  "caption_en": "Champi strengthened into a typhoon on Saturday and is forecast to pass near or just south of Guam on Sunday as a Category 3 storm. Forecasters warn of a storm surge of 5 to 7 feet on exposed coasts, and residents in vulnerable homes and coastal areas were urged to move to sturdy shelters. It is the third powerful storm to threaten Guam since April.",
+  "caption_es": "Champi se intensificó a tifón el sábado y se prevé que pase cerca o justo al sur de Guam el domingo como tormenta de categoría 3. Los meteorólogos advierten de una marejada ciclónica de 1,5 a 2 metros en las costas expuestas, y se pidió a los residentes de viviendas vulnerables y zonas costeras trasladarse a refugios sólidos. Es la tercera tormenta fuerte que amenaza Guam desde abril.",
+  "source_urls": [
+    "https://www.postguam.com/news/local/champi-strengthens-into-typhoon-forecasters-expect-category-3-just-south-of-guam-sunday/article_5f8fde51-d503-4e22-aa13-36b8f31ba976.html",
+    "https://www.islapublic.org/news/2026-10-17/a-significant-hit-for-us-guam-residents-advised-to-seek-safe-shelter-stay-away-from-water",
+    "https://www.koaa.com/weather/guam-faces-third-powerful-typhoon-in-months-as-champi-approaches"
+  ],
+  "source_names": ["The Guam Daily Post", "Isla Public Media (Public Radio Guam)", "Scripps News (via KOAA)"],
+  "hashtags": ["#MATRIX24", "#Guam", "#Champi", "#Tifón"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Champi pasaría cerca o al sur de Guam el domingo como categoría 3, con marejada de 1,5 a 2 metros. Piden a los residentes buscar refugio sólido.",
+  "summary_en": "Champi is forecast to pass near or south of Guam on Sunday as a Category 3, with a 5 to 7 ft surge. Residents are urged to seek sturdy shelter.",
+  "highlight_es": "tifón Champi",
+  "highlight_en": "Typhoon Champi",
+  "visual_label": "Champi",
+  "image_prompt": "Palm trees bending in strong wind on a tropical island coast, huge waves crashing over a reef, dark spiraling storm clouds, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 13.44, "lon": 144.79, "label": "Guam"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

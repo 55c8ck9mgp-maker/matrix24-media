@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-north-korea-tests-ai-guided-torpedo",
+  "status": "draft",
+  "created_at": "2026-10-17T06:53:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "North Korea says it tested a new high-speed torpedo guided by artificial intelligence",
+  "headline_es": "Corea del Norte dice que probó un nuevo torpedo de alta velocidad guiado por inteligencia artificial",
+  "caption_en": "North Korea's state news agency KCNA said on Saturday that the country carried out an underwater test of a new high-speed, precision-guided torpedo on Thursday, using artificial intelligence for target detection and guidance. KCNA said the propulsion technology had been verified through more than 180 tests over five years. The report could not be independently verified.",
+  "caption_es": "La agencia estatal norcoreana KCNA informó el sábado que el país realizó el jueves una prueba submarina de un nuevo torpedo de alta velocidad y guiado de precisión, que usa inteligencia artificial para detectar y guiarse hacia sus objetivos. Según KCNA, la tecnología de propulsión fue verificada en más de 180 pruebas a lo largo de cinco años. El informe no pudo ser verificado de forma independiente.",
+  "source_urls": [
+    "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261017/n-korea-conducts-underwater-test-of-new-precision-guided-torpedo-using-ai-kcna",
+    "https://www.scmp.com/news/asia/east-asia/article/3371218/north-korea-says-it-tested-new-torpedo-ai-tech"
+  ],
+  "source_names": ["Yonhap (via The Korea Times)", "Reuters (via South China Morning Post)"],
+  "hashtags": ["#MATRIX24", "#NorthKorea", "#CoreaDelNorte", "#Defensa"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "KCNA afirma que Corea del Norte probó un torpedo de alta velocidad que usa IA para detectar y seguir objetivos, tras más de 180 pruebas en cinco años.",
+  "summary_en": "KCNA says North Korea tested a high-speed torpedo that uses AI for target detection and guidance, after more than 180 tests over five years.",
+  "highlight_es": "torpedo",
+  "highlight_en": "torpedo",
+  "visual_label": "Torpedo IA",
+  "image_prompt": "Sleek dark torpedo moving through deep blue water, trail of bubbles, faint light rays from the surface above, wide cinematic underwater view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["North Korea"],
+    "labels": {"North Korea": "Corea del Norte"}
+  }
+}

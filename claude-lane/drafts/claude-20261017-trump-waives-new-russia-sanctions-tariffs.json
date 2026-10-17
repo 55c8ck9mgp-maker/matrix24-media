@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-trump-waives-new-russia-sanctions-tariffs",
+  "status": "draft",
+  "created_at": "2026-10-17T06:53:00Z",
+  "category": "Economy",
+  "headline": "Trump waives new Russia sanctions and tariffs days before they were due to take effect",
+  "headline_es": "Trump suspende nuevas sanciones y aranceles contra Rusia días antes de su entrada en vigor",
+  "caption_en": "President Donald Trump signed an executive order on Friday waiving new sanctions and tariffs under a 2026 US law on Russia, including 100% duties on goods from the biggest buyers of Russian oil and gas, which were set to start on October 18. The order says the waiver serves US national interests. Sanctions already imposed on Russia stay in place, and Democrats such as Rep. Don Beyer criticized the move.",
+  "caption_es": "El presidente Donald Trump firmó el viernes una orden ejecutiva que suspende nuevas sanciones y aranceles previstos en una ley estadounidense de 2026 sobre Rusia, incluidos aranceles del 100% a los mayores compradores de petróleo y gas rusos, que debían empezar el 18 de octubre. La orden afirma que la exención sirve a los intereses nacionales de EE. UU. Las sanciones ya vigentes contra Rusia se mantienen, y demócratas como el congresista Don Beyer criticaron la medida.",
+  "source_urls": [
+    "https://www.tribuneindia.com/news/world/trump-waives-russia-sanctions-that-threatened-100-tariffs-on-india/",
+    "https://kyivpost.com/post/87342",
+    "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529"
+  ],
+  "source_names": ["Reuters (via The Tribune)", "Kyiv Post", "ABC News"],
+  "hashtags": ["#MATRIX24", "#Rusia", "#Sanciones", "#Aranceles"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La orden de Trump frena aranceles del 100% a los mayores compradores de energía rusa que iban a regir el 18 de octubre. Las sanciones vigentes siguen.",
+  "summary_en": "Trump's order halts 100% tariffs on top buyers of Russian energy that were due on October 18. Existing sanctions on Russia remain.",
+  "highlight_es": "sanciones y aranceles",
+  "highlight_en": "Russia sanctions and tariffs",
+  "visual_label": "Sanciones",
+  "image_prompt": "Oil tanker docked at an industrial port at dusk beside rows of shipping containers and storage tanks, calm water reflecting orange light, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["United States of America", "Russia"],
+    "labels": {"United States of America": "Estados Unidos", "Russia": "Rusia"}
+  }
+}
