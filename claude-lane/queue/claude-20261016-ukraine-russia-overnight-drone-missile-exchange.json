@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-ukraine-russia-overnight-drone-missile-exchange",
+  "created_at": "2026-10-16T11:02:41Z",
+  "category": "Security / Geopolitics",
+  "headline": "Russia hits nine Ukrainian regions; Moscow says it downed 644 drones",
+  "headline_es": "Rusia ataca nueve regiones de Ucrania; Moscú dice derribar 644 drones",
+  "caption_es": "Ataques rusos durante la noche alcanzaron nueve regiones de Ucrania y dejaron sin electricidad a cientos de miles de hogares, informó AP. El Ministerio de Defensa ruso dijo haber interceptado 644 drones ucranianos, y cerca de 160 vuelos se retrasaron o cancelaron en los cuatro aeropuertos de Moscú. El intercambio llega después de que Ucrania abandonara el jueves una breve tregua sobre objetivos energéticos.",
+  "caption_en": "Russian strikes overnight hit nine Ukrainian regions, cutting power to hundreds of thousands of households, AP reported. Russia's Defense Ministry said it intercepted 644 Ukrainian drones, and about 160 flights were delayed or cancelled at Moscow's four airports. The exchange follows Ukraine's decision on Thursday to abandon a short-lived truce on energy targets.",
+  "source_urls": [
+    "https://www.news4jax.com/news/world/2026/10/16/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump/",
+    "https://www.themoscowtimes.com/2026/10/16/russia-repels-644-ukrainian-drones-as-trump-calls-attacks-on-russian-refineries-disgrace-a93997"
+  ],
+  "source_names": [
+    "Associated Press",
+    "The Moscow Times"
+  ],
+  "hashtags": [
+    "#Ukraine",
+    "#Russia",
+    "#Ucrania",
+    "#Rusia",
+    "#MATRIX24"
+  ],
+  "summary_es": "Ataques rusos dejan sin luz a cientos de miles de hogares en Ucrania. Rusia afirma haber derribado 644 drones y unos 160 vuelos se vieron afectados en Moscú.",
+  "summary_en": "Russian strikes cut power to hundreds of thousands of Ukrainian homes. Russia says it downed 644 drones; about 160 Moscow flights were disrupted.",
+  "highlight_es": "644 drones",
+  "highlight_en": "644 drones",
+  "image_prompt": "Night sky over a darkened city skyline with power lines and an electrical substation in the foreground, faint streaks of air-defence tracers high in the clouds, cold blue tones, wide cinematic view",
+  "visual_label": "Drones",
+  "map": {
+    "focus": [
+      "Ukraine",
+      "Russia"
+    ],
+    "labels": {
+      "Ukraine": "Ucrania",
+      "Russia": "Rusia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-17T01:49:53.286Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
