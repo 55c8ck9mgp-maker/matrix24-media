@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-supertanker-ablaze-after-hormuz-mine",
+  "status": "draft",
+  "created_at": "2026-10-17T12:52:32Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's IRGC says a supertanker caught fire after hitting a mine in the Strait of Hormuz",
+  "headline_es": "La Guardia Revolucionaria de Irán dice que un superpetrolero se incendió tras chocar con una mina en Ormuz",
+  "caption_en": "Iran's Revolutionary Guards said on Saturday that a supertanker carrying more than two million barrels of crude caught fire after striking a mine while using what they called an unauthorised route through the Strait of Hormuz. The vessel was not named and no casualties were reported. The US military rejects Iran's claim to control the strait and says commercial ships keep transiting.",
+  "caption_es": "La Guardia Revolucionaria de Irán afirmó el sábado que un superpetrolero con más de dos millones de barriles de crudo se incendió tras chocar con una mina mientras usaba lo que calificó de ruta no autorizada en el estrecho de Ormuz. El buque no fue identificado y no se informó de víctimas. El ejército de EE. UU. rechaza que Irán controle el estrecho y asegura que los buques comerciales siguen transitando.",
+  "source_urls": [
+    "https://aljazeera.com/news-analysis/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
+    "https://sg.news.yahoo.com/super-tanker-ablaze-striking-mine-092241284.html"
+  ],
+  "source_names": ["Al Jazeera", "Euronews (via Yahoo News)"],
+  "hashtags": ["#MATRIX24", "#Ormuz", "#Hormuz", "#Irán", "#Petróleo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Según la Guardia Revolucionaria, el superpetrolero llevaba más de dos millones de barriles. EE. UU. rechaza que Irán controle el estrecho.",
+  "summary_en": "The IRGC says the tanker carried over two million barrels. The US military rejects Iran's claim to control the strait.",
+  "highlight_es": "superpetrolero se incendió",
+  "highlight_en": "supertanker caught fire",
+  "visual_label": "Ormuz",
+  "image_prompt": "Large oil supertanker on a calm sea at dusk with a column of dark smoke rising in the distance, rugged arid coastline on the horizon, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Iran", "Oman"],
+    "marker": {"lat": 26.57, "lon": 56.25, "label": "Estrecho de Ormuz"},
+    "labels": {"Iran": "Irán", "Oman": "Omán"}
+  }
+}

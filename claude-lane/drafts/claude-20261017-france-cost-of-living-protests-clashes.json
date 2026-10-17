@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-france-cost-of-living-protests-clashes",
+  "status": "draft",
+  "created_at": "2026-10-17T12:52:32Z",
+  "category": "World",
+  "headline": "Clashes and 166 arrests as cost-of-living protests sweep France",
+  "headline_es": "Choques y 166 detenidos en las protestas por el costo de vida en Francia",
+  "caption_en": "Tens of thousands joined protests against the high cost of living across France on Saturday, with high school and university students joining the call. Police fired tear gas in Paris, and masked protesters targeted the building of broadcaster CNews. By midday the interior ministry counted about 32,800 marchers outside Paris and 166 arrests nationwide.",
+  "caption_es": "Decenas de miles de personas se manifestaron el sábado en toda Francia contra el alto costo de vida, con la participación de estudiantes de secundaria y universitarios. La policía lanzó gases lacrimógenos en París y manifestantes encapuchados atacaron el edificio de la cadena CNews. A mediodía, el Ministerio del Interior contaba unos 32.800 manifestantes fuera de París y 166 detenidos en todo el país.",
+  "source_urls": [
+    "https://www.lematin.ch/story/mobilisation-du-17-octobre-manifestations-et-tensions-dans-toute-la-france-103651261",
+    "https://www.bluewin.ch/en/news/nationwide-protests-in-france-first-clashes-with-police-li.3639146"
+  ],
+  "source_names": ["Le Matin (AFP)", "blue News (Keystone-SDA)"],
+  "hashtags": ["#MATRIX24", "#Francia", "#France", "#Protestas"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Unos 32.800 manifestantes fuera de París y 166 detenidos a mediodía, según el Ministerio del Interior. Gases lacrimógenos en París.",
+  "summary_en": "About 32,800 marchers outside Paris and 166 arrests by midday, per the interior ministry. Police fired tear gas in Paris.",
+  "highlight_es": "costo de vida",
+  "highlight_en": "cost-of-living protests",
+  "visual_label": "Francia",
+  "image_prompt": "Empty Parisian boulevard with Haussmann-style buildings, overturned trash bins and a haze of drifting smoke, police vans parked in the distance, overcast autumn light, wide cinematic view, no text, no logos, no flags, no identifiable people",
+  "map": {
+    "focus": ["France"],
+    "marker": {"lat": 48.86, "lon": 2.35, "label": "París"},
+    "labels": {"France": "Francia"}
+  }
+}
