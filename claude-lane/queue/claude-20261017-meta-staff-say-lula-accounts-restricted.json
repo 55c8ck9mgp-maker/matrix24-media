@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-meta-staff-say-lula-accounts-restricted",
+  "created_at": "2026-10-17T00:52:04Z",
+  "category": "Colombia / Latin America",
+  "headline": "Meta staff acknowledged Lula's Instagram accounts were hit by restrictions, Folha reports",
+  "headline_es": "Empleados de Meta admitieron restricciones a las cuentas de Lula en Instagram, según Folha",
+  "caption_es": "Mensajes internos de Meta revisados por el diario brasileño Folha de S.Paulo muestran a empleados reconociendo que las cuentas de Instagram del presidente Lula se vieron perjudicadas por restricciones durante la campaña. Los mensajes también señalan que la plataforma recomendaba el perfil del rival, Flavio Bolsonaro. Un día antes, el máximo tribunal electoral de Brasil ordenó a Meta tratar por igual a ambos candidatos de cara a la segunda vuelta del 25 de octubre.",
+  "caption_en": "Internal Meta messages reviewed by Brazil's Folha de S.Paulo show employees acknowledging that President Lula's Instagram accounts were negatively affected by restrictions during the election. The messages also said the platform recommended the profile of challenger Flavio Bolsonaro. A day earlier, Brazil's top electoral court ordered Meta to treat both candidates equally ahead of the October 25 runoff.",
+  "source_urls": [
+    "https://www.thestar.com.my/tech/tech-news/2026/10/16/meta-employees-said-lula039s-accounts-were-hindered-during-brazil-election-folha-reports",
+    "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report"
+  ],
+  "source_names": [
+    "Reuters (via The Star)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#Lula",
+    "#Elecciones"
+  ],
+  "summary_es": "Según Folha, empleados de Meta reconocieron que las cuentas de Lula en Instagram sufrieron restricciones. La segunda vuelta contra Flavio Bolsonaro es el 25 de octubre.",
+  "summary_en": "Per Folha, Meta staff acknowledged Lula's Instagram accounts suffered restrictions. The runoff against Flavio Bolsonaro is on October 25.",
+  "highlight_es": "cuentas de Lula",
+  "highlight_en": "Lula's Instagram accounts",
+  "image_prompt": "Smartphone lying on a desk beside a ballot box, screen glowing with abstract blurred social media shapes, warm evening light, modern government building silhouette through a window, no text, no logos, no flags, no people",
+  "visual_label": "Brasil 2026",
+  "map": {
+    "focus": [
+      "Brazil"
+    ],
+    "labels": {
+      "Brazil": "Brasil"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-17T21:49:20.592Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
