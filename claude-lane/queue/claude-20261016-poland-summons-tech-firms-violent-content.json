@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261016-poland-summons-tech-firms-violent-content",
+  "created_at": "2026-10-16T14:36:00Z",
+  "category": "Technology",
+  "headline": "Poland summons tech giants over violent content after school stabbings",
+  "headline_es": "Polonia convoca a gigantes tecnológicos por contenido violento tras ataques en escuelas",
+  "caption_es": "Polonia convocó el viernes a Google, Meta, TikTok, Discord y Telegram y les pidió actuar más rápido contra el contenido violento vinculado a una ola de ataques con cuchillo en escuelas. X, de Elon Musk, fue invitada pero no asistió. Las autoridades señalaron 89 publicaciones ilegales entre el 7 y el 12 de octubre, y la mayoría no fue atendida; el gobierno impulsa una ley para acelerar su retirada.",
+  "caption_en": "Poland summoned Google, Meta, TikTok, Discord and Telegram on Friday and told them to act faster against violent content linked to a wave of school knife attacks. Elon Musk's X was invited but did not attend. Authorities flagged 89 illegal posts between October 7 and 12, and most were not acted on; the government is pushing a law to speed up removals.",
+  "source_urls": [
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/poland-urges-internet-firms-to-act-on-violent-content-after-school-stabbings",
+    "https://thenextweb.com/news/poland-tech-platforms-violent-content-school-attacks"
+  ],
+  "source_names": [
+    "Reuters",
+    "The Next Web"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Polonia",
+    "#Poland",
+    "#Tecnología",
+    "#RedesSociales"
+  ],
+  "summary_es": "Varsovia exige a las plataformas frenar el contenido violento tras los ataques en escuelas. X no acudió a la reunión.",
+  "summary_en": "Warsaw demands platforms curb violent content after school attacks. X skipped the meeting.",
+  "highlight_es": "gigantes tecnológicos",
+  "highlight_en": "tech giants",
+  "image_prompt": "Modern government ministry building in a European capital at dusk, with glowing smartphone screens and abstract social media icons floating above a city skyline, cool blue tones, wide cinematic view",
+  "visual_label": "Varsovia",
+  "map": {
+    "focus": [
+      "Poland"
+    ],
+    "marker": {
+      "lat": 52.2297,
+      "lon": 21.0122,
+      "label": "Varsovia"
+    },
+    "labels": {
+      "Poland": "Polonia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-17T14:32:18.408Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
