@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-missiles-hit-aden-airport-grounds",
+  "status": "draft",
+  "created_at": "2026-10-17T00:52:04Z",
+  "category": "Security / Geopolitics",
+  "headline": "Two missiles land inside Yemen's Aden International Airport; no casualties reported",
+  "headline_es": "Dos misiles caen dentro del aeropuerto internacional de Adén, en Yemen; sin víctimas",
+  "caption_en": "Two missiles landed on the grounds of Aden International Airport in southern Yemen on Friday night, and Aden's security authorities blamed the Iran-aligned Houthis. No casualties were reported. The strike follows a recent missile attack on the presidential palace compound in Aden, the seat of Yemen's government, as fighting between the Houthis and the Saudi-led coalition escalates.",
+  "caption_es": "Dos misiles cayeron el viernes por la noche en el recinto del aeropuerto internacional de Adén, en el sur de Yemen, y las autoridades de seguridad de la ciudad culparon a los hutíes, aliados de Irán. No se reportaron víctimas. El ataque se produce poco después de un ataque con misiles contra el complejo del palacio presidencial en Adén, sede del Gobierno yemení, en medio de la escalada entre los hutíes y la coalición liderada por Arabia Saudita.",
+  "source_urls": [
+    "https://www.streetinsider.com/Reuters/Missiles+hit+Aden+airport+as+Saudi-led+coalition+intercepts+missile+headed+for+Yanbu/27198861.html",
+    "https://english.news.cn/20261017/7ae57006048849aa849b5cb839f5cced/c.html"
+  ],
+  "source_names": ["Reuters (via StreetInsider)", "Xinhua"],
+  "hashtags": ["#MATRIX24", "#Yemen", "#Aden", "#Hutíes"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Dos misiles cayeron en el recinto del aeropuerto de Adén el viernes por la noche. Las autoridades culpan a los hutíes; no hubo víctimas.",
+  "summary_en": "Two missiles landed on the grounds of Aden's airport on Friday night. Local security authorities blamed the Houthis; no casualties were reported.",
+  "highlight_es": "aeropuerto internacional de Adén",
+  "highlight_en": "Aden International Airport",
+  "visual_label": "Adén",
+  "image_prompt": "Empty airport runway and control tower at night on a dry coastal plain, distant mountains, a faint glow on the horizon, quiet tense atmosphere, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Yemen"],
+    "marker": {"lat": 12.83, "lon": 45.03, "label": "Adén"},
+    "labels": {"Yemen": "Yemen"}
+  }
+}
