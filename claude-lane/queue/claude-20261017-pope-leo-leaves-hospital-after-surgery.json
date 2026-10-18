@@ -40,9 +40,9 @@
       "Italy": "Italia"
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261017-pope-leo-leaves-hospital-after-surgery.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "4dccf166-25a8-4e7e-b02b-4aa140a3992a",
   "ig_media_id": null,
   "history": [
     {
@@ -54,7 +54,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-18T14:59:38.767Z",
+      "event": "reserved",
+      "publish_attempt_id": "4dccf166-25a8-4e7e-b02b-4aa140a3992a"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-18T14:59:38.767Z"
 }
