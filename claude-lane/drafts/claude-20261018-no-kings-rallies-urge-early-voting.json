@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261018-no-kings-rallies-urge-early-voting",
+  "status": "draft",
+  "created_at": "2026-10-18T01:05:00Z",
+  "category": "World",
+  "headline": "No Kings rallies across the US urge voters to cast ballots early in the midterms",
+  "headline_es": "Las marchas No Kings en EE. UU. piden votar de forma anticipada en las elecciones legislativas",
+  "caption_en": "The anti-Trump No Kings movement held thousands of events across the United States on Saturday, shifting its focus to getting people to vote early in the midterm elections. Organizers billed the day as nonpartisan. In Washington, a crowd gathered at the Lincoln Memorial with signs urging people to vote.",
+  "caption_es": "El movimiento No Kings, opositor a Trump, celebró el sábado miles de actos en todo Estados Unidos, con el foco puesto en que la gente vote de forma anticipada en las elecciones de mitad de mandato. Los organizadores presentaron la jornada como apartidista. En Washington, una multitud se reunió en el Monumento a Lincoln con carteles que llamaban a votar.",
+  "source_urls": [
+    "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early",
+    "https://www.wvpe.org/npr-news/2026-10-17/no-kings-draws-crowds-with-focus-on-early-voting"
+  ],
+  "source_names": ["Al Jazeera", "NPR"],
+  "hashtags": ["#MATRIX24", "#NoKings", "#EEUU", "#Midterms"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Miles de actos No Kings en todo EE. UU. pidieron votar de forma anticipada en las elecciones de mitad de mandato. Los organizadores la presentaron como una jornada apartidista.",
+  "summary_en": "Thousands of No Kings events across the US urged people to vote early in the midterms. Organizers billed the day as nonpartisan.",
+  "highlight_es": "votar de forma anticipada",
+  "highlight_en": "cast ballots early",
+  "visual_label": "No Kings",
+  "image_prompt": "Official ballot drop box on a city sidewalk with a neoclassical memorial building in the soft autumn background, fallen leaves, clear sky, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 38.89, "lon": -77.05, "label": "Washington"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}
