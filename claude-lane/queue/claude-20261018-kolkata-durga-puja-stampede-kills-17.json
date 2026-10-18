@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261018-kolkata-durga-puja-stampede-kills-17",
+  "created_at": "2026-10-18T01:05:00Z",
+  "category": "World",
+  "headline": "Stampede at Durga Puja festival in India's Kolkata kills at least 17",
+  "headline_es": "Una estampida en el festival Durga Puja de Calcuta, India, deja al menos 17 muertos",
+  "caption_es": "Al menos 17 personas, entre ellas una niña de siete años, murieron en una estampida frente a un pabellón durante el festival hindú de Durga Puja en Calcuta, en el este de la India. Unas 25 personas resultaron heridas. Las autoridades señalaron que un aguacero repentino probablemente provocó la avalancha de la multitud que esperaba afuera.",
+  "caption_en": "At least 17 people, including a seven-year-old girl, were killed in a stampede outside a pavilion during the Hindu festival of Durga Puja in Kolkata, eastern India. About 25 people were injured. Officials said a sudden downpour likely set off the crush as crowds waited outside.",
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-10-18/india-stampede-kolkata-hindu-festival/107280156",
+    "https://www.arabnews.com/world/stampede-at-india-religious-gathering-kills-17-3006915"
+  ],
+  "source_names": [
+    "ABC News (Australia)",
+    "Arab News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#India",
+    "#Kolkata",
+    "#DurgaPuja"
+  ],
+  "summary_es": "Al menos 17 muertos, entre ellos una niña de siete años, y unos 25 heridos en una estampida frente a un pabellón del Durga Puja. Un aguacero repentino la habría provocado.",
+  "summary_en": "At least 17 dead, including a seven-year-old girl, and about 25 injured in a crush outside a Durga Puja pavilion. A sudden downpour likely triggered it.",
+  "highlight_es": "estampida",
+  "highlight_en": "Stampede",
+  "image_prompt": "Empty festival pavilion decorated with colorful fabric and marigold garlands on a rainy night street, wet pavement reflecting lanterns, scattered sandals and umbrellas on the ground, somber mood, wide cinematic view, no text, no logos, no flags, no people",
+  "visual_label": "Calcuta",
+  "map": {
+    "focus": [
+      "India"
+    ],
+    "marker": {
+      "lat": 22.57,
+      "lon": 88.36,
+      "label": "Calcuta"
+    },
+    "labels": {
+      "India": "India"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-18T21:59:26.023Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
