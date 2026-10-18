@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-coxs-bazar-resort-fire-kills-ten",
+  "created_at": "2026-10-17T12:52:32Z",
+  "category": "World",
+  "headline": "Fire at a beach resort in Bangladesh's Cox's Bazar kills 10 tourists",
+  "headline_es": "Un incendio en un resort de playa en Cox's Bazar, Bangladés, deja 10 turistas muertos",
+  "caption_es": "Un incendio arrasó el sábado por la mañana un resort junto al mar cerca de la playa de Inani, en Cox's Bazar, en el sureste de Bangladés, y causó al menos 10 muertos. Según los bomberos, las víctimas eran turistas, entre ellas un niño de cinco años. Las llamas destruyeron las instalaciones y se investiga la causa.",
+  "caption_en": "A fire swept through a seaside resort near Inani beach in Cox's Bazar, southeastern Bangladesh, on Saturday morning, killing at least 10 people. Fire officials said the victims were tourists, including a five-year-old boy. The blaze gutted the facility, and the cause is being investigated.",
+  "source_urls": [
+    "https://www.scmp.com/news/asia/south-asia/article/3371264/bangladesh-tourist-resort-fire-kills-10",
+    "https://www.dhakatribune.com/bangladesh/nation/422299/five-killed-in-fire-at-cox%E2%80%99s-bazar-resort"
+  ],
+  "source_names": [
+    "South China Morning Post (dpa)",
+    "Dhaka Tribune"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Bangladesh",
+    "#CoxsBazar",
+    "#Incendio"
+  ],
+  "summary_es": "Al menos 10 turistas, entre ellos un niño de cinco años, murieron en el incendio de un resort cerca de la playa de Inani. Se investiga la causa.",
+  "summary_en": "At least 10 tourists, including a five-year-old boy, died when fire gutted a resort near Inani beach. The cause is under investigation.",
+  "highlight_es": "10 turistas muertos",
+  "highlight_en": "kills 10 tourists",
+  "image_prompt": "Fire truck parked on a coastal road beside palm trees and a long sandy beach, thin smoke drifting over the sea, early morning light, wide cinematic view, no text, no logos, no flags, no people",
+  "visual_label": "Cox's Bazar",
+  "map": {
+    "focus": [
+      "Bangladesh"
+    ],
+    "marker": {
+      "lat": 21.22,
+      "lon": 92.04,
+      "label": "Inani, Cox's Bazar"
+    },
+    "labels": {
+      "Bangladesh": "Bangladés"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-18T08:23:21.273Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
