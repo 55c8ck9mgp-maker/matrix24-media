@@ -70,14 +70,23 @@
       "at": "2026-10-18T01:49:16.243Z",
       "event": "facebook_reserved",
       "facebook_attempt_id": "78c135d1-0749-4ec9-94fa-bc3f1267f9b2"
+    },
+    {
+      "at": "2026-10-18T01:49:23.200Z",
+      "event": "facebook_published",
+      "facebook_attempt_id": "78c135d1-0749-4ec9-94fa-bc3f1267f9b2",
+      "facebook_post_id": "1300936266441859_122121979131477315"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-18T01:48:29.632Z",
   "permalink": "https://www.instagram.com/p/DenihPelKx1/",
   "facebook": {
-    "status": "publishing",
+    "status": "published",
     "attempt_id": "78c135d1-0749-4ec9-94fa-bc3f1267f9b2",
-    "reserved_at": "2026-10-18T01:49:16.243Z"
+    "reserved_at": "2026-10-18T01:49:16.243Z",
+    "post_id": "1300936266441859_122121979131477315",
+    "photo_id": "122121979107477315",
+    "published_at": "2026-10-18T01:49:23.200Z"
   }
 }
