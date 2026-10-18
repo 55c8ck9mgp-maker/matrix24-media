@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261017-settlers-attack-european-diplomats-taybeh",
+  "created_at": "2026-10-17T18:55:35Z",
+  "category": "Security / Geopolitics",
+  "headline": "Masked settlers attack European diplomats' convoy in West Bank village of Taybeh",
+  "headline_es": "Colonos enmascarados atacan un convoy de diplomáticos europeos en Taybeh, Cisjordania",
+  "caption_es": "Colonos israelíes enmascarados atacaron el sábado, en plena cosecha de aceitunas, un convoy con diplomáticos de Bélgica, Francia y Polonia cerca de la aldea de Taybeh, en Cisjordania. Un alcalde francés de la delegación fue derribado al suelo y un vehículo del consulado belga resultó dañado. El ejército y el ministro de Exteriores de Israel condenaron el ataque, y la policía abrió una investigación.",
+  "caption_en": "Masked Israeli settlers attacked a convoy carrying Belgian, French and Polish diplomats near the West Bank village of Taybeh on Saturday, during the olive harvest. A French mayor in the delegation was knocked to the ground and a Belgian consulate car was damaged. Israel's military and foreign minister condemned the attack, and police opened an investigation.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/world/masked-settlers-attack-european-diplomats-in-the-occupied-west-bank",
+    "https://www.arabnews.com/middle-east/israeli-settlers-attack-european-diplomats-in-west-bank-amid-surge-in-olive-harvest-violence-3006865"
+  ],
+  "source_names": [
+    "PBS NewsHour (AP)",
+    "Arab News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Cisjordania",
+    "#WestBank",
+    "#Diplomacia"
+  ],
+  "summary_es": "Diplomáticos de Bélgica, Francia y Polonia fueron atacados durante la cosecha de aceitunas. Un alcalde francés fue derribado y un auto consular, dañado.",
+  "summary_en": "Belgian, French and Polish diplomats were attacked during the olive harvest. A French mayor was knocked down and a consular car damaged.",
+  "highlight_es": "diplomáticos europeos",
+  "highlight_en": "European diplomats",
+  "image_prompt": "Terraced olive groves on rocky hills at sunset, a dusty rural road with a single parked white SUV, stone village houses in the distance, wide cinematic view, no people, no text, no logos, no flags",
+  "visual_label": "Taybeh",
+  "map": {
+    "focus": [
+      "Palestine",
+      "Israel"
+    ],
+    "marker": {
+      "lat": 31.954,
+      "lon": 35.3,
+      "label": "Taybeh"
+    },
+    "labels": {
+      "Palestine": "Palestina",
+      "Israel": "Israel"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-18T18:19:57.245Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
