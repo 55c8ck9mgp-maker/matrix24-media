@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T06:51:57Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-typhoon-champi-passes-just-south-of-guam",
+  "category": "Climate",
+  "headline": "Typhoon Champi's eye passes about 10 miles south of Guam, sparing the island its worst",
+  "headline_es": "El ojo del tifón Champi pasa a unos 16 km al sur de Guam y le evita lo peor",
+  "caption_en": "Typhoon Champi's eye passed about 10 miles south of Guam early Sunday, keeping the most violent winds offshore. Gusts around 80 mph were recorded at the airport and rainfall came in well below forecasts. The National Weather Service called the track good news for Guam but urged residents to stay indoors while dangerous conditions persisted.",
+  "caption_es": "El ojo del tifón Champi pasó a unos 16 kilómetros (10 millas) al sur de Guam la madrugada del domingo, lo que mantuvo los vientos más violentos mar adentro. En el aeropuerto se registraron ráfagas de unos 130 km/h (80 mph) y las lluvias fueron muy inferiores a lo previsto. El Servicio Meteorológico Nacional calificó la trayectoria como una buena noticia para Guam, pero pidió a los residentes permanecer en casa mientras persistieran las condiciones peligrosas.",
+  "source_urls": [
+    "https://www.islapublic.org/news/2026-10-18/good-news-for-guam-champi-passes-10-miles-south-of-malesso-moves-quickly-away-from-the-island",
+    "https://www.postguam.com/news/local/nws-champi-became-super-typhoon-passing-guam-landfall-would-have-been-devastating/article_800fb984-e258-4ed6-a996-1550b27df53b.html"
+  ],
+  "source_names": [
+    "Isla Public Media (KPRG)",
+    "The Guam Daily Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Guam",
+    "#Champi",
+    "#Typhoon"
+  ],
+  "summary_es": "El ojo pasó a unos 16 km al sur de la isla y los vientos más fuertes quedaron mar adentro. Ráfagas de unos 130 km/h y menos lluvia de lo previsto.",
+  "summary_en": "The eye passed about 10 miles south of the island, keeping the strongest winds offshore. Gusts near 80 mph; rainfall well below forecast.",
+  "highlight_es": "tifón Champi",
+  "highlight_en": "Typhoon Champi",
+  "visual_label": "Champi",
+  "image_prompt": "Satellite-style view of a powerful typhoon with a clear small eye spiraling over the dark Pacific Ocean, a small tropical island just north of the eye, dramatic cloud bands, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Guam"
+    ],
+    "marker": {
+      "lat": 13.27,
+      "lon": 144.67,
+      "label": "Guam"
+    },
+    "labels": {
+      "Guam": "Guam"
+    }
+  }
+}

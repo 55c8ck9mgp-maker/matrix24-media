@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T06:51:57Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-guatemala-ex-prosecutor-solorzano-foppa-killed",
+  "category": "Colombia / Latin America",
+  "headline": "Former Guatemalan anti-corruption prosecutor Solórzano Foppa shot dead in the capital",
+  "headline_es": "Asesinan a tiros al exfiscal anticorrupción guatemalteco Solórzano Foppa en la capital",
+  "caption_en": "Juan Francisco Solórzano Foppa, a former anti-corruption prosecutor and ex-head of Guatemala's tax agency SAT, was shot dead on Saturday at the Campo Marte sports complex in Guatemala City. Two suspected attackers were detained. President Bernardo Arévalo condemned the cowardly murder and said both the killers and those who ordered it must face justice.",
+  "caption_es": "Juan Francisco Solórzano Foppa, exfiscal anticorrupción y exjefe de la Superintendencia de Administración Tributaria (SAT) de Guatemala, fue asesinado a tiros el sábado en el complejo deportivo Campo Marte, en Ciudad de Guatemala. Dos presuntos atacantes fueron detenidos. El presidente Bernardo Arévalo condenó el cobarde asesinato y afirmó que tanto los autores materiales como los intelectuales deben responder ante la justicia.",
+  "source_urls": [
+    "https://aljazeera.com/news/2026/10/18/guatemalan-former-prosecutor-shot-dead-at-sports-centre",
+    "https://www.prensa.com/mundo/asesinan-en-guatemala-a-juan-francisco-solorzano-foppa-exfiscal-anticorrupcion/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "La Prensa (Panamá) / EFE"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Guatemala",
+    "#Corrupción",
+    "#LatAm"
+  ],
+  "summary_es": "El exfiscal y exjefe de la SAT fue atacado en el complejo Campo Marte. Dos sospechosos fueron detenidos y el presidente Arévalo exigió justicia.",
+  "summary_en": "The ex-prosecutor and former tax agency chief was attacked at the Campo Marte complex. Two suspects were detained; President Arévalo demanded justice.",
+  "highlight_es": "exfiscal anticorrupción",
+  "highlight_en": "anti-corruption prosecutor",
+  "visual_label": "Guatemala",
+  "image_prompt": "Empty amateur football pitch at a city sports complex in the late afternoon, police tape across a gate in the foreground, volcanic mountains on the horizon, somber mood, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Guatemala"
+    ],
+    "marker": {
+      "lat": 14.62,
+      "lon": -90.51,
+      "label": "Ciudad de Guatemala"
+    },
+    "labels": {
+      "Guatemala": "Guatemala"
+    }
+  }
+}

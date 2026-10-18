@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T06:51:57Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-drones-set-st-petersburg-oil-terminal-ablaze",
+  "category": "Security / Geopolitics",
+  "headline": "Drone attack sets St. Petersburg oil terminal on fire and halts Pulkovo airport",
+  "headline_es": "Un ataque con drones incendia la terminal petrolera de San Petersburgo y paraliza Pulkovo",
+  "caption_en": "A large overnight drone attack hit St. Petersburg and the Leningrad region, with Governor Alexander Beglov confirming a fire at the city's oil terminal and at sites in four districts. Pulkovo airport restricted flights from about 2 a.m. Regional governor Alexander Drozdenko said 126 drones were shot down. VK confirmed its regional data center was attacked but said services kept running.",
+  "caption_es": "Un amplio ataque nocturno con drones alcanzó San Petersburgo y la región de Leningrado. El gobernador Alexander Beglov confirmó un incendio en la terminal petrolera de la ciudad y en instalaciones de cuatro distritos. El aeropuerto de Pulkovo restringió los vuelos desde cerca de las 2 de la madrugada. El gobernador regional Alexander Drozdenko dijo que se derribaron 126 drones. VK confirmó un ataque contra su centro de datos en la región, pero afirmó que sus servicios siguen funcionando.",
+  "source_urls": [
+    "https://news.liga.net/en/war/news/st-petersburg-hit-by-massive-drone-attack-oil-terminal-ablaze-bridge-struck",
+    "https://nashaniva.com/en/407160"
+  ],
+  "source_names": [
+    "LIGA.net",
+    "Nasha Niva"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Russia",
+    "#Ukraine",
+    "#StPetersburg"
+  ],
+  "summary_es": "El gobernador confirmó un incendio en la terminal petrolera y en cuatro distritos. Pulkovo restringió vuelos y Leningrado dice haber derribado 126 drones.",
+  "summary_en": "The governor confirmed a fire at the oil terminal and sites in four districts. Pulkovo restricted flights; officials say 126 drones were downed.",
+  "highlight_es": "terminal petrolera",
+  "highlight_en": "oil terminal",
+  "visual_label": "San Petersburgo",
+  "image_prompt": "Night view of a port oil terminal with large storage tanks and a column of orange flame and black smoke rising over the water, cranes silhouetted, cold northern harbor, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Russia"
+    ],
+    "marker": {
+      "lat": 59.88,
+      "lon": 30.21,
+      "label": "San Petersburgo"
+    },
+    "labels": {
+      "Russia": "Rusia"
+    }
+  }
+}

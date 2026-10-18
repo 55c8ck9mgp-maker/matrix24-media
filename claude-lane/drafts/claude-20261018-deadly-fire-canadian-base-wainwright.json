@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T06:51:57Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-deadly-fire-canadian-base-wainwright",
+  "category": "World",
+  "headline": "Deadly fire at Canadian Forces Base Wainwright in Alberta leaves dead and injured",
+  "headline_es": "Un incendio mortal en la base militar canadiense de Wainwright, en Alberta, deja muertos y heridos",
+  "caption_en": "A fire at Canadian Forces Base Wainwright in Alberta caused both deaths and injuries on Saturday, Defence Minister David McGuinty said, calling the situation very active and delicate. Driven by strong winds, the fire crossed the base fence. Premier Danielle Smith called it significant and tragic; PM Mark Carney said his thoughts were with those affected.",
+  "caption_es": "Un incendio en la base de las Fuerzas Canadienses de Wainwright, en Alberta, causó muertos y heridos el sábado, según el ministro de Defensa, David McGuinty, quien describió la situación como muy activa y delicada. Impulsado por fuertes vientos, el fuego cruzó la cerca de la base. La primera ministra de Alberta, Danielle Smith, lo calificó de significativo y trágico; el primer ministro Mark Carney expresó su solidaridad con los afectados.",
+  "source_urls": [
+    "https://globalnews.ca/news/12106709/cfb-wainwright-fire/",
+    "https://www.aljazeera.com/news/2026/10/18/deaths-injuries-after-fire-at-alberta-military-base-canada-minister"
+  ],
+  "source_names": [
+    "Global News",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Canada",
+    "#Alberta",
+    "#Wainwright"
+  ],
+  "summary_es": "El ministro de Defensa confirmó muertos y heridos por un incendio en la base de Wainwright. El fuego, avivado por fuertes vientos, cruzó la cerca de la base.",
+  "summary_en": "Canada's defence minister confirmed deaths and injuries in a fire at CFB Wainwright. Fanned by strong winds, the blaze crossed the base fence.",
+  "highlight_es": "incendio mortal",
+  "highlight_en": "Deadly fire",
+  "visual_label": "Wainwright",
+  "image_prompt": "Wind-driven grass fire spreading across open prairie near a military training area with distant low barracks buildings and tall smoke plume, orange sky at dusk, fire trucks on a gravel road, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Canada"
+    ],
+    "marker": {
+      "lat": 52.83,
+      "lon": -110.86,
+      "label": "Wainwright"
+    },
+    "labels": {
+      "Canada": "Canadá"
+    }
+  }
+}
