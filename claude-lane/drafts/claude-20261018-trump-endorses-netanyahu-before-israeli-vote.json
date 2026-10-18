@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T18:58:20Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-trump-endorses-netanyahu-before-israeli-vote",
+  "category": "World",
+  "headline": "Trump endorses Netanyahu nine days before Israel's October 27 election",
+  "headline_es": "Trump respalda a Netanyahu a nueve días de las elecciones en Israel",
+  "caption_en": "US President Donald Trump gave Israeli Prime Minister Benjamin Netanyahu his full endorsement on Sunday, after withholding it for months, ahead of Israel's tight October 27 parliamentary election. Trump praised Netanyahu as a partner against Iran and said that if he lost, the US would have to do that work itself. Netanyahu called it tremendous support. His Likud-led coalition faces an opposition bloc headed by Gadi Eisenkot.",
+  "caption_es": "El presidente de EE. UU., Donald Trump, dio el domingo su pleno respaldo al primer ministro israelí, Benjamin Netanyahu, tras meses sin hacerlo, de cara a las reñidas elecciones parlamentarias del 27 de octubre en Israel. Trump elogió a Netanyahu como socio frente a Irán y afirmó que, si pierde, EE. UU. tendría que hacer ese trabajo por su cuenta. Netanyahu lo calificó de enorme apoyo. Su coalición, encabezada por el Likud, se enfrenta a un bloque opositor liderado por Gadi Eisenkot.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections",
+    "https://www.pbs.org/newshour/politics/trump-endorses-embattled-israeli-prime-minister-benjamin-netanyahu-for-reelection"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Associated Press (PBS NewsHour)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Israel",
+    "#Elecciones",
+    "#Trump",
+    "#Netanyahu"
+  ],
+  "summary_es": "Tras meses sin pronunciarse, Trump elogió a Netanyahu como aliado frente a Irán. Israel vota el 27 de octubre en una elección reñida.",
+  "summary_en": "After months of silence, Trump praised Netanyahu as an ally against Iran. Israelis vote on October 27 in a tight race.",
+  "highlight_es": "respalda a Netanyahu",
+  "highlight_en": "endorses Netanyahu",
+  "visual_label": "Elecciones",
+  "image_prompt": "Empty polling station with wooden ballot boxes and voting booths under warm lights, a modern city skyline visible through large windows at dusk, calm cinematic wide view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Israel"
+    ],
+    "labels": {
+      "Israel": "Israel"
+    }
+  }
+}

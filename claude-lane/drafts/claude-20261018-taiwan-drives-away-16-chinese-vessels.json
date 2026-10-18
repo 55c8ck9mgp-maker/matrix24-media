@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T18:58:20Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-taiwan-drives-away-16-chinese-vessels",
+  "category": "Security / Geopolitics",
+  "headline": "Taiwan says it drove away 16 Chinese vessels in coordinated 'harassment'",
+  "headline_es": "Taiwán dice que expulsó a 16 buques chinos en un 'acoso' coordinado",
+  "caption_en": "Taiwan's coast guard said on Sunday it confronted and drove away 16 Chinese coast guard, research and fishing vessels operating at the same time off its eastern, southern and southwestern coasts and around the disputed Pratas islands. It called the operations hybrid warfare, said some ships entered restricted waters, and accused Beijing of trying to alter the status quo. China claims Taiwan and its surrounding waters, which Taipei rejects.",
+  "caption_es": "La guardia costera de Taiwán informó el domingo que confrontó y expulsó a 16 buques chinos de guardia costera, investigación y pesca que operaban al mismo tiempo frente a sus costas este, sur y suroeste y alrededor de las disputadas islas Pratas. Calificó las operaciones de guerra híbrida, dijo que algunos barcos entraron en aguas restringidas y acusó a Pekín de intentar alterar el statu quo. China reclama Taiwán y sus aguas, algo que Taipéi rechaza.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment",
+    "https://www.malaymail.com/news/world/2026/10/18/taiwan-says-it-drove-away-16-chinese-vessels-in-coordinated-maritime-harassment/239642"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "AFP (Malay Mail)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Taiwan",
+    "#China",
+    "#Pratas"
+  ],
+  "summary_es": "Buques de guardia costera, investigación y pesca operaron a la vez cerca de Taiwán y de las islas Pratas. Taipéi lo llamó guerra híbrida.",
+  "summary_en": "Coast guard, research and fishing ships operated simultaneously near Taiwan and the Pratas islands. Taipei called it hybrid warfare.",
+  "highlight_es": "16 buques chinos",
+  "highlight_en": "16 Chinese vessels",
+  "visual_label": "Pratas",
+  "image_prompt": "Two grey coast guard patrol ships on a choppy blue sea shadowing several distant fishing boats, small low island on the horizon, overcast sky, wide cinematic aerial view, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Taiwan",
+      "China"
+    ],
+    "marker": {
+      "lat": 20.7,
+      "lon": 116.72,
+      "label": "Islas Pratas"
+    },
+    "labels": {
+      "Taiwan": "Taiwán",
+      "China": "China"
+    }
+  }
+}

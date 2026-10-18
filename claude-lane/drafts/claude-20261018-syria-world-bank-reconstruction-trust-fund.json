@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T18:58:20Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-syria-world-bank-reconstruction-trust-fund",
+  "category": "Economy",
+  "headline": "Syria and World Bank agree to set up a reconstruction trust fund",
+  "headline_es": "Siria y el Banco Mundial acuerdan crear un fondo para la reconstrucción",
+  "caption_en": "Syria and the World Bank agreed on Sunday to set up a multi-donor trust fund for the country's recovery and reconstruction after more than a decade of civil war, according to a joint statement. The fund is to offer concessional financing, investment guarantees and technical support, and help strengthen state institutions. The World Bank will manage it with donors, following priorities set by Syrian authorities.",
+  "caption_es": "Siria y el Banco Mundial acordaron el domingo crear un fondo fiduciario de múltiples donantes para la recuperación y reconstrucción del país tras más de una década de guerra civil, según un comunicado conjunto. El fondo ofrecerá financiamiento en condiciones favorables, garantías de inversión y apoyo técnico, y ayudará a fortalecer las instituciones del Estado. El Banco Mundial lo gestionará junto con los donantes, según las prioridades fijadas por las autoridades sirias.",
+  "source_urls": [
+    "https://www.devdiscourse.com/article/international/3994400--syria-world-bank-agree-to-set-up-fund-for-recovery-and-reconstruction",
+    "https://en.apa.az/asia/syria-and-world-bank-have-agreed-to-create-fund-for-restoration-of-republic-530779"
+  ],
+  "source_names": [
+    "Reuters (Devdiscourse)",
+    "APA"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Siria",
+    "#Syria",
+    "#BancoMundial"
+  ],
+  "summary_es": "El fondo de múltiples donantes ofrecerá crédito favorable, garantías de inversión y apoyo técnico para reconstruir Siria tras la guerra civil.",
+  "summary_en": "The multi-donor fund will offer concessional financing, investment guarantees and technical support to rebuild Syria after the civil war.",
+  "highlight_es": "fondo para la reconstrucción",
+  "highlight_en": "reconstruction trust fund",
+  "visual_label": "Reconstrucción",
+  "image_prompt": "Construction cranes and scaffolding rising over partly damaged stone buildings in an old Middle Eastern city at sunrise, new concrete structures beside ruins, hopeful warm light, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Syria"
+    ],
+    "marker": {
+      "lat": 33.51,
+      "lon": 36.29,
+      "label": "Damasco"
+    },
+    "labels": {
+      "Syria": "Siria"
+    }
+  }
+}
