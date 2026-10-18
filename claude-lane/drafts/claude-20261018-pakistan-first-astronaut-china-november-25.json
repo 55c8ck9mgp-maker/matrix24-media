@@ -1,0 +1,46 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T12:54:25Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-pakistan-first-astronaut-china-november-25",
+  "category": "Science",
+  "headline": "Pakistan says its first astronaut will fly from China on November 25",
+  "headline_es": "Pakistán anuncia que su primer astronauta volará desde China el 25 de noviembre",
+  "caption_en": "Pakistan's planning minister Ahsan Iqbal said on Sunday that the country's first astronaut will set off on a space mission from China on November 25. Speaking at the close of World Space Week in Narowal, he also set a goal of a Pakistani Moon landing by 2035 and announced plans for the country's first space museum.",
+  "caption_es": "El ministro de Planificación de Pakistán, Ahsan Iqbal, afirmó el domingo que el primer astronauta del país partirá en una misión espacial desde China el 25 de noviembre. En la clausura de la Semana Mundial del Espacio en Narowal, también fijó como meta que Pakistán llegue a la Luna en 2035 y anunció planes para el primer museo espacial del país.",
+  "source_urls": [
+    "https://tribune.com.pk/story/2635525/pakistan-to-launch-first-astronaut-into-space-from-china-on-nov-25-ahsan-iqbal",
+    "https://en.dailypakistan.com.pk/18-Oct-2026/pakistan-plans-first-astronaut-mission-on-nov-25-ahsan-iqbal"
+  ],
+  "source_names": [
+    "The Express Tribune",
+    "Daily Pakistan"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Pakistán",
+    "#Pakistan",
+    "#Espacio",
+    "#Space"
+  ],
+  "summary_es": "El ministro Ahsan Iqbal anunció la misión desde China y fijó la meta de llegar a la Luna en 2035.",
+  "summary_en": "Minister Ahsan Iqbal announced the mission from China and set a goal of a Moon landing by 2035.",
+  "highlight_es": "primer astronauta",
+  "highlight_en": "first astronaut",
+  "visual_label": "Espacio",
+  "image_prompt": "Rocket lifting off from a launch pad at dawn with a bright exhaust plume, desert hills in the background, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Pakistan",
+      "China"
+    ],
+    "labels": {
+      "Pakistan": "Pakistán",
+      "China": "China"
+    }
+  }
+}

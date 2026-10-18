@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T12:54:25Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-limoges-historic-town-hall-destroyed-protests",
+  "category": "World",
+  "headline": "Historic Limoges town hall largely destroyed by fire as unrest sweeps France",
+  "headline_es": "Arde y queda casi destruido el histórico ayuntamiento de Limoges en las protestas de Francia",
+  "caption_en": "Masked protesters broke into the 19th-century town hall of Limoges on Saturday evening and set it on fire; the building was largely destroyed and its spire collapsed. More than half a million people joined cost-of-living protests across France, most of them peaceful, while violent groups looted shops and clashed with police. President Macron said those who attacked town halls would be prosecuted and punished.",
+  "caption_es": "Manifestantes encapuchados irrumpieron el sábado por la tarde en el ayuntamiento del siglo XIX de Limoges y le prendieron fuego; el edificio quedó en gran parte destruido y su aguja se desplomó. Más de medio millón de personas se sumaron en toda Francia a las protestas por el costo de vida, en su mayoría pacíficas, mientras grupos violentos saquearon comercios y se enfrentaron a la policía. El presidente Macron afirmó que quienes atacaron ayuntamientos serán procesados y castigados.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/18/spire-collapses-at-historic-limoges-town-hall-amid-violent-protests-across-france",
+    "https://www.timeslive.co.za/news/world/2026-10-18-macron-faces-pressure-after-frances-worst-unrest-in-years/",
+    "https://www.theweek.in/news/world/2026/10/18/france-student-riots-and-protests-historic-limoges-town-hall-destroyed-macron-condemns-violence-clashes.html"
+  ],
+  "source_names": [
+    "Euronews",
+    "Reuters (TimesLIVE)",
+    "The Week"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Francia",
+    "#France",
+    "#Limoges"
+  ],
+  "summary_es": "Encapuchados incendiaron el ayuntamiento del siglo XIX, cuya aguja se desplomó. Más de medio millón de personas protestaron en Francia por el costo de vida.",
+  "summary_en": "Masked protesters set the 19th-century building ablaze and its spire collapsed. Over half a million people marched across France over living costs.",
+  "highlight_es": "ayuntamiento de Limoges",
+  "highlight_en": "Limoges town hall",
+  "visual_label": "Limoges",
+  "image_prompt": "Ornate 19th-century French city hall with a tall clock spire at dusk, thick smoke rising against an orange sky, empty cobblestone square in the foreground, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "France"
+    ],
+    "marker": {
+      "lat": 45.83,
+      "lon": 1.26,
+      "label": "Limoges"
+    },
+    "labels": {
+      "France": "Francia"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-18T12:54:25Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261018-microsoft-exits-nscale-uk-data-centre-deal",
+  "category": "Technology",
+  "headline": "Microsoft pulls out of Nscale's UK data centre deal in Essex, Telegraph reports",
+  "headline_es": "Microsoft abandona el acuerdo de centro de datos de Nscale en Essex, según The Telegraph",
+  "caption_en": "Microsoft has withdrawn from a planned data centre deal with British AI cloud provider Nscale in Loughton, Essex, according to The Telegraph. The project had faced delays, and Nscale was reportedly told the site might not get a grid connection until the 2030s. Nscale said its relationship with Microsoft remains strong and that it is exploring alternative power sources; Microsoft did not comment.",
+  "caption_es": "Microsoft se ha retirado de un acuerdo para un centro de datos con el proveedor británico de nube para IA Nscale en Loughton, Essex, según The Telegraph. El proyecto sufría retrasos y, según la información, a Nscale le dijeron que el terreno quizá no tendría conexión a la red eléctrica hasta la década de 2030. Nscale afirmó que su relación con Microsoft sigue siendo sólida y que estudia fuentes de energía alternativas; Microsoft no hizo comentarios.",
+  "source_urls": [
+    "https://www.globalbankingandfinance.com/microsoft-pulls-out-uk-data-center-deal-nscale-telegraph/",
+    "https://finance.yahoo.com/technology/ai/articles/microsoft-pulls-uk-data-centre-095253878.html"
+  ],
+  "source_names": [
+    "Reuters (Global Banking & Finance Review)",
+    "Investing.com (Yahoo Finance)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Microsoft",
+    "#IA",
+    "#AI",
+    "#DataCenter"
+  ],
+  "summary_es": "El proyecto en Loughton sufría retrasos y quizá no tendría conexión eléctrica hasta los años 2030. Nscale dice que su relación con Microsoft sigue sólida.",
+  "summary_en": "The Loughton project faced delays and may lack a grid connection until the 2030s. Nscale says its Microsoft relationship remains strong.",
+  "highlight_es": "Microsoft abandona",
+  "highlight_en": "Microsoft pulls out",
+  "visual_label": "Essex",
+  "image_prompt": "Large unfinished data centre building on a green English field under grey skies, idle construction cranes and empty power pylons nearby, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "United Kingdom"
+    ],
+    "marker": {
+      "lat": 51.65,
+      "lon": 0.07,
+      "label": "Loughton"
+    },
+    "labels": {
+      "United Kingdom": "Reino Unido"
+    }
+  }
+}
