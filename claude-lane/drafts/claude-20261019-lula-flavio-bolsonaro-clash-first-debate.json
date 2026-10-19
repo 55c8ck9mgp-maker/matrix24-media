@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-lula-flavio-bolsonaro-clash-first-debate",
+  "status": "draft",
+  "created_at": "2026-10-19T00:52:51Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "Colombia / Latin America",
+  "headline": "Lula and Flávio Bolsonaro trade corruption accusations in first runoff debate",
+  "headline_es": "Lula y Flávio Bolsonaro chocan por acusaciones de corrupción en su primer debate",
+  "caption_en": "Brazilian President Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro met on Sunday in their first televised debate, on broadcaster Band, one week before the October 25 runoff. They traded accusations over corruption suspicions around each other's associates and clashed on public security, with Bolsonaro promising a war on 'narcoterrorism' and Lula pledging a security ministry.",
+  "caption_es": "El presidente brasileño Luiz Inácio Lula da Silva y el senador Flávio Bolsonaro se enfrentaron el domingo en su primer debate televisado, en la cadena Band, a una semana de la segunda vuelta del 25 de octubre. Intercambiaron acusaciones por sospechas de corrupción en el entorno de cada uno y chocaron sobre seguridad pública: Bolsonaro prometió una guerra contra el 'narcoterrorismo' y Lula, un ministerio de Seguridad.",
+  "source_urls": [
+    "https://www.infobae.com/america/agencias/2026/10/19/lula-y-flavio-bolsonaro-chocan-en-debate-por-las-sospechas-de-corrupcion-de-sus-entornos/",
+    "https://www.cnnbrasil.com.br/eleicoes/flavio-x-lula-1o-bloco-de-debate-na-tv-e-marcado-por-ataques-e-acusacoes/",
+    "https://theprint.in/world/brazils-bolsonaro-lula-face-off-in-first-debate-as-supporters-fill-streets/3075549/"
+  ],
+  "source_names": [
+    "EFE (Infobae)",
+    "CNN Brasil",
+    "Reuters (ThePrint)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#Brazil",
+    "#Elecciones2026",
+    "#Lula"
+  ],
+  "summary_es": "A una semana de la segunda vuelta, Lula y Flávio Bolsonaro se acusaron mutuamente de corrupción y chocaron sobre seguridad en la TV.",
+  "summary_en": "A week before the runoff, Lula and Flávio Bolsonaro accused each other's circles of corruption and clashed on security on TV.",
+  "highlight_es": "primer debate",
+  "highlight_en": "first runoff debate",
+  "visual_label": "Brasil 2026",
+  "image_prompt": "Empty television debate studio with two podiums facing each other under bright stage lights, green and yellow ambient lighting, cameras in the foreground, wide cinematic view",
+  "map": {
+    "focus": [
+      "Brazil"
+    ],
+    "marker": {
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "label": "São Paulo"
+    },
+    "labels": {
+      "Brazil": "Brasil"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-macron-vows-rioters-held-accountable",
+  "status": "draft",
+  "created_at": "2026-10-19T00:52:51Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "World",
+  "headline": "Macron voices 'anger and shame' over riots, vows those responsible will answer",
+  "headline_es": "Macron expresa 'ira y vergüenza' por los disturbios y promete castigar a los culpables",
+  "caption_en": "In a televised address on Sunday, French President Emmanuel Macron condemned the rioting and looting that marred Saturday's nationwide cost-of-living protests, voicing 'anger and shame'. He said those who sought to bring down the Republic would be held accountable. Authorities said about 2,400 people were arrested across France.",
+  "caption_es": "En un discurso televisado el domingo, el presidente francés Emmanuel Macron condenó los disturbios y saqueos que empañaron las protestas nacionales del sábado contra el alto costo de vida, y expresó 'ira y vergüenza'. Afirmó que quienes intentaron derribar la República rendirán cuentas. Las autoridades informaron de unas 2.400 detenciones en toda Francia.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting",
+    "https://www.pbs.org/newshour/world/frances-macron-vows-to-hold-accountable-those-who-sought-to-bring-down-the-republic"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "PBS NewsHour / AP"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Francia",
+    "#France",
+    "#Macron",
+    "#Protestas"
+  ],
+  "summary_es": "Macron condenó en televisión la violencia de las protestas del sábado y prometió que los responsables rendirán cuentas. Hubo unas 2.400 detenciones.",
+  "summary_en": "Macron condemned Saturday's protest violence on TV and vowed those responsible will be held to account. About 2,400 people were arrested.",
+  "highlight_es": "ira y vergüenza",
+  "highlight_en": "anger and shame",
+  "visual_label": "Francia",
+  "image_prompt": "Ornate French presidential palace facade at dusk with a single lit window, empty cobblestone street with scattered debris and a lone police barrier in the foreground, moody cinematic wide view",
+  "map": {
+    "focus": [
+      "France"
+    ],
+    "marker": {
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "label": "París"
+    },
+    "labels": {
+      "France": "Francia"
+    }
+  }
+}
