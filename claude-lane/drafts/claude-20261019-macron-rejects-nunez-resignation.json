@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-macron-rejects-nunez-resignation",
+  "status": "draft",
+  "created_at": "2026-10-19T07:03:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "World",
+  "headline": "Macron refuses Interior Minister Nuñez's resignation after weekend riots",
+  "headline_es": "Macron rechaza la dimisión del ministro del Interior Nuñez tras los disturbios",
+  "caption_en": "French President Emmanuel Macron refused the resignation of Interior Minister Laurent Nuñez on Monday, the Élysée said, citing the need for continued leadership of law enforcement. Nuñez offered to step down after weekend protests turned into riots. Macron asked him to be transparent about intelligence failures and to bring in new methods for security forces.",
+  "caption_es": "El presidente francés Emmanuel Macron rechazó el lunes la dimisión del ministro del Interior, Laurent Nuñez, informó el Elíseo, alegando la necesidad de mantener la dirección de las fuerzas del orden. Nuñez se ofreció a dimitir después de que las protestas del fin de semana derivaran en disturbios. Macron le pidió transparencia sobre los fallos de inteligencia y nuevos métodos para las fuerzas de seguridad.",
+  "source_urls": [
+    "https://www.arabnews.com/world/french-president-refuses-interior-ministers-resignation-after-protests-3007095",
+    "https://en.ara.cat/international/macron-rejects-the-resignation-of-the-minister-of-the-interior-and-asks-him-for-new-methods-against-the-protesters_1_5883224.html"
+  ],
+  "source_names": [
+    "Arab News / AFP",
+    "Ara"
+  ],
+  "hashtags": ["#MATRIX24", "#Francia", "#France", "#Macron", "#Nuñez"],
+  "summary_es": "Macron rechazó la renuncia de Nuñez y le pidió transparencia sobre los fallos de inteligencia y nuevos métodos ante las protestas.",
+  "summary_en": "Macron turned down Nuñez's resignation and asked him for transparency on intelligence failures and new methods for policing the protests.",
+  "highlight_es": "rechaza la dimisión",
+  "highlight_en": "refuses",
+  "visual_label": "Francia",
+  "image_prompt": "Grand French government ministry building with tall wooden doors and wrought-iron gates on a grey morning, empty courtyard, a few parked police vans in the distance, muted cinematic wide view",
+  "map": {
+    "focus": ["France"],
+    "marker": {"lat": 48.8704, "lon": 2.3167, "label": "París"},
+    "labels": {"France": "Francia"}
+  }
+}

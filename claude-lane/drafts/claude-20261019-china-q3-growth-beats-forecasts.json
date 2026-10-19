@@ -1,0 +1,36 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-china-q3-growth-beats-forecasts",
+  "status": "draft",
+  "created_at": "2026-10-19T07:03:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "Economy",
+  "headline": "China's economy grows 4.5% in the third quarter, beating forecasts",
+  "headline_es": "La economía de China crece un 4,5% en el tercer trimestre y supera las previsiones",
+  "caption_en": "China's GDP grew 4.5% year on year in the third quarter, up from 4.3% in the second quarter and slightly above the 4.4% analysts expected, official data showed on Monday. In September, industrial output rose 5.5% and retail sales 1.1%, while property investment fell 20.6% in the first nine months.",
+  "caption_es": "El PIB de China creció un 4,5% interanual en el tercer trimestre, frente al 4,3% del segundo y algo por encima del 4,4% que esperaban los analistas, según datos oficiales publicados el lunes. En septiembre, la producción industrial subió un 5,5% y las ventas minoristas un 1,1%, mientras que la inversión inmobiliaria cayó un 20,6% en los primeros nueve meses.",
+  "source_urls": [
+    "https://www.investing.com/news/economy-news/chinas-economic-growth-accelerates-to-45-in-third-quarter-4956227",
+    "https://en.sedaily.com/international/2026/10/19/chinas-third-quarter-gdp-grows-45-percent-beating-forecasts",
+    "https://english.news.cn/20261019/89cd3cbf51d94ed7bc3156fa7c628667/c.html"
+  ],
+  "source_names": [
+    "Reuters / Investing.com",
+    "Seoul Economic Daily",
+    "Xinhua"
+  ],
+  "hashtags": ["#MATRIX24", "#China", "#Economía", "#Economy", "#PIB"],
+  "summary_es": "El PIB chino creció un 4,5% interanual entre julio y septiembre, más que el 4,3% del trimestre anterior y por encima de lo previsto.",
+  "summary_en": "China's GDP grew 4.5% year on year in July-September, faster than the previous quarter's 4.3% and above expectations.",
+  "highlight_es": "4,5%",
+  "highlight_en": "4.5%",
+  "visual_label": "PIB China",
+  "image_prompt": "Busy container port at sunrise with stacked shipping containers, large gantry cranes and a cargo ship being loaded, modern city skyline in the hazy background, wide cinematic view",
+  "map": {
+    "focus": ["China"],
+    "labels": {"China": "China"}
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-russian-missile-strike-kyiv-subway",
+  "status": "draft",
+  "created_at": "2026-10-19T07:03:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "Security / Geopolitics",
+  "headline": "Russian strike on Kyiv kills a woman and hits a subway station",
+  "headline_es": "Ataque ruso contra Kiev mata a una mujer y alcanza una estación de metro",
+  "caption_en": "A Russian air strike on Kyiv overnight killed a woman and injured three other people, Mayor Vitali Klitschko said on Monday. The attack hit a subway station on the city's left bank, damaged a 25-storey residential building and struck non-residential buildings and a medical facility.",
+  "caption_es": "Un ataque aéreo ruso contra Kiev durante la noche mató a una mujer e hirió a otras tres personas, informó el lunes el alcalde Vitali Klitschko. El ataque alcanzó una estación de metro en la margen izquierda de la ciudad, dañó un edificio residencial de 25 pisos y golpeó edificios no residenciales y un centro médico.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+    "https://theprint.in/world/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says/3075564/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Reuters / ThePrint"
+  ],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Ukraine", "#Kyiv", "#Rusia"],
+  "summary_es": "Un ataque ruso nocturno contra Kiev mató a una mujer, hirió a tres personas y dañó una estación de metro, un edificio de 25 pisos y un centro médico.",
+  "summary_en": "An overnight Russian strike on Kyiv killed a woman, injured three people and damaged a subway station, a 25-storey building and a medical facility.",
+  "highlight_es": "estación de metro",
+  "highlight_en": "subway station",
+  "visual_label": "Kiev",
+  "image_prompt": "Entrance to an underground metro station in an Eastern European city at night, tall apartment blocks in the background with a few dark windows, wet pavement reflecting streetlights, distant searchlight beam in a cloudy sky, cinematic wide view",
+  "map": {
+    "focus": ["Ukraine"],
+    "marker": {"lat": 50.4501, "lon": 30.5234, "label": "Kiev"},
+    "labels": {"Ukraine": "Ucrania"}
+  }
+}
