@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-houthi-missiles-kill-18-shabwa-camp",
+  "status": "draft",
+  "created_at": "2026-10-19T12:54:05Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "Security / Geopolitics",
+  "headline": "Houthi missile attack on Yemeni training camp in Shabwa kills at least 18",
+  "headline_es": "Ataque con misiles hutíes contra un campo de entrenamiento en Shabwa mata al menos a 18",
+  "caption_en": "At least 18 people were killed on Monday when three ballistic missiles hit a Yemeni government camp training security force recruits in Shabwa province, government and medical sources told Reuters. Yemen's military blamed the Houthis, who had not commented. The attack follows recent Houthi strikes on government-held areas and on Saudi Arabia.",
+  "caption_es": "Al menos 18 personas murieron el lunes cuando tres misiles balísticos impactaron un campo del gobierno yemení donde se entrenaban reclutas de las fuerzas de seguridad, en la provincia de Shabwa, según fuentes gubernamentales y médicas citadas por Reuters. El ejército yemení culpó a los hutíes, que no habían comentado. El ataque sigue a recientes ofensivas hutíes contra zonas del gobierno y contra Arabia Saudita.",
+  "source_urls": [
+    "https://www.thenationalnews.com/news/mena/2026/10/19/at-least-18-killed-in-houthi-attack-on-yemeni-government-military-camp-in-shabwa-sources-say/",
+    "https://en.apa.az/asia/around-40-killed-injured-in-houthi-missile-attack-in-yemens-shabwa-updated-530866"
+  ],
+  "source_names": [
+    "The National",
+    "APA"
+  ],
+  "hashtags": ["#MATRIX24", "#Yemen", "#Hutíes", "#Houthis"],
+  "summary_es": "Tres misiles balísticos alcanzaron un campo de entrenamiento de reclutas en Shabwa. El gobierno yemení acusa a los hutíes.",
+  "summary_en": "Three ballistic missiles struck a recruit training camp in Shabwa. Yemen's government blamed the Houthis.",
+  "highlight_es": "Shabwa",
+  "highlight_en": "Shabwa",
+  "visual_label": "Shabwa",
+  "image_prompt": "Remote desert military training ground with low sand-coloured barracks and a perimeter fence, arid mountains behind, thin trails of smoke rising into a hazy sky, wide cinematic view",
+  "map": {
+    "focus": ["Yemen"],
+    "marker": {"lat": 14.53, "lon": 46.83, "label": "Shabwa"},
+    "labels": {"Yemen": "Yemen"}
+  }
+}

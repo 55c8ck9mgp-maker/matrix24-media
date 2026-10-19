@@ -1,0 +1,34 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-france-pm-orders-partial-curfews",
+  "status": "draft",
+  "created_at": "2026-10-19T12:54:05Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "World",
+  "headline": "French PM Lecornu calls for local, partial curfews after weekend riots",
+  "headline_es": "El primer ministro francés Lecornu pide toques de queda parciales y locales tras los disturbios",
+  "caption_en": "French Prime Minister Sébastien Lecornu asked local authorities on Monday to impose partial, localised curfews after a weekend of rioting and looting. He said a state of emergency could be declared if needed, but local curfews were more appropriate for now, and ruled out a curfew covering all of Paris.",
+  "caption_es": "El primer ministro francés, Sébastien Lecornu, pidió el lunes a las autoridades locales imponer toques de queda parciales y localizados tras un fin de semana de disturbios y saqueos. Dijo que se podría declarar el estado de emergencia si fuera necesario, pero que por ahora los toques de queda locales son más apropiados, y descartó uno que cubra todo París.",
+  "source_urls": [
+    "https://www.thedailystar.net/news/world/news/french-pm-calls-partial-curfews-after-weekend-riots-4302596",
+    "https://www.trtworld.com/article/58ddf42c9c1e"
+  ],
+  "source_names": [
+    "AFP / The Daily Star",
+    "TRT World"
+  ],
+  "hashtags": ["#MATRIX24", "#Francia", "#France", "#Lecornu"],
+  "summary_es": "Tras los disturbios del fin de semana, Lecornu pidió toques de queda locales y no descartó el estado de emergencia. Descartó un toque de queda en todo París.",
+  "summary_en": "After weekend riots, Lecornu asked for local curfews and kept a state of emergency on the table, while ruling out a curfew for all of Paris.",
+  "highlight_es": "toques de queda",
+  "highlight_en": "partial curfews",
+  "visual_label": "Francia",
+  "image_prompt": "Empty Haussmann-style city boulevard at dusk, shuttered shopfronts, a parked police van with blue lights glowing in the distance, wet cobblestones reflecting streetlights, quiet tense atmosphere, wide cinematic view",
+  "map": {
+    "focus": ["France"],
+    "labels": {"France": "Francia"}
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-kenya-confirms-eighth-ebola-case",
+  "status": "draft",
+  "created_at": "2026-10-19T12:54:05Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "World",
+  "headline": "Kenya confirms its eighth Ebola case as the Congo outbreak keeps spreading",
+  "headline_es": "Kenia confirma su octavo caso de ébola mientras el brote del Congo sigue extendiéndose",
+  "caption_en": "Kenya has confirmed an eighth Ebola case, a 49-year-old man who was already in quarantine, health director-general Patrick Amoth said. The outbreak, caused by the Bundibugyo strain with no approved vaccine, has killed more than 4,000 people in the Democratic Republic of Congo since May and has now reached an eighth Congolese province.",
+  "caption_es": "Kenia confirmó un octavo caso de ébola, un hombre de 49 años que ya estaba en cuarentena, informó el director general de Salud, Patrick Amoth. El brote, causado por la cepa Bundibugyo, sin vacuna aprobada, ha matado a más de 4.000 personas en la República Democrática del Congo desde mayo y ya llegó a una octava provincia congoleña.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak",
+    "https://www.abc.net.au/news/2026-10-19/kenya-ebola-outbreak-hits-eight-continues-spread-in-congo/107282278"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "AP / ABC News (Australia)"
+  ],
+  "hashtags": ["#MATRIX24", "#Ebola", "#Kenia", "#Kenya", "#Salud"],
+  "summary_es": "Kenia suma ocho casos de ébola. En el Congo, el brote de la cepa Bundibugyo ha dejado más de 4.000 muertos desde mayo y alcanza ya ocho provincias.",
+  "summary_en": "Kenya now has eight Ebola cases. In Congo, the Bundibugyo outbreak has killed more than 4,000 people since May and has reached eight provinces.",
+  "highlight_es": "octavo caso de ébola",
+  "highlight_en": "eighth Ebola case",
+  "visual_label": "Ébola",
+  "image_prompt": "Hospital isolation ward corridor with plastic sheeting, protective suits hanging on hooks, medical supply boxes and a hand-washing station, soft clinical lighting, no people, wide view",
+  "map": {
+    "focus": ["Kenya", "Dem. Rep. Congo"],
+    "marker": {"lat": -1.2921, "lon": 36.8219, "label": "Nairobi"},
+    "labels": {"Kenya": "Kenia", "Dem. Rep. Congo": "R. D. del Congo"}
+  }
+}
