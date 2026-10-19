@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-gcc-backs-saudi-against-houthi-attacks",
+  "created_at": "2026-10-19T00:52:51Z",
+  "category": "Security / Geopolitics",
+  "headline": "Gulf states condemn Houthi attacks on Saudi Arabia and back its right to defend itself",
+  "headline_es": "Los países del Golfo condenan los ataques hutíes contra Arabia Saudí y respaldan su defensa",
+  "caption_es": "Los ministros del Consejo de Cooperación del Golfo, reunidos el domingo en Baréin, condenaron los ataques de los hutíes contra Arabia Saudí y respaldaron el derecho del reino a defenderse. Los funcionarios afirmaron que un ataque contra cualquier miembro del CCG es un ataque contra todos y pidieron una acción internacional más firme contra el grupo yemení.",
+  "caption_en": "Gulf Cooperation Council ministers meeting in Bahrain on Sunday condemned Houthi attacks on Saudi Arabia and backed the kingdom's right to defend itself. Officials said an attack on any GCC member is an attack on all, and called for stronger international action against the Yemeni group.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies",
+    "https://english.alarabiya.net/News/middle-east/2026/10/18/gcc-chief-condemns-continued-houthi-attacks-on-saudi-arabia"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Al Arabiya"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudi",
+    "#Yemen",
+    "#Golfo",
+    "#CCG"
+  ],
+  "summary_es": "Reunidos en Baréin, los ministros del CCG condenaron los ataques hutíes y dijeron que un ataque contra un miembro es un ataque contra todos.",
+  "summary_en": "Meeting in Bahrain, GCC ministers condemned Houthi attacks and said an attack on one member is an attack on all.",
+  "highlight_es": "ataques hutíes",
+  "highlight_en": "Houthi attacks",
+  "image_prompt": "Modern conference hall with an empty round table and microphones overlooking a desert city skyline and the sea at sunset, calm diplomatic atmosphere, wide cinematic view",
+  "visual_label": "Golfo",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 26.2285,
+      "lon": 50.586,
+      "label": "Manama"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudí",
+      "Yemen": "Yemen"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-19T23:11:36.354Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
