@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-19T18:53:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261019-australian-mp-haines-hit-by-car",
+  "category": "World",
+  "headline": "Australian MP Helen Haines critically injured after being deliberately hit by a car",
+  "headline_es": "La diputada australiana Helen Haines, en estado crítico tras ser atropellada a propósito",
+  "caption_en": "Independent Australian MP Helen Haines, 65, was critically injured on Monday when a car deliberately struck her outside her office in Wangaratta, Victoria. Police arrested a 43-year-old man. Prime Minister Anthony Albanese said it was too early to know the motive and that counterterrorism investigators are involved.",
+  "caption_es": "La diputada independiente australiana Helen Haines, de 65 años, resultó herida de gravedad el lunes cuando un automóvil la embistió deliberadamente frente a su oficina en Wangaratta, Victoria. La policía detuvo a un hombre de 43 años. El primer ministro Anthony Albanese dijo que es pronto para conocer el motivo y que investigadores antiterroristas participan en el caso.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/19/australian-mp-helen-haines-critically-injured-in-deliberate-car-ramming",
+    "https://www.jpost.com/international/article-912151"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Reuters / The Jerusalem Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Australia",
+    "#HelenHaines",
+    "#Mundo"
+  ],
+  "summary_es": "Haines, diputada por Indi, fue atropellada frente a su oficina en Wangaratta. Un hombre de 43 años fue detenido y antiterrorismo investiga.",
+  "summary_en": "Haines, MP for Indi, was hit outside her Wangaratta office. A 43-year-old man was arrested and counterterrorism investigators are involved.",
+  "highlight_es": "Helen Haines",
+  "highlight_en": "Helen Haines",
+  "visual_label": "Wangaratta",
+  "image_prompt": "Quiet main street of a small Australian country town at dusk, a modest single-storey office building with closed blinds, police tape stretched across an empty footpath, eucalyptus trees, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "Australia"
+    ],
+    "marker": {
+      "lat": -36.3576,
+      "lon": 146.3122,
+      "label": "Wangaratta"
+    },
+    "labels": {
+      "Australia": "Australia"
+    }
+  }
+}

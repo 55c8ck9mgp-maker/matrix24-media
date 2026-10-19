@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-19T18:53:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261019-qatar-new-regional-defence-partnership",
+  "category": "Security / Geopolitics",
+  "headline": "Qatar to announce a new regional defence partnership, warns energy crisis has not peaked",
+  "headline_es": "Catar anunciará una alianza regional de defensa y avisa que la crisis energética no ha tocado techo",
+  "caption_en": "Qatar's defence minister, Sheikh Saoud bin Abdulrahman Al Thani, said at the Global Security Forum in Doha on Monday that Qatar will soon announce a new regional defence partnership focused on threats such as drones and cyberattacks, as well as water security. He also warned that the energy crisis has not yet reached its peak.",
+  "caption_es": "El ministro de Defensa de Catar, el jeque Saud bin Abdulrahman Al Thani, dijo el lunes en el Foro de Seguridad Global de Doha que Catar anunciará pronto una nueva alianza regional de defensa centrada en amenazas como drones y ciberataques, además de la seguridad hídrica. También advirtió que la crisis energética aún no ha alcanzado su punto máximo.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/19/qatar-plans-new-defence-partnership-and-warns-of-energy-crisis-peak",
+    "https://www.turkiyetoday.com/region/qatar-set-to-unveil-new-regional-defense-partnership-amid-gulf-tensions-3230602"
+  ],
+  "source_names": [
+    "Euronews",
+    "Türkiye Today"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Catar",
+    "#Qatar",
+    "#Energía",
+    "#Defensa"
+  ],
+  "summary_es": "El jeque Saud bin Abdulrahman Al Thani habló en Doha de drones, ciberataques y seguridad hídrica, y advirtió de más dificultades energéticas.",
+  "summary_en": "Sheikh Saoud bin Abdulrahman Al Thani spoke in Doha of drones, cyberattacks and water security, and warned of more energy difficulties ahead.",
+  "highlight_es": "alianza regional de defensa",
+  "highlight_en": "regional defence partnership",
+  "visual_label": "Doha",
+  "image_prompt": "Air defence radar dish and missile launcher silhouettes on a desert plain at sunset, a modern Gulf city skyline and gas facility flares on the horizon, wide cinematic view, no people, no flags or insignia",
+  "map": {
+    "focus": [
+      "Qatar"
+    ],
+    "marker": {
+      "lat": 25.2854,
+      "lon": 51.531,
+      "label": "Doha"
+    },
+    "labels": {
+      "Qatar": "Catar"
+    }
+  }
+}

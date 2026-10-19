@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-19T18:53:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261019-storm-adam-floods-eastern-spain",
+  "category": "Climate",
+  "headline": "Storm Adam floods eastern Spain, leaving deaths and rooftop rescues",
+  "headline_es": "La dana Adam inunda el este de España y deja muertos y rescates en tejados",
+  "caption_en": "Torrential rain from storm Adam flooded towns along Spain's eastern Mediterranean coast, cutting off places such as Oliva and Pego and forcing rescues of trapped residents. More than 600 litres per square metre fell in parts of the Valencia region, and at least two people have died. Military emergency units were deployed.",
+  "caption_es": "Las lluvias torrenciales de la dana Adam inundaron localidades de la costa mediterránea del este de España, dejaron aisladas zonas como Oliva y Pego y obligaron a rescatar a vecinos atrapados. En partes de la Comunidad Valenciana cayeron más de 600 litros por metro cuadrado y al menos dos personas murieron. Se desplegó la Unidad Militar de Emergencias.",
+  "source_urls": [
+    "https://theprint.in/world/residents-trapped-as-torrential-rain-floods-towns-in-eastern-spain/3075927/",
+    "https://www.infobae.com/espana/2026/10/19/ultima-hora-de-la-dana-en-la-comunidad-valenciana-se-mantiene-el-riesgo-extremo-por-lluvias-torrenciales/"
+  ],
+  "source_names": [
+    "Reuters / ThePrint",
+    "Infobae"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#DANA",
+    "#Valencia",
+    "#España",
+    "#Clima"
+  ],
+  "summary_es": "Más de 600 l/m² en partes de Valencia. Rescates en Oliva, Pego y otras localidades; al menos dos muertos.",
+  "summary_en": "More than 600 l/m² fell in parts of Valencia. Rescues in Oliva, Pego and other towns; at least two dead.",
+  "highlight_es": "dana Adam",
+  "highlight_en": "Storm Adam",
+  "visual_label": "Dana Adam",
+  "image_prompt": "Flooded Mediterranean town street with brown water up to car doors, whitewashed houses, heavy grey rain clouds, an orange rescue boat moored by a doorway, wide cinematic view, no identifiable people",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 38.9206,
+      "lon": -0.1194,
+      "label": "Oliva"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  }
+}

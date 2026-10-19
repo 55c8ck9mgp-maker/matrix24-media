@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-19T18:53:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261019-putin-proposes-summit-trump-xi-ukraine",
+  "category": "Security / Geopolitics",
+  "headline": "Putin proposes a Ukraine summit with Trump and Xi, without Zelensky, WSJ reports",
+  "headline_es": "Putin propone una cumbre sobre Ucrania con Trump y Xi, sin Zelenski, según el WSJ",
+  "caption_en": "Vladimir Putin has proposed a three-way summit with Donald Trump and Xi Jinping next month to negotiate an end to the war in Ukraine, the Wall Street Journal reported, possibly on the sidelines of the APEC summit in Shenzhen. Ukraine's president would not take part. Kremlin spokesman Dmitry Peskov said there is no agreement yet, and Trump has not agreed to attend.",
+  "caption_es": "Vladímir Putin propuso una cumbre a tres con Donald Trump y Xi Jinping el próximo mes para negociar el fin de la guerra en Ucrania, informó The Wall Street Journal, posiblemente al margen de la cumbre de APEC en Shenzhen. El presidente ucraniano no participaría. El portavoz del Kremlin, Dmitri Peskov, dijo que aún no hay acuerdo, y Trump no ha aceptado asistir.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/19/putin-seeks-ukraine-summit-with-trump-and-xi-but-refuses-talks-with-zelenskyy",
+    "https://www.forbes.com/sites/siladityaray/2026/10/19/putin-reportedly-seeks-summit-with-trump-and-xi-as-trump-lashes-out-at-zelenskyy/"
+  ],
+  "source_names": [
+    "Euronews",
+    "Forbes"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Rusia",
+    "#Geopolítica"
+  ],
+  "summary_es": "La cita podría celebrarse junto a la cumbre de APEC en Shenzhen. El Kremlin dice que no hay acuerdo sobre la reunión ni su agenda.",
+  "summary_en": "The meeting could be held alongside the APEC summit in Shenzhen. The Kremlin says there is no agreement on the meeting or its agenda.",
+  "highlight_es": "cumbre sobre Ucrania",
+  "highlight_en": "Ukraine summit",
+  "visual_label": "Cumbre",
+  "image_prompt": "Empty round negotiating table with three chairs in a grand modern conference hall, tall windows overlooking a city skyline at dusk, water glasses and closed folders, wide cinematic view, no people, no flags",
+  "map": {
+    "focus": [
+      "Russia",
+      "China"
+    ],
+    "marker": {
+      "lat": 22.5431,
+      "lon": 114.0579,
+      "label": "Shenzhen"
+    },
+    "labels": {
+      "Russia": "Rusia",
+      "China": "China"
+    }
+  }
+}
