@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261018-iran-parliament-approves-new-defence-minister",
+  "created_at": "2026-10-18T12:54:25Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's parliament confirms Mehrdad Akhlaghi as new defence minister",
+  "headline_es": "El Parlamento de Irán confirma a Mehrdad Akhlaghi como nuevo ministro de Defensa",
+  "caption_es": "El Parlamento de Irán aprobó el domingo a Mehrdad Akhlaghi Ketabchi como ministro de Defensa por 237 votos contra 15. Sustituye a Aziz Nasirzadeh, muerto en los ataques de Estados Unidos e Israel contra Irán del 28 de febrero; desde entonces el cargo estaba ocupado de forma interina. Akhlaghi dirigió anteriormente la Organización de Industrias Aeroespaciales de Irán.",
+  "caption_en": "Iran's parliament approved Mehrdad Akhlaghi Ketabchi as defence minister on Sunday by 237 votes to 15. He replaces Aziz Nasirzadeh, who was killed in the US-Israeli strikes on Iran on February 28; the post had been held on an acting basis since then. Akhlaghi previously headed Iran's Aerospace Industries Organization.",
+  "source_urls": [
+    "https://english.news.cn/20261018/c6f64e8822bd48858a53154075a163c5/c.html",
+    "https://www.anews.com.tr/middle-east/2026/10/18/iranian-parliament-approves-mehrdad-akhlaqi-as-new-defense-minister"
+  ],
+  "source_names": [
+    "Xinhua",
+    "A News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#Irán",
+    "#Defensa"
+  ],
+  "summary_es": "Aprobado por 237 votos contra 15, sustituye a Aziz Nasirzadeh, muerto en los ataques del 28 de febrero. Dirigió la Organización de Industrias Aeroespaciales.",
+  "summary_en": "Approved 237-15, he replaces Aziz Nasirzadeh, killed in the February 28 strikes. He previously headed the Aerospace Industries Organization.",
+  "highlight_es": "ministro de Defensa",
+  "highlight_en": "new defence minister",
+  "image_prompt": "Modern parliament chamber interior with semicircular rows of empty seats and a central podium under soft daylight, wide architectural view, no people, no text, no logos, no flags",
+  "visual_label": "Teherán",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "marker": {
+      "lat": 35.69,
+      "lon": 51.39,
+      "label": "Teherán"
+    },
+    "labels": {
+      "Iran": "Irán"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-19T09:23:05.364Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
