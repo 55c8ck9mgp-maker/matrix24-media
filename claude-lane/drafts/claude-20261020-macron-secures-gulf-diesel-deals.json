@@ -1,0 +1,46 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T18:58:55Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-macron-secures-gulf-diesel-deals",
+  "category": "Economy",
+  "headline": "Macron secures extra Gulf diesel for France as fuel prices fuel unrest",
+  "headline_es": "Macron consigue más diésel del Golfo para Francia ante la crisis de combustible",
+  "caption_en": "France secured pledges for an extra 200,000 tonnes of diesel a month from the United Arab Emirates and Bahrain, about 100,000 tonnes each, during President Emmanuel Macron's Gulf tour. With Saudi supplies, the total reaches 295,000 tonnes a month, just over 10% of French consumption. The trip follows a weekend of violent protests in France over fuel prices and the cost of living.",
+  "caption_es": "Francia obtuvo compromisos de 200.000 toneladas adicionales de diésel al mes de Emiratos Árabes Unidos y Baréin, unas 100.000 toneladas cada uno, durante la gira del presidente Emmanuel Macron por el Golfo. Con los suministros saudíes, el total alcanza 295.000 toneladas mensuales, algo más del 10 % del consumo francés. El viaje llega tras un fin de semana de violentas protestas en Francia por el precio del combustible y el costo de vida.",
+  "source_urls": [
+    "https://www.aljazeera.com/economy/2026/10/20/macron-lines-up-more-gulf-diesel-as-france-battles-soaring-fuel",
+    "https://www.euronews.com/2026/10/20/frances-macron-begins-state-visit-to-qatar-as-part-of-wider-gulf-tour"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Euronews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Francia",
+    "#Diésel",
+    "#Energía",
+    "#Golfo"
+  ],
+  "summary_es": "Emiratos y Baréin enviarán 200.000 toneladas extra de diésel al mes a Francia. Con Arabia Saudí, cubren algo más del 10 % del consumo.",
+  "summary_en": "The UAE and Bahrain will send France an extra 200,000 tonnes of diesel a month, covering just over 10% of demand with Saudi supply.",
+  "highlight_es": "más diésel del Golfo",
+  "highlight_en": "extra Gulf diesel",
+  "visual_label": "Diésel",
+  "image_prompt": "Oil tanker docked at a Gulf refinery terminal at sunset, pipelines and storage tanks along the shore, calm water, wide cinematic view",
+  "map": {
+    "focus": [
+      "France",
+      "United Arab Emirates"
+    ],
+    "labels": {
+      "France": "Francia",
+      "United Arab Emirates": "Emiratos Árabes"
+    }
+  }
+}

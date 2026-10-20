@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T18:58:55Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-pakistan-army-chief-tehran-mediation",
+  "category": "Security / Geopolitics",
+  "headline": "Pakistan's army chief visits Tehran in new push to mediate between Iran and the US",
+  "headline_es": "El jefe del Ejército de Pakistán visita Teherán para mediar entre Irán y EE. UU.",
+  "caption_en": "Pakistan's army chief, Field Marshal Asim Munir, held talks with Iranian officials in Tehran on Tuesday as Islamabad tries to revive diplomacy between Iran and the United States. Pakistan helped broker an earlier interim deal, the Islamabad memorandum, which later faltered. Iran keeps the Strait of Hormuz closed and says the US must first lift its naval blockade of Iranian ports.",
+  "caption_es": "El jefe del Ejército de Pakistán, el mariscal de campo Asim Munir, mantuvo conversaciones con autoridades iraníes en Teherán este martes, mientras Islamabad intenta reactivar la diplomacia entre Irán y Estados Unidos. Pakistán ayudó a negociar un acuerdo provisional previo, el memorando de Islamabad, que luego fracasó. Irán mantiene cerrado el estrecho de Ormuz y exige que EE. UU. levante primero su bloqueo naval a los puertos iraníes.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/20/pakistan-army-chief-in-tehran-can-diplomacy-prevent-new-us-iran-fighting",
+    "https://www.al-monitor.com/originals/2026/10/irans-pezeshkian-discusses-mediation-efforts-meeting-pakistans-army-chief"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Reuters / Al-Monitor"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#Pakistan",
+    "#Ormuz",
+    "#Diplomacia"
+  ],
+  "summary_es": "Asim Munir se reúne con autoridades iraníes en Teherán para intentar reactivar el diálogo entre Irán y EE. UU. Ormuz sigue cerrado.",
+  "summary_en": "Asim Munir meets Iranian officials in Tehran to try to revive Iran-US talks. The Strait of Hormuz remains closed.",
+  "highlight_es": "mediar entre Irán y EE. UU.",
+  "highlight_en": "mediate between Iran and the US",
+  "visual_label": "Teherán",
+  "image_prompt": "Formal diplomatic meeting hall with two rows of empty armchairs facing each other, ornate carpet, tea glasses on low tables, tall windows with mountains in the distance at dusk, wide view, no people",
+  "map": {
+    "focus": [
+      "Iran",
+      "Pakistan"
+    ],
+    "marker": {
+      "lat": 35.69,
+      "lon": 51.39,
+      "label": "Teherán"
+    },
+    "labels": {
+      "Iran": "Irán",
+      "Pakistan": "Pakistán"
+    }
+  }
+}
