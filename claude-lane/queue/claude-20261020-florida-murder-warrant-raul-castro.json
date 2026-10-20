@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261020-florida-murder-warrant-raul-castro",
+  "created_at": "2026-10-20T01:04:00Z",
+  "category": "Colombia / Latin America",
+  "headline": "Florida issues arrest warrant for Raúl Castro over 1996 Brothers to the Rescue shootdown",
+  "headline_es": "Florida emite orden de arresto contra Raúl Castro por el derribo de 1996",
+  "caption_es": "El fiscal general de Florida, James Uthmeier, anunció una orden de arresto estatal contra el exlíder cubano Raúl Castro, de 95 años, por el derribo en 1996 de avionetas de Hermanos al Rescate en el que murieron cuatro personas. Un juez de Miami firmó la orden, y Castro ya enfrenta un proceso federal por el mismo hecho. Cuba rechaza el proceso estadounidense y afirma que defendió su espacio aéreo.",
+  "caption_en": "Florida Attorney General James Uthmeier announced a state arrest warrant for former Cuban leader Raúl Castro, 95, over the 1996 shootdown of Brothers to the Rescue aircraft that killed four people. A Miami judge signed the warrant, and Castro already faces a federal case over the same incident. Cuba has rejected the US prosecution, saying it defended its airspace.",
+  "source_urls": [
+    "https://www.clickorlando.com/news/florida/2026/10/19/florida-ag-to-hold-news-conference-at-fiu/",
+    "https://www.foxnews.com/us/florida-attorney-general-james-uthmeier-secures-state-arrest-warrant-raul-castro"
+  ],
+  "source_names": [
+    "WKMG News 6",
+    "Fox News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Cuba",
+    "#Florida",
+    "#RaúlCastro"
+  ],
+  "summary_es": "La orden se basa en el derribo de 1996, en el que murieron cuatro personas. Cuba rechaza el proceso.",
+  "summary_en": "The warrant stems from the 1996 shootdown that killed four people. Cuba rejects the US prosecution.",
+  "highlight_es": "orden de arresto",
+  "highlight_en": "arrest warrant",
+  "image_prompt": "Small white propeller plane flying low over a turquoise sea under a wide sky with scattered clouds, distant coastline on the horizon, cinematic wide view, no people, no text, no logos, no flags",
+  "visual_label": "Estrecho",
+  "map": {
+    "focus": [
+      "Cuba",
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 25.76,
+      "lon": -80.19,
+      "label": "Miami"
+    },
+    "labels": {
+      "Cuba": "Cuba",
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-20T19:42:40.822Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
