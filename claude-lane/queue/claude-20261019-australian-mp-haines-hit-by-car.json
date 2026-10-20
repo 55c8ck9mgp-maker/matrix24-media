@@ -65,9 +65,19 @@
       "event": "published",
       "publish_attempt_id": "c7bb2ac7-dc6c-4f77-b64e-e81907a00d6f",
       "ig_media_id": "17902747569374400"
+    },
+    {
+      "at": "2026-10-20T15:57:31.296Z",
+      "event": "facebook_reserved",
+      "facebook_attempt_id": "2ab890df-ae9d-4c59-9545-fc650b855f08"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-20T15:56:37.269Z",
-  "permalink": "https://www.instagram.com/p/DeuNK-tmubZ/"
+  "permalink": "https://www.instagram.com/p/DeuNK-tmubZ/",
+  "facebook": {
+    "status": "publishing",
+    "attempt_id": "2ab890df-ae9d-4c59-9545-fc650b855f08",
+    "reserved_at": "2026-10-20T15:57:31.296Z"
+  }
 }
