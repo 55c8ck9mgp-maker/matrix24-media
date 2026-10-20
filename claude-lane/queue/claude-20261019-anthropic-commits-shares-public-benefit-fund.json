@@ -58,14 +58,23 @@
       "at": "2026-10-20T02:22:58.649Z",
       "event": "facebook_reserved",
       "facebook_attempt_id": "b130e0c9-878f-4818-8996-d9e00f5fcffb"
+    },
+    {
+      "at": "2026-10-20T02:23:07.925Z",
+      "event": "facebook_published",
+      "facebook_attempt_id": "b130e0c9-878f-4818-8996-d9e00f5fcffb",
+      "facebook_post_id": "1300936266441859_122122653375477315"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-20T02:22:11.959Z",
   "permalink": "https://www.instagram.com/p/Desv-DnDarp/",
   "facebook": {
-    "status": "publishing",
+    "status": "published",
     "attempt_id": "b130e0c9-878f-4818-8996-d9e00f5fcffb",
-    "reserved_at": "2026-10-20T02:22:58.649Z"
+    "reserved_at": "2026-10-20T02:22:58.649Z",
+    "post_id": "1300936266441859_122122653375477315",
+    "photo_id": "122122653351477315",
+    "published_at": "2026-10-20T02:23:07.925Z"
   }
 }
