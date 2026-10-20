@@ -42,10 +42,10 @@
       "United States of America": "Estados Unidos"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261020-florida-murder-warrant-raul-castro.jpg",
   "publish_attempt_id": "5b6d353a-a7bb-4150-b07c-6a1ac61453e5",
-  "ig_media_id": null,
+  "ig_media_id": "17892066561457115",
   "history": [
     {
       "at": "2026-10-20T19:42:40.822Z",
@@ -61,8 +61,15 @@
       "at": "2026-10-20T19:43:19.402Z",
       "event": "reserved",
       "publish_attempt_id": "5b6d353a-a7bb-4150-b07c-6a1ac61453e5"
+    },
+    {
+      "at": "2026-10-20T19:43:51.329Z",
+      "event": "published",
+      "publish_attempt_id": "5b6d353a-a7bb-4150-b07c-6a1ac61453e5",
+      "ig_media_id": "17892066561457115"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-20T19:43:19.402Z"
+  "reserved_at": "2026-10-20T19:43:19.402Z",
+  "permalink": "https://www.instagram.com/p/DeunHU6FGcQ/"
 }
