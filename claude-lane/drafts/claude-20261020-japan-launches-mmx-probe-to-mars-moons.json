@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T01:04:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-japan-launches-mmx-probe-to-mars-moons",
+  "category": "Science",
+  "headline": "Japan launches MMX probe to bring back the first sample from a Mars moon",
+  "headline_es": "Japón lanza la sonda MMX para traer la primera muestra de una luna de Marte",
+  "caption_en": "Japan's space agency JAXA launched its Martian Moons eXploration (MMX) spacecraft on an H3 rocket from Tanegashima on Tuesday, local time, and confirmed the probe separated about 71 minutes after liftoff. The mission aims to be the first to land on Phobos and return samples to Earth, with arrival at Mars planned for 2027 and the sample capsule due back in 2031.",
+  "caption_es": "La agencia espacial japonesa JAXA lanzó el martes, hora local, su nave Martian Moons eXploration (MMX) a bordo de un cohete H3 desde Tanegashima y confirmó que la sonda se separó unos 71 minutos después del despegue. La misión busca ser la primera en aterrizar en Fobos y traer muestras a la Tierra; su llegada a Marte está prevista para 2027 y la cápsula con la muestra regresaría en 2031.",
+  "source_urls": [
+    "https://global.jaxa.jp/press/2026/10/20261020-1_e.html",
+    "https://www.space.com/space-exploration/launches-spacecraft/japan-launches-historic-mmx-sample-return-mission-to-mars-moon-phobos"
+  ],
+  "source_names": ["JAXA", "Space.com"],
+  "hashtags": ["#MATRIX24", "#Marte", "#Mars", "#Espacio", "#Space"],
+  "summary_es": "La sonda debe aterrizar en Fobos, recoger unos 10 gramos de muestra y volver a la Tierra en 2031.",
+  "summary_en": "The probe is set to land on Phobos, collect about 10 grams of sample and return it to Earth in 2031.",
+  "highlight_es": "luna de Marte",
+  "highlight_en": "Mars moon",
+  "visual_label": "Fobos",
+  "image_prompt": "Small spacecraft with solar panels approaching a grey, cratered, potato-shaped moon, the red planet Mars large in the background, starry black space, cinematic wide view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Japan"],
+    "marker": {"lat": 30.4, "lon": 130.97, "label": "Tanegashima"},
+    "labels": {"Japan": "Japón"}
+  }
+}
