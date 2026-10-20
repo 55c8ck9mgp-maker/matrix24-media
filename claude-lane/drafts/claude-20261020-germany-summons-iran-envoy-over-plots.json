@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T06:52:57Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-germany-summons-iran-envoy-over-plots",
+  "category": "Security / Geopolitics",
+  "headline": "Germany summons Iran's ambassador over plots to kill Jewish community leaders",
+  "headline_es": "Alemania convoca al embajador de Irán por complots para matar a líderes judíos",
+  "caption_en": "Germany summoned Iran's ambassador on Monday after a Hamburg court convicted a Danish and an Afghan man of plotting, on Tehran's behalf, to kill the head of Germany's main Jewish community group and the head of the German-Israeli society. The court called it terrorism orchestrated by Iran. Tehran rejected the accusations as baseless.",
+  "caption_es": "Alemania convocó el lunes al embajador de Irán después de que un tribunal de Hamburgo condenara a un danés y a un afgano por planear, por encargo de Teherán, el asesinato del presidente de la principal organización judía de Alemania y del jefe de la sociedad germano-israelí. El tribunal habló de terrorismo orquestado por Irán. Teherán rechazó las acusaciones como infundadas.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/19/tehran-rejects-any-role-in-plot-to-kill-leaders-of-jewish-groups",
+    "https://english.alarabiya.net/amp/News/world/2026/10/19/germany-summons-iran-envoy-over-malicious-assassination-plots"
+  ],
+  "source_names": ["Al Jazeera", "Al Arabiya"],
+  "hashtags": ["#MATRIX24", "#Alemania", "#Germany", "#Irán", "#Iran"],
+  "summary_es": "Los condenados recibieron penas de ocho años y medio y cuatro años y medio. Irán convocó a su vez al embajador alemán.",
+  "summary_en": "The men were sentenced to eight and a half and four and a half years. Iran summoned Germany's ambassador in response.",
+  "highlight_es": "convoca al embajador",
+  "highlight_en": "summons Iran's ambassador",
+  "visual_label": "Diplomacia",
+  "image_prompt": "Grand government ministry building in a European capital on a grey autumn morning, tall columns and wet cobblestones, a dark sedan parked at the entrance, cinematic wide view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Germany", "Iran"],
+    "marker": {"lat": 52.52, "lon": 13.40, "label": "Berlín"},
+    "labels": {"Germany": "Alemania", "Iran": "Irán"}
+  }
+}

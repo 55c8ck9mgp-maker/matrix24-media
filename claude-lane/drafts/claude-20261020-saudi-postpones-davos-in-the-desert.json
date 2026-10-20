@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T06:52:57Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-saudi-postpones-davos-in-the-desert",
+  "category": "Economy",
+  "headline": "Saudi Arabia postpones its 'Davos in the Desert' summit to 2027 after Houthi attacks",
+  "headline_es": "Arabia Saudí aplaza a 2027 su cumbre 'Davos del desierto' tras ataques hutíes",
+  "caption_en": "Organisers of the Future Investment Initiative, Saudi Arabia's flagship investment conference, have postponed its tenth edition, planned for October 26-29 in Riyadh, to 2027. The move follows deadly Houthi strikes on the kingdom this month, including on Riyadh's international airport. A new date is to be announced soon.",
+  "caption_es": "Los organizadores de la Future Investment Initiative, la principal conferencia de inversión de Arabia Saudí, aplazaron a 2027 su décima edición, prevista del 26 al 29 de octubre en Riad. La decisión llega tras los ataques mortales de los hutíes contra el reino este mes, incluido el aeropuerto internacional de Riad. La nueva fecha se anunciará pronto.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks",
+    "https://www.jpost.com/middle-east/article-912194"
+  ],
+  "source_names": ["Al Jazeera", "The Jerusalem Post"],
+  "hashtags": ["#MATRIX24", "#ArabiaSaudí", "#SaudiArabia", "#Economía", "#FII"],
+  "summary_es": "Los ataques hutíes de este mes contra el reino han dejado al menos 18 muertos. Grandes bancos esperaban participar.",
+  "summary_en": "Houthi strikes on the kingdom this month have killed at least 18 people. Top bank chiefs had been due to speak.",
+  "highlight_es": "aplaza a 2027",
+  "highlight_en": "postpones",
+  "visual_label": "FII Riad",
+  "image_prompt": "Empty modern conference hall with rows of vacant chairs and a dark stage, desert city skyline with glass towers visible through large windows at dusk, cinematic wide view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Saudi Arabia"],
+    "marker": {"lat": 24.71, "lon": 46.68, "label": "Riad"},
+    "labels": {"Saudi Arabia": "Arabia Saudí"}
+  }
+}
