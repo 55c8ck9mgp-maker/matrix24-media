@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261019-anthropic-commits-shares-public-benefit-fund",
+  "created_at": "2026-10-19T07:03:00Z",
+  "category": "Technology",
+  "headline": "Anthropic commits 5% of its shares to a new public benefit fund",
+  "headline_es": "Anthropic destina el 5% de sus acciones a un nuevo fondo de beneficio público",
+  "caption_es": "La empresa de inteligencia artificial Anthropic anunció el domingo que destinará el 5% de sus acciones a un nuevo fondo de beneficio público, y que podrá añadir otro 2% por cada aumento del 50% en su valor. El fondo podría hacer grandes donaciones a organizaciones sin fines de lucro o repartos directos a poblaciones concretas, incluso para afrontar la disrupción laboral causada por la IA.",
+  "caption_en": "AI company Anthropic said on Sunday it will place 5% of its shares in a new public benefit fund, and may add another 2% for every 50% rise in its value. The fund could make large donations to nonprofits or direct distributions to specific populations, including to address job disruption caused by AI.",
+  "source_urls": [
+    "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund",
+    "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "TechCrunch"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#IA",
+    "#AI",
+    "#Tecnología",
+    "#Anthropic"
+  ],
+  "summary_es": "Anthropic creará un fondo con el 5% de sus acciones para donaciones y ayudas directas, incluido el impacto de la IA en el empleo.",
+  "summary_en": "Anthropic will set up a fund holding 5% of its shares for donations and direct payments, including to address AI's impact on jobs.",
+  "highlight_es": "5% de sus acciones",
+  "highlight_en": "5% of its shares",
+  "image_prompt": "Abstract illustration of a glowing neural network shape above a row of open office desks with empty chairs, warm light through large windows, soft cinematic lighting, no text",
+  "visual_label": "IA y empleo",
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-20T02:21:34.250Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
