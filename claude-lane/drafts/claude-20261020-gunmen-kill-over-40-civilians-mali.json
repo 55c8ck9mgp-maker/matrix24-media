@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T12:59:02Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-gunmen-kill-over-40-civilians-mali",
+  "category": "World",
+  "headline": "Gunmen kill more than 40 civilians in camps in Mali's Menaka region",
+  "headline_es": "Hombres armados matan a más de 40 civiles en campamentos de Ménaka, Mali",
+  "caption_en": "Gunmen on motorcycles killed more than 40 civilians in weekend attacks on camps near Tinabow and Tagadayat in Mali's northeastern Menaka region, security and community sources told AFP, setting homes on fire. The camps mainly housed members of the Daoussahak community, whose leaders blamed the Islamic State group. Some local officials put the toll at more than 50.",
+  "caption_es": "Hombres armados en motocicletas mataron a más de 40 civiles en ataques del fin de semana contra campamentos cerca de Tinabow y Tagadayat, en la región de Ménaka, en el noreste de Mali, según fuentes de seguridad y comunitarias citadas por AFP, y quemaron viviendas. Los campamentos albergaban sobre todo a miembros de la comunidad daoussahak, cuyos líderes culparon al grupo Estado Islámico. Algunos responsables locales elevan la cifra a más de 50.",
+  "source_urls": [
+    "https://www.trtworld.com/article/a85f28c4c8fd",
+    "https://www.channelstv.com/2026/10/20/gunmen-kill-over-40-civilians-in-mali-report/"
+  ],
+  "source_names": [
+    "AFP / TRT World",
+    "AFP / Channels Television"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Mali",
+    "#Ménaka",
+    "#Sahel"
+  ],
+  "summary_es": "Ataques contra campamentos de la comunidad daoussahak en Ménaka dejaron más de 40 civiles muertos; sus líderes culpan al Estado Islámico.",
+  "summary_en": "Attacks on Daoussahak community camps in Menaka killed more than 40 civilians; community leaders blame the Islamic State group.",
+  "highlight_es": "más de 40 civiles",
+  "highlight_en": "more than 40 civilians",
+  "visual_label": "Ménaka",
+  "image_prompt": "Sahel desert landscape at dusk with scattered nomadic tents and acacia trees, wisps of distant smoke on the horizon, dusty track with motorcycle tire marks, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "Mali"
+    ],
+    "marker": {
+      "lat": 15.92,
+      "lon": 2.4,
+      "label": "Ménaka"
+    },
+    "labels": {
+      "Mali": "Mali"
+    }
+  }
+}

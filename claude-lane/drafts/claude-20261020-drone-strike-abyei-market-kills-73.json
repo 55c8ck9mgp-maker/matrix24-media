@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T12:59:02Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-drone-strike-abyei-market-kills-73",
+  "category": "World",
+  "headline": "Drone strike on a market in disputed Abyei kills at least 73, local official says",
+  "headline_es": "Ataque con drones contra un mercado en la disputada Abyei deja al menos 73 muertos",
+  "caption_en": "Drones struck the Amiet market north of Abyei town on Monday, killing at least 73 people and wounding 19, according to Abyei information minister Yohana Akol Ngor, who blamed Sudan's army. South Sudan summoned Sudan's ambassador in protest. Médecins Sans Frontières said it was treating more than 20 wounded, some with burns. Abyei is an oil-rich area claimed by both Sudan and South Sudan.",
+  "caption_es": "Drones atacaron el lunes el mercado de Amiet, al norte de la ciudad de Abyei, y mataron al menos a 73 personas e hirieron a 19, según el ministro de Información de Abyei, Yohana Akol Ngor, quien culpó al ejército de Sudán. Sudán del Sur convocó al embajador sudanés en protesta. Médicos Sin Fronteras dijo que atendía a más de 20 heridos, algunos con quemaduras. Abyei es una zona rica en petróleo que reclaman Sudán y Sudán del Sur.",
+  "source_urls": [
+    "https://english.aawsat.com/arab-world/5331515-drone-strike-disputed-sudan-south-sudan-area-kills-dozens-minister-says",
+    "https://www.radiotamazuj.org/en/news/article/south-sudan-summons-sudan-envoy-over-abyei-market-attack"
+  ],
+  "source_names": [
+    "Reuters / Asharq Al-Awsat",
+    "Radio Tamazuj"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Abyei",
+    "#Sudán",
+    "#SouthSudan",
+    "#Sudan"
+  ],
+  "summary_es": "Un ataque con drones contra el mercado de Amiet dejó al menos 73 muertos. Sudán del Sur culpa al ejército sudanés y convocó a su embajador.",
+  "summary_en": "A drone strike on Amiet market killed at least 73 people. South Sudan blames Sudan's army and summoned its ambassador.",
+  "highlight_es": "al menos 73 muertos",
+  "highlight_en": "kills at least 73",
+  "visual_label": "Abyei",
+  "image_prompt": "Empty open-air market in a dry savanna town with abandoned wooden stalls, scattered sacks of grain and plastic awnings, haze in the sky, wide view, no people",
+  "map": {
+    "focus": [
+      "Sudan",
+      "S. Sudan"
+    ],
+    "marker": {
+      "lat": 9.6,
+      "lon": 28.44,
+      "label": "Abyei"
+    },
+    "labels": {
+      "Sudan": "Sudán",
+      "S. Sudan": "Sudán del Sur"
+    }
+  }
+}

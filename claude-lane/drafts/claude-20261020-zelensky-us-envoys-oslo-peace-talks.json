@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T12:59:02Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-zelensky-us-envoys-oslo-peace-talks",
+  "category": "Security / Geopolitics",
+  "headline": "Zelensky holds Ukraine peace talks with US envoys in Oslo",
+  "headline_es": "Zelenski negocia la paz de Ucrania con enviados de EE. UU. en Oslo",
+  "caption_en": "Ukrainian President Volodymyr Zelensky is meeting US envoy Steve Witkoff in Oslo on Tuesday for new talks on ending the war with Russia, hosted by Norwegian Prime Minister Jonas Gahr Støre and joined by Finland's leadership. Jared Kushner is taking part remotely. The meeting comes amid rising tension between Zelensky and US President Donald Trump.",
+  "caption_es": "El presidente ucraniano, Volodímir Zelenski, se reúne este martes en Oslo con el enviado estadounidense Steve Witkoff en una nueva ronda de conversaciones para poner fin a la guerra con Rusia, organizada por el primer ministro noruego, Jonas Gahr Støre, y con participación de Finlandia. Jared Kushner participa a distancia. La reunión llega en medio de una creciente tensión entre Zelenski y el presidente de EE. UU., Donald Trump.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/20/zelenskyy-to-hold-peace-talks-in-oslo-with-witkoff-kushner-attending",
+    "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Bloomberg / South China Morning Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Oslo",
+    "#Paz"
+  ],
+  "summary_es": "Zelenski, Witkoff y líderes nórdicos se reúnen en Oslo para buscar el fin de la guerra con Rusia. Kushner participa a distancia.",
+  "summary_en": "Zelensky, Witkoff and Nordic leaders meet in Oslo to seek an end to the war with Russia. Kushner joins remotely.",
+  "highlight_es": "la paz de Ucrania",
+  "highlight_en": "Ukraine peace talks",
+  "visual_label": "Oslo",
+  "image_prompt": "Modern Scandinavian conference room with a long table, empty chairs, water glasses and microphones, large windows overlooking a harbour city in autumn light, wide view, no people",
+  "map": {
+    "focus": [
+      "Norway",
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 59.91,
+      "lon": 10.75,
+      "label": "Oslo"
+    },
+    "labels": {
+      "Norway": "Noruega",
+      "Ukraine": "Ucrania"
+    }
+  }
+}

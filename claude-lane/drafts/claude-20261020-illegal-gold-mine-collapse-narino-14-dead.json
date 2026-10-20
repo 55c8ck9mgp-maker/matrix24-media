@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-20T12:59:02Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261020-illegal-gold-mine-collapse-narino-14-dead",
+  "category": "Colombia / Latin America",
+  "headline": "Illegal gold mine collapse in Colombia's Nariño kills 14 miners",
+  "headline_es": "Derrumbe en una mina ilegal de oro en Nariño deja 14 mineros muertos",
+  "caption_en": "A landslide at an unlicensed open-pit gold mine near Santa Bárbara de Iscuandé, in Colombia's Nariño department, killed 14 miners and injured seven on Monday, the Nariño government said. The search ended after all those buried were found. Officials said two mine collapses in Nariño have left more than 20 dead in recent months.",
+  "caption_es": "Un deslizamiento en una mina de oro a cielo abierto sin permisos cerca de Santa Bárbara de Iscuandé, en el departamento colombiano de Nariño, mató a 14 mineros y dejó siete heridos el lunes, informó la Gobernación de Nariño. La búsqueda terminó tras localizar a todas las personas sepultadas. Las autoridades señalaron que dos derrumbes mineros en Nariño suman más de 20 muertos en los últimos meses.",
+  "source_urls": [
+    "https://es.euronews.com/2026/10/20/colombia-derrumbe-mina-oro-14-muertos",
+    "https://www.noticiasrcn.com/colombia/derrumbe-en-mina-ilegal-de-narino-deja-14-muertos-en-santa-barbara-de-iscuande-1073185"
+  ],
+  "source_names": [
+    "AP / Euronews",
+    "Noticias RCN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#Nariño",
+    "#Minería"
+  ],
+  "summary_es": "Un derrumbe en una mina de oro ilegal en Santa Bárbara de Iscuandé dejó 14 mineros muertos y siete heridos.",
+  "summary_en": "A collapse at an illegal gold mine in Santa Bárbara de Iscuandé killed 14 miners and injured seven.",
+  "highlight_es": "mina ilegal de oro",
+  "highlight_en": "Illegal gold mine collapse",
+  "visual_label": "Mina de oro",
+  "image_prompt": "Muddy open-pit mining site carved into dense tropical jungle hillside, rain clouds, wooden sluices and abandoned pans, landslide scar on the slope, wide view, no people",
+  "map": {
+    "focus": [
+      "Colombia"
+    ],
+    "marker": {
+      "lat": 2.45,
+      "lon": -77.98,
+      "label": "Iscuandé"
+    },
+    "labels": {
+      "Colombia": "Colombia"
+    }
+  }
+}
