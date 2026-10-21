@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T18:52:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-anthropic-reports-80-billion-half-year-loss",
+  "category": "Technology",
+  "headline": "Anthropic logged a net loss of over $80 billion in the first half of 2026, draft prospectus shows",
+  "headline_es": "Anthropic registró una pérdida neta de más de 80.000 millones de dólares en el primer semestre",
+  "caption_en": "AI company Anthropic recorded a net loss of more than $80 billion in the first half of 2026, up from $13 billion a year earlier, according to its draft IPO prospectus. Most of it comes from a roughly $72 billion accounting charge tied to the value of convertible notes. Spending on AI infrastructure rose to nearly $9 billion ahead of a listing expected in November.",
+  "caption_es": "La empresa de inteligencia artificial Anthropic registró una pérdida neta de más de 80.000 millones de dólares en el primer semestre de 2026, frente a 13.000 millones un año antes, según el borrador de su folleto de salida a bolsa. La mayor parte se debe a un cargo contable de unos 72.000 millones vinculado al valor de bonos convertibles. Su gasto en infraestructura de IA subió a casi 9.000 millones antes de una salida a bolsa prevista para noviembre.",
+  "source_urls": [
+    "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/10/21/anthropic-logged-net-loss-of-over-us80-billion-in-first-half-of-2026/",
+    "https://www.aljazeera.com/news/2026/10/21/anthropic-posts-80bn-loss-in-first-half-of-2026-wsj"
+  ],
+  "source_names": [
+    "Reuters (via BNN Bloomberg)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Anthropic",
+    "#IA",
+    "#AI"
+  ],
+  "summary_es": "La mayor parte de la pérdida es un cargo contable de unos 72.000 millones. La salida a bolsa se espera para noviembre.",
+  "summary_en": "Most of the loss is a roughly $72 billion accounting charge. The IPO is expected in November.",
+  "highlight_es": "pérdida neta",
+  "highlight_en": "net loss",
+  "visual_label": "IPO",
+  "image_prompt": "Vast modern data center hall with rows of glowing server racks, cool blue light, a translucent descending financial chart line floating above, wide cinematic view, no people, no text, no logos"
+}

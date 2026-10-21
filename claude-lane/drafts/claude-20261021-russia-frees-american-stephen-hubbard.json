@@ -1,0 +1,40 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T18:52:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-russia-frees-american-stephen-hubbard",
+  "category": "Security / Geopolitics",
+  "headline": "Russia frees American Stephen Hubbard as US envoy Witkoff meets Putin",
+  "headline_es": "Rusia libera al estadounidense Stephen Hubbard durante la visita de Witkoff a Putin",
+  "caption_en": "Russia has released US citizen Stephen Hubbard, a former schoolteacher held for about four years and sentenced in 2024 to nearly seven years in prison on charges of fighting as a mercenary for Ukraine. Donald Trump announced the release, saying he had asked Vladimir Putin to free him and that no prisoner swap was needed. Envoy Steve Witkoff thanked Putin during their meeting on Wednesday.",
+  "caption_es": "Rusia liberó al ciudadano estadounidense Stephen Hubbard, un exmaestro detenido durante unos cuatro años y condenado en 2024 a casi siete años de prisión por combatir como mercenario a favor de Ucrania. Donald Trump anunció la liberación, dijo que había pedido a Vladímir Putin que lo liberara y que no fue necesario un canje de prisioneros. El enviado Steve Witkoff agradeció a Putin durante su reunión del miércoles.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/world/russia-frees-american-stephen-hubbard-after-over-4-years-in-prison-during-a-visit-from-u-s-envoy-witkoff",
+    "https://www.foxnews.com/world/stephen-hubbard-russia-american-prisoner-release"
+  ],
+  "source_names": [
+    "PBS NewsHour (AP)",
+    "Fox News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Rusia",
+    "#Russia",
+    "#EEUU"
+  ],
+  "summary_es": "Hubbard fue condenado en 2024 a casi siete años de cárcel. Trump afirma que EE. UU. no tuvo que entregar a nadie a cambio.",
+  "summary_en": "Hubbard was sentenced in 2024 to nearly seven years. Trump says the US gave nothing in return for his release.",
+  "highlight_es": "libera",
+  "highlight_en": "frees American",
+  "visual_label": "Liberación",
+  "image_prompt": "Empty airport tarmac at dawn with a small passenger jet waiting, stairs lowered, soft golden light and long shadows, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 59.94, "lon": 30.31, "label": "San Petersburgo"},
+    "labels": {"Russia": "Rusia"}
+  }
+}
