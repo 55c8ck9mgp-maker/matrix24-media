@@ -66,9 +66,19 @@
       "event": "published",
       "publish_attempt_id": "b58bafbd-e611-4d22-b344-f65859b6ab64",
       "ig_media_id": "18074270939765146"
+    },
+    {
+      "at": "2026-10-21T22:53:13.636Z",
+      "event": "facebook_reserved",
+      "facebook_attempt_id": "6bb222b6-4026-47e5-9e43-9fd87f43cc43"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-21T22:52:20.479Z",
-  "permalink": "https://www.instagram.com/p/DexhiotGilm/"
+  "permalink": "https://www.instagram.com/p/DexhiotGilm/",
+  "facebook": {
+    "status": "publishing",
+    "attempt_id": "6bb222b6-4026-47e5-9e43-9fd87f43cc43",
+    "reserved_at": "2026-10-21T22:53:13.636Z"
+  }
 }
