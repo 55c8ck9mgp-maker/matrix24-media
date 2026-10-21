@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T12:53:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-georgia-court-weighs-opposition-ban",
+  "category": "Security / Geopolitics",
+  "headline": "Georgia's top court opens hearings on ruling party's bid to ban five opposition parties",
+  "headline_es": "El Tribunal Constitucional de Georgia estudia prohibir cinco partidos de oposición",
+  "caption_en": "Georgia's Constitutional Court opened hearings in Batumi on Wednesday on a lawsuit by the ruling Georgian Dream party to ban five pro-European opposition parties, including the United National Movement. The suit accuses them of seeking to overthrow the constitutional order, which the opposition rejects. The court has until June 2027 to rule, and the European Union has criticised the move.",
+  "caption_es": "El Tribunal Constitucional de Georgia abrió el miércoles en Batumi las audiencias sobre la demanda del partido gobernante Sueño Georgiano para prohibir cinco partidos de oposición proeuropeos, entre ellos el Movimiento Nacional Unido. La demanda los acusa de buscar derrocar el orden constitucional, algo que la oposición niega. El tribunal tiene hasta junio de 2027 para decidir, y la Unión Europea ha criticado la iniciativa.",
+  "source_urls": [
+    "https://www.kyivpost.com/post/87744",
+    "https://www.rferl.org/a/georgia-faces-new-test-as-court-weighs-ban-on-five-opposition-parties/33880171.html"
+  ],
+  "source_names": [
+    "AFP via Kyiv Post",
+    "RFE/RL"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Georgia",
+    "#Democracia",
+    "#Europe"
+  ],
+  "summary_es": "El caso se enmarca en la crisis política abierta tras las disputadas elecciones de 2024. La oposición convoca protestas.",
+  "summary_en": "The case is part of a political crisis that followed Georgia's disputed 2024 elections. The opposition plans protests.",
+  "highlight_es": "prohibir cinco partidos",
+  "highlight_en": "ban five opposition parties",
+  "visual_label": "Batumi",
+  "image_prompt": "Classical courthouse facade with columns on a Black Sea coastal city street at dusk, scales of justice as a symbolic element, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Georgia"
+    ],
+    "marker": {
+      "lat": 41.64,
+      "lon": 41.63,
+      "label": "Batumi"
+    },
+    "labels": {
+      "Georgia": "Georgia"
+    }
+  }
+}

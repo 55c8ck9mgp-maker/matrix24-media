@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T12:53:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-uk-approves-jackdaw-gas-field",
+  "category": "Climate",
+  "headline": "UK approves Shell-backed Jackdaw gas field in the North Sea despite climate criticism",
+  "headline_es": "Reino Unido aprueba el yacimiento de gas Jackdaw en el mar del Norte pese a críticas climáticas",
+  "caption_en": "Britain's government approved production at the long-delayed Jackdaw gas field in the North Sea on Wednesday, with gas possibly reaching homes and businesses from the end of October. The field could raise UK domestic gas output by about 6% at its peak and operate for up to 11 years. The Green Party leader called the decision \"climate vandalism\", while a ruling on the Rosebank field is still pending.",
+  "caption_es": "El Gobierno británico aprobó el miércoles la producción en el yacimiento de gas Jackdaw, en el mar del Norte, tras años de retrasos; el gas podría llegar a hogares y empresas desde finales de octubre. El campo podría elevar la producción nacional de gas cerca de un 6% en su punto máximo y operar hasta 11 años. El líder del Partido Verde lo calificó de \"vandalismo climático\", y la decisión sobre el yacimiento Rosebank sigue pendiente.",
+  "source_urls": [
+    "https://www.yahoo.com/news/world/articles/uk-approves-long-delayed-jackdaw-060537855.html",
+    "https://www.lbc.co.uk/article/energy-secretary-green-lights-jackdaw-gas-field-5HjdkC4_2/"
+  ],
+  "source_names": [
+    "Reuters",
+    "LBC"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Clima",
+    "#Energy",
+    "#NorthSea",
+    "#UK"
+  ],
+  "summary_es": "El Gobierno lo justifica por seguridad energética y empleo. Los ecologistas dicen que contradice los objetivos climáticos.",
+  "summary_en": "The government cites energy security and jobs. Environmental groups say it undermines climate goals.",
+  "highlight_es": "gas Jackdaw",
+  "highlight_en": "Jackdaw gas field",
+  "visual_label": "Jackdaw",
+  "image_prompt": "Offshore gas platform standing in a grey North Sea under heavy clouds, a supply vessel nearby, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "United Kingdom"
+    ],
+    "labels": {
+      "United Kingdom": "Reino Unido"
+    }
+  }
+}
