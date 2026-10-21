@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T06:53:20Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-un-report-1-5c-goal-lost",
+  "category": "Climate",
+  "headline": "UN report says chance to limit warming to 1.5C without overshoot has been lost",
+  "headline_es": "La ONU dice que se perdió la opción de limitar el calentamiento a 1,5 °C sin rebasarlo",
+  "caption_en": "The UN Environment Programme's Emissions Gap Report, released Wednesday, says a temporary breach of 1.5C is now effectively unavoidable. Current policies point to about 2.8C of warming by 2100, and fully delivered pledges to about 2.6C. Keeping the overshoot to 1.7-1.8C would require cutting emissions 18% by 2030 versus 2025.",
+  "caption_es": "El Informe sobre la Brecha de Emisiones del Programa de la ONU para el Medio Ambiente, publicado el miércoles, señala que superar temporalmente 1,5 °C es ya prácticamente inevitable. Las políticas actuales apuntan a unos 2,8 °C de calentamiento en 2100 y los compromisos cumplidos, a unos 2,6 °C. Limitar el exceso a 1,7-1,8 °C exigiría recortar las emisiones un 18% para 2030 frente a 2025.",
+  "source_urls": [
+    "https://www.carbonbrief.org/unep-opportunity-has-been-lost-to-meet-1-5c-warming-limit-without-overshoot",
+    "https://www.euronews.com/2026/10/21/this-is-possible-emissions-must-fall-by-18-in-next-4-years-to-limit-worst-impacts-of-globa"
+  ],
+  "source_names": [
+    "Carbon Brief",
+    "Euronews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Clima",
+    "#ClimateChange",
+    "#UNEP"
+  ],
+  "summary_es": "Las emisiones globales de 2025 quedaron prácticamente al nivel récord de 2024. Haría falta recortarlas un 45% para 2035.",
+  "summary_en": "Global emissions in 2025 were roughly level with 2024's record. Cuts of 45% by 2035 would also be needed.",
+  "highlight_es": "1,5 °C",
+  "highlight_en": "1.5C",
+  "visual_label": "1,5 °C",
+  "image_prompt": "Coal power plant chimneys releasing smoke over a dry cracked landscape under a hazy orange sky, a large thermometer-like gauge as a symbolic element, wide cinematic view, no people, no text, no logos"
+}

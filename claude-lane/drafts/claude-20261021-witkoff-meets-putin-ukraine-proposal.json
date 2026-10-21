@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T06:53:20Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-witkoff-meets-putin-ukraine-proposal",
+  "category": "Security / Geopolitics",
+  "headline": "US envoy Witkoff meets Putin in St Petersburg with updated Ukraine peace plan",
+  "headline_es": "El enviado de EE. UU. Witkoff se reúne con Putin en San Petersburgo con un nuevo plan de paz",
+  "caption_en": "US envoy Steve Witkoff is meeting Vladimir Putin in St Petersburg on Wednesday with an updated proposal to end the war in Ukraine, a day after talks with Volodymyr Zelensky in Oslo on a draft framework agreement. Jared Kushner is joining remotely. Washington hopes the plan opens the way to direct trilateral negotiations.",
+  "caption_es": "El enviado estadounidense Steve Witkoff se reúne el miércoles con Vladímir Putin en San Petersburgo con una propuesta actualizada para poner fin a la guerra en Ucrania, un día después de negociar en Oslo con Volodímir Zelenski un borrador de acuerdo marco. Jared Kushner participa a distancia. Washington espera que el plan abra paso a negociaciones trilaterales directas.",
+  "source_urls": [
+    "https://www.axios.com/2026/10/20/putin-witkoff-russia-ukraine-war",
+    "https://en.ilsole24ore.com/art/ukrainian-witkoff-and-putin-rubio-positive-talks-with-zelensky-AJzkIvpB"
+  ],
+  "source_names": [
+    "Axios",
+    "Il Sole 24 Ore"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Rusia"
+  ],
+  "summary_es": "Zelenski pide una cumbre a tres con Putin y Trump, un formato que Rusia ha rechazado hasta ahora.",
+  "summary_en": "Zelensky wants a three-way meeting with Putin and Trump, a format Russia has so far rejected.",
+  "highlight_es": "Putin",
+  "highlight_en": "meets Putin",
+  "visual_label": "San Petersburgo",
+  "image_prompt": "Ornate classical palace hall with a long polished negotiating table and empty chairs, tall windows overlooking a river city at dusk, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Russia",
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 59.94,
+      "lon": 30.31,
+      "label": "San Petersburgo"
+    },
+    "labels": {
+      "Russia": "Rusia",
+      "Ukraine": "Ucrania"
+    }
+  }
+}

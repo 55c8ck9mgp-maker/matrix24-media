@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T06:53:20Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-tsmc-kaohsiung-site-accident-four-dead",
+  "category": "Technology",
+  "headline": "Four workers killed in steel structure collapse at TSMC's Kaohsiung fab site",
+  "headline_es": "Mueren cuatro obreros al colapsar una estructura en la obra de TSMC en Kaohsiung",
+  "caption_en": "Four contractor workers died after a steel structure collapsed during installation work at TSMC's Fab 22 construction site in Kaohsiung, Taiwan, on Tuesday afternoon. Investigators suspect bolts on a steel joint plate snapped. TSMC halted work at the site, and labour inspectors are investigating the cause.",
+  "caption_es": "Cuatro trabajadores de una contratista murieron el martes por la tarde al colapsar una estructura de acero durante obras de montaje en la planta Fab 22 de TSMC en Kaohsiung, Taiwán. Los investigadores sospechan que se rompieron los pernos de una placa de unión. TSMC suspendió las obras en el lugar y los inspectores laborales investigan la causa.",
+  "source_urls": [
+    "https://www.taipeitimes.com/News/taiwan/archives/2026/10/21/2003866366",
+    "https://japan.focustaiwan.tw/society/202610210004"
+  ],
+  "source_names": [
+    "Taipei Times",
+    "Focus Taiwan (CNA)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#TSMC",
+    "#Taiwan",
+    "#Kaohsiung"
+  ],
+  "summary_es": "Tres obreros murieron el martes y el cuarto falleció el miércoles por la mañana. La Fab 22 producirá chips de 2 nanómetros.",
+  "summary_en": "Three workers died on Tuesday and the fourth died on Wednesday morning. Fab 22 is planned to make 2-nanometre chips.",
+  "highlight_es": "cuatro obreros",
+  "highlight_en": "Four workers killed",
+  "visual_label": "Fab 22",
+  "image_prompt": "Large semiconductor factory under construction at dusk, tall steel frame and cranes against an overcast sky, construction site temporarily halted, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Taiwan"
+    ],
+    "marker": {
+      "lat": 22.73,
+      "lon": 120.3,
+      "label": "Kaohsiung"
+    },
+    "labels": {
+      "Taiwan": "Taiwán"
+    }
+  }
+}
