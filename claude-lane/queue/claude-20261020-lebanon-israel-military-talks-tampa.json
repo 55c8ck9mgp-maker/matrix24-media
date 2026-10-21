@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261020-lebanon-israel-military-talks-tampa",
+  "created_at": "2026-10-20T18:58:55Z",
+  "category": "Security / Geopolitics",
+  "headline": "Lebanese and Israeli military delegations hold US-hosted talks in Tampa",
+  "headline_es": "Delegaciones militares de Líbano e Israel negocian en Tampa con mediación de EE. UU.",
+  "caption_es": "Delegaciones militares de Líbano e Israel se reunieron este martes en la sede del Comando Central de EE. UU. en Tampa, Florida, en conversaciones mediadas por Washington. Líbano afirma que insistirá en el fin de los ataques israelíes en el sur del país y en la retirada de Israel. Las conversaciones siguen a un acuerdo marco entre Líbano, Israel y EE. UU. y a rondas previas en Washington y Roma.",
+  "caption_en": "Lebanese and Israeli military delegations met on Tuesday at US Central Command headquarters in Tampa, Florida, in talks mediated by Washington. Lebanon says it will press for an end to Israeli attacks on the south of the country and for Israel's withdrawal. The talks follow a framework agreement between Lebanon, Israel and the US and earlier rounds in Washington and Rome.",
+  "source_urls": [
+    "https://today.lorientlejour.com/article/1551458/2-pm-recap-israeli-accuses-the-lebanese-army-israel-lebanon-negotiations-in-tampa-palestinians-fleeing-lebanon-capsize-in-mediterranean.html",
+    "https://www.lbcgroup.tv/news/lebanon-news/963559/sources-to-lbci-lebanon-israel-military-talks-set-to-take-place-at-us/en"
+  ],
+  "source_names": [
+    "L'Orient Today",
+    "LBCI"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Líbano",
+    "#Israel",
+    "#Tampa",
+    "#Diplomacia"
+  ],
+  "summary_es": "Militares libaneses e israelíes negocian en la sede del Comando Central de EE. UU. Líbano pide frenar los ataques y la retirada israelí.",
+  "summary_en": "Lebanese and Israeli officers meet at US Central Command. Lebanon seeks an end to Israeli attacks and a withdrawal.",
+  "highlight_es": "Líbano e Israel",
+  "highlight_en": "Lebanese and Israeli",
+  "image_prompt": "Modern military headquarters conference room with a long table, empty chairs and microphones, large windows overlooking palm trees and a bay in Florida sunlight, wide view, no people, no flags or insignia",
+  "visual_label": "Tampa",
+  "map": {
+    "focus": [
+      "Lebanon",
+      "Israel"
+    ],
+    "marker": {
+      "lat": 33.27,
+      "lon": 35.4,
+      "label": "Sur del Líbano"
+    },
+    "labels": {
+      "Lebanon": "Líbano",
+      "Israel": "Israel"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-21T16:13:01.103Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
