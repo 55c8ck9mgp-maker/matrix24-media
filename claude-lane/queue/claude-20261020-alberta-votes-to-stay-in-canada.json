@@ -40,9 +40,9 @@
       "Canada": "Canadá"
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261020-alberta-votes-to-stay-in-canada.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "e1f1b12b-73f9-4a2d-95da-3b9aa7837b80",
   "ig_media_id": null,
   "history": [
     {
@@ -54,7 +54,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-21T02:15:28.603Z",
+      "event": "reserved",
+      "publish_attempt_id": "e1f1b12b-73f9-4a2d-95da-3b9aa7837b80"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-21T02:15:28.603Z"
 }
