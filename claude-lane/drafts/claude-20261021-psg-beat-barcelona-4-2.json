@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T01:03:24Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-psg-beat-barcelona-4-2",
+  "category": "Sports",
+  "headline": "PSG beat Barcelona 4-2 with two late goals in the Champions League",
+  "headline_es": "El PSG vence 4-2 al Barcelona con dos goles tardíos en la Champions",
+  "caption_en": "Paris Saint-Germain beat Barcelona 4-2 at the Parc des Princes on Tuesday in the third round of the Champions League league phase. Désiré Doué and Lucas Hernández scored for PSG, with Xavi Espart and Lamine Yamal levelling twice for Barcelona, before late goals from Vitinha and Fabián Ruiz settled it.",
+  "caption_es": "El Paris Saint-Germain venció el martes 4-2 al Barcelona en el Parque de los Príncipes, en la tercera jornada de la fase liga de la Champions. Désiré Doué y Lucas Hernández marcaron para el PSG, y Xavi Espart y Lamine Yamal igualaron dos veces para el Barcelona, antes de que los goles tardíos de Vitinha y Fabián Ruiz sentenciaran.",
+  "source_urls": [
+    "https://theanalyst.com/articles/psg-vs-barcelona-stats-champions-league-10-2026",
+    "https://www.vavel.com/en-us/soccer/2026/10/20/1276070-psg-vs-barcelona-live-score-uefa-champions-league.html"
+  ],
+  "source_names": [
+    "Opta Analyst",
+    "VAVEL"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ChampionsLeague",
+    "#PSG",
+    "#Barcelona",
+    "#Futbol"
+  ],
+  "summary_es": "Vitinha (81') y Fabián Ruiz (86') decidieron el partido después de que Lamine Yamal empatara 2-2 en el minuto 79.",
+  "summary_en": "Vitinha (81') and Fabián Ruiz (86') decided the match after Lamine Yamal had made it 2-2 in the 79th minute.",
+  "highlight_es": "4-2 al Barcelona",
+  "highlight_en": "Barcelona 4-2",
+  "visual_label": "Champions",
+  "image_prompt": "Packed football stadium at night under bright floodlights, green pitch seen from a high angle, a white football resting near the centre circle, dramatic atmosphere, wide cinematic view, no identifiable people, no text, no logos, no flags, no club crests",
+  "map": {
+    "focus": [
+      "France"
+    ],
+    "marker": {
+      "lat": 48.8414,
+      "lon": 2.253,
+      "label": "París"
+    },
+    "labels": {
+      "France": "Francia"
+    }
+  }
+}

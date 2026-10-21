@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-21T01:03:24Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261021-italy-sends-500-troops-to-milan",
+  "category": "World",
+  "headline": "Italy sends 500 troops to Milan and toughens protest laws after weekend riots",
+  "headline_es": "Italia envía 500 soldados a Milán y endurece las leyes sobre protestas tras los disturbios",
+  "caption_en": "Italy's government approved a decree on Tuesday that deploys 500 soldiers alongside police in Milan until the end of the year, after weekend riots damaged the city centre. It creates a new offence of violent participation in a demonstration, punishable by up to five years in prison and fines of up to 20,000 euros, and lets parents be held liable for damage caused by minors.",
+  "caption_es": "El Gobierno italiano aprobó el martes un decreto que despliega 500 soldados junto a la policía en Milán hasta final de año, tras los disturbios del fin de semana que dañaron el centro de la ciudad. Crea un nuevo delito de participación violenta en una manifestación, castigado con hasta cinco años de cárcel y multas de hasta 20.000 euros, y permite responsabilizar a los padres por los daños causados por menores.",
+  "source_urls": [
+    "https://www.wftv.com/news/world/italys-meloni/PF3YX5UWYI5YFL7IECQO3WSZAQ/",
+    "https://theprint.in/world/italys-meloni-approves-tougher-anti-riot-laws-after-milan-violence/3077277"
+  ],
+  "source_names": [
+    "Associated Press",
+    "Reuters"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Italia",
+    "#Italy",
+    "#Milan",
+    "#Protestas"
+  ],
+  "summary_es": "Las penas aumentan si los manifestantes se cubren la cara o hieren a alguien.",
+  "summary_en": "Penalties rise if protesters cover their faces or injure someone.",
+  "highlight_es": "500 soldados",
+  "highlight_en": "500 troops",
+  "visual_label": "Milán",
+  "image_prompt": "Empty historic Italian city square at dusk with a gothic cathedral facade in the background, parked military trucks and metal crowd barriers on the cobblestones, wet pavement reflecting street lights, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Italy"
+    ],
+    "marker": {
+      "lat": 45.464,
+      "lon": 9.19,
+      "label": "Milán"
+    },
+    "labels": {
+      "Italy": "Italia"
+    }
+  }
+}
