@@ -71,14 +71,23 @@
       "at": "2026-10-21T22:53:13.636Z",
       "event": "facebook_reserved",
       "facebook_attempt_id": "6bb222b6-4026-47e5-9e43-9fd87f43cc43"
+    },
+    {
+      "at": "2026-10-21T22:53:20.319Z",
+      "event": "facebook_published",
+      "facebook_attempt_id": "6bb222b6-4026-47e5-9e43-9fd87f43cc43",
+      "facebook_post_id": "1300936266441859_122123335719477315"
     }
   ],
   "ai_illustration": true,
   "reserved_at": "2026-10-21T22:52:20.479Z",
   "permalink": "https://www.instagram.com/p/DexhiotGilm/",
   "facebook": {
-    "status": "publishing",
+    "status": "published",
     "attempt_id": "6bb222b6-4026-47e5-9e43-9fd87f43cc43",
-    "reserved_at": "2026-10-21T22:53:13.636Z"
+    "reserved_at": "2026-10-21T22:53:13.636Z",
+    "post_id": "1300936266441859_122123335719477315",
+    "photo_id": "122123335695477315",
+    "published_at": "2026-10-21T22:53:20.319Z"
   }
 }
