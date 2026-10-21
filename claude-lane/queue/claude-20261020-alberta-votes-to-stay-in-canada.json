@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261020-alberta-votes-to-stay-in-canada",
+  "created_at": "2026-10-20T06:52:57Z",
+  "category": "World",
+  "headline": "Alberta voters reject separation and choose to stay in Canada",
+  "headline_es": "Los votantes de Alberta rechazan la separación y eligen seguir en Canadá",
+  "caption_es": "Cerca del 76% de los votantes de Alberta eligió seguir formando parte de Canadá en el referéndum no vinculante del lunes, según proyecciones preliminares de cadenas canadienses. La pregunta planteaba si la provincia debía quedarse o celebrar una segunda votación, vinculante, sobre la separación. La primera ministra Danielle Smith dijo que votó por mantener a Alberta en Canadá.",
+  "caption_en": "About 76% of voters in Alberta chose to remain part of Canada in Monday's nonbinding referendum, according to early projections by Canadian broadcasters. The question asked whether the province should stay or hold a second, binding vote on separating. Premier Danielle Smith said she voted to keep Alberta in Canada.",
+  "source_urls": [
+    "https://www.cp24.com/news/canada/2026/10/20/albertans-support-staying-in-canada-oppose-separation-referendum-follow-for-live-updates/",
+    "https://www.aa.com.tr/en/world/morning-briefing-oct-20-2026/4094091"
+  ],
+  "source_names": [
+    "CP24",
+    "Anadolu Agency"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Alberta",
+    "#Canada",
+    "#Referendum"
+  ],
+  "summary_es": "Alrededor de tres de cada cuatro votantes respaldaron la unidad. Unos 23,6% apoyaron un referéndum vinculante de separación.",
+  "summary_en": "Roughly three in four voters backed unity, while about 24% supported a binding separation referendum.",
+  "highlight_es": "rechazan la separación",
+  "highlight_en": "reject separation",
+  "image_prompt": "Wide prairie landscape at sunrise with golden wheat fields, a distant city skyline and the Rocky Mountains on the horizon, an empty wooden ballot box on a table in the foreground, cinematic, no people, no text, no logos, no flags",
+  "visual_label": "Referéndum",
+  "map": {
+    "focus": [
+      "Canada"
+    ],
+    "marker": {
+      "lat": 53.55,
+      "lon": -113.49,
+      "label": "Edmonton"
+    },
+    "labels": {
+      "Canada": "Canadá"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-21T02:14:42.572Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
