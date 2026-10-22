@@ -27,9 +27,9 @@
   "highlight_en": "net loss",
   "image_prompt": "Vast modern data center hall with rows of glowing server racks, cool blue light, a translucent descending financial chart line floating above, wide cinematic view, no people, no text, no logos",
   "visual_label": "IPO",
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261021-anthropic-reports-80-billion-half-year-loss.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "c9e96e72-91b9-43de-b299-0bbd2ab9c09f",
   "ig_media_id": null,
   "history": [
     {
@@ -41,7 +41,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-22T16:11:37.612Z",
+      "event": "reserved",
+      "publish_attempt_id": "c9e96e72-91b9-43de-b299-0bbd2ab9c09f"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-22T16:11:37.612Z"
 }
