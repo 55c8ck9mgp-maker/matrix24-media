@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261021-jio-ipo-india-largest-share-sale",
+  "created_at": "2026-10-21T06:53:20Z",
+  "category": "Economy",
+  "headline": "Jio's $3.2 billion IPO, India's largest ever, is fully subscribed on day one",
+  "headline_es": "La OPV de Jio, de 3.200 millones de dólares y la mayor de India, se cubre el primer día",
+  "caption_es": "Jio Platforms, de Reliance, abrió el miércoles la mayor venta de acciones de la historia de India, una OPV de 3.200 millones de dólares con precios de 1.065 a 1.119 rupias por acción. Los inversores institucionales cubrieron su tramo en las primeras horas. La oferta cierra el viernes y las acciones comenzarán a cotizar el 28 de octubre.",
+  "caption_en": "Reliance's Jio Platforms opened India's largest-ever share sale on Wednesday, a $3.2 billion IPO priced at 1,065 to 1,119 rupees per share. Institutional investors fully covered their portion within the first hours of bidding. The offer closes on Friday and the shares are due to start trading on October 28.",
+  "source_urls": [
+    "https://www.globalbankingandfinance.com/ambanis-3-2-billion-jio-ipo-subscribed-within-two-hours/",
+    "https://gulfnews.com/business/markets/jio-platforms-ipos-institutional-quota-fills-in-minutes-1.500717935"
+  ],
+  "source_names": [
+    "Reuters",
+    "Gulf News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#India",
+    "#Jio",
+    "#Economia"
+  ],
+  "summary_es": "Jio, el operador de telecomunicaciones del grupo de Mukesh Ambani, sale a bolsa en Mumbai.",
+  "summary_en": "Jio, the telecom operator of Mukesh Ambani's group, is listing in Mumbai.",
+  "highlight_es": "la mayor de India",
+  "highlight_en": "India's largest ever",
+  "image_prompt": "Modern stock exchange trading floor with large screens showing rising green charts, Mumbai skyline visible through tall windows, wide cinematic view, no people, no text, no logos",
+  "visual_label": "OPV Jio",
+  "map": {
+    "focus": [
+      "India"
+    ],
+    "marker": {
+      "lat": 19.07,
+      "lon": 72.88,
+      "label": "Bombay"
+    },
+    "labels": {
+      "India": "India"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-22T02:09:04.721Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
