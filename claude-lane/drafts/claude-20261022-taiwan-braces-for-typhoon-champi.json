@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T00:58:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-taiwan-braces-for-typhoon-champi",
+  "category": "Climate",
+  "headline": "Taiwan braces for Typhoon Champi, with the worst effects expected Friday and Saturday",
+  "headline_es": "Taiwán se prepara para el tifón Champi, con el peor impacto previsto viernes y sábado",
+  "caption_en": "Taiwan's Central Weather Administration said Typhoon Champi will have its greatest impact on the island on Friday and Saturday, with a land warning possible on Thursday afternoon. On Wednesday afternoon the storm was about 910 km east-southeast of Eluanbi with maximum sustained winds of 209 km/h. It is expected to move away toward Japan's Kyushu on Saturday.",
+  "caption_es": "La Administración Meteorológica Central de Taiwán dijo que el tifón Champi tendrá su mayor impacto en la isla el viernes y el sábado, y que podría emitirse una alerta terrestre el jueves por la tarde. El miércoles por la tarde la tormenta estaba a unos 910 km al este-sureste de Eluanbi, con vientos máximos sostenidos de 209 km/h. Se prevé que se aleje hacia Kyushu, en Japón, el sábado.",
+  "source_urls": [
+    "https://www.taipeitimes.com/News/front/archives/2026/10/22/2003866405",
+    "https://focustaiwan.tw/society/202610210017"
+  ],
+  "source_names": [
+    "Taipei Times",
+    "Focus Taiwan (CNA)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Taiwán",
+    "#Taiwan",
+    "#Champi",
+    "#Tifón"
+  ],
+  "summary_es": "Champi, con vientos de 209 km/h, se acerca a Taiwán antes de girar hacia Kyushu, en Japón.",
+  "summary_en": "Champi, with 209 km/h winds, approaches Taiwan before turning toward Japan's Kyushu.",
+  "highlight_es": "tifón Champi",
+  "highlight_en": "Typhoon Champi",
+  "visual_label": "Champi",
+  "image_prompt": "Massive spiral typhoon over a dark ocean seen from orbit, island coastline with heavy surf and bending palm trees in the foreground, stormy grey sky, wide cinematic view",
+  "map": {
+    "focus": [
+      "Taiwan"
+    ],
+    "marker": {
+      "lat": 21.9,
+      "lon": 120.85,
+      "label": "Eluanbi"
+    },
+    "labels": {
+      "Taiwan": "Taiwán"
+    }
+  }
+}

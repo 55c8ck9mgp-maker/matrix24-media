@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T00:58:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-attack-on-dammam-airport-kills-one",
+  "category": "Security / Geopolitics",
+  "headline": "Attack on Saudi Arabia's King Fahd airport in Dammam kills one, injures eight",
+  "headline_es": "Ataque contra el aeropuerto Rey Fahd de Dammam, en Arabia Saudita, deja un muerto",
+  "caption_en": "One person was killed and eight injured in an attack on King Fahd International Airport in Dammam, Saudi Arabia's civil aviation authority said; the wounded were taken to hospital. Earlier the same day, debris from a drone intercepted near the Shaybah oil field killed two people. The attacks come amid escalating hostilities with Yemen's Houthis.",
+  "caption_es": "Una persona murió y ocho resultaron heridas en un ataque contra el Aeropuerto Internacional Rey Fahd de Dammam, informó la autoridad de aviación civil saudí; los heridos fueron llevados al hospital. Ese mismo día, restos de un dron interceptado cerca del yacimiento petrolero de Shaybah mataron a dos personas. Los ataques ocurren en medio de la escalada de hostilidades con los hutíes de Yemen.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2",
+    "https://www.trtworld.com/article/d7bd47c27768"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "TRT World"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Dammam",
+    "#ArabiaSaudita",
+    "#SaudiArabia",
+    "#Yemen"
+  ],
+  "summary_es": "La aviación civil saudí reporta un muerto y ocho heridos; horas antes, restos de un dron mataron a dos en Shaybah.",
+  "summary_en": "Saudi civil aviation reports one dead, eight injured; earlier, drone debris killed two near Shaybah.",
+  "highlight_es": "aeropuerto Rey Fahd",
+  "highlight_en": "King Fahd airport",
+  "visual_label": "Dammam",
+  "image_prompt": "Large modern airport terminal in a flat desert landscape at night, runway lights and an air defense radar dish silhouetted against a dark sky, wide cinematic view",
+  "map": {
+    "focus": [
+      "Saudi Arabia"
+    ],
+    "marker": {
+      "lat": 26.47,
+      "lon": 49.8,
+      "label": "Dammam"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudita"
+    }
+  }
+}

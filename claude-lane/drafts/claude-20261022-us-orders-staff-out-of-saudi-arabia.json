@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T00:58:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-us-orders-staff-out-of-saudi-arabia",
+  "category": "Security / Geopolitics",
+  "headline": "US orders non-emergency embassy staff and families to leave Saudi Arabia",
+  "headline_es": "EE. UU. ordena salir de Arabia Saudita al personal no esencial de su embajada",
+  "caption_en": "The US State Department ordered non-emergency government employees and their families to leave Saudi Arabia, citing Houthi attacks on the kingdom, including on airports. A spokesperson said the order applies to Saudi Arabia only. Houthi drones and missiles have targeted Saudi airports and oil facilities in recent weeks.",
+  "caption_es": "El Departamento de Estado de EE. UU. ordenó a los empleados gubernamentales no esenciales y a sus familias salir de Arabia Saudita, citando los ataques hutíes contra el reino, incluidos aeropuertos. Un portavoz dijo que la orden aplica solo a Arabia Saudita. Drones y misiles hutíes han atacado aeropuertos e instalaciones petroleras saudíes en las últimas semanas.",
+  "source_urls": [
+    "https://www.cbsnews.com/news/us-saudi-arabia-ordered-departure-houthis/",
+    "https://www.timesofisrael.com/liveblog_entry/state-department-orders-non-essential-us-embassy-staff-families-to-leave-saudi-arabia/"
+  ],
+  "source_names": [
+    "CBS News",
+    "The Times of Israel (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudita",
+    "#SaudiArabia",
+    "#Houthis",
+    "#EEUU"
+  ],
+  "summary_es": "Washington ordena la salida del personal no esencial y sus familias por los ataques hutíes contra aeropuertos saudíes.",
+  "summary_en": "Washington orders non-emergency staff and families out over Houthi attacks on Saudi airports.",
+  "highlight_es": "Arabia Saudita",
+  "highlight_en": "leave Saudi Arabia",
+  "visual_label": "Riad",
+  "image_prompt": "Modern embassy compound with high walls and palm trees at dusk in a desert city, empty departure terminal and parked airliner in the background, calm tense atmosphere, wide cinematic view",
+  "map": {
+    "focus": [
+      "Saudi Arabia"
+    ],
+    "marker": {
+      "lat": 24.71,
+      "lon": 46.68,
+      "label": "Riad"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudita"
+    }
+  }
+}

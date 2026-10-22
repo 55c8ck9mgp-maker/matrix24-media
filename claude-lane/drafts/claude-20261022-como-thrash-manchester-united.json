@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T00:58:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-como-thrash-manchester-united",
+  "category": "Sports",
+  "headline": "Como thrash Manchester United 4-1 in the Champions League",
+  "headline_es": "El Como golea 4-1 al Manchester United en la Champions League",
+  "caption_en": "Como beat Manchester United 4-1 in the Champions League, with Nico Paz scoring twice, including in the second minute, and Anastasios Douvikas and Jacobo Ramón also on target. Joshua Zirkzee scored United's only goal. Elsewhere, Bayern Munich and Arsenal drew 2-2 after a late Declan Rice equaliser.",
+  "caption_es": "El Como venció 4-1 al Manchester United en la Champions League, con doblete de Nico Paz, uno de ellos en el segundo minuto, y goles de Anastasios Douvikas y Jacobo Ramón. Joshua Zirkzee marcó el único gol del United. En otro partido, Bayern Múnich y Arsenal empataron 2-2 tras un gol tardío de Declan Rice.",
+  "source_urls": [
+    "https://www.uefa.com/uefachampionsleague/news/02aa-21e20b093685-f5cf9ebeb7a6-1000--champions-league-matchday-3-wednesday-round-up-como-dazz/",
+    "https://www.nbcsports.com/soccer/live/uefa-champions-league-live-como-man-united-bayern-munich-arsenal-updates-score-goals-highlights-stats-2026-october-21"
+  ],
+  "source_names": [
+    "UEFA",
+    "NBC Sports"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ChampionsLeague",
+    "#Como",
+    "#ManUtd",
+    "#Fútbol"
+  ],
+  "summary_es": "Nico Paz marca dos goles; Bayern y Arsenal empatan 2-2 en la tercera jornada.",
+  "summary_en": "Nico Paz scores twice; Bayern and Arsenal draw 2-2 on matchday three.",
+  "highlight_es": "4-1",
+  "highlight_en": "4-1",
+  "visual_label": "Como",
+  "image_prompt": "Illuminated football stadium beside a lake surrounded by mountains at night, ball resting on the centre spot of a green pitch, wide cinematic view",
+  "map": {
+    "focus": [
+      "Italy"
+    ],
+    "marker": {
+      "lat": 45.81,
+      "lon": 9.09,
+      "label": "Como"
+    },
+    "labels": {
+      "Italy": "Italia"
+    }
+  }
+}
