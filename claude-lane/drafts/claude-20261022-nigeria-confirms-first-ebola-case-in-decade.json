@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T18:57:49Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-nigeria-confirms-first-ebola-case-in-decade",
+  "category": "World",
+  "headline": "Nigeria confirms its first Ebola case in more than a decade",
+  "headline_es": "Nigeria confirma su primer caso de ébola en más de una década",
+  "caption_en": "Nigeria has confirmed its first Ebola case in more than a decade: a foreign woman who arrived in Abuja from Uganda and is being treated in isolation. Health authorities are tracing her contacts and investigating her travel history. The wider outbreak centred on DR Congo has killed more than 4,600 people.",
+  "caption_es": "Nigeria confirmó su primer caso de ébola en más de una década: una mujer extranjera que llegó a Abuja desde Uganda y recibe tratamiento en aislamiento. Las autoridades sanitarias rastrean sus contactos e investigan su historial de viajes. El brote más amplio, centrado en RD del Congo, ha causado más de 4.600 muertes.",
+  "source_urls": [
+    "https://www.aol.com/articles/not-told-nigerias-ebola-patient-124029000.html",
+    "https://www.cidrap.umn.edu/ebola/nigeria-announces-its-first-ebola-case-12-years"
+  ],
+  "source_names": [
+    "Reuters",
+    "CIDRAP"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Nigeria",
+    "#Ébola",
+    "#Ebola",
+    "#Salud"
+  ],
+  "summary_es": "La paciente, que llegó desde Uganda, está aislada en Abuja mientras se rastrean sus contactos.",
+  "summary_en": "The patient, who arrived from Uganda, is isolated in Abuja as her contacts are traced.",
+  "highlight_es": "primer caso de ébola",
+  "highlight_en": "first Ebola case",
+  "visual_label": "Ébola",
+  "image_prompt": "Modern hospital isolation ward with protective equipment hanging by a sealed door, medical monitors glowing in soft blue light, laboratory test tubes in the foreground, calm clinical atmosphere, wide cinematic view",
+  "map": {
+    "focus": [
+      "Nigeria"
+    ],
+    "marker": {
+      "lat": 9.06,
+      "lon": 7.49,
+      "label": "Abuja"
+    },
+    "labels": {
+      "Nigeria": "Nigeria"
+    }
+  }
+}

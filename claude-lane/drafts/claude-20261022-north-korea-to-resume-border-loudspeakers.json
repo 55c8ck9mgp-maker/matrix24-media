@@ -1,0 +1,45 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T18:57:49Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-north-korea-to-resume-border-loudspeakers",
+  "category": "Security / Geopolitics",
+  "headline": "North Korea says it will resume propaganda loudspeaker broadcasts along the border",
+  "headline_es": "Corea del Norte reanudará la propaganda por altavoces en la frontera",
+  "caption_en": "Kim Yo Jong, sister of North Korean leader Kim Jong Un, said the North will operate psychological warfare loudspeakers along the whole border with South Korea within October. She spoke after inspecting front-line fortification work. Tensions rose after September mine blasts injured three South Korean soldiers; Seoul blames the North, which denies it.",
+  "caption_es": "Kim Yo Jong, hermana del líder norcoreano Kim Jong Un, dijo que el Norte operará altavoces de guerra psicológica a lo largo de toda la frontera con Corea del Sur dentro de octubre. Lo anunció tras inspeccionar obras de fortificación en el frente. La tensión creció después de que explosiones de minas en septiembre hirieran a tres soldados surcoreanos; Seúl culpa al Norte, que lo niega.",
+  "source_urls": [
+    "https://www.kgou.org/world/2026-10-22/north-korea-says-it-will-resume-propaganda-broadcasts-across-border-into-south-korea",
+    "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261021/n-korea-to-resume-propaganda-loudspeaker-broadcasts-toward-s-korea-kim-yo-jong"
+  ],
+  "source_names": [
+    "AP",
+    "The Korea Times (Yonhap)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CoreaDelNorte",
+    "#NorthKorea",
+    "#Corea"
+  ],
+  "summary_es": "Kim Yo Jong hizo el anuncio tras inspeccionar las obras de fortificación del Norte en la frontera.",
+  "summary_en": "Kim Yo Jong made the announcement after inspecting the North's border fortification work.",
+  "highlight_es": "propaganda por altavoces",
+  "highlight_en": "propaganda loudspeaker",
+  "visual_label": "Frontera",
+  "image_prompt": "Large loudspeaker array mounted on a concrete tower beside barbed-wire fences on a misty mountain border, empty guard post, autumn hills in the background, grey overcast sky, wide cinematic view",
+  "map": {
+    "focus": [
+      "North Korea",
+      "South Korea"
+    ],
+    "labels": {
+      "North Korea": "Corea del Norte",
+      "South Korea": "Corea del Sur"
+    }
+  }
+}

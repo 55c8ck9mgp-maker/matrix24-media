@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T18:57:49Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-bukele-launches-haiti-rescue-operation",
+  "category": "Colombia / Latin America",
+  "headline": "Bukele launches military operation to rescue four Salvadorans held by gangs in Haiti",
+  "headline_es": "Bukele lanza una operación militar para rescatar a cuatro salvadoreños retenidos en Haití",
+  "caption_en": "El Salvador's President Nayib Bukele said he launched a military operation to rescue four Salvadoran aviation technicians missing since gangs attacked their armoured vehicle on Sunday near Port-au-Prince. He warned the gangs of a harsher response if the men are not freed alive. Haiti's government called their release an absolute priority.",
+  "caption_es": "El presidente de El Salvador, Nayib Bukele, anunció una operación militar para rescatar a cuatro técnicos de aviación salvadoreños desaparecidos desde que pandillas atacaron su vehículo blindado el domingo cerca de Puerto Príncipe. Advirtió a las pandillas de una respuesta más dura si no los liberan con vida. El gobierno de Haití calificó su liberación como una prioridad absoluta.",
+  "source_urls": [
+    "https://www.nprillinois.org/2026-10-22/bukele-says-military-operation-launched-to-rescue-salvadorans-held-by-gangs-in-haiti",
+    "https://www.euronews.com/2026/10/22/el-salvador-launches-military-operation-in-haiti-to-free-four-kidnapped-aviation-technicia"
+  ],
+  "source_names": [
+    "AP",
+    "Euronews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Haití",
+    "#ElSalvador",
+    "#Bukele"
+  ],
+  "summary_es": "Los técnicos forman parte de la fuerza internacional contra pandillas en Haití, que tiene más de 2.000 efectivos.",
+  "summary_en": "The technicians serve with the international gang suppression force in Haiti, which has over 2,000 troops.",
+  "highlight_es": "operación militar",
+  "highlight_en": "military operation",
+  "visual_label": "Haití",
+  "image_prompt": "Military transport helicopter on a dusty airfield at dusk, hills and a sprawling hillside city in the hazy background, empty armoured vehicle parked nearby, tense atmosphere, no people visible, wide cinematic view",
+  "map": {
+    "focus": [
+      "Haiti"
+    ],
+    "marker": {
+      "lat": 18.58,
+      "lon": -72.23,
+      "label": "Croix-des-Bouquets"
+    },
+    "labels": {
+      "Haiti": "Haití"
+    }
+  }
+}
