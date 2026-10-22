@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T06:53:03Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-meta-ordered-to-pay-new-mexico-25-billion",
+  "category": "Technology",
+  "headline": "Judge orders Meta to pay New Mexico $25 billion over misleading Facebook users on privacy",
+  "headline_es": "Un juez ordena a Meta pagar 25.000 millones de dólares a Nuevo México por engañar sobre privacidad",
+  "caption_en": "A New Mexico judge ordered Meta to pay the state $25 billion after a jury found more than 43 million violations of New Mexico's consumer protection law. The case, brought by Attorney General Raúl Torrez, centered on Facebook user data collected through a personality quiz and passed to the political data firm Cambridge Analytica.",
+  "caption_es": "Un juez de Nuevo México ordenó a Meta pagar al estado 25.000 millones de dólares, después de que un jurado hallara más de 43 millones de infracciones de la ley de protección al consumidor de Nuevo México. El caso, impulsado por el fiscal general Raúl Torrez, se centró en datos de usuarios de Facebook recopilados con un test de personalidad y entregados a la firma de datos políticos Cambridge Analytica.",
+  "source_urls": [
+    "https://abcnews.com/Technology/wireStory/meta-ordered-pay-new-mexico-25-billion-deceiving-137452515",
+    "https://www.kob.com/news/top-news/new-mexico-judge-orders-meta-to-pay-25-billion-over-cambridge-analytica-data-scandal/"
+  ],
+  "source_names": [
+    "Associated Press (via ABC News)",
+    "KOB 4"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Meta",
+    "#Privacidad",
+    "#Privacy",
+    "#Tech"
+  ],
+  "summary_es": "Un jurado halló más de 43 millones de infracciones de la ley de consumo ligadas al caso Cambridge Analytica.",
+  "summary_en": "A jury found more than 43 million consumer-law violations tied to the Cambridge Analytica data case.",
+  "highlight_es": "25.000 millones",
+  "highlight_en": "$25 billion",
+  "visual_label": "Nuevo México",
+  "image_prompt": "Wooden judge's gavel resting on a desk beside a smartphone with a blank glowing screen, courthouse columns softly blurred in the background, warm dramatic lighting",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 35.687,
+      "lon": -105.938,
+      "label": "Santa Fe"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T06:53:03Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-iran-says-seven-tankers-hit-hormuz",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's Revolutionary Guard says seven tankers caught fire or were damaged near Hormuz",
+  "headline_es": "La Guardia Revolucionaria de Irán dice que siete petroleros ardieron o se dañaron cerca de Ormuz",
+  "caption_en": "Iran's Revolutionary Guard navy said seven tankers caught fire or were damaged overnight in the Gulf: four were struck while transferring oil and three hit naval mines in the Strait of Hormuz area. It warned its response could widen to US bases in the region if ships keep using what it calls illegal routes. The claims have not been independently verified.",
+  "caption_es": "La armada de la Guardia Revolucionaria de Irán afirmó que siete petroleros se incendiaron o sufrieron daños durante la noche en el Golfo: cuatro fueron atacados mientras transferían crudo y tres chocaron con minas en la zona del estrecho de Ormuz. Advirtió que su respuesta podría extenderse a bases de EE. UU. en la región si los barcos siguen usando lo que llama rutas ilegales. Las afirmaciones no han sido verificadas de forma independiente.",
+  "source_urls": [
+    "https://www.clickondetroit.com/business/2026/10/22/iran-says-7-tankers-on-fire-or-damaged-overnight-in-the-strait-of-hormuz-and-other-mideast-news/",
+    "https://news.sbs.co.kr/english/article.do?news_id=N1008810386"
+  ],
+  "source_names": [
+    "Associated Press",
+    "SBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#Hormuz",
+    "#Ormuz",
+    "#Energía"
+  ],
+  "summary_es": "Según la Guardia Revolucionaria, cuatro buques fueron atacados al transferir crudo y tres chocaron con minas. Irán amenaza con ampliar su respuesta a bases de EE. UU.",
+  "summary_en": "The Guard says four ships were struck while transferring oil and three hit mines. Iran warned its response could extend to US bases. Not independently verified.",
+  "highlight_es": "siete petroleros",
+  "highlight_en": "seven tankers",
+  "visual_label": "Ormuz",
+  "image_prompt": "Several oil tankers on a calm dark sea at dusk, thick smoke plumes rising on the distant horizon, wide cinematic aerial view of a narrow strait between arid coastlines",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "marker": {
+      "lat": 26.6,
+      "lon": 56.3,
+      "label": "Estrecho de Ormuz"
+    },
+    "labels": {
+      "Iran": "Irán"
+    }
+  }
+}

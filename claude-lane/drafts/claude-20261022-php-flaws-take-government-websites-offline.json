@@ -1,0 +1,37 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-22T06:53:03Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261022-php-flaws-take-government-websites-offline",
+  "category": "Technology",
+  "headline": "Critical PHP flaws push governments to take websites offline as emergency patches roll out",
+  "headline_es": "Fallos críticos en PHP llevan a gobiernos a desconectar sitios web mientras llegan parches urgentes",
+  "caption_en": "PHP developers released emergency fixes for two critical vulnerabilities in the open-source language that runs most websites, with attacks already emerging. Government agencies in the Netherlands and Finland took sites offline as a precaution, and Australia reported outages on government websites. Cybersecurity agencies in Europe, Australia, Japan and Britain urged operators to update immediately or take sites offline until patched.",
+  "caption_es": "Los desarrolladores de PHP publicaron correcciones urgentes para dos vulnerabilidades críticas en el lenguaje de código abierto que hace funcionar a la mayoría de los sitios web, con ataques ya en marcha. Agencias gubernamentales de Países Bajos y Finlandia desconectaron sitios como precaución, y Australia reportó caídas en webs del gobierno. Agencias de ciberseguridad de Europa, Australia, Japón y Reino Unido pidieron actualizar de inmediato o desconectar los sitios hasta aplicar los parches.",
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-10-22/php-vulnerabilities-cyber-asd/107294812",
+    "https://globalnews.ca/news/12110881/government-sites-go-dark-vuln-in-code/",
+    "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
+  ],
+  "source_names": [
+    "ABC News (Australia)",
+    "Global News",
+    "BleepingComputer"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ciberseguridad",
+    "#Cybersecurity",
+    "#PHP"
+  ],
+  "summary_es": "Dos vulnerabilidades críticas en PHP, usado en la mayoría de las webs, ya están siendo atacadas. Varios gobiernos desconectaron sitios por precaución.",
+  "summary_en": "Two critical PHP flaws are already under attack. Several governments took websites offline as a precaution while operators apply the fixes.",
+  "highlight_es": "Fallos críticos en PHP",
+  "highlight_en": "Critical PHP flaws",
+  "visual_label": "PHP",
+  "image_prompt": "Rows of server racks in a dim data center with red warning lights glowing, a single open laptop on a cart showing abstract code patterns, cool blue and red cinematic lighting"
+}
