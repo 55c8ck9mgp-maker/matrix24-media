@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261021-burkina-faso-restores-death-penalty",
+  "created_at": "2026-10-21T12:53:30Z",
+  "category": "World",
+  "headline": "Burkina Faso's parliament unanimously votes to restore the death penalty",
+  "headline_es": "El Parlamento de Burkina Faso aprueba por unanimidad restablecer la pena de muerte",
+  "caption_es": "Los 71 miembros del Parlamento de Burkina Faso aprobaron el martes un código penal revisado que restablece la pena de muerte para delitos como terrorismo, espionaje y traición. El país abolió la pena capital en 2018 y su última ejecución conocida fue en 1988. Human Rights Watch advirtió que la medida podría usarse para profundizar la represión contra críticos del gobierno militar.",
+  "caption_en": "All 71 members of Burkina Faso's legislature backed a revised penal code on Tuesday that reinstates the death penalty for crimes including terrorism, espionage and treason. The country abolished capital punishment in 2018; its last known execution was in 1988. Human Rights Watch warned the measure could be used to deepen repression against critics of the military government.",
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/burkina-fasos-parliament-unanimously-votes-reinstate-death-penalty-137442050",
+    "https://www.channelafrica.co.za/channelafrica/news/burkina-faso-parliament-votes-to-restore-death-penalty/"
+  ],
+  "source_names": [
+    "Associated Press",
+    "Reuters"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#BurkinaFaso",
+    "#Africa",
+    "#DerechosHumanos"
+  ],
+  "summary_es": "El Gobierno lo presenta como respuesta a la insurgencia ligada a Al Qaeda y Estado Islámico. Grupos de derechos humanos lo critican.",
+  "summary_en": "The government frames it as a response to an insurgency linked to al-Qaida and Islamic State. Rights groups criticise it.",
+  "highlight_es": "pena de muerte",
+  "highlight_en": "death penalty",
+  "image_prompt": "Empty parliament chamber with rows of wooden desks and a judge's gavel resting on a closed law book in the foreground, warm Sahel light through tall windows, no people, no text, no logos, no flags",
+  "visual_label": "Código penal",
+  "map": {
+    "focus": [
+      "Burkina Faso"
+    ],
+    "labels": {
+      "Burkina Faso": "Burkina Faso"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-22T08:59:12.338Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
