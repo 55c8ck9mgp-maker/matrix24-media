@@ -35,9 +35,9 @@
       "Burkina Faso": "Burkina Faso"
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261021-burkina-faso-restores-death-penalty.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "9d3020ac-c3f1-47bd-a21c-42e635dc6b00",
   "ig_media_id": null,
   "history": [
     {
@@ -49,7 +49,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-22T08:59:51.230Z",
+      "event": "reserved",
+      "publish_attempt_id": "9d3020ac-c3f1-47bd-a21c-42e635dc6b00"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-22T08:59:51.230Z"
 }
