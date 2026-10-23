@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261022-brazil-court-suspends-amazon-gold-mine",
+  "created_at": "2026-10-22T18:57:49Z",
+  "category": "Colombia / Latin America",
+  "headline": "Brazil's Supreme Court suspends permit for a major Amazon gold mine on the Xingu River",
+  "headline_es": "El Supremo de Brasil suspende el permiso de una gran mina de oro en el río Xingú",
+  "caption_es": "El presidente del Supremo Tribunal de Brasil, Edson Fachin, suspendió el permiso del proyecto de oro a cielo abierto Volta Grande, de la canadiense Belo Sun, en el estado de Pará, junto al río Xingú. El tribunal concluyó que la empresa no demostró cumplir las normas ambientales ni las protecciones para comunidades indígenas. Un estudio de 2021 advirtió que una falla del dique de residuos previsto podría afectar a comunidades a más de 40 km río abajo.",
+  "caption_en": "Brazil's Supreme Court chief justice Edson Fachin suspended the permit for Canadian firm Belo Sun's Volta Grande open-pit gold project in Pará state, on the Xingu River. The court found the company had not shown compliance with environmental rules and protections for Indigenous communities. A 2021 assessment warned a failure of the planned waste dam could affect communities more than 40 km downstream.",
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/brazils-supreme-court-suspends-permit-major-amazon-gold-137461510",
+    "https://mining.com.au/brazils-top-court-suspends-belo-suns-amazon-gold-project"
+  ],
+  "source_names": [
+    "AP",
+    "Mining.com.au"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#Amazonía",
+    "#Xingu",
+    "#Minería"
+  ],
+  "summary_es": "El tribunal citó fallas en las protecciones ambientales e indígenas del proyecto de Belo Sun en Pará.",
+  "summary_en": "The court cited gaps in environmental and Indigenous protections for Belo Sun's project in Pará.",
+  "highlight_es": "mina de oro",
+  "highlight_en": "Amazon gold mine",
+  "image_prompt": "Wide river winding through dense Amazon rainforest at dawn, rocky rapids and mist, a distant cleared hillside with idle earth-moving machinery at the forest edge, lush green canopy, wide cinematic aerial view",
+  "visual_label": "Río Xingú",
+  "map": {
+    "focus": [
+      "Brazil"
+    ],
+    "marker": {
+      "lat": -3.4,
+      "lon": -51.8,
+      "label": "Volta Grande"
+    },
+    "labels": {
+      "Brazil": "Brasil"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-23T16:04:27.891Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
