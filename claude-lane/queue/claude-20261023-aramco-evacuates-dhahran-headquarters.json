@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261023-aramco-evacuates-dhahran-headquarters",
+  "created_at": "2026-10-23T00:56:18Z",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi Aramco orders remaining staff to leave its Dhahran headquarters",
+  "headline_es": "Saudi Aramco ordena evacuar al personal restante de su sede en Dhahran",
+  "caption_es": "Saudi Aramco pidió a su personal restante abandonar su sede en Dhahran y trabajar a distancia hasta nuevo aviso, según fuentes citadas por Reuters y AFP. El edificio alberga un centro de operaciones que supervisa las instalaciones petroleras de la compañía y fue alcanzado por un ataque hutí a principios de este mes. Arabia Saudita ha respondido a los ataques con bombardeos contra objetivos hutíes.",
+  "caption_en": "Saudi Aramco told its remaining staff to leave its Dhahran headquarters and work remotely until further notice, sources told Reuters and AFP. The building houses an operations centre overseeing the company's oil facilities and was hit by a Houthi attack earlier this month. Saudi Arabia has responded to the attacks with air strikes on Houthi targets.",
+  "source_urls": [
+    "https://www.timeslive.co.za/news/world/2026-10-22-saudi-aramco-evacuates-dhahran-hq-after-houthi-attack-sources-say/",
+    "https://gulfnews.com/world/gulf/yemen/saudi-houthi-conflict-escalates-7-major-developments-and-what-comes-next-1.500720156"
+  ],
+  "source_names": [
+    "Reuters (via TimesLIVE)",
+    "Gulf News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Aramco",
+    "#ArabiaSaudita",
+    "#SaudiArabia",
+    "#Yemen"
+  ],
+  "summary_es": "Aramco envió a casa a todo el personal de su sede, que alberga su centro de operaciones y fue atacada por los hutíes este mes.",
+  "summary_en": "Aramco sent all remaining HQ staff home; the building houses its operations centre and was hit by the Houthis this month.",
+  "highlight_es": "Saudi Aramco",
+  "highlight_en": "Saudi Aramco",
+  "image_prompt": "Modern corporate office tower in a desert city at dusk with empty parking lots, distant oil refinery flare stacks on the horizon, wide cinematic view",
+  "visual_label": "Dhahran",
+  "map": {
+    "focus": [
+      "Saudi Arabia"
+    ],
+    "marker": {
+      "lat": 26.29,
+      "lon": 50.11,
+      "label": "Dhahran"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudita"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-23T19:50:22.347Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
