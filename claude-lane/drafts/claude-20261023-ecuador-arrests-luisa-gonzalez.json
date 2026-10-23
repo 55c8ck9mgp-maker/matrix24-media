@@ -1,0 +1,43 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-23T00:56:18Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261023-ecuador-arrests-luisa-gonzalez",
+  "category": "Colombia / Latin America",
+  "headline": "Ecuador arrests opposition leader Luisa González in money laundering probe",
+  "headline_es": "Ecuador detiene a la opositora Luisa González en una investigación por lavado de activos",
+  "caption_en": "Ecuadorian police arrested former presidential candidate Luisa González of the Citizen Revolution party on Thursday in a money laundering case known as Laberinto. Prosecutors are investigating the origin of about $500,000 that funded electoral advertising in 2023. González called the accusation absurd, and her party described the arrest as political persecution.",
+  "caption_es": "La policía de Ecuador detuvo el jueves a la excandidata presidencial Luisa González, del partido Revolución Ciudadana, en un caso de lavado de activos conocido como Laberinto. La Fiscalía investiga el origen de unos 500.000 dólares que financiaron publicidad electoral en 2023. González calificó la acusación de absurda y su partido describió la detención como persecución política.",
+  "source_urls": [
+    "https://es-us.noticias.yahoo.com/detienen-ecuador-excandidata-presidencial-izquierda-145855978.html",
+    "https://www.primicias.ec/politica/luisa-gonzalez-caso-laberinto-lavado-activos-correismo-formulacion-cargos-135523/"
+  ],
+  "source_names": [
+    "AFP (via Yahoo Noticias)",
+    "Primicias"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ecuador",
+    "#LuisaGonzalez",
+    "#CasoLaberinto"
+  ],
+  "summary_es": "La Fiscalía investiga unos 500.000 dólares usados en publicidad de la campaña de 2023; su partido denuncia persecución política.",
+  "summary_en": "Prosecutors are probing about $500,000 used for 2023 campaign ads; her party calls it political persecution.",
+  "highlight_es": "Luisa González",
+  "highlight_en": "Luisa González",
+  "visual_label": "Caso Laberinto",
+  "image_prompt": "Neoclassical government courthouse building in an Andean city at dusk, stone steps and columns, mountains in the background, wide cinematic view",
+  "map": {
+    "focus": [
+      "Ecuador"
+    ],
+    "labels": {
+      "Ecuador": "Ecuador"
+    }
+  }
+}

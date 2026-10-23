@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-23T00:56:18Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261023-tibet-earthquake-kills-16",
+  "category": "World",
+  "headline": "Magnitude 7.0 earthquake in China's Tibet kills at least 16",
+  "headline_es": "Un sismo de magnitud 7,0 en el Tíbet, China, deja al menos 16 muertos",
+  "caption_en": "A magnitude 7.0 earthquake struck a remote, high-altitude part of Nagqu in northern Tibet on Thursday night, killing at least 16 people and injuring dozens, Chinese state media said. At least 339 homes collapsed, according to local officials. Chinese state broadcaster CCTV called it the strongest quake in the region in five years.",
+  "caption_es": "Un terremoto de magnitud 7,0 sacudió el jueves por la noche una zona remota y de gran altitud de Nagqu, en el norte del Tíbet, y dejó al menos 16 muertos y decenas de heridos, según medios estatales chinos. Al menos 339 viviendas se derrumbaron, según autoridades locales. La televisión estatal CCTV lo calificó como el sismo más fuerte en la región en cinco años.",
+  "source_urls": [
+    "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/",
+    "https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584"
+  ],
+  "source_names": [
+    "CBS News",
+    "ABC News (Australia)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Tibet",
+    "#Earthquake",
+    "#Sismo",
+    "#China"
+  ],
+  "summary_es": "Medios estatales chinos reportan al menos 16 muertos, decenas de heridos y 339 casas derrumbadas en Nagqu.",
+  "summary_en": "Chinese state media report at least 16 dead, dozens injured and 339 homes collapsed in Nagqu.",
+  "highlight_es": "16 muertos",
+  "highlight_en": "kills at least 16",
+  "visual_label": "Sismo 7,0",
+  "image_prompt": "Remote high-altitude plateau village with damaged stone houses, snow-capped mountains behind, rescue tents and supply trucks on a dirt road, overcast sky, wide cinematic view",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "labels": {
+      "China": "China"
+    }
+  }
+}
