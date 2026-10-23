@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261023-messi-receives-princess-of-asturias-award",
+  "status": "draft",
+  "created_at": "2026-10-23T18:57:39Z",
+  "category": "Sports",
+  "headline": "Messi receives the Princess of Asturias Award for Sports in Oviedo",
+  "headline_es": "Messi recibe en Oviedo el Premio Princesa de Asturias de los Deportes",
+  "caption_en": "Lionel Messi received the 2026 Princess of Asturias Award for Sports from Princess Leonor on Friday at the Campoamor Theatre in Oviedo, Spain. He is the first footballer to win the award individually. The jury cited his record as football's most decorated player and his charity work for the education and health of vulnerable children.",
+  "caption_es": "Lionel Messi recibió este viernes de manos de la princesa Leonor el Premio Princesa de Asturias de los Deportes 2026 en el Teatro Campoamor de Oviedo, España. Es el primer futbolista que gana el galardón de forma individual. El jurado destacó que es el jugador con más títulos de la historia del fútbol y su labor solidaria por la educación y la salud de niños vulnerables.",
+  "source_urls": [
+    "https://www.goal.com/en-in/news/in-video-in-front-of-the-king-of-spain-lionel-messi-receives-the-princess-of-asturias-award-for-sport/blta25f6cb6befa9518",
+    "https://www.infobae.com/espana/deportes/2026/10/23/messi-recibio-el-premio-princesa-de-asturias-de-los-deportes-2026-de-manos-de-la-princesa-leonor/"
+  ],
+  "source_names": ["Goal", "Infobae"],
+  "hashtags": ["#MATRIX24", "#Messi", "#PremiosPrincesadeAsturias", "#Fútbol"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Messi es el primer futbolista que gana en solitario el Premio Princesa de Asturias de los Deportes, entregado en el Teatro Campoamor.",
+  "summary_en": "Messi is the first footballer to win the Princess of Asturias Award for Sports individually, presented at the Campoamor Theatre.",
+  "highlight_es": "Premio Princesa de Asturias",
+  "highlight_en": "Princess of Asturias Award",
+  "visual_label": "Oviedo",
+  "image_prompt": "Ornate historic theatre stage with red velvet curtains and warm spotlights, a gleaming trophy on a pedestal beside a football, wide cinematic view",
+  "map": {"focus": ["Spain"], "marker": {"lat": 43.36, "lon": -5.85, "label": "Oviedo"}, "labels": {"Spain": "España"}}
+}

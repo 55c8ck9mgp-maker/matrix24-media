@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261023-europe-summer-heat-deaths-50000",
+  "status": "draft",
+  "created_at": "2026-10-23T18:57:39Z",
+  "category": "Climate",
+  "headline": "Study estimates 50,000 heat deaths in European cities this summer",
+  "headline_es": "Un estudio estima 50.000 muertes por calor en ciudades europeas este verano",
+  "caption_en": "Researchers at Imperial College London and the London School of Hygiene & Tropical Medicine estimate that summer 2026 heatwaves caused about 50,000 excess deaths in European urban areas, with about two-thirds attributable to climate change. Italy, France and the UK were among the hardest-hit countries, and almost a third of the deaths came between June 17 and July 1. The figures are model estimates in two peer-reviewed papers.",
+  "caption_es": "Investigadores del Imperial College London y de la London School of Hygiene & Tropical Medicine estiman que las olas de calor del verano de 2026 causaron unas 50.000 muertes adicionales en zonas urbanas de Europa, cerca de dos tercios atribuibles al cambio climático. Italia, Francia y Reino Unido estuvieron entre los países más afectados, y casi un tercio de las muertes ocurrió entre el 17 de junio y el 1 de julio. Las cifras son estimaciones de modelos en dos estudios revisados por pares.",
+  "source_urls": [
+    "https://www.thenationalnews.com/news/europe/2026/10/23/europes-summer-heatwaves-caused-50000-excess-heat-deaths/",
+    "https://www.forbes.com/sites/jamiehailstone/2026/10/23/summer-heatwaves-linked-to-50000-deaths-in-europe-study-finds/"
+  ],
+  "source_names": ["The National", "Forbes"],
+  "hashtags": ["#MATRIX24", "#Clima", "#OlaDeCalor", "#Europa"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Unas 50.000 muertes urbanas por calor en Europa en el verano de 2026; dos tercios se atribuyen al cambio climático.",
+  "summary_en": "About 50,000 urban heat deaths in Europe in summer 2026; two-thirds are attributed to climate change.",
+  "highlight_es": "50.000 muertes por calor",
+  "highlight_en": "50,000 heat deaths",
+  "visual_label": "Ola de calor",
+  "image_prompt": "Empty sunbaked European city square at midday, shimmering heat haze over stone pavement, closed shutters and a street thermometer, harsh orange light, wide cinematic view",
+  "map": {"focus": ["Italy", "France"], "labels": {"Italy": "Italia", "France": "Francia"}}
+}
