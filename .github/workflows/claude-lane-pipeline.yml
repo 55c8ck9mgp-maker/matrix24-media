@@ -35,7 +35,11 @@ jobs:
           sudo apt-get install -y --no-install-recommends fonts-dejavu-core >/dev/null
           python3 -m pip install --quiet 'pillow==12.*'
       - name: Card v2 dependencies (HTML template, map, Chromium)
+        # Normally ~25 s. On 2026-10-22 22:50 UTC it took 9.5 min and the job
+        # timeout cancelled "Run lane" right after rendering. Cap it so a slow
+        # install falls back to the v1 card and never eats the publish budget.
         continue-on-error: true
+        timeout-minutes: 4
         run: |
           cd claude-lane/render && npm install --no-audit --no-fund --silent
           npx playwright install --with-deps chromium >/dev/null

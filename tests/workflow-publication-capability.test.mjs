@@ -48,6 +48,14 @@ test('Claude Lane pipeline is gated by the owner switch and the lane-only store'
   assert.match(wf, /node scripts\/claude-lane\/run-lane\.mjs/);
   assert.doesNotMatch(wf, /git push|git add|gh pr/);
   assert.doesNotMatch(wf, /secrets\.(IG_PUBLISH_TOKEN|IG_READ_TOKEN|METRICOOL)/);
+  // A slow optional install must fail open (v1 card) well before the job
+  // timeout, so it can never cut "Run lane" short (watchdog 2026-10-23).
+  const deps = wf.match(/- name: Card v2 dependencies[\s\S]*?\n      - name:/);
+  assert.ok(deps, 'Card v2 dependencies step present');
+  assert.match(deps[0], /continue-on-error: true/);
+  const stepTimeout = Number((deps[0].match(/timeout-minutes: (\d+)/) || [])[1]);
+  const jobTimeout = Number((wf.match(/\n    timeout-minutes: (\d+)/) || [])[1]);
+  assert.ok(stepTimeout > 0 && jobTimeout - stepTimeout >= 5, `deps ${stepTimeout} min, job ${jobTimeout} min`);
 });
 
 test('Claude Lane Facebook mirror is gated by both owner switches and the lane-only store', () => {
