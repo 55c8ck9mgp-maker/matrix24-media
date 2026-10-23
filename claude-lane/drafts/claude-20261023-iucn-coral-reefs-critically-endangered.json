@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-23T06:57:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261023-iucn-coral-reefs-critically-endangered",
+  "category": "Climate",
+  "headline": "IUCN rates 96% of the world's coral reef systems as critically endangered",
+  "headline_es": "La UICN declara en peligro crítico al 96% de los sistemas de arrecifes de coral",
+  "caption_en": "The International Union for Conservation of Nature classified 96% of the planet's coral reef systems as critically endangered, its highest risk category. The assessment of 127 systems, presented at the UN biodiversity summit COP17 in Yerevan, warns almost all shallow-water reefs face an extremely high risk of collapse by 2075. The Great Barrier Reef and the Red Sea reefs are among those listed.",
+  "caption_es": "La Unión Internacional para la Conservación de la Naturaleza clasificó al 96% de los sistemas de arrecifes de coral del planeta en peligro crítico, su categoría de mayor riesgo. La evaluación de 127 sistemas, presentada en la cumbre de biodiversidad de la ONU COP17 en Ereván, advierte que casi todos los arrecifes de aguas poco profundas enfrentan un riesgo extremadamente alto de colapso hacia 2075. La Gran Barrera de Coral y los arrecifes del mar Rojo figuran en la lista.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/22/almost-all-shallow-water-coral-reefs-now-face-extinction-risk-study-warns",
+    "https://www.arabnews.com/offbeat/nearly-all-coral-reefs-risk-collapse-in-50-years-iucn-3007777"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "AFP (via Arab News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CoralReefs",
+    "#Arrecifes",
+    "#COP17"
+  ],
+  "summary_es": "La evaluación de 127 sistemas advierte que casi todos los arrecifes poco profundos podrían colapsar hacia 2075.",
+  "summary_en": "The review of 127 systems warns nearly all shallow-water reefs could collapse by 2075.",
+  "highlight_es": "96%",
+  "highlight_en": "96%",
+  "visual_label": "Arrecifes",
+  "image_prompt": "Underwater view of a shallow tropical coral reef, half vibrant colorful corals and half pale bleached white corals, small fish swimming, sunlight rays through clear turquoise water, no text, wide cinematic view"
+}

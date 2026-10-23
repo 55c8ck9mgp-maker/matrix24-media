@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-23T06:57:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261023-venezuelans-protest-demanding-elections",
+  "category": "Colombia / Latin America",
+  "headline": "Venezuelans hold first nationwide opposition protest in nearly two years to demand elections",
+  "headline_es": "Venezolanos protestan en todo el país para exigir elecciones, por primera vez en casi dos años",
+  "caption_en": "Thousands of Venezuelans marched on Thursday in Caracas and cities including Valencia, Maracay, San Cristóbal and Maracaibo to demand elections. The protest was called by María Corina Machado's Vente Venezuela movement. Acting President Delcy Rodríguez has said elections will be held, but no date has been set, and security forces kept a minimal presence.",
+  "caption_es": "Miles de venezolanos marcharon el jueves en Caracas y en ciudades como Valencia, Maracay, San Cristóbal y Maracaibo para exigir elecciones. La protesta fue convocada por Vente Venezuela, el movimiento de María Corina Machado. La presidenta encargada Delcy Rodríguez ha dicho que habrá elecciones, pero aún no hay fecha, y las fuerzas de seguridad mantuvieron una presencia mínima.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/23/venezuelans-demand-elections-in-first-national-protest-in-nearly-two-years",
+    "https://www.trtworld.com/article/2351c1659d7e"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "TRT World"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Venezuela",
+    "#Elecciones",
+    "#Caracas"
+  ],
+  "summary_es": "Vente Venezuela, el movimiento de María Corina Machado, convocó marchas en varias ciudades; aún no hay fecha para votar.",
+  "summary_en": "Machado's Vente Venezuela called marches in several cities; no election date has been set yet.",
+  "highlight_es": "exigir elecciones",
+  "highlight_en": "demand elections",
+  "visual_label": "Caracas",
+  "image_prompt": "Wide avenue in a Latin American capital with green mountains behind, many people walking with blank white banners seen from far above, warm afternoon light, peaceful march atmosphere, no text, no flags, wide cinematic view",
+  "map": {
+    "focus": [
+      "Venezuela"
+    ],
+    "marker": {
+      "lat": 10.4806,
+      "lon": -66.9036,
+      "label": "Caracas"
+    },
+    "labels": {
+      "Venezuela": "Venezuela"
+    }
+  }
+}

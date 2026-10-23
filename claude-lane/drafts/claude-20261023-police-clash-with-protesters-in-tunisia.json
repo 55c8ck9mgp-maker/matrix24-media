@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-23T06:57:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261023-police-clash-with-protesters-in-tunisia",
+  "category": "World",
+  "headline": "Police fire tear gas at protesters near Tunis as unrest spreads in Tunisia",
+  "headline_es": "La policía lanza gases lacrimógenos contra manifestantes cerca de Túnez",
+  "caption_en": "Tunisian police used tear gas on Thursday against protesters who blocked roads and burned tyres in Ettadhamen, a suburb of the capital, after a man died following his detention. His family blamed police abuse; local media reported he died after swallowing drugs. Clashes also broke out in towns in Sfax governorate, amid anger over the economic crisis and public services.",
+  "caption_es": "La policía tunecina usó gases lacrimógenos el jueves contra manifestantes que bloquearon calles y quemaron neumáticos en Ettadhamen, un suburbio de la capital, tras la muerte de un hombre después de ser detenido. Su familia culpó a abusos policiales; medios locales informaron que murió tras tragar drogas. También hubo enfrentamientos en localidades de la gobernación de Sfax, en medio del enojo por la crisis económica y los servicios públicos.",
+  "source_urls": [
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/10/23/tunisian-police-clash-with-protesters-in-capital-on-day-of-heightened-tensions",
+    "https://www.aljazeera.com/news/2026/10/23/rare-unrest-flares-in-tunisian-capital-as-police-clash-with-protesters"
+  ],
+  "source_names": [
+    "Reuters (via Internazionale)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Tunisia",
+    "#Túnez",
+    "#Protestas"
+  ],
+  "summary_es": "La tensión crece contra el presidente Kais Saied; el sábado miles marcharon en Túnez en la mayor protesta en años.",
+  "summary_en": "Pressure is growing on President Kais Saied; thousands marched in Tunis on Saturday in the largest protest in years.",
+  "highlight_es": "gases lacrimógenos",
+  "highlight_en": "tear gas",
+  "visual_label": "Túnez",
+  "image_prompt": "Empty North African suburban street at dusk with whitewashed low buildings, a thin haze of white smoke drifting across the road, a burned-out tyre on the asphalt, streetlights coming on, no people, no text, wide cinematic view",
+  "map": {
+    "focus": [
+      "Tunisia"
+    ],
+    "marker": {
+      "lat": 36.8333,
+      "lon": 10.1167,
+      "label": "Ettadhamen"
+    },
+    "labels": {
+      "Tunisia": "Túnez"
+    }
+  }
+}
