@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261023-gunman-kills-one-near-paris",
+  "status": "draft",
+  "created_at": "2026-10-23T12:55:40Z",
+  "category": "World",
+  "headline": "Gunman firing from a car kills one and wounds four near Paris; anti-terror probe opened",
+  "headline_es": "Un hombre dispara desde un auto cerca de París: un muerto y cuatro heridos",
+  "caption_en": "A gunman firing from a car killed one person and wounded four in Trappes and La Verrière, west of Paris, on Friday, and a suspect was arrested. France's national anti-terrorism prosecutor took over the case and is examining whether the attack was racially motivated. The shooting comes as France braces for nationwide cost-of-living protests this weekend.",
+  "caption_es": "Un hombre que disparaba desde un auto mató a una persona e hirió a otras cuatro el viernes en Trappes y La Verrière, al oeste de París, y un sospechoso fue detenido. La Fiscalía Nacional Antiterrorista de Francia asumió el caso y examina si el ataque tuvo un móvil racista. El tiroteo ocurre mientras Francia se prepara para protestas nacionales contra el costo de vida este fin de semana.",
+  "source_urls": [
+    "https://www.cp24.com/news/world/2026/10/23/suspect-arrested-after-1-killed-and-several-wounded-in-a-shooting-in-paris-suburb/",
+    "https://www.brecorder.com/news/40445634/gunman-fires-from-car-near-paris-killing-1-police-arrest-suspect"
+  ],
+  "source_names": ["CP24 (AP)", "Business Recorder (Reuters)"],
+  "hashtags": ["#MATRIX24", "#Francia", "#France", "#Trappes", "#París"],
+  "summary_es": "Un sospechoso fue detenido. La Fiscalía Antiterrorista investiga si el ataque en Trappes tuvo un móvil racista.",
+  "summary_en": "A suspect is in custody. Anti-terror prosecutors are examining whether the Trappes attack was racially motivated.",
+  "highlight_es": "un muerto y cuatro heridos",
+  "highlight_en": "kills one and wounds four",
+  "visual_label": "Trappes",
+  "image_prompt": "Quiet suburban street at dusk with police tape across an empty road, parked cars and apartment blocks, blue emergency light reflections on wet asphalt, wide cinematic view",
+  "map": {
+    "focus": ["France"],
+    "marker": {"lat": 48.777, "lon": 2.003, "label": "Trappes"},
+    "labels": {"France": "Francia"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

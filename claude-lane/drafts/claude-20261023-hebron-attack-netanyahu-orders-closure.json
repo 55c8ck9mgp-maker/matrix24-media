@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261023-hebron-attack-netanyahu-orders-closure",
+  "status": "draft",
+  "created_at": "2026-10-23T12:55:40Z",
+  "category": "Security / Geopolitics",
+  "headline": "Two Israeli soldiers killed near Hebron; Netanyahu orders West Bank closure",
+  "headline_es": "Mueren dos soldados israelíes cerca de Hebrón; Netanyahu ordena cerrar Cisjordania",
+  "caption_en": "Two Israeli soldiers were killed on Friday morning in a shooting attack at a checkpoint near Hebron in the occupied West Bank, the Israeli military said. Troops killed the two Palestinian gunmen after a gunfight of about 20 minutes. Prime Minister Benjamin Netanyahu ordered Hebron sealed off and preparations for a full closure of the West Bank, days before Israel's election.",
+  "caption_es": "Dos soldados israelíes murieron el viernes por la mañana en un ataque a tiros en un puesto de control cerca de Hebrón, en la Cisjordania ocupada, según el ejército israelí. Las tropas mataron a los dos atacantes palestinos tras un tiroteo de unos 20 minutos. El primer ministro Benjamin Netanyahu ordenó cercar Hebrón y preparar un cierre total de Cisjordania, a pocos días de las elecciones en Israel.",
+  "source_urls": [
+    "https://www.timesofisrael.com/liveblog_entry/2-soldiers-killed-in-shooting-attack-at-west-bank-checkpoint-this-morning-idf-says",
+    "https://www.arabnews.com/middle-east/netanyahu-says-extensive-west-bank-military-operation-on-the-way-as-attack-kills-2-soldiers-3007835"
+  ],
+  "source_names": ["The Times of Israel", "Arab News (AFP)"],
+  "hashtags": ["#MATRIX24", "#Hebron", "#Cisjordania", "#WestBank", "#Israel"],
+  "summary_es": "Los dos atacantes murieron en un tiroteo de unos 20 minutos. Netanyahu ordenó cercar Hebrón y preparar el cierre de Cisjordania.",
+  "summary_en": "Both gunmen were killed in a gunfight lasting about 20 minutes. Netanyahu ordered Hebron sealed off and a West Bank closure prepared.",
+  "highlight_es": "cerrar Cisjordania",
+  "highlight_en": "West Bank closure",
+  "visual_label": "Hebrón",
+  "image_prompt": "Empty military checkpoint on a hilly desert road with concrete barriers and a watchtower, stone hillside town in the distance, dusty light, wide cinematic view",
+  "map": {
+    "focus": ["Palestine", "Israel"],
+    "marker": {"lat": 31.53, "lon": 35.1, "label": "Hebrón"},
+    "labels": {"Palestine": "Palestina", "Israel": "Israel"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

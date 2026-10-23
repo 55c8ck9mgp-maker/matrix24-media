@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261023-europe-mideast-ministers-meet-istanbul",
+  "status": "draft",
+  "created_at": "2026-10-23T12:55:40Z",
+  "category": "Security / Geopolitics",
+  "headline": "European and Middle Eastern ministers hold first-ever joint talks in Istanbul on Hormuz",
+  "headline_es": "Ministros europeos y de Oriente Medio celebran su primera reunión conjunta en Estambul",
+  "caption_en": "Foreign ministers from Britain, France, Germany and Italy met counterparts from Turkey, Saudi Arabia, Pakistan and Egypt in Istanbul on Friday, the first meeting in this format, hosted by Turkey's Hakan Fidan. The agenda includes freedom of navigation in the Strait of Hormuz, Houthi attacks on Saudi Arabia, the US-Iran war and the war in Ukraine.",
+  "caption_es": "Los cancilleres de Reino Unido, Francia, Alemania e Italia se reunieron el viernes en Estambul con sus homólogos de Turquía, Arabia Saudí, Pakistán y Egipto, en el primer encuentro de este formato, organizado por el turco Hakan Fidan. La agenda incluye la libertad de navegación en el estrecho de Ormuz, los ataques hutíes contra Arabia Saudí, la guerra entre EE. UU. e Irán y la guerra en Ucrania.",
+  "source_urls": [
+    "https://www.dawn.com/news/2039222/dpm-dar-meets-turkish-fm-ahead-of-r-4-bloc-european-diplomats-meetings",
+    "https://www.turkishminute.com/2026/10/23/european-mideast-foreign-ministers-discuss-regional-crises-in-istanbul/"
+  ],
+  "source_names": ["Dawn", "Turkish Minute (AFP)"],
+  "hashtags": ["#MATRIX24", "#Estambul", "#Istanbul", "#Ormuz", "#Diplomacia"],
+  "summary_es": "Reino Unido, Francia, Alemania e Italia se sientan con Turquía, Arabia Saudí, Pakistán y Egipto para hablar de Ormuz, Yemen y Ucrania.",
+  "summary_en": "Britain, France, Germany and Italy sit down with Turkey, Saudi Arabia, Pakistan and Egypt to discuss Hormuz, Yemen and Ukraine.",
+  "highlight_es": "primera reunión conjunta",
+  "highlight_en": "first-ever joint talks",
+  "visual_label": "Estambul",
+  "image_prompt": "Long diplomatic conference table with empty chairs and microphones in a grand hall overlooking the Bosphorus strait, cargo ships on the water at sunset, wide cinematic view",
+  "map": {
+    "focus": ["Turkey"],
+    "marker": {"lat": 41.01, "lon": 28.98, "label": "Estambul"},
+    "labels": {"Turkey": "Turquía"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
