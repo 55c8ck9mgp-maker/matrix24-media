@@ -41,10 +41,10 @@
       "Saudi Arabia": "Arabia Saudita"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261023-aramco-evacuates-dhahran-headquarters.jpg",
   "publish_attempt_id": "39992ea4-7b7a-4772-88b1-b2da02cc2402",
-  "ig_media_id": null,
+  "ig_media_id": "18109433411520951",
   "history": [
     {
       "at": "2026-10-23T19:50:22.347Z",
@@ -60,8 +60,15 @@
       "at": "2026-10-23T19:51:03.585Z",
       "event": "reserved",
       "publish_attempt_id": "39992ea4-7b7a-4772-88b1-b2da02cc2402"
+    },
+    {
+      "at": "2026-10-23T19:51:35.001Z",
+      "event": "published",
+      "publish_attempt_id": "39992ea4-7b7a-4772-88b1-b2da02cc2402",
+      "ig_media_id": "18109433411520951"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-23T19:51:03.585Z"
+  "reserved_at": "2026-10-23T19:51:03.585Z",
+  "permalink": "https://www.instagram.com/p/De2WYmFlPj1/"
 }
