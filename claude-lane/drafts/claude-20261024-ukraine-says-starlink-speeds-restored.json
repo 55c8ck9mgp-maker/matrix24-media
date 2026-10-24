@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-ukraine-says-starlink-speeds-restored",
+  "status": "draft",
+  "created_at": "2026-10-24T18:51:33Z",
+  "category": "Security / Geopolitics",
+  "headline": "Ukraine says Starlink and Starshield speeds are back to normal after a week of limits",
+  "headline_es": "Ucrania afirma que Starlink y Starshield recuperan su velocidad tras una semana de límites",
+  "caption_en": "Ukraine's Defence Ministry said on Saturday that Starlink and Starshield satellite service has returned to normal speeds after more than a week of restrictions that hampered military operations, including drone use. The ministry said connectivity is stable at speeds above 400 km/h. The Trump administration has denied ordering the slowdown, while Elon Musk has said the US government controls Starshield limits.",
+  "caption_es": "El Ministerio de Defensa de Ucrania informó el sábado que el servicio satelital de Starlink y Starshield volvió a su velocidad normal tras más de una semana de restricciones que dificultaron operaciones militares, incluido el uso de drones. El ministerio dijo que la conexión es estable a velocidades superiores a 400 km/h. El gobierno de Trump negó haber ordenado la ralentización, mientras Elon Musk afirmó que los límites de Starshield los controla el gobierno de EE. UU.",
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-10-25/ukraine-says-starlink-operating-normal-speed/107305276",
+    "https://abcnews.com/International/ukraine-starlink-satellite-access-fully-back-after-weeklong/story?id=137538401"
+  ],
+  "source_names": [
+    "Reuters (via ABC Australia)",
+    "ABC News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Starlink"
+  ],
+  "summary_es": "Kiev dice que la conexión satelital vuelve a ser estable tras restricciones que afectaron a sus drones y comunicaciones militares.",
+  "summary_en": "Kyiv says satellite links are stable again after restrictions that disrupted its drones and military communications.",
+  "highlight_es": "Starlink y Starshield",
+  "highlight_en": "Starlink and Starshield",
+  "visual_label": "Starlink",
+  "image_prompt": "Small flat satellite internet dish on a muddy field at dusk, constellation of satellites streaking across a dark blue sky, distant tree line, wide cinematic view",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 50.45,
+      "lon": 30.52,
+      "label": "Kiev"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
