@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261023-kirchner-hotesur-los-sauces-trial-opens",
+  "created_at": "2026-10-23T18:57:39Z",
+  "category": "Colombia / Latin America",
+  "headline": "Corruption trial of Cristina and Máximo Kirchner opens in Argentina",
+  "headline_es": "Arranca en Argentina el juicio por corrupción contra Cristina y Máximo Kirchner",
+  "caption_es": "El Tribunal Oral Federal N° 5 de Argentina abrió este viernes en Buenos Aires el juicio unificado por las causas Hotesur y Los Sauces, con la expresidenta Cristina Kirchner y su hijo, el diputado Máximo Kirchner, entre los acusados. El tribunal permitió que los imputados siguieran de forma virtual la primera etapa, la lectura de las acusaciones, aunque una jueza votó en contra. Las causas investigan presunta corrupción vinculada a los gobiernos kirchneristas.",
+  "caption_en": "Argentina's Federal Oral Court No. 5 opened the joint trial in the Hotesur and Los Sauces cases on Friday in Buenos Aires, with former president Cristina Kirchner and her son, lawmaker Máximo Kirchner, among the defendants. The court allowed defendants to follow the first stage, the reading of the charges, remotely, though one judge dissented. The cases investigate alleged corruption tied to the Kirchner governments.",
+  "source_urls": [
+    "https://www.lanacion.com.ar/politica/juicio-a-cristina-kirchner-en-vivo-arranca-el-proceso-por-hotesur-y-los-sauces-donde-investigan-la-nid23102026/",
+    "https://www.rionegro.com.ar/justicia/hotesur-y-los-sauces-comienza-el-juicio-oral-que-tiene-a-cristina-y-maximo-kirchner-entre-los-acusados-4769590/"
+  ],
+  "source_names": [
+    "La Nación",
+    "Diario Río Negro"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Argentina",
+    "#Kirchner",
+    "#Justicia"
+  ],
+  "summary_es": "Cristina y Máximo Kirchner están entre los acusados del juicio por Hotesur y Los Sauces, que comenzó este viernes en Buenos Aires.",
+  "summary_en": "Cristina and Máximo Kirchner are among the defendants in the Hotesur and Los Sauces trial, which opened Friday in Buenos Aires.",
+  "highlight_es": "juicio por corrupción",
+  "highlight_en": "Corruption trial",
+  "image_prompt": "Empty wood-panelled federal courtroom with judges' bench, microphones and stacks of case files, soft daylight through tall windows, wide cinematic view",
+  "visual_label": "Comodoro Py",
+  "map": {
+    "focus": [
+      "Argentina"
+    ],
+    "marker": {
+      "lat": -34.59,
+      "lon": -58.37,
+      "label": "Buenos Aires"
+    },
+    "labels": {
+      "Argentina": "Argentina"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-24T18:25:31.806Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
