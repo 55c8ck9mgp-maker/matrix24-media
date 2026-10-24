@@ -1,0 +1,40 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261023-ai-spending-fears-sink-nasdaq",
+  "created_at": "2026-10-23T06:57:00Z",
+  "category": "Economy",
+  "headline": "Nasdaq falls 2.6%, its steepest drop since June, as AI spending fears hit tech stocks",
+  "headline_es": "El Nasdaq cae un 2,6%, su mayor caída desde junio, por temores sobre el gasto en IA",
+  "caption_es": "El índice Nasdaq Composite cayó un 2,6% el jueves, su mayor caída diaria desde junio, y el S&P 500 perdió un 1,2% ante la preocupación de los inversores por el fuerte gasto en inteligencia artificial. Las acciones de Meta bajaron cerca de un 7% tras anticipar mayores costos ligados a la IA, mientras los fabricantes de chips Intel y AMD retrocedieron alrededor de un 8%. El petróleo también subió a su nivel más alto desde mayo.",
+  "caption_en": "The Nasdaq Composite fell 2.6% on Thursday, its biggest daily drop since June, and the S&P 500 lost 1.2% as investors worried about heavy AI spending. Meta shares fell about 7% after it signaled higher AI-related costs, while chipmakers Intel and AMD dropped around 8%. Oil prices also climbed to their highest level since May.",
+  "source_urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-drop-over-1-093849296.html",
+    "https://www.aljazeera.com/economy/2026/10/23/us-tech-stocks-tumble-as-investors-fret-over-ai-spending"
+  ],
+  "source_names": [
+    "Reuters (via Yahoo Finance)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#WallStreet",
+    "#Nasdaq",
+    "#IA"
+  ],
+  "summary_es": "Meta bajó cerca de un 7% y los fabricantes de chips Intel y AMD alrededor de un 8%; el S&P 500 perdió un 1,2%.",
+  "summary_en": "Meta fell about 7% and chipmakers Intel and AMD around 8%; the S&P 500 lost 1.2%.",
+  "highlight_es": "Nasdaq cae un 2,6%",
+  "highlight_en": "Nasdaq falls 2.6%",
+  "image_prompt": "Trading floor screens glowing with red downward stock charts in a dim room, rows of empty desks and monitors, server racks reflected in glass, moody blue and red light, no text, no logos, wide cinematic view",
+  "visual_label": "Wall Street",
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-24T02:12:55.596Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
