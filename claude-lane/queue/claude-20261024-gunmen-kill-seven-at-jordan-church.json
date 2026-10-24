@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-gunmen-kill-seven-at-jordan-church",
+  "created_at": "2026-10-24T00:58:06Z",
+  "category": "World",
+  "headline": "Gunmen kill seven at a church funeral in southern Jordan",
+  "headline_es": "Hombres armados matan a siete personas en un funeral en una iglesia de Jordania",
+  "caption_es": "Hombres armados abrieron fuego el viernes durante un funeral en una iglesia ortodoxa griega en la aldea de Hammoud, en la gobernación de Karak, al sur de Jordania, y mataron al menos a siete personas e hirieron a 34. El rey Abdalá II lo calificó de ataque terrorista y prometió la represalia más dura, mientras las autoridades buscan a los atacantes.",
+  "caption_en": "Gunmen opened fire during a funeral at a Greek Orthodox church in the village of Hammoud, in Jordan's southern Karak governorate, on Friday, killing at least seven people and wounding 34. King Abdullah II called it a terrorist attack and vowed the harshest retaliation, while authorities said a search for the attackers was under way.",
+  "source_urls": [
+    "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
+    "https://www.ctvnews.ca/world/article/7-killed-40-wounded-in-jordan-church-shooting/",
+    "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism"
+  ],
+  "source_names": [
+    "CBS News (AFP)",
+    "CTV News (AP)",
+    "Fox News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Jordania",
+    "#Jordan",
+    "#Karak"
+  ],
+  "summary_es": "El ataque ocurrió durante un cortejo fúnebre en una iglesia ortodoxa griega. El rey Abdalá II prometió la represalia más dura.",
+  "summary_en": "The attack hit a funeral procession at a Greek Orthodox church. King Abdullah II vowed the harshest retaliation.",
+  "highlight_es": "matan a siete personas",
+  "highlight_en": "kill seven",
+  "image_prompt": "Old stone church with a bell tower on a rocky hillside in a quiet desert village at dusk, empty courtyard, candles at the entrance, somber muted light, wide cinematic view",
+  "visual_label": "Karak",
+  "map": {
+    "focus": [
+      "Jordan"
+    ],
+    "marker": {
+      "lat": 31.18,
+      "lon": 35.7,
+      "label": "Karak"
+    },
+    "labels": {
+      "Jordan": "Jordania"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-24T22:03:32.107Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
