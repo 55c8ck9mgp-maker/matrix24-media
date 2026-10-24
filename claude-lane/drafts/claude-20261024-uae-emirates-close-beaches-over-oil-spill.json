@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-uae-emirates-close-beaches-over-oil-spill",
+  "status": "draft",
+  "created_at": "2026-10-24T12:51:43Z",
+  "category": "Climate",
+  "headline": "UAE's Ras Al Khaimah closes all beaches as an offshore tanker oil spill spreads",
+  "headline_es": "Ras Al Khaimah, en EAU, cierra todas sus playas por un derrame de petróleo",
+  "caption_en": "Ras Al Khaimah in the United Arab Emirates closed all its beaches until further notice on Saturday, a day after an oil leak from a tanker offshore forced closures in Umm Al Quwain and at Sharjah's Al Hamriyah beach. The UAE environment ministry is assessing the damage and has urged fishermen and other sea users to avoid affected areas. Authorities have not named the vessel.",
+  "caption_es": "Ras Al Khaimah, en los Emiratos Árabes Unidos, cerró el sábado todas sus playas hasta nuevo aviso, un día después de que una fuga de petróleo de un buque cisterna frente a la costa obligara a cerrar playas en Umm Al Quwain y la playa de Al Hamriyah, en Sharjah. El Ministerio de Medio Ambiente evalúa los daños y pidió a pescadores y demás usuarios del mar evitar las zonas afectadas. Las autoridades no han identificado el buque.",
+  "source_urls": [
+    "https://www.dawn.com/news/2039491/uaes-ras-al-khaimah-shuts-all-beaches-as-neighbours-grapple-with-oil-spill",
+    "https://www.thenationalnews.com/news/uae/2026/10/24/uae-oil-spill-ras-al-khaimah-closes-all-beaches-until-further-notice/"
+  ],
+  "source_names": [
+    "Dawn (Reuters)",
+    "The National"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#EAU",
+    "#UAE",
+    "#OilSpill",
+    "#MedioAmbiente"
+  ],
+  "summary_es": "Tras Umm Al Quwain y Sharjah, Ras Al Khaimah cerró sus playas por una fuga de un petrolero en alta mar. El Gobierno evalúa el impacto ambiental.",
+  "summary_en": "After Umm Al Quwain and Sharjah, Ras Al Khaimah shut its beaches over a leak from an offshore tanker. Officials are assessing the environmental impact.",
+  "highlight_es": "derrame de petróleo",
+  "highlight_en": "oil spill",
+  "visual_label": "Golfo",
+  "image_prompt": "Empty sandy beach on a calm turquoise sea with a dark oily sheen near the shoreline, a large oil tanker on the distant horizon, orange barrier tape on posts in the sand, hazy daylight, wide cinematic view",
+  "map": {
+    "focus": [
+      "United Arab Emirates"
+    ],
+    "marker": {
+      "lat": 25.79,
+      "lon": 55.94,
+      "label": "Ras Al Khaimah"
+    },
+    "labels": {
+      "United Arab Emirates": "Emiratos Árabes Unidos"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
