@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-kim-jong-un-arrives-in-china",
+  "status": "draft",
+  "created_at": "2026-10-24T06:51:52Z",
+  "category": "Security / Geopolitics",
+  "headline": "North Korea's Kim Jong Un arrives in China's Dandong across new Yalu bridge",
+  "headline_es": "Kim Jong Un llega a Dandong, en China, por el nuevo puente sobre el río Yalu",
+  "caption_en": "North Korean leader Kim Jong Un arrived on Saturday in the Chinese border city of Dandong, crossing the newly opened bridge over the Yalu River, South Korean media reported citing a government source in Seoul. The purpose of the visit and any planned meetings were not immediately disclosed.",
+  "caption_es": "El líder norcoreano Kim Jong Un llegó el sábado a la ciudad fronteriza china de Dandong cruzando el nuevo puente sobre el río Yalu, según medios surcoreanos que citan a una fuente del Gobierno en Seúl. Por ahora no se ha informado del propósito de la visita ni de posibles reuniones.",
+  "source_urls": [
+    "https://theprint.in/world/north-koreas-kim-jong-un-arrives-in-dandong-china-yonhap-says/3080331/",
+    "https://news.sbs.co.kr/english/article.do?news_id=N1008813115"
+  ],
+  "source_names": [
+    "ThePrint (Reuters)",
+    "SBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CoreaDelNorte",
+    "#NorthKorea",
+    "#China"
+  ],
+  "summary_es": "Kim cruzó a China por el nuevo paso fronterizo de Dandong. No se informó del objetivo de la visita.",
+  "summary_en": "Kim crossed into China via the new Dandong border bridge. The purpose of the trip was not disclosed.",
+  "highlight_es": "llega a Dandong",
+  "highlight_en": "arrives in China's Dandong",
+  "visual_label": "Río Yalu",
+  "image_prompt": "Long modern cable-stayed bridge spanning a wide river at dawn, a dark green passenger train crossing it, misty hills on both banks, wide cinematic view",
+  "map": {
+    "focus": [
+      "China",
+      "North Korea"
+    ],
+    "marker": {
+      "lat": 40.13,
+      "lon": 124.39,
+      "label": "Dandong"
+    },
+    "labels": {
+      "China": "China",
+      "North Korea": "Corea del Norte"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

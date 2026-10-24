@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-brewers-beat-rays-world-series-game-1",
+  "status": "draft",
+  "created_at": "2026-10-24T06:51:52Z",
+  "category": "Sports",
+  "headline": "Brewers edge Rays 3-2 in Game 1 of the World Series",
+  "headline_es": "Los Brewers vencen 3-2 a los Rays en el primer juego de la Serie Mundial",
+  "caption_en": "The Milwaukee Brewers beat the Tampa Bay Rays 3-2 in Milwaukee on Friday to take a 1-0 lead in the World Series. Jacob Misiorowski started for Milwaukee, and in the ninth inning an apparent game-ending double play was overturned on video review before the Brewers closed out the win.",
+  "caption_es": "Los Milwaukee Brewers vencieron 3-2 a los Tampa Bay Rays el viernes en Milwaukee y toman ventaja de 1-0 en la Serie Mundial. Jacob Misiorowski abrió el juego por Milwaukee y, en la novena entrada, una aparente doble matanza que cerraba el partido fue anulada tras revisión de video, antes de que los Brewers sellaran la victoria.",
+  "source_urls": [
+    "https://abcnews.com/Sports/wireStory/brewers-withstand-rays-comeback-attempt-win-3-2-137531068",
+    "https://www.wisn.com/article/world-series-game-1-brewers-win/74235496"
+  ],
+  "source_names": [
+    "ABC News (AP)",
+    "WISN 12 News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#WorldSeries",
+    "#SerieMundial",
+    "#MLB"
+  ],
+  "summary_es": "Milwaukee toma ventaja de 1-0 en la serie tras resistir una reacción tardía de Tampa Bay.",
+  "summary_en": "Milwaukee leads the series 1-0 after holding off a late Tampa Bay rally.",
+  "highlight_es": "vencen 3-2",
+  "highlight_en": "edge Rays 3-2",
+  "visual_label": "Serie Mundial",
+  "image_prompt": "Packed baseball stadium at night under bright floodlights, green infield and dirt base paths seen from high above home plate, scoreboard glow, wide cinematic view",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 43.028,
+      "lon": -87.971,
+      "label": "Milwaukee"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

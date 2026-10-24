@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-blackout-hits-occupied-crimea",
+  "status": "draft",
+  "created_at": "2026-10-24T06:51:52Z",
+  "category": "Security / Geopolitics",
+  "headline": "Widespread blackout hits Russian-occupied Crimea after reported attack on power grid",
+  "headline_es": "Un apagón masivo golpea Crimea ocupada tras un ataque contra la red eléctrica",
+  "caption_en": "Power went out overnight into Saturday across Russian-occupied Crimea, including Sevastopol, Simferopol, Yalta, Feodosia, Yevpatoria and Alushta. Sevastopol's Russian-installed governor Mikhail Razvozhayev blamed damage to energy infrastructure outside the city and said critical facilities switched to backup power. Ukrainian outlets linked the outages to drone strikes on substations.",
+  "caption_es": "La electricidad se cortó durante la madrugada del sábado en gran parte de Crimea ocupada por Rusia, incluidas Sebastopol, Simferópol, Yalta, Feodosia, Eupatoria y Alushta. El gobernador de Sebastopol designado por Moscú, Mijaíl Razvozháyev, lo atribuyó a daños en la infraestructura energética fuera de la ciudad y dijo que los servicios críticos pasaron a energía de respaldo. Medios ucranianos vincularon los cortes a ataques con drones contra subestaciones.",
+  "source_urls": [
+    "https://www.kyivpost.com/post/88036",
+    "https://ua.news/en/all-news/masshtabnii-blekaut-okhopiv-okupovanii-krim"
+  ],
+  "source_names": [
+    "Kyiv Post",
+    "UA.News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Crimea",
+    "#Ucrania",
+    "#Ukraine"
+  ],
+  "summary_es": "Las principales ciudades de la península quedaron a oscuras. Los servicios esenciales funcionan con generadores de respaldo.",
+  "summary_en": "Major cities across the peninsula went dark. Essential services switched to backup power.",
+  "highlight_es": "apagón masivo",
+  "highlight_en": "Widespread blackout",
+  "visual_label": "Crimea",
+  "image_prompt": "Coastal city skyline at night almost completely dark, only a few scattered lights, high-voltage power lines and a substation silhouetted in the foreground, calm black sea, wide cinematic view",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 44.95,
+      "lon": 34.1,
+      "label": "Crimea"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

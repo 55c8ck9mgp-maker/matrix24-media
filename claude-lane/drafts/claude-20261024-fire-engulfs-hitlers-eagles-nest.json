@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-fire-engulfs-hitlers-eagles-nest",
+  "status": "draft",
+  "created_at": "2026-10-24T06:51:52Z",
+  "category": "World",
+  "headline": "Fire engulfs the Eagle's Nest, the Nazi-era mountain retreat in Bavaria",
+  "headline_es": "Un incendio arrasa el Nido del Águila, el refugio nazi en los Alpes de Baviera",
+  "caption_en": "A fire broke out on Friday night at the Kehlsteinhaus, the mountain guest house near Berchtesgaden known as the Eagle's Nest, and about 200 firefighters and emergency workers battled the blaze. Police said they detained a suspect near the scene and are investigating whether the person is linked to the fire. The building, completed in 1938 for Nazi officials, is protected as a historical monument.",
+  "caption_es": "Un incendio se declaró el viernes por la noche en el Kehlsteinhaus, la casa de montaña cerca de Berchtesgaden conocida como el Nido del Águila, y unos 200 bomberos y equipos de emergencia combatieron las llamas. La policía detuvo a un sospechoso cerca del lugar e investiga si tiene relación con el fuego. El edificio, terminado en 1938 para jerarcas nazis, está protegido como monumento histórico.",
+  "source_urls": [
+    "https://www.rte.ie/news/world/2026/1024/1596690-fire-engulfs-eagles-nest-hitlers-mountain-retreat/",
+    "https://www.berliner-zeitung.de/article/kehlsteinhaus-berchtesgaden-brand-festnahme-10525875",
+    "https://www.20min.ch/story/obersalzberg-bayern-verdacht-auf-brandstiftung-grossbrand-in-hitlers-teehaus-103654913"
+  ],
+  "source_names": [
+    "RTÉ (Reuters)",
+    "Berliner Zeitung",
+    "20 Minuten (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Alemania",
+    "#Germany",
+    "#Baviera"
+  ],
+  "summary_es": "Unos 200 bomberos lucharon contra las llamas en la montaña. La policía detuvo a un sospechoso e investiga si está vinculado al incendio.",
+  "summary_en": "About 200 firefighters battled the blaze on the mountain. Police detained a suspect and are checking for a link to the fire.",
+  "highlight_es": "Nido del Águila",
+  "highlight_en": "Eagle's Nest",
+  "visual_label": "Kehlstein",
+  "image_prompt": "Stone mountain chalet on a rocky Alpine summit at night, orange glow and thick smoke rising against dark peaks, fire engines with flashing lights on a winding mountain road below, wide cinematic view",
+  "map": {
+    "focus": [
+      "Germany"
+    ],
+    "marker": {
+      "lat": 47.611,
+      "lon": 13.042,
+      "label": "Berchtesgaden"
+    },
+    "labels": {
+      "Germany": "Alemania"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
