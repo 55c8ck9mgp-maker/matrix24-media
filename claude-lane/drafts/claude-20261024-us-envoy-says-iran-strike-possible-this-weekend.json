@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-us-envoy-says-iran-strike-possible-this-weekend",
+  "status": "draft",
+  "created_at": "2026-10-24T00:58:06Z",
+  "category": "Security / Geopolitics",
+  "headline": "US envoy says an Iran strike could come this weekend; Trump says he knows nothing about it",
+  "headline_es": "Enviado de EE.UU. dice que un ataque a Irán podría llegar este fin de semana; Trump lo desconoce",
+  "caption_en": "Tom Barrack, the US ambassador to Turkey, said in an interview with podcaster Mario Nawfal that a US strike on Iran could 'absolutely' happen this weekend, adding that President Trump wants a deal and that the outcome would not be regime change. Asked about the remarks on Friday, Trump said he did not know anything about it.",
+  "caption_es": "Tom Barrack, embajador de EE.UU. en Turquía, dijo en una entrevista con el podcaster Mario Nawfal que un ataque estadounidense contra Irán 'absolutamente' podría ocurrir este fin de semana, y añadió que el presidente Trump quiere un acuerdo y que el resultado no sería un cambio de régimen. Consultado el viernes sobre esas declaraciones, Trump dijo que no sabía nada al respecto.",
+  "source_urls": [
+    "https://www.arabnews.com/middle-east/us-could-strike-iran-this-weekend-envoy-says-3007955",
+    "https://www.timesofisrael.com/liveblog_entry/us-envoy-there-absolutely-could-be-a-us-strike-on-iran-this-weekend"
+  ],
+  "source_names": ["Arab News (AFP)", "The Times of Israel"],
+  "hashtags": ["#MATRIX24", "#Irán", "#Iran", "#EEUU"],
+  "summary_es": "Barrack afirmó que Trump está abierto a un acuerdo y que no se busca derrocar al gobierno iraní. Trump se desmarcó de sus palabras.",
+  "summary_en": "Barrack said Trump is open to a deal and the US is not seeking to topple Iran's government. Trump distanced himself from the remarks.",
+  "highlight_es": "ataque a Irán",
+  "highlight_en": "Iran strike",
+  "visual_label": "Irán",
+  "image_prompt": "Aircraft carrier at sea under a hazy orange sky, fighter jets parked on deck, calm grey water stretching to the horizon, wide cinematic view",
+  "map": {
+    "focus": ["Iran"],
+    "labels": {"Iran": "Irán"}
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
