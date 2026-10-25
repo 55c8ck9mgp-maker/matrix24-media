@@ -40,9 +40,9 @@
       "Israel": "Israel"
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261024-tel-aviv-rally-october-7-inquiry.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "c7b42096-9854-4051-a5c0-f5432ad3d8fa",
   "ig_media_id": null,
   "history": [
     {
@@ -54,7 +54,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-10-25T18:36:25.340Z",
+      "event": "reserved",
+      "publish_attempt_id": "c7b42096-9854-4051-a5c0-f5432ad3d8fa"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-10-25T18:36:25.340Z"
 }
