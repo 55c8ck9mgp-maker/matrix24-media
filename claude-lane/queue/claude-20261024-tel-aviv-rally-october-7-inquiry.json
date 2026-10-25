@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-tel-aviv-rally-october-7-inquiry",
+  "created_at": "2026-10-24T18:51:33Z",
+  "category": "World",
+  "headline": "Thousands rally in Tel Aviv for an October 7 state inquiry three days before Israel's election",
+  "headline_es": "Miles marchan en Tel Aviv por una comisión estatal sobre el 7 de octubre antes de las elecciones",
+  "caption_es": "Miles de israelíes se manifestaron el sábado en Tel Aviv, tres días antes de las elecciones generales del martes, para exigir una comisión estatal independiente que investigue los fallos en torno al ataque de Hamás del 7 de octubre de 2023. La marcha fue organizada por el Consejo de Octubre, que reúne a familias en duelo, exrehenes y sobrevivientes. El gobierno se ha negado a crear una investigación independiente de ese tipo.",
+  "caption_en": "Thousands of Israelis rallied in Tel Aviv on Saturday, three days before Tuesday's general election, demanding an independent state commission of inquiry into the failures around the October 7, 2023 Hamas attack. The rally was organised by the October Council, a group of bereaved families, former hostages and survivors. The government has refused to set up such an independent inquiry.",
+  "source_urls": [
+    "https://www.arabnews.com/middle-east/thousands-rally-in-tel-aviv-against-netanyahu-ahead-of-vote-3008084",
+    "https://www.ynetnews.com/article/bjcx8w5hge"
+  ],
+  "source_names": [
+    "AFP (via Arab News)",
+    "Ynetnews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Israel",
+    "#TelAviv",
+    "#Elecciones"
+  ],
+  "summary_es": "Familias de víctimas y exrehenes exigen una investigación independiente sobre el 7 de octubre a días de la votación.",
+  "summary_en": "Bereaved families and former hostages demand an independent October 7 inquiry days before the vote.",
+  "highlight_es": "Tel Aviv",
+  "highlight_en": "Tel Aviv",
+  "image_prompt": "Large city square at night filled with glowing candles and blank placards seen from above, modern high-rise towers in the background, soft blue evening light, wide cinematic view, no text",
+  "visual_label": "Tel Aviv",
+  "map": {
+    "focus": [
+      "Israel"
+    ],
+    "marker": {
+      "lat": 32.08,
+      "lon": 34.78,
+      "label": "Tel Aviv"
+    },
+    "labels": {
+      "Israel": "Israel"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-25T18:35:46.602Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
