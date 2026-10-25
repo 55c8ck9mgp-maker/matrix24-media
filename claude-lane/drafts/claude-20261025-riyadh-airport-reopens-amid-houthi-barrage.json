@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-25T12:57:08Z",
+  "content_id": "claude-20261025-riyadh-airport-reopens-amid-houthi-barrage",
+  "category": "Security / Geopolitics",
+  "headline": "Riyadh airport reopens two terminals as Saudi Arabia downs 10 Houthi missiles",
+  "headline_es": "El aeropuerto de Riad reabre dos terminales mientras Arabia Saudita derriba 10 misiles hutíes",
+  "caption_en": "Saudi air defenses intercepted 10 ballistic missiles fired by Yemen's Houthis toward the kingdom's south on Sunday, along with a drone aimed at Riyadh. The same day, terminals 1 and 2 of Riyadh's King Khalid International Airport reopened, weeks after a Houthi missile attack forced its closure. Danger alerts issued in several regions were later lifted.",
+  "caption_es": "Las defensas aéreas saudíes interceptaron el domingo 10 misiles balísticos lanzados por los hutíes de Yemen hacia el sur del reino, además de un dron dirigido a Riad. Ese mismo día reabrieron las terminales 1 y 2 del Aeropuerto Internacional Rey Khalid de Riad, semanas después de que un ataque hutí con misiles obligara a cerrarlo. Las alertas emitidas en varias regiones se levantaron después.",
+  "source_urls": [
+    "https://www.thenationalnews.com/news/gulf/2026/10/25/saudi-arabia-intercepts-barrage-of-houthi-missiles-and-drones/",
+    "https://www.newarab.com/news/saudi-downs-10-houthi-missiles-riyadh-airport-reopens"
+  ],
+  "source_names": [
+    "The National",
+    "The New Arab"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudita",
+    "#SaudiArabia",
+    "#Riad",
+    "#Houthis"
+  ],
+  "summary_es": "Reabrieron las terminales 1 y 2 del aeropuerto Rey Khalid tras semanas cerradas. Las alertas en varias regiones se levantaron.",
+  "summary_en": "King Khalid airport's terminals 1 and 2 reopened after weeks shut. Alerts in several regions were later lifted.",
+  "highlight_es": "aeropuerto de Riad",
+  "highlight_en": "Riyadh airport",
+  "visual_label": "Riad",
+  "image_prompt": "Modern airport terminal at dusk with a parked airliner on the apron, desert city skyline beyond, a faint contrail high in the sky, no people, wide cinematic view",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 24.96,
+      "lon": 46.7,
+      "label": "Riad"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudita",
+      "Yemen": "Yemen"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

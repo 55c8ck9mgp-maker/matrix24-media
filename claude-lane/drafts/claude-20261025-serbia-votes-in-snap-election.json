@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-25T12:57:08Z",
+  "content_id": "claude-20261025-serbia-votes-in-snap-election",
+  "category": "World",
+  "headline": "Serbia votes in snap election as student movement challenges Vucic",
+  "headline_es": "Serbia vota en elecciones anticipadas con un movimiento estudiantil desafiando a Vucic",
+  "caption_en": "Serbians voted on Sunday in a snap parliamentary election called by Aleksandar Vucic, who resigned as president to run for prime minister. His Serbian Progressive Party faces a student-led list of about 250 mostly new candidates, born from protests after the 2024 Novi Sad station canopy collapse that killed 16 people. An Ipsos poll gave the ruling party 47% and the students 40%; polls close at 8 pm local time.",
+  "caption_es": "Los serbios votaron el domingo en elecciones parlamentarias anticipadas convocadas por Aleksandar Vucic, quien renunció a la presidencia para aspirar a primer ministro. Su Partido Progresista Serbio enfrenta a una lista estudiantil de unos 250 candidatos, en su mayoría nuevos, surgida de las protestas tras el colapso de la marquesina de la estación de Novi Sad en 2024, que dejó 16 muertos. Una encuesta de Ipsos dio al partido gobernante un 47% y a los estudiantes un 40%; las urnas cierran a las 20:00 hora local.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement",
+    "https://www.rferl.org/a/serbia-vote-election-parliament-vucic-student-corruption/33883844.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Radio Free Europe/Radio Liberty"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Serbia",
+    "#Elecciones",
+    "#Elections"
+  ],
+  "summary_es": "Vucic renunció a la presidencia para aspirar a primer ministro. Una lista estudiantil nacida de las protestas por la tragedia de Novi Sad busca desbancarlo.",
+  "summary_en": "Vucic resigned as president to run for prime minister. A student list born from protests over the Novi Sad tragedy seeks to unseat him.",
+  "highlight_es": "elecciones anticipadas",
+  "highlight_en": "snap election",
+  "visual_label": "Belgrado",
+  "image_prompt": "Ballot box on a table in a quiet polling station with wooden booths, soft daylight through tall windows, empty room, no people, cinematic view",
+  "map": {
+    "focus": [
+      "Serbia"
+    ],
+    "marker": {
+      "lat": 44.79,
+      "lon": 20.45,
+      "label": "Belgrado"
+    },
+    "labels": {
+      "Serbia": "Serbia"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
