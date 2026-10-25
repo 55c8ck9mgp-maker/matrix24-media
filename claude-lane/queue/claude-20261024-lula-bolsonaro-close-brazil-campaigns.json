@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261024-lula-bolsonaro-close-brazil-campaigns",
+  "created_at": "2026-10-24T18:51:33Z",
+  "category": "Colombia / Latin America",
+  "headline": "Lula and Flávio Bolsonaro hold final rallies on the eve of Brazil's tied runoff",
+  "headline_es": "Lula y Flávio Bolsonaro cierran campaña en la víspera de un balotaje empatado en Brasil",
+  "caption_es": "El presidente de Brasil, Luiz Inácio Lula da Silva, y el aspirante de derecha Flávio Bolsonaro realizaron el sábado sus últimos actos de campaña antes del balotaje presidencial del domingo, con encuestas que muestran un empate. Los seguidores de Lula llenaron Copacabana, en Río de Janeiro, mientras Bolsonaro reunió a los suyos en la Praça da Liberdade de Belo Horizonte. Bolsonaro ganó la primera vuelta; Lula busca un cuarto mandato no consecutivo.",
+  "caption_en": "Brazil's President Luiz Inácio Lula da Silva and right-wing challenger Flávio Bolsonaro held their final rallies on Saturday ahead of Sunday's presidential runoff, with polls showing a tie. Lula's supporters filled Copacabana in Rio de Janeiro, while Bolsonaro rallied in Belo Horizonte's Praça da Liberdade. Bolsonaro won the first round; Lula is seeking a fourth, non-consecutive term.",
+  "source_urls": [
+    "https://unitel.bo/noticias/agencias/lula-y-bolsonaro-cierran-sus-campanas-en-multitudinarios-actos-de-calle-en-brasil-KA24351694",
+    "https://www.aol.co.uk/articles/tens-thousands-lula-supporters-rally-181144000.html"
+  ],
+  "source_names": [
+    "AFP (via Unitel)",
+    "The Guardian (via AOL)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#Brazil",
+    "#Elecciones"
+  ],
+  "summary_es": "Brasil elige presidente este domingo en una segunda vuelta que las encuestas dan como empate técnico.",
+  "summary_en": "Brazil picks its president on Sunday in a runoff that polls show as a dead heat.",
+  "highlight_es": "cierran campaña",
+  "highlight_en": "final rallies",
+  "image_prompt": "Long curving beach promenade with a wavy black and white mosaic pavement at sunset, crowds as tiny distant silhouettes, coastal mountains and city towers behind, wide cinematic view, no flags, no text",
+  "visual_label": "Brasil",
+  "map": {
+    "focus": [
+      "Brazil"
+    ],
+    "marker": {
+      "lat": -22.97,
+      "lon": -43.18,
+      "label": "Río de Janeiro"
+    },
+    "labels": {
+      "Brazil": "Brasil"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-25T15:08:54.798Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
