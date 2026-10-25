@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261025-machado-returns-to-venezuela",
+  "status": "draft",
+  "created_at": "2026-10-25T18:50:37Z",
+  "category": "Colombia / Latin America",
+  "headline": "Opposition leader María Corina Machado returns to Venezuela after almost 10 months abroad",
+  "headline_es": "María Corina Machado regresa a Venezuela tras casi 10 meses fuera del país",
+  "caption_en": "Venezuelan opposition leader and Nobel Peace Prize laureate María Corina Machado announced on Sunday that she is back in Venezuela, posting \"I am here, with you\" on social media. She left the country in December 2025 to collect the Nobel Peace Prize in Oslo and had since worked mostly from abroad. Her entry route was not disclosed.",
+  "caption_es": "La líder opositora venezolana y premio Nobel de la Paz María Corina Machado anunció el domingo que está de vuelta en Venezuela con el mensaje \"Estoy aquí, con ustedes\" en redes sociales. Salió del país en diciembre de 2025 para recoger el Nobel de la Paz en Oslo y desde entonces trabajó principalmente desde el exterior. No se informó por dónde entró al país.",
+  "source_urls": [
+    "https://es.euronews.com/2026/10/25/maria-corina-machado-regresa-venezuela-diez-meses-despues",
+    "https://www.lanacion.com.ar/el-mundo/maria-corina-machado-anuncio-que-regreso-a-venezuela-estoy-aqui-con-ustedes-nid25102026/"
+  ],
+  "source_names": ["Euronews", "La Nación"],
+  "hashtags": ["#MATRIX24", "#Venezuela", "#MariaCorinaMachado", "#LatinAmerica"],
+  "summary_es": "La premio Nobel de la Paz anunció su regreso con el mensaje \"Estoy aquí, con ustedes\", casi diez meses después de salir del país para recoger el galardón en Oslo.",
+  "summary_en": "The Nobel Peace Prize laureate announced her return with the message \"I am here, with you\", almost 10 months after leaving to collect the prize in Oslo.",
+  "highlight_es": "regresa a Venezuela",
+  "highlight_en": "returns to Venezuela",
+  "visual_label": "Venezuela",
+  "image_prompt": "Wide view of a Venezuelan city at dusk beneath green Andean mountains, an empty road leading toward the city, warm evening light, calm hopeful atmosphere, cinematic illustration",
+  "map": {"focus": ["Venezuela"], "labels": {"Venezuela": "Venezuela"}},
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261025-storms-cut-power-northern-europe",
+  "status": "draft",
+  "created_at": "2026-10-25T18:50:37Z",
+  "category": "Climate",
+  "headline": "Back-to-back storms cut power to over 150,000 homes across northern Europe",
+  "headline_es": "Dos tormentas seguidas dejan sin luz a más de 150.000 hogares en el norte de Europa",
+  "caption_en": "Storms Boelo and Austen hit northern Europe within a day of each other, leaving more than 150,000 homes without power on Sunday: about 82,000 in Britain, nearly 60,000 in France and at least 10,000 in Germany. Hundreds of flights were cancelled or diverted, and gusts reached 135 km/h in western Scotland. Falling trees injured four people in Brussels and two were seriously hurt in Germany when scaffolding blew over at a market.",
+  "caption_es": "Las tormentas Boelo y Austen azotaron el norte de Europa con un día de diferencia y dejaron el domingo a más de 150.000 hogares sin electricidad: unos 82.000 en Reino Unido, casi 60.000 en Francia y al menos 10.000 en Alemania. Cientos de vuelos fueron cancelados o desviados y las ráfagas alcanzaron 135 km/h en el oeste de Escocia. La caída de árboles hirió a cuatro personas en Bruselas y dos resultaron gravemente heridas en Alemania al derrumbarse un andamio en un mercado.",
+  "source_urls": [
+    "https://www.aol.co.uk/articles/storms-batter-northern-europe-cutting-165750000.html",
+    "https://www.arabnews.pk/world/storms-batter-europe-hitting-power-supplies-flights-and-phones-3005241"
+  ],
+  "source_names": ["Euronews", "AFP"],
+  "hashtags": ["#MATRIX24", "#Storm", "#Europe", "#Weather"],
+  "summary_es": "Reino Unido, Francia y Alemania suman más de 150.000 hogares sin luz; cientos de vuelos cancelados y ráfagas de hasta 135 km/h en Escocia.",
+  "summary_en": "Britain, France and Germany count over 150,000 homes without power; hundreds of flights cancelled and gusts up to 135 km/h in Scotland.",
+  "highlight_es": "sin luz",
+  "highlight_en": "cut power",
+  "visual_label": "Tormentas",
+  "image_prompt": "Fierce autumn storm over a northern European coastal town, bending trees, toppled power lines along a wet road, dark grey clouds and crashing waves, wide cinematic view, no people",
+  "map": {"focus": ["United Kingdom", "France"], "marker": {"lat": 56.2, "lon": -5.3, "label": "Argyll y Bute"}, "labels": {"United Kingdom": "Reino Unido", "France": "Francia"}},
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
