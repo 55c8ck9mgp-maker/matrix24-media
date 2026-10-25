@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261025-saudi-intercepts-houthi-missiles-near-mecca",
+  "status": "draft",
+  "created_at": "2026-10-25T00:51:31Z",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi Arabia intercepts two Houthi ballistic missiles fired toward Mecca and Medina",
+  "headline_es": "Arabia Saudita intercepta dos misiles balísticos hutíes lanzados hacia La Meca y Medina",
+  "caption_en": "Saudi Civil Defense said on Saturday that the kingdom intercepted two ballistic missiles launched by Yemen's Houthis toward the Mecca and Medina regions. Debris from the interceptions fell at several sites in western Saudi Arabia, including Wadi Al Mughammas in Mecca, Jeddah's Al Nuzha district, Taif and Rabigh. Authorities gave no details on casualties or damage.",
+  "caption_es": "La Defensa Civil saudí informó el sábado que el reino interceptó dos misiles balísticos lanzados por los hutíes de Yemen hacia las regiones de La Meca y Medina. Restos de las intercepciones cayeron en varios puntos del oeste de Arabia Saudita, entre ellos Wadi Al Mughammas en La Meca, el barrio Al Nuzha de Yeda, Taif y Rabigh. Las autoridades no dieron detalles sobre víctimas ni daños.",
+  "source_urls": [
+    "https://english.alarabiya.net/News/saudi-arabia/2026/10/24/debris-from-two-intercepted-houthi-ballistic-missiles-falls-in-mecca",
+    "https://gulfnews.com/world/gulf/saudi/saudi-arabia-reports-missile-debris-falling-in-mecca-jeddah-taif-and-rabigh-1.500722504"
+  ],
+  "source_names": [
+    "Al Arabiya English",
+    "Gulf News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudita",
+    "#SaudiArabia",
+    "#Hutíes",
+    "#Houthis"
+  ],
+  "summary_es": "Restos de las intercepciones cayeron en La Meca, Yeda, Taif y Rabigh. No hubo detalles sobre víctimas.",
+  "summary_en": "Interception debris fell in Mecca, Jeddah, Taif and Rabigh. No details on casualties were given.",
+  "highlight_es": "La Meca y Medina",
+  "highlight_en": "Mecca and Medina",
+  "visual_label": "La Meca",
+  "image_prompt": "Night sky over a desert city skyline with distant mountains, a bright streak of an interceptor trail high in the clouds, city lights below, no people, wide cinematic view",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 21.42,
+      "lon": 39.83,
+      "label": "La Meca"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudita",
+      "Yemen": "Yemen"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

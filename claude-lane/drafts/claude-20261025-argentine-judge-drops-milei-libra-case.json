@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261025-argentine-judge-drops-milei-libra-case",
+  "status": "draft",
+  "created_at": "2026-10-25T00:51:31Z",
+  "category": "Colombia / Latin America",
+  "headline": "Argentine judge drops fraud case against President Milei over the $LIBRA memecoin",
+  "headline_es": "Juez argentino archiva la causa por fraude contra Milei por la criptomoneda $LIBRA",
+  "caption_en": "Federal judge Marcelo Martínez de Giorgi dismissed the criminal investigation into President Javier Milei, his sister Karina Milei and US businessman Hayden Davis over the $LIBRA token, which Milei promoted on X in February 2025 before it crashed. The judge ruled that investor losses and price swings were not enough to establish fraud.",
+  "caption_es": "El juez federal Marcelo Martínez de Giorgi sobreseyó la investigación penal contra el presidente Javier Milei, su hermana Karina Milei y el empresario estadounidense Hayden Davis por el token $LIBRA, que Milei promocionó en X en febrero de 2025 antes de su desplome. El juez concluyó que las pérdidas de inversores y las oscilaciones de precio no bastaban para probar un fraude.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/24/argentinian-judge-drops-fraud-investigation-into-milei-over-crypto-scandal",
+    "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "CoinDesk"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Argentina",
+    "#Milei",
+    "#LIBRA",
+    "#Cripto"
+  ],
+  "summary_es": "El fallo alcanza también a Karina Milei y a Hayden Davis. Según el juez, la promoción de Milei no constituyó un esquema fraudulento.",
+  "summary_en": "The ruling also clears Karina Milei and Hayden Davis. The judge found Milei's promotion did not amount to a fraudulent scheme.",
+  "highlight_es": "archiva la causa",
+  "highlight_en": "drops fraud case",
+  "visual_label": "$LIBRA",
+  "image_prompt": "Empty wood-panelled courtroom with a judge's bench and gavel, a glowing cryptocurrency price chart plunging on a screen in the background, soft dramatic light, wide cinematic view",
+  "map": {
+    "focus": [
+      "Argentina"
+    ],
+    "marker": {
+      "lat": -34.6,
+      "lon": -58.38,
+      "label": "Buenos Aires"
+    },
+    "labels": {
+      "Argentina": "Argentina"
+    }
+  },
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
