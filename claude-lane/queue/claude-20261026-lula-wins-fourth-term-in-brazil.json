@@ -1,0 +1,54 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261026-lula-wins-fourth-term-in-brazil",
+  "created_at": "2026-10-26T00:52:30Z",
+  "category": "Colombia / Latin America",
+  "headline": "Lula wins a fourth term as Brazil's president, beating Flávio Bolsonaro in the runoff",
+  "headline_es": "Lula gana un cuarto mandato como presidente de Brasil al vencer a Flávio Bolsonaro",
+  "caption_es": "Luiz Inácio Lula da Silva fue reelegido presidente de Brasil el domingo tras derrotar al senador Flávio Bolsonaro en la segunda vuelta, y asegura un cuarto mandato no consecutivo que comenzará en 2027. Bolsonaro había ganado la primera vuelta con 47% frente a 45%. El conteo se retrasó después de que un juez del Supremo Tribunal extendiera la votación dos horas en todo el país.",
+  "caption_en": "Luiz Inácio Lula da Silva was re-elected president of Brazil on Sunday, defeating Senator Flávio Bolsonaro in a runoff to secure a fourth, non-consecutive term starting in 2027. Bolsonaro had led the first round 47% to 45%. The count was delayed after a Supreme Court justice extended voting nationwide by two hours.",
+  "source_urls": [
+    "https://www.2news.com/news/world/trump-critic-lula-wins-reelection-in-brazil-securing-fourth-presidential-term/article_5ccd4135-d5c9-5fd9-b40b-429194a1a4e3.html",
+    "https://buenosairesherald.com/world/president-luiz-inacio-lula-da-silva-wins-surprise-reelection-in-brazil"
+  ],
+  "source_names": [
+    "Associated Press (via KTVN 2News)",
+    "Buenos Aires Herald"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#Lula",
+    "#Elecciones",
+    "#Brazil"
+  ],
+  "summary_es": "Lula remontó tras quedar segundo en la primera vuelta y gobernará de nuevo desde 2027. La votación se extendió dos horas por orden judicial.",
+  "summary_en": "Lula came from behind after finishing second in the first round and will govern again from 2027. Voting was extended by two hours by court order.",
+  "highlight_es": "cuarto mandato",
+  "highlight_en": "fourth term",
+  "image_prompt": "Modernist government palace with white columns and a reflecting pool at dusk in Brasília, wide cinematic view, no people",
+  "visual_label": "Brasilia",
+  "map": {
+    "focus": [
+      "Brazil"
+    ],
+    "marker": {
+      "lat": -15.79,
+      "lon": -47.88,
+      "label": "Brasilia"
+    },
+    "labels": {
+      "Brazil": "Brasil"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-26T23:25:32.987Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
