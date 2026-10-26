@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T12:58:50Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-mecca-pact-envoys-hold-talks-in-tehran",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi, Pakistani and Turkish security chiefs head to Tehran for talks with Iran",
+  "headline_es": "Jefes de seguridad de Arabia Saudí, Pakistán y Turquía viajan a Teherán para hablar con Irán",
+  "caption_en": "Saudi Defence Minister Khalid bin Salman, Pakistan's army chief Asim Munir and Turkish intelligence chief Ibrahim Kalin are set to hold security talks in Tehran on Monday with Iranian officials led by Mohsen Rezaei. Riyadh says the visit by the Mecca defence pact countries aims to de-escalate the regional crisis. It would be the first high-level contact between Iran and all three pact members since Houthi attacks on Saudi Arabia escalated in September.",
+  "caption_es": "El ministro de Defensa saudí, Khalid bin Salman, el jefe del Ejército de Pakistán, Asim Munir, y el jefe de inteligencia turco, Ibrahim Kalin, celebrarán este lunes conversaciones de seguridad en Teherán con una delegación iraní encabezada por Mohsen Rezaei. Riad afirma que la visita de los países del pacto de defensa de La Meca busca rebajar la crisis regional. Sería el primer contacto de alto nivel entre Irán y los tres miembros del pacto desde que los hutíes intensificaron sus ataques contra Arabia Saudí en septiembre.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/26/officials-from-mecca-pact-states-to-hold-talks-in-iran-amid-regional-tensions",
+    "https://www.newarab.com/news/iran-meet-saudi-pakistan-turkey-security-talks"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "The New Arab"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#ArabiaSaudi",
+    "#Pakistan",
+    "#Turquía"
+  ],
+  "summary_es": "Los tres países firmaron en agosto un pacto de defensa mutua. Arabia Saudí dice que la visita busca la desescalada y el diálogo.",
+  "summary_en": "The three countries signed a mutual defence pact in August. Saudi Arabia says the visit seeks de-escalation and dialogue.",
+  "highlight_es": "Teherán",
+  "highlight_en": "Tehran",
+  "visual_label": "Teherán",
+  "image_prompt": "Long polished conference table with empty leather chairs and water glasses in a grand government hall, tall windows overlooking a mountain-ringed city skyline at dusk, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "marker": {
+      "lat": 35.69,
+      "lon": 51.39,
+      "label": "Teherán"
+    },
+    "labels": {
+      "Iran": "Irán"
+    }
+  }
+}

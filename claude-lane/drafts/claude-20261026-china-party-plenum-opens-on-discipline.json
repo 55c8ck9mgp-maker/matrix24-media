@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T12:58:50Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-china-party-plenum-opens-on-discipline",
+  "category": "World",
+  "headline": "China's Communist Party opens a four-day plenum focused on party discipline",
+  "headline_es": "El Partido Comunista de China abre un pleno de cuatro días centrado en la disciplina",
+  "caption_en": "The Communist Party's Central Committee began its fifth plenum in Beijing on Monday, a closed-door, four-day meeting focused on party discipline, according to Xinhua. Xi Jinping delivered a work report and members will discuss a draft document on deepening party self-governance. Several committee seats are vacant and others are held by members under investigation, as the anticorruption campaign continues.",
+  "caption_es": "El Comité Central del Partido Comunista de China inició el lunes en Pekín su quinto pleno, una reunión a puerta cerrada de cuatro días centrada en la disciplina partidaria, según Xinhua. Xi Jinping presentó un informe de trabajo y los miembros debatirán un borrador sobre la profundización del autogobierno del partido. Varios escaños del comité están vacantes y otros los ocupan miembros bajo investigación, mientras continúa la campaña anticorrupción.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/26/chinas-political-elite-gather-for-talks-on-communist-party-discipline",
+    "https://www.scmp.com/news/china/politics/article/3372134/chinas-communist-party-opens-fifth-plenum-focus-discipline-and-loyalty-xi"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "South China Morning Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#China",
+    "#Pekín",
+    "#XiJinping"
+  ],
+  "summary_es": "La reunión a puerta cerrada del Comité Central debatirá un borrador sobre el autogobierno del partido en plena campaña anticorrupción.",
+  "summary_en": "The closed-door Central Committee meeting will discuss a draft on party self-governance amid the ongoing anticorruption campaign.",
+  "highlight_es": "pleno de cuatro días",
+  "highlight_en": "four-day plenum",
+  "visual_label": "Pekín",
+  "image_prompt": "Monumental stone government hall with tall columns and wide empty steps under a hazy autumn sky, rows of red lanterns along a broad avenue, wide cinematic view, no people, no flags",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "marker": {
+      "lat": 39.9,
+      "lon": 116.4,
+      "label": "Pekín"
+    },
+    "labels": {
+      "China": "China"
+    }
+  }
+}

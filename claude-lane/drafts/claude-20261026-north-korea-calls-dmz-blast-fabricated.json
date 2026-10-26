@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T12:58:50Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-north-korea-calls-dmz-blast-fabricated",
+  "category": "Security / Geopolitics",
+  "headline": "North Korea tells the UN that Seoul fabricated a DMZ landmine blast",
+  "headline_es": "Corea del Norte dice a la ONU que Seúl inventó una explosión de mina en la zona desmilitarizada",
+  "caption_en": "North Korea's UN ambassador sent a letter to the Security Council on Sunday calling a landmine blast that injured three South Korean soldiers in the Demilitarized Zone a South Korean fabrication, state media KCNA reported. Pyongyang said its border fortification work is lawful. Seoul blames a North Korean mine and last week told the Council the blast was a clear violation of the armistice; it has proposed military talks.",
+  "caption_es": "El embajador de Corea del Norte ante la ONU envió el domingo una carta al Consejo de Seguridad en la que califica de invención surcoreana la explosión de una mina que hirió a tres soldados de Corea del Sur en la zona desmilitarizada, informó la agencia estatal KCNA. Pionyang defendió como legales sus obras de fortificación fronteriza. Seúl atribuye la explosión a una mina norcoreana, la calificó la semana pasada ante el Consejo como una clara violación del armisticio y ha propuesto conversaciones militares.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/26/seoul-fabricated-landmine-blast-north-korea-tells-un-in-letter",
+    "https://www.cp24.com/news/world/2026/10/26/north-korea-sends-letter-to-un-slamming-seoul-over-landmine-blast/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "CP24 (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CoreaDelNorte",
+    "#CoreaDelSur",
+    "#ONU"
+  ],
+  "summary_es": "La explosión hirió a tres soldados surcoreanos. Seúl culpa a una mina norcoreana y propone conversaciones militares para fijar la frontera.",
+  "summary_en": "The blast injured three South Korean soldiers. Seoul blames a North Korean mine and has proposed military talks to confirm the border.",
+  "highlight_es": "explosión de mina",
+  "highlight_en": "landmine blast",
+  "visual_label": "DMZ",
+  "image_prompt": "Barbed-wire border fence crossing forested hills in autumn, empty concrete watchtower and warning posts, misty morning light, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "South Korea",
+      "North Korea"
+    ],
+    "marker": {
+      "lat": 38,
+      "lon": 127,
+      "label": "Zona desmilitarizada"
+    },
+    "labels": {
+      "South Korea": "Corea del Sur",
+      "North Korea": "Corea del Norte"
+    }
+  }
+}
