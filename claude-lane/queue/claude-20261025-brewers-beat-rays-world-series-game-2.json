@@ -40,10 +40,10 @@
       "United States of America": "Estados Unidos"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261025-brewers-beat-rays-world-series-game-2.jpg",
   "publish_attempt_id": "d383f436-8a03-4912-83ac-245521e0c304",
-  "ig_media_id": null,
+  "ig_media_id": "18141881029838955",
   "history": [
     {
       "at": "2026-10-26T02:00:42.330Z",
@@ -59,8 +59,15 @@
       "at": "2026-10-26T02:01:22.359Z",
       "event": "reserved",
       "publish_attempt_id": "d383f436-8a03-4912-83ac-245521e0c304"
+    },
+    {
+      "at": "2026-10-26T02:01:55.783Z",
+      "event": "published",
+      "publish_attempt_id": "d383f436-8a03-4912-83ac-245521e0c304",
+      "ig_media_id": "18141881029838955"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-26T02:01:22.359Z"
+  "reserved_at": "2026-10-26T02:01:22.359Z",
+  "permalink": "https://www.instagram.com/p/De8KWvHjk3C/"
 }
