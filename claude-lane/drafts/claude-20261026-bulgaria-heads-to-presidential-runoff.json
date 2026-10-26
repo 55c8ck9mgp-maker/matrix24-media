@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T18:51:06Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-bulgaria-heads-to-presidential-runoff",
+  "category": "World",
+  "headline": "Bulgaria heads to a presidential runoff between Yotova and Gyurov",
+  "headline_es": "Bulgaria irá a segunda vuelta presidencial entre Yotova y Gyurov",
+  "caption_en": "Incumbent president Iliana Yotova narrowly led Sunday's first round of Bulgaria's presidential election, ahead of reformist former caretaker prime minister Andrey Gyurov. With no outright winner amid record-low turnout, the two will meet in a runoff on November 1.",
+  "caption_es": "La presidenta en funciones, Iliana Yotova, quedó por estrecho margen en primer lugar en la primera vuelta de las elecciones presidenciales de Bulgaria del domingo, por delante del reformista y ex primer ministro interino Andrey Gyurov. Sin ganador absoluto y con una participación récord a la baja, ambos se enfrentarán en una segunda vuelta el 1 de noviembre.",
+  "source_urls": [
+    "https://balkaninsight.com/2026/10/26/bulgarias-presidential-election-heads-to-runoff-after-record-low-turnout/bi/",
+    "https://www.pbs.org/newshour/world/presidential-race-in-bulgaria-heads-to-runoff-due-to-record-low-turnout"
+  ],
+  "source_names": [
+    "Balkan Insight",
+    "PBS NewsHour / AP"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Bulgaria",
+    "#Elecciones",
+    "#Sofía"
+  ],
+  "summary_es": "La baja participación forzó la segunda vuelta del 1 de noviembre entre la presidenta en funciones y un ex primer ministro proeuropeo.",
+  "summary_en": "Record-low turnout forced a November 1 runoff between the incumbent and a pro-Western former caretaker prime minister.",
+  "highlight_es": "segunda vuelta",
+  "highlight_en": "presidential runoff",
+  "visual_label": "Sofía",
+  "image_prompt": "Wooden ballot box on a table in a quiet polling station with voting booths and curtains, soft daylight from tall windows, wide cinematic view, no people, no text or flags",
+  "map": {
+    "focus": [
+      "Bulgaria"
+    ],
+    "marker": {
+      "lat": 42.7,
+      "lon": 23.32,
+      "label": "Sofía"
+    },
+    "labels": {
+      "Bulgaria": "Bulgaria"
+    }
+  }
+}

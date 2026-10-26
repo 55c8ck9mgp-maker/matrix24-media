@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T18:51:06Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-anthropic-files-publicly-for-ipo",
+  "category": "Technology",
+  "headline": "Anthropic files publicly for a Nasdaq IPO under the ticker ANT",
+  "headline_es": "Anthropic presenta su solicitud pública para salir a bolsa en el Nasdaq como ANT",
+  "caption_en": "AI company Anthropic filed its public S-1 registration with the US Securities and Exchange Commission on Monday, after a confidential draft filing in June. The shares would trade on the Nasdaq under the ticker ANT, and the debut is expected in November. The number of shares and the price have not been set.",
+  "caption_es": "La empresa de inteligencia artificial Anthropic presentó el lunes su registro público S-1 ante la Comisión de Bolsa y Valores de EE. UU., tras una solicitud confidencial en junio. Las acciones cotizarían en el Nasdaq con el símbolo ANT, y el debut se espera en noviembre. Aún no se han fijado el número de acciones ni el precio.",
+  "source_urls": [
+    "https://www.cbsnews.com/news/anthropic-ipo-plans-ai-safety/",
+    "https://www.engadget.com/2296724/anthropic-files-to-go-public/"
+  ],
+  "source_names": [
+    "CBS News",
+    "Engadget"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Anthropic",
+    "#IPO",
+    "#InteligenciaArtificial"
+  ],
+  "summary_es": "La solicitud llega tras un borrador confidencial en junio; el debut en el Nasdaq se espera en noviembre.",
+  "summary_en": "The filing follows a confidential draft in June; the Nasdaq debut is expected in November.",
+  "highlight_es": "salir a bolsa",
+  "highlight_en": "Nasdaq IPO",
+  "visual_label": "IPO",
+  "image_prompt": "Modern stock exchange trading floor with large glowing market screens and rising green charts, abstract circuit patterns overlaid, wide cinematic view, no people, no text or logos"
+}

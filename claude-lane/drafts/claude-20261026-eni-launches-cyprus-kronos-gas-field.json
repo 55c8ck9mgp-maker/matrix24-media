@@ -1,0 +1,52 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T18:51:06Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-eni-launches-cyprus-kronos-gas-field",
+  "category": "Economy",
+  "headline": "Eni signs contracts to develop Cyprus's first gas field, Kronos",
+  "headline_es": "Eni firma contratos para desarrollar Kronos, el primer yacimiento de gas de Chipre",
+  "caption_en": "Italy's Eni signed the main construction and drilling contracts for the Kronos gas field off Cyprus on Monday, moving the project into execution. Eni and partner TotalEnergies aim to start production in the first half of 2028. The gas will be piped to Egypt, processed with existing facilities and liquefied at the Damietta LNG plant, mainly for export to Europe.",
+  "caption_es": "La italiana Eni firmó el lunes los principales contratos de construcción y perforación del yacimiento de gas Kronos, frente a Chipre, con lo que el proyecto entra en fase de ejecución. Eni y su socia TotalEnergies prevén iniciar la producción en el primer semestre de 2028. El gas irá por gasoducto a Egipto, se procesará en instalaciones existentes y se licuará en la planta de GNL de Damietta, sobre todo para exportarlo a Europa.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/26/cyprus-signs-18bn-deal-to-develop-first-gas-field-with-exports-to-europe-via-egypt",
+    "https://www.worldoil.com/news/2026/10/26/eni-moves-cronos-into-execution-targets-first-cyprus-gas-in-2028/",
+    "https://cyprus-mail.com/2026/10/26/eni-set-to-sign-1-8bn-contracts-for-kronos-gas-field-infrastructure"
+  ],
+  "source_names": [
+    "Euronews",
+    "World Oil",
+    "Cyprus Mail"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Chipre",
+    "#GasNatural",
+    "#Energía"
+  ],
+  "summary_es": "Los contratos, de hasta 1.800 millones de dólares, ponen en marcha el proyecto; el gas se exportará a Europa a través de Egipto.",
+  "summary_en": "Contracts worth up to $1.8 billion launch the project; the gas will reach Europe via Egypt's Damietta LNG plant.",
+  "highlight_es": "Kronos",
+  "highlight_en": "first gas field",
+  "visual_label": "Kronos",
+  "image_prompt": "Offshore gas platform and floating production unit on a calm blue Mediterranean sea, subsea pipeline vessel nearby, coastline on the horizon, wide cinematic view, no logos",
+  "map": {
+    "focus": [
+      "Cyprus",
+      "Egypt"
+    ],
+    "marker": {
+      "lat": 35.17,
+      "lon": 33.36,
+      "label": "Nicosia"
+    },
+    "labels": {
+      "Cyprus": "Chipre",
+      "Egypt": "Egipto"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T18:51:06Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-algeria-orders-troops-to-niger",
+  "category": "Security / Geopolitics",
+  "headline": "Algeria orders troops to Niger in its first foreign deployment since 1973",
+  "headline_es": "Argelia ordena enviar tropas a Níger en su primer despliegue exterior desde 1973",
+  "caption_en": "Algeria's parliament approved sending troops to Niger in an emergency session on Sunday, and President Abdelmadjid Tebboune ordered the deployment on Monday. The mission is meant to protect Algerian energy installations, including projects of state firm Sonatrach. The size of the force and its start date have not been announced. Algeria last deployed troops abroad to support Egypt in 1973.",
+  "caption_es": "El parlamento de Argelia aprobó el domingo en sesión extraordinaria el envío de tropas a Níger, y el presidente Abdelmadjid Tebboune ordenó el despliegue el lunes. La misión busca proteger instalaciones energéticas argelinas, incluidos proyectos de la estatal Sonatrach. No se han anunciado el tamaño de la fuerza ni la fecha de inicio. Argelia desplegó tropas en el exterior por última vez en 1973, en apoyo a Egipto.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/26/algerias-president-orders-troop-deployment-to-neighbouring-niger",
+    "https://www.euronews.com/2026/10/26/algeria-approves-troop-deployment-to-niger-what-is-their-mission"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Euronews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Argelia",
+    "#Níger",
+    "#Sahel"
+  ],
+  "summary_es": "Las tropas protegerán instalaciones energéticas argelinas en Níger; aún no se conocen el tamaño de la fuerza ni la fecha de inicio.",
+  "summary_en": "The troops are to protect Algerian energy facilities in Niger; force size and start date have not been announced.",
+  "highlight_es": "tropas a Níger",
+  "highlight_en": "troops to Niger",
+  "visual_label": "Sahel",
+  "image_prompt": "Military transport trucks driving along a dusty desert road toward distant oil field pumpjacks and storage tanks in the Sahara at sunset, wide cinematic view, no people visible, no flags or insignia",
+  "map": {
+    "focus": [
+      "Algeria",
+      "Niger"
+    ],
+    "labels": {
+      "Algeria": "Argelia",
+      "Niger": "Níger"
+    }
+  }
+}
