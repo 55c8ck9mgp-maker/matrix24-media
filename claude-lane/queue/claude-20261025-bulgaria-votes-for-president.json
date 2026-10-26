@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261025-bulgaria-votes-for-president",
+  "created_at": "2026-10-25T12:57:08Z",
+  "category": "World",
+  "headline": "Bulgaria votes for president with a record 27 candidates on the ballot",
+  "headline_es": "Bulgaria elige presidente con un récord de 27 candidatos en la papeleta",
+  "caption_es": "Los búlgaros votaron el domingo en una elección presidencial con un récord de 27 candidatos. Las encuestas previas situaban a la presidenta en funciones, Iliana Yotova, por delante de Andrey Gyurov. Para ganar en primera vuelta se necesita más de la mitad de los votos válidos y una participación de al menos el 50%; de lo contrario, los dos más votados irán a una segunda vuelta el 1 de noviembre.",
+  "caption_en": "Bulgarians voted on Sunday in a presidential election with a record 27 candidates. Pre-election polls put incumbent Iliana Yotova ahead of Andrey Gyurov. A first-round win requires more than half the valid votes and turnout of at least 50%; otherwise the top two meet in a runoff on November 1.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/25/bulgaria-votes-for-president-in-election-dominated-by-ukraine-war-and-the-economy",
+    "https://sofiaglobe.com/2026/10/25/voting-underway-in-bulgarias-2026-presidential-elections/"
+  ],
+  "source_names": [
+    "Euronews",
+    "The Sofia Globe"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Bulgaria",
+    "#Elecciones",
+    "#Elections"
+  ],
+  "summary_es": "Las encuestas situaban a Yotova por delante de Gyurov. Sin mayoría y 50% de participación, habrá segunda vuelta el 1 de noviembre.",
+  "summary_en": "Polls put Yotova ahead of Gyurov. Without a majority and 50% turnout, a runoff follows on November 1.",
+  "highlight_es": "27 candidatos",
+  "highlight_en": "27 candidates",
+  "image_prompt": "Row of empty voting booths with curtains and a transparent ballot box in a school gymnasium, morning light, no people, wide cinematic view",
+  "visual_label": "Sofía",
+  "map": {
+    "focus": [
+      "Bulgaria"
+    ],
+    "marker": {
+      "lat": 42.7,
+      "lon": 23.32,
+      "label": "Sofía"
+    },
+    "labels": {
+      "Bulgaria": "Bulgaria"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-26T09:26:27.637Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
