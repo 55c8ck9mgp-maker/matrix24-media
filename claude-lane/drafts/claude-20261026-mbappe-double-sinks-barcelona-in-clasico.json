@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T00:52:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-mbappe-double-sinks-barcelona-in-clasico",
+  "category": "Sports",
+  "headline": "Mbappé scores twice as Real Madrid beat Barcelona 2-1 in the Clásico at Camp Nou",
+  "headline_es": "Mbappé marca dos goles y el Real Madrid vence 2-1 al Barcelona en el Camp Nou",
+  "caption_en": "Kylian Mbappé scored twice, including a late winner, as José Mourinho's Real Madrid won 2-1 at Camp Nou on Sunday, ending Barcelona's perfect start to the La Liga season. Raphinha had equalised shortly after the hour. Barcelona stay top, but Madrid cut their lead.",
+  "caption_es": "Kylian Mbappé marcó dos goles, incluido el de la victoria al final, y el Real Madrid de José Mourinho ganó 2-1 en el Camp Nou el domingo, poniendo fin al arranque perfecto del Barcelona en LaLiga. Raphinha había empatado poco después de la hora de juego. El Barcelona sigue líder, pero el Madrid recortó distancias.",
+  "source_urls": [
+    "https://sports.yahoo.com/articles/mbappe-double-helps-real-madrid-230608705.html",
+    "https://theanalyst.com/articles/barcelona-vs-real-madrid-el-clasico-live-stats-10-2026"
+  ],
+  "source_names": [
+    "AFP (via Yahoo Sports)",
+    "The Analyst (Opta)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ElClasico",
+    "#LaLiga",
+    "#Mbappe"
+  ],
+  "summary_es": "Fin del arranque perfecto del Barcelona en LaLiga. Raphinha empató, pero Mbappé decidió al final.",
+  "summary_en": "Barcelona's perfect La Liga start is over. Raphinha equalised, but Mbappé settled it late.",
+  "highlight_es": "Real Madrid vence",
+  "highlight_en": "Real Madrid beat",
+  "visual_label": "Clásico",
+  "image_prompt": "Floodlit football stadium at night seen from high in the stands, green pitch, empty seats, dramatic lights, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 41.38,
+      "lon": 2.12,
+      "label": "Barcelona"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  }
+}

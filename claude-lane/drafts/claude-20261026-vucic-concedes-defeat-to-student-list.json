@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T00:52:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-vucic-concedes-defeat-to-student-list",
+  "category": "World",
+  "headline": "Serbia's Vucic concedes defeat as student-led list heads for a parliamentary majority",
+  "headline_es": "Vucic admite su derrota en Serbia y la lista estudiantil va hacia la mayoría",
+  "caption_en": "Aleksandar Vucic conceded defeat in Serbia's snap parliamentary election on Sunday, saying a vote sample showed his side had lost. He said the student-led list was expected to win 135 to 140 of the 250 seats. Turnout was the highest since Yugoslavia broke up in 1992. The movement grew out of protests after a 2024 station canopy collapse in Novi Sad killed 16 people.",
+  "caption_es": "Aleksandar Vucic reconoció el domingo su derrota en las elecciones parlamentarias anticipadas de Serbia, al decir que una muestra de votos indicaba que su bando había perdido. Según Vucic, la lista estudiantil obtendría entre 135 y 140 de los 250 escaños. La participación fue la más alta desde la desintegración de Yugoslavia en 1992. El movimiento nació de las protestas tras el colapso de una marquesina en la estación de Novi Sad en 2024, que mató a 16 personas.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/25/serbia-voter-turnout-highest-in-decades-as-students-oppose-longtime-leader",
+    "https://www.abc.net.au/news/2026-10-26/serbia-election-vucic-defeat-student-protest/107307808"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "ABC News (Australia)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Serbia",
+    "#Elecciones",
+    "#Elections"
+  ],
+  "summary_es": "Vucic dijo que la lista estudiantil ganaría entre 135 y 140 de 250 escaños. La participación fue la más alta desde 1992.",
+  "summary_en": "Vucic said the student list would win 135 to 140 of 250 seats. Turnout was the highest since 1992.",
+  "highlight_es": "admite su derrota",
+  "highlight_en": "concedes defeat",
+  "visual_label": "Belgrado",
+  "image_prompt": "Parliament building with a green dome at night in a European capital, empty square, soft city lights, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "Serbia"
+    ],
+    "marker": {
+      "lat": 44.81,
+      "lon": 20.47,
+      "label": "Belgrado"
+    },
+    "labels": {
+      "Serbia": "Serbia"
+    }
+  }
+}
