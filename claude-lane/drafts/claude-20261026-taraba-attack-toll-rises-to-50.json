@@ -1,0 +1,40 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T06:51:57Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-taraba-attack-toll-rises-to-50",
+  "category": "World",
+  "headline": "Death toll from gunmen's attack on a town in Nigeria's Taraba state rises to 50",
+  "headline_es": "Asciende a 50 el número de muertos en un ataque armado en Taraba, Nigeria",
+  "caption_en": "Residents say at least 50 people were killed when gunmen attacked the town of Binnari in Nigeria's eastern Taraba state on Friday, shortly after Friday prayers. The attackers looted and set shops on fire, and some victims drowned in a river while fleeing. Amnesty International accused Nigerian authorities of failing to protect rural communities.",
+  "caption_es": "Residentes afirman que al menos 50 personas murieron cuando hombres armados atacaron el viernes la localidad de Binnari, en el estado de Taraba, en el este de Nigeria, poco después de la oración del viernes. Los atacantes saquearon e incendiaron comercios, y algunas víctimas se ahogaron en un río al intentar huir. Amnistía Internacional acusó a las autoridades nigerianas de no proteger a las comunidades rurales.",
+  "source_urls": [
+    "https://guardian.ng/news/death-toll-in-taraba-terror-attack-rises-to-50",
+    "https://gulfnews.com/world/africa/toll-in-nigeria-bandit-attack-jumps-to-at-least-50-1.500723290"
+  ],
+  "source_names": [
+    "The Guardian Nigeria",
+    "Gulf News (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Nigeria",
+    "#Taraba",
+    "#Africa"
+  ],
+  "summary_es": "Hombres armados atacaron Binnari el viernes, saquearon e incendiaron comercios. Algunas víctimas se ahogaron al huir por un río.",
+  "summary_en": "Gunmen attacked Binnari on Friday, looting and burning shops. Some victims drowned in a river while fleeing.",
+  "highlight_es": "50",
+  "highlight_en": "rises to 50",
+  "visual_label": "Taraba",
+  "image_prompt": "Quiet rural savanna village at dusk with low mud-brick houses and a slow river in the foreground, empty dirt road, somber muted colors, wide cinematic view, no people",
+  "map": {
+    "focus": ["Nigeria"],
+    "marker": {"lat": 9.31, "lon": 11.19, "label": "Taraba"},
+    "labels": {"Nigeria": "Nigeria"}
+  }
+}

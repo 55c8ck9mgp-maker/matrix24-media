@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-26T06:51:57Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261026-attackers-kill-ebola-nurse-in-congo",
+  "category": "World",
+  "headline": "Attackers kill a nurse responding to an Ebola alert in eastern Congo",
+  "headline_es": "Matan a personal sanitario que atendía una alerta de ébola en el este del Congo",
+  "caption_en": "A nurse was killed and another health worker was severely injured on Saturday while responding to an Ebola alert in Bafwasende, in Congo's eastern Tshopo province, the WHO said. WHO chief Tedros Adhanom Ghebreyesus said health care must be protected. Congo's health ministry reports more than 9,800 cases and over 4,700 deaths since May, the country's deadliest Ebola outbreak.",
+  "caption_es": "Un integrante del personal de enfermería murió y otro trabajador sanitario resultó gravemente herido el sábado mientras respondían a una alerta de ébola en Bafwasende, en la provincia oriental de Tshopo, en el Congo, informó la OMS. Su director, Tedros Adhanom Ghebreyesus, pidió proteger la atención sanitaria. El Ministerio de Salud congoleño registra más de 9.800 casos y más de 4.700 muertes desde mayo, el peor brote de ébola en la historia del país.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/26/attackers-kill-nurse-injure-health-worker-responding-to-drc-ebola-case",
+    "https://gulfnews.com/world/africa/attackers-kill-nurse-severely-injure-health-worker-responding-to-ebola-case-in-eastern-congo-1.500723456"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Gulf News (AP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ebola",
+    "#Congo",
+    "#OMS"
+  ],
+  "summary_es": "La OMS dijo que otro trabajador sanitario quedó gravemente herido. El brote suma más de 9.800 casos y 4.700 muertes desde mayo.",
+  "summary_en": "The WHO said another health worker was severely injured. The outbreak has passed 9,800 cases and 4,700 deaths since May.",
+  "highlight_es": "alerta de ébola",
+  "highlight_en": "Ebola alert",
+  "visual_label": "Bafwasende",
+  "image_prompt": "Small rural health clinic with white tents at the edge of a dense tropical rainforest, medical supply boxes and a parked white off-road vehicle, overcast sky, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "Dem. Rep. Congo"
+    ],
+    "marker": {
+      "lat": 1.08,
+      "lon": 27.27,
+      "label": "Bafwasende"
+    },
+    "labels": {
+      "Dem. Rep. Congo": "R. D. del Congo"
+    }
+  }
+}
