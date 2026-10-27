@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T00:51:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-ex-cucuta-official-shot-dead",
+  "category": "Colombia / Latin America",
+  "headline": "Former Cúcuta government secretary and mayoral hopeful Miguel Castellanos shot dead",
+  "headline_es": "Asesinan en Cúcuta a Miguel Castellanos, exsecretario de Gobierno y precandidato",
+  "caption_en": "Miguel Castellanos, a former government secretary of the Colombian border city of Cúcuta and a pre-candidate for mayor, was killed on Monday afternoon in a hitman-style attack. He was shot near a fuel station on the city's Western Ring Road. Authorities have not announced any arrests.",
+  "caption_es": "Miguel Castellanos, exsecretario de Gobierno de la ciudad fronteriza colombiana de Cúcuta y precandidato a la alcaldía, fue asesinado el lunes por la tarde en un ataque sicarial. Le dispararon cerca de una estación de servicio en el Anillo Vial Occidental de la ciudad. Las autoridades no han anunciado capturas.",
+  "source_urls": [
+    "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-a-miguel-castellanos-exsecretario-de-gobierno-y-precandidato-a-la-alcaldia-de-cucuta-en-atentado-sicarial-en-una-estacion-de-servicio-3596502",
+    "https://www.elespectador.com/judicial/asesinan-a-miguel-castellanos-exsecretario-de-gobierno-de-cucuta-en-ataque-sicarial/"
+  ],
+  "source_names": [
+    "El Tiempo",
+    "El Espectador"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#Cúcuta",
+    "#NorteDeSantander"
+  ],
+  "summary_es": "El exfuncionario y aspirante a la alcaldía fue atacado por sicarios cerca de una estación de servicio en el Anillo Vial Occidental.",
+  "summary_en": "The former official and mayoral hopeful was attacked by gunmen near a fuel station on the Western Ring Road.",
+  "highlight_es": "Miguel Castellanos",
+  "highlight_en": "shot dead",
+  "visual_label": "Cúcuta",
+  "image_prompt": "Empty highway gas station at dusk on the outskirts of a tropical city, police tape fluttering in the wind, distant hills, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "Colombia"
+    ],
+    "marker": {
+      "lat": 7.89,
+      "lon": -72.51,
+      "label": "Cúcuta"
+    },
+    "labels": {
+      "Colombia": "Colombia"
+    }
+  }
+}

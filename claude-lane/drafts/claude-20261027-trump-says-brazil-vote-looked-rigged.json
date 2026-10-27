@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T00:51:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-trump-says-brazil-vote-looked-rigged",
+  "category": "Colombia / Latin America",
+  "headline": "Trump says Brazil's election looked 'rigged' after Lula's runoff win, citing no evidence",
+  "headline_es": "Trump dice que la elección de Brasil parecía 'amañada' tras la victoria de Lula",
+  "caption_en": "US President Donald Trump said on Monday that Brazil's presidential election \"looked like another rigged election,\" without offering evidence. Luiz Inácio Lula da Silva won a fourth term on Sunday, beating Senator Flávio Bolsonaro in the runoff. Trump told reporters he had not taken sides in the race.",
+  "caption_es": "El presidente de EE. UU., Donald Trump, dijo el lunes que la elección presidencial de Brasil \"parecía otra elección amañada\", sin presentar pruebas. Luiz Inácio Lula da Silva ganó un cuarto mandato el domingo al derrotar al senador Flávio Bolsonaro en la segunda vuelta. Trump dijo a periodistas que no había tomado partido en la contienda.",
+  "source_urls": [
+    "https://theprint.in/world/trump-says-brazil-election-looked-rigged-defeated-bolsonaros-party-recognizes-lula-win/3082415/",
+    "https://www.aa.com.tr/en/americas/trump-says-brazil-s-presidential-election-looked-rigged-and-corrupt-/4101782"
+  ],
+  "source_names": [
+    "Reuters (via ThePrint)",
+    "Anadolu Agency"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#Brazil",
+    "#Lula",
+    "#Trump"
+  ],
+  "summary_es": "Trump cuestionó sin pruebas el resultado de la segunda vuelta en Brasil, ganada por Lula frente a Flávio Bolsonaro, y aseguró que no tomó partido.",
+  "summary_en": "Trump questioned, without evidence, the Brazilian runoff won by Lula over Flávio Bolsonaro, and said he had not taken sides.",
+  "highlight_es": "amañada",
+  "highlight_en": "rigged",
+  "visual_label": "Brasil",
+  "image_prompt": "Empty wooden podium with microphones in front of a modernist white government building at dusk, ballot box silhouette in the foreground, wide cinematic view, no people",
+  "map": {
+    "focus": [
+      "Brazil",
+      "United States of America"
+    ],
+    "marker": {
+      "lat": -15.79,
+      "lon": -47.88,
+      "label": "Brasilia"
+    },
+    "labels": {
+      "Brazil": "Brasil",
+      "United States of America": "Estados Unidos"
+    }
+  }
+}
