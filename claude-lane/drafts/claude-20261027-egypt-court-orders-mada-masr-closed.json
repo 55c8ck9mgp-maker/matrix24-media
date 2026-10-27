@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T18:51:52Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-egypt-court-orders-mada-masr-closed",
+  "category": "World",
+  "headline": "Egyptian court orders independent news site Mada Masr closed and fines its editor",
+  "headline_es": "Un tribunal egipcio ordena el cierre del medio independiente Mada Masr y multa a su directora",
+  "caption_en": "A court in New Cairo on Tuesday convicted Lina Attalah, editor-in-chief of the independent outlet Mada Masr, of running a website without a licence. It fined her 3 million Egyptian pounds (about $53,000), ordered the site shut down and its equipment confiscated, the maximum penalty. Attalah was taken into custody after the verdict, and press freedom groups condemned the ruling.",
+  "caption_es": "Un tribunal de Nuevo Cairo condenó el martes a Lina Attalah, directora del medio independiente Mada Masr, por operar un sitio web sin licencia. Le impuso una multa de 3 millones de libras egipcias (unos 53.000 dólares) y ordenó el cierre del sitio y la confiscación de su equipo, la pena máxima. Attalah quedó bajo custodia tras el veredicto, y organizaciones de libertad de prensa condenaron el fallo.",
+  "source_urls": [
+    "https://www.newarab.com/news/egyptian-court-convicts-lina-attalah-orders-mada-masr-closed",
+    "https://www.middleeasteye.net/news/egypts-mada-masr-editor-lina-attalah-jailed-court-orders-outlet-shut"
+  ],
+  "source_names": [
+    "The New Arab",
+    "Middle East Eye"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Egipto",
+    "#LibertadDePrensa",
+    "#MadaMasr"
+  ],
+  "summary_es": "La directora Lina Attalah fue condenada por operar sin licencia, multada con 3 millones de libras y llevada bajo custodia.",
+  "summary_en": "Editor Lina Attalah was convicted of running the site without a licence, fined 3 million pounds and taken into custody.",
+  "highlight_es": "Mada Masr",
+  "highlight_en": "Mada Masr",
+  "visual_label": "Mada Masr",
+  "image_prompt": "Empty newsroom at dusk with dark computer screens, scattered papers and a closed office door, a judge's gavel resting on a wooden desk in the foreground, muted cinematic lighting, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Egypt"
+    ],
+    "marker": {
+      "lat": 30.03,
+      "lon": 31.47,
+      "label": "Nuevo Cairo"
+    },
+    "labels": {
+      "Egypt": "Egipto"
+    }
+  }
+}

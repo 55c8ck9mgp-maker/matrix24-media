@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T18:51:52Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-houthis-claim-strike-on-ras-tanura",
+  "category": "Security / Geopolitics",
+  "headline": "Houthis claim a missile strike on Saudi Arabia's Ras Tanura oil refinery",
+  "headline_es": "Los hutíes afirman haber atacado con un misil la refinería saudí de Ras Tanura",
+  "caption_en": "Yemen's Houthis said they fired a ballistic missile at Saudi Arabia's Ras Tanura oil refinery in the Eastern Province, claiming it hit its target and caused a fire. Saudi authorities did not immediately confirm the strike. Separately, the Saudi-led coalition said it intercepted Houthi ballistic missiles and drones launched toward the kingdom on Tuesday.",
+  "caption_es": "Los hutíes de Yemen dijeron haber lanzado un misil balístico contra la refinería de Ras Tanura, en la Provincia Oriental de Arabia Saudí, y aseguraron que alcanzó su objetivo y provocó un incendio. Las autoridades saudíes no confirmaron de inmediato el ataque. Por separado, la coalición liderada por Arabia Saudí informó que interceptó misiles balísticos y drones hutíes lanzados contra el reino el martes.",
+  "source_urls": [
+    "https://www.marinelink.com/news/houthi-missile-strikes-saudi-oil-refinery-543943",
+    "https://www.aa.com.tr/en/middle-east/yemen-s-houthis-claim-missile-attack-on-saudi-arabia-s-ras-tanura-oil-refinery/4102578"
+  ],
+  "source_names": [
+    "Reuters (via MarineLink)",
+    "Anadolu Agency"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudí",
+    "#Yemen",
+    "#Petróleo"
+  ],
+  "summary_es": "Riad no confirmó de inmediato el ataque; la coalición dijo haber interceptado misiles y drones lanzados hacia el reino.",
+  "summary_en": "Riyadh did not immediately confirm the strike; the coalition said it intercepted missiles and drones aimed at the kingdom.",
+  "highlight_es": "Ras Tanura",
+  "highlight_en": "Ras Tanura",
+  "visual_label": "Ras Tanura",
+  "image_prompt": "Coastal oil refinery with storage tanks and a tanker terminal at dusk, a distant plume of dark smoke on the horizon, calm sea in the foreground, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 26.64,
+      "lon": 50.16,
+      "label": "Ras Tanura"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudí",
+      "Yemen": "Yemen"
+    }
+  }
+}
