@@ -40,10 +40,10 @@
       "China": "China"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261026-china-party-plenum-opens-on-discipline.jpg",
   "publish_attempt_id": "2616d757-809d-47b3-b09a-7284cf8f673d",
-  "ig_media_id": null,
+  "ig_media_id": "18113070401176786",
   "history": [
     {
       "at": "2026-10-27T09:24:19.538Z",
@@ -59,8 +59,15 @@
       "at": "2026-10-27T09:24:58.797Z",
       "event": "reserved",
       "publish_attempt_id": "2616d757-809d-47b3-b09a-7284cf8f673d"
+    },
+    {
+      "at": "2026-10-27T09:25:41.130Z",
+      "event": "published",
+      "publish_attempt_id": "2616d757-809d-47b3-b09a-7284cf8f673d",
+      "ig_media_id": "18113070401176786"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-10-27T09:24:58.797Z"
+  "reserved_at": "2026-10-27T09:24:58.797Z",
+  "permalink": "https://www.instagram.com/p/De_h6mPlXEl/"
 }
