@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T12:59:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-greenhouse-gas-levels-hit-new-records",
+  "category": "Climate",
+  "headline": "Greenhouse gas levels hit new records in 2025, UN weather agency says",
+  "headline_es": "Los gases de efecto invernadero marcaron nuevos récords en 2025, según la OMM",
+  "caption_en": "Average atmospheric carbon dioxide reached 426.8 parts per million in 2025, 153% of pre-industrial levels, the World Meteorological Organization said in its annual Greenhouse Gas Bulletin. The rise of 2.8 ppm was smaller than the previous year's but still large, and methane and nitrous oxide also hit new highs. The report comes ahead of the COP31 climate summit in Antalya, Turkey, from November 9 to 20.",
+  "caption_es": "El dióxido de carbono atmosférico promedio alcanzó 426,8 partes por millón en 2025, el 153 % de los niveles preindustriales, informó la Organización Meteorológica Mundial en su boletín anual de gases de efecto invernadero. El aumento de 2,8 ppm fue menor que el del año anterior, pero sigue siendo elevado, y el metano y el óxido nitroso también marcaron máximos. El informe llega antes de la cumbre climática COP31 en Antalya, Turquía, del 9 al 20 de noviembre.",
+  "source_urls": [
+    "https://www.yahoo.com/news/science/articles/greenhouse-gas-levels-hit-record-122843007.html",
+    "https://news.un.org/en/story/2026/10/1168677"
+  ],
+  "source_names": [
+    "AFP (via Yahoo News)",
+    "UN News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CambioClimático",
+    "#CO2",
+    "#COP31"
+  ],
+  "summary_es": "El CO2 llegó a 426,8 ppm, el 153 % del nivel preindustrial; metano y óxido nitroso también marcaron máximos.",
+  "summary_en": "CO2 reached 426.8 ppm, 153% of pre-industrial levels; methane and nitrous oxide also set new highs.",
+  "highlight_es": "nuevos récords",
+  "highlight_en": "new records",
+  "visual_label": "CO2",
+  "image_prompt": "Atmospheric monitoring station with instrument tower on a remote volcanic mountaintop above a sea of clouds, distant industrial smokestacks faint on the horizon, golden hour light, wide cinematic view, no people, no text, no logos"
+}

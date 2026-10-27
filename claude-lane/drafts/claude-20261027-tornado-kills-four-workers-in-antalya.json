@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T12:59:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-tornado-kills-four-workers-in-antalya",
+  "category": "World",
+  "headline": "Tornado kills four workers at a construction site in Turkey's Antalya",
+  "headline_es": "Un tornado mata a cuatro obreros en una obra de Antalya, Turquía",
+  "caption_en": "A tornado tore through a construction site in the Kepez district of Antalya, on Turkey's Mediterranean coast, killing four workers and injuring one, Governor Hulusi Sahin said. The winds hurled the containers housing the workers and toppled a tower crane. The same weather system flooded streets in Istanbul, where record rain killed eight people earlier this month.",
+  "caption_es": "Un tornado arrasó una obra en el distrito de Kepez, en Antalya, en la costa mediterránea de Turquía, y mató a cuatro obreros e hirió a otro, según el gobernador Hulusi Sahin. Los vientos lanzaron los contenedores donde se alojaban los trabajadores y derribaron una grúa torre. El mismo sistema meteorológico inundó calles en Estambul, donde lluvias récord mataron a ocho personas a comienzos de este mes.",
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/tornado-rips-construction-site-turkey-killing-4-workers-137597877",
+    "https://www.africanews.com/2026/10/27/turkey-tornado-kills-at-least-four-workers-at-antalya-construction-site/"
+  ],
+  "source_names": [
+    "Associated Press (via ABC News)",
+    "Africanews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Turquía",
+    "#Antalya",
+    "#Tornado"
+  ],
+  "summary_es": "Los vientos lanzaron los contenedores donde dormían los obreros y derribaron una grúa torre en el distrito de Kepez.",
+  "summary_en": "The winds hurled the containers where the workers stayed and toppled a tower crane in Kepez district.",
+  "highlight_es": "tornado",
+  "highlight_en": "Tornado",
+  "visual_label": "Antalya",
+  "image_prompt": "Dark funnel cloud touching down over a half-built construction site with a toppled tower crane and scattered metal site containers, Mediterranean coastal city and mountains in the background, stormy grey sky, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Turkey"
+    ],
+    "marker": {
+      "lat": 36.93,
+      "lon": 30.73,
+      "label": "Antalya"
+    },
+    "labels": {
+      "Turkey": "Turquía"
+    }
+  }
+}

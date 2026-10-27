@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T12:59:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-syria-shuts-jordan-crossing-after-strikes",
+  "category": "Security / Geopolitics",
+  "headline": "Syria shuts its main Jordan border crossing after deadly Jordanian airstrikes",
+  "headline_es": "Siria cierra su principal paso fronterizo con Jordania tras ataques aéreos mortales",
+  "caption_en": "Syria closed the Nassib crossing, the only passenger and commercial route with Jordan, after Jordanian airstrikes hit rural Deraa and Sweida on Monday evening. Syrian authorities said seven people were killed, including three children. Jordan said it targeted militant hideouts in retaliation for an attack on a church in Karak that killed nine; Syria said the strikes were not coordinated with Damascus.",
+  "caption_es": "Siria cerró el paso de Nassib, la única vía de pasajeros y mercancías con Jordania, después de que ataques aéreos jordanos alcanzaran zonas rurales de Deraa y Sueida el lunes por la noche. Las autoridades sirias informaron de siete muertos, entre ellos tres niños. Jordania dijo que atacó escondites de militantes en represalia por el ataque a una iglesia en Karak que dejó nueve muertos; Siria afirmó que los bombardeos no se coordinaron con Damasco.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/27/why-jordan-has-struck-syria-what-we-know",
+    "https://www.al-monitor.com/originals/2026/10/jordan-says-it-killed-more-20-islamic-state-militants-airstrikes-syria"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Reuters (via Al-Monitor)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Siria",
+    "#Jordania",
+    "#OrienteMedio"
+  ],
+  "summary_es": "Damasco reporta siete muertos, entre ellos tres niños; Amán dice que atacó escondites de militantes tras el ataque a una iglesia.",
+  "summary_en": "Damascus reports seven dead, including three children; Amman says it hit militant hideouts after a church attack.",
+  "highlight_es": "cierra su principal paso fronterizo",
+  "highlight_en": "main Jordan border crossing",
+  "visual_label": "Nassib",
+  "image_prompt": "Empty desert border crossing with closed metal gates, concrete barriers and a long line of parked cargo trucks under a hazy sky, arid southern Syrian plain, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Syria",
+      "Jordan"
+    ],
+    "marker": {
+      "lat": 32.54,
+      "lon": 36.2,
+      "label": "Nassib"
+    },
+    "labels": {
+      "Syria": "Siria",
+      "Jordan": "Jordania"
+    }
+  }
+}
