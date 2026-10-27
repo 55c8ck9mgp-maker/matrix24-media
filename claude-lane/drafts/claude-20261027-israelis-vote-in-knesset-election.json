@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T06:51:38Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-israelis-vote-in-knesset-election",
+  "category": "World",
+  "headline": "Israelis vote in a Knesset election seen as a test of Netanyahu's rule",
+  "headline_es": "Israel vota en unas elecciones a la Knesset vistas como prueba para Netanyahu",
+  "caption_en": "Polls opened across Israel at 7 a.m. on Tuesday in a parliamentary election pitting Prime Minister Benjamin Netanyahu's bloc against an opposition led by Gadi Eisenkot's Yashar party. Final polls pointed to a close race in which neither bloc reaches the 61 seats needed to govern on its own. Police are deployed at polling stations nationwide.",
+  "caption_es": "Los colegios electorales abrieron en todo Israel a las 7 de la mañana del martes en unas elecciones parlamentarias que enfrentan al bloque del primer ministro Benjamin Netanyahu con una oposición encabezada por el partido Yashar de Gadi Eisenkot. Las últimas encuestas apuntaban a una carrera ajustada en la que ningún bloque alcanza por sí solo los 61 escaños necesarios para gobernar. La policía está desplegada en los centros de votación de todo el país.",
+  "source_urls": [
+    "https://www.jpost.com/israel-election-2026/article-912973",
+    "https://timesofisrael.com/liveblog-october-27-2026"
+  ],
+  "source_names": [
+    "The Jerusalem Post",
+    "The Times of Israel"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Israel",
+    "#Elecciones",
+    "#Knesset"
+  ],
+  "summary_es": "Netanyahu enfrenta a la oposición liderada por Gadi Eisenkot; las encuestas finales no daban mayoría de 61 escaños a ningún bloque.",
+  "summary_en": "Netanyahu faces an opposition led by Gadi Eisenkot; final polls gave neither bloc a 61-seat majority.",
+  "highlight_es": "Israel vota",
+  "highlight_en": "Israelis vote",
+  "visual_label": "Knesset",
+  "image_prompt": "Empty polling station with wooden ballot boxes and voting booths in morning light, paper ballots stacked on a table, modern stone buildings of Jerusalem visible through a window, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Israel"
+    ],
+    "marker": {
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "label": "Jerusalén"
+    },
+    "labels": {
+      "Israel": "Israel"
+    }
+  }
+}

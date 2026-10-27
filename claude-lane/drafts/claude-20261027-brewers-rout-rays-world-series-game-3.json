@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T06:51:38Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-brewers-rout-rays-world-series-game-3",
+  "category": "Sports",
+  "headline": "Brewers rout Rays 10-1 and move one win from their first World Series title",
+  "headline_es": "Los Brewers arrollan 10-1 a los Rays y quedan a un triunfo de su primera Serie Mundial",
+  "caption_en": "The Milwaukee Brewers beat the Tampa Bay Rays 10-1 in Game 3 of the World Series at Tropicana Field, powered by an eight-run fifth inning. Jackson Chourio had four hits and rookie Robert Gasser allowed one hit over six scoreless innings. Milwaukee leads the series 3-0, with Game 4 set for Tuesday night.",
+  "caption_es": "Los Milwaukee Brewers vencieron 10-1 a los Tampa Bay Rays en el tercer juego de la Serie Mundial en el Tropicana Field, impulsados por un quinto episodio de ocho carreras. Jackson Chourio conectó cuatro hits y el novato Robert Gasser permitió un solo hit en seis entradas sin carreras. Milwaukee domina la serie 3-0 y el cuarto juego será el martes por la noche.",
+  "source_urls": [
+    "https://www.espn.com/mlb/story/_/id/50293953/brewers-rout-rays-game-3-1-win-first-world-series-title",
+    "https://www.foxnews.com/outkick-sports/brewers-ride-ridiculous-record-setting-eight-run-inning-dominant-3-0-world-series-lead-rays"
+  ],
+  "source_names": [
+    "ESPN",
+    "OutKick (Fox News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#WorldSeries",
+    "#MLB",
+    "#Béisbol"
+  ],
+  "summary_es": "Un quinto episodio de ocho carreras selló el triunfo; Milwaukee lidera 3-0 y el cuarto juego es el martes.",
+  "summary_en": "An eight-run fifth inning sealed the win; Milwaukee leads 3-0 with Game 4 on Tuesday night.",
+  "highlight_es": "Brewers arrollan",
+  "highlight_en": "Brewers rout Rays",
+  "visual_label": "MLB",
+  "image_prompt": "Indoor baseball stadium under a domed roof at night, bright lights over a green field and empty dugout, a baseball and bat resting on home plate in the foreground, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 27.7682,
+      "lon": -82.6534,
+      "label": "San Petersburgo"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

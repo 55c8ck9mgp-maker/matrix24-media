@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-27T06:51:38Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261027-oleshky-ceasefire-takes-effect",
+  "category": "Security / Geopolitics",
+  "headline": "Local ceasefire brokered by Melania Trump takes effect in occupied Oleshky",
+  "headline_es": "Entra en vigor en Oleshky ocupada una tregua local mediada por Melania Trump",
+  "caption_en": "A localized ceasefire in Oleshky, a Russian-occupied town in Ukraine's Kherson region, took effect early on Tuesday after mediation by US First Lady Melania Trump. The pause is due to last through Saturday or longer so aid can reach up to about 2,000 residents, according to the UN. Negotiators said doctors, medicine, food and water will be brought in before evacuation corridors open.",
+  "caption_es": "Una tregua localizada en Oleshky, ciudad ocupada por Rusia en la región ucraniana de Jersón, entró en vigor la madrugada del martes tras la mediación de la primera dama de EE. UU., Melania Trump. La pausa durará hasta el sábado o más para que la ayuda llegue a unos 2.000 residentes, según la ONU. Los negociadores indicaron que médicos, medicinas, alimentos y agua llegarán antes de que se abran corredores de evacuación.",
+  "source_urls": [
+    "https://infonews.ca/news/7964191/local-ceasefire-brokered-by-melania-trump-starts-in-southern-ukraine-as-russia-attacks-other-areas/",
+    "https://www.aljazeera.com/news/2026/10/27/russia-halts-strikes-on-ukraines-kherson-as-oleshky-ceasefire-takes-effect"
+  ],
+  "source_names": [
+    "Associated Press (via iNFOnews)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Rusia",
+    "#Jersón"
+  ],
+  "summary_es": "La pausa, prevista hasta el sábado o más, busca llevar ayuda a unos 2.000 civiles atrapados antes de abrir corredores de evacuación.",
+  "summary_en": "The pause, due to last through Saturday or longer, aims to bring aid to about 2,000 trapped civilians before evacuations.",
+  "highlight_es": "tregua local",
+  "highlight_en": "Local ceasefire",
+  "visual_label": "Oleshky",
+  "image_prompt": "Convoy of white humanitarian aid trucks on a flat rural road along a wide river delta under an overcast sky, reed marshes and a distant small town, wide cinematic view, no people, no text, no logos or insignia",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 46.6167,
+      "lon": 32.7167,
+      "label": "Oleshky"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  }
+}
