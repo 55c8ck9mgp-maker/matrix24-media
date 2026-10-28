@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T18:52:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-fed-holds-rates-in-split-vote",
+  "category": "Economy",
+  "headline": "US Federal Reserve holds rates at 3.75%-4% in a 10-2 vote as two officials seek a hike",
+  "headline_es": "La Reserva Federal mantiene las tasas en 3,75%-4% en una votación dividida 10-2",
+  "caption_en": "The US Federal Reserve kept its benchmark rate at 3.75% to 4% on Wednesday, after raising it a quarter point in September, its first hike in about three years. Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented, both favouring another quarter-point increase. The Fed said the economy is expanding at a strong pace and that gathering more information will help set policy.",
+  "caption_es": "La Reserva Federal de EE. UU. mantuvo este miércoles su tasa de referencia entre el 3,75% y el 4%, tras subirla un cuarto de punto en septiembre, su primer aumento en unos tres años. La gobernadora Lisa Cook y la presidenta de la Fed de Cleveland, Beth Hammack, votaron en contra: ambas querían otra subida de un cuarto de punto. La Fed afirmó que la economía crece a un ritmo fuerte y que reunir más información ayudará a fijar la política.",
+  "source_urls": [
+    "https://fortune.com/2026/10/28/fed-rates-steady-midterms-october-3-75-to-4-percent-cook-hammack-dissent/",
+    "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html"
+  ],
+  "source_names": [
+    "Fortune",
+    "Yahoo Finance"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#FED",
+    "#Economía",
+    "#TasasDeInterés"
+  ],
+  "summary_es": "La Fed deja las tasas sin cambios tras la subida de septiembre. Dos miembros votaron por otro aumento de un cuarto de punto.",
+  "summary_en": "The Fed left rates unchanged after September's hike. Two members voted for another quarter-point increase.",
+  "highlight_es": "mantiene las tasas",
+  "highlight_en": "holds rates",
+  "visual_label": "Fed",
+  "image_prompt": "Classical marble central bank building with tall columns under a clear autumn sky, stacks of coins and a rising line chart symbolically in the foreground, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 38.89,
+      "lon": -77.04,
+      "label": "Washington"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

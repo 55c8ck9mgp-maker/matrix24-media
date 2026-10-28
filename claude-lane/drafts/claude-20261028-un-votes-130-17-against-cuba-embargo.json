@@ -1,0 +1,52 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T18:52:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-un-votes-130-17-against-cuba-embargo",
+  "category": "Colombia / Latin America",
+  "headline": "UN General Assembly votes 130-17 against the US embargo on Cuba, with less support than in 2025",
+  "headline_es": "La ONU vota 130-17 contra el embargo de EE. UU. a Cuba, con menos apoyo que en 2025",
+  "caption_en": "The UN General Assembly on Wednesday adopted a Cuban resolution calling for an end to the US embargo for the 34th time, by 130 votes to 17 with 25 abstentions. Last year the text drew about 165 votes in favour. The United States, whose ambassador Mike Waltz opposed the measure, had lobbied governments to change their votes; the resolution is not binding.",
+  "caption_es": "La Asamblea General de la ONU aprobó este miércoles, por 34.ª vez, una resolución cubana que pide el fin del embargo de EE. UU., con 130 votos a favor, 17 en contra y 25 abstenciones. El año pasado el texto recibió unos 165 votos a favor. Estados Unidos, cuyo embajador Mike Waltz se opuso a la medida, presionó a varios gobiernos para que cambiaran su voto; la resolución no es vinculante.",
+  "source_urls": [
+    "https://www.riotimesonline.com/cuba-un-general-assembly-votes-against-us-embargo",
+    "https://www.newslooks.com/un-rejects-us-embargo-on-cuba-for-34th-year-resolution-passes-130-17/",
+    "https://responsiblestatecraft.org/cuba-united-nations/"
+  ],
+  "source_names": [
+    "The Rio Times",
+    "Newslooks",
+    "Responsible Statecraft"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Cuba",
+    "#ONU",
+    "#Embargo"
+  ],
+  "summary_es": "Es la 34.ª condena de la Asamblea General al embargo. El apoyo cayó de unos 165 votos en 2025 a 130 tras la presión de Washington.",
+  "summary_en": "It is the Assembly's 34th condemnation of the embargo. Support fell from about 165 votes in 2025 to 130 after US lobbying.",
+  "highlight_es": "contra el embargo",
+  "highlight_en": "against the US embargo",
+  "visual_label": "Asamblea ONU",
+  "image_prompt": "Large circular assembly hall with rows of empty delegate desks and an electronic voting board glowing without readable text, soft light, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Cuba",
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 23.11,
+      "lon": -82.37,
+      "label": "La Habana"
+    },
+    "labels": {
+      "Cuba": "Cuba",
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

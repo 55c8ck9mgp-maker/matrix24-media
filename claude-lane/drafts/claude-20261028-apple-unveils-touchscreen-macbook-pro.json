@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T18:52:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-apple-unveils-touchscreen-macbook-pro",
+  "category": "Technology",
+  "headline": "Apple unveils its first touchscreen MacBook Pro with an OLED display, from $2,899",
+  "headline_es": "Apple presenta su primer MacBook Pro con pantalla táctil OLED, desde 2.899 dólares",
+  "caption_en": "Apple on Wednesday unveiled a redesigned MacBook Pro with an OLED touchscreen, its first laptop with a touch display. The 14-inch model weighs about three pounds and starts at $2,899 in the US, the highest starting price for a MacBook Pro.",
+  "caption_es": "Apple presentó este miércoles un MacBook Pro rediseñado con pantalla táctil OLED, su primer portátil con pantalla táctil. El modelo de 14 pulgadas pesa unas tres libras (1,4 kg) y parte de 2.899 dólares en EE. UU., el precio inicial más alto de un MacBook Pro.",
+  "source_urls": [
+    "https://gizmodo.com/macbook-pro-with-proled-xdr-display-2000831724",
+    "https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/"
+  ],
+  "source_names": [
+    "Gizmodo",
+    "Engadget"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Apple",
+    "#Tecnología",
+    "#MacBook"
+  ],
+  "summary_es": "Es el primer portátil de Apple con pantalla táctil. El modelo de 14 pulgadas pesa unos 1,4 kg y cuesta desde 2.899 dólares.",
+  "summary_en": "It is Apple's first touchscreen laptop. The 14-inch model weighs about three pounds and starts at $2,899.",
+  "highlight_es": "pantalla táctil OLED",
+  "highlight_en": "first touchscreen MacBook Pro",
+  "visual_label": "OLED táctil",
+  "image_prompt": "Sleek thin silver laptop with a bright glowing touchscreen on a minimalist desk, a soft ripple of light on the screen, studio lighting, close-up product view, no people, no text, no logos"
+}

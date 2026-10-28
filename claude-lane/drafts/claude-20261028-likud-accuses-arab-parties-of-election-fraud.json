@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T18:52:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-likud-accuses-arab-parties-of-election-fraud",
+  "category": "World",
+  "headline": "Netanyahu's Likud accuses Arab parties of 'stealing' Israel's election and demands a probe",
+  "headline_es": "El Likud de Netanyahu acusa a los partidos árabes de 'robar' las elecciones y pide investigar",
+  "caption_en": "Prime Minister Benjamin Netanyahu's Likud party on Wednesday accused Arab parties of stealing Tuesday's Knesset election through bribery, intimidation and ballot fraud. It said it would hand hundreds of testimonies to the police, the Shin Bet and the Central Elections Committee, and called for an immediate investigation.",
+  "caption_es": "El partido Likud del primer ministro Benjamin Netanyahu acusó este miércoles a los partidos árabes de robar las elecciones a la Knéset del martes mediante sobornos, intimidación y fraude electoral. Afirmó que entregará cientos de testimonios a la policía, al Shin Bet y al Comité Central Electoral, y pidió una investigación inmediata.",
+  "source_urls": [
+    "https://www.ynetnews.com/article/s1q6l51tmx",
+    "https://www.jpost.com/israel-election-2026/article-913133"
+  ],
+  "source_names": [
+    "Ynetnews",
+    "The Jerusalem Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Israel",
+    "#Elecciones",
+    "#Knesset"
+  ],
+  "summary_es": "El Likud dice que entregará cientos de testimonios a la policía, al Shin Bet y al Comité Electoral, y pide una investigación inmediata.",
+  "summary_en": "Likud says it will hand hundreds of testimonies to police, the Shin Bet and the elections committee, and wants an immediate probe.",
+  "highlight_es": "robar",
+  "highlight_en": "stealing",
+  "visual_label": "Recuento",
+  "image_prompt": "Sealed ballot envelopes stacked on a long table in an empty counting hall under fluorescent lights, a magnifying glass resting beside them, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Israel"
+    ],
+    "marker": {
+      "lat": 31.78,
+      "lon": 35.21,
+      "label": "Jerusalén"
+    },
+    "labels": {
+      "Israel": "Israel"
+    }
+  }
+}
