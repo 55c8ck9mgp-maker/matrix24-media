@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T13:04:14Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-putin-opens-russia-africa-summit",
+  "category": "Security / Geopolitics",
+  "headline": "Putin opens the third Russia-Africa summit in Moscow with 48 African nations",
+  "headline_es": "Putin inaugura en Moscú la tercera cumbre Rusia-África con 48 países africanos",
+  "caption_en": "Russian President Vladimir Putin opened a two-day Russia-Africa summit in Moscow on Wednesday, with delegations from 48 African countries. Putin said Africa should have a bigger say at the IMF and World Bank and that Russia is ready to increase grain and fertiliser supplies to the continent. It is the third such summit, after 2019 and 2023.",
+  "caption_es": "El presidente ruso, Vladímir Putin, inauguró el miércoles en Moscú una cumbre Rusia-África de dos días, con delegaciones de 48 países africanos. Putin dijo que África debería tener más peso en el FMI y el Banco Mundial y que Rusia está lista para aumentar sus envíos de grano y fertilizantes al continente. Es la tercera cumbre de este tipo, tras las de 2019 y 2023.",
+  "source_urls": [
+    "https://www.wsls.com/business/2026/10/28/putin-seeks-to-expand-ties-with-african-countries-at-russia-africa-summit/",
+    "https://www.aljazeera.com/news/2026/10/28/russia-africa-summit-what-is-on-the-agenda-and-why-does-it-matter"
+  ],
+  "source_names": [
+    "The Associated Press (via WSLS)",
+    "Al Jazeera"
+  ],
+  "hashtags": ["#MATRIX24", "#Rusia", "#África", "#Geopolítica"],
+  "summary_es": "Delegaciones de 48 países africanos asisten a la cumbre de dos días. Putin ofreció más grano y fertilizantes y pidió más peso para África en el FMI.",
+  "summary_en": "Delegations from 48 African countries attend the two-day summit. Putin offered more grain and fertiliser and backed a bigger African role at the IMF.",
+  "highlight_es": "cumbre Rusia-África",
+  "highlight_en": "Russia-Africa summit",
+  "visual_label": "Moscú",
+  "image_prompt": "Grand conference hall with a long row of empty chairs and small blank name plates on the desks, warm chandeliers, wide symmetrical view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 55.75, "lon": 37.62, "label": "Moscú"},
+    "labels": {"Russia": "Rusia"}
+  }
+}

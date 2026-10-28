@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T13:04:14Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-high-speed-train-crash-kills-30-in-spain",
+  "category": "World",
+  "headline": "High-speed train crash near Toledo, Spain, kills at least 30 people",
+  "headline_es": "Choque de trenes de alta velocidad cerca de Toledo, España, deja al menos 30 muertos",
+  "caption_en": "A Renfe high-speed train struck the rear of an Iryo train near Urda, in Spain's Toledo province, on Wednesday morning, derailing two cars on the Madrid-Seville line. Regional authorities said at least 30 people were killed and warned the toll could rise. The cause is not yet known, and rail service between Madrid and Andalusia was suspended.",
+  "caption_es": "Un tren de alta velocidad de Renfe chocó por detrás contra un tren de Iryo cerca de Urda, en la provincia de Toledo, España, la mañana del miércoles, y descarriló dos coches en la línea Madrid-Sevilla. Las autoridades regionales dijeron que al menos 30 personas murieron y advirtieron que la cifra podría aumentar. La causa aún se desconoce y se suspendió el servicio ferroviario entre Madrid y Andalucía.",
+  "source_urls": [
+    "https://www.cp24.com/news/world/2026/10/28/spain-train-crash-leaves-at-least-30-dead/",
+    "https://abc7ny.com/story/least-30-killed-train-collision-high-speed-line-spain/19989209/"
+  ],
+  "source_names": [
+    "The Associated Press (via CP24)",
+    "ABC News"
+  ],
+  "hashtags": ["#MATRIX24", "#España", "#Toledo", "#Tren"],
+  "summary_es": "Un tren de Renfe embistió por detrás a uno de Iryo en la línea Madrid-Sevilla. Hay al menos 30 muertos y la causa se investiga.",
+  "summary_en": "A Renfe train rammed the rear of an Iryo train on the Madrid-Seville line. At least 30 people died and the cause is unknown.",
+  "highlight_es": "al menos 30 muertos",
+  "highlight_en": "kills at least 30",
+  "visual_label": "Urda, Toledo",
+  "image_prompt": "Empty high-speed railway track crossing flat olive fields under a grey morning sky, overhead power lines and signal posts, emergency lights glowing faintly in the distance, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["Spain"],
+    "marker": {"lat": 39.41, "lon": -3.71, "label": "Urda"},
+    "labels": {"Spain": "España"}
+  }
+}
