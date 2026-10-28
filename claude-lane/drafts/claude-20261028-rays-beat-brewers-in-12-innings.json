@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T06:51:23Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-rays-beat-brewers-in-12-innings",
+  "category": "Sports",
+  "headline": "Rays beat Brewers 4-3 in 12 innings to avoid a World Series sweep",
+  "headline_es": "Los Rays vencen 4-3 a los Brewers en 12 entradas y evitan la barrida en la Serie Mundial",
+  "caption_en": "The Tampa Bay Rays beat the Milwaukee Brewers 4-3 in 12 innings in Game 4 of the World Series at Tropicana Field. After Cooper Pratt's homer put Milwaukee ahead in the top of the 12th, Tampa Bay tied it and pinch-hitter Ben Williamson singled in the winning run. Milwaukee still leads the series 3-1, with Game 5 on Wednesday night in St. Petersburg.",
+  "caption_es": "Los Tampa Bay Rays vencieron 4-3 a los Milwaukee Brewers en 12 entradas en el cuarto juego de la Serie Mundial en el Tropicana Field. Después de que un jonrón de Cooper Pratt adelantara a Milwaukee en la parte alta del 12.º, Tampa Bay empató y el bateador emergente Ben Williamson impulsó la carrera del triunfo con un sencillo. Milwaukee aún lidera la serie 3-1 y el quinto juego será el miércoles por la noche en San Petersburgo.",
+  "source_urls": [
+    "https://www.espn.com/mlb/story/_/id/50304403/rays-steal-game-4-extras-stay-alive-world-series",
+    "https://www.nbclosangeles.com/mlb/tampa-bay-rays-milwaukee-brewers-game-4-world-series/3962161/"
+  ],
+  "source_names": [
+    "ESPN",
+    "Associated Press (NBC Los Angeles)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#WorldSeries",
+    "#MLB",
+    "#Béisbol"
+  ],
+  "summary_es": "Un sencillo del emergente Ben Williamson en el 12.º episodio dio el triunfo a Tampa Bay; Milwaukee lidera 3-1.",
+  "summary_en": "Pinch-hitter Ben Williamson's single in the 12th won it for Tampa Bay; Milwaukee leads 3-1.",
+  "highlight_es": "evitan la barrida",
+  "highlight_en": "avoid a World Series sweep",
+  "visual_label": "MLB",
+  "image_prompt": "Indoor domed baseball stadium at night, bright lights over the infield, a baseball rolling past first base into the outfield grass, empty dugout, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 27.7682,
+      "lon": -82.6534,
+      "label": "San Petersburgo"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

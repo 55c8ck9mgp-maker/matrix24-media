@@ -1,0 +1,45 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T06:51:23Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-nordic-leaders-call-putin-on-ukraine",
+  "category": "Security / Geopolitics",
+  "headline": "Finland's and Norway's leaders call Putin, urging an end to the war in Ukraine",
+  "headline_es": "Los líderes de Finlandia y Noruega llaman a Putin para pedir el fin de la guerra en Ucrania",
+  "caption_en": "Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre held a rare phone call with Vladimir Putin, urging him to end the war in Ukraine and stressing de-escalation. Stubb called the talks frank and substantive. The Kremlin's readout said lasting peace requires Russia's legitimate interests to be fully considered. Russian, Ukrainian and US officials are due to meet in Abu Dhabi next month.",
+  "caption_es": "El presidente finlandés, Alexander Stubb, y el primer ministro noruego, Jonas Gahr Støre, mantuvieron una inusual llamada con Vladímir Putin para instarlo a poner fin a la guerra en Ucrania y subrayar la desescalada. Stubb calificó la conversación de franca y sustantiva. Según el Kremlin, una paz duradera exige tener plenamente en cuenta los intereses legítimos de Rusia. Funcionarios rusos, ucranianos y estadounidenses tienen previsto reunirse en Abu Dabi el próximo mes.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/27/finnish-and-norwegian-leaders-call-putin-urge-restart-of-peace-talks",
+    "https://www.abc.net.au/news/2026-10-28/putin-nordic-prime-ministers-phone-call-ukraine/107316960"
+  ],
+  "source_names": [
+    "Euronews",
+    "ABC News (Australia) / Reuters"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Diplomacia"
+  ],
+  "summary_es": "Stubb y Støre rompen con la práctica de Europa Occidental de evitar el contacto directo con el Kremlin y piden desescalada.",
+  "summary_en": "Stubb and Støre broke with the Western European practice of avoiding direct contact with the Kremlin and urged de-escalation.",
+  "highlight_es": "llaman a Putin",
+  "highlight_en": "call Putin",
+  "visual_label": "Diplomacia",
+  "image_prompt": "Two vintage desk telephones on a polished wooden table in a quiet government office, winter light through tall windows, snowy northern landscape outside, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Finland",
+      "Norway"
+    ],
+    "labels": {
+      "Finland": "Finlandia",
+      "Norway": "Noruega"
+    }
+  }
+}
