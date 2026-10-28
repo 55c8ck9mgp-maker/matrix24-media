@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T00:51:13Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-israel-exit-polls-show-no-majority",
+  "category": "World",
+  "headline": "Israel exit polls show neither Netanyahu's bloc nor the opposition with a majority",
+  "headline_es": "Los sondeos a pie de urna en Israel no dan mayoría ni a Netanyahu ni a la oposición",
+  "caption_en": "Exit polls from Israel's Channel 12 and Channel 13 after Tuesday's Knesset election give Netanyahu's bloc 50 seats and the opposition bloc 52 to 53, short of the 61 needed for a majority. Arab parties are projected to win 17 to 18 seats. Turnout reached about 74% by 8 p.m., the highest at that hour in decades; official results may differ and could take days.",
+  "caption_es": "Los sondeos a pie de urna de los canales israelíes 12 y 13 tras las elecciones a la Knéset del martes dan 50 escaños al bloque de Netanyahu y entre 52 y 53 al bloque opositor, lejos de los 61 necesarios para la mayoría. Se proyecta que los partidos árabes obtengan entre 17 y 18 escaños. La participación llegó a cerca del 74% a las 20:00, la más alta a esa hora en décadas; los resultados oficiales pueden diferir y tardar días.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/world/no-clear-winner-in-israeli-election-exit-polls-indicate-as-netanyahus-fate-hangs-in-the-balance",
+    "https://www.ynetnews.com/article/skd97fc2gl"
+  ],
+  "source_names": [
+    "Associated Press (via PBS NewsHour)",
+    "Ynetnews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Israel",
+    "#Elecciones",
+    "#Knesset"
+  ],
+  "summary_es": "El bloque de Netanyahu obtendría 50 escaños y la oposición 52-53, por debajo de los 61 de la mayoría. La participación fue la más alta en décadas.",
+  "summary_en": "Netanyahu's bloc is projected at 50 seats and the opposition at 52-53, short of the 61 needed. Turnout was the highest in decades.",
+  "highlight_es": "no dan mayoría",
+  "highlight_en": "with a majority",
+  "visual_label": "Knéset",
+  "image_prompt": "Modern parliament building at dusk with warm lights in the windows, an empty ballot box on a wooden table in the foreground, soft blue evening sky, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Israel"
+    ],
+    "marker": {
+      "lat": 31.78,
+      "lon": 35.21,
+      "label": "Jerusalén"
+    },
+    "labels": {
+      "Israel": "Israel"
+    }
+  }
+}

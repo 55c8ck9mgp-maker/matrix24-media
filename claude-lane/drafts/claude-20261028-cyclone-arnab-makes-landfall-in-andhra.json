@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T00:51:13Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-cyclone-arnab-makes-landfall-in-andhra",
+  "category": "Climate",
+  "headline": "Cyclone Arnab makes landfall in India's Andhra Pradesh with winds up to 135 km/h",
+  "headline_es": "El ciclón Arnab toca tierra en Andhra Pradesh, India, con vientos de hasta 135 km/h",
+  "caption_en": "Very severe Cyclone Arnab began making landfall on India's Andhra Pradesh coast early Wednesday after moving in from the Bay of Bengal. The India Meteorological Department forecast winds of up to 135 km/h with gusts of 150 km/h. No deaths had been reported, and authorities had prepared shelters and evacuations along the coast.",
+  "caption_es": "El ciclón muy severo Arnab comenzó a tocar tierra en la costa de Andhra Pradesh, India, la madrugada del miércoles tras avanzar desde el golfo de Bengala. El Departamento Meteorológico de India pronosticó vientos de hasta 135 km/h con ráfagas de 150 km/h. No se habían reportado muertes, y las autoridades habían preparado refugios y evacuaciones a lo largo de la costa.",
+  "source_urls": [
+    "https://wtaq.com/2026/10/27/cyclone-arnab-begins-making-landfall-in-indias-andhra-pradesh-state/",
+    "https://aninews.in/news/national/general-news/ap-cyclone-arnab-starts-making-landfall-near-yanam-says-cmo16020261028012223/"
+  ],
+  "source_names": [
+    "Reuters (via WTAQ)",
+    "ANI"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#India",
+    "#CiclónArnab",
+    "#Clima"
+  ],
+  "summary_es": "Arnab llegó a la costa con vientos de hasta 135 km/h y ráfagas de 150 km/h. No se han reportado muertes.",
+  "summary_en": "Arnab came ashore with winds up to 135 km/h and gusts of 150 km/h. No deaths have been reported.",
+  "highlight_es": "ciclón Arnab",
+  "highlight_en": "Cyclone Arnab",
+  "visual_label": "Ciclón Arnab",
+  "image_prompt": "Palm trees bending in fierce wind on a dark coastline at night, heavy rain and high waves crashing on an empty seawall, storm clouds lit faintly, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "India"
+    ],
+    "marker": {
+      "lat": 16.73,
+      "lon": 82.21,
+      "label": "Andhra Pradesh"
+    },
+    "labels": {
+      "India": "India"
+    }
+  }
+}

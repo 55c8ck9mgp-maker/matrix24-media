@@ -1,0 +1,45 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-28T00:51:13Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261028-flavio-bolsonaro-reportedly-leaves-brazil",
+  "category": "Colombia / Latin America",
+  "headline": "Flávio Bolsonaro reportedly leaves Brazil for the US despite a court travel ban",
+  "headline_es": "Flávio Bolsonaro habría salido de Brasil hacia EE. UU. pese a una prohibición judicial",
+  "caption_en": "Defeated Brazilian presidential candidate Flávio Bolsonaro reportedly left Brazil for the United States after Supreme Court Justice Alexandre de Moraes ordered him to surrender his passports and barred him from leaving the country. He did not hand over the documents by the deadline and his Brazilian passports were cancelled. Argentina said it had no record of his entry, and how he may have left remains unconfirmed.",
+  "caption_es": "El excandidato presidencial brasileño Flávio Bolsonaro habría viajado a Estados Unidos después de que el juez del Supremo Alexandre de Moraes le ordenara entregar sus pasaportes y le prohibiera salir del país. No entregó los documentos en el plazo fijado y sus pasaportes brasileños fueron cancelados. Argentina dijo no tener registro de su entrada, y la forma en que habría salido sigue sin confirmarse.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/27/brazilian-police-probe-claims-flavio-bolsonaro-fled-to-argentina-after-election-defeat",
+    "https://www.congressoemfoco.com.br/noticia/129303/flavio-bolsonaro-fugiu-do-brasil-para-os-eua-o-que-se-sabe-ate-agora"
+  ],
+  "source_names": [
+    "Euronews",
+    "Congresso em Foco"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#FlávioBolsonaro",
+    "#Política"
+  ],
+  "summary_es": "El juez Moraes le ordenó entregar sus pasaportes y le prohibió salir del país. Informes indican que viajó a EE. UU.; Argentina dice no tener registro de su entrada.",
+  "summary_en": "Justice Moraes ordered him to hand over his passports and barred him from leaving. Reports say he went to the US; Argentina says it has no record of his entry.",
+  "highlight_es": "Flávio Bolsonaro",
+  "highlight_en": "Flávio Bolsonaro",
+  "visual_label": "Brasil",
+  "image_prompt": "Private jet parked on a quiet airport apron at dawn near a lush subtropical border region, an empty passport control booth in the foreground, misty green hills, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Brazil",
+      "United States of America"
+    ],
+    "labels": {
+      "Brazil": "Brasil",
+      "United States of America": "Estados Unidos"
+    }
+  }
+}
