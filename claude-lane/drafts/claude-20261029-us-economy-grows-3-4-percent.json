@@ -1,0 +1,34 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T18:53:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-us-economy-grows-3-4-percent",
+  "category": "Economy",
+  "headline": "US economy grows at a 3.4% annual pace in the third quarter, beating forecasts",
+  "headline_es": "La economía de EE. UU. crece a un ritmo anual del 3,4% en el tercer trimestre",
+  "caption_en": "The US economy expanded at a 3.4% annualized rate from July to September, faster than economists had forecast, according to the Commerce Department's first estimate on Thursday. Consumer spending rose at a 3.8% pace, and business investment linked to artificial intelligence also supported growth.",
+  "caption_es": "La economía de Estados Unidos creció a una tasa anualizada del 3,4% entre julio y septiembre, más rápido de lo que preveían los economistas, según la primera estimación del Departamento de Comercio publicada el jueves. El gasto de los consumidores aumentó a un ritmo del 3,8% y la inversión empresarial vinculada a la inteligencia artificial también impulsó el crecimiento.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/economy/u-s-economy-grows-at-brisk-3-4-pace-in-third-quarter-on-strong-consumer-spending-and-ai-investment",
+    "https://www.business-standard.com/world-news/us-economy-expands-3-4-in-q3-as-consumer-spending-ai-investment-rise-126102901542_1.html"
+  ],
+  "source_names": [
+    "Associated Press (via PBS NewsHour)",
+    "Reuters (via Business Standard)"
+  ],
+  "hashtags": ["#MATRIX24", "#EEUU", "#PIB", "#Economía"],
+  "summary_es": "El gasto de los consumidores subió a un ritmo del 3,8% y la inversión ligada a la IA también impulsó el crecimiento.",
+  "summary_en": "Consumer spending rose at a 3.8% pace, and AI-related business investment also boosted growth.",
+  "highlight_es": "3,4%",
+  "highlight_en": "3.4%",
+  "visual_label": "PIB EE. UU.",
+  "image_prompt": "Busy container port and city skyline at sunrise with a rising line graph made of light across the sky, data center buildings in the distance, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["United States of America"],
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

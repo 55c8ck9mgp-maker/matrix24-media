@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T18:53:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-ecb-holds-deposit-rate-at-2-5",
+  "category": "Economy",
+  "headline": "European Central Bank holds its key rate at 2.5% as energy prices keep rising",
+  "headline_es": "El Banco Central Europeo mantiene su tipo clave en el 2,5% mientras sube la energía",
+  "caption_en": "The European Central Bank left its key interest rate unchanged at 2.5% on Thursday, as economists had expected. The bank said rising energy prices pose upside risks to inflation and downside risks to growth, and that financing conditions have tightened since its previous meeting. Most economists expect one more rate hike in December.",
+  "caption_es": "El Banco Central Europeo dejó su tipo de interés clave sin cambios en el 2,5% el jueves, como esperaban los economistas. La entidad señaló que la subida de los precios de la energía supone riesgos al alza para la inflación y a la baja para el crecimiento, y que las condiciones de financiación se han endurecido desde su reunión anterior. La mayoría de los economistas espera una subida más de tipos en diciembre.",
+  "source_urls": [
+    "https://www.investing.com/news/economy-news/ecb-keeps-rates-steady-as-president-lagarde-annouces-departure-4983923",
+    "https://www.manilatimes.net/2026/10/29/world/americas-emea/ecb-holds-rates-steady-after-lagarde-says-to-quit-early/2457506"
+  ],
+  "source_names": [
+    "Investing.com",
+    "AFP (via The Manila Times)"
+  ],
+  "hashtags": ["#MATRIX24", "#BCE", "#ECB", "#Economía", "#Eurozona"],
+  "summary_es": "El BCE advierte que el encarecimiento de la energía presiona la inflación y frena el crecimiento.",
+  "summary_en": "The ECB warns that rising energy costs push inflation up and weigh on growth.",
+  "highlight_es": "2,5%",
+  "highlight_en": "2.5%",
+  "visual_label": "BCE",
+  "image_prompt": "Modern glass bank tower beside a river at dusk, a stylized gauge dial and stacked euro coins in the foreground, cool blue and amber light, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["Germany"],
+    "marker": {"lat": 50.1109, "lon": 8.6821, "label": "Fráncfort"},
+    "labels": {"Germany": "Alemania"}
+  }
+}
