@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T00:51:58Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-microsoft-azure-revenue-tops-33-billion",
+  "category": "Technology",
+  "headline": "Microsoft's Azure cloud revenue grows 48% to $33.2 billion, beating estimates",
+  "headline_es": "Los ingresos de Azure, la nube de Microsoft, crecen un 48% hasta 33.200 millones de dólares",
+  "caption_en": "Microsoft said revenue from its Azure cloud business rose 48% to about $33.2 billion in the July-September quarter, above what analysts had expected. Azure is the company's main cloud computing platform, and its results are closely watched as a gauge of demand for artificial intelligence services.",
+  "caption_es": "Microsoft informó que los ingresos de su negocio de nube Azure aumentaron un 48%, hasta unos 33.200 millones de dólares, en el trimestre de julio a septiembre, por encima de lo que esperaban los analistas. Azure es la principal plataforma de computación en la nube de la empresa, y sus resultados se siguen de cerca como indicador de la demanda de servicios de inteligencia artificial.",
+  "source_urls": [
+    "https://investing.com/news/stock-market-news/microsoft-beats-quarterly-cloud-revenue-estimates-4980616",
+    "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+  ],
+  "source_names": [
+    "Reuters",
+    "TechCrunch"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Microsoft",
+    "#Azure",
+    "#Nube",
+    "#IA"
+  ],
+  "summary_es": "Azure crece un 48% hasta unos 33.200 millones de dólares en el trimestre, por encima de las previsiones de los analistas.",
+  "summary_en": "Azure grew 48% to about $33.2 billion in the quarter, above analysts' forecasts.",
+  "highlight_es": "crecen un 48%",
+  "highlight_en": "grows 48%",
+  "visual_label": "Azure",
+  "image_prompt": "Aerial view of a large modern data center campus with cooling towers and solar panels at dusk, glowing windows, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}
