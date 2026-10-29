@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T13:03:31Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-lagarde-to-leave-ecb-in-february",
+  "category": "Economy",
+  "headline": "Christine Lagarde will step down as ECB president on February 7, 2027, months early",
+  "headline_es": "Christine Lagarde dejará la presidencia del BCE el 7 de febrero de 2027, meses antes de tiempo",
+  "caption_en": "European Central Bank President Christine Lagarde announced on Thursday that she will step down on February 7, 2027, about nine months before her eight-year term was due to end in October 2027. European Council President António Costa said the process to choose her successor starts immediately. Former Dutch central bank head Klaas Knot and Pablo Hernández de Cos are named as leading candidates.",
+  "caption_es": "La presidenta del Banco Central Europeo, Christine Lagarde, anunció el jueves que dejará el cargo el 7 de febrero de 2027, unos nueve meses antes de que terminara su mandato de ocho años en octubre de 2027. El presidente del Consejo Europeo, António Costa, dijo que el proceso para elegir a su sucesor comienza de inmediato. El exjefe del banco central neerlandés Klaas Knot y Pablo Hernández de Cos figuran entre los principales candidatos.",
+  "source_urls": [
+    "https://www.boston25news.com/news/business/european-central/IPPJO4DSR4ZVXHDCDTTZWCWFUY/",
+    "https://www.thenationalnews.com/news/europe/2026/10/29/ecb-president-christine-lagarde-resigns-after-months-of-speculation/"
+  ],
+  "source_names": [
+    "Associated Press (via Boston 25 News)",
+    "The National"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#BCE",
+    "#ECB",
+    "#Economía"
+  ],
+  "summary_es": "Su mandato terminaba en octubre de 2027. La UE inicia de inmediato la búsqueda de sucesor.",
+  "summary_en": "Her term was due to end in October 2027. The EU starts the search for a successor immediately.",
+  "highlight_es": "7 de febrero de 2027",
+  "highlight_en": "February 7, 2027",
+  "visual_label": "BCE",
+  "image_prompt": "Modern glass central bank skyscraper on a river skyline at dawn, euro coins on a desk in the foreground, soft blue light, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Germany"
+    ],
+    "marker": {
+      "lat": 50.1109,
+      "lon": 8.6821,
+      "label": "Fráncfort"
+    },
+    "labels": {
+      "Germany": "Alemania"
+    }
+  }
+}

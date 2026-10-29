@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T13:03:31Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-drone-strike-on-dnipro-station-kills-13",
+  "category": "Security / Geopolitics",
+  "headline": "Russian drone strike on a train at Dnipro railway station kills at least 13",
+  "headline_es": "Ataque ruso con dron contra un tren en la estación de Dnipró mata al menos a 13 personas",
+  "caption_en": "A Russian jet-powered drone hit a platform at the railway station in Dnipro, Ukraine, on Thursday morning, where a passenger train was preparing to leave for Zaporizhzhia. Ukrainian authorities said at least 13 people were killed and at least five wounded. Ukrainian Railways said many people remained on the platform despite an air raid alert and warnings of a heightened threat.",
+  "caption_es": "Un dron ruso de propulsión a reacción impactó el jueves por la mañana un andén de la estación de tren de Dnipró, en Ucrania, donde un tren de pasajeros se preparaba para partir hacia Zaporiyia. Las autoridades ucranianas informaron de al menos 13 muertos y al menos cinco heridos. Ferrocarriles de Ucrania dijo que muchas personas permanecían en el andén pese a la alerta antiaérea y los avisos de amenaza elevada.",
+  "source_urls": [
+    "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/",
+    "https://www.trtworld.com/article/d070200d8ec4"
+  ],
+  "source_names": [
+    "The Kyiv Independent",
+    "TRT World"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Dnipro",
+    "#Ukraine"
+  ],
+  "summary_es": "El dron alcanzó un andén donde esperaba un tren de pasajeros con destino a Zaporiyia; hay al menos cinco heridos.",
+  "summary_en": "The drone hit a platform where a passenger train bound for Zaporizhzhia was waiting; at least five were wounded.",
+  "highlight_es": "Dnipró",
+  "highlight_en": "Dnipro railway station",
+  "visual_label": "Dnipró",
+  "image_prompt": "Empty railway platform at dusk with a stationary passenger train under overhead power lines, grey smoky sky in the distance, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "label": "Dnipró"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  }
+}

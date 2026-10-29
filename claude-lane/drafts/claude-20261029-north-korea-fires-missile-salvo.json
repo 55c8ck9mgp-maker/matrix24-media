@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T13:03:31Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-north-korea-fires-missile-salvo",
+  "category": "Security / Geopolitics",
+  "headline": "North Korea fires about 10 short-range ballistic missiles from the Wonsan area",
+  "headline_es": "Corea del Norte dispara unos 10 misiles balísticos de corto alcance desde la zona de Wonsan",
+  "caption_en": "South Korea's Joint Chiefs of Staff said North Korea launched around 10 short-range ballistic missiles from the Wonsan area on its east coast on Thursday, each flying about 250 km toward the sea. Seoul said it is analysing the launch with the United States. The salvo came about a week after South Korea proposed military talks with Pyongyang amid tensions over the border.",
+  "caption_es": "El Estado Mayor Conjunto de Corea del Sur informó que Corea del Norte lanzó el jueves alrededor de 10 misiles balísticos de corto alcance desde la zona de Wonsan, en su costa este, que volaron unos 250 km cada uno hacia el mar. Seúl dijo que analiza el lanzamiento junto con Estados Unidos. La andanada llegó alrededor de una semana después de que Corea del Sur propusiera conversaciones militares a Pionyang en medio de tensiones en la frontera.",
+  "source_urls": [
+    "https://www.ksat.com/news/world/2026/10/29/north-korea-fires-missile-barrage-toward-the-sea-as-tensions-with-south-rise/",
+    "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261029/n-korea-fires-nearly-dozen-ballistic-missiles-after-s-koreas-dialogue-offer"
+  ],
+  "source_names": [
+    "Associated Press (via KSAT)",
+    "The Korea Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CoreaDelNorte",
+    "#NorthKorea",
+    "#Misiles"
+  ],
+  "summary_es": "Los misiles volaron unos 250 km hacia el mar. Seúl y Washington analizan el lanzamiento.",
+  "summary_en": "The missiles flew about 250 km toward the sea. Seoul and Washington are analysing the launch.",
+  "highlight_es": "10 misiles balísticos",
+  "highlight_en": "10 short-range ballistic missiles",
+  "visual_label": "Wonsan",
+  "image_prompt": "Calm grey sea at midday seen from a rocky coastline, faint missile contrails arcing across a hazy sky toward the horizon, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "North Korea",
+      "South Korea"
+    ],
+    "marker": {
+      "lat": 39.15,
+      "lon": 127.44,
+      "label": "Wonsan"
+    },
+    "labels": {
+      "North Korea": "Corea del Norte",
+      "South Korea": "Corea del Sur"
+    }
+  }
+}
