@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T06:52:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-haiti-postpones-elections-to-july-2027",
+  "category": "Colombia / Latin America",
+  "headline": "Haiti postpones its presidential and legislative elections to July 18, 2027",
+  "headline_es": "Haití aplaza sus elecciones presidenciales y legislativas al 18 de julio de 2027",
+  "caption_en": "Haiti's Provisional Electoral Council published a new calendar moving the first round of presidential and legislative elections to July 18, 2027, with a runoff on October 4, 2027. The vote had been scheduled for December 13, 2026. The country is going through a prolonged political and security crisis driven by gang violence.",
+  "caption_es": "El Consejo Electoral Provisional de Haití publicó un nuevo calendario que traslada la primera vuelta de las elecciones presidenciales y legislativas al 18 de julio de 2027, con una segunda vuelta el 4 de octubre de 2027. Los comicios estaban previstos para el 13 de diciembre de 2026. El país atraviesa una prolongada crisis política y de seguridad marcada por la violencia de las pandillas.",
+  "source_urls": [
+    "https://www.infobae.com/america/agencias/2026/10/29/haiti-aplaza-de-nuevo-las-elecciones-presidenciales-y-legislativas-al-18-de-julio-de-2027/",
+    "https://www.bloomberglinea.com/mundo/haiti-aplaza-sus-elecciones-presidenciales-y-legislativas-para-julio-de-2027/"
+  ],
+  "source_names": [
+    "EFE (via Infobae)",
+    "Bloomberg Línea"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Haití",
+    "#Elecciones",
+    "#Caribe"
+  ],
+  "summary_es": "La primera vuelta pasa del 13 de diciembre de 2026 al 18 de julio de 2027; la segunda vuelta será el 4 de octubre de 2027.",
+  "summary_en": "The first round moves from Dec. 13, 2026 to July 18, 2027, with a runoff on Oct. 4, 2027.",
+  "highlight_es": "18 de julio de 2027",
+  "highlight_en": "July 18, 2027",
+  "visual_label": "Haití",
+  "image_prompt": "Empty wooden ballot box on a table in a sunlit Caribbean schoolroom with shuttered windows, a calendar page on the wall, warm muted tones, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Haiti"
+    ],
+    "marker": {
+      "lat": 18.594,
+      "lon": -72.307,
+      "label": "Puerto Príncipe"
+    },
+    "labels": {
+      "Haiti": "Haití"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T06:52:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-samsung-posts-record-quarterly-profit",
+  "category": "Technology",
+  "headline": "Samsung posts a record 107.4 trillion won quarterly operating profit on AI chip demand",
+  "headline_es": "Samsung logra un beneficio operativo récord de 107,4 billones de wones gracias a los chips de IA",
+  "caption_en": "Samsung Electronics reported a record operating profit of 107.4 trillion won for the July-September quarter, nearly nine times the level of a year earlier, on strong demand for AI memory chips. Revenue reached about 195.3 trillion won, and its semiconductor business generated about 106 trillion won of the profit. The company announced a 30 trillion won third-quarter dividend.",
+  "caption_es": "Samsung Electronics registró un beneficio operativo récord de 107,4 billones de wones en el trimestre de julio a septiembre, casi nueve veces más que un año antes, impulsado por la fuerte demanda de chips de memoria para inteligencia artificial. Los ingresos alcanzaron unos 195,3 billones de wones, y su negocio de semiconductores generó unos 106 billones de wones de ese beneficio. La empresa anunció un dividendo de 30 billones de wones para el tercer trimestre.",
+  "source_urls": [
+    "https://news.sbs.co.kr/english/article.do?news_id=N1008820944",
+    "https://en.sedaily.com/finance/2026/10/29/samsung-posts-record-107-trillion-won-profit-on-chip-boom",
+    "https://srnnews.com/samsung-posts-record-profit-in-q3-on-ai-chip-boom/"
+  ],
+  "source_names": [
+    "SBS News",
+    "Seoul Economic Daily",
+    "Reuters (via SRN News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Samsung",
+    "#Chips",
+    "#IA",
+    "#Corea"
+  ],
+  "summary_es": "Beneficio operativo de 107,4 billones de wones, casi nueve veces más que hace un año; los chips aportan unos 106 billones.",
+  "summary_en": "Operating profit of 107.4 trillion won, nearly nine times a year earlier; chips contributed about 106 trillion won.",
+  "highlight_es": "beneficio operativo récord",
+  "highlight_en": "record 107.4 trillion won",
+  "visual_label": "Chips de IA",
+  "image_prompt": "Close-up of a silicon wafer with glowing memory chip patterns inside a clean semiconductor fab, blue and violet light, robotic arm in soft focus, cinematic macro view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "South Korea"
+    ],
+    "labels": {
+      "South Korea": "Corea del Sur"
+    }
+  }
+}

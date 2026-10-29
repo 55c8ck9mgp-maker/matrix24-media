@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-29T06:52:30Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261029-cuauhtemoc-cardenas-dies-at-92",
+  "category": "Colombia / Latin America",
+  "headline": "Cuauhtémoc Cárdenas, historic leader of the Mexican left, dies at 92",
+  "headline_es": "Muere a los 92 años Cuauhtémoc Cárdenas, líder histórico de la izquierda mexicana",
+  "caption_en": "Cuauhtémoc Cárdenas, a founder of Mexico's Democratic Revolution Party (PRD) and three-time presidential candidate, has died at 92. The son of President Lázaro Cárdenas, he first ran for president in 1988, and in 1997 became the first elected head of government of Mexico City. He left the PRD in 2014.",
+  "caption_es": "Cuauhtémoc Cárdenas, fundador del Partido de la Revolución Democrática (PRD) de México y tres veces candidato presidencial, murió a los 92 años. Hijo del presidente Lázaro Cárdenas, se postuló por primera vez a la presidencia en 1988, y en 1997 se convirtió en el primer jefe de gobierno electo de la Ciudad de México. Dejó el PRD en 2014.",
+  "source_urls": [
+    "https://www.ksat.com/news/world/2026/10/29/cuauhtemoc-cardenas-historic-mexican-politician-and-former-presidential-candidate-dies-at-92/",
+    "https://www.univision.com/noticias/america-latina/muere-cuauhtemoc-cardenas-muere-a-los-92-anos-el-historico-lider-de-la-izquierda-mexicana"
+  ],
+  "source_names": [
+    "Associated Press (via KSAT)",
+    "Univision"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#México",
+    "#CuauhtémocCárdenas",
+    "#PRD"
+  ],
+  "summary_es": "Fundador del PRD, tres veces candidato presidencial y primer jefe de gobierno electo de la Ciudad de México en 1997.",
+  "summary_en": "PRD founder, three-time presidential candidate and Mexico City's first elected head of government in 1997.",
+  "highlight_es": "Cuauhtémoc Cárdenas",
+  "highlight_en": "Cuauhtémoc Cárdenas",
+  "visual_label": "México",
+  "image_prompt": "Historic colonial plaza in central Mexico City at dusk with a large empty square, soft golden light on stone facades, a single white flower bouquet on a bench in the foreground, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Mexico"
+    ],
+    "marker": {
+      "lat": 19.433,
+      "lon": -99.133,
+      "label": "Ciudad de México"
+    },
+    "labels": {
+      "Mexico": "México"
+    }
+  }
+}
