@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-kospi-plunges-nearly-5-percent",
+  "status": "draft",
+  "created_at": "2026-10-30T06:51:13Z",
+  "category": "Economy",
+  "headline": "South Korea's KOSPI plunges nearly 5%, triggering a trading curb, as AI doubts grow",
+  "headline_es": "El KOSPI de Corea del Sur se desploma casi un 5% y activa un freno bursátil",
+  "caption_en": "South Korea's main stock index, the KOSPI, fell about 4.7% in Friday morning trading to around 5,660 points, prompting the Korea Exchange to activate a sell-side sidecar that paused program trading for five minutes. The slide followed Wall Street losses and renewed doubts about the AI boom after Alphabet's shares fell more than 12% on weaker-than-expected revenue.",
+  "caption_es": "El principal índice bursátil de Corea del Sur, el KOSPI, cayó cerca de un 4,7% en la mañana del viernes, hasta unos 5.660 puntos, y la Bolsa de Corea activó un mecanismo 'sidecar' que suspendió durante cinco minutos las órdenes de venta programadas. La caída siguió a las pérdidas de Wall Street y a nuevas dudas sobre el auge de la IA, después de que las acciones de Alphabet se hundieran más de un 12% por ingresos inferiores a lo esperado.",
+  "summary_es": "La Bolsa de Corea suspendió cinco minutos las ventas programadas. Las dudas sobre la IA golpean a los mercados de Asia.",
+  "summary_en": "The Korea Exchange paused program selling for five minutes as doubts about the AI boom hit Asian markets.",
+  "highlight_es": "casi un 5%",
+  "highlight_en": "nearly 5%",
+  "visual_label": "KOSPI",
+  "image_prompt": "Modern stock exchange trading floor at night with large screens showing red downward line charts, empty desks, Seoul-style skyline glowing through tall windows, tense cinematic atmosphere, no readable text",
+  "map": {
+    "focus": ["South Korea"],
+    "marker": {"lat": 37.52, "lon": 126.93, "label": "Seúl"},
+    "labels": {"South Korea": "Corea del Sur"}
+  },
+  "source_urls": [
+    "https://www.koreaherald.com/article/10920190",
+    "https://en.sedaily.com/news/2026/10/30/kospi-plunges-nearly-5-percent-triggering-sell-side-sidecar"
+  ],
+  "source_names": ["The Korea Herald", "Seoul Economic Daily"],
+  "hashtags": ["#MATRIX24", "#KOSPI", "#CoreaDelSur", "#Bolsa", "#Mercados"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

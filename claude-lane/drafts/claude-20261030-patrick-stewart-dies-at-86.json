@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-patrick-stewart-dies-at-86",
+  "status": "draft",
+  "created_at": "2026-10-30T06:51:13Z",
+  "category": "World",
+  "headline": "Patrick Stewart, Star Trek's Captain Picard and X-Men's Professor X, dies at 86",
+  "headline_es": "Muere a los 86 años Patrick Stewart, el capitán Picard de Star Trek y el Profesor X",
+  "caption_en": "British actor Patrick Stewart has died at 86, according to a statement posted on his social media accounts on Thursday. He was known worldwide as Captain Jean-Luc Picard in Star Trek: The Next Generation and Star Trek: Picard, and as Professor Charles Xavier in the X-Men films. A Shakespearean stage actor, he is also due to appear in Avengers: Doomsday in December.",
+  "caption_es": "El actor británico Patrick Stewart murió a los 86 años, según un comunicado publicado el jueves en sus redes sociales. Fue conocido en todo el mundo como el capitán Jean-Luc Picard en Star Trek: La nueva generación y Star Trek: Picard, y como el profesor Charles Xavier en las películas de X-Men. Actor de teatro shakespeariano, también aparecerá en Avengers: Doomsday en diciembre.",
+  "summary_es": "El actor británico fue el capitán Jean-Luc Picard en Star Trek y el profesor Charles Xavier en X-Men. Su muerte se anunció en sus redes sociales.",
+  "summary_en": "The British actor played Captain Jean-Luc Picard in Star Trek and Professor Charles Xavier in X-Men. His death was announced on his social media.",
+  "highlight_es": "Patrick Stewart",
+  "highlight_en": "Patrick Stewart",
+  "visual_label": "Star Trek",
+  "image_prompt": "Empty theatre stage with a single spotlight on red velvet curtains, a starfield visible through a large window behind the stage, soft melancholic lighting, elegant tribute atmosphere, no people",
+  "source_urls": [
+    "https://abcnews.com/GMA/Culture/star-trek-star-patrick-stewart-dies-86/story?id=137684409",
+    "https://gizmodo.com/patrick-stewart-death-obituary-2000832670"
+  ],
+  "source_names": ["ABC News", "Gizmodo"],
+  "hashtags": ["#MATRIX24", "#PatrickStewart", "#StarTrek", "#XMen"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

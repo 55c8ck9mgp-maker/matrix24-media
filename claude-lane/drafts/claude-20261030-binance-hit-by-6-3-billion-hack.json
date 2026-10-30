@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-binance-hit-by-6-3-billion-hack",
+  "status": "draft",
+  "created_at": "2026-10-30T06:51:13Z",
+  "category": "Technology",
+  "headline": "Binance says about $6.3 billion was stolen in the largest crypto hack on record",
+  "headline_es": "Binance dice que le robaron unos 6.300 millones de dólares en el mayor hackeo cripto",
+  "caption_en": "Binance, the world's largest crypto exchange, says about $6.3 billion in assets was stolen and suspended withdrawals. Blockchain firm TRM linked the attack with high confidence to North Korea's TraderTraitor hacking unit. Binance says user funds are safe and it will cover all losses; about $3 billion has been frozen, and bitcoin fell around 5% to below $77,000.",
+  "caption_es": "Binance, la mayor plataforma de criptomonedas del mundo, afirma que le robaron activos por unos 6.300 millones de dólares y suspendió los retiros. La firma de análisis blockchain TRM atribuyó con alta confianza el ataque a TraderTraitor, la unidad de hackers de Corea del Norte. Binance asegura que los fondos de los usuarios están a salvo y que cubrirá todas las pérdidas; unos 3.000 millones fueron congelados y el bitcóin cayó cerca de un 5%, por debajo de 77.000 dólares.",
+  "summary_es": "Binance suspendió los retiros tras el robo. TRM vincula el ataque con Corea del Norte; la empresa promete cubrir todas las pérdidas.",
+  "summary_en": "Binance suspended withdrawals after the theft. TRM links the attack to North Korea; the exchange pledges to cover all losses.",
+  "highlight_es": "6.300 millones",
+  "highlight_en": "$6.3 billion",
+  "visual_label": "Binance",
+  "image_prompt": "Dark server room with rows of glowing racks, a large digital padlock symbol cracked open and streams of abstract gold coin icons flowing out into darkness, cool blue and amber light, cinematic wide view",
+  "source_urls": [
+    "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue",
+    "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+  ],
+  "source_names": ["Al Jazeera", "CoinDesk"],
+  "hashtags": ["#MATRIX24", "#Binance", "#Crypto", "#Ciberseguridad", "#Bitcoin"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
