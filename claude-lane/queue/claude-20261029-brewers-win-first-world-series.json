@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261029-brewers-win-first-world-series",
+  "created_at": "2026-10-29T06:52:30Z",
+  "category": "Sports",
+  "headline": "Milwaukee Brewers beat Rays 4-1 to win the first World Series title in franchise history",
+  "headline_es": "Los Brewers de Milwaukee vencen 4-1 a los Rays y ganan su primera Serie Mundial",
+  "caption_es": "Los Brewers de Milwaukee vencieron 4-1 a los Rays de Tampa Bay en el quinto juego, en el Tropicana Field, y ganaron la Serie Mundial, el primer campeonato de la historia de la franquicia. El abridor Jacob Misiorowski lanzó 5 2/3 entradas sin permitir carreras, y el receptor William Contreras, que conectó un doble remolcador en el partido, fue elegido Jugador Más Valioso de la Serie Mundial. La única aparición anterior de Milwaukee en una Serie Mundial fue en 1982.",
+  "caption_en": "The Milwaukee Brewers beat the Tampa Bay Rays 4-1 in Game 5 at Tropicana Field to win the World Series, the first championship in the franchise's history. Starter Jacob Misiorowski threw 5 2/3 scoreless innings, and catcher William Contreras, who hit an RBI double in the game, was named World Series MVP. Milwaukee's only previous World Series appearance was in 1982.",
+  "source_urls": [
+    "https://abc7.com/post/milwaukee-brewers-win-1st-world-series-title-franchise-history-beating-tampa-bay-rays/19988093/",
+    "https://www.wpr.org/news/milwaukee-brewers-win-first-ever-world-series-title",
+    "https://www.tsn.ca/mlb/article/brewers-conteras-named-world-series-mvp/"
+  ],
+  "source_names": [
+    "Associated Press (via ABC7)",
+    "Wisconsin Public Radio",
+    "TSN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#WorldSeries",
+    "#Brewers",
+    "#MLB",
+    "#Béisbol"
+  ],
+  "summary_es": "Milwaukee gana 4-1 el quinto juego en St. Petersburg y conquista su primer título. William Contreras es elegido MVP de la Serie.",
+  "summary_en": "Milwaukee wins Game 5 4-1 in St. Petersburg for its first title. Catcher William Contreras is named Series MVP.",
+  "highlight_es": "primera Serie Mundial",
+  "highlight_en": "first World Series title",
+  "image_prompt": "Empty baseball stadium infield at night under bright floodlights, confetti drifting over the diamond, a trophy-shaped silhouette of light in the sky, wide cinematic view, no people, no text, no logos",
+  "visual_label": "Serie Mundial",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 27.768,
+      "lon": -82.653,
+      "label": "St. Petersburg"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-10-30T03:12:38.450Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
