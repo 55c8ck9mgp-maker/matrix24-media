@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-30T00:52:22Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261030-ecuador-extradites-villavicencio-case-suspect",
+  "category": "Colombia / Latin America",
+  "headline": "Ecuador extradites to the US the alleged mastermind of Villavicencio's assassination",
+  "headline_es": "Ecuador extradita a EE.UU. al presunto autor intelectual del asesinato de Villavicencio",
+  "caption_en": "Ecuador extradited Daniel Salcedo, Ronald Herrera and Los Choneros figure Francisco Bermúdez, alias 'Churrón', to the United States on Thursday, President Daniel Noboa announced. Salcedo is prosecuted in Ecuador as an alleged mastermind of the 2023 killing of presidential candidate Fernando Villavicencio and faces drug trafficking and money laundering charges in New York. Ecuador has extradited nine people to the US since 2025.",
+  "caption_es": "Ecuador extraditó el jueves a Estados Unidos a Daniel Salcedo, Ronald Herrera y Francisco Bermúdez, alias 'Churrón', de Los Choneros, anunció el presidente Daniel Noboa. Salcedo es procesado en Ecuador como presunto autor intelectual del asesinato del candidato presidencial Fernando Villavicencio en 2023 y enfrenta en Nueva York cargos por narcotráfico y lavado de dinero. Ecuador ha extraditado a nueve personas a EE.UU. desde 2025.",
+  "source_urls": [
+    "https://www.eluniverso.com/politica/seguridad/ecuador-ya-suma-nueve-extraditados-a-ee-uu-desde-2025-quienes-son-y-de-que-los-acusa-la-justicia-estadounidense-nota/",
+    "https://www.diariolasamericas.com/america-latina/ecuador-extradita-eeuu-al-presunto-autor-intelectual-del-magnicidio-fernando-villavicencio-n5404453"
+  ],
+  "source_names": [
+    "El Universo",
+    "Diario Las Américas (con EFE)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ecuador",
+    "#Villavicencio",
+    "#Extradición"
+  ],
+  "summary_es": "También fueron enviados Ronald Herrera y alias 'Churrón', de Los Choneros. Ya son nueve los extraditados a EE.UU. desde 2025.",
+  "summary_en": "Ronald Herrera and Los Choneros figure 'Churrón' were also sent. Nine people have been extradited to the US since 2025.",
+  "highlight_es": "autor intelectual",
+  "highlight_en": "alleged mastermind",
+  "visual_label": "Extradición",
+  "image_prompt": "Government jet parked on an airport runway at dawn under a cloudy sky, mountains in the background, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Ecuador",
+      "United States of America"
+    ],
+    "marker": {
+      "lat": -0.18,
+      "lon": -78.47,
+      "label": "Quito"
+    },
+    "labels": {
+      "Ecuador": "Ecuador",
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-30T00:52:22Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261030-iran-says-tankers-hit-hormuz-mines",
+  "category": "Security / Geopolitics",
+  "headline": "Iran says three oil tankers hit naval mines on an 'unauthorized' Strait of Hormuz route",
+  "headline_es": "Irán dice que tres petroleros chocaron con minas en una ruta 'no autorizada' de Ormuz",
+  "caption_en": "Iran's Revolutionary Guard said on Thursday that three oil tankers exploded and caught fire after striking naval mines while using what it called an unauthorized route through the Strait of Hormuz. Iran did not identify the ships. The UK Maritime Trade Operations centre reported a vessel on fire in the strait, but it was unclear whether it was one of the three.",
+  "caption_es": "La Guardia Revolucionaria de Irán afirmó el jueves que tres petroleros explotaron y se incendiaron tras chocar con minas navales mientras usaban lo que calificó como una ruta no autorizada por el estrecho de Ormuz. Irán no identificó los barcos. El centro británico de Operaciones de Comercio Marítimo (UKMTO) reportó un buque en llamas en el estrecho, aunque no estaba claro si era uno de los tres.",
+  "source_urls": [
+    "https://www.yahoo.com/news/world/articles/iran-says-3-oil-tankers-113542919.html",
+    "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/"
+  ],
+  "source_names": [
+    "Associated Press (via Yahoo News)",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ormuz",
+    "#Hormuz",
+    "#Irán"
+  ],
+  "summary_es": "Irán no identificó los buques. El UKMTO confirmó un barco en llamas en el estrecho, sin precisar si era uno de ellos.",
+  "summary_en": "Iran did not name the ships. UKMTO confirmed a vessel on fire in the strait, without saying whether it was one of them.",
+  "highlight_es": "tres petroleros",
+  "highlight_en": "three oil tankers",
+  "visual_label": "Ormuz",
+  "image_prompt": "Oil tanker on a calm grey sea at dusk with a column of dark smoke rising in the distance, narrow strait with arid rocky coastline, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Iran",
+      "Oman"
+    ],
+    "marker": {
+      "lat": 26.57,
+      "lon": 56.25,
+      "label": "Estrecho de Ormuz"
+    },
+    "labels": {
+      "Iran": "Irán",
+      "Oman": "Omán"
+    }
+  }
+}

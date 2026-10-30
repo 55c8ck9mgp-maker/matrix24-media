@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-10-30T00:52:22Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261030-hegseth-fires-pentagon-top-planner",
+  "category": "Security / Geopolitics",
+  "headline": "Hegseth fires Lt. Gen. Brett Sylvia, the Pentagon's top military planner",
+  "headline_es": "Hegseth destituye al teniente general Brett Sylvia, máximo planificador militar del Pentágono",
+  "caption_en": "US Defense Secretary Pete Hegseth has removed Army Lt. Gen. Brett Sylvia as head of strategy, plans and policy (J5) on the Joint Chiefs of Staff. He is the second general ousted from that post under Hegseth, and one of nearly two dozen senior military leaders fired, forced to retire or otherwise departed. The Pentagon has not publicly explained the decision.",
+  "caption_es": "El secretario de Defensa de EE.UU., Pete Hegseth, destituyó al teniente general del Ejército Brett Sylvia como jefe de estrategia, planes y política (J5) del Estado Mayor Conjunto. Es el segundo general apartado de ese cargo bajo Hegseth y uno de casi dos docenas de altos mandos militares despedidos, forzados a retirarse o que dejaron sus puestos. El Pentágono no ha explicado públicamente la decisión.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/politics/hegseth-fires-the-pentagons-top-military-planner-even-as-trump-considers-new-iran-strikes",
+    "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+  ],
+  "source_names": [
+    "Associated Press (via PBS NewsHour)",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Pentágono",
+    "#Pentagon",
+    "#EEUU"
+  ],
+  "summary_es": "Es el segundo general apartado del cargo J5 bajo Hegseth. El Pentágono no ha explicado públicamente la decisión.",
+  "summary_en": "He is the second general ousted from the J5 post under Hegseth. The Pentagon has not publicly explained the move.",
+  "highlight_es": "Brett Sylvia",
+  "highlight_en": "Brett Sylvia",
+  "visual_label": "Pentágono",
+  "image_prompt": "Aerial view of a large five-sided government building surrounded by parking lots and trees on an overcast day, wide cinematic view, no people, no text, no flags"
+}
