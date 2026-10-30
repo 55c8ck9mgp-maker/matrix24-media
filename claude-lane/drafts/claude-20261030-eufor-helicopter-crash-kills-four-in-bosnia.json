@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-eufor-helicopter-crash-kills-four-in-bosnia",
+  "status": "draft",
+  "created_at": "2026-10-30T12:51:13Z",
+  "category": "World",
+  "headline": "Italian military helicopter with the EU force in Bosnia crashes, killing four",
+  "headline_es": "Se estrella un helicóptero militar italiano de la fuerza de la UE en Bosnia: cuatro muertos",
+  "caption_en": "An Italian CH-47 Chinook helicopter serving with EUFOR Althea, the EU peacekeeping mission in Bosnia and Herzegovina, crashed on Thursday near Brcko in the country's north. Four people were killed and 11 injured, according to EUFOR. The cause has not been established and an investigation is under way.",
+  "caption_es": "Un helicóptero italiano CH-47 Chinook de EUFOR Althea, la misión de paz de la Unión Europea en Bosnia y Herzegovina, se estrelló el jueves cerca de Brcko, en el norte del país. Cuatro personas murieron y 11 resultaron heridas, según EUFOR. La causa aún no se ha determinado y hay una investigación en curso.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/30/eu-force-helicopter-crash-kills-four-in-bosnia",
+    "https://www.euronews.com/2026/10/29/italian-military-helicopter-on-eu-peacekeeping-mission-crashes-in-bosnia"
+  ],
+  "source_names": ["Al Jazeera", "Euronews"],
+  "hashtags": ["#MATRIX24", "#Bosnia", "#EUFOR", "#Italia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El Chinook italiano de la misión EUFOR Althea cayó cerca de Brcko. Hay 11 heridos y la causa está bajo investigación.",
+  "summary_en": "The Italian Chinook from the EUFOR Althea mission went down near Brcko. Eleven people were injured and the cause is under investigation.",
+  "highlight_es": "helicóptero militar italiano",
+  "highlight_en": "Italian military helicopter",
+  "visual_label": "EUFOR",
+  "image_prompt": "Large twin-rotor military transport helicopter parked on a flat green field under an overcast sky, rural Balkan landscape with low hills in the background, sombre mood, wide view, no people, no text, no flags, no insignia",
+  "map": {
+    "focus": ["Bosnia and Herz."],
+    "marker": {"lat": 44.87, "lon": 18.81, "label": "Brcko"},
+    "labels": {"Bosnia and Herz.": "Bosnia y Herzegovina"}
+  }
+}

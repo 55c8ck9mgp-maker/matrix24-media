@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-qatari-mediators-return-to-tehran",
+  "status": "draft",
+  "created_at": "2026-10-30T12:51:13Z",
+  "category": "Security / Geopolitics",
+  "headline": "Qatari mediators return to Tehran to push for a deal to end the US-Iran war",
+  "headline_es": "Mediadores de Qatar regresan a Teherán para impulsar un acuerdo que ponga fin a la guerra",
+  "caption_en": "A Qatari delegation led by a senior adviser to Qatar's prime minister and foreign minister arrived in Tehran on Friday, according to Iran's state news agency IRNA. The talks, coordinated with Washington, aim to revive diplomacy to end the war between the United States and Iran. President Trump has kept open the threat of renewed US strikes.",
+  "caption_es": "Una delegación de Qatar encabezada por un alto asesor del primer ministro y canciller qatarí llegó el viernes a Teherán, según la agencia estatal iraní IRNA. Las conversaciones, coordinadas con Washington, buscan reactivar la vía diplomática para terminar la guerra entre Estados Unidos e Irán. El presidente Trump mantiene abierta la amenaza de nuevos ataques estadounidenses.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+  ],
+  "source_names": ["Al Jazeera", "CBS News"],
+  "hashtags": ["#MATRIX24", "#Qatar", "#Irán", "#Iran"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La misión qatarí, coordinada con EE.UU., busca reactivar la diplomacia. Trump no descarta reanudar los ataques.",
+  "summary_en": "The Qatari mission, coordinated with the US, seeks to revive diplomacy. Trump has not ruled out resuming strikes.",
+  "highlight_es": "Mediadores de Qatar",
+  "highlight_en": "Qatari mediators",
+  "visual_label": "Teherán",
+  "image_prompt": "Empty diplomatic meeting room with a long polished table, rows of chairs and closed folders, tall windows overlooking a city skyline with mountains at dusk, calm cinematic light, no people, no text, no flags",
+  "map": {
+    "focus": ["Iran", "Qatar"],
+    "marker": {"lat": 35.69, "lon": 51.39, "label": "Teherán"},
+    "labels": {"Iran": "Irán", "Qatar": "Qatar"}
+  }
+}
