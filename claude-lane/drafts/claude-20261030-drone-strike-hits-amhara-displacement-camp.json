@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-drone-strike-hits-amhara-displacement-camp",
+  "status": "draft",
+  "created_at": "2026-10-30T18:51:51Z",
+  "category": "World",
+  "headline": "Drone strike on a displacement camp in Ethiopia's Amhara region kills 16 civilians",
+  "headline_es": "Ataque con dron contra un campo de desplazados en Amhara, Etiopía, mata a 16 civiles",
+  "caption_en": "A drone strike hit the Hayiq Jari 2 camp for internally displaced people near the town of Hayiq, in Ethiopia's Amhara region, on Thursday, killing 16 civilians and injuring 22, according to camp residents. No party has been officially named as responsible for the attack.",
+  "caption_es": "Un ataque con dron alcanzó el jueves el campo de desplazados internos Hayiq Jari 2, cerca de la localidad de Hayiq, en la región etíope de Amhara, y mató a 16 civiles e hirió a 22, según residentes del campo. Ninguna parte ha sido señalada oficialmente como responsable del ataque.",
+  "source_urls": [
+    "https://www.aa.com.tr/en/africa/at-least-16-civilians-killed-in-drone-attack-on-displacement-camp-in-ethiopia/4106073",
+    "https://allafrica.com/stories/202610300088.html"
+  ],
+  "source_names": ["Anadolu Agency", "Addis Standard (via AllAfrica)"],
+  "hashtags": ["#MATRIX24", "#Etiopía", "#Ethiopia", "#Amhara"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El dron alcanzó el campo Hayiq Jari 2 el jueves: 16 civiles muertos y 22 heridos, según residentes.",
+  "summary_en": "The drone hit the Hayiq Jari 2 camp on Thursday: 16 civilians killed and 22 injured, residents said.",
+  "highlight_es": "campo de desplazados",
+  "highlight_en": "displacement camp",
+  "visual_label": "Amhara",
+  "image_prompt": "Rows of empty white relief tents on dry highland terrain under a hazy sky, distant mountains, a lone small drone silhouette far in the clouds, somber wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["Ethiopia"],
+    "marker": {"lat": 11.31, "lon": 39.68, "label": "Hayiq"},
+    "labels": {"Ethiopia": "Etiopía"}
+  }
+}

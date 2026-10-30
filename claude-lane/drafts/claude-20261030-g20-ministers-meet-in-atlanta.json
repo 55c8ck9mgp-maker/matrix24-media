@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-g20-ministers-meet-in-atlanta",
+  "status": "draft",
+  "created_at": "2026-10-30T18:51:51Z",
+  "category": "Security / Geopolitics",
+  "headline": "G20 foreign ministers meet in Atlanta with Russia's Lavrov as Ukraine and Iran wars divide them",
+  "headline_es": "Cancilleres del G20 se reúnen en Atlanta con Lavrov, divididos por las guerras de Ucrania e Irán",
+  "caption_en": "US Secretary of State Marco Rubio is hosting G20 foreign ministers in Atlanta, Georgia, with Russia's Sergei Lavrov among those attending. The wars in Ukraine and Iran are dividing members, and South Africa was left out of the meeting by Washington. The talks come ahead of a G20 leaders' summit in Miami in December.",
+  "caption_es": "El secretario de Estado de EE.UU., Marco Rubio, recibe a los cancilleres del G20 en Atlanta, Georgia, con la asistencia del ruso Serguéi Lavrov. Las guerras de Ucrania e Irán dividen a los miembros, y Washington dejó fuera de la reunión a Sudáfrica. El encuentro precede a la cumbre de líderes del G20 en Miami en diciembre.",
+  "source_urls": [
+    "https://www.rferl.org/a/g20-meeting-atlanta-us-ukraine-russia/33887200.html",
+    "https://kuwaittimes.com/article/52681/world/rubio-hosts-g20-foreign-ministers-as-iran-ukraine-wars-divide-members/"
+  ],
+  "source_names": ["Radio Free Europe/Radio Liberty", "AFP (via Kuwait Times)"],
+  "hashtags": ["#MATRIX24", "#G20", "#Atlanta", "#Diplomacia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Rubio preside la cita en Atlanta. Lavrov asiste, Sudáfrica fue excluida y la cumbre de líderes será en Miami en diciembre.",
+  "summary_en": "Rubio chairs the Atlanta meeting. Lavrov attends, South Africa was excluded, and the leaders' summit is in Miami in December.",
+  "highlight_es": "G20",
+  "highlight_en": "G20 foreign ministers",
+  "visual_label": "G20",
+  "image_prompt": "Large empty conference hall with a round table, microphones and water glasses, city skyline visible through tall windows at sunset, warm cinematic light, no people, no text, no flags",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 33.75, "lon": -84.39, "label": "Atlanta"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

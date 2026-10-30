@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-intel-plunge-drags-nasdaq-lower",
+  "status": "draft",
+  "created_at": "2026-10-30T18:51:51Z",
+  "category": "Economy",
+  "headline": "Intel shares plunge more than 28% on a weak outlook as AI spending fears hit the Nasdaq",
+  "headline_es": "Las acciones de Intel se desploman más de 28% y el temor al gasto en IA golpea al Nasdaq",
+  "caption_en": "Intel shares plunged more than 28% on Friday after the chipmaker issued a disappointing outlook, with PC demand weighed down by rising memory chip costs. Weak results and heavy AI spending plans from Amazon added to investor worries, and the tech-heavy Nasdaq fell more than 2%.",
+  "caption_es": "Las acciones de Intel se desplomaron más de 28% el viernes después de que el fabricante de chips presentara previsiones decepcionantes, con una demanda de PC lastrada por el encarecimiento de los chips de memoria. Los débiles resultados y los grandes planes de gasto en inteligencia artificial de Amazon aumentaron la preocupación de los inversores, y el Nasdaq, dominado por tecnológicas, cayó más de 2%.",
+  "source_urls": [
+    "https://www.investing.com/news/stock-market-news/nasdaq-tumbles-at-open-as-amazon-intel-add-to-ai-spending-woes-4988016",
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
+    "https://www.globalbankingandfinance.com/intel-warning-sparks-chip-rout-pc-weakness-clouds-turnaround/"
+  ],
+  "source_names": ["Reuters (via Investing.com)", "Yahoo Finance", "Reuters (via Global Banking & Finance Review)"],
+  "hashtags": ["#MATRIX24", "#Intel", "#WallStreet", "#Nasdaq"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Intel decepcionó con sus previsiones por la débil demanda de PC. Amazon sumó dudas sobre el gasto en IA y el Nasdaq cayó más de 2%.",
+  "summary_en": "Intel's outlook disappointed on weak PC demand. Amazon added to AI spending doubts and the Nasdaq fell more than 2%.",
+  "highlight_es": "se desploman más de 28%",
+  "highlight_en": "plunge more than 28%",
+  "visual_label": "Intel",
+  "image_prompt": "Close-up of a silicon computer chip on a circuit board beside a large trading screen showing a steep falling red line chart, dark blue tones, dramatic cinematic lighting, no text, no logos",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 40.71, "lon": -74.01, "label": "Nueva York"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

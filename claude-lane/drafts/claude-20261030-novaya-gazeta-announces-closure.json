@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261030-novaya-gazeta-announces-closure",
+  "status": "draft",
+  "created_at": "2026-10-30T18:51:51Z",
+  "category": "World",
+  "headline": "Russia's independent newspaper Novaya Gazeta announces it will close, citing state pressure",
+  "headline_es": "El diario independiente ruso Novaya Gazeta anuncia su cierre por presión del Estado",
+  "caption_en": "Novaya Gazeta, one of Russia's last independent newspapers, said on Friday it will shut down on November 9 and switch off its servers, blaming pressure from the authorities. Russia had labeled the paper a 'foreign agent' and revoked its licence after the invasion of Ukraine. Its former editor Dmitry Muratov shared the 2021 Nobel Peace Prize.",
+  "caption_es": "Novaya Gazeta, uno de los últimos diarios independientes de Rusia, anunció el viernes que cerrará el 9 de noviembre y apagará sus servidores, y culpó a la presión de las autoridades. Rusia había declarado al periódico 'agente extranjero' y le retiró la licencia tras la invasión de Ucrania. Su exdirector Dmitri Murátov compartió el Premio Nobel de la Paz de 2021.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/30/russia-forces-closure-of-investigative-newspaper-novaya-gazeta",
+    "https://www.irishtimes.com/world/europe/2026/10/30/we-have-been-killed-russian-independent-newspaper-novaya-gazeta-closes/"
+  ],
+  "source_names": ["Al Jazeera", "Reuters (via The Irish Times)"],
+  "hashtags": ["#MATRIX24", "#Rusia", "#Russia", "#LibertadDePrensa"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El periódico cerrará el 9 de noviembre tras años de presión: etiqueta de 'agente extranjero' y licencia retirada.",
+  "summary_en": "The paper will close on November 9 after years of pressure, including a 'foreign agent' label and a revoked licence.",
+  "highlight_es": "Novaya Gazeta",
+  "highlight_en": "Novaya Gazeta",
+  "visual_label": "Moscú",
+  "image_prompt": "Empty newspaper newsroom at night with switched-off computer monitors, stacks of old printed newspapers and a dark server rack with a single red light, quiet cinematic lighting, no people, no readable text, no logos",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 55.76, "lon": 37.62, "label": "Moscú"},
+    "labels": {"Russia": "Rusia"}
+  }
+}
