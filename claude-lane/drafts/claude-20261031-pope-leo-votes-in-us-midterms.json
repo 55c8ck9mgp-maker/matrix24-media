@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-pope-leo-votes-in-us-midterms",
+  "status": "draft",
+  "created_at": "2026-10-31T06:51:16Z",
+  "category": "World",
+  "headline": "Pope Leo XIV becomes the first pope to vote in a US general election",
+  "headline_es": "León XIV se convierte en el primer papa en votar en una elección general de EE.UU.",
+  "caption_en": "Pope Leo XIV, born in Chicago, cast a mail-in ballot in Illinois for the November 3 US midterm elections, the Vatican confirmed on Friday. The Holy See said he exercised his right to vote as a US citizen and believes in citizens' right and duty to take part in democratic processes. It did not say whom he voted for.",
+  "caption_es": "El papa León XIV, nacido en Chicago, emitió su voto por correo en Illinois para las elecciones de mitad de mandato del 3 de noviembre en EE.UU., confirmó el Vaticano el viernes. La Santa Sede dijo que ejerció su derecho al voto como ciudadano estadounidense y que cree en el derecho y el deber de los ciudadanos de participar en los procesos democráticos. No indicó por quién votó.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/politics/leo-xiv-has-become-the-first-pope-in-history-to-vote-in-a-u-s-general-election",
+    "https://www.aljazeera.com/news/2026/10/31/pope-leo-becomes-first-pontiff-to-vote-in-us-general-election"
+  ],
+  "source_names": ["PBS NewsHour (AP)", "Al Jazeera"],
+  "hashtags": ["#MATRIX24", "#Vaticano", "#Midterms", "#EEUU"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Pidió la papeleta el 3 de octubre. En Illinois se elige gobernador y un escaño abierto en el Senado.",
+  "summary_en": "He requested the ballot on October 3. Illinois voters are choosing a governor and filling an open US Senate seat.",
+  "highlight_es": "primer papa en votar",
+  "highlight_en": "first pope to vote",
+  "visual_label": "Voto por correo",
+  "image_prompt": "Sealed mail-in ballot envelope resting on an ornate wooden desk beside a fountain pen, soft window light, classical stone architecture blurred in the background, close-up still life, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 41.88, "lon": -87.63, "label": "Chicago"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

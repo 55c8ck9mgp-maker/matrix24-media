@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-us-approves-patriot-sale-to-ukraine",
+  "status": "draft",
+  "created_at": "2026-10-31T06:51:16Z",
+  "category": "Security / Geopolitics",
+  "headline": "US approves .1 billion sale of 500 Patriot missiles to Ukraine",
+  "headline_es": "EE.UU. aprueba la venta de 500 misiles Patriot a Ucrania por 2.100 millones de dólares",
+  "caption_en": "The US State Department approved the potential sale of 500 Patriot PAC-3 missiles to Ukraine, with related equipment and support, for an estimated $2.1 billion. Lockheed Martin is the principal contractor. The purchase will be funded with contributions from Canada, Germany and Norway through the JUMPSTART program and funds from the EU's Ukraine Support Loan.",
+  "caption_es": "El Departamento de Estado de EE.UU. aprobó la posible venta a Ucrania de 500 misiles Patriot PAC-3, con equipos y apoyo asociados, por unos 2.100 millones de dólares. Lockheed Martin es el contratista principal. La compra se financiará con aportes de Canadá, Alemania y Noruega a través del programa JUMPSTART y con fondos del Préstamo de Apoyo a Ucrania de la UE.",
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-10-31/ukraine-war-patriot-missiles-sale-approved-by-us-congress/107331652",
+    "https://www.ukrinform.net/rubric-ato/4179909-us-approves-potential-21b-sale-of-500-patriot-missiles-to-ukraine.html"
+  ],
+  "source_names": ["ABC News (Australia)", "Ukrinform"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Ukraine", "#Patriot"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Ucrania reclamaba más interceptores frente a los ataques rusos con misiles contra su infraestructura. Los aliados europeos y Canadá pagarán el paquete.",
+  "summary_en": "Ukraine has pressed for more interceptors against Russian missile attacks on its infrastructure. European allies and Canada will pay for the package.",
+  "highlight_es": "500 misiles Patriot",
+  "highlight_en": "500 Patriot missiles",
+  "visual_label": "PAC-3",
+  "image_prompt": "Mobile air defense missile launcher vehicle with angled launch canisters parked on a snowy field at dawn, radar unit in the background, cold blue light, wide cinematic view, no people, no text, no flags, no insignia",
+  "map": {
+    "focus": ["Ukraine"],
+    "labels": {"Ukraine": "Ucrania"}
+  }
+}
