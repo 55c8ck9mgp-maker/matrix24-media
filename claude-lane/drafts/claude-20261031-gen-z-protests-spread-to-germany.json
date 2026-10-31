@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-gen-z-protests-spread-to-germany",
+  "status": "draft",
+  "created_at": "2026-10-31T18:52:00Z",
+  "category": "World",
+  "headline": "Youth-led 'Gen Z' protests over living costs spread to dozens of German cities",
+  "headline_es": "Las protestas juveniles de la 'Gen Z' por el costo de vida llegan a decenas de ciudades alemanas",
+  "caption_en": "Young people rallied on Saturday in Berlin, Cologne, Frankfurt, Munich, Hamburg, Stuttgart and other German cities, demanding affordable living costs and better education. Turnout was well below the more than 170,000 people who had registered: police counted about 2,700 in Berlin, 1,800 in Munich and 1,000 in Frankfurt. Police used water cannon in Hamburg.",
+  "caption_es": "Jóvenes se manifestaron el sábado en Berlín, Colonia, Fráncfort, Múnich, Hamburgo, Stuttgart y otras ciudades alemanas para exigir un costo de vida asequible y mejor educación. La participación fue muy inferior a las más de 170.000 personas inscritas: la policía contó unas 2.700 en Berlín, 1.800 en Múnich y 1.000 en Fráncfort. La policía usó cañones de agua en Hamburgo.",
+  "source_urls": [
+    "https://www.trtworld.com/article/1aa63b7c7a5b",
+    "https://tagesspiegel.de/gesellschaft/liveblog/deutschlandweiter-protest-hat-begonnen--bisher-weniger-teilnehmer-als-erwartet-16223578.html"
+  ],
+  "source_names": [
+    "TRT World",
+    "Der Tagesspiegel"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Alemania",
+    "#Germany",
+    "#GenZ",
+    "#Protestas"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Convocadas por la iniciativa 'Gen Z regelt', las marchas fueron mayormente pacíficas, con incidentes en Hamburgo y Stuttgart.",
+  "summary_en": "Called by the 'Gen Z regelt' initiative, the marches were mostly peaceful, with incidents in Hamburg and Stuttgart.",
+  "highlight_es": "Gen Z",
+  "highlight_en": "Gen Z",
+  "visual_label": "Gen Z",
+  "image_prompt": "Wide city boulevard in a German capital at dusk lined with classical stone buildings, blank cardboard protest signs and a megaphone resting on a low wall in the foreground, autumn leaves, cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Germany"
+    ],
+    "marker": {
+      "lat": 52.52,
+      "lon": 13.405,
+      "label": "Berlín"
+    },
+    "labels": {
+      "Germany": "Alemania"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-iran-calls-vance-letter-positive-step",
+  "status": "draft",
+  "created_at": "2026-10-31T18:52:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran calls Vance's letter a 'positive step' and sets conditions to reopen Hormuz",
+  "headline_es": "Irán califica la carta de Vance de 'paso positivo' y fija condiciones para reabrir Ormuz",
+  "caption_en": "Iranian Foreign Minister Abbas Araghchi said a letter from US Vice President JD Vance seeking dialogue was a positive step, while saying Iran is prepared for all scenarios. Iran's conditions for reopening the Strait of Hormuz include lifting sanctions, reducing US forces in the region, restoring oil waivers and releasing frozen funds. Mediators in Qatar have discussed cutting the implementation period from five days to two.",
+  "caption_es": "El canciller iraní, Abbas Araghchi, dijo que una carta del vicepresidente de EE.UU., JD Vance, que busca el diálogo es un paso positivo, aunque afirmó que Irán está preparado para todos los escenarios. Las condiciones de Irán para reabrir el estrecho de Ormuz incluyen levantar sanciones, reducir las fuerzas de EE.UU. en la región, restablecer exenciones petroleras y liberar fondos congelados. Los mediadores en Catar han discutido reducir el plazo de aplicación de cinco a dos días.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks",
+    "https://www.tribuneindia.com/news/world/irans-fm-araghchi-welcomes-jd-vances-letter-as-positive-step-says-not-ruling-out-possibility-of-outbreak-of-war"
+  ],
+  "source_names": ["Al Jazeera", "ANI (via The Tribune)"],
+  "hashtags": ["#MATRIX24", "#Iran", "#Ormuz", "#Hormuz", "#Catar"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Araghchi vinculó la reapertura de Ormuz a reanudar las conversaciones con Washington. Mediadores de Catar revisan las condiciones de Teherán.",
+  "summary_en": "Araghchi linked reopening Hormuz to resuming talks with Washington. Qatari mediators are reviewing Tehran's conditions.",
+  "highlight_es": "carta de Vance",
+  "highlight_en": "Vance's letter",
+  "visual_label": "Ormuz",
+  "image_prompt": "Oil tankers anchored in a calm strait at sunset, rocky desert coastline on both sides, a sealed envelope resting on a wooden diplomatic table in the foreground, warm golden light, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Iran", "Qatar"],
+    "marker": {"lat": 26.57, "lon": 56.25, "label": "Estrecho de Ormuz"},
+    "labels": {"Iran": "Irán", "Qatar": "Catar"}
+  }
+}

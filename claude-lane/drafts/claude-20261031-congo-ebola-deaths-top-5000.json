@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-congo-ebola-deaths-top-5000",
+  "status": "draft",
+  "created_at": "2026-10-31T18:52:00Z",
+  "category": "World",
+  "headline": "Congo's Ebola outbreak passes 5,000 deaths as the virus keeps spreading",
+  "headline_es": "El brote de ébola en el Congo supera las 5.000 muertes y el virus sigue propagándose",
+  "caption_en": "Congo's health ministry has recorded 5,026 deaths and 10,351 infections in the Ebola outbreak declared in mid-May, with 2,788 people recovered. The outbreak is caused by the Bundibugyo strain, for which there is no approved vaccine or specific treatment. Cases linked to it have also been confirmed in Kenya.",
+  "caption_es": "El Ministerio de Salud del Congo ha registrado 5.026 muertes y 10.351 infecciones en el brote de ébola declarado a mediados de mayo, con 2.788 personas recuperadas. El brote lo causa la cepa Bundibugyo, para la que no existe vacuna aprobada ni tratamiento específico. También se han confirmado casos vinculados en Kenia.",
+  "source_urls": [
+    "https://www.inquirer.com/news/nation-world/ebola-congo-death-toll-20261031.html",
+    "https://www.yahoo.com/news/world/articles/congos-ebola-death-toll-surpasses-063333067.html"
+  ],
+  "source_names": ["Associated Press (via The Philadelphia Inquirer)", "dpa (via Yahoo News)"],
+  "hashtags": ["#MATRIX24", "#Ebola", "#Congo", "#RDCongo", "#Salud"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Casi la mitad de los infectados ha muerto. La cepa Bundibugyo no tiene vacuna aprobada ni tratamiento específico.",
+  "summary_en": "Nearly half of those infected have died. The Bundibugyo strain has no approved vaccine or specific treatment.",
+  "highlight_es": "5.000 muertes",
+  "highlight_en": "5,000 deaths",
+  "visual_label": "Ébola",
+  "image_prompt": "Row of white field treatment tents at the edge of a green tropical forest under a cloudy sky, medical supply crates and a water tank in the foreground, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Dem. Rep. Congo"],
+    "labels": {"Dem. Rep. Congo": "RD del Congo"}
+  }
+}

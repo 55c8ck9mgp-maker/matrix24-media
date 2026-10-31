@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-oleshky-evacuees-reach-ukraine",
+  "status": "draft",
+  "created_at": "2026-10-31T18:52:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Civilians evacuated from Russian-occupied Oleshky reach Ukrainian-held territory",
+  "headline_es": "Civiles evacuados de Oleshky, ocupada por Rusia, llegan a territorio controlado por Ucrania",
+  "caption_en": "Residents evacuated from Oleshky, in the Russian-occupied part of Ukraine's Kherson region, reached Ukrainian-controlled territory on Saturday during a localized truce mediated by US first lady Melania Trump. They were bused to Anapa in Russia and flown to Gomel in Belarus before crossing into Ukraine. Officials did not give the exact number, citing security; about 2,000 people had remained in the town.",
+  "caption_es": "Residentes evacuados de Oleshky, en la parte ocupada por Rusia de la región ucraniana de Jersón, llegaron el sábado a territorio controlado por Ucrania durante una tregua local mediada por la primera dama de EE.UU., Melania Trump. Viajaron en autobús hasta Anapa, en Rusia, y en avión hasta Gómel, en Bielorrusia, antes de cruzar a Ucrania. Las autoridades no dieron la cifra exacta por seguridad; en la ciudad quedaban unas 2.000 personas.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire",
+    "https://kyivindependent.com/oleshky-residents-reach-ukrainian-controlled-territory-after-escaping-russian-occupation/"
+  ],
+  "source_names": ["Associated Press (via PBS NewsHour)", "The Kyiv Independent"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Ukraine", "#Oleshky", "#Jerson"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La evacuación se hizo durante una tregua local en Jersón. El viaje pasó por Rusia y Bielorrusia antes de llegar a Ucrania.",
+  "summary_en": "The evacuation took place during a local truce in Kherson. The route ran through Russia and Belarus before reaching Ukraine.",
+  "highlight_es": "Oleshky",
+  "highlight_en": "Oleshky",
+  "visual_label": "Oleshky",
+  "image_prompt": "Line of white passenger buses on an empty rural highway through flat autumn steppe at dawn, a small airport runway with a passenger plane in the distance, soft grey light, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Ukraine"],
+    "marker": {"lat": 46.62, "lon": 32.72, "label": "Oleshky"},
+    "labels": {"Ukraine": "Ucrania"}
+  }
+}
