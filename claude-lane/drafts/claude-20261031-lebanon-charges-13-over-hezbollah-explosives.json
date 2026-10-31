@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-lebanon-charges-13-over-hezbollah-explosives",
+  "status": "draft",
+  "created_at": "2026-10-31T12:57:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Lebanese military court charges 13 people over a seized Hezbollah explosives shipment",
+  "headline_es": "Un tribunal militar libanés acusa a 13 personas por un cargamento de explosivos de Hezbolá",
+  "caption_en": "A Lebanese military court on Friday charged 13 people linked to Hezbollah over explosives seized from a vehicle earlier in October. Only two of them are in custody, and five are known only by nicknames. Hezbollah said the cargo belonged to its armed resistance against Israel, demanded its return and called the charges unjust, as Beirut presses the group to disarm under a June framework agreement with Israel.",
+  "caption_es": "Un tribunal militar del Líbano acusó el viernes a 13 personas vinculadas a Hezbolá por explosivos incautados de un vehículo a principios de octubre. Solo dos están detenidas y cinco son conocidas únicamente por sus apodos. Hezbolá dijo que el cargamento pertenecía a su resistencia armada contra Israel, exigió su devolución y calificó las acusaciones de injustas, mientras Beirut presiona al grupo para que se desarme según un acuerdo marco firmado con Israel en junio.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/31/lebanon-charges-13-over-hezbollah-confiscated-explosives",
+    "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-court-charges-13-over-hezbollah-explosives-shipment"
+  ],
+  "source_names": ["Al Jazeera", "Middle East Eye (AFP)"],
+  "hashtags": ["#MATRIX24", "#Líbano", "#Lebanon", "#Hezbolá"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Solo dos de los 13 acusados están detenidos. Hezbolá admitió que la carga era suya y pidió que se la devuelvan.",
+  "summary_en": "Only two of the 13 accused are in custody. Hezbollah admitted the cargo was its own and asked for it back.",
+  "highlight_es": "13 personas",
+  "highlight_en": "charges 13 people",
+  "visual_label": "Líbano",
+  "image_prompt": "Empty mountain highway checkpoint with concrete barriers and a parked covered cargo truck, pine-covered Lebanese-style hills and a hazy valley behind, overcast sky, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": ["Lebanon"],
+    "marker": {"lat": 33.89, "lon": 35.50, "label": "Beirut"},
+    "labels": {"Lebanon": "Líbano"}
+  }
+}

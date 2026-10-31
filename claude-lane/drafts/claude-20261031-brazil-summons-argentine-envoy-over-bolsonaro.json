@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-brazil-summons-argentine-envoy-over-bolsonaro",
+  "status": "draft",
+  "created_at": "2026-10-31T12:57:00Z",
+  "category": "Colombia / Latin America",
+  "headline": "Brazil summons Argentina's top diplomat over Flávio Bolsonaro's flight to the US",
+  "headline_es": "Brasil convoca a la principal diplomática argentina por la huida de Flávio Bolsonaro a EE. UU.",
+  "caption_en": "Brazil's foreign ministry summoned Argentina's chargé d'affaires, María Emilia Cortés, on Thursday to ask for explanations about Argentina's role in Flávio Bolsonaro's departure for the United States. The defeated presidential candidate passed through Argentina before arriving in Miami on Wednesday and has thanked President Javier Milei. Relations between the two neighbors were already strained, and both countries have recalled their ambassadors.",
+  "caption_es": "La cancillería de Brasil convocó el jueves a la encargada de negocios de Argentina, María Emilia Cortés, para pedir explicaciones sobre el papel argentino en la salida de Flávio Bolsonaro hacia Estados Unidos. El excandidato presidencial derrotado pasó por Argentina antes de llegar a Miami el miércoles y agradeció al presidente Javier Milei. Las relaciones entre ambos vecinos ya estaban tensas, y los dos países han retirado a sus embajadores.",
+  "source_urls": [
+    "https://www.wsls.com/news/world/2026/10/30/brazil-summons-argentinas-representative-after-bolsonaro-flees-to-the-us-via-argentina/",
+    "https://kfgo.com/2026/10/30/brazil-summons-argentine-diplomat-over-role-in-bolsonaros-flight-to-us-sources-say/"
+  ],
+  "source_names": ["Associated Press", "Reuters"],
+  "hashtags": ["#MATRIX24", "#Brasil", "#Argentina", "#FlávioBolsonaro"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Brasil pidió a Argentina explicar su papel en el viaje de Bolsonaro, que pasó por territorio argentino antes de llegar a Miami.",
+  "summary_en": "Brazil asked Argentina to explain its role in Bolsonaro's trip, which went through Argentine territory before reaching Miami.",
+  "highlight_es": "Flávio Bolsonaro",
+  "highlight_en": "Flávio Bolsonaro",
+  "visual_label": "Itamaraty",
+  "image_prompt": "Modernist government palace with tall slender columns reflected in a shallow pool at dusk, a long empty diplomatic meeting table visible through glass, calm blue light, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Brazil", "Argentina"],
+    "marker": {"lat": -15.80, "lon": -47.87, "label": "Brasilia"},
+    "labels": {"Brazil": "Brasil", "Argentina": "Argentina"}
+  }
+}

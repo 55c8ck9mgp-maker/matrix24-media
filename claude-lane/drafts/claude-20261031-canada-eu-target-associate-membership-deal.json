@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-canada-eu-target-associate-membership-deal",
+  "status": "draft",
+  "created_at": "2026-10-31T12:57:00Z",
+  "category": "World",
+  "headline": "Carney aims to seal Canada's bid to become the EU's first associate member by June",
+  "headline_es": "Carney busca cerrar en junio la candidatura de Canadá a primer miembro asociado de la UE",
+  "caption_en": "At a summit in Montreal with Ursula von der Leyen and António Costa, Prime Minister Mark Carney said he expects to conclude negotiations in June on making Canada the European Union's first associate member, short of full membership. The joint declaration did not use the term, instead committing both sides to an 'ever-closer association'. Leaders also reported progress on digital trade and artificial intelligence.",
+  "caption_es": "En una cumbre en Montreal con Ursula von der Leyen y António Costa, el primer ministro Mark Carney dijo que espera concluir en junio las negociaciones para que Canadá sea el primer miembro asociado de la Unión Europea, sin llegar a ser miembro pleno. La declaración conjunta no usó ese término y en su lugar compromete a ambas partes a una 'asociación cada vez más estrecha'. Los líderes también informaron avances en comercio digital e inteligencia artificial.",
+  "source_urls": [
+    "https://www.euronews.com/2026/10/30/canada-aims-to-become-eus-first-associate-member-by-june-2027-carney-says",
+    "https://www.pbs.org/newshour/world/canada-is-taking-steps-toward-becoming-european-unions-first-associate-member"
+  ],
+  "source_names": ["Euronews", "PBS NewsHour (AP)"],
+  "hashtags": ["#MATRIX24", "#Canadá", "#UE", "#EU"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La declaración de la cumbre evitó el término 'miembro asociado' y habla de una 'asociación cada vez más estrecha'.",
+  "summary_en": "The summit declaration avoided the term 'associate member' and speaks of an 'ever-closer association'.",
+  "highlight_es": "primer miembro asociado",
+  "highlight_en": "first associate member",
+  "visual_label": "Canadá-UE",
+  "image_prompt": "Two modern conference podiums facing a wide window overlooking a river city skyline in autumn, maple trees with red leaves in the foreground, soft morning light, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Canada"],
+    "marker": {"lat": 45.50, "lon": -73.57, "label": "Montreal"},
+    "labels": {"Canada": "Canadá"}
+  }
+}
