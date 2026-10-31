@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-poland-suspends-top-court-chief",
+  "status": "draft",
+  "created_at": "2026-10-31T00:51:48Z",
+  "category": "World",
+  "headline": "Poland's top court chief is suspended as police secure the tribunal and the president flies back",
+  "headline_es": "Suspenden al jefe del máximo tribunal de Polonia; la policía lo resguarda y el presidente regresa",
+  "caption_en": "Bogdan Swieczkowski, president of Poland's Constitutional Tribunal, was suspended on Friday, the tribunal said on its website. Police entered the court's premises in Warsaw after objects were thrown at officers outside. President Karol Nawrocki turned his plane around on the way to Senegal, while PM Donald Tusk said restoring the rule of law is the government's duty and PiS leaders called it a coup.",
+  "caption_es": "Bogdan Swieczkowski, presidente del Tribunal Constitucional de Polonia, fue suspendido el viernes, según informó el tribunal en su sitio web. La policía entró en la sede del tribunal en Varsovia después de que lanzaran objetos contra los agentes en el exterior. El presidente Karol Nawrocki dio la vuelta a su avión cuando viajaba a Senegal, mientras el primer ministro Donald Tusk afirmó que restaurar el Estado de derecho es deber del gobierno y dirigentes de PiS lo calificaron de golpe.",
+  "source_urls": [
+    "https://www.rte.ie/news/world/2026/1030/1597434-poland-police-court/",
+    "https://www.foxnews.com/world/polish-president-turns-plane-around-after-coup-at-nations-top-court"
+  ],
+  "source_names": ["RTÉ News (Reuters)", "Fox News"],
+  "hashtags": ["#MATRIX24", "#Polonia", "#Poland", "#Varsovia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Swieczkowski impedía asumir a jueces elegidos por la mayoría actual, lo que paralizó el tribunal. Nawrocki se negó este año a juramentar a tres de seis jueces.",
+  "summary_en": "Swieczkowski had blocked judges elected by the current majority, paralysing the court. Nawrocki refused this year to swear in three of six judges.",
+  "highlight_es": "máximo tribunal",
+  "highlight_en": "top court chief",
+  "visual_label": "Varsovia",
+  "image_prompt": "Stately classical court building at dusk in a European capital, police barrier fences lining an empty plaza in front, blue emergency light reflections on wet pavement, tense atmosphere, wide view, no people, no text, no flags, no insignia",
+  "map": {
+    "focus": ["Poland"],
+    "marker": {"lat": 52.23, "lon": 21.01, "label": "Varsovia"},
+    "labels": {"Poland": "Polonia"}
+  }
+}

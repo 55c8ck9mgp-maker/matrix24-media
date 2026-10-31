@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261031-dockworkers-strike-at-over-100-ports",
+  "status": "draft",
+  "created_at": "2026-10-31T00:51:48Z",
+  "category": "World",
+  "headline": "Dockworkers strike at more than 110 ports in 22 countries against arms shipments and wars",
+  "headline_es": "Estibadores hacen huelga en más de 110 puertos de 22 países contra envíos de armas y guerras",
+  "caption_en": "More than 25 dockworkers' unions held a coordinated day of action on Friday at over 110 ports in 22 countries across five continents. France, Italy, Greece and Türkiye saw 24-hour strikes, and Italy also had a general strike. The unions oppose arms shipments to Israel and the wars in Gaza and against Iran, and organizers estimate more than $2 billion in cargo could be held up.",
+  "caption_es": "Más de 25 sindicatos de estibadores realizaron el viernes una jornada coordinada de acción en más de 110 puertos de 22 países de cinco continentes. Francia, Italia, Grecia y Turquía tuvieron huelgas de 24 horas, e Italia además una huelga general. Los sindicatos se oponen a los envíos de armas a Israel y a las guerras en Gaza y contra Irán, y los organizadores calculan que más de 2.000 millones de dólares en carga podrían quedar retenidos.",
+  "source_urls": [
+    "https://www.aljazeera.com/features/2026/10/30/what-can-a-global-strike-of-dockworkers-achieve-for-gaza",
+    "https://gcaptain.com/anti-war-protests-spread-across-global-ports-as-dockworkers-target-arms-trade/"
+  ],
+  "source_names": ["Al Jazeera", "gCaptain"],
+  "hashtags": ["#MATRIX24", "#Estibadores", "#Dockworkers", "#Huelga"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Hubo paros más cortos en puertos como los de Marruecos y Chipre. La acción también llegó a India, Australia, Brasil, México, Uruguay y Estados Unidos.",
+  "summary_en": "Shorter stoppages took place at ports in Morocco and Cyprus. The action also reached India, Australia, Brazil, Mexico, Uruguay and the United States.",
+  "highlight_es": "Estibadores hacen huelga",
+  "highlight_en": "Dockworkers strike",
+  "visual_label": "Puertos",
+  "image_prompt": "Idle container port at dawn with motionless gantry cranes, stacked shipping containers and a moored cargo ship, quiet empty quay, wide cinematic view, no people, no text, no logos, no flags"
+}
