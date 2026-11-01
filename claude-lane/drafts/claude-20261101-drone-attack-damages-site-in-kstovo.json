@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-drone-attack-damages-site-in-kstovo",
+  "status": "draft",
+  "created_at": "2026-11-01T13:04:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Massive drone attack damages an industrial site in Russia's Kstovo, home to a major refinery",
+  "headline_es": "Un ataque masivo con drones daña una planta industrial en Kstovo, sede de una gran refinería rusa",
+  "caption_en": "The governor of Russia's Nizhny Novgorod region, Gleb Nikitin, said a massive overnight drone attack damaged an industrial enterprise in the Kstovo district, adding that more than 100 drones were destroyed and that preliminary reports showed no casualties. Ukrainian media and monitoring channels said the target was the Kstovo oil refinery, one of Russia's largest. The strike follows Ukraine's resumption of attacks on Russian refineries after weeks of US pressure to halt them.",
+  "caption_es": "El gobernador de la región rusa de Nizhni Nóvgorod, Gleb Nikitin, informó que un ataque masivo con drones durante la noche dañó una empresa industrial en el distrito de Kstovo, y añadió que más de 100 drones fueron destruidos y que, según datos preliminares, no hubo víctimas. Medios ucranianos y canales de monitoreo señalaron que el objetivo fue la refinería de Kstovo, una de las mayores de Rusia. El ataque se produce después de que Ucrania reanudara sus ataques contra refinerías rusas tras semanas de presión de Estados Unidos para detenerlos.",
+  "source_urls": [
+    "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
+    "https://www.arabnews.pk/world/russia-says-drone-hit-industrial-enterprise-near-moscow-kyiv-claims-hit-major-refinery-3005776"
+  ],
+  "source_names": ["Euronews", "Arab News (AFP)"],
+  "hashtags": ["#MATRIX24", "#Rusia", "#Ucrania", "#Drones", "#Energía"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Más de 100 drones fueron derribados, según el gobernador; medios ucranianos dicen que el blanco fue la refinería de Kstovo, una de las mayores de Rusia.",
+  "summary_en": "The governor says more than 100 drones were downed; Ukrainian media say the target was the Kstovo refinery, one of Russia's largest.",
+  "highlight_es": "ataque masivo con drones",
+  "highlight_en": "Massive drone attack",
+  "visual_label": "Kstovo",
+  "image_prompt": "Large oil refinery complex at night on a wide river plain, distillation towers and storage tanks lit by industrial lights, a column of dark smoke rising into a cold autumn sky, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 56.15, "lon": 44.2, "label": "Kstovo"},
+    "labels": {"Russia": "Rusia"}
+  }
+}

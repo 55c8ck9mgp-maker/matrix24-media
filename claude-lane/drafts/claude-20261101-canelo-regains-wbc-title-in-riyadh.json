@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-canelo-regains-wbc-title-in-riyadh",
+  "status": "draft",
+  "created_at": "2026-11-01T13:04:00Z",
+  "category": "Sports",
+  "headline": "Canelo Álvarez beats Christian Mbilli in Riyadh to reclaim the WBC super middleweight title",
+  "headline_es": "Canelo Álvarez vence a Christian Mbilli en Riad y recupera el título supermediano del CMB",
+  "caption_en": "Mexican boxer Canelo Álvarez defeated Christian Mbilli by unanimous decision in Riyadh to win back the WBC super middleweight title. The judges scored the 12-round bout 115-112, 116-111 and 117-110. It was Álvarez's return to the ring about a year after his loss to Terence Crawford.",
+  "caption_es": "El boxeador mexicano Canelo Álvarez derrotó a Christian Mbilli por decisión unánime en Riad y recuperó el título supermediano del Consejo Mundial de Boxeo. Los jueces puntuaron el combate a 12 asaltos 115-112, 116-111 y 117-110. Fue el regreso de Álvarez al ring alrededor de un año después de su derrota ante Terence Crawford.",
+  "source_urls": [
+    "https://www.aljazeera.com/sports/2026/11/1/canelo-alvarez-defeats-christian-mbilli-to-reclaim-wbc-title-in-riyadh",
+    "https://www.skysports.com/boxing/news/13606459/canelo-alvarez-returns-to-beat-christian-mbilli-and-reclaim-wbc-super-middleweight-world-championship-in-riyadh"
+  ],
+  "source_names": ["Al Jazeera", "Sky Sports"],
+  "hashtags": ["#MATRIX24", "#Canelo", "#Boxeo", "#CMB", "#México"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Victoria por decisión unánime (115-112, 116-111 y 117-110) en su regreso, un año después de perder ante Terence Crawford.",
+  "summary_en": "A unanimous-decision win (115-112, 116-111, 117-110) in his comeback, a year after losing to Terence Crawford.",
+  "highlight_es": "recupera el título",
+  "highlight_en": "reclaim the WBC",
+  "visual_label": "Boxeo",
+  "image_prompt": "Empty boxing ring under bright spotlights in a large modern arena, a championship belt resting on the canvas, red and blue corner posts, haze in the light beams, dark stands in the background, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["Saudi Arabia"],
+    "marker": {"lat": 24.71, "lon": 46.68, "label": "Riad"},
+    "labels": {"Saudi Arabia": "Arabia Saudita"}
+  }
+}
