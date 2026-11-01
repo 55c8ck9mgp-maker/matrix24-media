@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-russia-detains-teen-after-us-moscow-warning",
+  "status": "draft",
+  "created_at": "2026-11-01T18:56:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Russia detains a teenager over an alleged Moscow park attack plot after a US tip-off",
+  "headline_es": "Rusia detiene a un adolescente por un presunto plan de ataque en Moscú tras un aviso de EE. UU.",
+  "caption_en": "Russia's FSB said it detained a minor suspected of planning an attack at Moscow's Tsaritsyno Museum Reserve, thanking the United States for the information. On Saturday the US Embassy had warned of a credible threat of a mass casualty event at the park, which was evacuated that day.",
+  "caption_es": "El FSB de Rusia informó que detuvo a un menor sospechoso de planear un ataque en la Reserva Museo Tsaritsyno de Moscú y agradeció a Estados Unidos por la información. El sábado, la embajada estadounidense había advertido de una amenaza creíble de un ataque con víctimas masivas en el parque, que fue evacuado ese día.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/1/russia-detains-minor-over-alleged-moscow-attack-plot-after-us-warning",
+    "https://www.themoscowtimes.com/2026/11/01/russias-fsb-says-minor-detained-over-moscow-park-attack-threat-after-us-tip-off-a94148"
+  ],
+  "source_names": ["Al Jazeera", "The Moscow Times"],
+  "hashtags": ["#MATRIX24", "#Rusia", "#Moscú", "#Seguridad"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El FSB agradeció a EE. UU. el aviso. La embajada estadounidense había alertado de una amenaza creíble en la Reserva Museo Tsaritsyno.",
+  "summary_en": "The FSB thanked the US for the tip. The US Embassy had warned of a credible mass casualty threat at the Tsaritsyno reserve.",
+  "highlight_es": "detiene a un adolescente",
+  "highlight_en": "detains a teenager",
+  "visual_label": "Tsaritsyno",
+  "image_prompt": "Empty landscaped park with an ornate red-brick palace in the distance, autumn trees and a quiet pond, security barrier tape stretched across an empty path, overcast sky, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 55.61, "lon": 37.68, "label": "Moscú"},
+    "labels": {"Russia": "Rusia"}
+  }
+}

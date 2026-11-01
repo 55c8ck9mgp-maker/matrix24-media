@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-alcaraz-beats-de-minaur-for-vienna-title",
+  "status": "draft",
+  "created_at": "2026-11-01T18:56:00Z",
+  "category": "Sports",
+  "headline": "Carlos Alcaraz beats Alex de Minaur 6-1, 6-4 to win the Vienna title",
+  "headline_es": "Carlos Alcaraz vence 6-1, 6-4 a Alex de Minaur y gana el título en Viena",
+  "caption_en": "Carlos Alcaraz defeated Alex de Minaur 6-1, 6-4 in the Vienna final for his fourth title of 2026, winning the tournament without dropping a set. The Spaniard now leads their head-to-head 7-0 and next plays the Paris Masters before the ATP Finals in Turin.",
+  "caption_es": "Carlos Alcaraz derrotó 6-1, 6-4 a Alex de Minaur en la final de Viena y logró su cuarto título de 2026, sin ceder un set en todo el torneo. El español domina ahora 7-0 el historial entre ambos y su próxima cita es el Masters de París, antes de las Finales ATP en Turín.",
+  "source_urls": [
+    "https://www.atptour.com/en/news/alcaraz-de-minaur-vienna-2026-final",
+    "https://www.espn.com/tennis/story/_/id/50348138/carlos-alcaraz-beats-alex-de-minaur-win-vienna-open"
+  ],
+  "source_names": ["ATP Tour", "ESPN"],
+  "hashtags": ["#MATRIX24", "#Alcaraz", "#Tenis", "#Viena"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Cuarto título del año, sin perder un set en el torneo. Alcaraz domina 7-0 el historial ante el australiano.",
+  "summary_en": "His fourth title of the year, without dropping a set all week. Alcaraz leads the head-to-head 7-0.",
+  "highlight_es": "gana el título",
+  "highlight_en": "win the Vienna title",
+  "visual_label": "Tenis",
+  "image_prompt": "Empty indoor tennis hard court under bright arena lights, a trophy resting on a small table near the net, a few tennis balls on the baseline, dark stands in the background, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["Austria"],
+    "marker": {"lat": 48.21, "lon": 16.37, "label": "Viena"},
+    "labels": {"Austria": "Austria"}
+  }
+}

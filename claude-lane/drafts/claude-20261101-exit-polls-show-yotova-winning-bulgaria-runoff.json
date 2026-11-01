@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-exit-polls-show-yotova-winning-bulgaria-runoff",
+  "status": "draft",
+  "created_at": "2026-11-01T18:56:00Z",
+  "category": "World",
+  "headline": "Exit polls show Iliana Yotova winning Bulgaria's presidential runoff against Andrey Gyurov",
+  "headline_es": "Sondeos a pie de urna dan la victoria a Iliana Yotova en la segunda vuelta presidencial de Bulgaria",
+  "caption_en": "Exit polls from five Bulgarian pollsters give incumbent Iliana Yotova between 50.7% and 52.5% in Sunday's presidential runoff, against 43.4% to 44.7% for pro-Western former caretaker prime minister Andrey Gyurov. Yotova, backed by Rumen Radev's Progressive Bulgaria, favors dialogue with Russia. Official results are still pending.",
+  "caption_es": "Sondeos a pie de urna de cinco encuestadoras búlgaras otorgan a la presidenta en ejercicio, Iliana Yotova, entre el 50,7% y el 52,5% en la segunda vuelta presidencial del domingo, frente al 43,4% y 44,7% del ex primer ministro interino proccidental Andrey Gyurov. Yotova, respaldada por Bulgaria Progresista de Rumen Radev, defiende el diálogo con Rusia. Los resultados oficiales aún están pendientes.",
+  "source_urls": [
+    "https://sofiaglobe.com/2026/11/01/bulgarias-2026-presidential-elections-yotova-52-5-gyurov-43-4-in-second-round-exit-poll/",
+    "https://bta.bg/en/news/bulgaria/1237659-first-exit-polls-show-iotova-valchev-ticket-winning-november-1-presidential-elec",
+    "https://www.ksat.com/news/world/2026/11/01/exit-polls-suggest-that-iliana-yotova-wins-runoff-to-become-bulgarias-first-elected-female-president/"
+  ],
+  "source_names": ["The Sofia Globe", "BTA", "Associated Press"],
+  "hashtags": ["#MATRIX24", "#Bulgaria", "#Elecciones", "#Europa"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Cinco encuestadoras le dan entre 50,7% y 52,5%, frente a 43,4%-44,7% del proccidental Gyurov. Los resultados oficiales aún no se conocen.",
+  "summary_en": "Five pollsters give her 50.7%-52.5%, against 43.4%-44.7% for pro-Western rival Gyurov. Official results are still pending.",
+  "highlight_es": "Iliana Yotova",
+  "highlight_en": "Iliana Yotova winning",
+  "visual_label": "Bulgaria",
+  "image_prompt": "Wooden ballot box on a table in a quiet polling station, paper ballots stacked beside it, soft evening light through tall windows of an old European public building, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Bulgaria"],
+    "marker": {"lat": 42.70, "lon": 23.32, "label": "Sofía"},
+    "labels": {"Bulgaria": "Bulgaria"}
+  }
+}
