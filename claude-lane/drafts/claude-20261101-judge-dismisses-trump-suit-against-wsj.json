@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-judge-dismisses-trump-suit-against-wsj",
+  "status": "draft",
+  "created_at": "2026-11-01T00:56:20Z",
+  "category": "World",
+  "headline": "US judge permanently dismisses Trump's defamation suit against the Wall Street Journal",
+  "headline_es": "Un juez de EE. UU. desestima de forma definitiva la demanda de Trump contra el Wall Street Journal",
+  "caption_en": "US District Judge Darrin Gayles dismissed with prejudice Donald Trump's defamation lawsuit against the Wall Street Journal, Rupert Murdoch and reporters over a 2025 story about a birthday letter for Jeffrey Epstein. The judge found Trump had failed to plead actual malice. The case cannot be refiled; an earlier version was dismissed in April.",
+  "caption_es": "El juez federal de EE. UU. Darrin Gayles desestimó de forma definitiva la demanda por difamación de Donald Trump contra el Wall Street Journal, Rupert Murdoch y periodistas por un artículo de 2025 sobre una carta de cumpleaños para Jeffrey Epstein. El juez concluyó que Trump no logró alegar malicia real. El caso no puede volver a presentarse; una versión anterior fue desestimada en abril.",
+  "summary_es": "El juez Darrin Gayles concluyó que Trump no demostró malicia real en su demanda por un artículo sobre una carta de cumpleaños para Epstein. El caso no puede volver a presentarse.",
+  "summary_en": "Judge Darrin Gayles found Trump failed to show actual malice over a story about a birthday letter for Epstein. The case cannot be refiled.",
+  "highlight_es": "desestima de forma definitiva",
+  "highlight_en": "permanently dismisses",
+  "visual_label": "Tribunal",
+  "image_prompt": "Empty wood-panelled federal courtroom with a judge's bench and gavel, stacks of newspapers on a table in the foreground, soft daylight through tall windows, wide cinematic view, no people, no text, no logos",
+  "map": {"focus": ["United States of America"], "marker": {"lat": 25.7617, "lon": -80.1918, "label": "Miami"}, "labels": {"United States of America": "Estados Unidos"}},
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/10/31/trump-loses-legal-battle-over-epstein-linked-wall-street-journal-case",
+    "https://www.yahoo.com/news/politics/articles/judge-dismisses-trump-suit-over-220542901.html"
+  ],
+  "source_names": ["Al Jazeera", "UPI"],
+  "hashtags": ["#MATRIX24", "#Trump", "#WallStreetJournal", "#Epstein"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

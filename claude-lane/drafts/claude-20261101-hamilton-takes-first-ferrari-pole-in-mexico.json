@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-hamilton-takes-first-ferrari-pole-in-mexico",
+  "status": "draft",
+  "created_at": "2026-11-01T00:56:20Z",
+  "category": "Sports",
+  "headline": "Lewis Hamilton takes his first pole for Ferrari at the Mexico City Grand Prix",
+  "headline_es": "Lewis Hamilton logra su primera pole con Ferrari en el Gran Premio de Ciudad de México",
+  "caption_en": "Lewis Hamilton claimed his first pole position with Ferrari in qualifying for the Mexico City Grand Prix, edging Mercedes' George Russell by 0.009 seconds. It is the 105th pole of his career and his first since the 2023 Hungarian Grand Prix. Championship leader Kimi Antonelli can secure his first world title in Sunday's race.",
+  "caption_es": "Lewis Hamilton consiguió su primera pole position con Ferrari en la clasificación del Gran Premio de Ciudad de México, superando por 0,009 segundos a George Russell, de Mercedes. Es la pole número 105 de su carrera y la primera desde el Gran Premio de Hungría de 2023. El líder del campeonato, Kimi Antonelli, puede asegurar su primer título mundial en la carrera del domingo.",
+  "summary_es": "Hamilton superó a Russell por 0,009 segundos y sumó la pole 105 de su carrera, la primera desde 2023. Antonelli puede ser campeón el domingo.",
+  "summary_en": "Hamilton beat Russell by 0.009s for the 105th pole of his career and his first since 2023. Leader Antonelli can clinch the title on Sunday.",
+  "highlight_es": "primera pole con Ferrari",
+  "highlight_en": "first pole for Ferrari",
+  "visual_label": "F1 México",
+  "image_prompt": "Red Formula 1-style race car on an empty grid at dusk, stadium grandstands curving around the track in the background, dramatic sunset light, wide cinematic view, no text, no logos",
+  "map": {"focus": ["Mexico"], "marker": {"lat": 19.4042, "lon": -99.0907, "label": "Ciudad de México"}, "labels": {"Mexico": "México"}},
+  "source_urls": [
+    "https://www.formula1.com/en/latest/article/hamilton-clinches-first-pole-with-ferrari-in-qualifying-at-the-mexico-city-gp.4GffzFhlnOxOjbHHMc0AJI",
+    "https://www.skysports.com/f1/news/13606015/mexico-city-gp-qualifying-lewis-hamilton-claims-first-pole-position-for-ferrari-by-edging-out-mercedes-george-russell"
+  ],
+  "source_names": ["Formula1.com", "Sky Sports"],
+  "hashtags": ["#MATRIX24", "#F1", "#MexicoGP", "#Hamilton", "#Ferrari"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
