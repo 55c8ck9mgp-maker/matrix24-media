@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-india-opposition-rallies-against-election-chief",
+  "created_at": "2026-11-01T06:57:00Z",
+  "category": "World",
+  "headline": "India's opposition rallies in New Delhi to demand the election chief's resignation",
+  "headline_es": "La oposición india se moviliza en Nueva Delhi para exigir la renuncia del jefe electoral",
+  "caption_es": "El bloque opositor indio INDIA, encabezado por Rahul Gandhi, celebra este domingo una gran concentración en el recinto Ramlila Maidan de Nueva Delhi para exigir la renuncia del jefe de la Comisión Electoral, Gyanesh Kumar. Los partidos lo acusan de supervisar una revisión del padrón electoral que, según ellos, eliminó los nombres de votantes habilitados. Los organizadores esperan hasta un millón de personas, mientras que la policía, que prevé unas 50.000, ha desplegado más de 4.000 agentes.",
+  "caption_en": "India's opposition INDIA bloc, led by Rahul Gandhi, is holding a mass rally at New Delhi's Ramlila Maidan on Sunday to demand the resignation of Chief Election Commissioner Gyanesh Kumar. The parties accuse him of overseeing a revision of the electoral rolls that they say deleted the names of eligible voters. Organisers expect up to one million people, while police, who expect about 50,000, have deployed more than 4,000 officers.",
+  "source_urls": [
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/01/indias-protest-movements-unite-in-fresh-headache-for-modi",
+    "https://www.business-standard.com/india-news/india-bloc-protesters-gather-at-ramlila-maidan-demand-cec-s-resignation-126110100084_1.html",
+    "https://www.etvbharat.com/en/bharat/live-blog--india-bloc-delhi-ramlila-maidan-chalo-dilli-rally-against-cec-gyanesh-kumar-latest-update-sir-maidan-congress-rahul-gandhi-traders-association-bjp-narendra-modi-enn26110100456"
+  ],
+  "source_names": [
+    "The Star",
+    "Business Standard",
+    "ETV Bharat"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#India",
+    "#NuevaDelhi",
+    "#Elecciones",
+    "#Protestas"
+  ],
+  "summary_es": "El bloque opositor INDIA se concentra en Nueva Delhi para exigir la renuncia del jefe electoral, Gyanesh Kumar, por una polémica revisión del padrón electoral.",
+  "summary_en": "The INDIA opposition bloc rallies in New Delhi to demand that election chief Gyanesh Kumar resign over a disputed voter-roll revision.",
+  "highlight_es": "renuncia del jefe electoral",
+  "highlight_en": "election chief's resignation",
+  "image_prompt": "Vast open fairground in a large South Asian capital prepared for a political rally, a large empty stage with loudspeakers, rows of metal barricades and colourful tents under hazy midday sun, wide cinematic view, no people, no text, no flags",
+  "visual_label": "Nueva Delhi",
+  "map": {
+    "focus": [
+      "India"
+    ],
+    "marker": {
+      "lat": 28.64,
+      "lon": 77.23,
+      "label": "Nueva Delhi"
+    },
+    "labels": {
+      "India": "India"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-02T02:58:23.539Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
