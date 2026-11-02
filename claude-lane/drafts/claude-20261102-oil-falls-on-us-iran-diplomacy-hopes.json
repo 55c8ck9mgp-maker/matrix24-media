@@ -1,0 +1,36 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-02T12:56:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261102-oil-falls-on-us-iran-diplomacy-hopes",
+  "category": "Economy",
+  "headline": "Oil prices fall on hopes for diplomacy to end the US-Iran war",
+  "headline_es": "El petróleo cae por la esperanza de una salida diplomática a la guerra entre EE. UU. e Irán",
+  "caption_en": "Oil prices fell on Monday on hopes for progress in diplomatic efforts between the United States and Iran. Brent crude, the international benchmark, remained above $100 a barrel. Asian stock markets were mixed after a sharp drop in US technology shares on Friday.",
+  "caption_es": "Los precios del petróleo cayeron el lunes ante la esperanza de avances en los esfuerzos diplomáticos entre Estados Unidos e Irán. El crudo Brent, referencia internacional, se mantuvo por encima de 100 dólares por barril. Las bolsas asiáticas operaron con resultados mixtos tras una fuerte caída de las acciones tecnológicas en EE. UU. el viernes.",
+  "source_urls": [
+    "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/02/global-shares-are-mixed-and-us-futures-advance-while-oil-prices-fall-nearly-4/",
+    "https://swissinfo.ch/eng/stock-selloff-eases-in-asian-trade,-oil-declines:-markets-wrap/92310840"
+  ],
+  "source_names": [
+    "Associated Press (via BNN Bloomberg)",
+    "Bloomberg (via SWI swissinfo.ch)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Petróleo",
+    "#Economía",
+    "#Irán",
+    "#Oil"
+  ],
+  "summary_es": "El crudo bajó por la esperanza de avances diplomáticos entre EE. UU. e Irán, aunque el Brent sigue por encima de 100 dólares.",
+  "summary_en": "Crude fell on hopes for US-Iran diplomatic progress, though Brent stays above $100 a barrel.",
+  "highlight_es": "petróleo cae",
+  "highlight_en": "Oil prices fall",
+  "visual_label": "Petróleo",
+  "image_prompt": "Oil tanker sailing on calm blue-grey water at sunrise, offshore platform in the distance, a subtle downward trend line glowing in the sky, wide cinematic view, no text, no logos, no flags, no people"
+}

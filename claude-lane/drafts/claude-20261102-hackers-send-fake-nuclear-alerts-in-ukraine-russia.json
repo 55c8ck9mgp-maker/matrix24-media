@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-02T12:56:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261102-hackers-send-fake-nuclear-alerts-in-ukraine-russia",
+  "category": "Security / Geopolitics",
+  "headline": "Hacked alert apps send fake nuclear warnings in Ukraine and Russia as Kherson truce ends",
+  "headline_es": "Apps de alerta hackeadas envían falsas alarmas nucleares en Ucrania y Rusia al terminar la tregua",
+  "caption_en": "Ukraine's air force said its public air raid alert app sent false warnings after being hacked, including alerts of nuclear and chemical threats around Kyiv; it stressed there was no radiation threat, and Ukraine's strategic communications centre blamed Russia. Russia's Emergencies Ministry said its own warning app was hit by a massive cyberattack. The incidents followed the end of a local truce in Ukraine's Kherson region, the longest of the war.",
+  "caption_es": "La fuerza aérea de Ucrania dijo que su app pública de alertas antiaéreas envió avisos falsos tras ser hackeada, incluidas alertas de amenazas nucleares y químicas en torno a Kiev; subrayó que no había amenaza radiactiva, y el centro de comunicaciones estratégicas ucraniano culpó a Rusia. El Ministerio de Emergencias de Rusia dijo que su propia app de avisos sufrió un ciberataque masivo. Los incidentes ocurrieron tras el fin de una tregua local en la región ucraniana de Jersón, la más larga de la guerra.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings",
+    "https://www.abc.net.au/news/2026-11-02/ukraine-air-force-public-air-raid-alert-app-hacked-false-warning/107336062"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "ABC News (Australia), with Reuters/AFP"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Rusia",
+    "#Ciberataque",
+    "#Ukraine"
+  ],
+  "summary_es": "Ucrania dijo que su app de alertas antiaéreas fue hackeada y envió falsas amenazas nucleares y químicas; Rusia reportó un ciberataque masivo contra su app de emergencias.",
+  "summary_en": "Ukraine said its air raid alert app was hacked to send fake nuclear and chemical threats; Russia reported a massive cyberattack on its own emergency app.",
+  "highlight_es": "falsas alarmas nucleares",
+  "highlight_en": "fake nuclear warnings",
+  "visual_label": "Ciberataque",
+  "image_prompt": "Smartphone lying on a dark table showing a glowing red generic warning triangle icon with glitchy distorted screen, faint city skyline silhouette at night through a window, moody cinematic lighting, no text, no logos, no people",
+  "map": {
+    "focus": [
+      "Ukraine",
+      "Russia"
+    ],
+    "marker": {
+      "lat": 50.45,
+      "lon": 30.52,
+      "label": "Kiev"
+    },
+    "labels": {
+      "Ukraine": "Ucrania",
+      "Russia": "Rusia"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-02T12:56:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261102-colombia-mourns-antonio-navarro-wolff",
+  "category": "Colombia / Latin America",
+  "headline": "Antonio Navarro Wolff, ex-M-19 leader and 1991 Constitution framer, dies at 78",
+  "headline_es": "Muere a los 78 años Antonio Navarro Wolff, exlíder del M-19 y constituyente de 1991",
+  "caption_en": "Colombian politician Antonio Navarro Wolff died on Sunday at age 78, his family said in a statement. A former leader of the M-19 guerrilla group, he took part in the peace process that led to its demobilization. He was also a member of the 1991 Constituent Assembly that wrote Colombia's current Constitution.",
+  "caption_es": "El político colombiano Antonio Navarro Wolff murió el domingo a los 78 años, informó su familia en un comunicado. Exlíder de la guerrilla del M-19, participó en el proceso de paz que llevó a su desmovilización. También fue miembro de la Asamblea Nacional Constituyente de 1991 que redactó la actual Constitución de Colombia.",
+  "source_urls": [
+    "https://www.infobae.com/colombia/2026/11/01/fallecio-antonio-navarro-wolff-miembro-de-la-asamblea-constituyente-de-1991-a-los-78-anos/",
+    "https://www.elcolombiano.com/colombia/antonio-navarro-wolff-politico-muerte-m19-constituyente-KB43069829"
+  ],
+  "source_names": [
+    "Infobae",
+    "El Colombiano"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#NavarroWolff",
+    "#Constitución1991"
+  ],
+  "summary_es": "Exlíder del M-19 que participó en su proceso de paz, fue miembro de la Constituyente que redactó la Constitución de 1991. Su familia anunció su muerte.",
+  "summary_en": "The former M-19 leader who joined its peace process helped write the 1991 Constitution. His family announced his death.",
+  "highlight_es": "Antonio Navarro Wolff",
+  "highlight_en": "Antonio Navarro Wolff",
+  "visual_label": "Constitución 1991",
+  "image_prompt": "An open leather-bound constitution book resting on a wooden desk beside a fountain pen and a single white flower, soft warm window light, quiet memorial mood, no text visible, no logos, no flags, no people",
+  "map": {
+    "focus": [
+      "Colombia"
+    ],
+    "marker": {
+      "lat": 1.21,
+      "lon": -77.28,
+      "label": "Pasto"
+    },
+    "labels": {
+      "Colombia": "Colombia"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-02T12:56:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261102-cyclone-murasu-nears-andhra-pradesh",
+  "category": "Climate",
+  "headline": "Cyclone Murasu heads for India's Andhra Pradesh coast a week after Cyclone Arnab",
+  "headline_es": "El ciclón Murasu avanza hacia la costa de Andhra Pradesh, India, una semana después de Arnab",
+  "caption_en": "Cyclone Murasu is forecast to make landfall on India's southeastern coast between Nellore and Narsapur in Andhra Pradesh overnight into Tuesday, with sustained winds of 100-110 km/h and gusts up to 120 km/h. It comes about a week after Cyclone Arnab struck the same coastline. National Disaster Response Force teams have been deployed, and schools have closed in parts of the region.",
+  "caption_es": "Se prevé que el ciclón Murasu toque tierra en la costa sureste de India, entre Nellore y Narsapur, en Andhra Pradesh, en la noche del lunes al martes, con vientos sostenidos de 100 a 110 km/h y ráfagas de hasta 120 km/h. Llega cerca de una semana después de que el ciclón Arnab azotara la misma costa. Se desplegaron equipos de la Fuerza Nacional de Respuesta a Desastres y se cerraron escuelas en partes de la región.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week",
+    "https://www.theweek.in/news/india/2026/11/02/cyclone-murasu-approaches-andhra-pradesh-odisha-tamil-nadu-on-alert.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "The Week (India)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#India",
+    "#CiclónMurasu",
+    "#Clima"
+  ],
+  "summary_es": "Murasu tocaría tierra entre Nellore y Narsapur con ráfagas de hasta 120 km/h, una semana después del ciclón Arnab.",
+  "summary_en": "Murasu is expected ashore between Nellore and Narsapur with gusts up to 120 km/h, a week after Cyclone Arnab.",
+  "highlight_es": "ciclón Murasu",
+  "highlight_en": "Cyclone Murasu",
+  "visual_label": "Ciclón Murasu",
+  "image_prompt": "Dark spiral storm clouds approaching a tropical coastline at dusk, rough sea with tall waves, empty fishing boats pulled up on the sand, palm trees bending in the wind, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "India"
+    ],
+    "marker": {
+      "lat": 15.5,
+      "lon": 80.05,
+      "label": "Andhra Pradesh"
+    },
+    "labels": {
+      "India": "India"
+    }
+  }
+}
