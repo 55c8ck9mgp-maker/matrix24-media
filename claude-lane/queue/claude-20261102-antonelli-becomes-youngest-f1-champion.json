@@ -43,10 +43,10 @@
       "Mexico": "México"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261102-antonelli-becomes-youngest-f1-champion.jpg",
   "publish_attempt_id": "7efb0e0e-4c94-4c3b-988a-8de48ab9702b",
-  "ig_media_id": null,
+  "ig_media_id": "17990310003093401",
   "history": [
     {
       "at": "2026-11-02T20:56:51.726Z",
@@ -62,8 +62,15 @@
       "at": "2026-11-02T20:57:33.103Z",
       "event": "reserved",
       "publish_attempt_id": "7efb0e0e-4c94-4c3b-988a-8de48ab9702b"
+    },
+    {
+      "at": "2026-11-02T20:58:05.207Z",
+      "event": "published",
+      "publish_attempt_id": "7efb0e0e-4c94-4c3b-988a-8de48ab9702b",
+      "ig_media_id": "17990310003093401"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-11-02T20:57:33.103Z"
+  "reserved_at": "2026-11-02T20:57:33.103Z",
+  "permalink": "https://www.instagram.com/p/DfQN8e2lE7R/"
 }
