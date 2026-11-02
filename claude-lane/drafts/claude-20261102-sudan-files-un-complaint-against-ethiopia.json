@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261102-sudan-files-un-complaint-against-ethiopia",
+ "status": "draft",
+ "created_at": "2026-11-02T18:52:27Z",
+ "category": "Security / Geopolitics",
+ "headline": "Sudan files complaints at the UN and African Union accusing Ethiopia over RSF drone attacks",
+ "headline_es": "Sudán denuncia a Etiopía ante la ONU y la Unión Africana por ataques con drones de las RSF",
+ "caption_en": "Sudan has filed complaints with the UN Security Council and the African Union's Peace and Security Council, accusing the paramilitary RSF of launching drone attacks from Ethiopian territory. Sudan's Sovereignty Council says 187 drones were launched from Ethiopia in 70 attacks between February and October, naming Asosa airport and a base in Bahir Dar.",
+ "caption_es": "Sudán presentó denuncias ante el Consejo de Seguridad de la ONU y el Consejo de Paz y Seguridad de la Unión Africana, en las que acusa a las paramilitares RSF de lanzar ataques con drones desde territorio etíope. El Consejo de Soberanía sudanés afirma que 187 drones fueron lanzados desde Etiopía en 70 ataques entre febrero y octubre, y señala el aeropuerto de Asosa y una base en Bahir Dar.",
+ "summary_es": "Jartum afirma que 187 drones fueron lanzados desde Etiopía en 70 ataques entre febrero y octubre contra sitios civiles e instalaciones clave.",
+ "summary_en": "Khartoum says 187 drones were launched from Ethiopia in 70 attacks between February and October against civilian sites and key facilities.",
+ "highlight_es": "Sudán denuncia a Etiopía",
+ "highlight_en": "accusing Ethiopia",
+ "visual_label": "Drones",
+ "image_prompt": "Military drone silhouette flying over a dry savanna border region at dusk, power transmission towers in the distance, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+ "map": {
+  "focus": [
+   "Sudan",
+   "Ethiopia"
+  ],
+  "marker": {
+   "lat": 10.0181,
+   "lon": 34.5292,
+   "label": "Asosa"
+  },
+  "labels": {
+   "Sudan": "Sudán",
+   "Ethiopia": "Etiopía"
+  }
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/11/2/sudan-files-complaints-against-ethiopia-with-un-over-deadly-drone-spree",
+  "https://www.dabangasudan.org/en/all-news/article/sudan-govt-accuses-ethiopia-of-backing-rsf-drone-attacks-analysts-question-un-complaint"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "Dabanga"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Sudan",
+  "#Etiopia",
+  "#ONU"
+ ],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

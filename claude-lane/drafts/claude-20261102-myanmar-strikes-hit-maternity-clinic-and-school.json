@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261102-myanmar-strikes-hit-maternity-clinic-and-school",
+ "status": "draft",
+ "created_at": "2026-11-02T18:52:27Z",
+ "category": "Security / Geopolitics",
+ "headline": "Myanmar military airstrikes kill at least 15, including a newborn, at a maternity clinic and a school",
+ "headline_es": "Bombardeos del ejército de Myanmar matan al menos a 15 personas, entre ellas un recién nacido",
+ "caption_en": "Myanmar military airstrikes killed at least 15 civilians over the weekend, including a newborn. At least 12 died on Sunday in strikes on several townships in Rakhine state, one of which hit a maternity facility in Mrauk-U. A day earlier, a strike on a school in Loikaw township killed three children.",
+ "caption_es": "Bombardeos aéreos del ejército de Myanmar mataron al menos a 15 civiles durante el fin de semana, entre ellos un recién nacido. Al menos 12 murieron el domingo en ataques contra varios municipios del estado de Rakhine, uno de los cuales alcanzó un centro de maternidad en Mrauk-U. Un día antes, un ataque contra una escuela en el municipio de Loikaw mató a tres niños.",
+ "summary_es": "Ataques aéreos en Rakhine alcanzaron un centro de maternidad y dejaron al menos 12 muertos; otro bombardeo contra una escuela en Loikaw mató a tres niños.",
+ "summary_en": "Airstrikes in Rakhine hit a maternity facility and killed at least 12; another strike on a school in Loikaw killed three children.",
+ "highlight_es": "Myanmar",
+ "highlight_en": "Myanmar",
+ "visual_label": "Rakhine",
+ "image_prompt": "Small rural clinic building with a tin roof among palm trees in a lush green river valley, dark storm clouds and a distant plume of smoke on the horizon, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": ["Myanmar"],
+  "marker": {"lat": 20.5925, "lon": 93.1897, "label": "Mrauk-U"},
+  "labels": {"Myanmar": "Myanmar"}
+ },
+ "source_urls": [
+  "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/02/newborn-among-15-killed-as-myanmar-military-strikes-maternity-clinic-and-school-sources-say",
+  "https://www.aa.com.tr/en/asia-pacific/myanmar-military-airstrikes-kill-at-least-15-civilians-including-12-in-rakhine-state-report/4108750"
+ ],
+ "source_names": ["Reuters (via The Star)", "Anadolu Agency"],
+ "hashtags": ["#MATRIX24", "#Myanmar", "#Rakhine", "#DerechosHumanos"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}
