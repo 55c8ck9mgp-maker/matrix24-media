@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261101-bolivia-declares-el-nino-emergency",
+  "created_at": "2026-11-01T13:04:00Z",
+  "category": "Climate",
+  "headline": "Bolivia declares a national emergency over El Niño as drought hits dozens of communities",
+  "headline_es": "Bolivia declara emergencia nacional por El Niño ante la sequía en decenas de comunidades",
+  "caption_es": "El presidente de Bolivia, Rodrigo Paz, declaró por decreto la emergencia nacional por el fenómeno climático de El Niño. La medida permite al Gobierno movilizar recursos económicos y humanos, junto con instituciones nacionales y la cooperación internacional, para asistir a las zonas afectadas. Sesenta y tres comunidades ya enfrentan sequía, mientras las autoridades se preparan para posibles inundaciones en otras regiones.",
+  "caption_en": "Bolivian President Rodrigo Paz declared a national emergency by decree over the El Niño climate phenomenon. The measure allows the government to mobilise economic and human resources, together with national institutions and international cooperation, to help affected areas. Sixty-three communities already face drought, while authorities prepare for possible flooding in other regions.",
+  "source_urls": [
+    "https://es.euronews.com/2026/11/01/bolivia-emergencia-nacional-fenomeno-el-nino-sequias-inundaciones",
+    "https://www.opinion.com.bo/pais/paz-declara-emergencia-nacional-fenomeno-nino-dispone-movilizacion-recursos/20261031210746998512.html"
+  ],
+  "source_names": [
+    "Euronews",
+    "Opinión Bolivia"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Bolivia",
+    "#ElNiño",
+    "#Sequía",
+    "#Clima"
+  ],
+  "summary_es": "El decreto del presidente Rodrigo Paz moviliza recursos económicos y humanos; 63 comunidades ya sufren sequía y se preparan posibles inundaciones.",
+  "summary_en": "President Rodrigo Paz's decree mobilises economic and human resources; 63 communities already face drought as authorities brace for floods.",
+  "highlight_es": "emergencia nacional",
+  "highlight_en": "national emergency",
+  "image_prompt": "Cracked dry earth of a high Andean plateau under a harsh sun, a nearly empty reservoir and a lone water tank, distant snow-capped mountains and gathering storm clouds on the horizon, wide cinematic view, no people, no text",
+  "visual_label": "El Niño",
+  "map": {
+    "focus": [
+      "Bolivia"
+    ],
+    "labels": {
+      "Bolivia": "Bolivia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-02T11:45:33.912Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
