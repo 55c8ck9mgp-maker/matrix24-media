@@ -43,10 +43,10 @@
       "India": "India"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261101-india-opposition-rallies-against-election-chief.jpg",
   "publish_attempt_id": "8922ff21-922d-4c45-8f4b-cd4401e99d32",
-  "ig_media_id": null,
+  "ig_media_id": "18121503904961661",
   "history": [
     {
       "at": "2026-11-02T02:58:23.539Z",
@@ -62,8 +62,15 @@
       "at": "2026-11-02T02:59:02.756Z",
       "event": "reserved",
       "publish_attempt_id": "8922ff21-922d-4c45-8f4b-cd4401e99d32"
+    },
+    {
+      "at": "2026-11-02T02:59:43.071Z",
+      "event": "published",
+      "publish_attempt_id": "8922ff21-922d-4c45-8f4b-cd4401e99d32",
+      "ig_media_id": "18121503904961661"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-11-02T02:59:02.756Z"
+  "reserved_at": "2026-11-02T02:59:02.756Z",
+  "permalink": "https://www.instagram.com/p/DfOShP2nNCs/"
 }
