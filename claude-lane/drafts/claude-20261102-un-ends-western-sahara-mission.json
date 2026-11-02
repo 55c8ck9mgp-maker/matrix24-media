@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261102-un-ends-western-sahara-mission",
+ "status": "draft",
+ "created_at": "2026-11-02T06:52:00Z",
+ "category": "World",
+ "headline": "UN peacekeeping mission in Western Sahara ends after 35 years following a Russian veto",
+ "headline_es": "La misión de paz de la ONU en el Sáhara Occidental termina tras 35 años por un veto ruso",
+ "caption_en": "The UN mission in Western Sahara, MINURSO, has begun shutting down after its mandate expired on October 31. Russia vetoed a US draft that backed Morocco's autonomy plan as the basis for talks, and a rival Russian extension failed to win enough votes. Secretary-General Guterres urged maximum restraint, while Morocco welcomed the outcome and Algeria voiced deep regret.",
+ "caption_es": "La misión de la ONU en el Sáhara Occidental, MINURSO, comenzó su cierre tras expirar su mandato el 31 de octubre. Rusia vetó un borrador de EE.UU. que respaldaba el plan de autonomía de Marruecos como base de las negociaciones, y una propuesta rusa de prórroga no obtuvo los votos suficientes. El secretario general Guterres pidió máxima moderación; Marruecos celebró el resultado y Argelia expresó su profundo pesar.",
+ "summary_es": "El mandato de la MINURSO expiró tras un veto ruso a un texto de EE.UU. La ONU inició la liquidación de la misión creada en 1991 y Guterres pidió máxima moderación.",
+ "summary_en": "MINURSO's mandate expired after Russia vetoed a US text. The UN began winding down the mission created in 1991, and Guterres urged maximum restraint.",
+ "highlight_es": "Sáhara Occidental",
+ "highlight_en": "Western Sahara",
+ "visual_label": "MINURSO",
+ "image_prompt": "Empty white UN-style observation post with parked white off-road vehicles in a vast desert at sunset, wind blowing sand across the dunes, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": ["W. Sahara", "Morocco"],
+  "marker": {"lat": 27.1536, "lon": -13.2033, "label": "El Aaiún"},
+  "labels": {"W. Sahara": "Sáhara Occidental", "Morocco": "Marruecos"}
+ },
+ "source_urls": [
+  "https://news.un.org/en/story/2026/11/1168717",
+  "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends"
+ ],
+ "source_names": ["UN News", "Al Jazeera"],
+ "hashtags": ["#MATRIX24", "#WesternSahara", "#ONU", "#MINURSO", "#Marruecos"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

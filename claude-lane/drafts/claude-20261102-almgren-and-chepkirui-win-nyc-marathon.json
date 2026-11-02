@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261102-almgren-and-chepkirui-win-nyc-marathon",
+ "status": "draft",
+ "created_at": "2026-11-02T06:52:00Z",
+ "category": "Sports",
+ "headline": "Sweden's Almgren wins the New York City Marathon on debut; Kenya's Chepkirui takes women's race",
+ "headline_es": "El sueco Almgren gana el Maratón de Nueva York en su debut; la keniana Chepkirui, en mujeres",
+ "caption_en": "Andreas Almgren won the New York City Marathon in 2:06:01 in his first marathon, 13 seconds ahead of Italy's Yemaneberhan Crippa, becoming the first Swede to win the race. Kenya's Sheila Chepkirui won the women's race in 2:24:36 for her second New York title, six seconds ahead of American Jess McClain.",
+ "caption_es": "Andreas Almgren ganó el Maratón de Nueva York con 2:06:01 en su primer maratón, 13 segundos por delante del italiano Yemaneberhan Crippa, y se convirtió en el primer sueco en ganar la carrera. La keniana Sheila Chepkirui ganó la prueba femenina con 2:24:36, su segundo título en Nueva York, seis segundos por delante de la estadounidense Jess McClain.",
+ "summary_es": "Almgren ganó con 2:06:01 en su debut en maratón, el primer sueco en lograrlo en Nueva York. Chepkirui ganó en mujeres con 2:24:36.",
+ "summary_en": "Almgren won in 2:06:01 on his marathon debut, the first Swede to win in New York. Chepkirui won the women's race in 2:24:36.",
+ "highlight_es": "Maratón de Nueva York",
+ "highlight_en": "New York City Marathon",
+ "visual_label": "NYC Maratón",
+ "image_prompt": "Empty city marathon finish line on a tree-lined park road in autumn, orange and yellow leaves, timing clock gantry without text, barriers along the course, morning light, wide cinematic view, no people, no text, no logos",
+ "map": {
+  "focus": [
+   "United States of America"
+  ],
+  "marker": {
+   "lat": 40.7711,
+   "lon": -73.9742,
+   "label": "Nueva York"
+  },
+  "labels": {
+   "United States of America": "Estados Unidos"
+  }
+ },
+ "source_urls": [
+  "https://www.nbcsports.com/olympics/news/new-york-city-marathon-2026-andreas-almgren-sheila-chepkirui",
+  "https://abc7ny.com/live-updates/nyc-marathon-guide-when-is-race-262-mile-route-road-closures-other-things-know/19985497/"
+ ],
+ "source_names": [
+  "NBC Sports",
+  "ABC7 New York"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#NYCMarathon",
+  "#Maratón",
+  "#Atletismo"
+ ],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

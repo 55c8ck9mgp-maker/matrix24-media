@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261102-france-opens-probe-after-gendarme-set-alight",
+ "status": "draft",
+ "created_at": "2026-11-02T06:52:00Z",
+ "category": "World",
+ "headline": "France opens attempted-murder probe after a petrol bomb sets a gendarme alight in Paris",
+ "headline_es": "Francia abre una investigación por intento de asesinato tras quemar a un gendarme en París",
+ "caption_en": "French prosecutors opened an attempted-murder investigation after explosive devices were thrown at about 15 gendarmes and police officers in Paris during a third weekend of protests over living costs. An incendiary device set a gendarme's lower body on fire. The interior ministry said more than 770 people were arrested across France; no suspects had been detained over the firebomb attack.",
+ "caption_es": "La fiscalía francesa abrió una investigación por intento de asesinato después de que se lanzaran artefactos explosivos contra unos 15 gendarmes y policías en París durante el tercer fin de semana de protestas por el costo de vida. Un artefacto incendiario prendió fuego a la parte inferior del cuerpo de un gendarme. El Ministerio del Interior informó de más de 770 detenidos en toda Francia; no había sospechosos arrestados por el ataque.",
+ "summary_es": "Un artefacto incendiario quemó a un gendarme en París durante protestas por el costo de vida. Hubo más de 770 detenidos en Francia.",
+ "summary_en": "An incendiary device set a gendarme on fire in Paris during cost-of-living protests. More than 770 people were arrested across France.",
+ "highlight_es": "intento de asesinato",
+ "highlight_en": "attempted-murder probe",
+ "visual_label": "París",
+ "image_prompt": "Empty Paris boulevard at dusk with Haussmann-style buildings, scattered debris and a lone smoldering trash bin on wet pavement, distant blue emergency lights blurred, wide cinematic view, no people, no text, no logos",
+ "map": {
+  "focus": ["France"],
+  "marker": {"lat": 48.8566, "lon": 2.3522, "label": "París"},
+  "labels": {"France": "Francia"}
+ },
+ "source_urls": [
+  "https://www.rte.ie/news/2026/1101/1597538-france-protests-probe/",
+  "https://www.yahoo.com/news/world/articles/france-launches-attempted-murder-probe-132321639.html"
+ ],
+ "source_names": ["RTÉ", "AFP via Yahoo News"],
+ "hashtags": ["#MATRIX24", "#Francia", "#París", "#Protestas"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}
