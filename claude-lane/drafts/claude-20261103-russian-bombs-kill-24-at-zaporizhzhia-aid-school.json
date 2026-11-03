@@ -1,0 +1,31 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261103-russian-bombs-kill-24-at-zaporizhzhia-aid-school",
+ "status": "draft",
+ "created_at": "2026-11-03T00:50:34Z",
+ "category": "Security / Geopolitics",
+ "headline": "Russian bombs kill 24 at a school used for aid distribution in Ukraine's Zaporizhzhia region",
+ "headline_es": "Bombas rusas matan a 24 personas en una escuela usada para repartir ayuda en Zaporiyia, Ucrania",
+ "caption_en": "Russian aerial bombs killed at least 24 people on Monday in the village of Komyshuvakha, in Ukraine's Zaporizhzhia region, where a school was used to hand out humanitarian aid. Two rescuers were among the dead and 27 people are missing. President Zelensky said a first strike was followed by nine more bombs on a shelter. The attack came after a local truce for the evacuation of Oleshky ended.",
+ "caption_es": "Bombas aéreas rusas mataron al menos a 24 personas el lunes en la aldea de Komyshuvakha, en la región ucraniana de Zaporiyia, donde una escuela se usaba para repartir ayuda humanitaria. Entre los muertos hay dos rescatistas y 27 personas siguen desaparecidas. El presidente Zelenski dijo que a un primer ataque le siguieron otras nueve bombas sobre un refugio. El ataque ocurrió tras el fin de una tregua local para evacuar Oleshky.",
+ "summary_es": "Un bombardeo ruso contra una escuela que servía como punto de ayuda humanitaria en Komyshuvakha dejó al menos 24 muertos y 27 desaparecidos.",
+ "summary_en": "A Russian bombing of a school used as an aid point in Komyshuvakha left at least 24 dead and 27 missing.",
+ "highlight_es": "Bombas rusas",
+ "highlight_en": "Russian bombs",
+ "visual_label": "Zaporiyia",
+ "image_prompt": "Empty rural village school building with a damaged roof on a grey autumn day, bare trees and flat steppe fields around it, a distant column of smoke on the horizon, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": ["Ukraine"],
+  "labels": {"Ukraine": "Ucrania"}
+ },
+ "source_urls": [
+  "https://www.dailymaverick.co.za/article/2026-11-02-russian-bombing-kills-24-in-village-in-southeastern-ukraine-emergency-services-say/",
+  "https://www.abc.net.au/news/2026-11-03/russia-strikes-ukrainian-aid-outpost/107339274"
+ ],
+ "source_names": ["Reuters (via Daily Maverick)", "ABC News (Australia)"],
+ "hashtags": ["#MATRIX24", "#Ucrania", "#Ukraine", "#Zaporiyia"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

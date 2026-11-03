@@ -1,0 +1,31 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261103-new-cyberattack-hits-european-supermarket-freezers",
+ "status": "draft",
+ "created_at": "2026-11-03T00:50:34Z",
+ "category": "Technology",
+ "headline": "New cyberattack hits supermarket freezers in Belgium, Sweden and Estonia, spoiling food",
+ "headline_es": "Nuevo ciberataque contra congeladores de supermercados en Bélgica, Suecia y Estonia",
+ "caption_en": "Hackers took control of supermarket freezers and fridges overnight into Monday in Belgium, Sweden and Estonia, with some units reportedly set to 50°C and stores forced to throw out food. Chains affected included Delhaize and Carrefour in Belgium and ICA and Coop in Sweden. It is the second such attack in weeks, after one on refrigeration systems at supermarkets in France in October.",
+ "caption_es": "Hackers tomaron el control de congeladores y neveras de supermercados en la noche del domingo al lunes en Bélgica, Suecia y Estonia; algunos equipos habrían sido programados a 50 °C y las tiendas tuvieron que desechar alimentos. Entre las cadenas afectadas están Delhaize y Carrefour en Bélgica, e ICA y Coop en Suecia. Es el segundo ataque de este tipo en semanas, tras uno contra sistemas de refrigeración de supermercados en Francia en octubre.",
+ "summary_es": "Hackers elevaron la temperatura de congeladores de supermercados hasta 50 °C en varios países europeos. Es el segundo ataque tras el de Francia en octubre.",
+ "summary_en": "Hackers raised supermarket freezer temperatures as high as 50°C in several European countries, the second attack after France in October.",
+ "highlight_es": "ciberataque",
+ "highlight_en": "cyberattack",
+ "visual_label": "Ciberataque",
+ "image_prompt": "Empty supermarket aisle at night lined with open glass-door freezers glowing red, frost melting and water dripping, a digital control panel showing warning lights, moody cinematic lighting, no people, no text, no logos, no brand names",
+ "map": {
+  "focus": ["Belgium", "Sweden"],
+  "labels": {"Belgium": "Bélgica", "Sweden": "Suecia"}
+ },
+ "source_urls": [
+  "https://abcnews.com/International/wireStory/freezers-supermarkets-european-countries-hit-apparent-cyberattacks-137765494",
+  "https://www.tomshardware.com/tech-industry/cyber-security/supermarket-freezers-across-europe-struck-in-second-crippling-cyberattack-hackers-raise-temperatures-to-50-degrees-celsius-in-belgium-and-sweden-destroying-food-stocks"
+ ],
+ "source_names": ["AP (via ABC News)", "Tom's Hardware"],
+ "hashtags": ["#MATRIX24", "#Ciberseguridad", "#Cybersecurity", "#Europa"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

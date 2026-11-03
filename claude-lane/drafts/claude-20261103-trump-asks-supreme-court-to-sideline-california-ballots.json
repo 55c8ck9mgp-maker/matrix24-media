@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261103-trump-asks-supreme-court-to-sideline-california-ballots",
+ "status": "draft",
+ "created_at": "2026-11-03T00:50:34Z",
+ "category": "World",
+ "headline": "Trump administration asks Supreme Court to set aside 20,000 California mail ballots",
+ "headline_es": "El gobierno de Trump pide al Supremo apartar 20.000 votos por correo en California",
+ "caption_en": "On the eve of the US midterm elections, the Trump administration filed an emergency request asking the Supreme Court to have California set aside about 20,000 mail ballots from voters it suspects are not citizens. A federal judge and an appeals court had already rejected the request. California officials say the federal list is unreliable and likely includes many citizens.",
+ "caption_es": "En vísperas de las elecciones de medio mandato en EE. UU., el gobierno de Trump presentó una solicitud de emergencia para que la Corte Suprema ordene a California apartar unos 20.000 votos por correo de electores que sospecha que no son ciudadanos. Un juez federal y un tribunal de apelaciones ya habían rechazado la petición. Las autoridades de California dicen que la lista federal no es fiable y probablemente incluye a muchos ciudadanos.",
+ "summary_es": "La petición de emergencia llega un día antes de las elecciones de medio mandato, tras ser rechazada por un juez federal y un tribunal de apelaciones.",
+ "summary_en": "The emergency request came a day before the midterms, after a federal judge and an appeals court rejected it.",
+ "highlight_es": "Supremo",
+ "highlight_en": "Supreme Court",
+ "visual_label": "Voto por correo",
+ "image_prompt": "Stack of sealed blank mail-in ballot envelopes on a wooden table beside a ballot drop box, a classical courthouse with columns softly blurred in the background, warm late-afternoon light, no people, no text, no logos, no flags",
+ "map": {
+  "focus": ["United States of America"],
+  "marker": {"lat": 38.5816, "lon": -121.4944, "label": "California"},
+  "labels": {"United States of America": "Estados Unidos"}
+ },
+ "source_urls": [
+  "https://www.pbs.org/newshour/politics/trump-administration-asks-supreme-court-to-sideline-20000-disputed-california-mail-ballots",
+  "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms"
+ ],
+ "source_names": ["AP (via PBS NewsHour)", "Al Jazeera"],
+ "hashtags": ["#MATRIX24", "#EEUU", "#Midterms", "#California"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}
