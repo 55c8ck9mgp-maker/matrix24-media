@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-03T06:52:09Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261103-south-korea-probes-president-passport-leak",
+ "category": "Security / Geopolitics",
+ "headline": "South Korea investigates leak of passport details of President Lee and 167 others",
+ "headline_es": "Corea del Sur investiga la filtración de datos de pasaporte del presidente Lee y 167 personas",
+ "caption_en": "South Korean authorities are investigating the online leak of passport details of President Lee Jae Myung and 167 other people, including National Security Adviser Wi Sung-lac. The file, labelled as a passenger list, was posted on a paid website in early June, days before Lee's trip to Europe that included the G7 summit. It is not yet clear how the confidential file was uploaded.",
+ "caption_es": "Las autoridades de Corea del Sur investigan la filtración en internet de los datos de pasaporte del presidente Lee Jae Myung y de otras 167 personas, entre ellas el asesor de Seguridad Nacional, Wi Sung-lac. El archivo, identificado como lista de pasajeros, fue publicado en un sitio web de pago a principios de junio, días antes del viaje de Lee a Europa que incluyó la cumbre del G7. Aún no está claro cómo se subió el archivo confidencial.",
+ "summary_es": "Un archivo con datos de 168 pasaportes, incluido el del presidente, se publicó en junio en un sitio web de pago.",
+ "summary_en": "A file with passport details of 168 people, including the president, was posted on a paid website in June.",
+ "highlight_es": "pasaporte",
+ "highlight_en": "passport details",
+ "visual_label": "Filtración",
+ "image_prompt": "Closed generic passports lying on a dark desk beside a laptop showing abstract glowing data streams, a red warning light reflected on the surface, moody cybersecurity atmosphere, no people, no text, no logos, no flags, no insignia",
+ "map": {
+  "focus": [
+   "South Korea"
+  ],
+  "marker": {
+   "lat": 37.57,
+   "lon": 126.98,
+   "label": "Seúl"
+  },
+  "labels": {
+   "South Korea": "Corea del Sur"
+  }
+ },
+ "source_urls": [
+  "https://theprint.in/world/south-korean-presidents-passport-details-leaked-online-broadcaster-reports/3088580/",
+  "https://www.koreajoongangdaily.com/korea/presidential-data-breach-may-have-been-internal-leak-foreign-ministry-says/12952457"
+ ],
+ "source_names": [
+  "Reuters (via ThePrint)",
+  "Korea JoongAng Daily"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#CoreaDelSur",
+  "#SouthKorea",
+  "#Ciberseguridad"
+ ]
+}

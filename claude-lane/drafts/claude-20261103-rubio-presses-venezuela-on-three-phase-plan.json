@@ -1,0 +1,52 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-03T06:52:09Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261103-rubio-presses-venezuela-on-three-phase-plan",
+ "category": "Colombia / Latin America",
+ "headline": "Rubio meets Venezuela's new foreign minister and urges release of remaining political prisoners",
+ "headline_es": "Rubio se reúne con el nuevo canciller de Venezuela y pide liberar a los presos políticos",
+ "caption_en": "US Secretary of State Marco Rubio met Venezuelan Foreign Minister Oliver Blanco in Washington on Monday. According to the State Department, Rubio reaffirmed a three-phase plan of stabilization, economic recovery and political reconciliation, and democratic transition, and urged the continued release of political prisoners. No date has been set for new Venezuelan elections.",
+ "caption_es": "El secretario de Estado de EE. UU., Marco Rubio, se reunió el lunes en Washington con el canciller venezolano Oliver Blanco. Según el Departamento de Estado, Rubio reafirmó un plan en tres fases —estabilización, recuperación económica y reconciliación política, y transición democrática— y pidió que continúe la liberación de presos políticos. Aún no hay fecha para nuevas elecciones en Venezuela.",
+ "summary_es": "Washington reafirmó su plan en tres fases: estabilización, recuperación y reconciliación, y transición democrática.",
+ "summary_en": "Washington restated its three-phase plan: stabilization, recovery and reconciliation, then democratic transition.",
+ "highlight_es": "presos políticos",
+ "highlight_en": "political prisoners",
+ "visual_label": "Venezuela",
+ "image_prompt": "Formal diplomatic meeting room with two empty armchairs facing each other, a small table with documents and a pen, tall windows with soft morning light, classical columns, no people, no text, no flags, no logos",
+ "map": {
+  "focus": [
+   "Venezuela",
+   "United States of America"
+  ],
+  "marker": {
+   "lat": 38.89,
+   "lon": -77.05,
+   "label": "Washington"
+  },
+  "labels": {
+   "Venezuela": "Venezuela",
+   "United States of America": "Estados Unidos"
+  }
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/11/3/us-urges-venezuela-to-follow-phased-plan-for-democratic-transition",
+  "https://gulfnews.com/world/americas/rubio-meets-new-venezuelan-fm-urges-release-of-political-prisoners-1.500733460",
+  "https://www.state.gov/releases/office-of-the-spokesman/2026/11/secretary-rubios-meeting-with-venezuelan-foreign-minister-blanco"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "Gulf News (AFP)",
+  "US Department of State"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Venezuela",
+  "#EEUU",
+  "#Diplomacia"
+ ]
+}

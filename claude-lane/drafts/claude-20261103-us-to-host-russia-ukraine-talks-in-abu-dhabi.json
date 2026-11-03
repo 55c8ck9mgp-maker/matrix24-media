@@ -1,0 +1,49 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-03T06:52:09Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261103-us-to-host-russia-ukraine-talks-in-abu-dhabi",
+ "category": "Security / Geopolitics",
+ "headline": "US to host new Russia-Ukraine talks in Abu Dhabi on November 10-11, envoy Witkoff says",
+ "headline_es": "EE. UU. acogerá nuevas conversaciones Rusia-Ucrania en Abu Dabi el 10 y 11 de noviembre",
+ "caption_en": "US special envoy Steve Witkoff said Washington will mediate talks between Ukrainian and Russian delegations in Abu Dhabi, United Arab Emirates, on November 10-11. The agenda includes post-war security arrangements, de-escalation, humanitarian measures and steps toward ending the war. US negotiators are also meeting officials from France, Germany, the UK, the EU and NATO in Brussels this week on security guarantees for Ukraine and reconstruction.",
+ "caption_es": "El enviado especial de EE. UU., Steve Witkoff, dijo que Washington mediará conversaciones entre delegaciones de Ucrania y Rusia en Abu Dabi, Emiratos Árabes Unidos, el 10 y 11 de noviembre. La agenda incluye acuerdos de seguridad para la posguerra, desescalada, medidas humanitarias y pasos para poner fin a la guerra. Negociadores estadounidenses también se reúnen esta semana en Bruselas con funcionarios de Francia, Alemania, Reino Unido, la UE y la OTAN sobre garantías de seguridad para Ucrania y la reconstrucción.",
+ "summary_es": "Washington mediará entre delegaciones de Ucrania y Rusia; la agenda incluye seguridad de posguerra, desescalada y medidas humanitarias.",
+ "summary_en": "Washington will mediate between Ukrainian and Russian delegations on post-war security, de-escalation and humanitarian steps.",
+ "highlight_es": "Abu Dabi",
+ "highlight_en": "Abu Dhabi",
+ "visual_label": "Abu Dabi",
+ "image_prompt": "Empty modern conference room with a long polished table, three sets of chairs and water glasses, floor-to-ceiling windows overlooking a desert city skyline at dusk, calm cinematic light, no people, no text, no flags, no logos",
+ "map": {
+  "focus": [
+   "United Arab Emirates"
+  ],
+  "marker": {
+   "lat": 24.45,
+   "lon": 54.38,
+   "label": "Abu Dabi"
+  },
+  "labels": {
+   "United Arab Emirates": "Emiratos Árabes Unidos"
+  }
+ },
+ "source_urls": [
+  "https://www.al-monitor.com/originals/2026/11/us-mediate-trilateral-talks-ukraine-russia-abu-dhabi-next-week-us-envoy-says",
+  "https://www.foxnews.com/world/us-mediate-upcoming-ukraine-russia-talks-abu-dhabi-witkoff-says"
+ ],
+ "source_names": [
+  "Reuters (via Al-Monitor)",
+  "Fox News"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Ucrania",
+  "#Ukraine",
+  "#Rusia",
+  "#AbuDabi"
+ ]
+}
