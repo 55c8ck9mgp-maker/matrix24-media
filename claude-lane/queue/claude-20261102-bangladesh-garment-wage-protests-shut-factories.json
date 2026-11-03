@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261102-bangladesh-garment-wage-protests-shut-factories",
+  "created_at": "2026-11-02T18:52:27Z",
+  "category": "Economy",
+  "headline": "Bangladesh garment wage protests enter a third day as hundreds of factories shut",
+  "headline_es": "Las protestas salariales del textil en Bangladés cumplen tres días y cierran cientos de fábricas",
+  "caption_es": "Miles de trabajadores textiles de Bangladés protestaron por tercer día para exigir un salario mínimo mensual de 30.000 takas, más del doble de los 12.500 actuales. Cientos de fábricas en los alrededores de Daca cerraron y la policía usó gases lacrimógenos. El gobierno creó una nueva junta salarial y el primer ministro Tarique Rahman celebró una reunión de emergencia.",
+  "caption_en": "Thousands of Bangladeshi garment workers protested for a third day, demanding a minimum monthly wage of 30,000 taka, more than double the current 12,500. Hundreds of factories around Dhaka were shut, and police used tear gas. The government formed a new wage board, and Prime Minister Tarique Rahman held an emergency meeting.",
+  "source_urls": [
+    "https://www.yahoo.com/news/world/articles/bangladesh-garment-factories-disrupted-protests-070828268.html",
+    "https://theprint.in/world/bangladeshs-garment-industry-on-edge-as-workers-protest-enters-3rd-day-bnp-alleges-awami-league-hand/3088501/"
+  ],
+  "source_names": [
+    "Al Jazeera / Reuters (via Yahoo News)",
+    "ThePrint"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Bangladesh",
+    "#Textil",
+    "#Salarios"
+  ],
+  "summary_es": "Los trabajadores piden duplicar con creces el salario mínimo. El sector textil, de unos 38.000 millones de dólares, es clave para las exportaciones del país.",
+  "summary_en": "Workers want the minimum wage more than doubled. The roughly 38 billion dollar garment sector is a key source of the country's export earnings.",
+  "highlight_es": "textil en Bangladés",
+  "highlight_en": "Bangladesh garment",
+  "image_prompt": "Rows of idle industrial sewing machines in a large empty garment factory hall, bolts of colorful fabric stacked along the walls, soft daylight through high windows, wide cinematic view, no people, no text, no logos",
+  "visual_label": "Textil",
+  "map": {
+    "focus": [
+      "Bangladesh"
+    ],
+    "marker": {
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "label": "Daca"
+    },
+    "labels": {
+      "Bangladesh": "Bangladés"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-03T15:33:06.169Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
