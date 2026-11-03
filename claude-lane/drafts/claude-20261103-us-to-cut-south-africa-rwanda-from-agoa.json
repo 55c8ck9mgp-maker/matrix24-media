@@ -1,0 +1,46 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-03T12:52:00Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261103-us-to-cut-south-africa-rwanda-from-agoa",
+ "category": "Economy",
+ "headline": "US to suspend South Africa and Rwanda from AGOA duty-free trade program",
+ "headline_es": "EE. UU. suspenderá a Sudáfrica y Ruanda del programa comercial AGOA libre de aranceles",
+ "caption_en": "US Trade Representative Jamieson Greer announced on Monday that South Africa and Rwanda will lose duty-free access under the African Growth and Opportunity Act (AGOA) next year. Washington cited barriers to US trade and investment, corruption and threats to US national security and foreign policy interests in South Africa's case. South Africa, the program's largest beneficiary, exported about $1.7 billion in goods to the US under AGOA in 2025.",
+ "caption_es": "El representante comercial de EE. UU., Jamieson Greer, anunció el lunes que Sudáfrica y Ruanda perderán el próximo año el acceso libre de aranceles de la Ley de Crecimiento y Oportunidades para África (AGOA). En el caso de Sudáfrica, Washington citó barreras al comercio y la inversión estadounidenses, corrupción y amenazas a la seguridad nacional y la política exterior de EE. UU. Sudáfrica, el mayor beneficiario del programa, exportó unos 1.700 millones de dólares en bienes a EE. UU. bajo la AGOA en 2025.",
+ "summary_es": "Washington alega barreras comerciales, corrupción y riesgos de seguridad. Sudáfrica exportó unos 1.700 millones de dólares bajo la AGOA en 2025.",
+ "summary_en": "Washington cites trade barriers, corruption and security concerns. South Africa shipped about $1.7bn to the US under AGOA in 2025.",
+ "highlight_es": "Sudáfrica y Ruanda",
+ "highlight_en": "South Africa and Rwanda",
+ "visual_label": "AGOA",
+ "image_prompt": "Container port at dusk with stacked shipping containers, cranes and crates of citrus fruit and wine bottles on a dock, a cargo ship leaving harbour, wide cinematic editorial illustration, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "South Africa",
+   "Rwanda"
+  ],
+  "labels": {
+   "South Africa": "Sudáfrica",
+   "Rwanda": "Ruanda"
+  }
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/economy/2026/11/2/us-to-suspend-south-africa-and-rwanda-from-duty-free-trade-access",
+  "https://www.dailymaverick.co.za/article/2026-11-03-what-now-experts-weigh-in-after-trump-boots-sa-from-agoa/"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "Daily Maverick"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#AGOA",
+  "#Sudáfrica",
+  "#Ruanda",
+  "#Comercio"
+ ]
+}

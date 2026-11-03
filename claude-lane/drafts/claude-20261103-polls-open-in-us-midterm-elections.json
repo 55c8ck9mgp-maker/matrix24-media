@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-03T12:52:00Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261103-polls-open-in-us-midterm-elections",
+ "category": "World",
+ "headline": "Polls open in US midterms with control of Congress at stake",
+ "headline_es": "Abren las urnas en las elecciones intermedias de EE. UU. con el Congreso en juego",
+ "caption_en": "Voting in the US midterm elections began on Tuesday, with polls opening first on the East Coast. All 435 House seats, 35 of 100 Senate seats and 36 governorships are on the ballot, and Republicans currently control both chambers of Congress. About 50 million Americans had already voted early, and Democrats need a net gain of four seats to win the Senate.",
+ "caption_es": "La votación de las elecciones intermedias de EE. UU. comenzó el martes, con las primeras urnas abriendo en la costa este. Están en juego los 435 escaños de la Cámara de Representantes, 35 de los 100 del Senado y 36 gubernaturas; los republicanos controlan hoy ambas cámaras del Congreso. Unos 50 millones de estadounidenses ya habían votado de forma anticipada, y los demócratas necesitan ganar cuatro escaños netos para hacerse con el Senado.",
+ "summary_es": "Se eligen 435 escaños de la Cámara, 35 del Senado y 36 gobernadores. Unos 50 millones ya votaron de forma anticipada.",
+ "summary_en": "435 House seats, 35 Senate seats and 36 governorships are up. About 50 million people voted early.",
+ "highlight_es": "elecciones intermedias",
+ "highlight_en": "US midterms",
+ "visual_label": "Midterms",
+ "image_prompt": "Row of empty voting booths in a school gymnasium with a ballot box on a table, morning light through tall windows, clean editorial illustration, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "United States of America"
+  ],
+  "marker": {
+   "lat": 38.9,
+   "lon": -77.04,
+   "label": "Washington"
+  },
+  "labels": {
+   "United States of America": "Estados Unidos"
+  }
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/11/3/what-time-do-polls-open-and-close-in-the-us-midterm-elections-2026",
+  "https://www.yahoo.com/news/politics/articles/voting-u-mid-term-elections-115407891.html",
+  "https://www.abc.net.au/news/2026-11-03/us-midterm-elections-2026-live-updates/107335552"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "UPI",
+  "ABC News (Australia)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Midterms2026",
+  "#EleccionesEEUU",
+  "#USA"
+ ]
+}
