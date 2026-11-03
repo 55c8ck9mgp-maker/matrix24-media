@@ -1,0 +1,40 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261103-apple-beats-estimates-in-first-ternus-quarter",
+  "created_at": "2026-11-03T00:50:34Z",
+  "category": "Technology",
+  "headline": "Apple beats estimates on iPhone sales in its first quarterly report under CEO John Ternus",
+  "headline_es": "Apple supera las previsiones por ventas del iPhone en su primer informe con John Ternus",
+  "caption_es": "Apple reportó ingresos de unos 114.500 millones de dólares en su cuarto trimestre fiscal, por encima de los cerca de 113.400 millones que esperaban los analistas. Los ingresos del iPhone alcanzaron unos 57.600 millones y la ganancia por acción fue de 2,10 dólares, ambas cifras por encima de lo previsto. Fue el primer informe trimestral desde que John Ternus sucedió a Tim Cook como director ejecutivo en septiembre.",
+  "caption_en": "Apple reported fiscal fourth-quarter revenue of about $114.5 billion, above the roughly $113.4 billion analysts expected. iPhone revenue reached about $57.6 billion and earnings per share were $2.10, both topping forecasts. It was the company's first quarterly report since John Ternus succeeded Tim Cook as chief executive in September.",
+  "source_urls": [
+    "https://www.aol.com/articles/apple-results-beat-wall-street-213117000.html",
+    "https://www.forbes.com/sites/fionariley/2026/11/02/apples-iphone-sales-hit-576-billion-in-fourth-quarter-topping-estimates/"
+  ],
+  "source_names": [
+    "Reuters (via AOL)",
+    "Forbes"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Apple",
+    "#iPhone",
+    "#Tecnología"
+  ],
+  "summary_es": "Ingresos de unos 114.500 millones de dólares e iPhone por 57.600 millones, por encima de lo esperado por los analistas.",
+  "summary_en": "Revenue of about $114.5 billion and iPhone sales of $57.6 billion topped analyst forecasts.",
+  "highlight_es": "Apple",
+  "highlight_en": "Apple",
+  "image_prompt": "Generic modern smartphones arranged on a sleek white display table in a bright minimalist tech store, soft daylight, upward-trending abstract chart lines glowing in the background, no people, no text, no logos, no brand marks",
+  "visual_label": "iPhone",
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-03T21:20:34.495Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
