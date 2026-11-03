@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-03T18:54:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261103-cristina-fernandez-cubas-wins-cervantes-prize",
+  "category": "World",
+  "headline": "Spanish writer Cristina Fernández Cubas wins the 2026 Cervantes Prize",
+  "headline_es": "La escritora española Cristina Fernández Cubas gana el Premio Cervantes 2026",
+  "caption_en": "Spanish author Cristina Fernández Cubas, known for her short stories and fantastic fiction, has won the 2026 Miguel de Cervantes Prize, the top award for Spanish-language literature. Culture Minister Ernest Urtasun announced the award, worth 125,000 euros, on Tuesday. The jury, chaired by last year's winner Gonzalo Celorio of Mexico, said her work renewed the contemporary short story and transformed fantastic literature in Spanish.",
+  "caption_es": "La autora española Cristina Fernández Cubas, conocida por sus cuentos y su literatura fantástica, ganó el Premio Miguel de Cervantes 2026, el máximo galardón de las letras en español. El ministro de Cultura, Ernest Urtasun, anunció el martes el premio, dotado con 125.000 euros. El jurado, presidido por el ganador del año pasado, el mexicano Gonzalo Celorio, destacó que su obra renovó el cuento contemporáneo y transformó la literatura fantástica en español.",
+  "summary_es": "Nacida en Arenys de Mar en 1945, es considerada la gran cuentista española. El premio está dotado con 125.000 euros.",
+  "summary_en": "Born in Arenys de Mar in 1945, she is seen as a leading Spanish short-story writer. The prize is worth 125,000 euros.",
+  "highlight_es": "Premio Cervantes 2026",
+  "highlight_en": "2026 Cervantes Prize",
+  "visual_label": "Cervantes",
+  "image_prompt": "An old wooden writing desk in a dim library with an open notebook, a fountain pen, a candle and a slightly open door letting in a mysterious beam of light, atmospheric literary mood, wide cinematic editorial illustration, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 40.4168,
+      "lon": -3.7038,
+      "label": "Madrid"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  },
+  "source_urls": [
+    "https://www.eldiario.es/cultura/cristina-fernandez-cubas-gana-premio-cervantes-2026_1_13634616.html",
+    "https://www.infobae.com/espana/cultura/2026/11/03/la-escritora-cristina-fernandez-cubas-gana-el-premio-cervantes-2026/"
+  ],
+  "source_names": [
+    "elDiario.es",
+    "Infobae"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#PremioCervantes",
+    "#Literatura",
+    "#España"
+  ]
+}

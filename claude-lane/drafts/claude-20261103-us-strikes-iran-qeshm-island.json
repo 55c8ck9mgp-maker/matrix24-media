@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-03T18:54:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261103-us-strikes-iran-qeshm-island",
+  "category": "Security / Geopolitics",
+  "headline": "US carries out limited strikes on Iran's Qeshm Island near the Strait of Hormuz",
+  "headline_es": "EE. UU. lanza ataques limitados contra la isla iraní de Qeshm, cerca de Ormuz",
+  "caption_en": "US forces carried out limited strikes on Iran's Qeshm Island in the Strait of Hormuz on the eve of the US midterm elections, US officials said. The strikes followed Iran's Revolutionary Guard firing at an American aircraft. President Trump played the attack down as minor, while US-Iran talks brokered by Qatar continue.",
+  "caption_es": "Fuerzas de EE. UU. realizaron ataques limitados contra la isla iraní de Qeshm, en el estrecho de Ormuz, en la víspera de las elecciones de medio mandato, según funcionarios estadounidenses. Los ataques siguieron a disparos de la Guardia Revolucionaria iraní contra un avión estadounidense. El presidente Trump restó importancia al ataque, mientras continúan las conversaciones entre EE. UU. e Irán con mediación de Catar.",
+  "summary_es": "Los ataques respondieron a disparos de la Guardia Revolucionaria contra un avión de EE. UU. Siguen las negociaciones con mediación de Catar.",
+  "summary_en": "The strikes followed Revolutionary Guard fire at a US aircraft. Qatar-brokered US-Iran talks continue.",
+  "highlight_es": "isla iraní de Qeshm",
+  "highlight_en": "Qeshm Island",
+  "visual_label": "Qeshm",
+  "image_prompt": "A rocky arid island coastline at night across a dark strait, a fighter jet silhouette high in a cloudy sky, distant orange glow on the horizon, wide cinematic editorial illustration, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "marker": {
+      "lat": 26.81,
+      "lon": 55.89,
+      "label": "Isla de Qeshm"
+    },
+    "labels": {
+      "Iran": "Irán"
+    }
+  },
+  "source_urls": [
+    "https://www.cbsnews.com/news/u-s-strikes-iran-targets/",
+    "https://www.stripes.com/theaters/middle_east/2026-11-03/us-strikes-iran-qeshm-island-hormuz-23348317.html"
+  ],
+  "source_names": [
+    "CBS News",
+    "Stars and Stripes"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Irán",
+    "#Ormuz",
+    "#EEUU",
+    "#Geopolítica"
+  ]
+}

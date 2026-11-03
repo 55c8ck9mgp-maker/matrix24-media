@@ -1,0 +1,46 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-03T18:54:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261103-trump-says-us-aid-to-israel-will-end",
+  "category": "Security / Geopolitics",
+  "headline": "Trump says US military aid to Israel will be cut off at the end of the year",
+  "headline_es": "Trump dice que la ayuda militar de EE. UU. a Israel terminará a fin de año",
+  "caption_en": "President Donald Trump said on Fox News' Fox & Friends on Tuesday that the US would stop its annual aid to Israel, about $4 billion a year by his account, at the end of 2026, saying Israel does not need it. He said he and Prime Minister Benjamin Netanyahu had agreed on the move. Israel's current 10-year memorandum with the US provides $3.8 billion a year and runs through 2028, so it is unclear how the funding would end this year.",
+  "caption_es": "El presidente Donald Trump dijo el martes en el programa Fox & Friends de Fox News que EE. UU. dejará de entregar su ayuda anual a Israel, unos 4.000 millones de dólares al año según él, a finales de 2026, porque Israel no la necesita. Afirmó que él y el primer ministro Benjamín Netanyahu acordaron la medida. El actual memorando de 10 años entre ambos países prevé 3.800 millones de dólares anuales hasta 2028, por lo que no está claro cómo se cortaría la financiación este año.",
+  "summary_es": "Trump afirma que lo acordó con Netanyahu. El memorando vigente prevé 3.800 millones de dólares anuales hasta 2028.",
+  "summary_en": "Trump says he agreed it with Netanyahu. The current US-Israel memorandum provides $3.8bn a year through 2028.",
+  "highlight_es": "ayuda militar",
+  "highlight_en": "military aid",
+  "visual_label": "Ayuda a Israel",
+  "image_prompt": "Stacks of sealed military supply crates in a large empty aircraft hangar, a cargo plane silhouette at the open doors under a dusky sky, dramatic light, wide cinematic editorial illustration, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Israel",
+      "United States of America"
+    ],
+    "labels": {
+      "Israel": "Israel",
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end",
+    "https://www.jta.org/2026/11/03/israel/trump-says-us-aid-to-israel-will-stop-at-end-of-year"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Jewish Telegraphic Agency"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Israel",
+    "#EEUU",
+    "#Trump",
+    "#Geopolítica"
+  ]
+}
