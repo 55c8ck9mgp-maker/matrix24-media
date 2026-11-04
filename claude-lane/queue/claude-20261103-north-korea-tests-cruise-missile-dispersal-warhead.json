@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261103-north-korea-tests-cruise-missile-dispersal-warhead",
+  "created_at": "2026-11-03T12:52:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "North Korea says it tested a strategic cruise missile with a dispersal warhead",
+  "headline_es": "Corea del Norte dice que probó un misil de crucero estratégico con ojiva de dispersión",
+  "caption_es": "Corea del Norte probó el lunes una ojiva de dispersión de tamaño medio para un misil de crucero estratégico, informó el martes la agencia estatal KCNA. Según KCNA, la ojiva, que esparce munición más pequeña sobre el objetivo, puede arrasar una zona de unas 5 a 6 hectáreas, y la prueba también evaluó el vuelo del misil en un ataque vertical. Llegó dos días después de una prueba de una ojiva de racimo para un misil balístico táctico.",
+  "caption_en": "North Korea tested a medium-sized dispersal warhead for a strategic cruise missile on Monday, state news agency KCNA reported on Tuesday. KCNA said the warhead, which scatters smaller munitions over a target, can devastate an area of about 5 to 6 hectares, and that the test also checked the missile's vertical strike flight. It came two days after a test of a cluster warhead for a tactical ballistic missile.",
+  "source_urls": [
+    "https://www.koreaherald.com/article/10923504",
+    "https://www.stripes.com/theaters/asia_pacific/2026-11-03/north-korea-cruise-missile-warhead-test-23346782.html"
+  ],
+  "source_names": [
+    "The Korea Herald",
+    "Stars and Stripes"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CoreaDelNorte",
+    "#NorthKorea",
+    "#Misiles"
+  ],
+  "summary_es": "Según la agencia KCNA, la ojiva puede arrasar unas 5 a 6 hectáreas. Es la segunda prueba de este tipo en tres días.",
+  "summary_en": "KCNA says the warhead can devastate about 5-6 hectares. It is the second such test in three days.",
+  "highlight_es": "misil de crucero",
+  "highlight_en": "cruise missile",
+  "image_prompt": "Sleek generic cruise missile flying low over a dark grey sea at dawn, mountainous coastline in the distance, dramatic clouds, wide cinematic editorial illustration, no people, no text, no logos, no flags, no insignia",
+  "visual_label": "Misil crucero",
+  "map": {
+    "focus": [
+      "North Korea"
+    ],
+    "labels": {
+      "North Korea": "Corea del Norte"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-04T11:40:31.136Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
