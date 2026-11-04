@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-04T00:57:02Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261104-greenland-parliament-approves-us-security-deal",
+ "category": "Security / Geopolitics",
+ "headline": "Greenland's parliament approves Arctic security deal with Denmark and the US",
+ "headline_es": "El Parlamento de Groenlandia aprueba el acuerdo de seguridad ártica con Dinamarca y EE. UU.",
+ "caption_en": "Greenland's parliament approved a security agreement with Denmark and the United States on Tuesday, with 16 votes in favor, none against and seven abstentions. The deal, signed in September, opens the way for more US military bases on the island while Greenland stays under Danish sovereignty. It still needs approval from Denmark's parliament, which is expected to vote later this month.",
+ "caption_es": "El Parlamento de Groenlandia aprobó el martes un acuerdo de seguridad con Dinamarca y Estados Unidos, con 16 votos a favor, ninguno en contra y siete abstenciones. El pacto, firmado en septiembre, abre la puerta a más bases militares estadounidenses en la isla, mientras Groenlandia sigue bajo soberanía danesa. Aún necesita la aprobación del Parlamento danés, que se espera vote a finales de este mes.",
+ "summary_es": "16 votos a favor, ninguno en contra y 7 abstenciones. El pacto permite más bases de EE. UU. y aún debe aprobarlo Dinamarca.",
+ "summary_en": "16 votes for, none against, 7 abstentions. The deal allows more US bases and still needs Denmark's approval.",
+ "highlight_es": "Groenlandia",
+ "highlight_en": "Greenland's parliament",
+ "visual_label": "Groenlandia",
+ "image_prompt": "Remote Arctic radar station on a snowy rocky coast beside icebergs in a dark fjord, low winter sun, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Greenland",
+   "Denmark"
+  ],
+  "marker": {
+   "lat": 64.18,
+   "lon": -51.72,
+   "label": "Nuuk"
+  },
+  "labels": {
+   "Greenland": "Groenlandia",
+   "Denmark": "Dinamarca"
+  }
+ },
+ "source_urls": [
+  "https://abcnews.com/International/wireStory/greenland-approves-security-deal-denmark-us-months-trump-137812697",
+  "https://gulfnews.com/world/americas/greenland-parliament-ratifies-us-security-deal-1.500734884"
+ ],
+ "source_names": [
+  "AP (via ABC News)",
+  "AFP (via Gulf News)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Greenland",
+  "#Groenlandia",
+  "#Arctic"
+ ]
+}
