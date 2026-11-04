@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261103-australia-raises-rates-to-18-year-high",
+  "created_at": "2026-11-03T06:52:09Z",
+  "category": "Economy",
+  "headline": "Australia's central bank raises interest rates to 4.85%, the highest level in 18 years",
+  "headline_es": "El banco central de Australia sube las tasas al 4,85%, su nivel más alto en 18 años",
+  "caption_es": "El Banco de la Reserva de Australia subió el martes su tasa oficial en 0,25 puntos porcentuales, hasta el 4,85%, su quinto aumento este año y el nivel más alto desde 2008. La junta estuvo dividida: seis miembros votaron a favor de la subida y tres prefirieron mantenerla. El banco prevé que la inflación siga por encima de su meta del 2-3% hasta bien entrado 2027, y lo atribuye en parte a los mayores precios del combustible y de las materias primas ligados al conflicto en Oriente Medio.",
+  "caption_en": "The Reserve Bank of Australia raised its cash rate by 0.25 percentage points to 4.85% on Tuesday, its fifth increase this year and the highest level since 2008. The board was split, with six members voting for the hike and three preferring to hold. The bank expects inflation to stay above its 2-3% target well into 2027, citing higher fuel and commodity prices linked to the Middle East conflict.",
+  "source_urls": [
+    "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+    "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216"
+  ],
+  "source_names": [
+    "Reserve Bank of Australia",
+    "ABC News (Australia)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Australia",
+    "#Economía",
+    "#Inflación"
+  ],
+  "summary_es": "Quinta subida del año, aprobada por 6 votos contra 3; la inflación seguirá por encima de la meta hasta 2027.",
+  "summary_en": "Fifth hike this year, approved 6-3; inflation is expected to stay above target into 2027.",
+  "highlight_es": "4,85%",
+  "highlight_en": "4.85%",
+  "image_prompt": "Modern central bank building facade in a sunny harbour city, abstract rising line chart glowing in the sky, coins stacked in the foreground, clean editorial illustration, no people, no text, no logos, no flags",
+  "visual_label": "Tasas",
+  "map": {
+    "focus": [
+      "Australia"
+    ],
+    "marker": {
+      "lat": -33.87,
+      "lon": 151.21,
+      "label": "Sídney"
+    },
+    "labels": {
+      "Australia": "Australia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-04T03:36:22.321Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
