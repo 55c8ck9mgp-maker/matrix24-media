@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-04T06:54:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261104-canada-bars-russia-from-world-juniors",
+ "category": "Sports",
+ "headline": "Canada says Russia will not play at the world junior hockey championship despite CAS ruling",
+ "headline_es": "Canadá dice que Rusia no jugará el Mundial júnior de hockey pese al fallo del TAS",
+ "caption_en": "Prime Minister Mark Carney said Russian players will not take part in the world junior hockey championship in Alberta, which starts Dec. 26 in Edmonton and Red Deer. The Court of Arbitration for Sport had ruled that the IIHF must reinstate Russian teams, starting with that tournament. Sweden, Finland, Czechia and Latvia say their teams will refuse to play Russia.",
+ "caption_es": "El primer ministro Mark Carney afirmó que los jugadores rusos no participarán en el Mundial júnior de hockey en Alberta, que comienza el 26 de diciembre en Edmonton y Red Deer. El Tribunal de Arbitraje Deportivo (TAS) había dictaminado que la IIHF debe readmitir a los equipos rusos a partir de ese torneo. Suecia, Finlandia, Chequia y Letonia dicen que sus selecciones se negarán a jugar contra Rusia.",
+ "summary_es": "Canadá usará sus normas de inmigración para impedir que deportistas rusos y bielorrusos compitan con sus símbolos nacionales.",
+ "summary_en": "Canada will use immigration powers to keep Russian and Belarusian athletes from competing under national symbols.",
+ "highlight_es": "Rusia no jugará",
+ "highlight_en": "Russia will not play",
+ "visual_label": "Hockey",
+ "image_prompt": "Empty ice hockey arena with a freshly resurfaced rink, two hockey sticks and a puck at center ice, bright arena lights, snowy prairie city visible through glass, cinematic illustration, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Canada"
+  ],
+  "marker": {
+   "lat": 53.55,
+   "lon": -113.49,
+   "label": "Edmonton"
+  },
+  "labels": {
+   "Canada": "Canadá"
+  }
+ },
+ "source_urls": [
+  "https://cfjctoday.com/2026/11/03/carney-says-russia-will-not-be-allowed-to-compete-at-world-juniors/",
+  "https://www.ctvnews.ca/sports/article/pm-carney-says-russian-hockey-players-will-not-be-allowed-to-compete-at-world-juniors/",
+  "https://globalnews.ca/news/12134603/russia-hockey-reinstatement-boycott/"
+ ],
+ "source_names": [
+  "The Canadian Press (CFJC Today)",
+  "CTV News",
+  "Global News"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Hockey",
+  "#WorldJuniors",
+  "#Deportes"
+ ]
+}

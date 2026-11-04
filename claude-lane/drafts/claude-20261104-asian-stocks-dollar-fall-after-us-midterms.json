@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-04T06:54:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261104-asian-stocks-dollar-fall-after-us-midterms",
+ "category": "Economy",
+ "headline": "Asian stocks and the dollar fall as Democrats gain in US midterms; Nikkei drops nearly 3%",
+ "headline_es": "Bolsas asiáticas y dólar caen tras avance demócrata; el Nikkei se hunde casi un 3%",
+ "caption_en": "Japan's Nikkei fell nearly 3% and South Korea's Kospi also dropped on Wednesday as Democrats gained ground in the US midterm elections. The dollar weakened against major currencies, with the euro near $1.124 and the pound around $1.346. Investors cited concerns that a shift in control of Congress could bring tighter scrutiny of artificial intelligence and Big Tech.",
+ "caption_es": "El Nikkei de Japón cayó casi un 3% y el Kospi de Corea del Sur también retrocedió el miércoles, mientras los demócratas ganaban terreno en las elecciones intermedias de EE. UU. El dólar se debilitó frente a las principales monedas, con el euro cerca de 1,124 dólares y la libra en torno a 1,346. Los inversores citaron el temor a que un cambio en el control del Congreso traiga un mayor escrutinio sobre la inteligencia artificial y las grandes tecnológicas.",
+ "summary_es": "Las tecnológicas lideran las caídas por el temor a una regulación más estricta de la inteligencia artificial.",
+ "summary_en": "Tech shares led the losses on fears of tighter regulation of artificial intelligence.",
+ "highlight_es": "Nikkei",
+ "highlight_en": "Nikkei",
+ "visual_label": "Nikkei",
+ "image_prompt": "Stock exchange trading floor at dawn with large screens showing red downward charts, empty desks and glowing monitors, city skyline through tall windows, cinematic editorial illustration, no people, no readable text, no logos",
+ "map": {
+  "focus": [
+   "Japan"
+  ],
+  "marker": {
+   "lat": 35.68,
+   "lon": 139.77,
+   "label": "Tokio"
+  },
+  "labels": {
+   "Japan": "Japón"
+  }
+ },
+ "source_urls": [
+  "https://www.brecorder.com/news/40447347/stocks-dollar-slide-after-some-early-wins-for-democrats-in-us-midterm-election",
+  "https://uk.finance.yahoo.com/news/asian-stocks-dollar-fall-democrats-054714605.html"
+ ],
+ "source_names": [
+  "Reuters (Business Recorder)",
+  "Euronews (Yahoo Finance)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Mercados",
+  "#Nikkei",
+  "#Economy"
+ ]
+}

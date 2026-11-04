@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-04T06:54:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261104-south-africa-votes-in-local-elections",
+ "category": "World",
+ "headline": "South Africans vote in local elections as coalition-run cities face a key test",
+ "headline_es": "Sudáfrica vota en elecciones locales con ciudades gobernadas por coaliciones a prueba",
+ "caption_en": "Polls opened on Wednesday in South Africa's local government elections, in which voters choose the councillors who will run municipalities for the next five years. Major metros such as Johannesburg, Tshwane and Ekurhuleni have been governed by unstable coalitions, and where no party wins a majority, parties must again form coalitions to elect mayors.",
+ "caption_es": "Los colegios electorales abrieron el miércoles en las elecciones municipales de Sudáfrica, en las que los votantes eligen a los concejales que gobernarán los municipios durante los próximos cinco años. Grandes áreas metropolitanas como Johannesburgo, Tshwane y Ekurhuleni han sido gobernadas por coaliciones inestables y, donde ningún partido logre la mayoría, los partidos deberán volver a formar coaliciones para elegir alcaldes.",
+ "summary_es": "Los concejales elegidos gobernarán los municipios durante cinco años; sin mayorías, habrá nuevas coaliciones.",
+ "summary_en": "Elected councillors will run municipalities for five years; without majorities, new coalitions must form.",
+ "highlight_es": "elecciones locales",
+ "highlight_en": "local elections",
+ "visual_label": "Sudáfrica",
+ "image_prompt": "Rural community hall used as a polling station on a sunny morning, ballot boxes on a wooden table, voting booths with cardboard screens, distant mountains, warm editorial illustration, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "South Africa"
+  ],
+  "marker": {
+   "lat": -26.2,
+   "lon": 28.05,
+   "label": "Johannesburgo"
+  },
+  "labels": {
+   "South Africa": "Sudáfrica"
+  }
+ },
+ "source_urls": [
+  "https://www.dailymaverick.co.za/article/2026-11-03-local-government-elections-2026/",
+  "https://briefly.co.za/politics/257902-local-government-elections-2026-live-polls-open-south-africans-choose-councils/"
+ ],
+ "source_names": [
+  "Daily Maverick",
+  "Briefly News"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#SouthAfrica",
+  "#Sudafrica",
+  "#Elecciones"
+ ]
+}
