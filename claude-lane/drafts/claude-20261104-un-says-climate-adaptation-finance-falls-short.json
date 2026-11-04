@@ -1,0 +1,35 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-04T18:51:42Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261104-un-says-climate-adaptation-finance-falls-short",
+ "category": "Climate",
+ "headline": "UN report: tripling climate adaptation funds would cover under a third of poorer nations' needs",
+ "headline_es": "ONU: triplicar los fondos de adaptación climática cubriría menos de un tercio de lo necesario",
+ "caption_en": "The UN Environment Programme's Adaptation Gap Report says developing countries will need about $305 billion a year by 2035 to adapt to climate change. International public adaptation finance was $28.2-31.7 billion in 2024, and even the tripling agreed at COP30 would cover only 20-29% of needs. The report comes days before COP31 opens in Antalya, Türkiye.",
+ "caption_es": "El Informe sobre la Brecha de Adaptación del Programa de la ONU para el Medio Ambiente indica que los países en desarrollo necesitarán unos 305.000 millones de dólares al año para 2035 para adaptarse al cambio climático. La financiación pública internacional para adaptación fue de 28.200 a 31.700 millones en 2024, e incluso triplicarla, como se acordó en la COP30, cubriría solo entre el 20 % y el 29 % de las necesidades. El informe llega días antes de la COP31 en Antalya, Turquía.",
+ "summary_es": "Los países en desarrollo necesitan unos 305.000 millones de dólares al año para 2035; triplicar la ayuda solo cubriría entre el 20 % y el 29 %.",
+ "summary_en": "Developing countries need about $305bn a year by 2035; tripling aid would cover only 20-29% of that.",
+ "highlight_es": "menos de un tercio",
+ "highlight_en": "under a third",
+ "visual_label": "Adaptación",
+ "image_prompt": "Coastal village protected by a new concrete sea wall and mangrove saplings, storm clouds gathering over a rising sea, small fishing boats pulled ashore, wide cinematic view, no people, no text, no logos, no flags",
+ "source_urls": [
+  "https://news.un.org/en/story/2026/11/1168725",
+  "https://www.climatechangenews.com/2026/11/04/cop30-adaptation-pledge-would-meet-under-a-third-of-poorer-nations-needs-un-warns/"
+ ],
+ "source_names": [
+  "UN News",
+  "Climate Home News"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Climate",
+  "#ClimaONU",
+  "#COP31"
+ ]
+}

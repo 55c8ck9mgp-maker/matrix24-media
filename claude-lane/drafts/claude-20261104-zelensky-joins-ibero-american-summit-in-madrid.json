@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-04T18:51:42Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261104-zelensky-joins-ibero-american-summit-in-madrid",
+ "category": "World",
+ "headline": "Zelensky makes surprise visit to Madrid as Spain hosts the Ibero-American summit",
+ "headline_es": "Zelenski llega por sorpresa a Madrid durante la Cumbre Iberoamericana",
+ "caption_en": "Ukrainian President Volodymyr Zelensky arrived in Madrid on Wednesday on a surprise visit coinciding with the 30th Ibero-American Summit, which Spain is hosting. He is due to hold talks with Prime Minister Pedro Sánchez and meet other leaders. Argentina's Javier Milei is among the attendees, while Brazil's Lula and Mexico's Claudia Sheinbaum are absent.",
+ "caption_es": "El presidente de Ucrania, Volodímir Zelenski, llegó el miércoles a Madrid en una visita sorpresa que coincide con la XXX Cumbre Iberoamericana, organizada por España. Tiene previsto reunirse con el presidente del Gobierno, Pedro Sánchez, y con otros líderes. El argentino Javier Milei figura entre los asistentes, mientras que el brasileño Lula y la mexicana Claudia Sheinbaum no acudieron.",
+ "summary_es": "Zelenski llegó a Madrid en plena XXX Cumbre Iberoamericana y se reunirá con Pedro Sánchez y otros líderes. Lula y Sheinbaum no asisten.",
+ "summary_en": "Zelensky arrived in Madrid during the 30th Ibero-American Summit and will meet Pedro Sánchez and other leaders. Lula and Sheinbaum are absent.",
+ "highlight_es": "por sorpresa",
+ "highlight_en": "surprise visit",
+ "visual_label": "Cumbre",
+ "image_prompt": "Elegant conference hall prepared for an international summit, long curved table with empty chairs and microphones, soft daylight through tall windows, warm Madrid architecture visible outside, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Spain"
+  ],
+  "marker": {
+   "lat": 40.4168,
+   "lon": -3.7038,
+   "label": "Madrid"
+  },
+  "labels": {
+   "Spain": "España"
+  }
+ },
+ "source_urls": [
+  "https://www.arabnews.pk/world/zelensky-in-spain-for-talks-with-world-leaders-3006107",
+  "https://en.ara.cat/politics/zelensky-lands-in-spain-in-the-framework-of-the-ibero-american-summit_1_5900112.html"
+ ],
+ "source_names": [
+  "Arab News",
+  "Ara"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Ukraine",
+  "#Iberoamérica",
+  "#Madrid"
+ ]
+}

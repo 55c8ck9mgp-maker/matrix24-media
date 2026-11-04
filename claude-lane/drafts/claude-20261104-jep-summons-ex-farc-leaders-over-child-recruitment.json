@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-04T18:51:42Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261104-jep-summons-ex-farc-leaders-over-child-recruitment",
+ "category": "Colombia / Latin America",
+ "headline": "Colombia's JEP summons six ex-FARC leaders to acknowledge recruitment of children",
+ "headline_es": "La JEP cita a seis exjefes de las Farc a reconocer el reclutamiento de menores",
+ "caption_en": "Colombia's Special Jurisdiction for Peace (JEP) summoned six former members of the FARC's last secretariat, including Rodrigo Londoño, known as Timochenko, to a public hearing to acknowledge responsibility for recruiting and using children in their ranks. Magistrate Lily Rueda said the hearing is scheduled to begin on April 7. It is part of Case 07, which also covers abuse, torture and killings within the guerrilla.",
+ "caption_es": "La Jurisdicción Especial para la Paz (JEP) de Colombia citó a seis exintegrantes del último secretariado de las Farc, entre ellos Rodrigo Londoño, alias Timochenko, a una audiencia pública para reconocer su responsabilidad en el reclutamiento y la utilización de niñas y niños en sus filas. La magistrada Lily Rueda informó que la audiencia comenzará el 7 de abril. Forma parte del Caso 07, que también aborda malos tratos, torturas y homicidios dentro de la guerrilla.",
+ "summary_es": "Timochenko y otros cinco exjefes de las Farc deberán reconocer en audiencia pública el reclutamiento de menores. Será a partir del 7 de abril.",
+ "summary_en": "Timochenko and five other ex-FARC leaders must acknowledge child recruitment at a public hearing starting April 7.",
+ "highlight_es": "reclutamiento de menores",
+ "highlight_en": "recruitment of children",
+ "visual_label": "JEP",
+ "image_prompt": "Empty courtroom-style hearing room with wooden benches and a long judges' table, a set of microphones and documents, soft natural light, solemn atmosphere, wide view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Colombia"
+  ],
+  "marker": {
+   "lat": 4.711,
+   "lon": -74.0721,
+   "label": "Bogotá"
+  },
+  "labels": {
+   "Colombia": "Colombia"
+  }
+ },
+ "source_urls": [
+  "https://www.elespectador.com/judicial/jep-cita-a-seis-exjefes-de-las-farc-a-reconocer-reclutamientos-de-mas-de-18-000-menores/",
+  "https://www.semana.com/nacion/articulo/la-jep-convoco-a-timochenko-y-otros-seis-exjefes-de-las-farc-para-que-reconozcan-responsabilidad-en-reclutamiento-de-menores/202627/"
+ ],
+ "source_names": [
+  "El Espectador",
+  "Semana"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Colombia",
+  "#JEP",
+  "#Paz"
+ ]
+}
