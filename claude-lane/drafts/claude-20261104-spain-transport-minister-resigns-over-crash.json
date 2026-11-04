@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-04T12:57:14Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261104-spain-transport-minister-resigns-over-crash",
+ "category": "World",
+ "headline": "Spain's transport minister Óscar Puente resigns after train crash that killed 69",
+ "headline_es": "Dimite el ministro de Transportes de España, Óscar Puente, tras el choque de trenes con 69 muertos",
+ "caption_en": "Spanish Transport Minister Óscar Puente resigned on Tuesday over the high-speed train crash near Urda, in Toledo province, that killed 69 people on the Madrid-Seville line. He also pointed to the January derailment near Adamuz, on the same line, that killed 46, and said he will not run in the next general election.",
+ "caption_es": "El ministro de Transportes de España, Óscar Puente, dimitió el martes por el choque de trenes de alta velocidad cerca de Urda, en la provincia de Toledo, que dejó 69 muertos en la línea Madrid-Sevilla. También aludió al descarrilamiento de enero cerca de Adamuz, en la misma línea, que causó 46 muertos, y dijo que no se presentará a las próximas elecciones generales.",
+ "summary_es": "Puente dimitió por el choque de Urda (69 muertos) y recordó el descarrilamiento de Adamuz en enero (46). No se presentará a las próximas elecciones.",
+ "summary_en": "Puente quit over the Urda crash (69 dead), also citing January's Adamuz derailment (46). He will not run in the next election.",
+ "highlight_es": "Dimite",
+ "highlight_en": "resigns",
+ "visual_label": "Madrid-Sevilla",
+ "image_prompt": "Empty high-speed railway line stretching across dry central Spanish plains at dusk, overhead catenary wires, a distant signal mast glowing red, sombre wide cinematic view, no trains, no people, no text, no logos, no flags",
+ "map": {
+  "focus": ["Spain"],
+  "marker": {"lat": 39.42, "lon": -3.72, "label": "Urda"},
+  "labels": {"Spain": "España"}
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people",
+  "https://www.euronews.com/2026/11/03/spains-transport-minister-oscar-puente-resigns-over-urda-train-crash-that-killed-69"
+ ],
+ "source_names": ["Al Jazeera", "Euronews"],
+ "hashtags": ["#MATRIX24", "#Spain", "#España", "#Transporte"]
+}
