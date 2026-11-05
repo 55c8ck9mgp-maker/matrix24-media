@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261105-brazil-central-bank-halts-rate-cuts",
+  "created_at": "2026-11-05T00:57:00Z",
+  "category": "Economy",
+  "headline": "Brazil's central bank halts rate cuts and holds the Selic at 13.75% after Lula's reelection",
+  "headline_es": "El Banco Central de Brasil frena los recortes y mantiene la Selic en 13,75% tras la reelección de Lula",
+  "caption_es": "El Banco Central de Brasil mantuvo por unanimidad su tasa de referencia Selic en 13,75% este miércoles, poniendo fin a una racha de cinco recortes consecutivos. La decisión llega tras la turbulencia en los mercados después de que el presidente Luiz Inácio Lula da Silva ganara la segunda vuelta del 25 de octubre. El comité Copom señaló el deterioro de las expectativas de inflación: los economistas de la encuesta Focus prevén 5,2% para 2026 y 4,8% para 2027.",
+  "caption_en": "Brazil's central bank unanimously kept its benchmark Selic rate at 13.75% on Wednesday, ending a run of five consecutive cuts. The decision follows market turbulence after President Luiz Inácio Lula da Silva won the October 25 runoff. The Copom committee pointed to worsening inflation expectations, with economists in the Focus survey forecasting 5.2% inflation for 2026 and 4.8% for 2027.",
+  "source_urls": [
+    "https://za.investing.com/news/world-news/brazil-central-bank-holds-key-rate-at-1375-after-lula-reelection-4552328",
+    "https://www.riotimesonline.com/brazil-central-bank-holds-selic-13-75-copom-4-november-2026/"
+  ],
+  "source_names": [
+    "Investing.com",
+    "The Rio Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brasil",
+    "#Economía",
+    "#Selic"
+  ],
+  "summary_es": "El Copom mantuvo por unanimidad la Selic en 13,75% y cortó una racha de cinco recortes, citando peores expectativas de inflación.",
+  "summary_en": "Copom unanimously held the Selic at 13.75%, ending five straight cuts amid worsening inflation expectations.",
+  "highlight_es": "frena los recortes",
+  "highlight_en": "halts rate cuts",
+  "image_prompt": "Modern central bank building facade at dusk with a large financial chart glowing on screens in a lobby, stacks of coins in the foreground, wide cinematic view, no people, no text, no logos, no flags",
+  "visual_label": "Selic",
+  "map": {
+    "focus": [
+      "Brazil"
+    ],
+    "marker": {
+      "lat": -15.7939,
+      "lon": -47.8828,
+      "label": "Brasilia"
+    },
+    "labels": {
+      "Brazil": "Brasil"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-05T19:09:45.391Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
