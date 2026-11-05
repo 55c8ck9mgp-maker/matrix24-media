@@ -40,9 +40,9 @@
       "United States of America": "Estados Unidos"
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261104-ossoff-wins-reelection-in-georgia.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "b438b8c2-a417-4839-94c7-523333bbd5d3",
   "ig_media_id": null,
   "history": [
     {
@@ -54,7 +54,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-11-05T00:35:52.413Z",
+      "event": "reserved",
+      "publish_attempt_id": "b438b8c2-a417-4839-94c7-523333bbd5d3"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-11-05T00:35:52.413Z"
 }
