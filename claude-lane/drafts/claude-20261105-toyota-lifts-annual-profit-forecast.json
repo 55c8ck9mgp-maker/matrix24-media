@@ -1,0 +1,43 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-05T06:54:58Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261105-toyota-lifts-annual-profit-forecast",
+ "category": "Economy",
+ "headline": "Toyota raises its annual operating profit forecast to 3.9 trillion yen on hybrid demand",
+ "headline_es": "Toyota eleva su previsión anual de beneficio operativo a 3,9 billones de yenes por los híbridos",
+ "caption_en": "Toyota raised its operating profit forecast for the fiscal year ending in March to 3.9 trillion yen, up from 3.4 trillion yen. The carmaker credited strong demand for hybrid vehicles and a weak yen. It said it was offsetting higher material prices and other headwinds through sales efforts and cost cuts.",
+ "caption_es": "Toyota elevó su previsión de beneficio operativo para el año fiscal que termina en marzo a 3,9 billones de yenes, frente a 3,4 billones anteriormente. El fabricante de automóviles lo atribuyó a la fuerte demanda de vehículos híbridos y a la debilidad del yen. Señaló que compensa el alza de los precios de materiales y otros obstáculos con esfuerzos de venta y recortes de costos.",
+ "summary_es": "La fuerte demanda de híbridos y el yen débil impulsan la nueva previsión, pese al alza de los precios de materiales.",
+ "summary_en": "Strong hybrid demand and a weak yen drive the higher outlook despite rising material prices.",
+ "highlight_es": "Toyota eleva",
+ "highlight_en": "Toyota raises",
+ "visual_label": "Toyota",
+ "image_prompt": "Modern car assembly line with robotic arms working on unbranded hybrid cars, bright factory lighting, rows of vehicles stretching into the distance, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Japan"
+  ],
+  "labels": {
+   "Japan": "Japón"
+  }
+ },
+ "source_urls": [
+  "https://staradvertiser.com/2026/11/04/breaking-news/toyota-posts-profit-surge-and-lifts-annual-outlook",
+  "https://www.freemalaysiatoday.com/category/business/2026/11/05/toyota-hikes-profit-forecasts-on-strong-demand"
+ ],
+ "source_names": [
+  "Honolulu Star-Advertiser (Reuters)",
+  "Free Malaysia Today (AFP)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Toyota",
+  "#Japón",
+  "#Economía"
+ ]
+}

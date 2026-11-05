@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-05T06:54:58Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261105-herzog-opens-israel-coalition-talks",
+ "category": "World",
+ "headline": "Israel's President Herzog opens talks on forming a government as no bloc wins a majority",
+ "headline_es": "El presidente de Israel, Herzog, abre consultas para formar gobierno sin mayoría de ningún bloque",
+ "caption_en": "Israeli President Isaac Herzog accepted the certified results of the October 27 election and began consultations with party leaders on who should try to form the next government. Benjamin Netanyahu's bloc won 53 seats and Gadi Eisenkot's opposition bloc 48, short of the 61 needed, while Arab-led parties won a record 19. If no candidate succeeds, Israel would hold another election early next year.",
+ "caption_es": "El presidente israelí, Isaac Herzog, aceptó los resultados certificados de las elecciones del 27 de octubre e inició consultas con los líderes de los partidos sobre quién debe intentar formar el próximo gobierno. El bloque de Benjamin Netanyahu obtuvo 53 escaños y el bloque opositor de Gadi Eisenkot 48, por debajo de los 61 necesarios, mientras los partidos árabes lograron un récord de 19. Si nadie lo consigue, Israel volvería a votar a principios del próximo año.",
+ "summary_es": "Netanyahu suma 53 escaños y Eisenkot 48; los partidos árabes logran un récord de 19 y pueden ser decisivos.",
+ "summary_en": "Netanyahu's bloc has 53 seats and Eisenkot's 48; Arab-led parties won a record 19.",
+ "highlight_es": "abre consultas",
+ "highlight_en": "opens talks",
+ "visual_label": "Knésset",
+ "image_prompt": "Modern parliament building on a hill at golden hour with a long empty conference table and chairs inside a glass hall, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Israel"
+  ],
+  "marker": {
+   "lat": 31.7767,
+   "lon": 35.2053,
+   "label": "Jerusalén"
+  },
+  "labels": {
+   "Israel": "Israel"
+  }
+ },
+ "source_urls": [
+  "https://www.pbs.org/newshour/world/israels-president-takes-first-steps-on-building-new-government-after-accepting-election-results",
+  "https://www.jpost.com/israel-election-2026/article-913806",
+  "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government"
+ ],
+ "source_names": [
+  "PBS NewsHour (AP)",
+  "The Jerusalem Post",
+  "Al Jazeera"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Israel",
+  "#Elecciones",
+  "#Knesset"
+ ]
+}

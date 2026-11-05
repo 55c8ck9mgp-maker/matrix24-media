@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-05T06:54:58Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261105-paraguay-opposition-seeks-pena-impeachment",
+ "category": "Colombia / Latin America",
+ "headline": "Paraguayan lawmakers file impeachment request against President Peña over Ueno Bank collapse",
+ "headline_es": "Diputados de Paraguay piden juicio político contra el presidente Peña por la caída de Ueno Bank",
+ "caption_en": "Opposition and dissident ruling-party deputies in Paraguay filed an impeachment request with 35 signatures against President Santiago Peña and Vice President Pedro Alliana, accusing them of poor performance in office. It follows the central bank's intervention of Ueno Bank, which froze the accounts of about three million people. Peña, who says he divested from the bank's parent group in 2025, faces a vote needing 53 of 80 deputies.",
+ "caption_es": "Diputados opositores y disidentes del oficialismo en Paraguay presentaron una acusación con 35 firmas para someter a juicio político al presidente Santiago Peña y al vicepresidente Pedro Alliana por mal desempeño de sus funciones. Llega tras la intervención de Ueno Bank por el Banco Central, que congeló las cuentas de unos tres millones de personas. Peña, que dice haberse desvinculado del grupo dueño del banco en 2025, enfrenta una votación que requiere 53 de 80 diputados.",
+ "summary_es": "La crisis de Ueno Bank dejó cuentas congeladas a unos tres millones de personas. Para avanzar, la acusación necesita 53 de 80 votos en Diputados.",
+ "summary_en": "Ueno Bank's collapse froze about three million people's accounts. The request needs 53 of 80 deputies to advance.",
+ "highlight_es": "juicio político",
+ "highlight_en": "impeachment request",
+ "visual_label": "Ueno Bank",
+ "image_prompt": "Neoclassical parliament building at dusk with a closed bank branch with shuttered doors in the foreground street, warm streetlights, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Paraguay"
+  ],
+  "marker": {
+   "lat": -25.2637,
+   "lon": -57.5759,
+   "label": "Asunción"
+  },
+  "labels": {
+   "Paraguay": "Paraguay"
+  }
+ },
+ "source_urls": [
+  "https://www.infobae.com/america/america-latina/2026/11/04/diputados-paraguayos-pidieron-el-juicio-politico-contra-santiago-pena-por-la-crisis-de-ueno-bank/",
+  "https://www.emol.com/noticias/Internacional/2026/11/04/1216148/paraguay-piden-destitucion-presidente-crisis.html"
+ ],
+ "source_names": [
+  "Infobae",
+  "Emol (AFP)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Paraguay",
+  "#SantiagoPeña",
+  "#UenoBank"
+ ]
+}

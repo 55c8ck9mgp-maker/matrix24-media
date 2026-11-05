@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-05T06:54:58Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261105-joshua-wong-sentenced-to-10-years",
+ "category": "Security / Geopolitics",
+ "headline": "Hong Kong court sentences activist Joshua Wong to 10 years for foreign collusion",
+ "headline_es": "Tribunal de Hong Kong condena al activista Joshua Wong a 10 años por colusión extranjera",
+ "caption_en": "Hong Kong High Court judge William Tam sentenced pro-democracy activist Joshua Wong to 10 years in prison on Thursday for conspiring to collude with foreign forces under the national security law. The case centred on a campaign urging foreign governments to sanction Chinese and Hong Kong officials. Wong, already jailed in an earlier national security case, pleaded guilty in September.",
+ "caption_es": "El juez del Tribunal Superior de Hong Kong William Tam condenó este jueves al activista prodemocracia Joshua Wong a 10 años de prisión por conspirar para coludir con fuerzas extranjeras, bajo la ley de seguridad nacional. El caso giró en torno a una campaña que pedía a gobiernos extranjeros sancionar a funcionarios de China y Hong Kong. Wong, ya encarcelado por un caso anterior de seguridad nacional, se declaró culpable en septiembre.",
+ "summary_es": "Wong se declaró culpable en septiembre de conspirar para coludir con fuerzas extranjeras; ya cumplía condena por otro caso de seguridad nacional.",
+ "summary_en": "Wong pleaded guilty in September to conspiring to collude with foreign forces; he was already jailed in an earlier security case.",
+ "highlight_es": "10 años",
+ "highlight_en": "10 years",
+ "visual_label": "Hong Kong",
+ "image_prompt": "Grand colonial-style courthouse facade with stone columns under an overcast sky, Hong Kong skyscrapers rising in the background, empty steps, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "China"
+  ],
+  "marker": {
+   "lat": 22.2793,
+   "lon": 114.1628,
+   "label": "Hong Kong"
+  },
+  "labels": {
+   "China": "China"
+  }
+ },
+ "source_urls": [
+  "https://www.koreatimes.co.kr/world/20261105/hong-kong-activist-joshua-wong-gets-10-years-in-jail-on-national-security-charge",
+  "https://trtworld.com/article/12b038df4c42"
+ ],
+ "source_names": [
+  "The Korea Times (Reuters)",
+  "TRT World"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#HongKong",
+  "#JoshuaWong",
+  "#DerechosHumanos"
+ ]
+}
