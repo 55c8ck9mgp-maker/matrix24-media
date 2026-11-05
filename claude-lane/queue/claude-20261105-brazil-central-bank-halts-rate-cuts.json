@@ -40,10 +40,10 @@
       "Brazil": "Brasil"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261105-brazil-central-bank-halts-rate-cuts.jpg",
   "publish_attempt_id": "6b2785a6-990c-4bc3-a822-05ca01d676ee",
-  "ig_media_id": null,
+  "ig_media_id": "18117035363139619",
   "history": [
     {
       "at": "2026-11-05T19:09:45.391Z",
@@ -59,8 +59,15 @@
       "at": "2026-11-05T19:10:25.202Z",
       "event": "reserved",
       "publish_attempt_id": "6b2785a6-990c-4bc3-a822-05ca01d676ee"
+    },
+    {
+      "at": "2026-11-05T19:10:58.026Z",
+      "event": "published",
+      "publish_attempt_id": "6b2785a6-990c-4bc3-a822-05ca01d676ee",
+      "ig_media_id": "18117035363139619"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-11-05T19:10:25.202Z"
+  "reserved_at": "2026-11-05T19:10:25.202Z",
+  "permalink": "https://www.instagram.com/p/DfXwEe7iaA0/"
 }
