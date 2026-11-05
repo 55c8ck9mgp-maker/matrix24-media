@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261105-russell-brand-found-guilty-of-rape",
+  "status": "draft",
+  "created_at": "2026-11-05T19:05:00Z",
+  "category": "World",
+  "headline": "London jury finds Russell Brand guilty of one count of rape and three of sexual assault",
+  "headline_es": "Un jurado de Londres declara a Russell Brand culpable de una violación y tres agresiones sexuales",
+  "caption_en": "A jury at Southwark Crown Court in London on Thursday found British comedian Russell Brand guilty of one count of rape and three counts of sexual assault. He was acquitted of two other rape charges and one count of attempted indecent assault. The charges related to incidents involving several women between 1999 and 2009.",
+  "caption_es": "Un jurado del Tribunal de la Corona de Southwark, en Londres, declaró el jueves al humorista británico Russell Brand culpable de un cargo de violación y tres de agresión sexual. Fue absuelto de otros dos cargos de violación y de uno de intento de agresión indecente. Los cargos se referían a hechos con varias mujeres ocurridos entre 1999 y 2009.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/5/russell-brand-found-guilty-of-rape-and-sexual-assault-by-uk-court",
+    "https://www.rte.ie/news/courts/2026/1105/1598090-russell-brand-court/"
+  ],
+  "source_names": ["Al Jazeera", "RTÉ"],
+  "hashtags": ["#MATRIX24", "#UK", "#ReinoUnido", "#London", "#Justicia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El Tribunal de la Corona de Southwark lo declaró culpable de cuatro cargos y lo absolvió de otros tres, por hechos ocurridos entre 1999 y 2009.",
+  "summary_en": "Southwark Crown Court jurors convicted him on four counts and acquitted him on three others, over incidents between 1999 and 2009.",
+  "highlight_es": "culpable",
+  "highlight_en": "guilty",
+  "visual_label": "Southwark",
+  "image_prompt": "Exterior of a modern British courthouse on a grey rainy afternoon in London, empty stone steps and glass entrance, wet pavement reflecting light, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["United Kingdom"],
+    "marker": {"lat": 51.5045, "lon": -0.0865, "label": "Londres"},
+    "labels": {"United Kingdom": "Reino Unido"}
+  }
+}

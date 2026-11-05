@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261105-putin-seizes-japan-tobacco-russian-assets",
+  "status": "draft",
+  "created_at": "2026-11-05T19:05:00Z",
+  "category": "Economy",
+  "headline": "Putin places Japan Tobacco's Russian assets under state temporary management",
+  "headline_es": "Putin coloca los activos de Japan Tobacco en Rusia bajo administración temporal del Estado",
+  "caption_en": "Russian President Vladimir Putin signed a decree on Thursday placing Japan Tobacco's assets in Russia under temporary management by a Russian company. Moscow created this mechanism for foreign firms in 2023 as a response to Western sanctions over Ukraine. The move comes amid rising tension with Tokyo, after Russia detained a Japanese journalist on espionage suspicion last month.",
+  "caption_es": "El presidente ruso, Vladímir Putin, firmó el jueves un decreto que coloca los activos de Japan Tobacco en Rusia bajo la administración temporal de una empresa rusa. Moscú creó este mecanismo para firmas extranjeras en 2023 como respuesta a las sanciones occidentales por Ucrania. La medida llega en medio de una creciente tensión con Tokio, después de que Rusia detuviera el mes pasado a un periodista japonés por sospecha de espionaje.",
+  "source_urls": [
+    "https://www.themoscowtimes.com/2026/11/05/kremlin-seizes-japan-tobacco-internationals-russian-assets-a94186",
+    "https://nippon.com/en/articles/-/56985"
+  ],
+  "source_names": ["The Moscow Times", "Nippon.com (Jiji Press)"],
+  "hashtags": ["#MATRIX24", "#Russia", "#Japan", "#Economy", "#Rusia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Un decreto de Putin transfiere la gestión de los activos rusos de Japan Tobacco a una empresa rusa, con el mecanismo creado en 2023 contra las sanciones occidentales.",
+  "summary_en": "A Putin decree hands control of Japan Tobacco's Russian assets to a Russian company, using a mechanism created in 2023 against Western sanctions.",
+  "highlight_es": "Japan Tobacco",
+  "highlight_en": "Japan Tobacco's",
+  "visual_label": "Decreto",
+  "image_prompt": "Large industrial tobacco factory building in winter, closed metal gates and an empty loading yard, overcast grey sky, a sealed official document on a desk in the foreground, wide cinematic view, no text, no logos",
+  "map": {
+    "focus": ["Russia", "Japan"],
+    "marker": {"lat": 55.7558, "lon": 37.6173, "label": "Moscú"},
+    "labels": {"Russia": "Rusia", "Japan": "Japón"}
+  }
+}
