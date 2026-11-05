@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261104-ossoff-wins-reelection-in-georgia",
+  "created_at": "2026-11-04T00:57:02Z",
+  "category": "World",
+  "headline": "Democrat Jon Ossoff projected to win reelection to the US Senate in Georgia",
+  "headline_es": "Se proyecta que el demócrata Jon Ossoff gana la reelección al Senado de EE. UU. en Georgia",
+  "caption_es": "CBS News y NBC News proyectan que el senador demócrata Jon Ossoff ganó la reelección en Georgia, al derrotar al representante republicano Mike Collins en las elecciones intermedias de EE. UU. Ossoff era el único senador demócrata que buscaba la reelección en un estado que Donald Trump ganó en 2024, y los republicanos veían el escaño como un objetivo clave para mantener el control del Senado.",
+  "caption_en": "CBS News and NBC News project that Democratic Senator Jon Ossoff has won reelection in Georgia, defeating Republican Representative Mike Collins in the US midterm elections. Ossoff was the only Democratic senator seeking reelection in a state Donald Trump won in 2024, and Republicans had seen the seat as a key target in their effort to keep control of the Senate.",
+  "source_urls": [
+    "https://www.cbsnews.com/news/georgia-2026-senate-ossoff-collins/",
+    "https://www.nbcsandiego.com/elections/georgia-senate-race-2026/4096316/"
+  ],
+  "source_names": [
+    "CBS News",
+    "NBC"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Midterms2026",
+    "#EleccionesEEUU",
+    "#Georgia"
+  ],
+  "summary_es": "Ossoff derrotó al republicano Mike Collins y retiene para los demócratas un escaño clave en un estado que Trump ganó en 2024.",
+  "summary_en": "Ossoff defeated Republican Mike Collins, keeping a key seat for Democrats in a state Trump won in 2024.",
+  "highlight_es": "Jon Ossoff",
+  "highlight_en": "Jon Ossoff",
+  "image_prompt": "Domed state capitol building at dusk with warm lights in the windows, ballot box on a table in the foreground, calm editorial illustration, no people, no text, no logos, no flags",
+  "visual_label": "Georgia",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 33.75,
+      "lon": -84.39,
+      "label": "Atlanta, Georgia"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-05T00:35:11.927Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
