@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-05T00:57:00Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261105-trump-says-iran-war-cost-gop-midterms",
+ "category": "World",
+ "headline": "Trump agrees the Iran war cost Republicans the midterms but says he would do it again",
+ "headline_es": "Trump admite que la guerra con Irán costó las legislativas a los republicanos, pero lo repetiría",
+ "caption_en": "US President Donald Trump said on Wednesday that Vice President JD Vance's claim that the Iran war caused the Republicans' midterm defeat was \"largely true\". Vance had said the war was the reason the party lost. Speaking to reporters at the White House, Trump nonetheless defended the conflict, saying that if he had it to do again he would, because in the long term it is the only answer.",
+ "caption_es": "El presidente de EE. UU., Donald Trump, dijo el miércoles que es \"en gran parte cierta\" la afirmación del vicepresidente JD Vance de que la guerra con Irán provocó la derrota republicana en las elecciones de mitad de mandato. Vance había dicho que la guerra fue la razón de la derrota del partido. Ante periodistas en la Casa Blanca, Trump defendió aun así el conflicto y afirmó que, si tuviera que hacerlo de nuevo, lo haría, porque a largo plazo es la única respuesta.",
+ "summary_es": "Trump dio la razón a Vance: la guerra con Irán pesó en la derrota republicana. Aun así, dijo que volvería a hacerlo.",
+ "summary_en": "Trump backed Vance's view that the Iran war drove the GOP defeat, yet said he would do it again.",
+ "highlight_es": "guerra con Irán",
+ "highlight_en": "Iran war",
+ "visual_label": "Casa Blanca",
+ "image_prompt": "Classic white government mansion with columns at dusk, an empty press lectern with microphones on the lawn, dramatic cloudy sky, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "United States of America"
+  ],
+  "marker": {
+   "lat": 38.8977,
+   "lon": -77.0365,
+   "label": "Washington"
+  },
+  "labels": {
+   "United States of America": "Estados Unidos"
+  }
+ },
+ "source_urls": [
+  "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295",
+  "https://gulfnews.com/world/americas/trump-acknowledges-iran-war-caused-midterms-loss-after-vance-comments-1.500736340"
+ ],
+ "source_names": [
+  "ABC News",
+  "Gulf News (AFP)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#EEUU",
+  "#Irán",
+  "#Midterms"
+ ]
+}
