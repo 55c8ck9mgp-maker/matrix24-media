@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261105-french-unions-stage-nationwide-strike",
+ "status": "draft",
+ "created_at": "2026-11-05T12:54:06Z",
+ "category": "World",
+ "headline": "French unions stage nationwide strike and marches over living costs as 70,000 police deploy",
+ "headline_es": "Sindicatos franceses hacen huelga nacional por el costo de vida con 70.000 policías desplegados",
+ "caption_en": "France's main trade unions held a nationwide strike and marches on Thursday, with rallies planned in about 260 towns and cities over living costs, wages, public services and schools. Authorities deployed around 70,000 police officers after weeks of unrest, including riots last month. The protests add pressure on President Emmanuel Macron's government months before next year's presidential election.",
+ "caption_es": "Los principales sindicatos de Francia realizaron este jueves una huelga nacional y marchas, con concentraciones previstas en unas 260 ciudades y pueblos por el costo de vida, los salarios, los servicios públicos y la educación. Las autoridades desplegaron unos 70.000 policías tras semanas de disturbios, incluidos los del mes pasado. Las protestas aumentan la presión sobre el Gobierno del presidente Emmanuel Macron a meses de las elecciones presidenciales del próximo año.",
+ "summary_es": "Unas 260 ciudades acogen marchas por salarios, servicios públicos y educación tras semanas de disturbios.",
+ "summary_en": "Rallies in about 260 towns over wages, public services and schools follow weeks of unrest.",
+ "highlight_es": "huelga nacional",
+ "highlight_en": "nationwide strike",
+ "visual_label": "Huelga",
+ "image_prompt": "Wide Paris boulevard with Haussmann-style buildings, empty tram stop and closed shop shutters on an overcast autumn day, distant colorful balloons and banners without readable text, calm cinematic view, no identifiable people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "France"
+  ],
+  "marker": {
+   "lat": 48.8676,
+   "lon": 2.3631,
+   "label": "París"
+  },
+  "labels": {
+   "France": "Francia"
+  }
+ },
+ "source_urls": [
+  "https://www.ksat.com/business/2026/11/05/french-unions-unite-for-nationwide-strikes-piling-more-pressure-on-macrons-government/",
+  "https://theprint.in/world/france-hit-by-more-protests-strike-macron-seeks-to-contain-unrest/3091378/"
+ ],
+ "source_names": [
+  "KSAT (Associated Press)",
+  "ThePrint (Reuters)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Francia",
+  "#Huelga",
+  "#Macron"
+ ],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

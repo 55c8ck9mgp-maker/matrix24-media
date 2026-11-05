@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261105-bank-of-england-raises-rates-to-4",
+ "status": "draft",
+ "created_at": "2026-11-05T12:54:06Z",
+ "category": "Economy",
+ "headline": "Bank of England raises interest rates to 4% as Middle East energy costs push up inflation",
+ "headline_es": "El Banco de Inglaterra sube los tipos de interés al 4% por el impacto de la energía en la inflación",
+ "caption_en": "The Bank of England raised its main interest rate by a quarter point to 4%, from 3.75%. Policymakers voted 8-1, with the lone dissenter backing a larger half-point rise. The bank pointed to energy price pressures linked to the Middle East conflict and expects inflation to reach about 5% around mid-2027, well above its 2% target.",
+ "caption_es": "El Banco de Inglaterra subió su tipo de interés principal un cuarto de punto, hasta el 4%, desde el 3,75%. Su comité votó 8 a 1, y el único disidente defendió una subida mayor, de medio punto. La entidad señaló las presiones de los precios de la energía vinculadas al conflicto en Oriente Medio y prevé que la inflación ronde el 5% hacia mediados de 2027, muy por encima de su objetivo del 2%.",
+ "summary_es": "El comité votó 8 a 1 y prevé que la inflación ronde el 5% a mediados de 2027 por los precios de la energía.",
+ "summary_en": "The committee voted 8-1 and expects inflation near 5% by mid-2027, driven by energy prices.",
+ "highlight_es": "sube los tipos",
+ "highlight_en": "raises interest rates",
+ "visual_label": "Tipos al 4%",
+ "image_prompt": "Classical stone central bank building facade with columns in London-style architecture under an overcast sky, gold coins and a rising line graph rendered as abstract light in the foreground, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": ["United Kingdom"],
+  "marker": {"lat": 51.5142, "lon": -0.0885, "label": "Londres"},
+  "labels": {"United Kingdom": "Reino Unido"}
+ },
+ "source_urls": [
+  "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england",
+  "https://www.globalbankingandfinance.com/bank-england-raises-rates-first-time-since-2023-come/"
+ ],
+ "source_names": ["MoneyWeek", "Global Banking & Finance Review (Reuters)"],
+ "hashtags": ["#MATRIX24", "#BancoDeInglaterra", "#ReinoUnido", "#Economía"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261105-south-korea-extends-navy-mission-toward-hormuz",
+ "status": "draft",
+ "created_at": "2026-11-05T12:54:06Z",
+ "category": "Security / Geopolitics",
+ "headline": "South Korea expands its naval mission toward the Strait of Hormuz, stopping short of the strait",
+ "headline_es": "Corea del Sur amplía la misión de su unidad naval hacia el estrecho de Ormuz, sin entrar en él",
+ "caption_en": "South Korea's defence ministry said it will extend the operating area of its Cheonghae naval unit, now based off Somalia, to open waters south of Oman near the Strait of Hormuz. The strait itself is excluded, and patrol aircraft may not monitor Iranian territory or waters. A P-8 patrol plane, an explosive ordnance disposal team and unmanned vehicles will be added; parliament must approve the extended deployment.",
+ "caption_es": "El Ministerio de Defensa de Corea del Sur anunció que ampliará la zona de operaciones de su unidad naval Cheonghae, hoy desplegada frente a Somalia, a aguas abiertas al sur de Omán, cerca del estrecho de Ormuz. El estrecho queda excluido y los aviones de patrulla no podrán vigilar territorio ni aguas de Irán. Se sumarán un avión de patrulla P-8, un equipo de desactivación de explosivos y vehículos no tripulados; el Parlamento debe aprobar la prórroga del despliegue.",
+ "summary_es": "La unidad Cheonghae operará en aguas al sur de Omán, sin vigilar territorio iraní; falta la aprobación del Parlamento.",
+ "summary_en": "The Cheonghae unit will operate south of Oman without monitoring Iranian territory; parliament must approve.",
+ "highlight_es": "Corea del Sur amplía",
+ "highlight_en": "South Korea expands",
+ "visual_label": "Ormuz",
+ "image_prompt": "Grey navy destroyer sailing on calm open sea at dawn, a maritime patrol aircraft flying low in the distance, arid coastline on the horizon, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+ "map": {
+  "focus": [
+   "South Korea",
+   "Oman"
+  ],
+  "marker": {
+   "lat": 19.67,
+   "lon": 57.7,
+   "label": "Duqm"
+  },
+  "labels": {
+   "South Korea": "Corea del Sur",
+   "Oman": "Omán"
+  }
+ },
+ "source_urls": [
+  "https://www.sbs.com.au/news/article/south-korea-to-patrol-strait-of-hormuz-oil-tankers-reportedly-hit-mines/kj33t49bw",
+  "https://en.sedaily.com/politics/2026/11/05/korea-widens-naval-zone-near-hormuz-stops-short-of-strait"
+ ],
+ "source_names": [
+  "SBS News (AFP)",
+  "Seoul Economic Daily"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#CoreaDelSur",
+  "#Ormuz",
+  "#Geopolítica"
+ ],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}
