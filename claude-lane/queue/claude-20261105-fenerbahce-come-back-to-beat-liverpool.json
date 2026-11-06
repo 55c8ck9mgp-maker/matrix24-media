@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261105-fenerbahce-come-back-to-beat-liverpool",
+  "created_at": "2026-11-05T00:57:00Z",
+  "category": "Sports",
+  "headline": "Fenerbahce come from behind twice to beat Liverpool 3-2 in the Champions League",
+  "headline_es": "El Fenerbahçe remonta dos veces y vence 3-2 al Liverpool en la Champions",
+  "caption_es": "El Fenerbahçe venció 3-2 al Liverpool este miércoles en Estambul, en la fase de liga de la Champions, tras remontar dos veces. Trey Nyoni y el suplente Alexander Isak marcaron para el Liverpool, mientras que Mason Greenwood, Archie Brown y Vedat Muriqi, con un cabezazo en el tramo final, anotaron para el equipo turco. Fue la primera vez esta temporada que el Liverpool deja escapar puntos en la competición.",
+  "caption_en": "Fenerbahce beat Liverpool 3-2 in Istanbul on Wednesday in the Champions League league phase, twice coming from behind. Trey Nyoni and substitute Alexander Isak scored for Liverpool, while Mason Greenwood, Archie Brown and Vedat Muriqi, with a late header, scored for the Turkish side. It was Liverpool's first dropped points in the competition this season.",
+  "source_urls": [
+    "https://www.arabnews.com/football/liverpool-collapse-to-champions-league-defeat-at-fenerbahce-3009856",
+    "https://www.anews.com.tr/football/2026/11/04/fenerbahce-stun-liverpool-for-first-champions-league-win-in-18-years"
+  ],
+  "source_names": [
+    "Arab News (AFP)",
+    "A News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Champions",
+    "#Fenerbahce",
+    "#Liverpool"
+  ],
+  "summary_es": "Greenwood, Brown y Muriqi firmaron la remontada turca en Estambul; Nyoni e Isak marcaron para el Liverpool.",
+  "summary_en": "Greenwood, Brown and Muriqi led the comeback in Istanbul; Nyoni and Isak scored for Liverpool.",
+  "highlight_es": "vence 3-2 al Liverpool",
+  "highlight_en": "beat Liverpool 3-2",
+  "image_prompt": "Packed football stadium at night under bright floodlights, a ball resting on the centre spot of a green pitch, smoke drifting in the stands, wide cinematic view, no identifiable people, no text, no logos, no flags",
+  "visual_label": "Champions",
+  "map": {
+    "focus": [
+      "Turkey"
+    ],
+    "marker": {
+      "lat": 40.9877,
+      "lon": 29.0369,
+      "label": "Estambul"
+    },
+    "labels": {
+      "Turkey": "Turquía"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-06T00:36:10.180Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
