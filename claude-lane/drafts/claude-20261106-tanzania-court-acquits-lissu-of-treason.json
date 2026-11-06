@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-06T12:53:26Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261106-tanzania-court-acquits-lissu-of-treason",
+ "category": "World",
+ "headline": "Tanzania court clears opposition leader Tundu Lissu of treason, jails him 4 years for incitement",
+ "headline_es": "Tribunal de Tanzania absuelve de traición a Tundu Lissu y lo condena a 4 años por incitación",
+ "caption_en": "A three-judge panel in Dar es Salaam on Friday acquitted Chadema chairman Tundu Lissu of treason, a charge that could carry the death penalty, but convicted him of incitement and sentenced him to four years in prison. Lissu, arrested in April 2025 before the October 2025 election, denied wrongdoing and called the case politically motivated.",
+ "caption_es": "Un tribunal de tres jueces en Dar es Salaam absolvió el viernes de traición al presidente del partido Chadema, Tundu Lissu, cargo que podía conllevar la pena de muerte, pero lo declaró culpable de incitación y lo condenó a cuatro años de prisión. Lissu, detenido en abril de 2025 antes de las elecciones de octubre de 2025, negó haber cometido delitos y calificó el caso de político.",
+ "summary_es": "Lissu, líder del principal partido opositor, llevaba más de 18 meses detenido. La traición podía castigarse con la pena de muerte.",
+ "summary_en": "Lissu, who leads the main opposition party, had been detained for more than 18 months. Treason could carry the death penalty.",
+ "highlight_es": "absuelve de traición",
+ "highlight_en": "clears",
+ "visual_label": "Dar es Salaam",
+ "image_prompt": "Exterior of a colonial-era courthouse with white columns under a hazy tropical sky, palm trees and an empty paved plaza in front, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Tanzania"
+  ],
+  "marker": {
+   "lat": -6.7924,
+   "lon": 39.2083,
+   "label": "Dar es Salaam"
+  },
+  "labels": {
+   "Tanzania": "Tanzania"
+  }
+ },
+ "source_urls": [
+  "https://www.lanacion.com.ar/usa/tanzania-opposition-leader-lissu-sentenced-to-4-years-for-incitement-acquitted-of-treason-nid06112026/",
+  "https://clubofmozambique.com/news/tanzania-opposition-leader-tundu-lissu-cleared-of-treason-sentenced-to-four-years-for-incitement/",
+  "https://theprint.in/world/tanzanian-court-clears-opposition-leader-lissu-of-treason/3092324/"
+ ],
+ "source_names": [
+  "La Nación (AP)",
+  "Club of Mozambique (AFP)",
+  "ThePrint (Reuters)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Tanzania",
+  "#TunduLissu",
+  "#Africa"
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-06T12:53:26Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261106-pope-leo-begins-south-america-tour",
+ "category": "Colombia / Latin America",
+ "headline": "Pope Leo XIV begins South America tour in Uruguay weeks after lung cancer surgery",
+ "headline_es": "El papa León XIV inicia en Uruguay su gira por Sudamérica semanas después de su cirugía",
+ "caption_en": "Pope Leo XIV left Rome on Friday for a tour of Uruguay, Argentina and Peru, weeks after undergoing surgery for lung cancer. In Uruguay he is due to meet President Yamandú Orsi and celebrate masses in Paysandú and Florida before travelling to Argentina and then Peru, where he served for years as a missionary and bishop.",
+ "caption_es": "El papa León XIV partió el viernes de Roma rumbo a una gira por Uruguay, Argentina y Perú, semanas después de ser operado de cáncer de pulmón. En Uruguay tiene previsto reunirse con el presidente Yamandú Orsi y celebrar misas en Paysandú y Florida antes de viajar a Argentina y luego a Perú, donde fue misionero y obispo durante años.",
+ "summary_es": "La gira lo llevará a Montevideo, Buenos Aires y Perú, el país donde fue misionero y obispo.",
+ "summary_en": "The tour takes him to Montevideo, Argentina and Peru, the country where he served as a missionary and bishop.",
+ "highlight_es": "gira por Sudamérica",
+ "highlight_en": "South America tour",
+ "visual_label": "Montevideo",
+ "image_prompt": "Montevideo-style coastal promenade along a wide river estuary at golden hour, a white airliner crossing the sky above the city skyline and a church bell tower, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Uruguay",
+   "Argentina"
+  ],
+  "marker": {
+   "lat": -34.9011,
+   "lon": -56.1645,
+   "label": "Montevideo"
+  },
+  "labels": {
+   "Uruguay": "Uruguay",
+   "Argentina": "Argentina"
+  }
+ },
+ "source_urls": [
+  "https://www.euronews.com/2026/11/06/pope-leo-xiv-departs-for-uruguay-as-he-begins-tour-of-south-america",
+  "https://batimes.com.ar/news/latin-america/pope-leo-leaves-on-emotional-south-america-tour-weeks-after-surgery.phtml"
+ ],
+ "source_names": [
+  "Euronews",
+  "Buenos Aires Times (AFP)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#PapaLeonXIV",
+  "#Uruguay",
+  "#Sudamérica"
+ ]
+}
