@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261106-melania-trump-hosts-russia-ukraine-officials",
+  "status": "draft",
+  "created_at": "2026-11-06T00:57:00Z",
+  "category": "World",
+  "headline": "Melania Trump hosts Russian and Ukrainian officials at the White House, urges lasting peace",
+  "headline_es": "Melania Trump recibe a funcionarios de Rusia y Ucrania en la Casa Blanca y pide una paz duradera",
+  "caption_en": "First Lady Melania Trump hosted Russian envoy Kirill Dmitriev and Ukrainian officials Davyd Arakhamia and Dmytro Lubinets at the White House on Thursday. She urged both sides to build on the recent six-day truce in occupied Oleshky, Kherson, which allowed nearly 800 people to evacuate. President Trump said he met Dmitriev but not the Ukrainian delegation.",
+  "caption_es": "La primera dama Melania Trump recibió el jueves en la Casa Blanca al enviado ruso Kirill Dmítriev y a los funcionarios ucranianos Davyd Arajamia y Dmytró Lubinets. Pidió a ambas partes aprovechar la reciente tregua de seis días en la ocupada Oleshky, en Jersón, que permitió evacuar a casi 800 personas. El presidente Trump dijo que se reunió con Dmítriev, pero no con la delegación ucraniana.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials",
+    "https://www.pbs.org/newshour/politics/watch-first-lady-melania-trump-hosted-russian-and-ukrainian-officials-trump-met-with-putins-envoy"
+  ],
+  "source_names": ["Al Jazeera", "PBS NewsHour"],
+  "hashtags": ["#MATRIX24", "#Ukraine", "#Russia", "#Ucrania", "#Peace"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "En la Casa Blanca, Melania Trump pidió a Rusia y Ucrania ampliar la tregua de Oleshky, que permitió evacuar a casi 800 civiles.",
+  "summary_en": "At the White House, Melania Trump urged Russia and Ukraine to build on the Oleshky truce that let nearly 800 civilians evacuate.",
+  "highlight_es": "paz duradera",
+  "highlight_en": "lasting peace",
+  "visual_label": "Oleshky",
+  "image_prompt": "Formal meeting room with a long polished table, empty chairs on both sides, soft daylight through tall windows, a white dove figurine and blank papers at the center, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": ["Ukraine", "Russia"],
+    "marker": {"lat": 46.6241, "lon": 32.7188, "label": "Oleshky"},
+    "labels": {"Ukraine": "Ucrania", "Russia": "Rusia"}
+  }
+}

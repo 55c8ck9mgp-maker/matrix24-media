@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261106-saudi-coalition-downs-missile-fired-at-medina",
+  "status": "draft",
+  "created_at": "2026-11-06T00:57:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi-led coalition says it destroyed a Houthi ballistic missile fired toward Medina",
+  "headline_es": "La coalición liderada por Arabia Saudita dice que destruyó un misil hutí lanzado hacia Medina",
+  "caption_en": "The Saudi-led coalition fighting Yemen's Houthis said on Thursday that its air defences intercepted and destroyed a ballistic missile fired toward the Medina region, home to one of Islam's holiest cities. Minutes before the announcement, Saudi civil defence warned of potential danger near the Red Sea oil port of Yanbu. No damage or casualties were reported.",
+  "caption_es": "La coalición liderada por Arabia Saudita que combate a los hutíes de Yemen dijo el jueves que sus defensas aéreas interceptaron y destruyeron un misil balístico lanzado hacia la región de Medina, sede de una de las ciudades más sagradas del islam. Minutos antes del anuncio, la defensa civil saudí advirtió de un posible peligro cerca del puerto petrolero de Yanbu, en el mar Rojo. No se reportaron daños ni víctimas.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina",
+    "https://www.dawn.com/news/2042333"
+  ],
+  "source_names": ["Al Jazeera", "Dawn (AFP)"],
+  "hashtags": ["#MATRIX24", "#SaudiArabia", "#Yemen", "#ArabiaSaudita", "#Geopolitics"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Las defensas aéreas de la coalición derribaron un misil balístico dirigido a la región de Medina. Antes hubo una alerta en el puerto de Yanbu.",
+  "summary_en": "Coalition air defences downed a ballistic missile aimed at the Medina region, after an alert near the oil port of Yanbu.",
+  "highlight_es": "misil hutí",
+  "highlight_en": "Houthi ballistic missile",
+  "visual_label": "Medina",
+  "image_prompt": "Air defence radar installation on a desert ridge at night, a distant streak of light high in a starry sky, oil storage tanks on a coastline far below, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": ["Saudi Arabia", "Yemen"],
+    "marker": {"lat": 24.4686, "lon": 39.6142, "label": "Medina"},
+    "labels": {"Saudi Arabia": "Arabia Saudita", "Yemen": "Yemen"}
+  }
+}

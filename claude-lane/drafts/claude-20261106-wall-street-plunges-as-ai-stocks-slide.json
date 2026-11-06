@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261106-wall-street-plunges-as-ai-stocks-slide",
+  "status": "draft",
+  "created_at": "2026-11-06T00:57:00Z",
+  "category": "Economy",
+  "headline": "Wall Street plunges as AI and chip stocks slide; Nasdaq drops 5.5% into correction",
+  "headline_es": "Wall Street se desploma por la caída de las acciones de IA y chips; el Nasdaq cae 5,5%",
+  "caption_en": "US stocks fell sharply on Thursday: the Dow lost 1,833 points (3.4%), the S&P 500 dropped 4.4% and the Nasdaq sank 5.5%, entering correction territory. The selloff was led by AI and semiconductor shares, with the Philadelphia chip index down more than 12%. Investors weighed the risk that the new Democratic Congress could slow AI data center construction.",
+  "caption_es": "Las bolsas de EE. UU. cayeron con fuerza el jueves: el Dow perdió 1.833 puntos (3,4%), el S&P 500 bajó 4,4% y el Nasdaq se hundió 5,5%, entrando en zona de corrección. La venta masiva fue liderada por las acciones de inteligencia artificial y semiconductores, con el índice de chips de Filadelfia en baja de más de 12%. Los inversionistas sopesaron el riesgo de que el nuevo Congreso demócrata frene la construcción de centros de datos de IA.",
+  "source_urls": [
+    "https://www.foxbusiness.com/markets/stocks-nov-5-2026",
+    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+  ],
+  "source_names": ["Fox Business", "Yahoo Finance"],
+  "hashtags": ["#MATRIX24", "#WallStreet", "#Economy", "#Bolsa", "#AI"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El Dow perdió 1.833 puntos y el Nasdaq entró en corrección tras una venta masiva de acciones de IA y chips, por temor a frenos a los centros de datos.",
+  "summary_en": "The Dow lost 1,833 points and the Nasdaq entered a correction as AI and chip stocks sold off on fears of curbs on data centers.",
+  "highlight_es": "Wall Street se desploma",
+  "highlight_en": "Wall Street plunges",
+  "visual_label": "Nasdaq -5,5%",
+  "image_prompt": "Trading floor screens glowing red with falling line charts, rows of empty desks, server racks of a data center reflected in glass, dramatic low light, wide cinematic view, no text, no logos",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 40.7069, "lon": -74.0113, "label": "Nueva York"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}
