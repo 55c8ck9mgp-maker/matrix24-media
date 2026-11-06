@@ -1,0 +1,35 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-06T18:53:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261106-us-adds-165000-jobs-in-october",
+ "category": "Economy",
+ "headline": "US economy adds 165,000 jobs in October, far above forecasts; unemployment dips to 4.1%",
+ "headline_es": "EE. UU. crea 165.000 empleos en octubre, muy por encima de lo previsto; el desempleo baja al 4,1%",
+ "caption_en": "US employers added 165,000 jobs in October, well above economists' expectations, and the unemployment rate fell to 4.1% from 4.2%, Labor Department data showed on Friday. September's gain was revised up to 60,000 from an initial 29,000, and average hourly earnings rose 3.1% from a year earlier.",
+ "caption_es": "Los empleadores de Estados Unidos sumaron 165.000 puestos de trabajo en octubre, muy por encima de lo que esperaban los economistas, y la tasa de desempleo bajó al 4,1% desde el 4,2%, según datos del Departamento de Trabajo publicados el viernes. El dato de septiembre se revisó al alza a 60.000 desde 29.000, y el salario medio por hora subió un 3,1% interanual.",
+ "summary_es": "Los economistas esperaban entre 65.000 y 70.000 empleos. Los salarios también crecieron más de lo previsto.",
+ "summary_en": "Economists had expected about 65,000 to 70,000 jobs. Wage growth also beat expectations.",
+ "highlight_es": "165.000 empleos",
+ "highlight_en": "165,000 jobs",
+ "visual_label": "Empleo EE. UU.",
+ "image_prompt": "Busy city street at morning rush hour seen from above with blurred commuters' silhouettes, office towers and a rising green line chart drawn as light trails in the sky, cinematic wide view, no text, no logos, no identifiable faces",
+ "source_urls": [
+  "https://finance.yahoo.com/economy/article/the-us-added-165000-jobs-in-october-blowing-past-expectations-133521373.html",
+  "https://keyt.com/news/money-and-business/cnn-business-consumer/2026/11/06/the-us-economy-added-165000-jobs-in-october-and-the-unemployment-rate-fell/"
+ ],
+ "source_names": [
+  "Yahoo Finance",
+  "KEYT (CNN)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Economía",
+  "#EEUU",
+  "#Empleo"
+ ]
+}

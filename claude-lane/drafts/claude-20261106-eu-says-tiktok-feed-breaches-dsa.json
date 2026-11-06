@@ -1,0 +1,49 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-06T18:53:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261106-eu-says-tiktok-feed-breaches-dsa",
+ "category": "Technology",
+ "headline": "EU says TikTok's 'For You' feed breaches digital rules over harmful 'rabbit hole' effect",
+ "headline_es": "La UE dice que el feed 'Para ti' de TikTok infringe sus normas digitales por el efecto 'madriguera'",
+ "caption_en": "The European Commission said on Friday it has preliminarily found that TikTok's 'For You' feed breaches the Digital Services Act, keeping users in loops of similar videos on topics such as mental health and body image. It says TikTok must change the feed's design. If confirmed, TikTok could be fined up to 6% of global annual turnover; the company can respond first.",
+ "caption_es": "La Comisión Europea informó el viernes que concluyó de forma preliminar que el feed 'Para ti' de TikTok infringe la Ley de Servicios Digitales, al mantener a los usuarios en ciclos de videos similares sobre temas como salud mental e imagen corporal. Según Bruselas, TikTok debe cambiar el diseño del feed. Si se confirma, la empresa podría ser multada con hasta el 6% de su facturación anual mundial; antes puede responder.",
+ "summary_es": "Bruselas considera que TikTok no evaluó bien el riesgo de su algoritmo para el bienestar de los usuarios. La conclusión aún no es definitiva.",
+ "summary_en": "Brussels says TikTok failed to properly assess the risk its algorithm poses to users' wellbeing. The finding is not yet final.",
+ "highlight_es": "infringe sus normas digitales",
+ "highlight_en": "breaches digital rules",
+ "visual_label": "DSA",
+ "image_prompt": "Smartphone lying on a desk glowing with an endless vertical stream of blurred abstract video thumbnails spiraling into a tunnel, dark moody room, cinematic lighting, no text, no logos, no people",
+ "map": {
+  "focus": [
+   "Belgium"
+  ],
+  "marker": {
+   "lat": 50.8503,
+   "lon": 4.3517,
+   "label": "Bruselas"
+  },
+  "labels": {
+   "Belgium": "Bélgica"
+  }
+ },
+ "source_urls": [
+  "https://www.rte.ie/news/europe/2026/1106/1598263-eu-tiktok-videos/",
+  "https://thenextweb.com/news/eu-tiktok-rabbit-hole-for-you-feed-dsa"
+ ],
+ "source_names": [
+  "RTÉ News",
+  "The Next Web"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#TikTok",
+  "#UE",
+  "#DSA",
+  "#Tecnología"
+ ]
+}

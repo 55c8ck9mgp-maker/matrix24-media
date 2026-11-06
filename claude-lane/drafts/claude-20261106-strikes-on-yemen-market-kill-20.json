@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-06T18:53:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261106-strikes-on-yemen-market-kill-20",
+ "category": "Security / Geopolitics",
+ "headline": "Strikes on a market in Yemen's Taiz province kill at least 20 as Houthis and government trade blame",
+ "headline_es": "Ataques contra un mercado en Taiz, Yemen, matan al menos a 20; hutíes y gobierno se culpan",
+ "caption_en": "Strikes hit a vegetable market in al-Waziyah, in Yemen's Taiz province, on Friday, killing at least 20 people, according to the Houthis' health ministry. The Houthis blamed Saudi aircraft, while local authorities blamed the Houthis and said no airstrikes were carried out in the area. Neither account could be independently verified.",
+ "caption_es": "Ataques alcanzaron el viernes un mercado de verduras en al-Waziyah, en la provincia yemení de Taiz, y mataron al menos a 20 personas, según el ministerio de Salud hutí. Los hutíes culparon a aviones saudíes, mientras que las autoridades locales culparon a los hutíes y aseguraron que no hubo bombardeos aéreos en la zona. Ninguna versión pudo verificarse de forma independiente.",
+ "summary_es": "Es uno de los ataques más letales desde que se reanudaron los combates entre los hutíes y las fuerzas progubernamentales.",
+ "summary_en": "It is one of the deadliest attacks since fighting resumed between the Houthis and Saudi-backed government forces.",
+ "highlight_es": "al menos a 20",
+ "highlight_en": "kill at least 20",
+ "visual_label": "Taiz",
+ "image_prompt": "Empty traditional open-air vegetable market stalls with wooden crates and canvas awnings in a dusty mountain town at dawn, hazy sky, somber mood, wide view, no people, no text, no flags",
+ "map": {
+  "focus": [
+   "Yemen"
+  ],
+  "marker": {
+   "lat": 13.42,
+   "lon": 43.53,
+   "label": "Al-Waziyah, Taiz"
+  },
+  "labels": {
+   "Yemen": "Yemen"
+  }
+ },
+ "source_urls": [
+  "https://www.ksl.com/article/51644183/airstrikes-on-a-market-in-southwestern-yemen-kill-at-least-20-houthis-say",
+  "https://www.timesofisrael.com/liveblog_entry/strikes-on-market-in-yemens-taiz-province-kill-20-as-sides-exchange-blame/"
+ ],
+ "source_names": [
+  "KSL (AP)",
+  "The Times of Israel (AFP)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Yemen",
+  "#Taiz",
+  "#OrienteMedio"
+ ]
+}
