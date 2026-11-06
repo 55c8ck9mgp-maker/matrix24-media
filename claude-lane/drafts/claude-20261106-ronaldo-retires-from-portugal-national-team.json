@@ -1,0 +1,37 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-06T06:52:26Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261106-ronaldo-retires-from-portugal-national-team",
+ "category": "Sports",
+ "headline": "Cristiano Ronaldo retires from international football after 23 years with Portugal",
+ "headline_es": "Cristiano Ronaldo se retira de la selección de Portugal tras 23 años",
+ "caption_en": "Cristiano Ronaldo announced on Thursday his retirement from international football, ending a 23-year career with Portugal. The 41-year-old captain, who won the 2016 European Championship, leaves with 146 goals in 234 appearances. The decision follows a falling-out with coach Jorge Jesus after Ronaldo left the squad during the last international break.",
+ "caption_es": "Cristiano Ronaldo anunció el jueves su retiro del fútbol internacional, poniendo fin a 23 años de carrera con Portugal. El capitán de 41 años, campeón de la Eurocopa de 2016, se despide con 146 goles en 234 partidos. La decisión llega tras un choque con el seleccionador Jorge Jesus, después de que Ronaldo abandonara la concentración en la última ventana internacional.",
+ "summary_es": "Ronaldo se despide como máximo goleador histórico de Portugal: 146 goles en 234 partidos y la Eurocopa de 2016.",
+ "summary_en": "Ronaldo leaves as Portugal's all-time top scorer, with 146 goals in 234 appearances and the 2016 Euro title.",
+ "highlight_es": "se retira",
+ "highlight_en": "retires",
+ "visual_label": "Portugal",
+ "image_prompt": "Empty floodlit football stadium at night, a single ball resting on the center circle of the green pitch, captain's armband lying beside it, wide cinematic view, no people, no text, no logos, no flags",
+ "source_urls": [
+  "https://www.nbcsports.com/soccer/news/cristiano-ronaldo-announces-international-retirement-from-portugal",
+  "https://www.espn.com/soccer/story/_/id/50387224/live-updates-cristiano-ronaldo-retires-portugal-duty",
+  "https://www.aljazeera.com/sports/2026/11/5/why-has-cristiano-ronaldo-retired-from-international-football"
+ ],
+ "source_names": [
+  "NBC Sports",
+  "ESPN",
+  "Al Jazeera"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#CristianoRonaldo",
+  "#Portugal",
+  "#Futbol"
+ ]
+}

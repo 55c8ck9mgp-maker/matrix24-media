@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-06T06:52:26Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261106-turkey-ratifies-mecca-defence-pact",
+ "category": "Security / Geopolitics",
+ "headline": "Turkey's parliament ratifies Mecca mutual defence pact with Saudi Arabia and Pakistan",
+ "headline_es": "El Parlamento de Turquía ratifica el pacto de defensa de La Meca con Arabia Saudita y Pakistán",
+ "caption_en": "Turkey's parliament ratified the Mecca Joint Defence Agreement with Saudi Arabia and Pakistan by 279 votes to 119. The pact commits members to help any party that is attacked and binds them for 10 years. Turkish officials describe it as defensive, and any deployment of troops would require further approval by parliament.",
+ "caption_es": "El Parlamento de Turquía ratificó el Acuerdo de Defensa Conjunta de La Meca con Arabia Saudita y Pakistán por 279 votos contra 119. El pacto compromete a sus miembros a ayudar a cualquier parte que sea atacada y los obliga durante 10 años. Funcionarios turcos lo describen como defensivo, y cualquier despliegue de tropas requeriría una nueva aprobación del Parlamento.",
+ "summary_es": "El acuerdo, firmado en agosto en La Meca, se ratifica mientras Arabia Saudita enfrenta ataques de los hutíes. Está abierto a otros países de la región.",
+ "summary_en": "Signed in Mecca in August, the pact is ratified as Saudi Arabia faces Houthi attacks. It is open to other regional countries.",
+ "highlight_es": "pacto de defensa",
+ "highlight_en": "mutual defence pact",
+ "visual_label": "Pacto de La Meca",
+ "image_prompt": "Grand modern parliament chamber interior with empty curved rows of seats under a domed ceiling, soft daylight, a closed leather-bound treaty folder on a wooden lectern, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Turkey",
+   "Saudi Arabia"
+  ],
+  "marker": {
+   "lat": 39.9334,
+   "lon": 32.8597,
+   "label": "Ankara"
+  },
+  "labels": {
+   "Turkey": "Turquía",
+   "Saudi Arabia": "Arabia Saudita"
+  }
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement",
+  "https://www.trtworld.com/article/6e8286c3f45a"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "TRT World"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Turquia",
+  "#ArabiaSaudita",
+  "#Pakistan"
+ ]
+}

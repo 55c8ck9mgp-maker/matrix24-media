@@ -1,0 +1,50 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-06T06:52:26Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261106-paraguay-president-pena-resigns-impeached",
+ "category": "Colombia / Latin America",
+ "headline": "Paraguay's President Peña announces resignation as lawmakers vote to impeach him over Ueno collapse",
+ "headline_es": "El presidente de Paraguay, Peña, anuncia su renuncia y Diputados aprueba su juicio político por Ueno",
+ "caption_en": "Paraguayan President Santiago Peña announced his resignation on Thursday amid the collapse of Ueno Bank, which left about three million customers without access to their accounts. Minutes later the lower house voted to impeach him and sent the case to the Senate; Congress has yet to formally accept the resignation. Vice President Pedro Alliana is next in line, and prosecutors have opened three criminal investigations into the crisis.",
+ "caption_es": "El presidente de Paraguay, Santiago Peña, anunció el jueves su renuncia en medio del colapso de Ueno Bank, que dejó a unos tres millones de clientes sin acceso a sus cuentas. Minutos después, la Cámara de Diputados aprobó su juicio político y envió el caso al Senado; el Congreso aún no ha aceptado formalmente la renuncia. El vicepresidente Pedro Alliana es el siguiente en la línea de sucesión, y la Fiscalía abrió tres investigaciones penales sobre la crisis.",
+ "summary_es": "Ueno Bank, que administraba cerca de 850 millones de dólares en fondos públicos, dejó sin acceso a sus cuentas a unos tres millones de clientes.",
+ "summary_en": "Ueno Bank, which handled close to $850 million in public funds, left about three million customers without access to their accounts.",
+ "highlight_es": "anuncia su renuncia",
+ "highlight_en": "announces resignation",
+ "visual_label": "Asunción",
+ "image_prompt": "Neoclassical government palace at night beside a quiet city street with a shuttered bank branch and a dark ATM, wet pavement reflecting streetlights, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": [
+   "Paraguay"
+  ],
+  "marker": {
+   "lat": -25.2637,
+   "lon": -57.5759,
+   "label": "Asunción"
+  },
+  "labels": {
+   "Paraguay": "Paraguay"
+  }
+ },
+ "source_urls": [
+  "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse",
+  "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse",
+  "https://www.irishtimes.com/world/americas/2026/11/05/paraguay-president-pena-resigns-under-mounting-pressure-from-bank-collapse/"
+ ],
+ "source_names": [
+  "PBS NewsHour (AP)",
+  "Al Jazeera",
+  "The Irish Times (Reuters)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Paraguay",
+  "#SantiagoPeña",
+  "#UenoBank"
+ ]
+}
