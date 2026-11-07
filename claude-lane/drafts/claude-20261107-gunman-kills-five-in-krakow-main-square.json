@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-07T18:50:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261107-gunman-kills-five-in-krakow-main-square",
+  "category": "World",
+  "headline": "Gunman firing from a car kills at least five in Krakow's Main Market Square",
+  "headline_es": "Un hombre armado dispara desde un auto y mata al menos a cinco en la plaza principal de Cracovia",
+  "caption_en": "At least five people were killed and about a dozen wounded on Saturday when a gunman fired at random people from a car near the Main Market Square in Krakow, Poland's second-largest city, police said. Police officers are among the wounded. The attacker was shot by police and taken to hospital. Prime Minister Donald Tusk said police are investigating the background and circumstances of the attack; no motive has been given.",
+  "caption_es": "Al menos cinco personas murieron y cerca de una docena resultaron heridas el sábado cuando un hombre armado disparó al azar desde un auto cerca de la Plaza del Mercado de Cracovia, la segunda ciudad de Polonia, según la policía. Entre los heridos hay agentes de policía. El atacante fue herido por la policía y trasladado a un hospital. El primer ministro Donald Tusk dijo que la policía investiga los antecedentes y las circunstancias del ataque; no se ha informado un motivo.",
+  "summary_es": "El atacante disparó al azar desde un auto en el centro turístico de la ciudad. Fue herido por la policía y llevado a un hospital; el motivo se desconoce.",
+  "summary_en": "The attacker fired at random from a car in the city's tourist centre. He was shot by police and taken to hospital; no motive has been given.",
+  "highlight_es": "plaza principal de Cracovia",
+  "highlight_en": "Krakow's Main Market Square",
+  "visual_label": "Cracovia",
+  "image_prompt": "Empty historic cobblestone old-town square at dusk with Gothic church towers and arcaded cloth hall, distant blue emergency lights reflecting on wet stones, quiet and somber mood, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Poland"
+    ],
+    "marker": {
+      "lat": 50.0617,
+      "lon": 19.9373,
+      "label": "Cracovia"
+    },
+    "labels": {
+      "Poland": "Polonia"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow",
+    "https://www.irishtimes.com/world/europe/2026/11/07/five-killed-after-shooting-in-krakows-main-market-square/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "The Irish Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Polonia",
+    "#Cracovia",
+    "#Poland"
+  ]
+}
