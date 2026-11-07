@@ -42,14 +42,21 @@
       "Japan": "Japón"
     }
   },
-  "status": "draft",
-  "image_url": null,
+  "status": "ready_to_publish",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261106-asian-stocks-plunge-as-ai-selloff-spreads.jpg",
   "publish_attempt_id": null,
   "ig_media_id": null,
   "history": [
     {
       "at": "2026-11-07T03:28:27.944Z",
       "event": "adopted_from_drafts_branch"
+    },
+    {
+      "at": "2026-11-07T03:28:27.944Z",
+      "event": "rendered",
+      "renderer": "v2",
+      "ai_illustration": true
     }
-  ]
+  ],
+  "ai_illustration": true
 }
