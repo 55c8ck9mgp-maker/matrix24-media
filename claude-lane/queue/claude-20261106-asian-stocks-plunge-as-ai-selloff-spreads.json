@@ -1,0 +1,55 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261106-asian-stocks-plunge-as-ai-selloff-spreads",
+  "created_at": "2026-11-06T06:52:26Z",
+  "category": "Economy",
+  "headline": "Asian stocks plunge as AI selloff spreads; South Korea's Kospi briefly sinks more than 8%",
+  "headline_es": "Las bolsas de Asia se desploman por la venta de acciones de IA; el Kospi llega a caer más de 8%",
+  "caption_es": "Los mercados asiáticos cayeron con fuerza el viernes, mientras la venta de acciones de inteligencia artificial y chips que golpeó a Wall Street se extendió a la región. El Kospi de Corea del Sur llegó a desplomarse más de 8% y el Nikkei de Japón cayó cerca de 5%. Hong Kong y China continental también retrocedieron, con las acciones ligadas a la IA entre las más castigadas.",
+  "caption_en": "Asian markets tumbled on Friday as the selloff in AI and chip stocks that hit Wall Street spread to the region. South Korea's Kospi plunged more than 8% at one point and Japan's Nikkei fell about 5%. Hong Kong and mainland China also declined, with AI-linked shares among the hardest hit.",
+  "source_urls": [
+    "https://www.freemalaysiatoday.com/category/business/2026/11/06/chinese-stocks-tumble-as-global-tech-selloff-deepens",
+    "https://www.freepressjournal.in/business/asian-markets-crash-kospi-plunges-nearly-9-nikkei-falls-over-5-amid-ai-stock-selloff"
+  ],
+  "source_names": [
+    "Free Malaysia Today (Reuters)",
+    "The Free Press Journal"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Kospi",
+    "#Nikkei",
+    "#Mercados"
+  ],
+  "summary_es": "La caída siguió al fuerte desplome del Nasdaq en la sesión anterior, con los fabricantes de chips a la cabeza de las pérdidas.",
+  "summary_en": "The drop followed the Nasdaq's steep fall in the previous session, with chipmakers leading the losses.",
+  "highlight_es": "se desploman",
+  "highlight_en": "plunge",
+  "image_prompt": "Dark trading floor with large screens showing steep red downward line charts, glowing city skyline of an Asian metropolis through tall windows at dawn, wide cinematic view, no people, no text, no logos",
+  "visual_label": "Kospi",
+  "map": {
+    "focus": [
+      "South Korea",
+      "Japan"
+    ],
+    "marker": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "label": "Seúl"
+    },
+    "labels": {
+      "South Korea": "Corea del Sur",
+      "Japan": "Japón"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-07T03:28:27.944Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
