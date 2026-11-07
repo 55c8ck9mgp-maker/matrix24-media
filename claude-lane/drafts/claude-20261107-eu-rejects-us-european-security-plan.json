@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-07T00:58:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261107-eu-rejects-us-european-security-plan",
+  "category": "Security / Geopolitics",
+  "headline": "EU pushes back on US plan for a new European security architecture in a Russia deal",
+  "headline_es": "La UE rechaza el plan de EE.UU. de una nueva arquitectura de seguridad europea con Rusia",
+  "caption_en": "EU foreign policy chief Kaja Kallas said on Friday that Europe already has a security architecture and that Putin has no veto over European security, after Trump said a deal with Moscow could go beyond Ukraine. Envoy Jared Kushner outlined a broader European security framework ahead of US-mediated Russia-Ukraine talks in Abu Dhabi next week. Poland and Ukraine also voiced objections.",
+  "caption_es": "La jefa de la diplomacia de la UE, Kaja Kallas, afirmó el viernes que Europa ya tiene una arquitectura de seguridad y que Putin no tiene veto sobre la seguridad europea, después de que Trump dijera que un acuerdo con Moscú podría ir más allá de Ucrania. El enviado Jared Kushner presentó un marco de seguridad europeo más amplio antes de las conversaciones Rusia-Ucrania mediadas por EE.UU. la próxima semana en Abu Dabi. Polonia y Ucrania también expresaron objeciones.",
+  "summary_es": "Washington propone un marco de seguridad para toda Europa antes de las conversaciones de Abu Dabi. Bruselas insiste en que decidirá sobre su propia seguridad.",
+  "summary_en": "Washington proposes a Europe-wide security framework ahead of the Abu Dhabi talks. Brussels insists it will decide on its own security.",
+  "highlight_es": "rechaza el plan",
+  "highlight_en": "pushes back",
+  "visual_label": "Seguridad UE",
+  "image_prompt": "Long empty negotiating table with rows of chairs and microphones in a modern conference hall, large map of Europe glowing on the wall behind, cool blue lighting, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Belgium"
+    ],
+    "marker": {
+      "lat": 50.8503,
+      "lon": 4.3517,
+      "label": "Bruselas"
+    },
+    "labels": {
+      "Belgium": "Bélgica"
+    }
+  },
+  "source_urls": [
+    "https://ca.news.yahoo.com/eu-rejects-trump-big-beautiful-182643946.html",
+    "https://www.turkiyetoday.com/world/europe-pushes-back-on-us-plan-to-reshape-security-in-russia-deal-3231883",
+    "https://www.rferl.org/a/white-house-outlines-broader-european-security-plan-ahead-of-ukraine-peace-talks/33892135.html"
+  ],
+  "source_names": [
+    "Euronews (via Yahoo News)",
+    "Türkiye Today",
+    "Radio Free Europe/Radio Liberty"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#UE",
+    "#Ucrania",
+    "#Rusia",
+    "#Geopolítica"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-07T00:58:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261107-us-measles-cases-highest-in-35-years",
+  "category": "Science",
+  "headline": "US measles cases top 5,000 in 2026, the highest annual total in 35 years",
+  "headline_es": "Los casos de sarampión en EE.UU. superan los 5.000 en 2026, la cifra más alta en 35 años",
+  "caption_en": "The US Centers for Disease Control and Prevention reported 5,182 measles cases so far in 2026, the highest yearly count in 35 years. The surge comes more than two decades after the country declared measles eliminated in 2000, and several deaths have been reported this year.",
+  "caption_es": "Los Centros para el Control y la Prevención de Enfermedades de EE.UU. registraron 5.182 casos de sarampión en lo que va de 2026, la mayor cifra anual en 35 años. El repunte llega más de dos décadas después de que el país declarara eliminado el sarampión en el año 2000, y este año se han reportado varias muertes.",
+  "summary_es": "Los CDC contabilizan 5.182 casos en 2026. EE.UU. había declarado eliminado el sarampión en el año 2000.",
+  "summary_en": "The CDC counts 5,182 cases in 2026. The US declared measles eliminated in 2000.",
+  "highlight_es": "sarampión",
+  "highlight_en": "measles",
+  "visual_label": "Sarampión",
+  "image_prompt": "Close-up of vaccine vials and a syringe on a clean clinic tray, microscope and lab glassware softly blurred in the background, clinical blue-white lighting, no people, no text, no labels",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "source_urls": [
+    "https://www.aol.com/articles/us-measles-cases-rise-5-160453000.html",
+    "https://au.news.yahoo.com/us-measles-cases-exceed-5-212405284.html",
+    "https://abcnews.com/Health/measles-cases-surpass-5000-us-infections-confirmed-45/story?id=137907591"
+  ],
+  "source_names": [
+    "Reuters (via AOL)",
+    "Euronews (via Yahoo News)",
+    "ABC News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Sarampión",
+    "#Salud",
+    "#EEUU"
+  ]
+}
