@@ -43,10 +43,10 @@
       "Belgium": "Bélgica"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261107-eu-rejects-us-european-security-plan.jpg",
   "publish_attempt_id": "04c4446a-09eb-4da2-8bc1-f3f52eedd50a",
-  "ig_media_id": null,
+  "ig_media_id": "18100356317096160",
   "history": [
     {
       "at": "2026-11-07T23:10:44.599Z",
@@ -62,8 +62,15 @@
       "at": "2026-11-07T23:11:32.845Z",
       "event": "reserved",
       "publish_attempt_id": "04c4446a-09eb-4da2-8bc1-f3f52eedd50a"
+    },
+    {
+      "at": "2026-11-07T23:12:08.796Z",
+      "event": "published",
+      "publish_attempt_id": "04c4446a-09eb-4da2-8bc1-f3f52eedd50a",
+      "ig_media_id": "18100356317096160"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-11-07T23:11:32.845Z"
+  "reserved_at": "2026-11-07T23:11:32.845Z",
+  "permalink": "https://www.instagram.com/p/DfdVQMgHKHI/"
 }
