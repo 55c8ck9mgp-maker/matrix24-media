@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-07T06:52:35Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261107-trump-confirms-new-us-strikes-on-qeshm",
+  "category": "Security / Geopolitics",
+  "headline": "Trump confirms new 'minor' US strikes on Iranian air defences; Iran says it downed a US drone",
+  "headline_es": "Trump confirma nuevos ataques 'menores' de EE. UU. contra defensas aéreas de Irán",
+  "caption_en": "President Donald Trump said on Friday that US forces carried out new strikes on Iranian air defence systems, calling them minor and saying the target was knocked out within minutes. Iranian state media reported two projectiles hitting the Suza area of Qeshm Island in the Strait of Hormuz, and Iran said its air defences shot down at least one US MQ-9 drone over the island. A US Central Command official described the situation as relatively calm and declined further comment.",
+  "caption_es": "El presidente Donald Trump afirmó el viernes que fuerzas estadounidenses realizaron nuevos ataques contra sistemas de defensa aérea iraníes, que calificó de menores, y dijo que el objetivo fue neutralizado en minutos. Medios estatales iraníes informaron del impacto de dos proyectiles en la zona de Suza, en la isla de Qeshm, en el estrecho de Ormuz, e Irán aseguró que sus defensas aéreas derribaron al menos un dron estadounidense MQ-9 sobre la isla. Un funcionario del Comando Central de EE. UU. describió la situación como relativamente calmada y no hizo más comentarios.",
+  "summary_es": "Medios iraníes reportan dos impactos en la isla de Qeshm, en el estrecho de Ormuz, e Irán afirma haber derribado al menos un dron MQ-9 de EE. UU.",
+  "summary_en": "Iranian media report two projectiles hit Qeshm Island in the Strait of Hormuz; Iran says it shot down at least one US MQ-9 drone.",
+  "highlight_es": "ataques 'menores'",
+  "highlight_en": "'minor' US strikes",
+  "visual_label": "Qeshm",
+  "image_prompt": "Rocky arid island coastline on a calm strait at dusk, a radar dish and anti-aircraft installation silhouetted on a hilltop, a grey military drone flying high in a hazy sky, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "marker": {
+      "lat": 26.75,
+      "lon": 55.83,
+      "label": "Isla de Qeshm"
+    },
+    "labels": {
+      "Iran": "Irán"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+    "https://english.news.cn/20261107/6f94e5f63b8048d4b10362647f78b2a8/c.html"
+  ],
+  "source_names": [
+    "Associated Press (via Al Jazeera)",
+    "Xinhua"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#EEUU",
+    "#Ormuz"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-07T06:52:35Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261107-russian-missiles-shut-kyiv-northern-bridge",
+  "category": "Security / Geopolitics",
+  "headline": "Russian ballistic missiles hit Kyiv overnight, injuring five and shutting the Northern Bridge",
+  "headline_es": "Misiles balísticos rusos golpean Kiev de noche, hieren a cinco y cierran el Puente Norte",
+  "caption_en": "Russia struck Kyiv with ballistic missiles overnight into Saturday, injuring five people, including a 14-year-old, Mayor Vitali Klitschko said. Fires damaged homes and a kindergarten, and the Northern Bridge over the Dnipro was closed in both directions after damage to its road surface and power lines. Klitschko called the capital's power situation extremely difficult, with heating and water supplies disrupted.",
+  "caption_es": "Rusia atacó Kiev con misiles balísticos durante la madrugada del sábado e hirió a cinco personas, entre ellas un menor de 14 años, según el alcalde Vitali Klitschko. Los incendios dañaron viviendas y un jardín infantil, y el Puente Norte sobre el Dniéper quedó cerrado en ambos sentidos por daños en la calzada y en líneas eléctricas. Klitschko calificó de extremadamente difícil la situación energética de la capital, con cortes en la calefacción y el suministro de agua.",
+  "summary_es": "El ataque dañó viviendas y un jardín infantil, cerró el Puente Norte y afectó la electricidad, la calefacción y el agua de la capital.",
+  "summary_en": "The strike damaged homes and a kindergarten, closed the Northern Bridge and disrupted power, heating and water in the capital.",
+  "highlight_es": "Puente Norte",
+  "highlight_en": "Northern Bridge",
+  "visual_label": "Kiev",
+  "image_prompt": "Long cable-stayed road bridge over a wide river at night under cloudy skies, bridge lights dark, broken overhead trolley wires and empty closed lanes, city skyline beyond with few lit windows, cinematic, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "label": "Kiev"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  },
+  "source_urls": [
+    "https://www.ukrinform.net/rubric-ato/4182323-injury-toll-in-russian-ballistic-attack-on-kyiv-rises-to-five.html",
+    "https://news.liga.net/en/war/news/russia-launched-ballistic-missile-strikes-on-kyiv-and-the-surrounding-region-the-northern-bridge-has-been-shut-down-and-the-power-grid-has-been-damaged-again",
+    "https://unn.ua/en/news/in-kyiv-following-the-russian-attack-electricity-water-and-heating-supplies-are-disrupted-and-the-northern-bridge-is-closed"
+  ],
+  "source_names": [
+    "Ukrinform",
+    "LIGA.net",
+    "UNN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Kiev",
+    "#Rusia"
+  ]
+}
