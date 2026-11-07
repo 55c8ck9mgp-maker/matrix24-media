@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261106-kenya-cult-leader-mackenzie-jailed-200-years",
+  "created_at": "2026-11-06T12:53:26Z",
+  "category": "World",
+  "headline": "Kenyan cult leader Paul Mackenzie sentenced to 200 years over Shakahola starvation deaths",
+  "headline_es": "Condenan a 200 años de prisión al líder de secta keniano Paul Mackenzie por las muertes de Shakahola",
+  "caption_es": "Un tribunal de Mombasa condenó el viernes a 200 años de prisión al autoproclamado pastor Paul Mackenzie, declarado culpable del asesinato de 190 niños y un adulto entre 2021 y 2023. Fue acusado de incitar a sus seguidores en el bosque de Shakahola, cerca de Malindi, en Kenia, a morir de hambre. La fiscalía había pedido la pena de muerte.",
+  "caption_en": "A court in Mombasa on Friday sentenced self-proclaimed pastor Paul Mackenzie to 200 years in prison after his conviction for murdering 190 children and one adult between 2021 and 2023. He was accused of urging followers in Kenya's Shakahola forest, near Malindi, to starve themselves to death. Prosecutors had sought the death penalty.",
+  "source_urls": [
+    "https://www.the-star.co.ke/news/2026-11-06-mackenzie-sentenced-to-200-years-in-prison-over-shakahola-killings",
+    "https://www.citizen.co.za/news/news-world/news-africa/kenyan-starvation-cult-leader-sentenced-200-years-child-murders/"
+  ],
+  "source_names": [
+    "The Star (Kenya)",
+    "The Citizen (AFP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Kenya",
+    "#Shakahola",
+    "#Africa"
+  ],
+  "summary_es": "Mackenzie fue declarado culpable de 191 asesinatos, entre ellos los de 190 niños, ocurridos en el bosque de Shakahola.",
+  "summary_en": "Mackenzie was convicted of 191 murders, including 190 children, in Kenya's Shakahola forest.",
+  "highlight_es": "200 años de prisión",
+  "highlight_en": "200 years",
+  "image_prompt": "Dense dry coastal scrub forest under an overcast sky, a dusty red dirt track leading into the trees, quiet and somber atmosphere, wide cinematic view, no people, no text, no logos, no flags",
+  "visual_label": "Shakahola",
+  "map": {
+    "focus": [
+      "Kenya"
+    ],
+    "marker": {
+      "lat": -4.0435,
+      "lon": 39.6682,
+      "label": "Mombasa"
+    },
+    "labels": {
+      "Kenya": "Kenia"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-07T10:45:30.560Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
