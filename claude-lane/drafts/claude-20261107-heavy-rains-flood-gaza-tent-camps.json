@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261107-heavy-rains-flood-gaza-tent-camps",
+ "status": "draft",
+ "created_at": "2026-11-07T12:50:39Z",
+ "category": "World",
+ "headline": "Heavy rains flood thousands of tents sheltering displaced Palestinians across Gaza",
+ "headline_es": "Fuertes lluvias inundan miles de carpas de palestinos desplazados en toda Gaza",
+ "caption_en": "Heavy overnight rain flooded thousands of tents housing displaced families across the Gaza Strip, including camps in Gaza City, Khan Younis, Deir el-Balah and al-Mawasi. Gaza's Civil Defence said some shelter centres were completely flooded. Aid groups say Israeli restrictions keep most shelter materials, such as tents and tent poles, from entering the territory as winter begins.",
+ "caption_es": "Fuertes lluvias durante la noche inundaron miles de carpas de familias desplazadas en toda la Franja de Gaza, incluidos campamentos en Ciudad de Gaza, Jan Yunis, Deir el-Balah y al-Mawasi. La Defensa Civil de Gaza dijo que algunos centros de refugio quedaron completamente inundados. Organizaciones humanitarias afirman que las restricciones israelíes impiden la entrada de la mayoría de materiales de refugio, como carpas y postes, al comenzar el invierno.",
+ "summary_es": "La OIM dice que unos 8.600 kits de refugio de emergencia esperan fuera de Gaza y son rechazados en los cruces.",
+ "summary_en": "The IOM says around 8,600 emergency shelter kits are waiting outside Gaza and being turned away at crossings.",
+ "highlight_es": "miles de carpas",
+ "highlight_en": "thousands of tents",
+ "visual_label": "Gaza",
+ "image_prompt": "Rows of white canvas tents standing in muddy floodwater on a sandy coastal plain under heavy grey rain clouds, puddles reflecting the sky, wide cinematic view, no people, no text, no logos, no flags",
+ "map": {
+  "focus": ["Palestine", "Israel"],
+  "marker": {"lat": 31.35, "lon": 34.27, "label": "Al-Mawasi"},
+  "labels": {"Palestine": "Palestina", "Israel": "Israel"}
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza",
+  "https://www.middleeasteye.net/live-blog/live-blog-update/rains-flood-gaza-displacement-camps-israeli-authorities-block-entry"
+ ],
+ "source_names": ["Al Jazeera", "Middle East Eye"],
+ "hashtags": ["#MATRIX24", "#Gaza", "#Palestina", "#CrisisHumanitaria"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

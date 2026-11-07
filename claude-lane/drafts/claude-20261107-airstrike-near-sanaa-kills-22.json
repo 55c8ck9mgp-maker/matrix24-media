@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261107-airstrike-near-sanaa-kills-22",
+ "status": "draft",
+ "created_at": "2026-11-07T12:50:39Z",
+ "category": "Security / Geopolitics",
+ "headline": "Airstrike near Yemen's capital Sanaa kills 22, mostly women and children, Houthis say",
+ "headline_es": "Ataque aéreo cerca de Saná, capital de Yemen, mata a 22, sobre todo mujeres y niños, según hutíes",
+ "caption_en": "An airstrike on the al-Shariya area near Sanaa killed 22 people and wounded 30 on Saturday, most of them women and children, according to Houthi health officials and Houthi-run media. The Houthis blamed Saudi Arabia, which had not commented. The figures could not be independently verified. The strike came a day after a deadly attack on a market in Taiz province.",
+ "caption_es": "Un ataque aéreo contra la zona de al-Shariya, cerca de Saná, mató el sábado a 22 personas e hirió a 30, en su mayoría mujeres y niños, según autoridades sanitarias y medios controlados por los hutíes. Los hutíes culparon a Arabia Saudita, que no había hecho comentarios. Las cifras no pudieron verificarse de forma independiente. El ataque ocurrió un día después de un ataque mortal contra un mercado en la provincia de Taiz.",
+ "summary_es": "Arabia Saudita no se ha pronunciado. Los hutíes, respaldados por Irán, hablan de una masacre de aviones saudíes.",
+ "summary_en": "Saudi Arabia has not commented. The Iran-backed Houthis blamed Saudi warplanes for the attack.",
+ "highlight_es": "mata a 22",
+ "highlight_en": "kills 22",
+ "visual_label": "Saná",
+ "image_prompt": "Distant mud-brick village in a dry mountain valley near a highland city at dusk, haze and a thin column of dust on the horizon, empty dirt road, somber mood, wide cinematic view, no people, no text, no flags",
+ "map": {
+  "focus": ["Yemen", "Saudi Arabia"],
+  "marker": {"lat": 15.37, "lon": 44.19, "label": "Saná"},
+  "labels": {"Yemen": "Yemen", "Saudi Arabia": "Arabia Saudita"}
+ },
+ "source_urls": [
+  "https://krmg.com/2026/11/07/an-airstrike-has-killed-22-people-near-yemens-capital-houthi-official-says/",
+  "https://www.timesofisrael.com/liveblog_entry/toll-of-saudi-strikes-on-houthi-held-sanaa-rises-to-22-iran-backed-rebels-media-reports/"
+ ],
+ "source_names": ["KRMG (AP)", "The Times of Israel (AFP)"],
+ "hashtags": ["#MATRIX24", "#Yemen", "#Sana", "#OrienteMedio"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

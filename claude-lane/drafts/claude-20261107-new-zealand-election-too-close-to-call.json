@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261107-new-zealand-election-too-close-to-call",
+ "status": "draft",
+ "created_at": "2026-11-07T12:50:39Z",
+ "category": "World",
+ "headline": "New Zealand election too close to call as special votes will decide next government",
+ "headline_es": "Elección en Nueva Zelanda, demasiado reñida: los votos especiales decidirán el próximo gobierno",
+ "caption_en": "New Zealand's general election ended without a clear winner on Saturday night, with Prime Minister Christopher Luxon calling the result too close to call. Luxon said National was again the largest party on the preliminary count, but neither major party appears able to govern alone. Special votes, including those cast overseas, are still to be counted and could shape the next Parliament.",
+ "caption_es": "Las elecciones generales de Nueva Zelanda terminaron el sábado por la noche sin un ganador claro, y el primer ministro Christopher Luxon dijo que el resultado es demasiado reñido para declararlo. Luxon afirmó que el Partido Nacional volvió a ser el más votado en el conteo preliminar, pero ninguno de los dos grandes partidos parece capaz de gobernar en solitario. Aún faltan por contar los votos especiales, incluidos los emitidos en el extranjero, que podrían definir el próximo Parlamento.",
+ "summary_es": "Luxon dijo que solo habrá negociaciones serias cuando estén los resultados finales; el recuento oficial empieza el 8 de noviembre.",
+ "summary_en": "Luxon said meaningful coalition talks can only begin once final results are in; the official count starts on November 8.",
+ "highlight_es": "demasiado reñida",
+ "highlight_en": "too close to call",
+ "visual_label": "Wellington",
+ "image_prompt": "Ballot box and stacked paper ballots on a wooden table in a quiet community hall at night, soft warm light, green hills visible through a window, wide cinematic view, no people, no text, no flags",
+ "map": {
+  "focus": ["New Zealand"],
+  "marker": {"lat": -41.29, "lon": 174.78, "label": "Wellington"},
+  "labels": {"New Zealand": "Nueva Zelanda"}
+ },
+ "source_urls": [
+  "https://www.abc.net.au/news/2026-11-07/nz-election-2026-live-blog/107355448",
+  "https://odt.co.nz/news/national/too-close-to-call-luxon-says-as-election-comes-down-to-special-votes-o59idyvp"
+ ],
+ "source_names": ["ABC News (Australia)", "Otago Daily Times (RNZ)"],
+ "hashtags": ["#MATRIX24", "#NewZealand", "#NuevaZelanda", "#Elecciones"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}
