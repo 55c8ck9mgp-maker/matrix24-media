@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T00:50:32Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-herzog-taps-eisenkot-to-form-israeli-government",
+  "category": "World",
+  "headline": "Herzog taps Eisenkot over Netanyahu to form Israel's next government",
+  "headline_es": "Herzog elige a Eisenkot por encima de Netanyahu para formar el próximo gobierno de Israel",
+  "caption_en": "Israeli President Isaac Herzog said on Saturday he will task Gadi Eisenkot, leader of the Yashar party and a former army chief, with forming a new government, after factions totalling 67 lawmakers backed him versus 46 for Prime Minister Benjamin Netanyahu. The October 27 election left neither bloc with the 61 seats needed for a majority. Eisenkot will have 28 days, with a possible 14-day extension, to build a coalition.",
+  "caption_es": "El presidente israelí, Isaac Herzog, anunció el sábado que encargará a Gadi Eisenkot, líder del partido Yashar y exjefe del ejército, la formación de un nuevo gobierno, después de que facciones que suman 67 diputados lo respaldaran frente a 46 para el primer ministro Benjamin Netanyahu. Las elecciones del 27 de octubre no dieron a ningún bloque los 61 escaños necesarios para la mayoría. Eisenkot tendrá 28 días, prorrogables 14 más, para armar una coalición.",
+  "summary_es": "Eisenkot recibió el apoyo de 67 diputados frente a 46 para Netanyahu y tendrá 28 días, prorrogables 14, para formar coalición.",
+  "summary_en": "Eisenkot was backed by 67 lawmakers versus 46 for Netanyahu and has 28 days, with a possible 14-day extension, to form a coalition.",
+  "highlight_es": "Eisenkot",
+  "highlight_en": "Eisenkot",
+  "visual_label": "Knéset",
+  "image_prompt": "Modern parliament building of pale stone on a hilltop at golden hour, empty plaza with olive trees in the foreground, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Israel"
+    ],
+    "marker": {
+      "lat": 31.777,
+      "lon": 35.205,
+      "label": "Jerusalén"
+    },
+    "labels": {
+      "Israel": "Israel"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government",
+    "https://abcnews.com/International/netanyahu-challenger-eisenkot-tasked-forming-new-government/story?id=137945429"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "ABC News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Israel",
+    "#Eisenkot",
+    "#Netanyahu"
+  ]
+}

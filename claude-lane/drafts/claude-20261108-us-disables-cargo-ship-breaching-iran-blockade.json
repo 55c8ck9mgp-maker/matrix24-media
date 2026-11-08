@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T00:50:32Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-us-disables-cargo-ship-breaching-iran-blockade",
+  "category": "Security / Geopolitics",
+  "headline": "US aircraft disables cargo ship trying to breach naval blockade of Iran in Gulf of Oman",
+  "headline_es": "Un avión de EE. UU. inutiliza un buque de carga que intentaba romper el bloqueo naval a Irán",
+  "caption_en": "A US military aircraft fired precision munitions at the stern of a St. Kitts-flagged commercial vessel in the Gulf of Oman on Saturday, disabling it, US Central Command said. CENTCOM said the ship had visited an Iranian port and its crew ignored repeated warnings while trying to violate the US naval blockade against Iran several times; the crew was told to abandon targeted spaces beforehand. No casualties were reported.",
+  "caption_es": "Un avión militar estadounidense disparó munición de precisión contra la popa de un buque comercial con bandera de San Cristóbal y Nieves en el golfo de Omán el sábado y lo dejó inutilizado, informó el Comando Central de EE. UU. Según el CENTCOM, el barco había visitado un puerto iraní y su tripulación ignoró advertencias reiteradas mientras intentaba varias veces violar el bloqueo naval estadounidense contra Irán; antes se ordenó a la tripulación abandonar las zonas atacadas. No se informó de víctimas.",
+  "summary_es": "El CENTCOM dice que el buque, con bandera de San Cristóbal y Nieves, salía de un puerto iraní e ignoró advertencias. No se reportaron víctimas.",
+  "summary_en": "CENTCOM says the St. Kitts-flagged ship had left an Iranian port and ignored warnings. No casualties were reported.",
+  "highlight_es": "bloqueo naval a Irán",
+  "highlight_en": "naval blockade of Iran",
+  "visual_label": "Golfo de Omán",
+  "image_prompt": "Large cargo ship drifting on a calm grey sea at dusk, thin smoke rising from its stern, a distant military aircraft silhouette high in a hazy sky, wide cinematic view, no people, no text, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Oman",
+      "Iran"
+    ],
+    "marker": {
+      "lat": 24.5,
+      "lon": 58.5,
+      "label": "Golfo de Omán"
+    },
+    "labels": {
+      "Oman": "Omán",
+      "Iran": "Irán"
+    }
+  },
+  "source_urls": [
+    "https://www.stripes.com/theaters/middle_east/2026-11-07/centcom-strikes-commercial-cargo-vessel-23394462.html",
+    "https://gcaptain.com/us-military-says-it-disabled-cargo-vessel-in-gulf-of-oman/"
+  ],
+  "source_names": [
+    "Stars and Stripes",
+    "Reuters (via gCaptain)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#EEUU",
+    "#GolfoDeOman"
+  ]
+}

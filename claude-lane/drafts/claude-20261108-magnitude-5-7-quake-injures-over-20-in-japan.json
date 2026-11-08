@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T00:50:32Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-magnitude-5-7-quake-injures-over-20-in-japan",
+  "category": "World",
+  "headline": "Magnitude 5.7 earthquake shakes central Japan, injuring more than 20",
+  "headline_es": "Un sismo de magnitud 5,7 sacude el centro de Japón y deja más de 20 heridos",
+  "caption_en": "An earthquake with a preliminary magnitude of 5.7, according to Japan's Meteorological Agency, struck central Japan early on Sunday local time near Shizuoka Prefecture at a depth of about 40 kilometres. More than 20 people were injured, many in falls, and Shinkansen bullet train services were disrupted.",
+  "caption_es": "Un terremoto de magnitud preliminar 5,7, según la Agencia Meteorológica de Japón, sacudió el centro del país en la madrugada del domingo, hora local, cerca de la prefectura de Shizuoka, a unos 40 kilómetros de profundidad. Más de 20 personas resultaron heridas, muchas por caídas, y el servicio de trenes bala Shinkansen se vio alterado.",
+  "summary_es": "El sismo ocurrió cerca de la prefectura de Shizuoka, a unos 40 km de profundidad. Hubo más de 20 heridos y afectó a los trenes bala.",
+  "summary_en": "The quake hit near Shizuoka Prefecture at about 40 km depth. More than 20 people were hurt and bullet trains were affected.",
+  "highlight_es": "magnitud 5,7",
+  "highlight_en": "Magnitude 5.7",
+  "visual_label": "Sismo 5,7",
+  "image_prompt": "Seismograph needle drawing sharp zigzag lines on paper in the foreground, a sleek bullet train paused on an elevated track beneath a night city skyline in the background, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Japan"
+    ],
+    "marker": {
+      "lat": 34.98,
+      "lon": 138.38,
+      "label": "Shizuoka"
+    },
+    "labels": {
+      "Japan": "Japón"
+    }
+  },
+  "source_urls": [
+    "https://www.koreatimes.co.kr/world/20261108/strong-earthquake-with-preliminary-magnitude-of-57-strikes-japan",
+    "https://tass.com/emergencies/2214371"
+  ],
+  "source_names": [
+    "Associated Press (via The Korea Times)",
+    "TASS"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Japon",
+    "#Sismo",
+    "#Earthquake"
+  ]
+}
