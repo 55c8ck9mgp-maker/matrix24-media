@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261107-alliana-sworn-in-as-pena-placed-under-arrest",
+  "created_at": "2026-11-07T06:52:35Z",
+  "category": "Colombia / Latin America",
+  "headline": "Paraguay swears in Pedro Alliana as president; ousted leader Peña placed under house arrest",
+  "headline_es": "Paraguay juramenta a Pedro Alliana como presidente; Peña, destituido, queda en arresto domiciliario",
+  "caption_es": "Pedro Alliana, de 52 años, juró el viernes como presidente de Paraguay después de que el Senado destituyera a Santiago Peña por el colapso del banco digital Ueno. Peña quedó ese mismo día en arresto domiciliario mientras la fiscalía define los cargos que enfrentará. La quiebra del banco congeló las cuentas de una gran parte de la población paraguaya.",
+  "caption_en": "Pedro Alliana, 52, was sworn in as Paraguay's president on Friday after the Senate removed Santiago Peña over the collapse of the digital lender Ueno. Peña was placed under house arrest the same day while prosecutors decide on the charges he will face. The bank's failure froze the accounts of a large share of Paraguay's population.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in",
+    "https://www.tbsnews.net/world/paraguay-swears-new-president-pena-placed-under-house-arrest-1595206"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Reuters (via The Business Standard)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Paraguay",
+    "#Alliana",
+    "#Ueno"
+  ],
+  "summary_es": "El Senado destituyó a Peña por la crisis del banco Ueno. La fiscalía aún define los cargos contra el exmandatario.",
+  "summary_en": "The Senate removed Peña over the Ueno bank crisis. Prosecutors are still deciding the charges against the former president.",
+  "highlight_es": "Pedro Alliana",
+  "highlight_en": "Pedro Alliana",
+  "image_prompt": "Elegant neoclassical presidential palace by a river at golden hour, palm trees and an empty ceremonial plaza, a closed bank branch with shuttered doors in the foreground street, cinematic, no people, no text, no flags, no logos",
+  "visual_label": "Asunción",
+  "map": {
+    "focus": [
+      "Paraguay"
+    ],
+    "marker": {
+      "lat": -25.2637,
+      "lon": -57.5759,
+      "label": "Asunción"
+    },
+    "labels": {
+      "Paraguay": "Paraguay"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-08T02:57:03.474Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
