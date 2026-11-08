@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T12:52:34Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-cop31-climate-summit-opens-in-antalya",
+  "category": "Climate",
+  "headline": "COP31 UN climate summit opens Monday in Antalya with a focus on implementation",
+  "headline_es": "La cumbre climática COP31 de la ONU abre el lunes en Antalya centrada en la implementación",
+  "caption_en": "The UN climate summit COP31 begins on Monday in Antalya, Turkey, which is chairing the talks. Turkey's presidency has framed the conference around turning existing climate pledges into action rather than new headline promises.",
+  "caption_es": "La cumbre climática de la ONU COP31 comienza el lunes en Antalya, Turquía, país que preside las negociaciones. La presidencia turca ha planteado la conferencia en torno a convertir en acciones los compromisos climáticos ya existentes, más que a nuevas grandes promesas.",
+  "summary_es": "Turquía preside las negociaciones y pide convertir en hechos los compromisos climáticos ya asumidos.",
+  "summary_en": "Turkey chairs the talks and wants existing climate pledges turned into action.",
+  "highlight_es": "COP31",
+  "highlight_en": "COP31",
+  "visual_label": "COP31",
+  "image_prompt": "Large modern conference centre on a Mediterranean coastline at golden hour, wind turbines and solar panels on nearby hills, calm turquoise sea, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Turkey"
+    ],
+    "marker": {
+      "lat": 36.9,
+      "lon": 30.7,
+      "label": "Antalya"
+    },
+    "labels": {
+      "Turkey": "Turquía"
+    }
+  },
+  "source_urls": [
+    "https://www.csmonitor.com/Environment/2026/1108/climate-change-cop31-turkey",
+    "https://english.aaj.tv/news/330479879/cop31-climate-summit-begins-in-antalya-on-monday"
+  ],
+  "source_names": [
+    "The Christian Science Monitor",
+    "Aaj News (Anadolu)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#COP31",
+    "#Clima",
+    "#Antalya"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T12:52:34Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-iran-says-three-tankers-ablaze-in-hormuz",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's Revolutionary Guard says three tankers exploded and caught fire in the Strait of Hormuz",
+  "headline_es": "La Guardia Revolucionaria de Irán dice que tres petroleros explotaron y ardieron en Ormuz",
+  "caption_en": "Iran's Revolutionary Guard said three oil tankers exploded and caught fire in the Strait of Hormuz early on Sunday while sailing a route Iran had not authorised. The Guard did not identify the vessels or their nationalities, and the claims could not be independently confirmed.",
+  "caption_es": "La Guardia Revolucionaria de Irán afirmó que tres petroleros explotaron y se incendiaron en el estrecho de Ormuz en la madrugada del domingo mientras navegaban por una ruta no autorizada por Irán. La Guardia no identificó los buques ni sus nacionalidades, y sus afirmaciones no pudieron confirmarse de forma independiente.",
+  "summary_es": "Según la Guardia, los buques usaban una ruta no autorizada por Irán. No se identificaron los barcos y las afirmaciones no han sido verificadas.",
+  "summary_en": "The Guard says the ships used a route Iran had not authorised. The vessels were not identified and the claims are unverified.",
+  "highlight_es": "tres petroleros",
+  "highlight_en": "three tankers",
+  "visual_label": "Ormuz",
+  "image_prompt": "Several oil tankers on a hazy sea strait, thick dark smoke rising from distant decks on the horizon, rugged coastline in the background, wide cinematic view, no people, no text, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Iran",
+      "Oman"
+    ],
+    "marker": {
+      "lat": 26.57,
+      "lon": 56.25,
+      "label": "Estrecho de Ormuz"
+    },
+    "labels": {
+      "Iran": "Irán",
+      "Oman": "Omán"
+    }
+  },
+  "source_urls": [
+    "https://gulfnews.com/world/mena/iran-says-3-tankers-caught-fire-in-hormuz-1.500740005",
+    "https://tass.com/world/2214457"
+  ],
+  "source_names": [
+    "Gulf News (AFP)",
+    "TASS"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#Ormuz",
+    "#Hormuz"
+  ]
+}

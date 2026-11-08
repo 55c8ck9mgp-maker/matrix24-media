@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T12:52:34Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-el-hierro-declares-migration-emergency",
+  "category": "World",
+  "headline": "Spain's El Hierro declares emergency as thousands of migrants arrive by boat",
+  "headline_es": "El Hierro declara la emergencia ante la llegada de miles de migrantes en cayucos",
+  "caption_en": "Authorities on El Hierro, in Spain's Canary Islands, have declared an emergency and asked for more staff and support after thousands of migrants arrived on dozens of boats in recent days. Canary Islands leader Fernando Clavijo called the situation absolutely unsustainable.",
+  "caption_es": "Las autoridades de El Hierro, en las islas Canarias, declararon la emergencia y pidieron más personal y apoyo tras la llegada de miles de migrantes en decenas de cayucos en los últimos días. El presidente canario, Fernando Clavijo, calificó la situación de absolutamente insostenible.",
+  "summary_es": "Miles de migrantes llegaron en cayucos en pocos días. Clavijo califica la situación de absolutamente insostenible.",
+  "summary_en": "Thousands of migrants arrived by boat in a matter of days. Regional leader Clavijo calls it absolutely unsustainable.",
+  "highlight_es": "emergencia",
+  "highlight_en": "declares emergency",
+  "visual_label": "El Hierro",
+  "image_prompt": "Small volcanic island harbour at sunrise, wooden fishing boats moored by a stone pier, rescue vessel in the distance on the Atlantic, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 27.64,
+      "lon": -17.98,
+      "label": "El Hierro"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/8/canary-islands-el-hierro-declares-emergency-amid-migrant-refugee-influx",
+    "https://www.elespanol.com/espana/20261107/emergencia-migratoria-hierro-oleada-cayucos-absolutamente-insostenible-va-empeorar/1003744449763_0.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "El Español"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ElHierro",
+    "#Canarias",
+    "#Migracion"
+  ]
+}

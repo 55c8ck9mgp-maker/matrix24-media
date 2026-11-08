@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T12:52:34Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-aramco-tower-in-riyadh-damaged-by-debris",
+  "category": "Security / Geopolitics",
+  "headline": "Aramco building in Riyadh damaged by debris as Saudi Arabia intercepts Houthi missiles",
+  "headline_es": "Un edificio de Aramco en Riad sufre daños por restos tras interceptar Arabia Saudí misiles hutíes",
+  "caption_en": "Saudi Arabia's Energy Ministry said an administrative building belonging to state oil company Aramco in Riyadh suffered limited damage from falling debris on Sunday after an attempted attack. The kingdom said it intercepted ballistic missiles fired by Yemen's Houthis. No injuries or deaths were reported.",
+  "caption_es": "El Ministerio de Energía de Arabia Saudí informó de que un edificio administrativo de la petrolera estatal Aramco en Riad sufrió daños limitados por la caída de restos el domingo tras un intento de ataque. El reino dijo haber interceptado misiles balísticos lanzados por los hutíes de Yemen. No se reportaron heridos ni muertos.",
+  "summary_es": "El Ministerio de Energía saudí habla de daños limitados tras interceptar misiles balísticos hutíes. No hubo heridos ni muertos.",
+  "summary_en": "The Saudi Energy Ministry reported limited damage after Houthi ballistic missiles were intercepted. No injuries or deaths.",
+  "highlight_es": "Aramco en Riad",
+  "highlight_en": "Aramco building in Riyadh",
+  "visual_label": "Riad",
+  "image_prompt": "Modern glass skyscrapers of a desert city skyline at dawn, faint trails of interceptions high in a pale sky, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 24.76,
+      "lon": 46.64,
+      "label": "Riad"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudí",
+      "Yemen": "Yemen"
+    }
+  },
+  "source_urls": [
+    "https://www.newarab.com/news/saudi-aramco-building-riyadh-struck-us-imposes-iran-blockade",
+    "https://www.ynetnews.com/article/byp263ppme"
+  ],
+  "source_names": [
+    "The New Arab",
+    "Ynetnews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudi",
+    "#Riad",
+    "#Yemen"
+  ]
+}
