@@ -1,0 +1,43 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T18:55:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-us-launches-task-force-on-iran-land-routes",
+  "category": "Security / Geopolitics",
+  "headline": "US launches task force to disrupt Iran's land and Caspian Sea supply routes",
+  "headline_es": "EE.UU. lanza una fuerza especial para cortar las rutas terrestres y del Caspio hacia Irán",
+  "caption_en": "US Central Command said it has created a Florida-based task force to stop advanced weapons, dual-use technology, sanctioned materials and illicit revenue from moving across Iran's land borders and the Caspian Sea. CENTCOM chief Admiral Brad Cooper said the effort builds on the US naval blockade of Iranian ports.",
+  "caption_es": "El Comando Central de EE.UU. anunció la creación de una fuerza especial con sede en Florida para frenar el paso de armas avanzadas, tecnología de doble uso, materiales sancionados e ingresos ilícitos a través de las fronteras terrestres de Irán y del mar Caspio. El jefe del CENTCOM, almirante Brad Cooper, dijo que el esfuerzo amplía el bloqueo naval estadounidense a los puertos iraníes.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes",
+    "https://english.aawsat.com/world/5338867-us-launches-task-force-disrupt-land-transit-routes-iran"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Asharq Al-Awsat"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Irán",
+    "#EEUU",
+    "#MarCaspio"
+  ],
+  "summary_es": "La nueva fuerza coordinará con otras agencias de EE.UU. para bloquear armas y materiales sancionados por tierra y por el Caspio.",
+  "summary_en": "The new task force will work with other US agencies to block weapons and sanctioned goods moving by land and across the Caspian.",
+  "highlight_es": "rutas terrestres",
+  "highlight_en": "land",
+  "visual_label": "Mar Caspio",
+  "image_prompt": "Long desert highway with cargo trucks at a remote border checkpoint, mountains and a distant inland sea under a hazy sky, wide cinematic view",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "labels": {
+      "Iran": "Irán"
+    }
+  }
+}

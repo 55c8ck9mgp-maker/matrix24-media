@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T18:55:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-russian-strikes-cut-power-to-850000-ukrainians",
+  "category": "Security / Geopolitics",
+  "headline": "Russian strikes on Ukraine energy sites leave about 850,000 people without power",
+  "headline_es": "Ataques rusos contra la red energética dejan sin luz a unas 850.000 personas en Ucrania",
+  "caption_en": "Overnight Russian attacks on energy infrastructure left about 850,000 people in Ukraine without electricity on Sunday, including more than 600,000 in the Dnipropetrovsk region and about 250,000 in the Kharkiv region. Energy company DTEK said repairs were under way. President Zelenskyy accused Moscow of stepping up attacks ahead of planned US-brokered talks with Russia in Abu Dhabi.",
+  "caption_es": "Ataques rusos nocturnos contra la infraestructura energética dejaron este domingo sin electricidad a unas 850.000 personas en Ucrania, entre ellas más de 600.000 en la región de Dnipropetrovsk y unas 250.000 en la de Járkiv. La empresa energética DTEK dijo que las reparaciones estaban en marcha. El presidente Zelenski acusó a Moscú de intensificar los ataques antes de las conversaciones previstas con Rusia en Abu Dabi, con mediación de EE.UU.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity",
+    "https://euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Euronews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Energía"
+  ],
+  "summary_es": "Más de 600.000 personas quedaron sin luz en Dnipropetrovsk y unas 250.000 en Járkiv tras ataques nocturnos contra la red.",
+  "summary_en": "More than 600,000 people lost power in Dnipropetrovsk and about 250,000 in Kharkiv after overnight strikes on the grid.",
+  "highlight_es": "sin luz",
+  "highlight_en": "without power",
+  "visual_label": "Dnipró",
+  "image_prompt": "Dark winter city skyline at night with most apartment windows unlit, high-voltage power lines and a damaged electrical substation in the foreground, cold blue tones, wide cinematic view",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 48.46,
+      "lon": 35.04,
+      "label": "Dnipró"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  }
+}

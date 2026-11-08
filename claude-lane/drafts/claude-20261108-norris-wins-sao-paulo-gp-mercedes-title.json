@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T18:55:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-norris-wins-sao-paulo-gp-mercedes-title",
+  "category": "Sports",
+  "headline": "Norris wins rainy São Paulo Grand Prix as Mercedes clinch constructors' title",
+  "headline_es": "Norris gana el GP de São Paulo bajo la lluvia y Mercedes se corona entre constructores",
+  "caption_en": "McLaren's Lando Norris won the Formula 1 São Paulo Grand Prix at a wet Interlagos on Sunday, ahead of Red Bull's Max Verstappen and Isack Hadjar. George Russell finished fourth and Kimi Antonelli fifth, enough for Mercedes to secure the 2026 constructors' championship.",
+  "caption_es": "Lando Norris, de McLaren, ganó este domingo el Gran Premio de São Paulo de Fórmula 1 en un Interlagos mojado, por delante de Max Verstappen e Isack Hadjar, de Red Bull. George Russell terminó cuarto y Kimi Antonelli quinto, lo que bastó para que Mercedes asegurara el campeonato de constructores de 2026.",
+  "source_urls": [
+    "https://www.planetf1.com/news/f1-results-sao-paulo-grand-prix-2026-race-brazil",
+    "https://racingnews365.com/2026-f1-sao-paulo-grand-prix-brazil-results"
+  ],
+  "source_names": [
+    "PlanetF1",
+    "RacingNews365"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#F1",
+    "#BrazilGP",
+    "#Interlagos"
+  ],
+  "summary_es": "Verstappen y Hadjar completaron el podio. Russell y Antonelli, cuarto y quinto, dieron a Mercedes el título de constructores.",
+  "summary_en": "Verstappen and Hadjar completed the podium. Russell and Antonelli, fourth and fifth, sealed the constructors' title for Mercedes.",
+  "highlight_es": "Norris",
+  "highlight_en": "Norris",
+  "visual_label": "Interlagos",
+  "image_prompt": "Generic open-wheel race car speeding on a wet racetrack, spray rising behind it, grandstands and dark rain clouds in the background, motion blur, wide cinematic view",
+  "map": {
+    "focus": [
+      "Brazil"
+    ],
+    "marker": {
+      "lat": -23.7,
+      "lon": -46.7,
+      "label": "São Paulo"
+    },
+    "labels": {
+      "Brazil": "Brasil"
+    }
+  }
+}

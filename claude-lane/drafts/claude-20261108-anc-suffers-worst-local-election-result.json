@@ -1,0 +1,43 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T18:55:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-anc-suffers-worst-local-election-result",
+  "category": "World",
+  "headline": "South Africa's ANC falls to about 30% in its worst local election result",
+  "headline_es": "El ANC de Sudáfrica cae a cerca del 30% en su peor resultado en elecciones locales",
+  "caption_en": "South Africa's governing ANC won about 30% of the vote in local elections with 99% of ballots counted, its worst local result. The opposition Democratic Alliance had about 25% and Jacob Zuma's MK party about 10%. ANC Secretary-General Fikile Mbalula called the outcome catastrophic for the party.",
+  "caption_es": "El gobernante ANC de Sudáfrica obtuvo cerca del 30% de los votos en las elecciones locales con el 99% escrutado, su peor resultado local. La opositora Alianza Democrática logró alrededor del 25% y el partido MK de Jacob Zuma cerca del 10%. El secretario general del ANC, Fikile Mbalula, calificó el resultado de catastrófico para el partido.",
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/south-africas-anc-humbled-worst-election-results-continues-137955443",
+    "https://www.aljazeera.com/news/2026/11/8/south-africas-anc-suffers-setback-in-local-elections"
+  ],
+  "source_names": [
+    "AP (via ABC News)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Sudáfrica",
+    "#SouthAfrica",
+    "#Elecciones"
+  ],
+  "summary_es": "La Alianza Democrática quedó segunda con cerca del 25% y el MK de Zuma tercero con alrededor del 10%.",
+  "summary_en": "The Democratic Alliance came second with about 25% and Zuma's MK party third with about 10%.",
+  "highlight_es": "peor resultado",
+  "highlight_en": "worst local election result",
+  "visual_label": "Elecciones",
+  "image_prompt": "Ballot box on a wooden table in a sunlit community hall, stacks of blank ballot papers, city skyline with modern towers visible through a window, warm light",
+  "map": {
+    "focus": [
+      "South Africa"
+    ],
+    "labels": {
+      "South Africa": "Sudáfrica"
+    }
+  }
+}

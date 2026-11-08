@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T18:55:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-egypt-train-collision-kills-seven",
+  "category": "World",
+  "headline": "Train collision south of Cairo kills seven and injures more than 100 in Egypt",
+  "headline_es": "Choque de trenes al sur de El Cairo deja siete muertos y más de 100 heridos en Egipto",
+  "caption_en": "A Giza-to-Fayoum train crashed into the rear of a Cairo-to-Aswan train in Giza province's El-Ayyat district on Sunday, killing at least seven people and injuring more than 100, Egyptian officials said. Several carriages derailed. President Abdel Fattah el-Sisi ordered a swift investigation.",
+  "caption_es": "Un tren que iba de Guiza a Fayum chocó este domingo contra la parte trasera de un tren de El Cairo a Asuán en el distrito de El-Ayyat, en la provincia de Guiza, y dejó al menos siete muertos y más de 100 heridos, según autoridades egipcias. Varios vagones descarrilaron. El presidente Abdelfatah al Sisi ordenó una investigación rápida.",
+  "source_urls": [
+    "https://wral.com/news/ap/4ad59-collision-between-2-trains-in-egypt-kills-4-and-injures-88",
+    "https://egyptianstreets.com/2026/11/08/el-ayyat-train-collision-kills-7-injures-112-in-giza"
+  ],
+  "source_names": [
+    "AP (via WRAL)",
+    "Egyptian Streets"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Egipto",
+    "#Egypt",
+    "#Tren"
+  ],
+  "summary_es": "El accidente ocurrió en El-Ayyat, en la provincia de Guiza. Varios vagones descarrilaron y la causa no se ha anunciado.",
+  "summary_en": "The crash happened in El-Ayyat, Giza province. Several carriages derailed and no cause has been announced.",
+  "highlight_es": "Choque de trenes",
+  "highlight_en": "Train collision",
+  "visual_label": "Guiza",
+  "image_prompt": "Empty railway tracks stretching through green farmland along a river valley at dusk, an old passenger train in the distance, overhead signals, wide cinematic view",
+  "map": {
+    "focus": [
+      "Egypt"
+    ],
+    "marker": {
+      "lat": 29.62,
+      "lon": 31.26,
+      "label": "El-Ayyat"
+    },
+    "labels": {
+      "Egypt": "Egipto"
+    }
+  }
+}
