@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-08T06:52:50Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261108-nigeria-wins-u17-womens-world-cup",
+  "category": "Sports",
+  "headline": "Nigeria beats Japan 2-1 to become first African champion of the U-17 Women's World Cup",
+  "headline_es": "Nigeria vence 2-1 a Japón y es el primer campeón africano del Mundial Femenino Sub-17",
+  "caption_en": "Nigeria's Flamingos beat Japan 2-1 in Saturday's final in Morocco to win the FIFA U-17 Women's World Cup, the first African nation to lift the trophy since the tournament began in 2008. Awawu Bashiru and Oluebube Umejiaku scored for Nigeria before Fuki Ito pulled one back for Japan. Nigeria won the title despite losing its opening group match to Poland.",
+  "caption_es": "Las Flamingos de Nigeria vencieron 2-1 a Japón en la final del sábado en Marruecos y ganaron el Mundial Femenino Sub-17 de la FIFA, el primer país africano en levantar el trofeo desde que el torneo comenzó en 2008. Awawu Bashiru y Oluebube Umejiaku marcaron para Nigeria antes de que Fuki Ito descontara para Japón. Nigeria ganó el título pese a perder su primer partido de grupo ante Polonia.",
+  "summary_es": "Goles de Awawu Bashiru y Oluebube Umejiaku; Fuki Ito descontó para Japón. Nigeria había perdido su debut ante Polonia.",
+  "summary_en": "Awawu Bashiru and Oluebube Umejiaku scored; Fuki Ito replied for Japan. Nigeria had lost its opener to Poland.",
+  "highlight_es": "primer campeón africano",
+  "highlight_en": "first African champion",
+  "visual_label": "Sub-17",
+  "image_prompt": "Golden trophy on a pedestal in an empty floodlit football stadium at night, green pitch, confetti drifting in the air, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Morocco"],
+    "labels": {"Morocco": "Marruecos"}
+  },
+  "source_urls": [
+    "https://www.graphic.com.gh/sports/sports-news/nigeria-crowned-fifa-u-17-womens-world-champions-after-victory-over-japan.html",
+    "https://von.gov.ng/flamingos-defeat-japan-claims-u-17-womens-world-cup-title/"
+  ],
+  "source_names": ["Graphic Online", "Voice of Nigeria"],
+  "hashtags": ["#MATRIX24", "#Nigeria", "#U17WWC", "#FutbolFemenino"]
+}
