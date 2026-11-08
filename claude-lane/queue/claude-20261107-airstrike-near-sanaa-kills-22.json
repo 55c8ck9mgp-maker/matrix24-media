@@ -42,10 +42,10 @@
       "Saudi Arabia": "Arabia Saudita"
     }
   },
-  "status": "publishing",
+  "status": "published",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261107-airstrike-near-sanaa-kills-22.jpg",
   "publish_attempt_id": "9c6c8b4d-1497-474b-9c99-78f609197363",
-  "ig_media_id": null,
+  "ig_media_id": "17909845866585517",
   "history": [
     {
       "at": "2026-11-08T10:49:32.969Z",
@@ -61,8 +61,15 @@
       "at": "2026-11-08T10:50:12.281Z",
       "event": "reserved",
       "publish_attempt_id": "9c6c8b4d-1497-474b-9c99-78f609197363"
+    },
+    {
+      "at": "2026-11-08T10:50:46.344Z",
+      "event": "published",
+      "publish_attempt_id": "9c6c8b4d-1497-474b-9c99-78f609197363",
+      "ig_media_id": "17909845866585517"
     }
   ],
   "ai_illustration": true,
-  "reserved_at": "2026-11-08T10:50:12.281Z"
+  "reserved_at": "2026-11-08T10:50:12.281Z",
+  "permalink": "https://www.instagram.com/p/DfelNXRkW8m/"
 }
