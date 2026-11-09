@@ -1,0 +1,40 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T18:51:52Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-france-blames-iran-for-fridge-cyberattacks",
+  "category": "Security / Geopolitics",
+  "headline": "France blames Iran's Revolutionary Guards for cyberattacks on supermarket fridges",
+  "headline_es": "Francia culpa a la Guardia Revolucionaria iraní de ciberataques a neveras de supermercados",
+  "caption_en": "France said on Monday that a cyber unit linked to Iran's Revolutionary Guards, known as Shahid Kaveh, was behind last month's sabotage of supermarket refrigeration systems, which caused fires and food losses. Foreign Minister Jean-Noël Barrot said Iran's ambassador was summoned and European sanctions would be sought. Paris prosecutors requested international arrest warrants for the unit's leader and two deputies.",
+  "caption_es": "Francia afirmó el lunes que una unidad cibernética vinculada a la Guardia Revolucionaria de Irán, conocida como Shahid Kaveh, estuvo detrás del sabotaje del mes pasado a sistemas de refrigeración de supermercados, que causó incendios y pérdidas de alimentos. El canciller Jean-Noël Barrot dijo que se convocó al embajador iraní y que se buscarán sanciones europeas. La fiscalía de París pidió órdenes de arresto internacionales contra el jefe de la unidad y dos adjuntos.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges",
+    "https://therecord.media/france-blames-iran-for-fridge-cyberattacks"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "The Record"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#France",
+    "#Iran",
+    "#Cybersecurity",
+    "#Ciberataque"
+  ],
+  "summary_es": "París atribuye a la unidad Shahid Kaveh el sabotaje que provocó incendios y pérdidas de alimentos. Convocó al embajador iraní y pedirá sanciones europeas.",
+  "summary_en": "Paris attributes the sabotage, which caused fires and food losses, to the Shahid Kaveh unit. It summoned Iran's envoy and will seek EU sanctions.",
+  "highlight_es": "Guardia Revolucionaria iraní",
+  "highlight_en": "Iran's Revolutionary Guards",
+  "visual_label": "Ciberataque",
+  "image_prompt": "Supermarket refrigerated display aisle with dark, switched-off cooling units, frost melting on glass doors, a glowing digital warning icon on a control panel, cool blue and red lighting, wide cinematic view",
+  "map": {
+    "focus": ["France", "Iran"],
+    "labels": {"France": "Francia", "Iran": "Irán"}
+  }
+}

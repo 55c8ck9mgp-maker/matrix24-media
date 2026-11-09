@@ -1,0 +1,41 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T18:51:52Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-blast-at-turkish-steel-plant-kills-workers",
+  "category": "World",
+  "headline": "Explosion at a steel plant in western Turkey kills at least 10 workers",
+  "headline_es": "Explosión en una acería del oeste de Turquía mata al menos a 10 trabajadores",
+  "caption_en": "An explosion at the HABAS iron and steel plant in Aliaga, north of Izmir, killed at least 10 workers on Monday and injured more than a dozen. Officials said an overhead crane fell into an arc furnace, triggering the blast, and rescuers searched for people trapped under a collapsed platform. Authorities have opened an investigation.",
+  "caption_es": "Una explosión en la planta siderúrgica de HABAS en Aliaga, al norte de Esmirna, mató el lunes al menos a 10 trabajadores e hirió a más de una docena. Las autoridades indicaron que una grúa puente cayó en un horno de arco y provocó el estallido, mientras los rescatistas buscaban a personas atrapadas bajo una plataforma derrumbada. Se abrió una investigación.",
+  "source_urls": [
+    "https://www.arabnews.com/middle-east/turkiye-steel-factory-blast-kills-16-probe-launched-3010793",
+    "https://www.turkishminute.com/2026/11/09/at-least-10-workers-killed-in-explosion-at-steel-plant-in-western-turkey/"
+  ],
+  "source_names": [
+    "Arab News (AFP)",
+    "Turkish Minute"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Turkey",
+    "#Izmir",
+    "#Aliaga",
+    "#Turquía"
+  ],
+  "summary_es": "Una grúa puente cayó en un horno de arco y provocó el estallido en Aliaga. Hay más de una docena de heridos y se abrió una investigación.",
+  "summary_en": "An overhead crane fell into an arc furnace, triggering the blast in Aliaga. More than a dozen were injured and a probe has been opened.",
+  "highlight_es": "acería",
+  "highlight_en": "steel plant",
+  "visual_label": "Aliaga",
+  "image_prompt": "Large industrial steel mill with tall chimneys and furnace halls by a coastal port at dusk, emergency vehicle lights flashing near the gate, a plume of grey smoke rising from one building, wide cinematic view",
+  "map": {
+    "focus": ["Turkey"],
+    "marker": {"lat": 38.80, "lon": 26.97, "label": "Aliağa"},
+    "labels": {"Turkey": "Turquía"}
+  }
+}
