@@ -1,0 +1,56 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261109-drone-strike-halts-iraq-khor-mor-gas-field",
+  "created_at": "2026-11-09T00:51:32Z",
+  "category": "Security / Geopolitics",
+  "headline": "Drone strike halts Iraq's Khor Mor gas field and cuts power across Kurdistan region",
+  "headline_es": "Ataque con dron paraliza el campo de gas Khor Mor y deja sin luz al Kurdistán iraquí",
+  "caption_es": "Un dron impactó el domingo el campo de gas Khor Mor, en la región del Kurdistán iraquí, provocó un incendio y detuvo la producción. El yacimiento abastece a las centrales eléctricas de la región, y las autoridades kurdas informaron de que quedaron fuera de servicio unos 2,8 gigavatios de capacidad, dejando sin electricidad a gran parte del territorio. Ningún grupo ha reivindicado el ataque.",
+  "caption_en": "A drone struck the Khor Mor gas field in Iraq's Kurdistan region on Sunday, sparking a fire and halting production. The field fuels regional power plants, and Kurdish officials said about 2.8 gigawatts of generating capacity went offline, leaving much of the region without electricity. No group has claimed responsibility.",
+  "source_urls": [
+    "https://www.newarab.com/news/production-suspended-iraqs-khor-mor-gas-field-after-drone-attack",
+    "https://aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq",
+    "https://gulfnews.com/world/mena/drone-strike-on-iraqs-khor-mor-gas-field-cuts-power-production-by-28-gw-ministry-1.500740627"
+  ],
+  "source_names": [
+    "The New Arab",
+    "Al Jazeera",
+    "Gulf News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iraq",
+    "#Kurdistan",
+    "#KhorMor",
+    "#Energy"
+  ],
+  "summary_es": "El dron causó un incendio y detuvo la producción. Se perdieron unos 2,8 GW de generación eléctrica y gran parte de la región quedó a oscuras.",
+  "summary_en": "The drone sparked a fire and halted production. About 2.8 GW of power generation went offline, blacking out much of the region.",
+  "highlight_es": "Khor Mor",
+  "highlight_en": "Khor Mor",
+  "image_prompt": "Gas processing plant with storage tanks and pipelines in a dry hilly landscape at dusk, a column of dark smoke rising in the distance, idle power lines in the foreground, wide cinematic view",
+  "visual_label": "Khor Mor",
+  "map": {
+    "focus": [
+      "Iraq"
+    ],
+    "marker": {
+      "lat": 35.08,
+      "lon": 44.62,
+      "label": "Khor Mor"
+    },
+    "labels": {
+      "Iraq": "Irak"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-09T23:53:57.338Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
