@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261108-iran-guard-lifts-missile-range-limit",
+  "created_at": "2026-11-08T06:52:50Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's Revolutionary Guard says its 2,000 km ballistic missile range limit has been lifted",
+  "headline_es": "La Guardia Revolucionaria de Irán dice que levantó su límite de 2.000 km al alcance de sus misiles",
+  "caption_es": "El portavoz de la Guardia Revolucionaria de Irán, el general Hossein Mohebbi, dijo el sábado en una rueda de prensa en Teherán que se levantó el límite autoimpuesto de 2.000 kilómetros al alcance de los misiles balísticos del país. No precisó si Irán tiene misiles que superen ese alcance; solo afirmó que Irán demostrará sus capacidades en la práctica. Las declaraciones siguen a una advertencia del líder supremo de que cualquier amenaza de EE. UU. o Israel recibiría una respuesta sin límites geográficos.",
+  "caption_en": "Iran's Revolutionary Guard spokesman, Gen. Hossein Mohebbi, told a news conference in Tehran on Saturday that the country's self-imposed 2,000-kilometre limit on ballistic missile range has been lifted. He did not say whether Iran has missiles that exceed that range, saying only that Iran would demonstrate its capabilities in practice. The remarks follow a warning from the supreme leader that any threat from the US or Israel would get a response without geographic limits.",
+  "source_urls": [
+    "https://www.timesofisrael.com/irgc-says-its-self-imposed-limit-on-ballistic-missile-range-has-been-lifted/",
+    "https://english.aawsat.com/world/5338697-iran-says-it-has-lifted-its-self-imposed-limit-missile-ranges"
+  ],
+  "source_names": [
+    "The Times of Israel",
+    "Asharq Al-Awsat"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#Misiles",
+    "#MedioOriente"
+  ],
+  "summary_es": "El portavoz Hossein Mohebbi no dijo si Irán tiene misiles de mayor alcance; afirmó que lo demostrará en la práctica.",
+  "summary_en": "Spokesman Hossein Mohebbi did not say whether Iran has longer-range missiles, only that it would show its capabilities in practice.",
+  "highlight_es": "límite de 2.000 km",
+  "highlight_en": "2,000 km ballistic missile range limit",
+  "image_prompt": "Empty desert missile test range at dawn, a launch rail silhouetted against an orange sky, long shadows across sand and rocky hills, wide cinematic view, no people, no text, no flags, no insignia",
+  "visual_label": "2.000 km",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "marker": {
+      "lat": 35.69,
+      "lon": 51.39,
+      "label": "Teherán"
+    },
+    "labels": {
+      "Iran": "Irán"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-09T03:18:36.178Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
