@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T07:05:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-nvidia-board-opens-probe-into-ceo-huang",
+  "category": "Technology",
+  "headline": "Nvidia board opens independent probe after CEO Jensen Huang admits affair",
+  "headline_es": "La junta de Nvidia abre una investigación tras admitir su CEO Jensen Huang una aventura",
+  "caption_en": "Nvidia's board said on Sunday that a committee of independent directors, assisted by outside counsel, will investigate CEO Jensen Huang after reports that he was the target of a foreign intelligence effort. Huang told staff he had been unfaithful to his wife. The board said it had no reason to believe national security or company secrets were compromised, and Huang remains CEO.",
+  "caption_es": "La junta de Nvidia anunció el domingo que un comité de consejeros independientes, con apoyo de abogados externos, investigará a su director ejecutivo, Jensen Huang, tras informes de que fue blanco de una operación de inteligencia extranjera. Huang dijo a sus empleados que fue infiel a su esposa. La junta afirmó no tener motivos para creer que se comprometieran la seguridad nacional ni secretos de la empresa, y Huang sigue al frente.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+    "https://www.abc.net.au/news/2026-11-09/nvidia-investigation-into-jensen-huang-chinese-spy-reports/107362376"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "ABC News (Australia)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Nvidia",
+    "#Tecnologia",
+    "#Technology"
+  ],
+  "summary_es": "Un comité de consejeros independientes revisará la información disponible. Republicanos de la Cámara de Representantes pidieron a Huang informar al Congreso este mes.",
+  "summary_en": "A committee of independent directors will review all available information. Senior House Republicans have asked Huang to brief Congress this month.",
+  "highlight_es": "investigación",
+  "highlight_en": "independent probe",
+  "visual_label": "Nvidia",
+  "image_prompt": "Modern glass corporate headquarters at night with a lit empty boardroom, rows of computer chips on a circuit board in the foreground, cool blue tones, wide cinematic view"
+}

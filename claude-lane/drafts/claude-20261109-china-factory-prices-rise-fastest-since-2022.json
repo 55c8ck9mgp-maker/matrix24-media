@@ -1,0 +1,43 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T07:05:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-china-factory-prices-rise-fastest-since-2022",
+  "category": "Economy",
+  "headline": "China's factory-gate prices rise 5.7% in October, fastest pace since 2022",
+  "headline_es": "Los precios industriales de China suben un 5,7% en octubre, el mayor ritmo desde 2022",
+  "caption_en": "China's producer price index rose 5.7% year on year in October, up from 5.0% in September and above forecasts, its fastest pace since June 2022, official data showed on Monday. Consumer prices rose 0.7%, slowing from 0.9% and slightly below expectations. Higher global oil prices linked to the Middle East conflict pushed up industrial costs.",
+  "caption_es": "El índice de precios al productor de China subió un 5,7% interanual en octubre, frente al 5,0% de septiembre y por encima de lo previsto, su mayor ritmo desde junio de 2022, según datos oficiales publicados el lunes. Los precios al consumidor subieron un 0,7%, por debajo del 0,9% previo y ligeramente bajo lo esperado. El alza del petróleo ligada al conflicto en Oriente Medio encareció los costos industriales.",
+  "source_urls": [
+    "https://www.brecorder.com/news/40448099/chinas-factory-gate-inflation-at-fastest-in-nearly-4-12-years-in-october-while-cpi-rise-moderates",
+    "https://www.investing.com/news/economic-indicators/china-cpi-inflation-misses-forecasts-in-oct-factorygate-prices-accelerate-5010405"
+  ],
+  "source_names": [
+    "Reuters (via Business Recorder)",
+    "Investing.com"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#China",
+    "#Economia",
+    "#Inflation"
+  ],
+  "summary_es": "Los precios al productor suben 5,7%, el mayor ritmo desde junio de 2022. El consumo sigue débil: la inflación al consumidor se modera al 0,7%.",
+  "summary_en": "Producer prices rose 5.7%, the fastest since June 2022, while weak demand kept consumer inflation at 0.7%.",
+  "highlight_es": "5,7%",
+  "highlight_en": "5.7%",
+  "visual_label": "IPP China",
+  "image_prompt": "Large industrial zone with steel mills and chemical plant chimneys under a hazy morning sky, oil storage tanks and cargo containers in the foreground, wide cinematic view",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "labels": {
+      "China": "China"
+    }
+  }
+}
