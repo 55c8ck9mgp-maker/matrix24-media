@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T13:05:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-migrant-boat-found-with-bodies-off-crete",
+  "category": "World",
+  "headline": "At least 12 migrants found dead on boat south of Crete; 18 rescued",
+  "headline_es": "Hallan al menos 12 migrantes muertos en un bote al sur de Creta; 18 rescatados",
+  "caption_en": "Greek authorities recovered at least 12 bodies from a migrant boat found early Monday south of the island of Crete. A passing cargo ship rescued 18 survivors and took them to Crete. Aircraft and drones of the EU border agency Frontex located other boats carrying dozens of people in the same area.",
+  "caption_es": "Las autoridades griegas recuperaron al menos 12 cuerpos de un bote de migrantes hallado la madrugada del lunes al sur de la isla de Creta. Un buque de carga que pasaba por la zona rescató a 18 sobrevivientes y los llevó a Creta. Aviones y drones de la agencia fronteriza europea Frontex localizaron otras embarcaciones con decenas de personas en la misma área.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/9/at-least-21-migrants-and-refugees-die-trying-to-reach-greeces-crete",
+    "https://abcnews.com/International/wireStory/greek-authorities-find-12-bodies-boat-carrying-migrants-137966627"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Associated Press (ABC News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Grecia",
+    "#Greece",
+    "#Crete",
+    "#Migration"
+  ],
+  "summary_es": "El bote apareció a unas 15 millas náuticas al sur de Creta. Un carguero rescató a 18 personas y Frontex localizó más embarcaciones.",
+  "summary_en": "The boat was found about 15 nautical miles south of Crete. A cargo ship rescued 18 people and Frontex spotted more boats.",
+  "highlight_es": "12 migrantes muertos",
+  "highlight_en": "12 migrants found dead",
+  "visual_label": "Creta",
+  "image_prompt": "Small empty wooden boat drifting on a grey choppy Mediterranean sea at dawn, a large cargo ship in the distance, rugged island coastline on the horizon, wide cinematic view, somber muted tones",
+  "map": {
+    "focus": [
+      "Greece"
+    ],
+    "marker": {
+      "lat": 34.75,
+      "lon": 24.9,
+      "label": "Sur de Creta"
+    },
+    "labels": {
+      "Greece": "Grecia"
+    }
+  }
+}

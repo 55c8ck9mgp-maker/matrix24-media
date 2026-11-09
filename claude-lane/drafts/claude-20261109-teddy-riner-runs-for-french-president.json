@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T13:05:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-teddy-riner-runs-for-french-president",
+  "category": "World",
+  "headline": "Judo champion Teddy Riner announces run for French president in 2027",
+  "headline_es": "El campeón de judo Teddy Riner anuncia su candidatura presidencial en Francia para 2027",
+  "caption_en": "French judo star Teddy Riner announced on Monday that he will run in France's 2027 presidential election, posting the news on social media and in an interview with Le Parisien. The multiple Olympic and 11-time world champion said he is neither on the right nor the left and wants to be a president who brings people together.",
+  "caption_es": "La estrella francesa del judo Teddy Riner anunció el lunes que se presentará a las elecciones presidenciales de Francia de 2027, a través de las redes sociales y en una entrevista con Le Parisien. El múltiple campeón olímpico y 11 veces campeón mundial afirmó que no es ni de derecha ni de izquierda y que quiere ser un presidente que una a los franceses.",
+  "source_urls": [
+    "https://www.yahoo.com/news/world/articles/judo-star-teddy-riner-announces-112642640.html",
+    "https://judoinside.com/news/8344/Teddy_Riner_announces_bid_for_French_presidency_in_2027"
+  ],
+  "source_names": [
+    "Associated Press",
+    "JudoInside"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Francia",
+    "#France",
+    "#TeddyRiner",
+    "#Judo"
+  ],
+  "summary_es": "El judoca, múltiple campeón olímpico y 11 veces campeón mundial, dice no ser ni de derecha ni de izquierda y busca unir al país.",
+  "summary_en": "The multiple Olympic and 11-time world judo champion says he is neither left nor right and wants to unite the country.",
+  "highlight_es": "Teddy Riner",
+  "highlight_en": "Teddy Riner",
+  "visual_label": "Elíseo 2027",
+  "image_prompt": "Empty judo tatami mat in a quiet arena with soft spotlight, a polished wooden podium with microphones placed at its edge, elegant Parisian palace facade softly visible through tall windows, wide cinematic view",
+  "map": {
+    "focus": [
+      "France"
+    ],
+    "marker": {
+      "lat": 48.87,
+      "lon": 2.32,
+      "label": "París"
+    },
+    "labels": {
+      "France": "Francia"
+    }
+  }
+}

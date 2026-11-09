@@ -1,0 +1,38 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T13:05:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-wmo-2026-among-four-hottest-years",
+  "category": "Climate",
+  "headline": "WMO: 2026 set to rank among the four hottest years on record",
+  "headline_es": "OMM: 2026 se perfila entre los cuatro años más cálidos registrados",
+  "caption_en": "The World Meteorological Organization said global temperatures from January to September 2026 averaged 1.47°C above pre-industrial levels, placing the year among the warmest on record. Its update, released as the COP31 climate summit opened in Turkey, warns that a strengthening El Niño is expected to push temperatures higher into early 2027.",
+  "caption_es": "La Organización Meteorológica Mundial informó que la temperatura global de enero a septiembre de 2026 fue en promedio 1,47 °C superior a los niveles preindustriales, lo que sitúa al año entre los más cálidos registrados. Su informe, publicado al inicio de la cumbre climática COP31 en Turquía, advierte que un El Niño en fortalecimiento elevará aún más las temperaturas hasta comienzos de 2027.",
+  "source_urls": [
+    "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+    "https://www.businesstoday.in/science/story/supercharging-our-weather-wmo-says-coming-months-will-see-exceptionally-high-temperatures-566497-2026-11-09",
+    "https://www.nationthailand.com/sustaination/40073291"
+  ],
+  "source_names": [
+    "World Meteorological Organization",
+    "Business Today",
+    "The Nation (Thailand)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Clima",
+    "#Climate",
+    "#COP31",
+    "#ElNiño"
+  ],
+  "summary_es": "De enero a septiembre, la temperatura global estuvo 1,47 °C por encima de la era preindustrial. Un El Niño en aumento mantendrá el calor hasta 2027.",
+  "summary_en": "January–September temperatures ran 1.47°C above pre-industrial levels. A strengthening El Niño is expected to keep pushing heat into 2027.",
+  "highlight_es": "cuatro años más cálidos",
+  "highlight_en": "four hottest years",
+  "visual_label": "1,47 °C",
+  "image_prompt": "Cracked dry earth under a blazing hazy sun, a thermometer-like heat shimmer over a distant city skyline and calm warm ocean on the horizon, wide cinematic view, warm orange tones"
+}

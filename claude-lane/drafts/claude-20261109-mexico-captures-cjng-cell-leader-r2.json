@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T13:05:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-mexico-captures-cjng-cell-leader-r2",
+  "category": "Colombia / Latin America",
+  "headline": "Mexico captures alleged CJNG cell leader 'R2' with DEA intelligence help",
+  "headline_es": "México captura a 'R2', presunto líder de una célula del CJNG, con ayuda de la DEA",
+  "caption_en": "Mexico's Navy arrested an alleged leader of the 'Los Rs' cell of the Jalisco New Generation Cartel, known as 'R2', in Zapopan, Jalisco, in an operation aided by US DEA intelligence. He was wounded in an exchange of fire and 19 other people were detained. He faces a Mexican homicide warrant and a US extradition request, and authorities link him to the killing of Uruapan mayor Carlos Manzo.",
+  "caption_es": "La Marina de México detuvo en Zapopan, Jalisco, a un presunto líder de la célula 'Los Rs' del Cártel Jalisco Nueva Generación, conocido como 'R2', en un operativo apoyado por inteligencia de la DEA estadounidense. Resultó herido en un intercambio de disparos y otras 19 personas fueron detenidas. Tiene una orden de captura en México por homicidio y una solicitud de extradición de EE. UU., y las autoridades lo vinculan con el asesinato del alcalde de Uruapan Carlos Manzo.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/9/mexico-arrests-major-leader-of-jalisco-cartel",
+    "https://www.dailymaverick.co.za/article/2026-11-09-mexico-captures-alleged-cartel-cell-leader-in-operation-aided-by-dea-intelligence/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Reuters (Daily Maverick)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#México",
+    "#Mexico",
+    "#CJNG",
+    "#Seguridad"
+  ],
+  "summary_es": "La Marina lo detuvo en Zapopan junto a otras 19 personas. Enfrenta una orden por homicidio y un pedido de extradición a EE. UU.",
+  "summary_en": "The Navy detained him in Zapopan along with 19 others. He faces a homicide warrant and a US extradition request.",
+  "highlight_es": "CJNG",
+  "highlight_en": "CJNG",
+  "visual_label": "Zapopan",
+  "image_prompt": "Grey navy patrol pickup trucks parked on a quiet city street at night under orange streetlights, blurred emergency lights reflecting on wet pavement, modern buildings in the background, no people, wide cinematic view",
+  "map": {
+    "focus": [
+      "Mexico"
+    ],
+    "marker": {
+      "lat": 20.72,
+      "lon": -103.39,
+      "label": "Zapopan"
+    },
+    "labels": {
+      "Mexico": "México"
+    }
+  }
+}
