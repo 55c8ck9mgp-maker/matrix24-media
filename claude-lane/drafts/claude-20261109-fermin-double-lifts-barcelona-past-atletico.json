@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-09T00:51:32Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261109-fermin-double-lifts-barcelona-past-atletico",
+  "category": "Sports",
+  "headline": "Fermín López double lifts Barcelona past Atlético Madrid to stay top of LaLiga",
+  "headline_es": "Doblete de Fermín López da al Barcelona la victoria ante el Atlético y el liderato",
+  "caption_en": "Barcelona came from behind to beat Atlético Madrid 2-1 at the Metropolitano on Sunday. Giuliano Simeone gave Atlético an early lead before Fermín López equalised just before half-time and scored the winner from a Lamine Yamal pass. Barcelona stay top of LaLiga, three points ahead of Real Madrid and five clear of Atlético.",
+  "caption_es": "El Barcelona remontó y venció 2-1 al Atlético de Madrid este domingo en el Metropolitano. Giuliano Simeone adelantó pronto al Atlético, pero Fermín López empató justo antes del descanso y marcó el gol de la victoria tras un pase de Lamine Yamal. El Barcelona sigue líder de LaLiga, tres puntos por delante del Real Madrid y cinco sobre el Atlético.",
+  "source_urls": [
+    "https://www.aljazeera.com/sports/2026/11/8/lopez-double-fires-barcelona-to-win-at-atletico-madrid",
+    "https://www.espn.com/soccer/story/_/id/50426411/barca-pass-their-biggest-test-yet-fermin-lopez-sinks-atletico-madrid"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "ESPN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#LaLiga",
+    "#Barcelona",
+    "#AtletiMadrid"
+  ],
+  "summary_es": "Simeone adelantó al Atlético, pero Fermín empató antes del descanso y sentenció con asistencia de Lamine Yamal.",
+  "summary_en": "Simeone put Atlético ahead, but Fermín levelled before half-time and won it with an assist from Lamine Yamal.",
+  "highlight_es": "Fermín López",
+  "highlight_en": "Fermín López",
+  "visual_label": "LaLiga",
+  "image_prompt": "Football resting on the grass of a floodlit stadium pitch at night, empty goal net in the background, wide cinematic view",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 40.44,
+      "lon": -3.6,
+      "label": "Madrid"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  }
+}
