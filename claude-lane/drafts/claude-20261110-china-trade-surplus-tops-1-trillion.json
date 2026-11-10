@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-10T12:52:25Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261110-china-trade-surplus-tops-1-trillion",
+  "category": "Economy",
+  "headline": "China's trade surplus tops $1 trillion for a second straight year as exports jump 35%",
+  "headline_es": "El superávit comercial de China supera el billón de dólares por segundo año seguido",
+  "caption_en": "China's exports rose 35.2% year on year in October and imports climbed 41.6%, customs data showed on Tuesday, leaving a monthly surplus of about $105 billion. The surplus for January to October reached $1.04 trillion, on track to beat last year's record of $1.2 trillion. Demand for AI-related products such as chips and servers drove exports, while shipments to the US rose 32.9%.",
+  "caption_es": "Las exportaciones de China crecieron un 35,2% interanual en octubre y las importaciones un 41,6%, según datos de aduanas publicados el martes, con un superávit mensual de unos 105.000 millones de dólares. El superávit de enero a octubre alcanzó 1,04 billones de dólares, en camino de superar el récord de 1,2 billones del año pasado. La demanda de productos ligados a la IA, como chips y servidores, impulsó las exportaciones; las ventas a EE. UU. subieron un 32,9%.",
+  "source_urls": [
+    "https://www.wsls.com/news/2026/11/10/chinas-trade-surplus-surpasses-1-trillion-for-a-2nd-straight-year-as-exports-surge-35/",
+    "https://finance.yahoo.com/economy/policy/articles/chinas-trade-surplus-surpasses-1-042931697.html"
+  ],
+  "source_names": [
+    "Associated Press (via WSLS)",
+    "Euronews (via Yahoo Finance)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#China",
+    "#Economía",
+    "#Comercio",
+    "#Exports"
+  ],
+  "summary_es": "Exportaciones +35,2% e importaciones +41,6% en octubre. El superávit acumulado del año llega a 1,04 billones de dólares.",
+  "summary_en": "October exports rose 35.2% and imports 41.6%. The year-to-date surplus reached $1.04 trillion, led by AI-related goods.",
+  "highlight_es": "billón de dólares",
+  "highlight_en": "$1 trillion",
+  "visual_label": "Exportaciones",
+  "image_prompt": "Vast container port at sunrise with stacked shipping containers, giant cranes loading a cargo ship, circuit board patterns subtly glowing on container sides, wide cinematic aerial view",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "labels": {
+      "China": "China"
+    }
+  }
+}
