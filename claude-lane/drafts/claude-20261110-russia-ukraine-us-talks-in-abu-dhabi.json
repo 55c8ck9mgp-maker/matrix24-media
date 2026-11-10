@@ -1,0 +1,22 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261110-russia-ukraine-us-talks-in-abu-dhabi",
+  "status": "draft",
+  "created_at": "2026-11-10T06:51:57Z",
+  "category": "Security / Geopolitics",
+  "headline": "Russia, Ukraine and US negotiators meet in Abu Dhabi for first talks since February",
+  "headline_es": "Rusia, Ucrania y EE. UU. negocian en Abu Dabi por primera vez desde febrero",
+  "caption_en": "Russian, Ukrainian and US negotiators are meeting in Abu Dhabi on Tuesday in the first round of talks since February on ending the war. Kremlin aide Vladimir Medinsky leads Moscow's delegation, Rustem Umerov leads Ukraine's, and US envoys Steve Witkoff and Jared Kushner are mediating. Security guarantees and territory, including Russia's demand over Donetsk, are among the key issues.",
+  "caption_es": "Negociadores de Rusia, Ucrania y Estados Unidos se reúnen este martes en Abu Dabi, en la primera ronda de conversaciones desde febrero para poner fin a la guerra. El asesor del Kremlin Vladímir Medinski encabeza la delegación rusa, Rustem Umérov la ucraniana, y los enviados estadounidenses Steve Witkoff y Jared Kushner actúan como mediadores. Las garantías de seguridad y el territorio, incluida la exigencia rusa sobre Donetsk, figuran entre los temas clave.",
+  "summary_es": "Primera ronda trilateral desde febrero para buscar el fin de la guerra. Las garantías de seguridad y el territorio encabezan la agenda.",
+  "summary_en": "First trilateral round since February aimed at ending the war, with security guarantees and territory at the top of the agenda.",
+  "highlight_es": "Abu Dabi",
+  "highlight_en": "Abu Dhabi",
+  "visual_label": "Abu Dabi",
+  "image_prompt": "Empty modern conference room with a long polished table, three sets of chairs and water glasses, floor-to-ceiling windows overlooking a desert city skyline at dawn, calm diplomatic atmosphere, wide cinematic view",
+  "map": {"focus": ["United Arab Emirates"], "marker": {"lat": 24.4539, "lon": 54.3773, "label": "Abu Dabi"}, "labels": {"United Arab Emirates": "Emiratos Árabes Unidos"}},
+  "source_urls": ["https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes", "https://abcnews.com/International/wireStory/us-led-peace-talks-russia-ukraine-security-guarantees-137966016", "https://kuwaittimes.com/article/53348/world/us-mediated-russia-ukraine-talks-open-in-abu-dhabi/"],
+  "source_names": ["Al Jazeera", "ABC News / AP", "Kuwait Times / AFP"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Ukraine", "#Rusia", "#AbuDhabi"],
+  "image_url": null, "publish_attempt_id": null, "ig_media_id": null, "history": []
+}

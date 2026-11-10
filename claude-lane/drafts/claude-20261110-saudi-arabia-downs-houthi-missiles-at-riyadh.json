@@ -1,0 +1,22 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261110-saudi-arabia-downs-houthi-missiles-at-riyadh",
+  "status": "draft",
+  "created_at": "2026-11-10T06:51:57Z",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi-led coalition says it shot down three Houthi missiles aimed at Riyadh and the south",
+  "headline_es": "La coalición saudí derriba tres misiles hutíes lanzados contra Riad y el sur",
+  "caption_en": "The Saudi-led coalition said on Tuesday its air defences destroyed a ballistic missile and a cruise missile fired at Riyadh, and a second ballistic missile aimed at southern Saudi Arabia. It blamed Yemen's Houthis. No casualties were reported. The attack follows a Houthi strike claimed on Riyadh on Sunday, when debris caused minor damage to the Aramco Tower.",
+  "caption_es": "La coalición liderada por Arabia Saudí informó el martes que sus defensas aéreas destruyeron un misil balístico y uno de crucero lanzados contra Riad, y un segundo misil balístico dirigido al sur del país. Responsabilizó a los hutíes de Yemen. No se reportaron víctimas. El ataque sigue al reivindicado por los hutíes el domingo contra Riad, cuando restos de la intercepción causaron daños menores en la torre de Aramco.",
+  "summary_es": "Las defensas aéreas interceptaron un misil balístico y uno de crucero sobre Riad, y otro balístico sobre el sur del reino. No hubo víctimas.",
+  "summary_en": "Air defences intercepted a ballistic and a cruise missile over Riyadh and another ballistic missile over the south. No casualties were reported.",
+  "highlight_es": "tres misiles hutíes",
+  "highlight_en": "three Houthi missiles",
+  "visual_label": "Riad",
+  "image_prompt": "Night skyline of a modern desert capital with tall towers, faint streaks of air-defence interceptor trails high in a dark sky, no damage visible, wide cinematic view",
+  "map": {"focus": ["Saudi Arabia", "Yemen"], "marker": {"lat": 24.7136, "lon": 46.6753, "label": "Riad"}, "labels": {"Saudi Arabia": "Arabia Saudí", "Yemen": "Yemen"}},
+  "source_urls": ["https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline", "https://ca.news.yahoo.com/saudi-led-coalition-says-intercepts-015649777.html"],
+  "source_names": ["Al Jazeera / AFP", "Reuters (via Yahoo News)"],
+  "hashtags": ["#MATRIX24", "#ArabiaSaudi", "#SaudiArabia", "#Yemen", "#Riad"],
+  "image_url": null, "publish_attempt_id": null, "ig_media_id": null, "history": []
+}

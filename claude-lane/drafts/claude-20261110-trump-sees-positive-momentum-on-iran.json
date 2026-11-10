@@ -1,0 +1,46 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261110-trump-sees-positive-momentum-on-iran",
+  "status": "draft",
+  "created_at": "2026-11-10T06:51:57Z",
+  "category": "World",
+  "headline": "Trump cites 'positive momentum' on ending Iran war after talks with Qatar's prime minister",
+  "headline_es": "Trump ve 'impulso positivo' para acabar la guerra con Irán tras reunirse con Catar",
+  "caption_en": "US President Donald Trump said there was positive momentum toward ending the conflict with Iran after meeting Qatari Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani at the White House on Monday. Trump called renewed US strikes on Iran quite unlikely but said the US remains 'locked and loaded'. Qatar is a key mediator in the conflict.",
+  "caption_es": "El presidente de EE. UU., Donald Trump, afirmó que hay un impulso positivo hacia el fin del conflicto con Irán tras reunirse el lunes en la Casa Blanca con el primer ministro catarí, el jeque Mohammed bin Abdulrahman Al Thani. Trump calificó de bastante improbables nuevos ataques estadounidenses contra Irán, aunque dijo que EE. UU. sigue preparado para actuar. Catar es un mediador clave en el conflicto.",
+  "summary_es": "Tras reunirse con el primer ministro de Catar, Trump calificó de bastante improbables nuevos ataques contra Irán.",
+  "summary_en": "After meeting Qatar's prime minister, Trump called renewed US strikes on Iran quite unlikely, while saying the US stays ready.",
+  "highlight_es": "impulso positivo",
+  "highlight_en": "positive momentum",
+  "visual_label": "Diplomacia",
+  "image_prompt": "Classical white government building with columns at dusk, two empty armchairs and a small table visible through a lit window, calm diplomatic mood, wide cinematic view",
+  "map": {
+    "focus": [
+      "Iran",
+      "Qatar"
+    ],
+    "labels": {
+      "Iran": "Irán",
+      "Qatar": "Catar"
+    }
+  },
+  "source_urls": [
+    "https://sg.news.yahoo.com/trump-sees-positive-momentum-iran-235359540.html",
+    "https://thenationalnews.com/news/us/2026/11/09/trump-meets-qatari-pm-and-calls-renewed-military-action-on-iran-quite-unlikely"
+  ],
+  "source_names": [
+    "AFP (via Yahoo News)",
+    "The National"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Iran",
+    "#Qatar",
+    "#Trump",
+    "#Diplomacia"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
