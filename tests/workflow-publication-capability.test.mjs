@@ -86,3 +86,23 @@ test('Claude Lane discard is manual, owner-only and never publishes', () => {
   const src = fs.readFileSync('scripts/claude-lane/discard.mjs', 'utf8') + fs.readFileSync('scripts/claude-lane/run-discard.mjs', 'utf8');
   assert.doesNotMatch(src, /publishContainer|createContainer|media_publish/);
 });
+
+// GitHub rejects keys other than name/uses/with/secrets/needs/if/permissions/
+// strategy/concurrency on a job that calls a reusable workflow. An invalid key
+// (e.g. continue-on-error, PR #240) invalidates the whole file and silently
+// stops its schedule (watchdog 2026-11-10).
+test('jobs that call a reusable workflow use only keys GitHub allows', () => {
+  const allowed = new Set(['name', 'uses', 'with', 'secrets', 'needs', 'if', 'permissions', 'strategy', 'concurrency']);
+  for (const file of files) {
+    const source = fs.readFileSync(path.join(dir, file), 'utf8');
+    const jobsAt = source.search(/^jobs:\s*$/m);
+    if (jobsAt < 0) continue;
+    const blocks = source.slice(jobsAt).split(/\n(?=  [A-Za-z0-9_-]+:\s*$)/m).slice(1);
+    for (const block of blocks) {
+      if (!/^    uses:\s/m.test(block)) continue;
+      const keys = [...block.matchAll(/^    ([A-Za-z0-9_-]+):/gm)].map(m => m[1]);
+      const bad = keys.filter(k => !allowed.has(k));
+      assert.deepEqual(bad, [], `${file}: reusable-workflow job has unsupported keys ${bad.join(', ')}`);
+    }
+  }
+});
