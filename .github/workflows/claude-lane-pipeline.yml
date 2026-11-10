@@ -111,8 +111,12 @@ jobs:
       needs.pipeline.result == 'success' &&
       needs.pipeline.outputs.ig_media_id != '' &&
       needs.pipeline.outputs.ig_media_id != 'dry_run'
+    # No continue-on-error here: GitHub rejects it on a job that calls a
+    # reusable workflow, which invalidated this whole file and stopped every
+    # scheduled carousel run (watchdog 2026-11-10). The carousel is already
+    # committed by the pipeline job before this job starts, so a Reel failure
+    # only marks the run red; it cannot undo or block the carousel.
     uses: ./.github/workflows/claude-lane-reels.yml
-    continue-on-error: true
     with:
       content_id:     ${{ needs.pipeline.outputs.content_id }}
       card_image_url: ${{ needs.pipeline.outputs.card_image_url }}

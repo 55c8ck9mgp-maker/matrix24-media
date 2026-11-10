@@ -7,8 +7,10 @@
 # - Does nothing unless CLAUDE_LANE_ENABLED == 'true' (kill switch).
 # - Only reads/writes claude-lane/media/reels/ in the repository.
 # - Never modifies queue/ records.
-# - Reel failure must never block the already-published carousel:
-#   the caller sets continue-on-error: true on this job.
+# - Reel failure must never block the already-published carousel: this job
+#   runs only after the caller's pipeline job has committed the carousel, so a
+#   failure here just marks the run red. (continue-on-error is not allowed on
+#   a job that calls a reusable workflow; it invalidates the caller file.)
 name: Claude Lane Reels Publisher
 
 on:
