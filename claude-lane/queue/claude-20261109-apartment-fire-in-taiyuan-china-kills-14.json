@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261109-apartment-fire-in-taiyuan-china-kills-14",
+  "created_at": "2026-11-09T07:05:00Z",
+  "category": "World",
+  "headline": "Fire in an apartment building in northern China's Taiyuan kills 14",
+  "headline_es": "Incendio en un edificio de viviendas en Taiyuan, norte de China, deja 14 muertos",
+  "caption_es": "Un incendio ocurrido el domingo en un edificio de viviendas de Taiyuan, capital de la provincia de Shanxi, en el norte de China, causó la muerte de 14 personas, informó el lunes la agencia estatal Xinhua. Las autoridades no han anunciado la causa.",
+  "caption_en": "A fire on Sunday in an apartment building in Taiyuan, the capital of northern China's Shanxi province, has killed 14 people, state news agency Xinhua reported on Monday. Authorities have not announced a cause.",
+  "source_urls": [
+    "https://www.koreatimes.co.kr/world/20261109/fire-in-china-apartment-building-kills-14-state-media",
+    "https://theprint.in/world/apartment-building-fire-in-northern-china-kills-14/3093847/"
+  ],
+  "source_names": [
+    "AFP (via The Korea Times)",
+    "Reuters (via ThePrint)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#China",
+    "#Taiyuan",
+    "#Incendio"
+  ],
+  "summary_es": "El fuego se declaró el domingo en un edificio residencial de la capital de Shanxi. Xinhua informó el lunes de 14 muertos.",
+  "summary_en": "The blaze broke out on Sunday in a residential building in the Shanxi capital. Xinhua reported 14 deaths on Monday.",
+  "highlight_es": "14 muertos",
+  "highlight_en": "kills 14",
+  "image_prompt": "Tall residential apartment tower at dusk with a dark scorched upper facade, fire trucks with ladders parked at the base, light haze in the air, no people, wide cinematic view",
+  "visual_label": "Taiyuan",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "marker": {
+      "lat": 37.87,
+      "lon": 112.55,
+      "label": "Taiyuan"
+    },
+    "labels": {
+      "China": "China"
+    }
+  },
+  "status": "draft",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-10T05:00:35.029Z",
+      "event": "adopted_from_drafts_branch"
+    }
+  ]
+}
