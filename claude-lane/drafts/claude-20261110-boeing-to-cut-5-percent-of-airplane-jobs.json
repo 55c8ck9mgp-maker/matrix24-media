@@ -1,0 +1,43 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-10T00:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261110-boeing-to-cut-5-percent-of-airplane-jobs",
+  "category": "Economy",
+  "headline": "Boeing to cut about 5% of its commercial airplane workforce as production ramp slows",
+  "headline_es": "Boeing recortará cerca del 5% de su plantilla de aviones comerciales por un ritmo más lento",
+  "caption_en": "Boeing said on Monday it will cut about 5% of the workforce in its commercial airplanes division through a mix of attrition and layoffs, with notices starting in December. Division chief Stephanie Pope told employees that slowing production plans had left the unit overstaffed. Boeing has pushed back targets to raise 737 MAX output.",
+  "caption_es": "Boeing anunció el lunes que recortará cerca del 5% de la plantilla de su división de aviones comerciales mediante bajas voluntarias y despidos, con avisos a partir de diciembre. La jefa de la división, Stephanie Pope, dijo a los empleados que la reducción de los planes de producción dejó a la unidad con exceso de personal. Boeing ha aplazado sus objetivos para aumentar la producción del 737 MAX.",
+  "source_urls": [
+    "https://www.bnnbloomberg.ca/business/company-news/2026/11/09/boeing-to-cut-5-of-commercial-plane-staff-on-slower-ramp-up-plans/",
+    "https://www.aerotime.aero/articles/boeing-commercial-airplanes-workforce-cuts-737-production"
+  ],
+  "source_names": [
+    "AFP via BNN Bloomberg",
+    "AeroTime"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Boeing",
+    "#Economia",
+    "#Aviation"
+  ],
+  "summary_es": "Los despidos comenzarán a notificarse en diciembre. Boeing aplazó sus metas de producción del 737 MAX.",
+  "summary_en": "Layoff notices will start in December. Boeing has delayed its 737 MAX production goals.",
+  "highlight_es": "5% de su plantilla",
+  "highlight_en": "cut about 5%",
+  "visual_label": "737 MAX",
+  "image_prompt": "Unpainted narrow-body jetliner fuselages lined up inside a vast aircraft assembly hall, empty work platforms, industrial lighting, wide cinematic view",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

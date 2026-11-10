@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-10T00:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261110-massie-files-hegseth-impeachment-articles",
+  "category": "Security / Geopolitics",
+  "headline": "Republican Thomas Massie unveils impeachment articles against Pete Hegseth over Iran war",
+  "headline_es": "El republicano Thomas Massie presenta cargos de juicio político contra Pete Hegseth por Irán",
+  "caption_en": "Republican Rep. Thomas Massie of Kentucky unveiled eight articles of impeachment against Defense Secretary Pete Hegseth on Monday. The central charge is that Hegseth waged war on Iran without authorization from Congress. A House vote could come as soon as this week; Massie is leaving Congress at the end of the year.",
+  "caption_es": "El representante republicano Thomas Massie, de Kentucky, presentó el lunes ocho artículos de juicio político contra el secretario de Defensa, Pete Hegseth. El cargo central es que Hegseth libró una guerra contra Irán sin autorización del Congreso. La Cámara de Representantes podría votar esta misma semana; Massie dejará el Congreso a final de año.",
+  "source_urls": [
+    "https://www.cbsnews.com/news/pete-hegseth-impeachment-vote-house-thomas-massie/",
+    "https://english.news.cn/20261110/9b8b1f48644942d0995bcf9e729a8f17/c.html"
+  ],
+  "source_names": [
+    "CBS News",
+    "Xinhua"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Hegseth",
+    "#EEUU",
+    "#Iran"
+  ],
+  "summary_es": "Massie presentó ocho cargos y acusa a Hegseth de violar la ley de poderes de guerra. Una votación en la Cámara podría llegar esta semana.",
+  "summary_en": "Massie filed eight articles accusing Hegseth of violating war powers law. A House floor vote could come this week.",
+  "highlight_es": "juicio político",
+  "highlight_en": "impeachment articles",
+  "visual_label": "Capitolio",
+  "image_prompt": "Domed legislative capitol building at dusk under dramatic clouds, empty marble steps in the foreground, a stack of documents on a wooden desk beside a gavel, cool blue and gold tones, wide cinematic view",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 38.89,
+      "lon": -77.01,
+      "label": "Washington"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

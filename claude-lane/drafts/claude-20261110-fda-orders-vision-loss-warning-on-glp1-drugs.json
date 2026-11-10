@@ -1,0 +1,36 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-10T00:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261110-fda-orders-vision-loss-warning-on-glp1-drugs",
+  "category": "Science",
+  "headline": "FDA orders vision-loss warning on all GLP-1 drugs, including Ozempic and Wegovy",
+  "headline_es": "La FDA exige advertir de pérdida de visión en todos los fármacos GLP-1, como Ozempic y Wegovy",
+  "caption_en": "The US Food and Drug Administration on Monday required makers of all GLP-1 drugs, including Ozempic and Wegovy, to add a warning about a potential risk of NAION, a rare eye condition. NAION causes sudden, painless vision loss that can be permanent. An FDA review of 126 clinical trials found 6.4 cases per 100,000 person-years with GLP-1 drugs versus 3.8 without them.",
+  "caption_es": "La Administración de Alimentos y Medicamentos de EE. UU. (FDA) exigió el lunes a los fabricantes de todos los fármacos GLP-1, como Ozempic y Wegovy, añadir una advertencia sobre un posible riesgo de NAION, una rara afección ocular. La NAION provoca una pérdida de visión repentina e indolora que puede ser permanente. Una revisión de la FDA de 126 ensayos clínicos halló 6,4 casos por cada 100.000 años-persona con fármacos GLP-1, frente a 3,8 sin ellos.",
+  "source_urls": [
+    "https://www.pharmacytimes.com/view/fda-requires-class-wide-glp-1-ra-labeling-changes-for-potential-naion-risk",
+    "https://gizmodo.com/fda-orders-new-vision-loss-warning-for-ozempic-and-other-glp-1s-2000837238"
+  ],
+  "source_names": [
+    "Pharmacy Times",
+    "Gizmodo"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#FDA",
+    "#Salud",
+    "#Health",
+    "#GLP1"
+  ],
+  "summary_es": "La advertencia cubre todos los fármacos GLP-1 del mercado. La NAION es rara y provoca pérdida súbita de visión.",
+  "summary_en": "The warning covers all marketed GLP-1 drugs. NAION is rare and causes sudden, painless vision loss.",
+  "highlight_es": "pérdida de visión",
+  "highlight_en": "vision-loss warning",
+  "visual_label": "GLP-1",
+  "image_prompt": "Close-up of an injection pen and medicine vials on a clean white pharmacy counter, an eye chart softly blurred in the background, soft clinical lighting, calm blue and white tones"
+}

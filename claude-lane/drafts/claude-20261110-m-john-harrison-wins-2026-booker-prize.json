@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-10T00:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261110-m-john-harrison-wins-2026-booker-prize",
+  "category": "World",
+  "headline": "M John Harrison wins the 2026 Booker Prize for 'The End of Everything'",
+  "headline_es": "M John Harrison gana el Premio Booker 2026 con 'The End of Everything'",
+  "caption_en": "English author M John Harrison won the 2026 Booker Prize on Monday for 'The End of Everything', a dystopian novel. The award, worth £50,000, was presented at a ceremony in London. The judging panel was chaired by historian Mary Beard.",
+  "caption_es": "El escritor inglés M John Harrison ganó el lunes el Premio Booker 2026 con 'The End of Everything', una novela distópica. El galardón, dotado con 50.000 libras, se entregó en una ceremonia en Londres. El jurado estuvo presidido por la historiadora Mary Beard.",
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-11-10/booker-prize-2026-m-john-harrison-the-end-of-everything/107342508",
+    "https://www.thebookseller.com/news/m-john-harrison-takes-home-the-booker-prize-2026-in-historic-win"
+  ],
+  "source_names": [
+    "ABC News (Australia)",
+    "The Bookseller"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#BookerPrize",
+    "#Literatura",
+    "#Books"
+  ],
+  "summary_es": "La novela distópica de Harrison se impuso en la ceremonia de Londres. El premio está dotado con 50.000 libras.",
+  "summary_en": "Harrison's dystopian novel took the prize at the London ceremony. The award is worth £50,000.",
+  "highlight_es": "Premio Booker 2026",
+  "highlight_en": "2026 Booker Prize",
+  "visual_label": "Booker",
+  "image_prompt": "Elegant hardcover novel standing on a dark wooden table under a warm spotlight, an empty ceremony hall with chandeliers softly blurred behind, deep navy and gold tones",
+  "map": {
+    "focus": [
+      "United Kingdom"
+    ],
+    "marker": {
+      "lat": 51.51,
+      "lon": -0.13,
+      "label": "Londres"
+    },
+    "labels": {
+      "United Kingdom": "Reino Unido"
+    }
+  }
+}
