@@ -1,0 +1,29 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261110-us-consumer-prices-rise-0-4-in-october",
+  "status": "draft",
+  "created_at": "2026-11-10T18:51:11Z",
+  "category": "Economy",
+  "headline": "US consumer prices rise 0.4% in October, hotter than expected, as a Fed rate hike looms",
+  "headline_es": "Los precios al consumidor en EE.UU. suben 0,4% en octubre, más de lo previsto",
+  "caption_en": "US consumer prices rose 0.4% in October from September, above the 0.3% economists expected, while core prices excluding food and energy climbed 0.3%. No annual rate was published because last year's government shutdown left no October 2025 data. The report was the Federal Reserve's last CPI reading before its December meeting, where a rate hike is widely expected.",
+  "caption_es": "Los precios al consumidor en Estados Unidos subieron 0,4% en octubre frente a septiembre, por encima del 0,3% que esperaban los economistas, mientras que la inflación subyacente, sin alimentos ni energía, avanzó 0,3%. No se publicó una tasa anual porque el cierre del gobierno del año pasado dejó sin datos a octubre de 2025. Fue la última lectura del IPC antes de la reunión de diciembre de la Reserva Federal, en la que se espera ampliamente una subida de tipos.",
+  "source_urls": [
+    "https://finance.yahoo.com/economy/article/not-great-october-cpi-inflation-data-comes-in-hotter-than-expected-as-food-and-rent-costs-spike-142323507.html",
+    "https://www.cbsnews.com/news/october-cpi-report-elevated-inflation/",
+    "https://www.americanbanker.com/news/hot-inflation-report-puts-fed-on-track-for-december-rate-hike"
+  ],
+  "source_names": ["Yahoo Finance", "CBS News", "American Banker"],
+  "hashtags": ["#MATRIX24", "#Inflación", "#Inflation", "#Fed", "#Economía"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El IPC de EE.UU. subió 0,4% mensual en octubre y la inflación subyacente 0,3%, ambas por encima de lo previsto, antes de la reunión de diciembre de la Fed.",
+  "summary_en": "US CPI rose 0.4% month over month in October and core prices 0.3%, both above forecasts, ahead of the Fed's December meeting.",
+  "highlight_es": "suben 0,4%",
+  "highlight_en": "rise 0.4%",
+  "visual_label": "IPC EE.UU.",
+  "image_prompt": "Supermarket shopping cart filled with groceries in front of a rising line chart on a large screen, warm store lighting, clean editorial illustration style",
+  "map": {"focus": ["United States of America"], "labels": {"United States of America": "Estados Unidos"}}
+}

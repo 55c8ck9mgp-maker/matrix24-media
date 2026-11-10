@@ -1,0 +1,28 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261110-anthropic-sets-ipo-price-range",
+  "status": "draft",
+  "created_at": "2026-11-10T18:51:11Z",
+  "category": "Technology",
+  "headline": "Anthropic sets IPO price range of $70 to $78 a share, valuing it at up to $1.4 trillion",
+  "headline_es": "Anthropic fija su salida a bolsa entre 70 y 78 dólares por acción",
+  "caption_en": "AI company Anthropic set a price range of $70 to $78 per share for its initial public offering, which would value it at up to about $1.4 trillion. The company plans to offer 825 million shares under the ticker ANT, which could raise up to roughly $64 billion at the top of the range.",
+  "caption_es": "La empresa de inteligencia artificial Anthropic fijó un rango de 70 a 78 dólares por acción para su oferta pública inicial, lo que la valoraría en hasta unos 1,4 billones de dólares. La compañía prevé ofrecer 825 millones de acciones bajo el símbolo ANT, con lo que podría recaudar hasta unos 64.000 millones de dólares en la parte alta del rango.",
+  "source_urls": [
+    "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+    "https://abc7ny.com/story/anthropic-seeks-70-78-share-new-ipo-filing-values-13-trillion/20029820/",
+    "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+  ],
+  "source_names": ["TechCrunch", "ABC News", "TheStreet"],
+  "hashtags": ["#MATRIX24", "#IA", "#AI", "#IPO", "#Tecnología"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Anthropic ofrecerá 825 millones de acciones a entre 70 y 78 dólares bajo el símbolo ANT, con una valoración de hasta unos 1,4 billones de dólares.",
+  "summary_en": "Anthropic will offer 825 million shares at $70 to $78 under the ticker ANT, implying a valuation of up to about $1.4 trillion.",
+  "highlight_es": "70 y 78 dólares",
+  "highlight_en": "$70 to $78",
+  "visual_label": "IPO",
+  "image_prompt": "Modern stock exchange trading floor with glowing market screens and abstract neural network patterns overhead, blue and white tones, wide cinematic view, no text or logos"
+}
