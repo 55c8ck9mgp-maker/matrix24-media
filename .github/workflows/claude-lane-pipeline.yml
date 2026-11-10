@@ -1,6 +1,6 @@
 name: Claude Lane Pipeline
 
-# docs/CLAUDE_LANE.md. Every 15 minutes: reconcile -> produce one bilingual story ->
+# docs/CLAUDE_LANE.md. Every 4 hours: reconcile -> produce one bilingual story ->
 # publish one story. Drafts come from Claude's research task on branch
 # claude/lane-drafts (claude-lane/drafts/*.json). Commits and Instagram publication happen ONLY when the
 # repository variable CLAUDE_LANE_ENABLED is exactly "true" (set by Justen).
@@ -22,6 +22,12 @@ jobs:
   pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      ig_media_id:    ${{ steps.lane-publish-result.outputs.ig_media_id }}
+      content_id:     ${{ steps.lane-publish-result.outputs.content_id }}
+      card_image_url: ${{ steps.lane-publish-result.outputs.card_image_url }}
+      caption_en:     ${{ steps.lane-publish-result.outputs.caption_en }}
+      hashtags:       ${{ steps.lane-publish-result.outputs.hashtags }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
@@ -57,6 +63,40 @@ jobs:
           git config user.name matrix24-claude-lane
           git config user.email matrix24-claude-lane@users.noreply.github.com
           node scripts/claude-lane/run-lane.mjs
+      - name: Surface publish result for Reel job
+        id: lane-publish-result
+        if: vars.CLAUDE_LANE_ENABLED == 'true'
+        run: |
+          node --input-type=commonjs << 'JSEOF'
+          const { execSync } = require('child_process');
+          const fs = require('fs');
+          let changedFile = '';
+          try {
+            changedFile = execSync(
+              "git log --author='matrix24-claude-lane' --format='' --diff-filter=M --name-only -1 --since='10 minutes ago' -- 'claude-lane/queue/*.json'",
+              { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }
+            ).split('\n').filter(Boolean)[0] || '';
+          } catch {}
+          let output = 'ig_media_id=\n';
+          if (changedFile) {
+            try {
+              const r = JSON.parse(fs.readFileSync(changedFile, 'utf8'));
+              if (r.status === 'published' && r.ig_media_id) {
+                output = [
+                  `ig_media_id=${r.ig_media_id}`,
+                  `content_id=${r.content_id || ''}`,
+                  `card_image_url=${r.image_url || ''}`,
+                  `caption_en=${(r.caption_en || '').replace(/[\n\r]/g, ' ').slice(0, 500)}`,
+                  `hashtags=${JSON.stringify(r.hashtags || [])}`,
+                ].join('\n') + '\n';
+              }
+            } catch (e) {
+              process.stderr.write('lane-publish-result: ' + e.message + '\n');
+            }
+          }
+          const ghOut = process.env.GITHUB_OUTPUT;
+          if (ghOut) fs.appendFileSync(ghOut, output);
+          JSEOF
       - name: Upload dry-run preview
         if: always() && vars.CLAUDE_LANE_ENABLED != 'true'
         uses: actions/upload-artifact@v4
@@ -64,3 +104,20 @@ jobs:
           name: claude-lane-preview
           path: ${{ runner.temp }}/lane-out
           if-no-files-found: ignore
+
+  publish-reel:
+    needs: pipeline
+    if: >-
+      needs.pipeline.result == 'success' &&
+      needs.pipeline.outputs.ig_media_id != '' &&
+      needs.pipeline.outputs.ig_media_id != 'dry_run'
+    uses: ./.github/workflows/claude-lane-reels.yml
+    continue-on-error: true
+    with:
+      content_id:     ${{ needs.pipeline.outputs.content_id }}
+      card_image_url: ${{ needs.pipeline.outputs.card_image_url }}
+      caption_en:     ${{ needs.pipeline.outputs.caption_en }}
+      hashtags:       ${{ needs.pipeline.outputs.hashtags }}
+      dry_run:        false
+    secrets:
+      IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}

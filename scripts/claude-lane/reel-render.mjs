@@ -1,7 +1,11 @@
-// Claude Lane Reels renderer (DRY RUN only; not wired to publishing).
+// Claude Lane Reels renderer.
 // Turns one published 1080x1350 card JPEG plus the news-style audio bed into a
 // 1080x1920 MP4 (9:16). Returns the FFmpeg arguments; never uploads anything.
-// The Reel is not published by this module. See docs/CLAUDE_LANE.md "Reels".
+// Publishing is handled by .github/workflows/claude-lane-reels.yml.
+// See docs/CLAUDE_LANE.md "Reels".
+import { execFileSync } from 'node:child_process';
+import { newsBedArgs } from './reel-audio.mjs';
+
 export const MIN_SECONDS = 5;
 export const MAX_SECONDS = 60;
 
@@ -24,4 +28,41 @@ export function buildReelArgs({ image, audio, out, seconds = 15 }) {
       out,
     ],
   };
+}
+
+// generateAudioBed: wraps newsBedArgs + execs ffmpeg to produce an AAC audio bed.
+// { exec } is injectable for testability (default: execFileSync).
+export function generateAudioBed(outPath, durationSec, { exec = execFileSync } = {}) {
+  const r = newsBedArgs({ seconds: durationSec, out: outPath });
+  if (!r.ok) throw new Error(`generateAudioBed: ${r.reason}`);
+  exec('ffmpeg', r.args, { stdio: 'inherit' });
+  return outPath;
+}
+
+// buildReelContainerParams: builds the Instagram Graph API request body for a
+// Reels media container.
+// - audioUrl is accepted for API symmetry but NOT forwarded; audio must be
+//   embedded in the MP4 (the Graph API does not support a separate audio URL
+//   for Reels).
+// - cover_url is derived from record.image_url when it is an https:// URL.
+export function buildReelContainerParams(record, mediaUrl, audioUrl) { // eslint-disable-line no-unused-vars
+  if (!record || typeof record !== 'object' || Array.isArray(record))
+    throw new TypeError('record must be a non-null object');
+  if (typeof mediaUrl !== 'string' || !mediaUrl.startsWith('https://'))
+    throw new TypeError('mediaUrl must be an https:// URL');
+  const tags = Array.isArray(record.hashtags) ? record.hashtags.join(' ') : '';
+  const caption = [
+    typeof record.caption_en === 'string' ? record.caption_en.trim() : '',
+    tags,
+  ].filter(Boolean).join('\n\n');
+  const params = {
+    media_type: 'REELS',
+    video_url: mediaUrl,
+    caption,
+    share_to_feed: true,
+  };
+  if (typeof record.image_url === 'string' && record.image_url.startsWith('https://')) {
+    params.cover_url = record.image_url;
+  }
+  return params;
 }

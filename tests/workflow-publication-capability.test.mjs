@@ -18,6 +18,10 @@ const allowedWriters = new Set([
   // Owner-only recovery (approved by Justen 2026-10-08): manual, writes only a
   // publish_unknown -> discarded record under claude-lane/, never publishes.
   'claude-lane-discard.yml',
+  // Reels (Phase 5, Claude Lane extension, PR #240, approved by Justen via Claude Lane
+  // exception 2026-10-06): writes only claude-lane/media/reels/*.mp4, only when
+  // vars.CLAUDE_LANE_ENABLED == 'true'.
+  'claude-lane-reels.yml',
 ]);
 const forbiddenPublicationSecrets = /secrets\.(?:IG_PUBLISH_TOKEN|METRICOOL_API_KEY|METRICOOL_ACCOUNT_ID)/;
 

@@ -1,0 +1,266 @@
+# Claude Lane — Reels Publisher (reusable workflow).
+# Converts a published carousel card into a Reel (≤60 s) and publishes it to
+# the same Instagram account. Called by claude-lane-pipeline.yml after the
+# carousel is confirmed published.
+#
+# Safety invariants:
+# - Does nothing unless CLAUDE_LANE_ENABLED == 'true' (kill switch).
+# - Only reads/writes claude-lane/media/reels/ in the repository.
+# - Never modifies queue/ records.
+# - Reel failure must never block the already-published carousel:
+#   the caller sets continue-on-error: true on this job.
+name: Claude Lane Reels Publisher
+
+on:
+  workflow_call:
+    inputs:
+      content_id:
+        description: 'Unique identifier for the story (used as filename stem)'
+        type: string
+        required: true
+      card_image_url:
+        description: 'Public HTTPS URL of the 1080x1350 carousel card JPEG'
+        type: string
+        required: true
+      caption_en:
+        description: 'English caption for the Reel (hashtags appended separately)'
+        type: string
+        required: true
+      hashtags:
+        description: 'JSON array of hashtag strings, e.g. ["#news","#matrix24"]'
+        type: string
+        required: true
+      dry_run:
+        description: 'When true, render only and upload as artifact; no Instagram publish'
+        type: boolean
+        default: true
+    outputs:
+      reel_media_id:
+        description: 'Instagram media ID of the published Reel, or empty string on dry run'
+        value: ${{ jobs.publish-reel.outputs.reel_media_id }}
+    secrets:
+      IG_CLAUDE_ACCESS_TOKEN:
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish-reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      reel_media_id: ${{ steps.media-publish.outputs.reel_media_id }}
+    steps:
+      # ── Kill switch ────────────────────────────────────────────────────────
+      - name: Kill switch
+        id: kill-switch
+        run: |
+          if [ "${{ vars.CLAUDE_LANE_ENABLED }}" != "true" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::CLAUDE_LANE_ENABLED is not 'true' — Reel skipped (kill switch)."
+          fi
+
+      # ── Setup ──────────────────────────────────────────────────────────────
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        if: steps.kill-switch.outputs.skip != 'true'
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        if: steps.kill-switch.outputs.skip != 'true'
+        with:
+          node-version: '22'
+
+      - name: Install media tools
+        if: steps.kill-switch.outputs.skip != 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg jq >/dev/null
+
+      # ── Render ─────────────────────────────────────────────────────────────
+      - name: Generate audio bed
+        id: audio
+        if: steps.kill-switch.outputs.skip != 'true'
+        env:
+          BED_OUT: ${{ runner.temp }}/news-bed.m4a
+        run: |
+          node --input-type=module << 'JSEOF'
+          import { generateAudioBed } from './scripts/claude-lane/reel-render.mjs';
+          generateAudioBed(process.env.BED_OUT, 15);
+          JSEOF
+          echo "bed_path=$BED_OUT" >> "$GITHUB_OUTPUT"
+
+      - name: Download card image
+        id: image
+        if: steps.kill-switch.outputs.skip != 'true'
+        env:
+          IMG_OUT: ${{ runner.temp }}/card.jpg
+        run: |
+          curl -sSf --retry 3 -o "$IMG_OUT" "${{ inputs.card_image_url }}"
+          echo "img_path=$IMG_OUT" >> "$GITHUB_OUTPUT"
+
+      - name: Render MP4
+        id: render
+        if: steps.kill-switch.outputs.skip != 'true'
+        env:
+          BED_PATH: ${{ steps.audio.outputs.bed_path }}
+          IMG_PATH: ${{ steps.image.outputs.img_path }}
+          MP4_OUT: ${{ runner.temp }}/reel.mp4
+        run: |
+          node --input-type=module << 'JSEOF'
+          import { buildReelArgs } from './scripts/claude-lane/reel-render.mjs';
+          import { execFileSync } from 'node:child_process';
+          const r = buildReelArgs({
+            image: process.env.IMG_PATH,
+            audio: process.env.BED_PATH,
+            out:   process.env.MP4_OUT,
+            seconds: 15,
+          });
+          if (!r.ok) { console.error('buildReelArgs:', r.reason); process.exit(1); }
+          execFileSync('ffmpeg', r.args, { stdio: 'inherit' });
+          JSEOF
+          echo "mp4_path=$MP4_OUT" >> "$GITHUB_OUTPUT"
+
+      - name: Verify with ffprobe
+        id: ffprobe
+        if: steps.kill-switch.outputs.skip != 'true'
+        env:
+          MP4_PATH: ${{ steps.render.outputs.mp4_path }}
+          CONTENT_ID: ${{ inputs.content_id }}
+        run: |
+          PROBE=$(ffprobe -v error -select_streams v:0 \
+            -show_entries stream=codec_name,width,height,duration \
+            -of json "$MP4_PATH")
+          echo "## Reel ffprobe — ${CONTENT_ID}" >> "$GITHUB_STEP_SUMMARY"
+          printf '```json\n%s\n```\n' "$PROBE" >> "$GITHUB_STEP_SUMMARY"
+          CODEC=$(echo "$PROBE" | jq -r '.streams[0].codec_name // empty')
+          W=$(echo "$PROBE" | jq -r '.streams[0].width // empty')
+          H=$(echo "$PROBE" | jq -r '.streams[0].height // empty')
+          if [ "$CODEC" != "h264" ] || [ "$W" != "1080" ] || [ "$H" != "1920" ]; then
+            echo "::error::ffprobe check failed: codec=$CODEC ${W}x${H} (expected h264 1080x1920)"
+            exit 1
+          fi
+
+      # ── Dry run branch ─────────────────────────────────────────────────────
+      - name: Upload dry-run artifact
+        if: inputs.dry_run == true && steps.kill-switch.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-preview-${{ inputs.content_id }}
+          path: ${{ steps.render.outputs.mp4_path }}
+          if-no-files-found: error
+
+      # ── Live branch ────────────────────────────────────────────────────────
+      - name: Commit MP4 to repository
+        id: commit-mp4
+        if: inputs.dry_run != true && steps.kill-switch.outputs.skip != 'true'
+        env:
+          MP4_PATH: ${{ steps.render.outputs.mp4_path }}
+          CONTENT_ID: ${{ inputs.content_id }}
+        run: |
+          git config user.name  matrix24-claude-lane
+          git config user.email matrix24-claude-lane@users.noreply.github.com
+          DEST="claude-lane/media/reels/${CONTENT_ID}.mp4"
+          mkdir -p "$(dirname "$DEST")"
+          cp "$MP4_PATH" "$DEST"
+          git add "$DEST"
+          git commit -m "chore(claude-lane): add reel ${CONTENT_ID}"
+          git pull --rebase origin main
+          git push origin main
+          REPO="${{ github.repository }}"
+          VIDEO_URL="https://raw.githubusercontent.com/${REPO}/main/${DEST}"
+          echo "video_url=${VIDEO_URL}" >> "$GITHUB_OUTPUT"
+          echo "::notice::Reel MP4 committed: ${VIDEO_URL}"
+
+      - name: Wait for CDN propagation
+        if: inputs.dry_run != true && steps.kill-switch.outputs.skip != 'true'
+        run: sleep 30
+
+      - name: Create Reels container
+        id: container
+        if: inputs.dry_run != true && steps.kill-switch.outputs.skip != 'true'
+        env:
+          IG_USER_ID: '17841423605720355'
+          IG_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          VIDEO_URL: ${{ steps.commit-mp4.outputs.video_url }}
+          CAPTION_EN: ${{ inputs.caption_en }}
+          HASHTAGS: ${{ inputs.hashtags }}
+          COVER_URL: ${{ inputs.card_image_url }}
+        run: |
+          PARAMS=$(node --input-type=module << 'JSEOF'
+          import { buildReelContainerParams } from './scripts/claude-lane/reel-render.mjs';
+          const record = {
+            caption_en: process.env.CAPTION_EN,
+            hashtags:   JSON.parse(process.env.HASHTAGS || '[]'),
+            image_url:  process.env.COVER_URL,
+          };
+          const p = buildReelContainerParams(record, process.env.VIDEO_URL, null);
+          process.stdout.write(JSON.stringify(p));
+          JSEOF
+          )
+          RESPONSE=$(curl -sSf -X POST \
+            "https://graph.instagram.com/v23.0/${IG_USER_ID}/media" \
+            -H 'Content-Type: application/json' \
+            -H "Authorization: Bearer ${IG_TOKEN}" \
+            --data-raw "$PARAMS")
+          CREATION_ID=$(echo "$RESPONSE" | jq -r '.id // empty')
+          if [ -z "$CREATION_ID" ]; then
+            echo "::error::Container creation returned no id"
+            exit 1
+          fi
+          echo "creation_id=${CREATION_ID}" >> "$GITHUB_OUTPUT"
+          echo "::notice::Reel container created: ${CREATION_ID}"
+
+      - name: Poll container status
+        id: poll
+        if: inputs.dry_run != true && steps.kill-switch.outputs.skip != 'true'
+        env:
+          IG_USER_ID: '17841423605720355'
+          IG_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          CREATION_ID: ${{ steps.container.outputs.creation_id }}
+        run: |
+          for i in $(seq 1 12); do
+            sleep 15
+            RESPONSE=$(curl -sSf \
+              "https://graph.instagram.com/v23.0/${CREATION_ID}?fields=status_code,status" \
+              -H "Authorization: Bearer ${IG_TOKEN}")
+            STATUS=$(echo "$RESPONSE" | jq -r '.status_code // "UNKNOWN"')
+            echo "Poll ${i}/12: ${STATUS}"
+            if [ "$STATUS" = "FINISHED" ]; then
+              echo "::notice::Container ready after ${i} polls."
+              exit 0
+            fi
+            if [ "$STATUS" = "ERROR" ]; then
+              echo "::error::Reel container processing failed with status ERROR"
+              exit 1
+            fi
+          done
+          echo "::error::Reel container did not reach FINISHED within 3 minutes (12 x 15 s)"
+          exit 1
+
+      - name: Settle before publish
+        if: inputs.dry_run != true && steps.kill-switch.outputs.skip != 'true'
+        run: sleep 20
+
+      - name: Publish Reel
+        id: media-publish
+        if: inputs.dry_run != true && steps.kill-switch.outputs.skip != 'true'
+        env:
+          IG_USER_ID: '17841423605720355'
+          IG_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          CREATION_ID: ${{ steps.container.outputs.creation_id }}
+        run: |
+          RESPONSE=$(curl -sSf -X POST \
+            "https://graph.instagram.com/v23.0/${IG_USER_ID}/media_publish" \
+            -H 'Content-Type: application/json' \
+            -H "Authorization: Bearer ${IG_TOKEN}" \
+            --data-raw "{\"creation_id\":\"${CREATION_ID}\"}")
+          REEL_ID=$(echo "$RESPONSE" | jq -r '.id // empty')
+          if [ -z "$REEL_ID" ]; then
+            echo "::error::media_publish returned no id"
+            exit 1
+          fi
+          echo "reel_media_id=${REEL_ID}" >> "$GITHUB_OUTPUT"
+          echo "::notice::Reel published: ${REEL_ID}"
