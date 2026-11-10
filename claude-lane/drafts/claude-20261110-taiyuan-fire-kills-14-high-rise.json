@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261110-taiyuan-fire-kills-14-high-rise",
+  "created_at": "2026-11-10T11:30:00Z",
+  "category": "Crisis / Asia",
+  "headline": "Night blaze tears through Taiyuan high-rise, killing 14 as China launches investigation",
+  "headline_es": "Un incendio nocturno arrasa un edificio de altura en Taiyuan; 14 muertos y China investiga",
+  "caption_en": "A fire tore through a residential apartment building in Taiyuan, the capital of China's Shanxi province, early Sunday, killing 14 people, state news agency Xinhua reported. Firefighters battled flames across multiple floors and evacuated residents before bringing the blaze under control. Chinese authorities have opened an investigation into the cause; no official explanation has been announced.",
+  "caption_es": "Un incendio arrasó un edificio residencial de apartamentos en Taiyuan, capital de la provincia china de Shanxi, en la madrugada del domingo, causando la muerte de 14 personas, informó la agencia estatal Xinhua. Los bomberos combatieron las llamas en varios pisos y evacuaron a residentes antes de controlar el siniestro. Las autoridades chinas han abierto una investigación sobre la causa; no se ha anunciado ninguna explicación oficial.",
+  "source_urls": [
+    "https://www.reuters.com/world/china/apartment-fire-chinas-taiyuan-kills-14-2026-11-10/",
+    "https://english.news.cn/20261110/apartment_fire_taiyuan_14_dead.htm"
+  ],
+  "source_names": [
+    "Reuters",
+    "Xinhua"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#China",
+    "#Taiyuan",
+    "#Shanxi",
+    "#Incendio"
+  ],
+  "summary_en": "Firefighters evacuated residents and battled the blaze across multiple floors before bringing it under control. Authorities have launched an investigation; no cause has been announced.",
+  "summary_es": "Los bomberos evacuaron a residentes y combatieron el fuego en varios pisos antes de controlarlo. Las autoridades han abierto una investigación; no se ha anunciado ninguna causa.",
+  "highlight_en": "kills 14",
+  "highlight_es": "14 muertos",
+  "image_prompt": "Dramatic night scene of a tall residential apartment tower with intense orange flames and thick black smoke erupting from upper floors, firefighters aerial ladder trucks extending upward with water arcs visible, emergency red and blue lights reflecting on the wet street below, distant city skyline in the background, wide cinematic view",
+  "visual_label": "Taiyuan",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "marker": {
+      "lat": 37.87,
+      "lon": 112.55,
+      "label": "Taiyuan"
+    },
+    "labels": {
+      "China": "China"
+    }
+  }
+}
