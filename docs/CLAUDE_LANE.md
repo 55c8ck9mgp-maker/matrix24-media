@@ -187,6 +187,67 @@ transaction across platforms):
 - After the test: live carousel and Reel wiring needs a separate PR and owner
   approval. Rollback: delete the two test posts in Instagram; delete the workflow.
 
+## Phase 5 — Reels live (approved by Justen, merged PR #240, 2026-11-10)
+- `claude-lane-reels.yml` (reusable) renders a 1080x1920 MP4 from the
+  carousel card and publishes it as a Reel immediately after each successful
+  carousel publication. No separate enable variable; the job fires when
+  `CLAUDE_LANE_ENABLED=true` and `ig_media_id != ''`.
+- The pipeline passes `content_id`, `card_image_url`, `caption_en`, and
+  `hashtags` to the Reels job. Reel failure marks the run red but never
+  blocks or rolls back the already-committed carousel (GitHub rejects
+  `continue-on-error` on a reusable-workflow job, so a Reel failure shows
+  as a red run; the carousel is committed first and is unaffected).
+- Rollback: set `CLAUDE_LANE_ENABLED=false` (stops everything); or revert
+  PR #240 to remove the Reels job without touching the carousel pipeline.
+
+## Phase 6 — TTS Reels (approved by Justen 2026-11-11)
+
+Justen authorized bilingual voiceover narration for Reels. Each Reel now
+carries the news in Spanish then English, spoken over the news-style audio
+bed by high-quality neural text-to-speech voices.
+
+**What it does**
+- Primary TTS engine: `edge-tts` (Python package, Microsoft Edge TTS voices,
+  no API key, free). Voices: `es-MX-DaliaNeural` (Spanish) and
+  `en-US-AriaNeural` (English).
+- Fallback TTS engine: `espeak` (Ubuntu package, offline, robotic but
+  functional). Used when `edge-tts` is unavailable or fails.
+- Both voice files are concatenated into a single MP3: Spanish → 0.5 s
+  silence → English.
+- The combined voice is mixed with the audio bed: bed at volume=0.25
+  (background, ducked), voice at volume=1.0 (foreground), delayed 1 s after
+  the sting to let the musical intro play first.
+- The Reel duration is set to the voice duration + 3 s (buffer), capped at
+  60 s. Without voiceover it defaults to 15 s.
+- **Graceful degradation**: every TTS step is `continue-on-error: true`. If
+  TTS install fails, voice generation fails, concat fails, or mix fails, the
+  Reel publishes with the audio bed only (15 s, same as Phase 5). The
+  carousel is never affected.
+
+**New files**
+- `scripts/claude-lane/reel-tts.mjs` — TTS generation (`generateBilingualTTS`).
+- `scripts/claude-lane/reel-render.mjs` additions:
+  - `buildVoiceConcatArgs({ esFile, enFile, outPath })` — FFmpeg concat args.
+  - `buildVoiceoverMixArgs({ bedPath, voicePath, outPath, stingDelaySec })` — FFmpeg mix args.
+
+**Workflow changes**
+- `claude-lane-reels.yml`: four new optional inputs (`headline_es`,
+  `summary_es`, `headline_en`, `summary_en`); new steps: Install TTS tools,
+  Generate voiceover, Concat voice tracks, Measure voice duration & generate
+  voiced bed, Mix voice + bed, Select final audio. `Render MP4` step uses
+  `final_audio` (mixed or plain bed) and the voice duration.
+- `claude-lane-pipeline.yml`: four new outputs (`headline_es`, `summary_es`,
+  `headline_en`, `summary_en`) read from the queue record and forwarded to
+  the Reels job `with:` inputs. The queue record fields (`headline_es`,
+  `summary_es`, `headline` / `headline_en`, `summary_en`) have been in the
+  draft schema since Phase 3; this change just surfaces them to the Reel job.
+
+**No new secrets or variables required.** The TTS tooling is free and
+offline (edge-tts is pip-installable from PyPI; espeak is an Ubuntu package).
+
+**Rollback**: revert this PR. The pipeline falls back to bed-only Reels
+(Phase 5 behavior). No queue records are affected; no published posts change.
+
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
 
 A `publish_unknown` record blocks the whole lane until it is resolved. The
