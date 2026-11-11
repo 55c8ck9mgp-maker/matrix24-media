@@ -272,6 +272,36 @@ export function measureAudioDuration(filePath, { exec = execFileSync } = {}) {
  * @param {object[]} stories  Array of draft objects with headline_en and hashtags.
  * @returns {string}
  */
+/**
+ * FFmpeg args to generate the news audio bed for the daily Reel.
+ * Supports up to DAILY_MAX_SECONDS (90 s), which exceeds the Phase-5 Reel
+ * limit (60 s).  Phase-5 reels must use generateAudioBed from reel-render.mjs.
+ *
+ * @param {object} opts
+ * @param {number} opts.seconds  Duration in seconds (integer, 5–90). Default: DAILY_MAX_SECONDS.
+ * @param {string} opts.out      Output .m4a path.
+ * @returns {{ ok: true, args: string[] } | { ok: false, reason: string }}
+ */
+export function newsDailyBedArgs({ seconds = DAILY_MAX_SECONDS, out } = {}) {
+  if (!Number.isInteger(seconds) || seconds < 5 || seconds > DAILY_MAX_SECONDS)
+    return { ok: false, reason: 'duration_out_of_range' };
+  if (typeof out !== 'string' || !out.endsWith('.m4a'))
+    return { ok: false, reason: 'output_must_be_m4a' };
+  const fadeStart = Math.max(0, seconds - 2);
+  return {
+    ok: true,
+    args: [
+      '-hide_banner', '-loglevel', 'error', '-y',
+      '-f', 'lavfi', '-i', 'sine=frequency=880:duration=0.25',
+      '-f', 'lavfi', '-i', `aevalsrc=0.02*(random(0)*2-1):d=${seconds}`,
+      '-filter_complex',
+      `[0:a]volume=0.4,apad=whole_dur=${seconds}[sting];[1:a]lowpass=f=900,volume=0.5[bed];` +
+      `[sting][bed]amix=inputs=2:duration=first:normalize=0,afade=t=out:st=${fadeStart}:d=2`,
+      '-ac', '2', '-ar', '44100', '-c:a', 'aac', '-b:a', '128k', out,
+    ],
+  };
+}
+
 export function buildDailyReelCaption(stories) {
   const numberEmoji = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣'];
   const lines = stories.map((s, i) => {

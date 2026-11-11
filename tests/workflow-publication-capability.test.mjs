@@ -22,6 +22,10 @@ const allowedWriters = new Set([
   // exception 2026-10-06): writes only claude-lane/media/reels/*.mp4, only when
   // vars.CLAUDE_LANE_ENABLED == 'true'.
   'claude-lane-reels.yml',
+  // Phase 7 daily news-summary Reel (Claude Lane exception, approved by Justen
+  // 2026-10-06): writes only claude-lane/media/reels/*.mp4 and
+  // claude-lane/queue/*.json, only when vars.CLAUDE_LANE_ENABLED == 'true'.
+  'claude-lane-daily-reel.yml',
 ]);
 const forbiddenPublicationSecrets = /secrets\.(?:IG_PUBLISH_TOKEN|METRICOOL_API_KEY|METRICOOL_ACCOUNT_ID)/;
 

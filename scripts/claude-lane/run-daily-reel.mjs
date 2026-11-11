@@ -16,7 +16,7 @@ import { execFileSync } from 'node:child_process';
 import { readBranchDrafts, renderCardV2 }   from './run-lane.mjs';
 import { selectTopStories }                  from './story-ranker.mjs';
 import { generateBilingualTTS }              from './reel-tts.mjs';
-import { generateAudioBed, buildVoiceoverMixArgs } from './reel-render.mjs';
+import { buildVoiceoverMixArgs } from './reel-render.mjs';
 import {
   buildSegmentArgs,
   buildConcatArgs,
@@ -24,6 +24,7 @@ import {
   buildMultiVoiceConcatArgs,
   buildDailyReelCaption,
   measureAudioDuration,
+  newsDailyBedArgs,
   DAILY_MAX_SECONDS,
   STORY_DURATION_SEC,
 } from './daily-reel-video.mjs';
@@ -197,7 +198,9 @@ async function main() {
 
     // Generate audio bed matched to total video duration.
     const bedPath = path.join(TMP, 'news-bed.m4a');
-    generateAudioBed(bedPath, Math.min(totalSec, DAILY_MAX_SECONDS));
+    const bedR1 = newsDailyBedArgs({ seconds: Math.min(totalSec, DAILY_MAX_SECONDS), out: bedPath });
+    if (!bedR1.ok) throw new Error(`newsDailyBedArgs failed: ${bedR1.reason}`);
+    exec('ffmpeg', bedR1.args);
 
     if (mvr.ok && fs.existsSync(multiVoicePath)) {
       // Mix voice over bed.
@@ -224,7 +227,9 @@ async function main() {
   } else {
     // No TTS at all — use bed only.
     const bedPath = path.join(TMP, 'news-bed.m4a');
-    generateAudioBed(bedPath, Math.min(totalSec, DAILY_MAX_SECONDS));
+    const bedR2 = newsDailyBedArgs({ seconds: Math.min(totalSec, DAILY_MAX_SECONDS), out: bedPath });
+    if (!bedR2.ok) throw new Error(`newsDailyBedArgs failed: ${bedR2.reason}`);
+    exec('ffmpeg', bedR2.args);
     finalAudioPath = bedPath;
     log('audio', { type: 'bed-only' });
   }
