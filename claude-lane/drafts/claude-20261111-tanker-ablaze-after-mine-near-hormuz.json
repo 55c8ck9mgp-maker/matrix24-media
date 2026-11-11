@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-tanker-ablaze-after-mine-near-hormuz",
+  "status": "draft",
+  "created_at": "2026-11-11T12:55:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's navy says an oil tanker caught fire after hitting a mine east of the Strait of Hormuz",
+  "headline_es": "La Armada de Irán dice que un petrolero se incendió tras chocar con una mina al este de Ormuz",
+  "caption_en": "Iran's army navy said on Wednesday that a tanker caught fire after striking a sea mine in what it called an unsafe and restricted area east of the Strait of Hormuz. The navy said its forces control the eastern part of the strait and urged shipowners to coordinate with Iran's armed forces for safe passage. The vessel was not identified.",
+  "caption_es": "La Armada del Ejército de Irán afirmó este miércoles que un petrolero se incendió tras chocar con una mina marina en lo que calificó como una zona insegura y restringida al este del estrecho de Ormuz. Dijo que sus fuerzas controlan la parte oriental del estrecho e instó a los armadores a coordinarse con las Fuerzas Armadas iraníes para un paso seguro. El buque no fue identificado.",
+  "source_urls": [
+    "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-army-says-oil-tanker-ablaze-hormuz-strait-after-hitting-mine",
+    "https://www.arabtimesonline.com/news/tanker-catches-fire-after-hitting-sea-mine-east-of-strait-of-hormuz/"
+  ],
+  "source_names": [
+    "Middle East Eye",
+    "Arab Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ormuz",
+    "#Irán",
+    "#Petróleo"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Irán dice controlar la parte oriental del estrecho y exige a los barcos coordinarse con sus fuerzas para pasar.",
+  "summary_en": "Iran says it controls the eastern part of the strait and demands ships coordinate with its forces to pass.",
+  "highlight_es": "petrolero se incendió",
+  "highlight_en": "oil tanker caught fire",
+  "visual_label": "Ormuz",
+  "image_prompt": "Large oil tanker at sea with a column of dark smoke rising from its deck, hazy desert coastline in the distance, calm turquoise water, wide cinematic aerial view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Iran",
+      "Oman"
+    ],
+    "marker": {
+      "lat": 26.4,
+      "lon": 56.9,
+      "label": "Ormuz"
+    },
+    "labels": {
+      "Iran": "Irán",
+      "Oman": "Omán"
+    }
+  }
+}

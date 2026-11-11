@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-storm-charles-shuts-schools-across-portugal",
+  "status": "draft",
+  "created_at": "2026-11-11T12:55:00Z",
+  "category": "Climate",
+  "headline": "Storm Charles shuts all of Portugal's schools as Web Summit cancels its second day",
+  "headline_es": "La tormenta Charles cierra todas las escuelas de Portugal y la Web Summit suspende su segundo día",
+  "caption_en": "Portugal closed schools and non-essential public services nationwide on Wednesday and urged people to stay home as Storm Charles reached the mainland after battering Madeira. Lisbon reported flooded streets, and the Web Summit tech conference called off its second day on government advice. Red warnings for wind gusts of up to 140 km/h covered parts of the south.",
+  "caption_es": "Portugal cerró este miércoles las escuelas y los servicios públicos no esenciales en todo el país y pidió a la población quedarse en casa mientras la tormenta Charles llegaba al continente tras azotar Madeira. Lisboa registró calles inundadas y la conferencia tecnológica Web Summit suspendió su segundo día por recomendación del Gobierno. Partes del sur seguían en alerta roja por rachas de hasta 140 km/h.",
+  "source_urls": [
+    "https://www.yahoo.com/news/weather-news/articles/portugal-closes-schools-non-essential-102009973.html",
+    "https://www.theportugalnews.com/news/2026-11-11/storm-charles-causes-flooding-in-lisbon/1114457",
+    "https://thenextweb.com/news/web-summit-day-2-cancelled-storm-charles-lisbon"
+  ],
+  "source_names": [
+    "Associated Press",
+    "The Portugal News",
+    "The Next Web"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Portugal",
+    "#TormentaCharles",
+    "#Clima"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Escuelas y servicios no esenciales cerrados en todo el país. Lisboa registró inundaciones y hubo alerta roja por viento en el sur.",
+  "summary_en": "Schools and non-essential services closed nationwide. Lisbon saw flooding and red wind warnings covered parts of the south.",
+  "highlight_es": "tormenta Charles",
+  "highlight_en": "Storm Charles",
+  "visual_label": "Charles",
+  "image_prompt": "Stormy Atlantic coastline near a European capital, huge waves crashing against a stone seawall, bent palm trees, dark swirling clouds, rain-soaked empty waterfront promenade with red-roofed buildings, wide cinematic view, no people, no text",
+  "map": {
+    "focus": [
+      "Portugal"
+    ],
+    "marker": {
+      "lat": 38.72,
+      "lon": -9.14,
+      "label": "Lisboa"
+    },
+    "labels": {
+      "Portugal": "Portugal"
+    }
+  }
+}

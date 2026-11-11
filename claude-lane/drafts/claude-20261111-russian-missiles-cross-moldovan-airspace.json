@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-russian-missiles-cross-moldovan-airspace",
+  "status": "draft",
+  "created_at": "2026-11-11T12:55:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Two Russian cruise missiles cross Moldovan airspace during overnight attack on Ukraine",
+  "headline_es": "Dos misiles de crucero rusos cruzan el espacio aéreo de Moldavia durante un ataque contra Ucrania",
+  "caption_en": "Two Russian S8000 Banderol cruise missiles entered Moldova's airspace from Ukraine's Odesa region early on Wednesday, Moldova's defence ministry said. They crossed the border minutes apart, one heading toward Tudora and the other toward the Transnistrian region, before leaving Moldovan skies. The incursion came during a large-scale Russian strike on Ukraine.",
+  "caption_es": "Dos misiles de crucero rusos S8000 Banderol entraron en el espacio aéreo de Moldavia desde la región ucraniana de Odesa la madrugada del miércoles, según el Ministerio de Defensa moldavo. Cruzaron la frontera con minutos de diferencia, uno hacia Tudora y otro hacia la región de Transnistria, antes de salir del cielo moldavo. La incursión ocurrió durante un ataque ruso a gran escala contra Ucrania.",
+  "source_urls": [
+    "https://www.kyivpost.com/post/89758",
+    "https://www.eurointegration.com.ua/eng/news/2026/11/11/7249734/"
+  ],
+  "source_names": [
+    "Kyiv Post",
+    "European Pravda"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Moldavia",
+    "#Ucrania",
+    "#Rusia"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Los misiles entraron desde la región de Odesa y salieron minutos después. Moldavia sigue vigilando su espacio aéreo.",
+  "summary_en": "The missiles entered from the Odesa region and left minutes later. Moldova says it keeps monitoring its airspace.",
+  "highlight_es": "espacio aéreo de Moldavia",
+  "highlight_en": "Moldovan airspace",
+  "visual_label": "Banderol",
+  "image_prompt": "Night sky over rolling farmland and vineyards near a river border, a faint streak of a missile contrail high above, distant radar station on a hill, cold blue moonlight, wide cinematic view, no people, no text",
+  "map": {
+    "focus": [
+      "Moldova",
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 46.5,
+      "lon": 30.07,
+      "label": "Tudora"
+    },
+    "labels": {
+      "Moldova": "Moldavia",
+      "Ukraine": "Ucrania"
+    }
+  }
+}

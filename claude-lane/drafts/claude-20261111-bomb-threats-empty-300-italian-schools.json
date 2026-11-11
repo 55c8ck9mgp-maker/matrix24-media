@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-bomb-threats-empty-300-italian-schools",
+  "status": "draft",
+  "created_at": "2026-11-11T12:55:00Z",
+  "category": "World",
+  "headline": "About 300 schools evacuated across Italy after emailed bomb threats believed to be hoaxes",
+  "headline_es": "Unas 300 escuelas evacuadas en Italia por amenazas de bomba por correo que se creen falsas",
+  "caption_en": "Around 300 schools across Italy were evacuated on Wednesday after receiving the same emailed bomb threat. Prime Minister Giorgia Meloni said there was no sign of concrete danger and that the messages appeared designed to cause alarm, while police investigate. The alerts follow a string of hoax threats against European airlines and broadcasters in recent weeks.",
+  "caption_es": "Unas 300 escuelas de toda Italia fueron evacuadas este miércoles tras recibir la misma amenaza de bomba por correo electrónico. La primera ministra Giorgia Meloni dijo que no hay señales de un peligro concreto y que los mensajes parecen buscar sembrar alarma, mientras la policía investiga. Las alertas siguen a una serie de amenazas falsas contra aerolíneas y medios europeos en las últimas semanas.",
+  "source_urls": [
+    "https://www.wral.com/news/ap/0f312-some-300-italian-schools-evacuated-due-to-bomb-threats/",
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts"
+  ],
+  "source_names": [
+    "Associated Press (via WRAL)",
+    "Reuters (via Internazionale)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Italia",
+    "#Escuelas",
+    "#Seguridad"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Todas recibieron el mismo correo. El Gobierno no ve un peligro concreto y la policía investiga el origen.",
+  "summary_en": "All received the same email. The government sees no concrete danger and police are investigating its origin.",
+  "highlight_es": "amenazas de bomba",
+  "highlight_en": "bomb threats",
+  "visual_label": "Alerta escolar",
+  "image_prompt": "Empty Italian school courtyard with a classic ochre building facade and arched windows, scattered backpacks on a bench, a parked police car with lights off at the gate, overcast morning light, wide cinematic view, no people, no text",
+  "map": {
+    "focus": [
+      "Italy"
+    ],
+    "marker": {
+      "lat": 41.9,
+      "lon": 12.5,
+      "label": "Roma"
+    },
+    "labels": {
+      "Italy": "Italia"
+    }
+  }
+}
