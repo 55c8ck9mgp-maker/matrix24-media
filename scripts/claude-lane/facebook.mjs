@@ -148,7 +148,9 @@ export async function runFacebook({
   const stuck = entries.filter(e => e.record.facebook?.status === 'publishing').map(e => e.record.content_id);
   const lastReserved = Math.max(0, ...entries.map(e => Date.parse(e.record.facebook?.reserved_at || '') || 0));
   const eligible = entries
-    .filter(e => e.record.status === 'published' && e.record.facebook == null)
+    // Reels (the daily summary) are not mirrored: the Page mirror posts a photo,
+    // and a Reel's cover photo is not the same post (watchdog 2026-11-11).
+    .filter(e => e.record.status === 'published' && e.record.facebook == null && (e.record.media_format ?? 'image') !== 'reel')
     .map(e => ({ ...e, at: instagramPublishedAt(e.record) }))
     .filter(e => e.at != null && now - e.at <= windowMs && now >= e.at)
     .sort((a, b) => a.at - b.at);

@@ -4,7 +4,7 @@
 // generates English TTS, builds per-story video segments, concatenates them,
 // mixes with the news bed, and writes the final Reel + metadata to $LANE_OUT.
 //
-// Publishing is handled by .github/workflows/claude-lane-daily-reel.yml.
+// Publishing is handled by run-daily-reel-publish.mjs (lane claim + publish_unknown rules).
 // This script never calls any Instagram API or commits to git.
 // See docs/CLAUDE_LANE.md "Phase 7 — Daily News Summary Reel".
 
@@ -105,7 +105,7 @@ async function main() {
       const r = await generateBilingualTTS({
         headline_es: '',
         summary_es:  '',
-        headline_en: s?.headline_en || '',
+        headline_en: s?.headline_en || s?.headline || '',
         summary_en:  s?.summary_en  || '',
         tmpDir: path.join(ttsTmpDir, `s${i}`),
       });
@@ -254,6 +254,9 @@ async function main() {
   const outJson = path.join(OUT, `${contentId}.json`);
 
   fs.copyFileSync(finalMp4, outMp4);
+  // Cover JPEG (first story card): the lane record's image_url, committed with
+  // the MP4 by run-daily-reel-publish.mjs.
+  fs.copyFileSync(usedCards[0], path.join(OUT, `${contentId}.jpg`));
 
   const caption = buildDailyReelCaption(usedStories);
   const videoUrl = `https://raw.githubusercontent.com/${REPO}/main/claude-lane/media/reels/${contentId}.mp4`;
@@ -269,6 +272,12 @@ async function main() {
     image_url:   null,
     video_url:   videoUrl,
     tts_stories: ttsFiles.filter(Boolean).length,
+    // Fields the publisher needs to build a schema-valid lane record.
+    stories: usedStories.map(s => ({
+      content_id: s?.content_id, headline: s?.headline || s?.headline_en || '', headline_es: s?.headline_es || '',
+      source_urls: s?.source_urls || [], source_names: s?.source_names || [], hashtags: s?.hashtags || [],
+      ai_illustration: s?.ai_illustration === true,
+    })),
   };
   fs.writeFileSync(outJson, JSON.stringify(metadata, null, 2));
 

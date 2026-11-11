@@ -177,7 +177,7 @@ const skipReason =
   !findFirstJpeg()          ? 'no JPEG found in claude-lane/media/ — skipping integration test' :
   false;
 
-test('integration: render 3-second Reel from first JPEG in claude-lane/media/', {
+test('integration: render 5-second Reel from first JPEG in claude-lane/media/', {
   skip: skipReason || undefined,
 }, async () => {
   const jpeg = findFirstJpeg();
@@ -185,7 +185,7 @@ test('integration: render 3-second Reel from first JPEG in claude-lane/media/', 
   const stamp = Date.now();
   const bedPath = join(tmp, `test-bed-${stamp}.m4a`);
   const mp4Path = join(tmp, `test-reel-${stamp}.mp4`);
-  const SECONDS = 3;
+  const SECONDS = 5; // newsBedArgs minimum is 5 s
 
   // Generate audio bed
   generateAudioBed(bedPath, SECONDS);
@@ -212,7 +212,7 @@ test('integration: render 3-second Reel from first JPEG in claude-lane/media/', 
   assert.equal(s.height, 1920, 'height must be 1920');
   const duration = parseFloat(s.duration);
   assert.ok(
-    duration >= 2.5 && duration <= 3.5,
+    duration >= SECONDS - 0.5 && duration <= SECONDS + 0.5,
     `duration ${duration}s should be close to ${SECONDS}s`,
   );
 });
