@@ -1,24 +1,37 @@
 name: Claude Lane — Daily News Reel
 
 # Phase 7: Publishes one daily news-summary Reel covering the top 4 global
-# stories from the last 24 hours. Runs at 14:00 UTC (10 am EST / 9 am Mexico
-# City) every day. See docs/CLAUDE_LANE.md "Phase 7 — Daily News Summary Reel".
+# stories from the last 24 hours. See docs/CLAUDE_LANE.md "Phase 7 — Daily News
+# Summary Reel".
 #
-# Safety invariants (same as all Claude Lane workflows):
+# Several cron slots (watchdog 2026-11-11): GitHub silently dropped the single
+# 14:00 UTC run on 2026-11-11, and scheduled runs in this repo are often delayed
+# by hours. The first slot that runs publishes; every later slot (and any manual
+# run) finds today's record in claude-lane/queue/ and stops in the preflight,
+# whatever its status. So there is at most one daily Reel per UTC day.
+#
+# Safety invariants (same as all Claude Lane workflows, enforced in
+# scripts/claude-lane/daily-reel-publish.mjs):
 # - Kill switch: does nothing unless CLAUDE_LANE_ENABLED == 'true'.
-# - Never modifies queue/ records.
-# - Publishing happens only through the reviewed Instagram Graph API steps below.
-# - Any failure (TTS, render, IG API) exits non-zero; no blind retries.
+# - Nothing while any lane record is publishing / publish_unknown.
+# - Durable claim (status publishing, committed with the MP4) before any
+#   Instagram call; one media_publish per attempt; ambiguous -> publish_unknown,
+#   never retried. Never touches queue/.
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '7 14 * * *'
+    - cron: '37 16 * * *'
+    - cron: '7 19 * * *'
+    - cron: '37 21 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Same group as the pipeline and the Facebook mirror: one writer of
+# claude-lane/queue/ at a time.
 concurrency:
-  group: claude-lane-daily-reel
+  group: claude-lane
   cancel-in-progress: false
 
 jobs:
@@ -47,20 +60,33 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install media tools
+      # ── Preflight (reconcile + read-only gate) ───────────────────────────────
+      - name: Preflight
+        id: preflight
         if: steps.kill-switch.outputs.skip != 'true'
+        env:
+          CLAUDE_LANE_ENABLED:    ${{ vars.CLAUDE_LANE_ENABLED }}
+          IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          IG_CLAUDE_USER_ID:      '17841423605720355'
+        run: |
+          git config user.name  matrix24-claude-lane
+          git config user.email matrix24-claude-lane@users.noreply.github.com
+          node scripts/claude-lane/run-daily-reel-publish.mjs --check
+
+      - name: Install media tools
+        if: steps.kill-switch.outputs.skip != 'true' && steps.preflight.outputs.proceed == 'true'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends ffmpeg jq fonts-dejavu-core >/dev/null
 
       - name: Install Pillow (card v1 fallback)
-        if: steps.kill-switch.outputs.skip != 'true'
+        if: steps.kill-switch.outputs.skip != 'true' && steps.preflight.outputs.proceed == 'true'
         run: python3 -m pip install --quiet 'pillow==12.*'
 
       # ── TTS tools (optional; failures fall back to bed-only) ─────────────────
       - name: Install TTS tools
         id: tts-install
-        if: steps.kill-switch.outputs.skip != 'true'
+        if: steps.kill-switch.outputs.skip != 'true' && steps.preflight.outputs.proceed == 'true'
         continue-on-error: true
         run: |
           sudo apt-get install -y --no-install-recommends espeak >/dev/null
@@ -68,7 +94,7 @@ jobs:
 
       # ── Card v2 dependencies (optional; failures fall back to v1 card) ───────
       - name: Card v2 dependencies
-        if: steps.kill-switch.outputs.skip != 'true'
+        if: steps.kill-switch.outputs.skip != 'true' && steps.preflight.outputs.proceed == 'true'
         continue-on-error: true
         timeout-minutes: 4
         run: |
@@ -78,7 +104,7 @@ jobs:
       # ── Build daily Reel ─────────────────────────────────────────────────────
       - name: Build daily Reel
         id: build
-        if: steps.kill-switch.outputs.skip != 'true'
+        if: steps.kill-switch.outputs.skip != 'true' && steps.preflight.outputs.proceed == 'true'
         env:
           CLAUDE_LANE_ENABLED: ${{ vars.CLAUDE_LANE_ENABLED }}
           CF_AI_TOKEN:         ${{ secrets.CF_AI_TOKEN }}
@@ -103,7 +129,7 @@ jobs:
 
       # ── Verify with ffprobe ───────────────────────────────────────────────────
       - name: Verify MP4 with ffprobe
-        if: steps.kill-switch.outputs.skip != 'true'
+        if: steps.kill-switch.outputs.skip != 'true' && steps.preflight.outputs.proceed == 'true'
         env:
           MP4_PATH: ${{ steps.build.outputs.mp4_path }}
           CONTENT_ID: ${{ steps.build.outputs.content_id }}
@@ -121,165 +147,21 @@ jobs:
             exit 1
           fi
 
-      # ── Dry run: upload artifact (no publish) ─────────────────────────────────
+      # ── Publish (or dry run) through the lane engine ─────────────────────────
+      - name: Publish daily Reel
+        if: steps.kill-switch.outputs.skip != 'true' && steps.preflight.outputs.proceed == 'true'
+        env:
+          CLAUDE_LANE_ENABLED:    ${{ vars.CLAUDE_LANE_ENABLED }}
+          IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
+          IG_CLAUDE_USER_ID:      '17841423605720355'
+          LANE_OUT:               ${{ runner.temp }}/lane-out
+          DAILY_REEL_ID:          ${{ steps.build.outputs.content_id }}
+        run: node scripts/claude-lane/run-daily-reel-publish.mjs
+
       - name: Upload dry-run artifact
-        if: vars.CLAUDE_LANE_ENABLED != 'true' && steps.kill-switch.outputs.skip != 'true'
+        if: always() && vars.CLAUDE_LANE_ENABLED != 'true' && steps.preflight.outputs.proceed == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: daily-reel-preview-${{ steps.build.outputs.content_id }}
           path: ${{ runner.temp }}/lane-out
           if-no-files-found: ignore
-
-      # ── Live: commit MP4 to repository ────────────────────────────────────────
-      - name: Commit MP4 to repository
-        id: commit-mp4
-        if: vars.CLAUDE_LANE_ENABLED == 'true' && steps.kill-switch.outputs.skip != 'true'
-        env:
-          MP4_PATH:   ${{ steps.build.outputs.mp4_path }}
-          CONTENT_ID: ${{ steps.build.outputs.content_id }}
-        run: |
-          git config user.name  matrix24-claude-lane
-          git config user.email matrix24-claude-lane@users.noreply.github.com
-          DEST="claude-lane/media/reels/${CONTENT_ID}.mp4"
-          mkdir -p "$(dirname "$DEST")"
-          cp "$MP4_PATH" "$DEST"
-          git add "$DEST"
-          git commit -m "chore(claude-lane): add daily reel ${CONTENT_ID}"
-          git pull --rebase origin main
-          git push origin main
-          REPO="${{ github.repository }}"
-          VIDEO_URL="https://raw.githubusercontent.com/${REPO}/main/${DEST}"
-          echo "video_url=${VIDEO_URL}" >> "$GITHUB_OUTPUT"
-          echo "::notice::Daily Reel MP4 committed: ${VIDEO_URL}"
-
-      - name: Wait for CDN propagation
-        if: vars.CLAUDE_LANE_ENABLED == 'true' && steps.kill-switch.outputs.skip != 'true'
-        run: sleep 30
-
-      # ── Build Instagram container params ──────────────────────────────────────
-      - name: Build container params
-        id: container-params
-        if: vars.CLAUDE_LANE_ENABLED == 'true' && steps.kill-switch.outputs.skip != 'true'
-        env:
-          VIDEO_URL:  ${{ steps.commit-mp4.outputs.video_url }}
-          JSON_PATH:  ${{ steps.build.outputs.json_path }}
-        run: |
-          PARAMS=$(node --input-type=module << 'JSEOF'
-          import { buildReelContainerParams } from './scripts/claude-lane/reel-render.mjs';
-          import { readFileSync } from 'node:fs';
-          const meta = JSON.parse(readFileSync(process.env.JSON_PATH, 'utf8'));
-          const record = {
-            caption_en: meta.caption_en || meta.caption || '',
-            hashtags:   meta.hashtags || [],
-            image_url:  null,
-          };
-          const p = buildReelContainerParams(record, process.env.VIDEO_URL, null);
-          process.stdout.write(JSON.stringify(p));
-          JSEOF
-          )
-          echo "params=${PARAMS}" >> "$GITHUB_OUTPUT"
-
-      # ── Create Reels container ────────────────────────────────────────────────
-      - name: Create Reels container
-        id: container
-        if: vars.CLAUDE_LANE_ENABLED == 'true' && steps.kill-switch.outputs.skip != 'true'
-        env:
-          IG_USER_ID: '17841423605720355'
-          IG_TOKEN:   ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
-          PARAMS:     ${{ steps.container-params.outputs.params }}
-        run: |
-          RESPONSE=$(curl -sSf -X POST \
-            "https://graph.instagram.com/v23.0/${IG_USER_ID}/media" \
-            -H 'Content-Type: application/json' \
-            -H "Authorization: Bearer ${IG_TOKEN}" \
-            --data-raw "$PARAMS")
-          CREATION_ID=$(echo "$RESPONSE" | jq -r '.id // empty')
-          if [ -z "$CREATION_ID" ]; then
-            echo "::error::Container creation returned no id — response: $(echo $RESPONSE | head -c 500)"
-            exit 1
-          fi
-          echo "creation_id=${CREATION_ID}" >> "$GITHUB_OUTPUT"
-          echo "::notice::Daily Reel container created: ${CREATION_ID}"
-
-      # ── Poll container status ─────────────────────────────────────────────────
-      - name: Poll container status
-        if: vars.CLAUDE_LANE_ENABLED == 'true' && steps.kill-switch.outputs.skip != 'true'
-        env:
-          IG_USER_ID:   '17841423605720355'
-          IG_TOKEN:     ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
-          CREATION_ID:  ${{ steps.container.outputs.creation_id }}
-        run: |
-          for i in $(seq 1 16); do
-            sleep 15
-            RESPONSE=$(curl -sSf \
-              "https://graph.instagram.com/v23.0/${CREATION_ID}?fields=status_code,status" \
-              -H "Authorization: Bearer ${IG_TOKEN}")
-            STATUS=$(echo "$RESPONSE" | jq -r '.status_code // "UNKNOWN"')
-            echo "Poll ${i}/16: ${STATUS}"
-            if [ "$STATUS" = "FINISHED" ]; then
-              echo "::notice::Daily Reel container ready after ${i} polls."
-              exit 0
-            fi
-            if [ "$STATUS" = "ERROR" ]; then
-              echo "::error::Daily Reel container processing failed with status ERROR"
-              exit 1
-            fi
-          done
-          echo "::error::Daily Reel container did not reach FINISHED within 4 minutes (16 x 15 s)"
-          exit 1
-
-      - name: Settle before publish
-        if: vars.CLAUDE_LANE_ENABLED == 'true' && steps.kill-switch.outputs.skip != 'true'
-        run: sleep 20
-
-      # ── Publish Reel ──────────────────────────────────────────────────────────
-      - name: Publish Reel
-        id: media-publish
-        if: vars.CLAUDE_LANE_ENABLED == 'true' && steps.kill-switch.outputs.skip != 'true'
-        env:
-          IG_USER_ID:  '17841423605720355'
-          IG_TOKEN:    ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}
-          CREATION_ID: ${{ steps.container.outputs.creation_id }}
-        run: |
-          RESPONSE=$(curl -sSf -X POST \
-            "https://graph.instagram.com/v23.0/${IG_USER_ID}/media_publish" \
-            -H 'Content-Type: application/json' \
-            -H "Authorization: Bearer ${IG_TOKEN}" \
-            --data-raw "{\"creation_id\":\"${CREATION_ID}\"}")
-          REEL_ID=$(echo "$RESPONSE" | jq -r '.id // empty')
-          if [ -z "$REEL_ID" ]; then
-            echo "::error::media_publish returned no id"
-            exit 1
-          fi
-          echo "reel_media_id=${REEL_ID}" >> "$GITHUB_OUTPUT"
-          echo "::notice::Daily Reel published: ${REEL_ID}"
-
-      # ── Write queue record ────────────────────────────────────────────────────
-      - name: Write queue record
-        if: vars.CLAUDE_LANE_ENABLED == 'true' && steps.kill-switch.outputs.skip != 'true'
-        env:
-          CONTENT_ID:    ${{ steps.build.outputs.content_id }}
-          REEL_MEDIA_ID: ${{ steps.media-publish.outputs.reel_media_id }}
-          JSON_PATH:     ${{ steps.build.outputs.json_path }}
-        run: |
-          node --input-type=module << 'JSEOF'
-          import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-          import { execFileSync } from 'node:child_process';
-          const id    = process.env.CONTENT_ID;
-          const meta  = JSON.parse(readFileSync(process.env.JSON_PATH, 'utf8'));
-          const dest  = `claude-lane/queue/${id}.json`;
-          const record = {
-            content_id:    id,
-            status:        'published',
-            reel_media_id: process.env.REEL_MEDIA_ID,
-            story_ids:     meta.story_ids || [],
-            published_at:  new Date().toISOString(),
-            caption:       meta.caption || '',
-          };
-          mkdirSync('claude-lane/queue', { recursive: true });
-          writeFileSync(dest, JSON.stringify(record, null, 2));
-          execFileSync('git', ['add', dest]);
-          execFileSync('git', ['commit', '-m', `claude-lane: daily-reel published ${id}`]);
-          execFileSync('git', ['pull', '--rebase', 'origin', 'main']);
-          execFileSync('git', ['push', 'origin', 'main']);
-          JSEOF

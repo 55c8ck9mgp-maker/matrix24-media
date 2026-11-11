@@ -248,6 +248,34 @@ offline (edge-tts is pip-installable from PyPI; espeak is an Ubuntu package).
 **Rollback**: revert this PR. The pipeline falls back to bed-only Reels
 (Phase 5 behavior). No queue records are affected; no published posts change.
 
+## Phase 7 — Daily News Summary Reel (PR #243; hardened 2026-11-11, Justen chose this as the only format)
+
+`claude-lane-daily-reel.yml` publishes one Reel per UTC day summarizing the top
+4 stories of the last 24 h (`run-daily-reel.mjs` renders it). The every-4-hours
+pipeline schedule was removed in #243; `claude-lane-pipeline.yml` is manual only.
+
+Publishing goes through `scripts/claude-lane/daily-reel-publish.mjs`
+(CLI `run-daily-reel-publish.mjs`), which applies the lane rules above:
+- The Reel is a normal lane record, `claude-<yyyymmdd>-daily-reel`,
+  `media_format: reel`, with the cover JPEG as `image_url`, the union of the
+  stories' sources, and bilingual numbered captions. It passes the validator.
+- Preflight (before rendering, and again before publishing): reconcile, then
+  stop if any record is `publishing`/`publish_unknown`, if today's record
+  already exists in any status, or if spacing applies. Quota floor as rule 5.
+- Durable claim (`publishing`, committed with the MP4 and JPEG) before any
+  Instagram call; one `media_publish`; ambiguous -> `publish_unknown` (lane
+  blocked until reconciled or discarded by Justen); container failure ->
+  `not_invoked` release, and the day is not retried.
+- Cron slots 14:07, 16:37, 19:07 and 21:37 UTC: GitHub dropped the single
+  14:00 slot on 2026-11-11. The first slot that runs publishes; the rest stop
+  in preflight.
+- Shares the `claude-lane` concurrency group with the pipeline and Facebook.
+- The Facebook mirror skips Reel records (it posts photos only).
+- The 2026-11-11 Reel (IG media 18125531380980871) was published at 21:15 UTC by the
+  pre-hardening workflow (its 14:00 cron fired 7 h late) with a non-schema record.
+  It is not edited by hand; `isLegacyDailyReel` accepts exactly that id and shape
+  in the queue validator, and it closes 2026-11-11 for the new preflight.
+
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
 
 A `publish_unknown` record blocks the whole lane until it is resolved. The
