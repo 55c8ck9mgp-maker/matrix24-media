@@ -43,9 +43,9 @@
       "United Arab Emirates": "Emiratos Árabes Unidos"
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261110-russia-ukraine-us-talks-in-abu-dhabi.jpg",
-  "publish_attempt_id": null,
+  "publish_attempt_id": "dfe92c5f-6247-49ab-b060-2b2311f67efb",
   "ig_media_id": null,
   "history": [
     {
@@ -57,7 +57,13 @@
       "event": "rendered",
       "renderer": "v2",
       "ai_illustration": true
+    },
+    {
+      "at": "2026-11-11T05:25:58.440Z",
+      "event": "reserved",
+      "publish_attempt_id": "dfe92c5f-6247-49ab-b060-2b2311f67efb"
     }
   ],
-  "ai_illustration": true
+  "ai_illustration": true,
+  "reserved_at": "2026-11-11T05:25:58.440Z"
 }
