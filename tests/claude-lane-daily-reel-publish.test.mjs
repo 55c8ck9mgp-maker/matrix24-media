@@ -185,3 +185,21 @@ test('Facebook mirror skips Reel records (it posts photos only)', async () => {
   const r = await runFacebook({ mode: 'live', enabled: true, store, fb, now: NOW, clock: () => NOW });
   assert.equal(r.outcome, 'no_candidate'); assert.ok(!fb.calls.includes('post'));
 });
+
+test('legacy daily-Reel record (2026-11-11, pre-hardening) is accepted only by id and exact shape', async () => {
+  const { isLegacyDailyReel } = await import('../scripts/claude-lane/lane-record.mjs');
+  const legacy = { content_id: ID, status: 'published', reel_media_id: '18125531380980871', story_ids: ['a'],
+    published_at: '2026-11-11T21:15:27.565Z', caption: 'x' };
+  assert.equal(isLegacyDailyReel(legacy), true);
+  assert.ok(validateLaneRecord(legacy).length > 0, 'the lane validator itself still rejects it');
+  assert.equal(isLegacyDailyReel({ ...legacy, content_id: 'claude-20261112-daily-reel' }), false);
+  assert.equal(isLegacyDailyReel({ ...legacy, status: 'publish_unknown' }), false);
+  assert.equal(isLegacyDailyReel({ ...legacy, reel_media_id: null }), false);
+  assert.equal(isLegacyDailyReel({ ...legacy, extra: 1 }), false);
+  // It closes the day: the hardened workflow will not publish a second Reel for 2026-11-11.
+  assert.equal(preflight([{ record: legacy, sha: 's' }], { contentId: ID, now: NOW }).outcome, 'already_exists');
+  // And the Facebook mirror never selects it.
+  const fb = { calls: [], async pageAccess() { return { ok: true }; }, async postPhoto() { this.calls.push('post'); return {}; } };
+  const r = await runFacebook({ mode: 'live', enabled: true, store: fakeStore([legacy]), fb, now: NOW, clock: () => NOW });
+  assert.equal(r.outcome, 'no_candidate');
+});

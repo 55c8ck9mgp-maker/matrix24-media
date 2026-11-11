@@ -271,6 +271,10 @@ Publishing goes through `scripts/claude-lane/daily-reel-publish.mjs`
   in preflight.
 - Shares the `claude-lane` concurrency group with the pipeline and Facebook.
 - The Facebook mirror skips Reel records (it posts photos only).
+- The 2026-11-11 Reel (IG media 18125531380980871) was published at 21:15 UTC by the
+  pre-hardening workflow (its 14:00 cron fired 7 h late) with a non-schema record.
+  It is not edited by hand; `isLegacyDailyReel` accepts exactly that id and shape
+  in the queue validator, and it closes 2026-11-11 for the new preflight.
 
 ## Recovery: discarding a `publish_unknown` (owner only, added 2026-10-08)
 

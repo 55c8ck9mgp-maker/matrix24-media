@@ -128,6 +128,21 @@ export function validateLaneRecord(record) {
   return errors;
 }
 
+// Records written by the first (pre-hardening) daily-Reel workflow on
+// 2026-11-11, before it went through the lane engine. They are real, terminal
+// publications and must not be edited by hand (CLAUDE.md), so the queue
+// directory validator accepts them by explicit id and exact legacy shape only.
+// validateLaneRecord still rejects them, so no lane code can write one. Other
+// scripts ignore them: `published` never blocks the lane, and with no history
+// the Facebook mirror never selects them.
+export const LEGACY_DAILY_REEL_IDS = Object.freeze(['claude-20261111-daily-reel']);
+const LEGACY_KEYS = 'caption,content_id,published_at,reel_media_id,status,story_ids';
+export function isLegacyDailyReel(r) {
+  return Boolean(r) && typeof r === 'object' && LEGACY_DAILY_REEL_IDS.includes(r.content_id) && r.status === 'published'
+    && /^\d+$/.test(String(r.reel_media_id ?? '')) && ISO_RE.test(String(r.published_at ?? ''))
+    && Object.keys(r).sort().join() === LEGACY_KEYS;
+}
+
 // The owner's discard record: who decided, for which attempt, and the evidence
 // (a complete feed read with zero matches).
 export function isOwnerDiscard(entry, attemptId) {
