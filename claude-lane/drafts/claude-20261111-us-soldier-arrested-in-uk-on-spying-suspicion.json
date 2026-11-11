@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-us-soldier-arrested-in-uk-on-spying-suspicion",
+  "status": "draft",
+  "created_at": "2026-11-11T00:51:41Z",
+  "category": "Security / Geopolitics",
+  "headline": "US Army soldier arrested in England on suspicion of spying for Russia",
+  "headline_es": "Detienen en Inglaterra a un soldado del Ejército de EE. UU. por presunto espionaje para Rusia",
+  "caption_en": "A 41-year-old US Army soldier was arrested near Gloucester, England, on suspicion of offences under the UK's National Security Act linked to Russia. London's Metropolitan Police led the counterterrorism investigation together with the FBI and the US military. He is being held at a London police station and has not been named.",
+  "caption_es": "Un soldado del Ejército de EE. UU. de 41 años fue detenido cerca de Gloucester, Inglaterra, por presuntos delitos de la Ley de Seguridad Nacional británica vinculados a Rusia. La Policía Metropolitana de Londres dirigió la investigación antiterrorista junto con el FBI y el ejército estadounidense. Permanece en una comisaría de Londres y su nombre no se ha divulgado.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage",
+    "https://abcnews.com/International/us-soldier-accused-spying-russia-arrested-uk-officials/story?id=138023103"
+  ],
+  "source_names": ["Al Jazeera", "ABC News"],
+  "hashtags": ["#MATRIX24", "#ReinoUnido", "#Rusia", "#Espionaje"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La policía británica sospecha que ayudó a un servicio de inteligencia extranjero. El FBI calificó el caso como una detención importante.",
+  "summary_en": "UK police suspect he assisted a foreign intelligence service. The FBI called it an important arrest.",
+  "highlight_es": "espionaje para Rusia",
+  "highlight_en": "spying for Russia",
+  "visual_label": "Gloucester",
+  "image_prompt": "Quiet military barracks gate in the English countryside at dusk, wet road, chain-link fence and floodlights, overcast sky, a single unmarked police car parked nearby, muted cinematic tones, wide view",
+  "map": {
+    "focus": ["United Kingdom"],
+    "marker": {"lat": 51.86, "lon": -2.24, "label": "Gloucester"},
+    "labels": {"United Kingdom": "Reino Unido"}
+  }
+}

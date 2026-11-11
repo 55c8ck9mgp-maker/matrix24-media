@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-house-shelves-hegseth-impeachment",
+  "status": "draft",
+  "created_at": "2026-11-11T00:51:41Z",
+  "category": "World",
+  "headline": "US House votes 211-204 to shelve Hegseth impeachment resolution",
+  "headline_es": "La Cámara de EE. UU. archiva por 211 a 204 el juicio político contra Hegseth",
+  "caption_en": "The Republican-led US House voted 211-204 to send Thomas Massie's impeachment resolution against Defense Secretary Pete Hegseth to committee, effectively ending the effort for now. Massie was the only Republican to vote with Democrats against the referral. Democrats, who take control of Congress in January, could revive the issue.",
+  "caption_es": "La Cámara de Representantes de EE. UU., de mayoría republicana, votó 211 a 204 enviar a comisión la resolución de juicio político de Thomas Massie contra el secretario de Defensa, Pete Hegseth, lo que en la práctica frena el intento por ahora. Massie fue el único republicano que votó con los demócratas en contra. Los demócratas, que controlarán el Congreso en enero, podrían retomar el tema.",
+  "source_urls": [
+    "https://www.cbsnews.com/news/massie-hegseth-impeachment/",
+    "https://www.stripes.com/theaters/us/2026-11-10/house-vote-hegseth-impeachment-massie-23427346.html"
+  ],
+  "source_names": ["CBS News", "Stars and Stripes"],
+  "hashtags": ["#MATRIX24", "#Hegseth", "#EEUU", "#Congreso"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La resolución pasa a la Comisión Judicial, lo que la deja sin efecto. Massie dijo que no presentará otra.",
+  "summary_en": "The resolution goes to the Judiciary Committee, effectively killing it. Massie said he will not file another.",
+  "highlight_es": "archiva",
+  "highlight_en": "shelve",
+  "visual_label": "Capitolio",
+  "image_prompt": "Empty legislative chamber with rows of wooden desks and a raised speaker's rostrum, warm evening light through tall windows, an electronic vote board glowing in the background without readable text, wide cinematic view",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 38.89, "lon": -77.01, "label": "Washington"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

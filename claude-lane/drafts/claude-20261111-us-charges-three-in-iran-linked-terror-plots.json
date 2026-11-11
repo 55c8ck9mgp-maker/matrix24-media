@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-us-charges-three-in-iran-linked-terror-plots",
+  "status": "draft",
+  "created_at": "2026-11-11T00:51:41Z",
+  "category": "Security / Geopolitics",
+  "headline": "US charges three men over Iran-linked terror plots, including an attack on a UK air base",
+  "headline_es": "EE. UU. acusa a tres hombres por complots terroristas ligados a Irán, incluida una base británica",
+  "caption_en": "A superseding indictment unsealed in Manhattan federal court charges three Iranian and Iraqi men over nearly 20 attacks and attempted attacks on Jewish communities in Europe and the US. Prosecutors say they acted for Kata'ib Hizballah and Iran's Revolutionary Guard, and also targeted RAF Fairford, a British base used by US forces, in September. Only one defendant is in custody.",
+  "caption_es": "Una acusación ampliada revelada en un tribunal federal de Manhattan imputa a tres hombres iraníes e iraquíes por casi 20 ataques e intentos de ataque contra comunidades judías en Europa y EE. UU. La fiscalía afirma que actuaron para Kataib Hezbolá y la Guardia Revolucionaria de Irán, y que en septiembre apuntaron también a RAF Fairford, una base británica usada por fuerzas estadounidenses. Solo uno de los acusados está detenido.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/nation/u-s-charges-3-men-with-plotting-terror-attacks-including-planned-assault-on-uk-airbase",
+    "https://thenationaldesk.com/news/americas-news-now/iran-iranian-backed-operatives-raf-fairford-uk-air-base-us-forces-terrorism-indictment-coded-messages-justice-department-al-saadi",
+    "https://www.justice.gov/opa/pr/three-iranian-backed-operatives-indicted-their-roles-nearly-20-terrorist-attacks-and"
+  ],
+  "source_names": ["PBS NewsHour / AP", "The National Desk", "US Department of Justice"],
+  "hashtags": ["#MATRIX24", "#EEUU", "#Iran", "#Terrorismo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Según la fiscalía, el acusado detenido envió mensajes en clave desde una cárcel de Nueva York para dirigir el complot contra la base. Irán niega su implicación.",
+  "summary_en": "Prosecutors say the jailed defendant used coded messages from a New York jail to direct the base plot. Iran denies involvement.",
+  "highlight_es": "complots terroristas",
+  "highlight_en": "Iran-linked terror plots",
+  "visual_label": "RAF Fairford",
+  "image_prompt": "Federal courthouse facade with tall stone columns on an overcast morning, empty steps, and in a split background an airfield runway with a distant hangar under grey skies, sober cinematic tones, wide view",
+  "map": {
+    "focus": ["United States of America", "United Kingdom"],
+    "labels": {"United States of America": "Estados Unidos", "United Kingdom": "Reino Unido"}
+  }
+}
