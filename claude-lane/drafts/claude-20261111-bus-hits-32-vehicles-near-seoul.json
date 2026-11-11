@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-bus-hits-32-vehicles-near-seoul",
+  "status": "draft",
+  "created_at": "2026-11-11T06:53:07Z",
+  "category": "World",
+  "headline": "City bus slams into 32 vehicles near Seoul, injuring 57 during morning rush hour",
+  "headline_es": "Un autobús urbano choca contra 32 vehículos cerca de Seúl y deja 57 heridos en hora punta",
+  "caption_en": "A city bus struck 32 vehicles, including four buses, a truck and 27 cars, some of them waiting at a traffic light, in the Bundang district of Seongnam, south of Seoul, at about 7:34 a.m. on Wednesday. It came to a stop against a median barrier. Nine people were seriously injured and 48 suffered minor injuries; no deaths were reported.",
+  "caption_es": "Un autobús urbano chocó contra 32 vehículos, entre ellos cuatro autobuses, un camión y 27 coches, algunos detenidos en un semáforo, en el distrito de Bundang, en Seongnam, al sur de Seúl, hacia las 7:34 del miércoles. Se detuvo contra una barrera de la mediana. Nueve personas resultaron heridas de gravedad y 48 con lesiones leves; no se informó de fallecidos.",
+  "source_urls": [
+    "https://www.thestar.com.my/news/world/2026/11/11/nine-people-seriously-hurt-in-south-korea-bus-crash-involving-multiple-vehicles",
+    "https://www.koreatimes.co.kr/southkorea/society/20261111/9-people-seriously-hurt-in-bus-crash-involving-multiple-vehicles"
+  ],
+  "source_names": ["Reuters (via The Star)", "The Korea Times"],
+  "hashtags": ["#MATRIX24", "#CoreaDelSur", "#Seúl", "#Accidente"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El choque ocurrió en Bundang, en Seongnam, durante la hora punta matinal. Nueve heridos graves y 48 leves; no se reportaron muertos.",
+  "summary_en": "The crash happened in Bundang, Seongnam, during the morning commute. Nine people were seriously hurt and 48 slightly; no deaths reported.",
+  "highlight_es": "32 vehículos",
+  "highlight_en": "32 vehicles",
+  "visual_label": "Bundang",
+  "image_prompt": "Wide city boulevard at a traffic light in a modern Korean suburb at dawn, a green city bus stopped against a concrete median barrier, several empty cars stopped in lanes behind it, flashing amber emergency lights in the distance, apartment towers in background, no people, cinematic",
+  "map": {
+    "focus": ["South Korea"],
+    "marker": {"lat": 37.38, "lon": 127.12, "label": "Seongnam"},
+    "labels": {"South Korea": "Corea del Sur"}
+  }
+}

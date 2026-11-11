@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-spain-holds-general-strike-over-housing",
+  "status": "draft",
+  "created_at": "2026-11-11T06:53:07Z",
+  "category": "Economy",
+  "headline": "Spain holds 24-hour general strike over housing and wages, its biggest since 2012",
+  "headline_es": "España vive una huelga general de 24 horas por la vivienda y los salarios, la mayor desde 2012",
+  "caption_en": "Workers across Spain are on a 24-hour general strike on Wednesday demanding action on housing and better wages, the largest such walkout since 2012. The Tenants' Union drove the mobilization, which followed the eviction of an 87-year-old Madrid woman who later died. Demonstrations are planned across the country, weeks before a general election.",
+  "caption_es": "Trabajadores de toda España secundan este miércoles una huelga general de 24 horas para exigir medidas sobre la vivienda y mejores salarios, la mayor convocatoria de este tipo desde 2012. El Sindicato de Inquilinas impulsó la movilización, que siguió al desahucio de una mujer de 87 años en Madrid que murió después. Hay manifestaciones previstas en todo el país, a semanas de unas elecciones generales.",
+  "source_urls": [
+    "https://www.thelocal.es/20261110/spain-faces-general-strike-over-housing-ahead-of-election",
+    "https://www.eldiario.es/economia/espana-vive-huelga-general-inedita-derecho-vivienda-sueldos-dignos_1_13652980.html"
+  ],
+  "source_names": [
+    "AFP (via The Local)",
+    "elDiario.es"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#España",
+    "#HuelgaGeneral",
+    "#Vivienda"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Es la mayor convocatoria de huelga general desde 2012. Los trabajadores exigen medidas sobre la vivienda y mejores salarios.",
+  "summary_en": "It is the largest general strike call since 2012. Workers demand action on housing and greater purchasing power.",
+  "highlight_es": "huelga general",
+  "highlight_en": "general strike",
+  "visual_label": "Huelga 11N",
+  "image_prompt": "Empty Madrid city street at morning with shuttered shopfronts and closed metal blinds, apartment balconies above, a parked empty city bus, soft overcast light, quiet atmosphere of a nationwide strike, wide cinematic view, no people, no text",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 40.42,
+      "lon": -3.7,
+      "label": "Madrid"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  }
+}

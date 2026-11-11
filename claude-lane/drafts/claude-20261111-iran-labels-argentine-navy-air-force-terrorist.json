@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-iran-labels-argentine-navy-air-force-terrorist",
+  "status": "draft",
+  "created_at": "2026-11-11T06:53:07Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran designates Argentina's navy and air force as terrorist organizations",
+  "headline_es": "Irán designa como organizaciones terroristas a la Armada y la Fuerza Aérea de Argentina",
+  "caption_en": "Iran's Foreign Ministry said on Wednesday it had designated Argentina's navy and air force as terrorist organizations, calling it a reciprocal response to Argentina's designation earlier this year of Iran's Revolutionary Guard as a terrorist group. Tehran warned that Argentina's government would bear responsibility for all consequences. Buenos Aires links the Guard to the 1994 AMIA bombing that killed 85 people.",
+  "caption_es": "El Ministerio de Exteriores de Irán anunció el miércoles que designó como organizaciones terroristas a la Armada y la Fuerza Aérea de Argentina, en respuesta recíproca a la decisión argentina, adoptada este año, de declarar terrorista a la Guardia Revolucionaria iraní. Teherán advirtió que el Gobierno argentino será responsable de todas las consecuencias. Buenos Aires vincula a la Guardia con el atentado contra la AMIA de 1994, que dejó 85 muertos.",
+  "source_urls": [
+    "https://theprint.in/world/iran-designates-argentinas-navy-and-air-force-as-terrorist-organizations/3095762/",
+    "https://www.infobae.com/america/agencias/2026/11/11/iran-designa-como-organizaciones-terroristas-a-la-armada-y-la-fuerza-aerea-de-argentina/"
+  ],
+  "source_names": ["Reuters (via ThePrint)", "EFE (via Infobae)"],
+  "hashtags": ["#MATRIX24", "#Irán", "#Argentina", "#Geopolítica"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Teherán lo presenta como una medida recíproca por la designación argentina de la Guardia Revolucionaria como grupo terrorista.",
+  "summary_en": "Tehran calls it a reciprocal step after Argentina designated Iran's Revolutionary Guard a terrorist group.",
+  "highlight_es": "Armada y la Fuerza Aérea",
+  "highlight_en": "navy and air force",
+  "visual_label": "Irán-Argentina",
+  "image_prompt": "Grey naval patrol ship at anchor in a calm South Atlantic harbor at dusk, two military jets crossing a stormy sky above, no markings or insignia, moody diplomatic tension atmosphere, wide cinematic view",
+  "map": {
+    "focus": ["Iran", "Argentina"],
+    "labels": {"Iran": "Irán", "Argentina": "Argentina"}
+  }
+}
