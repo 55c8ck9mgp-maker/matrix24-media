@@ -10,12 +10,12 @@ import { tmpdir } from 'node:os';
 import { generateBilingualTTS, ES_VOICE_EDGE, EN_VOICE_EDGE } from '../scripts/claude-lane/reel-tts.mjs';
 import { buildVoiceConcatArgs, buildVoiceoverMixArgs } from '../scripts/claude-lane/reel-render.mjs';
 
-// ── buildVoiceConcatArgs ────────────────────────────────────────────────────
+// ── buildVoiceConcatArgs ────────────────────────────────────────────
 
 test('buildVoiceConcatArgs: rejects when both voices null', () => {
   const r = buildVoiceConcatArgs({ esFile: null, enFile: null, outPath: '/tmp/out.mp3' });
   assert.equal(r.ok, false);
-  assert.equal(r.reason, 'at_least_one_voice_required');
+  assert.equal(r.reason, 'no_valid_voice_files');
 });
 
 test('buildVoiceConcatArgs: rejects non-mp3 outPath', () => {
@@ -46,12 +46,12 @@ test('buildVoiceConcatArgs: both voices — uses concat filter', () => {
   assert.ok(r.args.includes('/tmp/en.mp3'));
   assert.ok(r.args.some(a => typeof a === 'string' && a.includes('concat')),
     'should use FFmpeg concat filter for two voices');
-  // Silence gap should be present
-  assert.ok(r.args.some(a => typeof a === 'string' && a.includes('aevalsrc=0')),
+  // Silence gap should be present — implementation uses anullsrc with atrim
+  assert.ok(r.args.some(a => typeof a === 'string' && a.includes('anullsrc')),
     'should include silence between ES and EN');
 });
 
-// ── buildVoiceoverMixArgs ───────────────────────────────────────────────────
+// ── buildVoiceoverMixArgs ───────────────────────────────────────────
 
 test('buildVoiceoverMixArgs: rejects non-m4a bedPath', () => {
   const r = buildVoiceoverMixArgs({ bedPath: '/tmp/b.mp3', voicePath: '/tmp/v.mp3', outPath: '/tmp/o.m4a' });
@@ -62,7 +62,7 @@ test('buildVoiceoverMixArgs: rejects non-m4a bedPath', () => {
 test('buildVoiceoverMixArgs: rejects missing voicePath', () => {
   const r = buildVoiceoverMixArgs({ bedPath: '/tmp/b.m4a', voicePath: null, outPath: '/tmp/o.m4a' });
   assert.equal(r.ok, false);
-  assert.equal(r.reason, 'voicePath_required');
+  assert.equal(r.reason, 'voicePath_must_be_mp3');
 });
 
 test('buildVoiceoverMixArgs: rejects non-m4a outPath', () => {
@@ -101,7 +101,7 @@ test('buildVoiceoverMixArgs: bed ducked to 0.25', () => {
     'bed should be ducked to 0.25 while voice plays');
 });
 
-// ── generateBilingualTTS with mocked exec ───────────────────────────────────
+// ── generateBilingualTTS with mocked exec ────────────────────────────────────
 
 test('generateBilingualTTS: returns null when both texts empty', async () => {
   const tmpDir = join(tmpdir(), `tts-test-${Date.now()}`);
@@ -128,10 +128,14 @@ test('generateBilingualTTS: returns null when exec always throws', async () => {
 test('generateBilingualTTS: returns paths when exec writes output files', async () => {
   const tmpDir = join(tmpdir(), `tts-test-${Date.now()}`);
   mkdirSync(tmpDir, { recursive: true });
-  // Mock exec: writes a 1-byte placeholder for any .mp3 output argument
+  // Mock exec: writes a 1-byte placeholder for any .wav or .mp3 output argument.
+  // tryEspeak first writes a .wav (the wavPath arg to espeak), then checks
+  // existsSync(wavPath) before calling ffmpeg which writes the .mp3.
   const fakeExec = (_cmd, args) => {
-    const out = args.find(a => typeof a === 'string' && a.endsWith('.mp3'));
-    if (out) writeFileSync(out, 'x'); // non-empty placeholder
+    for (const a of args) {
+      if (typeof a === 'string' && (a.endsWith('.mp3') || a.endsWith('.wav')))
+        writeFileSync(a, 'x'); // non-empty placeholder
+    }
   };
   const r = await generateBilingualTTS(
     { headline_es: 'Titular', summary_es: '', headline_en: 'Headline', summary_en: '', tmpDir },
