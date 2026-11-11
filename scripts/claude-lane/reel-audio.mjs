@@ -6,7 +6,7 @@
 export const DEFAULT_SECONDS = 30;
 
 export function newsBedArgs({ seconds = DEFAULT_SECONDS, out }) {
-  if (!Number.isInteger(seconds) || seconds < 5 || seconds > 60) return { ok: false, reason: 'duration_out_of_range' };
+  if (!Number.isInteger(seconds) || seconds < 5 || seconds > 90) return { ok: false, reason: 'duration_out_of_range' };
   if (typeof out !== 'string' || !out.endsWith('.m4a')) return { ok: false, reason: 'output_must_be_m4a' };
   const fadeStart = Math.max(0, seconds - 2);
   return {
