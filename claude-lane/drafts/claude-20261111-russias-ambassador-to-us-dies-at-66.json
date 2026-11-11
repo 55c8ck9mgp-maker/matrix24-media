@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-russias-ambassador-to-us-dies-at-66",
+  "status": "draft",
+  "created_at": "2026-11-11T18:56:30Z",
+  "category": "Security / Geopolitics",
+  "headline": "Alexander Darchiev, Russia's ambassador to the United States, dies suddenly at 66",
+  "headline_es": "Muere de forma repentina Alexander Darchiev, embajador de Rusia en EE. UU., a los 66 años",
+  "caption_en": "Russia's Foreign Ministry announced on Wednesday that Alexander Darchiev, its ambassador to the United States, has died at 66. No cause of death was given. Darchiev took charge of the embassy in Washington in early 2025, after serving as Russia's ambassador to Canada and heading the ministry's North America department.",
+  "caption_es": "El Ministerio de Exteriores de Rusia anunció el miércoles la muerte de Alexander Darchiev, su embajador en Estados Unidos, a los 66 años. No se informó la causa del fallecimiento. Darchiev asumió la embajada en Washington a comienzos de 2025, tras haber sido embajador de Rusia en Canadá y jefe del departamento de Norteamérica del ministerio.",
+  "source_urls": [
+    "https://www.themoscowtimes.com/2026/11/11/russias-ambassador-to-the-united-states-dies-at-66-a94232",
+    "https://abcnews.com/Politics/alexander-darchiev-russias-ambassador-united-states-dead-66/story?id=138048433"
+  ],
+  "source_names": [
+    "The Moscow Times",
+    "ABC News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Rusia",
+    "#EstadosUnidos",
+    "#Diplomacia"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Darchiev, experto en asuntos estadounidenses, trabajó antes en la embajada rusa en Washington. No se reveló la causa de la muerte.",
+  "summary_en": "Darchiev, a veteran expert on US affairs, had earlier served at Russia's embassy in Washington. The cause of death was not disclosed.",
+  "highlight_es": "embajador de Rusia",
+  "highlight_en": "Russia's ambassador",
+  "visual_label": "Washington",
+  "image_prompt": "Stately embassy building facade on a quiet Washington street in late autumn, bare trees, overcast sky, a closed iron gate, soft muted light, wide cinematic view",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 38.92,
+      "lon": -77.07,
+      "label": "Washington"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

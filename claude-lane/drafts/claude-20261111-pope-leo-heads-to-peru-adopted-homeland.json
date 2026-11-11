@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261111-pope-leo-heads-to-peru-adopted-homeland",
+  "status": "draft",
+  "created_at": "2026-11-11T18:56:30Z",
+  "category": "Colombia / Latin America",
+  "headline": "Pope Leo XIV leaves Argentina for Peru, his adopted homeland, on the last leg of his tour",
+  "headline_es": "El papa León XIV deja Argentina rumbo a Perú, su patria adoptiva, en la última etapa de su gira",
+  "caption_en": "Pope Leo XIV flew from Argentina to Peru on Wednesday after celebrating Mass at the Basilica of Luján, starting the final stage of his South American trip. Before becoming pope, he spent about two decades in Peru as a missionary and later as bishop of Chiclayo, where he is scheduled to return during the visit.",
+  "caption_es": "El papa León XIV voló el miércoles de Argentina a Perú tras celebrar misa en la Basílica de Luján, iniciando la etapa final de su viaje por Sudamérica. Antes de ser papa, pasó unas dos décadas en Perú como misionero y luego como obispo de Chiclayo, ciudad a la que tiene previsto volver durante la visita.",
+  "source_urls": [
+    "https://www.news4jax.com/news/world/2026/11/11/pope-leo-returns-to-what-is-expected-to-be-a-national-party-in-his-second-homeland-of-peru/",
+    "https://ewtnnews.com/vatican/live-updates-pope-leo-xiv-in-south-america"
+  ],
+  "source_names": [
+    "Associated Press",
+    "EWTN News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#PapaLeónXIV",
+    "#Perú",
+    "#Argentina"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Perú, donde vivió unos 20 años, es la última parada de la gira. Fue obispo de Chiclayo antes de ser elegido papa.",
+  "summary_en": "Peru, where he lived for about 20 years, is the tour's final stop. He was bishop of Chiclayo before being elected pope.",
+  "highlight_es": "Perú",
+  "highlight_en": "Peru",
+  "visual_label": "Lima",
+  "image_prompt": "White passenger jet descending over a coastal Andean city at golden hour, colonial cathedral towers and a large plaza below, ocean haze and mountains in the distance, wide cinematic view",
+  "map": {
+    "focus": [
+      "Peru"
+    ],
+    "marker": {
+      "lat": -12.05,
+      "lon": -77.04,
+      "label": "Lima"
+    },
+    "labels": {
+      "Peru": "Perú"
+    }
+  }
+}
