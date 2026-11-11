@@ -28,6 +28,10 @@ jobs:
       card_image_url: ${{ steps.lane-publish-result.outputs.card_image_url }}
       caption_en:     ${{ steps.lane-publish-result.outputs.caption_en }}
       hashtags:       ${{ steps.lane-publish-result.outputs.hashtags }}
+      headline_es:    ${{ steps.lane-publish-result.outputs.headline_es }}
+      summary_es:     ${{ steps.lane-publish-result.outputs.summary_es }}
+      headline_en:    ${{ steps.lane-publish-result.outputs.headline_en }}
+      summary_en:     ${{ steps.lane-publish-result.outputs.summary_en }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
@@ -88,6 +92,10 @@ jobs:
                   `card_image_url=${r.image_url || ''}`,
                   `caption_en=${(r.caption_en || '').replace(/[\n\r]/g, ' ').slice(0, 500)}`,
                   `hashtags=${JSON.stringify(r.hashtags || [])}`,
+                  `headline_es=${(r.headline_es || '').replace(/[\n\r]/g, ' ')}`,
+                  `summary_es=${(r.summary_es || '').replace(/[\n\r]/g, ' ')}`,
+                  `headline_en=${(r.headline || r.headline_en || '').replace(/[\n\r]/g, ' ')}`,
+                  `summary_en=${(r.summary_en || '').replace(/[\n\r]/g, ' ')}`,
                 ].join('\n') + '\n';
               }
             } catch (e) {
@@ -122,6 +130,10 @@ jobs:
       card_image_url: ${{ needs.pipeline.outputs.card_image_url }}
       caption_en:     ${{ needs.pipeline.outputs.caption_en }}
       hashtags:       ${{ needs.pipeline.outputs.hashtags }}
+      headline_es:    ${{ needs.pipeline.outputs.headline_es }}
+      summary_es:     ${{ needs.pipeline.outputs.summary_es }}
+      headline_en:    ${{ needs.pipeline.outputs.headline_en }}
+      summary_en:     ${{ needs.pipeline.outputs.summary_en }}
       dry_run:        false
     secrets:
       IG_CLAUDE_ACCESS_TOKEN: ${{ secrets.IG_CLAUDE_ACCESS_TOKEN }}

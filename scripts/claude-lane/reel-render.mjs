@@ -66,3 +66,80 @@ export function buildReelContainerParams(record, mediaUrl, audioUrl) { // eslint
   }
   return params;
 }
+
+// ── Phase 6: TTS voiceover FFmpeg helpers ─────────────────────────────────────
+
+/**
+ * buildVoiceConcatArgs: FFmpeg args to concatenate Spanish + 0.5s silence + English
+ * voices into a single MP3. If only one language file is provided, it is copied
+ * directly (no concat). At least one file must be a valid .mp3 path.
+ *
+ * @param {{ esFile: string|null, enFile: string|null, outPath: string }} opts
+ * @returns {{ ok: true, args: string[] } | { ok: false, reason: string }}
+ */
+export function buildVoiceConcatArgs({ esFile, enFile, outPath }) {
+  if (typeof outPath !== 'string' || !outPath.endsWith('.mp3'))
+    return { ok: false, reason: 'outPath_must_be_mp3' };
+  const voices = [esFile, enFile].filter(v => typeof v === 'string' && v.endsWith('.mp3'));
+  if (voices.length === 0) return { ok: false, reason: 'no_valid_voice_files' };
+  if (voices.length === 1) {
+    // Single voice — copy without re-encoding.
+    return {
+      ok: true,
+      args: [
+        '-hide_banner', '-loglevel', 'error', '-y',
+        '-i', voices[0],
+        '-c', 'copy',
+        outPath,
+      ],
+    };
+  }
+  // Both voices: ES + 0.5 s silence + EN, re-encoded to mono MP3.
+  return {
+    ok: true,
+    args: [
+      '-hide_banner', '-loglevel', 'error', '-y',
+      '-i', esFile,
+      '-f', 'lavfi', '-i', 'anullsrc=r=24000:cl=mono',
+      '-i', enFile,
+      '-filter_complex',
+      '[1:a]atrim=duration=0.5[sil];[0:a][sil][2:a]concat=n=3:v=0:a=1[out]',
+      '-map', '[out]',
+      '-t', '120',          // safety cap: combined narration ≤ 2 min
+      '-c:a', 'libmp3lame', '-q:a', '4',
+      outPath,
+    ],
+  };
+}
+
+/**
+ * buildVoiceoverMixArgs: FFmpeg args to mix the audio bed with a voice track.
+ * - Bed (input 0) is ducked to volume=0.25 (background).
+ * - Voice (input 1) plays at volume=1.0 (foreground), delayed by stingDelaySec.
+ * - Output duration matches the bed (amix duration=first → first input = bed).
+ *
+ * @param {{ bedPath: string, voicePath: string, outPath: string, stingDelaySec?: number }} opts
+ * @returns {{ ok: true, args: string[] } | { ok: false, reason: string }}
+ */
+export function buildVoiceoverMixArgs({ bedPath, voicePath, outPath, stingDelaySec = 1 }) {
+  if (typeof bedPath !== 'string' || !bedPath.endsWith('.m4a'))
+    return { ok: false, reason: 'bedPath_must_be_m4a' };
+  if (typeof voicePath !== 'string' || !voicePath.endsWith('.mp3'))
+    return { ok: false, reason: 'voicePath_must_be_mp3' };
+  if (typeof outPath !== 'string' || !outPath.endsWith('.m4a'))
+    return { ok: false, reason: 'outPath_must_be_m4a' };
+  const delayMs = Math.round(stingDelaySec * 1000);
+  return {
+    ok: true,
+    args: [
+      '-hide_banner', '-loglevel', 'error', '-y',
+      '-i', bedPath,
+      '-i', voicePath,
+      '-filter_complex',
+      `[0:a]volume=0.25[bed];[1:a]adelay=${delayMs}|${delayMs}[voice];[bed][voice]amix=inputs=2:duration=first:dropout_transition=2[out]`,
+      '-map', '[out]',
+      '-c:a', 'aac', '-b:a', '128k',
+      outPath,
+    ],
+  };
+}
