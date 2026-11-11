@@ -5,13 +5,17 @@
 // Returns { esFile, enFile } or null; never throws — failures surface to stderr.
 // See docs/CLAUDE_LANE.md "Phase 6 — TTS Reels".
 import { execFileSync } from 'node:child_process';
-import { existsSync, writeFileSync, mkdirSync } from 'node:fs';
+import { existsSync, mkdirSync, statSync } from 'node:fs';
 import path from 'node:path';
 
 export const ES_VOICE_EDGE  = 'es-MX-DaliaNeural';
 export const EN_VOICE_EDGE  = 'en-US-AriaNeural';
 export const ES_VOICE_SPEAK = 'es';
 export const EN_VOICE_SPEAK = 'en';
+
+function statSize(p) {
+  try { return statSync(p).size; } catch { return 0; }
+}
 
 // Try edge-tts via Python: executes a one-liner that imports edge_tts and saves
 // the audio to outPath. Uses JSON.stringify so text is safely embedded as a
@@ -48,13 +52,6 @@ function tryEspeak(text, lang, outPath, { exec }) {
     process.stderr.write(`reel-tts espeak ${lang}: ${String(e.message).slice(0, 200)}\n`);
     return false;
   }
-}
-
-function statSize(p) {
-  try {
-    const { statSync } = await import('node:fs');
-    return statSync(p).size;
-  } catch { return 0; }
 }
 
 /**
