@@ -1,0 +1,36 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-iran-clerics-urge-npt-exit-review",
+  "status": "draft",
+  "created_at": "2026-11-12T18:51:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's Assembly of Experts urges review of a possible exit from the nuclear treaty",
+  "headline_es": "La Asamblea de Expertos de Irán pide estudiar una posible salida del tratado nuclear",
+  "caption_en": "Iran's Assembly of Experts said on Thursday that reviewing the country's defense doctrine and considering withdrawal from the Nuclear Non-Proliferation Treaty have become an unavoidable necessity. The clerical body called on officials to act under the guidance of the supreme leader and warned that any new attack on Iran would draw a response without geographic limits.",
+  "caption_es": "La Asamblea de Expertos de Irán afirmó el jueves que revisar la doctrina de defensa del país y considerar la retirada del Tratado de No Proliferación Nuclear se han vuelto una necesidad ineludible. El órgano clerical pidió a las autoridades actuar bajo la guía del líder supremo y advirtió que cualquier nuevo ataque contra Irán tendría una respuesta sin límites geográficos.",
+  "source_urls": [
+    "https://thisisbeirut.com.lb/news/politics/irans-assembly-of-experts-calls-for-considering-withdrawal-from-npt",
+    "https://www.trend.az/iran/4245688.html",
+    "https://mymotherlode.com/news/world/11303249/israel-hits-gaza-hospital-and-france-turns-away-a-settler-leader-and-other-mideast-news.html"
+  ],
+  "source_names": [
+    "This is Beirut",
+    "Trend News Agency",
+    "Associated Press (via myMotherLode)"
+  ],
+  "hashtags": ["#MATRIX24", "#Irán", "#TNP", "#Nuclear"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La decisión final no está tomada: Irán asegura que su programa nuclear es civil.",
+  "summary_en": "No final decision has been made; Iran says its nuclear program is civilian.",
+  "highlight_es": "salida del tratado nuclear",
+  "highlight_en": "exit from the nuclear treaty",
+  "visual_label": "TNP",
+  "image_prompt": "Stack of official documents with a fountain pen on a dark wooden desk, a softly glowing atom symbol hologram above it, blurred mountains and a domed building in the window background at dusk, no people, no flags, no text, cinematic",
+  "map": {
+    "focus": ["Iran"],
+    "labels": {"Iran": "Irán"}
+  }
+}

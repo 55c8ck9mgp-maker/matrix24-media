@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-gunman-kills-one-at-washington-gym",
+  "status": "draft",
+  "created_at": "2026-11-12T18:51:00Z",
+  "category": "World",
+  "headline": "Gunman kills one and wounds four at a Washington gym about a mile from the White House",
+  "headline_es": "Un tirador mata a una persona y hiere a cuatro en un gimnasio de Washington cerca de la Casa Blanca",
+  "caption_en": "A gunman opened fire on Thursday morning at a gym inside an apartment building in Washington's Logan Circle neighborhood, roughly a mile north of the White House, killing one person and wounding four, one of them critically. Police said the suspect barricaded himself in an apartment in the building and was later found with a gunshot wound; the motive is under investigation.",
+  "caption_es": "Un tirador abrió fuego el jueves por la mañana en un gimnasio dentro de un edificio de apartamentos del barrio Logan Circle de Washington, a unos 1,6 km al norte de la Casa Blanca, y mató a una persona e hirió a cuatro, una de ellas de gravedad. La policía dijo que el sospechoso se atrincheró en un apartamento del edificio y luego fue hallado con una herida de bala; el motivo se investiga.",
+  "source_urls": [
+    "https://www.yahoo.com/news/us/articles/one-killed-four-injured-washington-171320850.html",
+    "https://www.lbc.co.uk/article/several-people-shot-white-house-gunman-at-large-5HjdmJc_2/"
+  ],
+  "source_names": [
+    "BBC News (via Yahoo News)",
+    "LBC"
+  ],
+  "hashtags": ["#MATRIX24", "#Washington", "#EEUU", "#Tiroteo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La alcaldesa Muriel Bowser lo calificó de acto de violencia armada sin sentido y dijo que la Casa Blanca fue informada.",
+  "summary_en": "Mayor Muriel Bowser called it a senseless act of gun violence and said the White House was briefed.",
+  "highlight_es": "mata a una persona y hiere a cuatro",
+  "highlight_en": "kills one and wounds four",
+  "visual_label": "Logan Circle",
+  "image_prompt": "City street at morning with brick apartment buildings, yellow police tape stretched across an empty sidewalk, flashing blue and red lights reflected on wet pavement, no people, no text, no logos, cinematic wide view",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 38.9097, "lon": -77.0325, "label": "Washington"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}
