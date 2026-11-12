@@ -55,33 +55,32 @@ export function buildSegmentArgs({
   if (typeof outPath !== 'string' || !outPath.endsWith('.mp4'))
     return { ok: false, reason: 'outPath_must_be_mp4' };
 
-  const dur = String(durationSec);
-  const badge  = escapeDratext(`${storyNumber}/${totalStories}`);
-  const title  = escapeDratext(typeof titleEs === 'string' && titleEs.trim()
-    ? titleEs.trim()
-    : '');
+  const title = typeof titleEs === 'string' ? titleEs.trim() : '';
+  const badge = escapeDratext(`${storyNumber}/${totalStories}`);
 
-  // drawtext filters:
-  // 1. Story badge — top-right corner (white on dark box)
-  // 2. Spanish subtitle — either timed per-phrase (subtitleFilters) or static titleEs
+  // Build filter chain: badge + timed subtitle filters (or static fallback).
   const textFilters = [
-    `drawtext=fontfile=${FONT_PATH}:text='${badge}':x=w-110:y=38:fontsize=28:fontcolor=white:box=1:boxcolor=black@0.55:boxborderw=8`,
+    // Story-number badge — top-right, semi-transparent background.
+    `drawtext=fontfile=${FONT_PATH}:text='${badge}':x=w-110:y=38:` +
+    `fontsize=36:fontcolor=white:box=1:boxcolor=black@0.55:boxborderw=10`,
   ];
+
   if (subtitleFilters.length > 0) {
-    // Timed Spanish subtitle filters synced to English speech rhythm.
+    // Timed per-phrase subtitles from buildSubtitleFilters().
     textFilters.push(...subtitleFilters);
   } else if (title) {
-    // Static Spanish headline for the full segment duration (fallback).
+    // Static fallback: single drawtext covering the whole segment.
+    const escaped = escapeDratext(title);
     textFilters.push(
-      `drawtext=fontfile=${FONT_PATH}:text='${title}':x=(w-tw)/2:y=1660:fontsize=40:fontcolor=white:box=1:boxcolor=black@0.65:boxborderw=14:line_spacing=6`,
+      `drawtext=fontfile=${FONT_PATH}:text='${escaped}':` +
+      `x=(w-tw)/2:y=1660:fontsize=40:fontcolor=white:` +
+      `box=1:boxcolor=black@0.65:boxborderw=14:line_spacing=6`,
     );
   }
 
   const vf = [
-    'scale=1080:1350',
-    'pad=1080:1920:0:285:color=black',
-    'fps=30',
-    'format=yuv420p',
+    'scale=1080:1350:force_original_aspect_ratio=decrease',
+    'pad=1080:1920:(ow-iw)/2:(oh-ih)/2:color=black',
     ...textFilters,
   ].join(',');
 
@@ -89,35 +88,31 @@ export function buildSegmentArgs({
     ok: true,
     args: [
       '-hide_banner', '-loglevel', 'error', '-y',
-      '-loop', '1', '-t', dur,
-      '-i', imagePath,
+      '-loop', '1', '-i', imagePath,
+      '-t', String(durationSec),
       '-vf', vf,
-      '-t', dur,
-      '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23',
-      '-an',
+      '-r', '30', '-c:v', 'libx264', '-preset', 'fast',
+      '-pix_fmt', 'yuv420p', '-an',
       outPath,
     ],
   };
 }
 
 /**
- * Build the FFmpeg concat-demuxer file content and args to join video segments.
+ * FFmpeg args to concatenate video segments via a concat demuxer list file.
+ * Writes the concat list content (caller must write it to concatListPath).
  *
- * @param {object} opts
- * @param {string[]} opts.segmentPaths   Ordered list of MP4 segment paths.
- * @param {string}   opts.concatListPath Path where the concat list file is written.
- * @param {string}   opts.outPath        Output MP4 path (video only, no audio).
- * @returns {{ ok: true, concatContent: string, args: string[] } | { ok: false, reason: string }}
+ * @param {object}   opts
+ * @param {string[]} opts.segmentPaths    Paths to input .mp4 segments.
+ * @param {string}   opts.concatListPath  Path where the caller will write the concat list.
+ * @param {string}   opts.outPath         Output .mp4 path.
+ * @returns {{ ok: true, args: string[], concatContent: string } | { ok: false, reason: string }}
  */
 export function buildConcatArgs({ segmentPaths, concatListPath, outPath }) {
-  if (!Array.isArray(segmentPaths) || segmentPaths.length === 0)
-    return { ok: false, reason: 'segmentPaths_must_be_non_empty_array' };
-  for (const p of segmentPaths) {
-    if (typeof p !== 'string' || !p.endsWith('.mp4'))
-      return { ok: false, reason: 'each_segment_must_be_mp4' };
-  }
-  if (typeof concatListPath !== 'string' || !concatListPath)
-    return { ok: false, reason: 'concatListPath_required' };
+  if (!Array.isArray(segmentPaths) || segmentPaths.length < 1)
+    return { ok: false, reason: 'need_at_least_one_segment' };
+  if (typeof concatListPath !== 'string')
+    return { ok: false, reason: 'concatListPath_must_be_string' };
   if (typeof outPath !== 'string' || !outPath.endsWith('.mp4'))
     return { ok: false, reason: 'outPath_must_be_mp4' };
 
@@ -139,150 +134,134 @@ export function buildConcatArgs({ segmentPaths, concatListPath, outPath }) {
 }
 
 /**
- * FFmpeg args to mux a silent video track with an m4a audio track.
- * The output length is determined by -shortest.
+ * FFmpeg args to mux a video-only stream with an audio stream.
  *
  * @param {object} opts
- * @param {string} opts.videoPath  MP4 (video only) path.
- * @param {string} opts.audioPath  .m4a audio path.
- * @param {string} opts.outPath    Output MP4 path.
+ * @param {string} opts.videoPath  Path to video-only .mp4.
+ * @param {string} opts.audioPath  Path to audio file (.m4a or .mp3).
+ * @param {string} opts.outPath    Output .mp4 path.
  * @returns {{ ok: true, args: string[] } | { ok: false, reason: string }}
  */
 export function buildMuxArgs({ videoPath, audioPath, outPath }) {
   if (typeof videoPath !== 'string' || !videoPath.endsWith('.mp4'))
     return { ok: false, reason: 'videoPath_must_be_mp4' };
-  if (typeof audioPath !== 'string' || !audioPath.endsWith('.m4a'))
-    return { ok: false, reason: 'audioPath_must_be_m4a' };
+  if (typeof audioPath !== 'string')
+    return { ok: false, reason: 'audioPath_must_be_string' };
   if (typeof outPath !== 'string' || !outPath.endsWith('.mp4'))
     return { ok: false, reason: 'outPath_must_be_mp4' };
+
   return {
     ok: true,
     args: [
       '-hide_banner', '-loglevel', 'error', '-y',
       '-i', videoPath,
       '-i', audioPath,
-      '-c:v', 'copy',
-      '-c:a', 'aac', '-b:a', '128k',
-      '-shortest', '-movflags', '+faststart',
+      '-c:v', 'copy', '-c:a', 'aac',
+      '-shortest',
       outPath,
     ],
   };
 }
 
 /**
- * FFmpeg args to concatenate N MP3 audio files with a 1-second silence gap
- * between each pair.  Single-file input is simply copied.
+ * FFmpeg args to concatenate multiple TTS MP3 files with 1-second silences between them.
  *
- * Uses N-1 anullsrc inputs (one per gap) to avoid FFmpeg input reuse issues.
- *
- * @param {object} opts
- * @param {string[]} opts.audioFiles  Ordered list of .mp3 paths (N ≥ 1).
- * @param {string}   opts.outPath     Output .mp3 path.
+ * @param {object}   opts
+ * @param {string[]} opts.audioFiles  Paths to MP3 files.
+ * @param {string}   opts.outPath     Output MP3 path.
  * @returns {{ ok: true, args: string[] } | { ok: false, reason: string }}
  */
 export function buildMultiVoiceConcatArgs({ audioFiles, outPath }) {
   if (!Array.isArray(audioFiles) || audioFiles.length === 0)
-    return { ok: false, reason: 'audioFiles_must_be_non_empty_array' };
-  for (const f of audioFiles) {
-    if (typeof f !== 'string' || !f.endsWith('.mp3'))
-      return { ok: false, reason: 'each_audio_file_must_be_mp3' };
-  }
+    return { ok: false, reason: 'need_at_least_one_audio_file' };
   if (typeof outPath !== 'string' || !outPath.endsWith('.mp3'))
     return { ok: false, reason: 'outPath_must_be_mp3' };
 
-  if (audioFiles.length === 1) {
-    // Single track — copy without re-encoding.
-    return {
-      ok: true,
-      args: [
-        '-hide_banner', '-loglevel', 'error', '-y',
-        '-i', audioFiles[0],
-        '-c', 'copy',
-        outPath,
-      ],
-    };
-  }
-
-  // N audio files → N-1 silence gaps.
-  const N = audioFiles.length;
-  const gaps = N - 1;
-
-  // Inputs: [0..N-1] = mp3 files, [N..N+gaps-1] = anullsrc silence sources.
-  const inputArgs = [];
-  for (const f of audioFiles) inputArgs.push('-i', f);
-  for (let g = 0; g < gaps; g++) {
-    inputArgs.push('-f', 'lavfi', '-i', 'anullsrc=r=24000:cl=mono');
-  }
-
-  // Build filter_complex:
-  // Each silence source is trimmed to 1 s.
-  // Then concat all: file0, sil0, file1, sil1, ..., fileN-1
+  const inputs = [];
   const filterParts = [];
-  for (let g = 0; g < gaps; g++) {
-    filterParts.push(`[${N + g}:a]atrim=duration=1[sil${g}]`);
+  let idx = 0;
+
+  for (let i = 0; i < audioFiles.length; i++) {
+    inputs.push('-i', audioFiles[i]);
+    filterParts.push(`[${idx}:a]`);
+    idx++;
+
+    if (i < audioFiles.length - 1) {
+      // Insert 1-second silence between stories.
+      inputs.push('-f', 'lavfi', '-i', 'aevalsrc=0:d=1');
+      filterParts.push(`[${idx}:a]`);
+      idx++;
+    }
   }
 
-  // Interleave files and silence labels.
-  const concatInputs = [];
-  for (let i = 0; i < N; i++) {
-    concatInputs.push(`[${i}:a]`);
-    if (i < gaps) concatInputs.push(`[sil${i}]`);
-  }
-  const totalInputs = N + gaps; // N files + N-1 silences
-  filterParts.push(`${concatInputs.join('')}concat=n=${totalInputs}:v=0:a=1[out]`);
+  const filterComplex = `${filterParts.join('')}concat=n=${idx}:v=0:a=1[out]`;
 
   return {
     ok: true,
     args: [
       '-hide_banner', '-loglevel', 'error', '-y',
-      ...inputArgs,
-      '-filter_complex', filterParts.join(';'),
+      ...inputs,
+      '-filter_complex', filterComplex,
       '-map', '[out]',
-      '-t', '300',  // safety cap: combined narration ≤ 5 min
-      '-c:a', 'libmp3lame', '-q:a', '4',
       outPath,
     ],
   };
 }
 
 /**
- * Measure the duration of an audio/video file using ffprobe.
- * Returns duration in seconds as a float.
- * Throws if ffprobe output cannot be parsed.
+ * Build the Instagram caption for a daily news-summary Reel.
+ * Spanish headline for each story, then hashtags.
  *
- * @param {string}  filePath
- * @param {object}  opts
- * @param {Function} opts.exec  Injectable execFileSync (default: node's).
- * @returns {number}
+ * @param {Array<{headline_es?: string, headline_en?: string, hashtags?: string[]}>} stories
+ * @returns {string}
  */
-export function measureAudioDuration(filePath, { exec = execFileSync } = {}) {
-  const out = exec('ffprobe', [
-    '-v', 'error',
-    '-show_entries', 'format=duration',
-    '-of', 'csv=p=0',
-    filePath,
-  ], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
-  const val = parseFloat(String(out).trim());
-  if (!isFinite(val)) throw new Error(`ffprobe returned non-numeric duration: ${out}`);
-  return val;
+export function buildDailyReelCaption(stories) {
+  if (!Array.isArray(stories) || stories.length === 0) return '';
+
+  const lines = stories.map((s, i) => {
+    const headline = s?.headline_es || s?.headline_en || '';
+    return `${i + 1}. ${headline}`;
+  }).filter(Boolean);
+
+  const tagSet = new Set(['#matrix24', '#worldnews', '#breakingnews', '#noticias']);
+  for (const s of stories) {
+    for (const tag of (s?.hashtags || [])) {
+      if (tagSet.size < 10) tagSet.add(tag);
+    }
+  }
+
+  return [...lines, '', [...tagSet].join(' ')].join('\n');
 }
 
 /**
- * Build the Instagram caption for the daily Reel.
- * Format:
- *   1️⃣ Headline one
- *   2️⃣ Headline two
- *   ...
+ * Measure the duration (in seconds) of an audio file using ffprobe.
+ * Throws if ffprobe output is non-numeric.
  *
- *   #matrix24 #worldnews ...combined hashtags...
- *
- * @param {object[]} stories  Array of draft objects with headline_en and hashtags.
- * @returns {string}
+ * @param {string} filePath
+ * @param {{ exec: Function }} opts  Inject execFileSync for testability.
+ * @returns {number}
  */
+export function measureAudioDuration(filePath, { exec = execFileSync } = {}) {
+  const raw = exec('ffprobe', [
+    '-v', 'error',
+    '-show_entries', 'format=duration',
+    '-of', 'default=noprint_wrappers=1:nokey=1',
+    filePath,
+  ], { encoding: 'utf8' });
+  const dur = parseFloat(String(raw).trim());
+  if (isNaN(dur)) throw new Error(`ffprobe returned non-numeric duration: ${raw}`);
+  return dur;
+}
+
 /**
- * FFmpeg args to generate the news audio bed for the daily Reel.
- * Supports up to DAILY_MAX_SECONDS (90 s), which exceeds the Phase-5 Reel
- * limit (60 s).  Phase-5 reels must use generateAudioBed from reel-render.mjs.
+ * FFmpeg args to generate a 3-layer musical news bed as an .m4a file.
+ *
+ * Layer 1: Repeating C5→E5→G5→C6 arpeggio (1.5-second cycle)
+ * Layer 2: Pulsed bass (110 Hz, 2 Hz rhythm)
+ * Layer 3: High-frequency shimmer
+ *
+ * All layers use FFmpeg lavfi aevalsrc (purely generative — no audio files needed).
+ * Mixed with amix + 2-second fade-out.
  *
  * @param {object} opts
  * @param {number} opts.seconds  Duration in seconds (integer, 5–90). Default: DAILY_MAX_SECONDS.
@@ -299,18 +278,19 @@ export function newsDailyBedArgs({ seconds = DAILY_MAX_SECONDS, out } = {}) {
 
   // Layer 1 — Repeating C5→E5→G5→C6 arpeggio (1.5-second cycle).
   // between(mod(t,period),start,end) gates each note to its time slot.
+  // aevalsrc= prefix required by FFmpeg lavfi demuxer.
   const arpExpr =
-    `0.35*(between(mod(t,1.5),0,0.34)*sin(2*PI*523*t)` +
+    `aevalsrc=0.35*(between(mod(t,1.5),0,0.34)*sin(2*PI*523*t)` +
     `+between(mod(t,1.5),0.38,0.72)*sin(2*PI*659*t)` +
     `+between(mod(t,1.5),0.76,1.10)*sin(2*PI*784*t)` +
     `+between(mod(t,1.5),1.14,1.48)*sin(2*PI*1047*t)):d=${seconds}`;
 
   // Layer 2 — Pulsed bass: 110 Hz sine gated by one-sided 2 Hz rhythm.
   // max(0,sin(...)) produces kick-like pulses (positive half-wave only).
-  const bassExpr = `0.28*sin(2*PI*110*t)*max(0,sin(2*PI*2*t)):d=${seconds}`;
+  const bassExpr = `aevalsrc=0.28*sin(2*PI*110*t)*max(0,sin(2*PI*2*t)):d=${seconds}`;
 
   // Layer 3 — High-frequency shimmer for broadcast-style atmosphere.
-  const shimmerExpr = `0.012*(random(0)*2-1):d=${seconds}`;
+  const shimmerExpr = `aevalsrc=0.012*(random(0)*2-1):d=${seconds}`;
 
   return {
     ok: true,
@@ -334,40 +314,38 @@ export function newsDailyBedArgs({ seconds = DAILY_MAX_SECONDS, out } = {}) {
  * @returns {string[]}
  */
 function splitSubtitlePhrases(text) {
-  // 1. Sentence boundaries (.!?)
+  // Try sentence boundaries first (.!?)
   let parts = text.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(Boolean);
   if (parts.length > 1) return parts;
-
-  // 2. Clause boundaries (comma, semicolon, colon)
+  // Try clause boundaries (,;:)
   parts = text.split(/(?<=[,;:])\s+/).map(s => s.trim()).filter(Boolean);
   if (parts.length > 1) return parts;
-
-  // 3. Word-count halving for long text
+  // Long single-clause text: halve by word count.
   if (text.length > 48) {
     const words = text.split(/\s+/);
     const mid = Math.ceil(words.length / 2);
     return [words.slice(0, mid).join(' '), words.slice(mid).join(' ')].filter(Boolean);
   }
-
   return [text];
 }
 
 /**
- * Build timed Spanish subtitle drawtext filters for one video segment.
+ * Build timed FFmpeg drawtext filters for Spanish subtitles synced to English TTS timing.
  *
- * Maps Spanish phrases proportionally to English word-boundary timing data
- * captured from edge-tts streaming (WordBoundary events).  When timing data is
- * absent the single phrase is shown for the full segment duration.
+ * When wordTimings is provided (from edge-tts WordBoundary events):
+ *   - Maps each Spanish phrase proportionally to the English word-boundary timeline.
+ *   - Each phrase appears exactly when the corresponding English words are spoken.
  *
- * @param {object}  opts
- * @param {string}  opts.esText       Spanish text to show as subtitle.
- * @param {Array}   opts.wordTimings  edge-tts WordBoundary events:
- *                                   [{text, offset, duration}] where
- *                                   offset/duration are 100-ns tick units.
- *                                   Pass null/[] to skip timing.
- * @param {string}  [opts.fontPath]  FFmpeg font file path (default: FONT_PATH).
- * @param {number}  opts.totalSec    Total segment duration in seconds.
- * @returns {string[]}  Array of drawtext filter strings (may be empty).
+ * When wordTimings is absent or empty:
+ *   - Distributes phrases evenly across the segment duration.
+ *
+ * @param {object}         opts
+ * @param {string}         opts.esText       Spanish headline text.
+ * @param {Array|null}     opts.wordTimings  WordBoundary events [{text, offset, duration}] in
+ *                                           100-ns tick units, or null/[] for even distribution.
+ * @param {string}         opts.fontPath     Font file path (defaults to FONT_PATH).
+ * @param {number}         opts.totalSec     Segment duration in seconds.
+ * @returns {string[]}  Array of drawtext filter strings (may be empty on invalid input).
  */
 export function buildSubtitleFilters({ esText, wordTimings, fontPath, totalSec }) {
   if (typeof esText !== 'string' || !esText.trim()) return [];
@@ -380,7 +358,7 @@ export function buildSubtitleFilters({ esText, wordTimings, fontPath, totalSec }
   const baseStyle =
     `x=(w-tw)/2:y=1660:fontsize=40:fontcolor=white:box=1:boxcolor=black@0.65:boxborderw=14:line_spacing=6`;
 
-  // No timing: distribute phrases evenly across the segment duration.
+  // No timing data: distribute all phrases evenly across the segment duration.
   if (!wordTimings || wordTimings.length === 0) {
     const perPhraseSec = totalSec / phrases.length;
     return phrases.map((phrase, i) => {
@@ -391,57 +369,21 @@ export function buildSubtitleFilters({ esText, wordTimings, fontPath, totalSec }
     });
   }
 
-  // Map phrases proportionally to English word-boundary timeline.
+  // Timing available: map phrases proportionally to English word-boundary timeline.
   const lastWt   = wordTimings[wordTimings.length - 1];
   const speechEnd = Math.min((lastWt.offset + lastWt.duration) / 10_000_000, totalSec);
+  void speechEnd; // used only for reference
   const perPhrase = Math.max(1, wordTimings.length / phrases.length);
 
   return phrases.map((phrase, i) => {
     const wStart = Math.floor(i * perPhrase);
     const wEnd   = Math.min(Math.floor((i + 1) * perPhrase) - 1, wordTimings.length - 1);
-
     const rawStart = wordTimings[wStart].offset / 10_000_000;
     const wtEnd    = wordTimings[wEnd];
     const rawEnd   = Math.min((wtEnd.offset + wtEnd.duration) / 10_000_000, totalSec - 0.05);
-
-    // Guard: start must be strictly less than end.
     const s  = Math.max(0, Math.min(rawStart, rawEnd - 0.1));
     const e2 = Math.max(s + 0.1, rawEnd);
-
     const escaped = escapeDratext(phrase);
     return `drawtext=fontfile=${fp}:text='${escaped}':${baseStyle}:enable='between(t,${s.toFixed(3)},${e2.toFixed(3)})'`;
   });
-}
-
-export function buildDailyReelCaption(stories) {
-  const numberEmoji = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣'];
-  const lines = stories.map((s, i) => {
-    const emoji = numberEmoji[i] || `${i + 1}.`;
-    const headline = (s?.headline_en || '').trim() || (s?.headline_es || '').trim();
-    return `${emoji} ${headline}`;
-  });
-
-  // Merge hashtags from all stories, deduplicate, keep order-of-first-appearance.
-  const seen = new Set();
-  const baseTags = ['#matrix24', '#worldnews', '#breakingnews', '#noticias'];
-  const allTags = [...baseTags];
-  for (const s of stories) {
-    for (const tag of (Array.isArray(s?.hashtags) ? s.hashtags : [])) {
-      const t = String(tag).trim().toLowerCase();
-      if (t && !seen.has(t)) { seen.add(t); allTags.push(tag); }
-    }
-  }
-  // Deduplicate baseTags too.
-  const dedupTags = [];
-  const tagSeen = new Set();
-  for (const t of allTags) {
-    const key = String(t).toLowerCase();
-    if (!tagSeen.has(key)) { tagSeen.add(key); dedupTags.push(t); }
-  }
-
-  return [
-    lines.join('\n'),
-    '',
-    dedupTags.join(' '),
-  ].join('\n');
 }
