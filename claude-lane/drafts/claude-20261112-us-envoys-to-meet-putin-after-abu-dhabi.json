@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-us-envoys-to-meet-putin-after-abu-dhabi",
+  "status": "draft",
+  "created_at": "2026-11-12T00:51:48Z",
+  "category": "Security / Geopolitics",
+  "headline": "US envoys head to Moscow to meet Putin after Abu Dhabi talks end without territorial deal",
+  "headline_es": "Enviados de EE. UU. viajan a Moscú para reunirse con Putin tras las conversaciones de Abu Dabi",
+  "caption_en": "US envoys Steve Witkoff and Jared Kushner are due to meet Vladimir Putin in Moscow on Thursday, after two days of US-brokered Russia-Ukraine talks in Abu Dhabi produced no breakthrough on territory. Russia said the sides found common ground on some issues. The envoys then plan to meet Volodymyr Zelensky in Dublin.",
+  "caption_es": "Los enviados estadounidenses Steve Witkoff y Jared Kushner tienen previsto reunirse con Vladímir Putin en Moscú el jueves, después de que dos días de conversaciones entre Rusia y Ucrania mediadas por EE. UU. en Abu Dabi terminaran sin avances sobre los territorios. Rusia dijo que las partes coincidieron en algunos temas. Luego, los enviados planean reunirse con Volodímir Zelenski en Dublín.",
+  "source_urls": [
+    "https://www.spokesman.com/stories/2026/nov/11/us-envoys-to-meet-putin-and-zelenskyy-after-abu-dh/",
+    "https://www.kyivpost.com/post/89817"
+  ],
+  "source_names": [
+    "Bloomberg (via The Spokesman-Review)",
+    "Kyiv Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Rusia",
+    "#Diplomacia"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El territorio sigue siendo el punto más difícil de la negociación entre Moscú y Kiev.",
+  "summary_en": "Territory remains the hardest issue in the negotiations between Moscow and Kyiv.",
+  "highlight_es": "Moscú",
+  "highlight_en": "Moscow",
+  "visual_label": "Moscú",
+  "image_prompt": "Long empty negotiating table with three sets of chairs and water glasses in a grand hall, tall windows showing a snowy city skyline with domes in the distance, soft winter light, no people, no flags, cinematic wide view",
+  "map": {
+    "focus": [
+      "Russia",
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 55.75,
+      "lon": 37.62,
+      "label": "Moscú"
+    },
+    "labels": {
+      "Russia": "Rusia",
+      "Ukraine": "Ucrania"
+    }
+  }
+}

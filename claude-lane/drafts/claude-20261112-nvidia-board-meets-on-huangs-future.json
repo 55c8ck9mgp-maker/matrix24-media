@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-nvidia-board-meets-on-huangs-future",
+  "status": "draft",
+  "created_at": "2026-11-12T00:51:48Z",
+  "category": "Technology",
+  "headline": "Nvidia board meets to decide CEO Jensen Huang's future as shares slide 8% after hours",
+  "headline_es": "La junta de Nvidia se reúne para decidir el futuro de su CEO Jensen Huang; la acción cae 8%",
+  "caption_en": "Nvidia's board met on Wednesday to decide whether to remove co-founder and CEO Jensen Huang, a source told Reuters, after The Wall Street Journal reported the company was preparing to oust him. Huang acknowledged an extramarital affair on Sunday. Nvidia shares fell about 8% in after-hours trading, and the company has not commented on the meeting.",
+  "caption_es": "La junta directiva de Nvidia se reunió el miércoles para decidir si destituye a su cofundador y CEO, Jensen Huang, según una fuente citada por Reuters, después de que The Wall Street Journal informara que la empresa se preparaba para apartarlo. Huang reconoció el domingo una relación extramatrimonial. Las acciones de Nvidia cayeron cerca de 8% fuera de horario y la compañía no ha comentado la reunión.",
+  "source_urls": [
+    "https://theprint.in/world/nvidia-board-meets-to-decide-ceo-huangs-future-source-says/3096516/",
+    "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+  ],
+  "source_names": [
+    "Reuters (via ThePrint)",
+    "TechCrunch"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Nvidia",
+    "#Tecnología",
+    "#Bolsa"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Huang dirige Nvidia desde que la cofundó en 1993 y no tiene un sucesor evidente.",
+  "summary_en": "Huang has led Nvidia since co-founding it in 1993 and has no obvious successor.",
+  "highlight_es": "Jensen Huang",
+  "highlight_en": "Jensen Huang's future",
+  "visual_label": "Nvidia",
+  "image_prompt": "Empty corporate boardroom at night with a long glass table and leather chairs, city lights through floor-to-ceiling windows, a large screen showing an abstract falling stock chart line, cool blue and green tones, cinematic wide view"
+}
