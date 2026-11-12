@@ -63,7 +63,16 @@ export function selectTopStories(
     return !isNaN(t) && t >= cutoff;
   });
 
-  const scored = recent.map(d => ({
+  // Deduplicate by content_id: keep the first occurrence of each id.
+  const seen = new Set();
+  const unique = recent.filter(d => {
+    if (!d?.content_id) return true;         // no id: always keep
+    if (seen.has(d.content_id)) return false; // duplicate: drop
+    seen.add(d.content_id);
+    return true;
+  });
+
+  const scored = unique.map(d => ({
     draft: d,
     score: scoreStory(d),
     ts: new Date(d.created_at).getTime(),

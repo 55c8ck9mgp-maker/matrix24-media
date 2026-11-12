@@ -160,9 +160,11 @@ test('buildDailyReelCaption: falls back to headline_en when headline_es is absen
 // ── scoreStory ──────────────────────────────────────────────────────────────────────────────────
 
 test('scoreStory: awards keyword points and caps at 50 from keywords', () => {
+  // Use 5+ keywords from HIGH_IMPACT_KEYWORDS so the cap (50 pts) is reached.
+  // 'conflict' and 'military' are not in the keyword list; use verified list members.
   const story = {
-    headline_en: 'war conflict military troops',
-    summary_en:  'war conflict military troops',
+    headline_en: 'war attack killed crisis nuclear sanctions',
+    summary_en:  '',
     headline_es: '',
     summary_es:  '',
     created_at:  new Date().toISOString(),
