@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-indonesia-vice-president-gibran-resigns",
+  "status": "draft",
+  "created_at": "2026-11-12T06:51:43Z",
+  "category": "World",
+  "headline": "Indonesia's Vice President Gibran Rakabuming Raka resigns over disputed school credentials",
+  "headline_es": "Renuncia el vicepresidente de Indonesia, Gibran Rakabuming Raka, por dudas sobre sus estudios",
+  "caption_en": "Indonesian Vice President Gibran Rakabuming Raka, 39, the son of former president Joko Widodo, submitted his resignation to the People's Consultative Assembly on Thursday. Courts ruled last month that his documents did not prove he met the high school requirement to run for office, and 120 lawmakers had filed a petition that could lead to impeachment. The assembly must fill the post within 60 days.",
+  "caption_es": "El vicepresidente de Indonesia, Gibran Rakabuming Raka, de 39 años e hijo del expresidente Joko Widodo, presentó el jueves su renuncia ante la Asamblea Consultiva Popular. Los tribunales dictaminaron el mes pasado que sus documentos no probaban que cumpliera el requisito de educación secundaria para ser candidato, y 120 legisladores habían presentado una petición que podía llevar a su destitución. La asamblea debe cubrir el cargo en un plazo de 60 días.",
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-11-12/indonesia-vice-president-gibran-rakabuming-raka-resigns/107370802",
+    "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+  ],
+  "source_names": [
+    "ABC News (Australia)",
+    "Associated Press (via KSAT)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Indonesia",
+    "#Gibran",
+    "#Política"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Su salida llega horas antes de que el Parlamento debatiera una petición de destitución. La asamblea elegirá a su sucesor.",
+  "summary_en": "He quit hours before parliament was due to take up an impeachment petition. The assembly will choose his successor.",
+  "highlight_es": "Renuncia",
+  "highlight_en": "resigns",
+  "visual_label": "Yakarta",
+  "image_prompt": "Modern parliament building with a wide green dome-like roof under a humid tropical sky in a large Southeast Asian capital, empty steps and palm trees in front, soft morning light, no people, no flags, no text, cinematic wide view",
+  "map": {
+    "focus": [
+      "Indonesia"
+    ],
+    "marker": {
+      "lat": -6.21,
+      "lon": 106.85,
+      "label": "Yakarta"
+    },
+    "labels": {
+      "Indonesia": "Indonesia"
+    }
+  }
+}

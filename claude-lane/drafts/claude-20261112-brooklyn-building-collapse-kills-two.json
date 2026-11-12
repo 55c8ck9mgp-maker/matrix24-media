@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-brooklyn-building-collapse-kills-two",
+  "status": "draft",
+  "created_at": "2026-11-12T06:51:43Z",
+  "category": "World",
+  "headline": "Building collapse in Brooklyn's Flatbush kills at least two as rescuers search the rubble",
+  "headline_es": "Derrumbe de un edificio en Flatbush, Brooklyn, deja al menos dos muertos",
+  "caption_en": "A three-storey building in the Flatbush neighbourhood of Brooklyn, New York, collapsed into an adjacent construction site on Wednesday afternoon, killing at least two people and injuring at least 10. Mayor Zohran Mamdani said emergency crews arrived within a minute of the first call, and rescuers kept searching for people trapped under the debris. The cause is under investigation.",
+  "caption_es": "Un edificio de tres plantas en el barrio de Flatbush, en Brooklyn, Nueva York, se derrumbó el miércoles por la tarde sobre una obra contigua, causando al menos dos muertos y al menos 10 heridos. El alcalde Zohran Mamdani dijo que los equipos de emergencia llegaron un minuto después de la primera llamada, y los rescatistas siguieron buscando a personas atrapadas bajo los escombros. La causa está bajo investigación.",
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
+    "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen"
+  ],
+  "source_names": [
+    "ABC News (Australia)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Brooklyn",
+    "#NuevaYork",
+    "#Derrumbe"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El edificio cayó junto a un solar donde se realizaban excavaciones para una construcción.",
+  "summary_en": "The building fell beside a site that was being excavated for a construction project.",
+  "highlight_es": "Derrumbe",
+  "highlight_en": "Building collapse",
+  "visual_label": "Brooklyn",
+  "image_prompt": "City street corner with brick row buildings beside a fenced construction site, a crane and excavator idle in the pit, emergency vehicles' lights reflecting softly on wet pavement at dusk, no people, no logos, no text, wide view",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 40.65,
+      "lon": -73.96,
+      "label": "Brooklyn"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

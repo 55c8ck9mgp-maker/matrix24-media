@@ -1,0 +1,45 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-israel-cabinet-orders-iran-strike-readiness",
+  "status": "draft",
+  "created_at": "2026-11-12T06:51:43Z",
+  "category": "Security / Geopolitics",
+  "headline": "Israel's security cabinet orders military to prepare for a possible new attack on Iran",
+  "headline_es": "El gabinete de seguridad de Israel ordena al ejército prepararse para un posible ataque a Irán",
+  "caption_en": "Israel's security cabinet, chaired by Prime Minister Benjamin Netanyahu, has ordered the military to step up preparations for a possible attack on Iran, Israeli media reported on Wednesday. Opposition leader Gadi Eisenkot, who has been given the chance to form the next government, urged Netanyahu not to deploy the military without a direct and immediate threat until a new government is in place.",
+  "caption_es": "El gabinete de seguridad de Israel, presidido por el primer ministro Benjamín Netanyahu, ordenó al ejército intensificar los preparativos para un posible ataque contra Irán, informaron medios israelíes el miércoles. El líder opositor Gadi Eisenkot, que recibió la oportunidad de formar el próximo gobierno, pidió a Netanyahu no desplegar al ejército sin una amenaza directa e inmediata hasta que haya un nuevo gobierno.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+    "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-orders-israeli-army-prepare-possible-attack-iran"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Middle East Eye"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Israel",
+    "#Irán",
+    "#MedioOriente"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Eisenkot recibió el encargo de intentar formar gobierno tras los avances de su bloque en las elecciones.",
+  "summary_en": "Eisenkot was given the chance to form a government after his bloc's gains in the election.",
+  "highlight_es": "posible ataque a Irán",
+  "highlight_en": "possible new attack on Iran",
+  "visual_label": "Israel-Irán",
+  "image_prompt": "Military airbase at dusk with empty runway lights glowing, generic fighter jets parked inside open hangars, desert hills on the horizon under a tense orange sky, no people, no markings, no insignia, no text, cinematic wide view",
+  "map": {
+    "focus": [
+      "Israel",
+      "Iran"
+    ],
+    "labels": {
+      "Israel": "Israel",
+      "Iran": "Irán"
+    }
+  }
+}
