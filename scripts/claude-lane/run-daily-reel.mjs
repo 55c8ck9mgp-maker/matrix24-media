@@ -15,7 +15,7 @@ import { execFileSync } from 'node:child_process';
 
 import { readBranchDrafts, renderCardV2 }   from './run-lane.mjs';
 import { selectTopStories }                  from './story-ranker.mjs';
-import { generateBilingualTTS }              from './reel-tts.mjs';
+import { generateEnTTSWithTiming }           from './reel-tts.mjs';
 import { buildVoiceoverMixArgs } from './reel-render.mjs';
 import {
   buildSegmentArgs,
@@ -25,6 +25,8 @@ import {
   buildDailyReelCaption,
   measureAudioDuration,
   newsDailyBedArgs,
+  buildSubtitleFilters,
+  FONT_PATH,
   DAILY_MAX_SECONDS,
   STORY_DURATION_SEC,
 } from './daily-reel-video.mjs';
@@ -93,28 +95,38 @@ async function main() {
   const usedCards   = validIndices.map(i => cardPaths[i]);
   log('cards-ready', { count: usedCards.length });
 
-  // ── 3. Generate English TTS for each story ─────────────────────────────────
-  const ttsFiles = [];
+  // ── 3. Generate English TTS with word-boundary timing ─────────────────────
+  // Uses en-US-GuyNeural at -10% rate (news anchor style).
+  // Captures WordBoundary events for synced Spanish subtitle overlays.
+  const ttsResults = [];
   const ttsTmpDir = path.join(TMP, 'tts');
   fs.mkdirSync(ttsTmpDir, { recursive: true });
 
   for (let i = 0; i < usedStories.length; i++) {
     const s = usedStories[i];
     log('tts', { story: i + 1 });
+    const textEn = [s?.headline_en || s?.headline || '', s?.summary_en || '']
+      .filter(Boolean).map(x => x.trim()).join('. ').replace(/\.{2,}/g, '.');
+    if (!textEn) {
+      ttsResults.push(null);
+      continue;
+    }
+    const storyTmp = path.join(ttsTmpDir, `s${i}`);
+    fs.mkdirSync(storyTmp, { recursive: true });
     try {
-      const r = await generateBilingualTTS({
-        headline_es: '',
-        summary_es:  '',
-        headline_en: s?.headline_en || s?.headline || '',
-        summary_en:  s?.summary_en  || '',
-        tmpDir: path.join(ttsTmpDir, `s${i}`),
+      const r = await generateEnTTSWithTiming({
+        text:        textEn,
+        outPath:     path.join(storyTmp, 'voice-en.mp3'),
+        timingPath:  path.join(storyTmp, 'timing.json'),
       });
-      ttsFiles.push(r?.enFile || null);
+      ttsResults.push(r);
     } catch (e) {
       log('tts-error', { story: i + 1, error: String(e.message).slice(0, 200) });
-      ttsFiles.push(null);
+      ttsResults.push(null);
     }
   }
+
+  const ttsFiles = ttsResults.map(r => r?.file || null);
 
   // ── 4. Measure TTS durations and decide segment lengths ───────────────────
   const segmentDurations = usedStories.map((_, i) => {
@@ -142,13 +154,25 @@ async function main() {
   const segmentPaths = [];
   for (let i = 0; i < usedStories.length; i++) {
     const segPath = path.join(TMP, `seg-${i}.mp4`);
+
+    // Build timed Spanish subtitle filters (synced to English speech rhythm).
+    const wordTimings = ttsResults[i]?.wordTimings || null;
+    const subtitleFilters = buildSubtitleFilters({
+      esText:      usedStories[i]?.headline_es || usedStories[i]?.headline_en || '',
+      wordTimings,
+      fontPath:    FONT_PATH,
+      totalSec:    finalDurations[i],
+    });
+    log('subtitles', { story: i + 1, phrases: subtitleFilters.length, timed: (wordTimings?.length || 0) > 0 });
+
     const r = buildSegmentArgs({
-      imagePath:    usedCards[i],
-      titleEs:      usedStories[i]?.headline_es || usedStories[i]?.headline_en || '',
-      durationSec:  finalDurations[i],
-      storyNumber:  i + 1,
-      totalStories: usedStories.length,
-      outPath:      segPath,
+      imagePath:       usedCards[i],
+      titleEs:         usedStories[i]?.headline_es || usedStories[i]?.headline_en || '',
+      subtitleFilters,
+      durationSec:     finalDurations[i],
+      storyNumber:     i + 1,
+      totalStories:    usedStories.length,
+      outPath:         segPath,
     });
     if (!r.ok) {
       log('segment-error', { story: i + 1, reason: r.reason });
