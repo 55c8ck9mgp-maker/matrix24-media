@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-car-bomb-kills-russian-colonel-st-petersburg",
+  "status": "draft",
+  "created_at": "2026-11-12T12:56:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Car bomb kills Russian military officer near St. Petersburg; murder probe opened",
+  "headline_es": "Un coche bomba mata a un oficial militar ruso cerca de San Petersburgo; abren investigación",
+  "caption_en": "A Russian serviceman, reported by local media to be an air force colonel, was killed when his car exploded on Kolpinskoye Highway in Shushary, near St. Petersburg, around 7 a.m. on Thursday. Russia's Investigative Committee opened a murder case. It is the second car bombing in the same area in less than three months to kill a Russian officer.",
+  "caption_es": "Un militar ruso, identificado por medios locales como coronel de la fuerza aérea, murió al explotar su coche en la carretera de Kolpino, en Shushary, cerca de San Petersburgo, hacia las 7 de la mañana del jueves. El Comité de Investigación de Rusia abrió una causa por asesinato. Es el segundo coche bomba en la misma zona en menos de tres meses que mata a un oficial ruso.",
+  "source_urls": [
+    "https://meduza.io/en/feature/2026/11/12/russian-colonel-killed-in-st-petersburg-car-bombing-three-months-after-another-military-officer-s-car-was-blown-up-in-the-same-area",
+    "https://kyivindependent.com/russian-colonel-reportedly-killed-in-car-explosion-near-st-petersburg/"
+  ],
+  "source_names": ["Meduza", "The Kyiv Independent"],
+  "hashtags": ["#MATRIX24", "#Rusia", "#SanPetersburgo", "#Ucrania"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El Comité de Investigación ruso abrió una causa por asesinato. En agosto, otro oficial murió en un ataque similar en la misma zona.",
+  "summary_en": "Russia's Investigative Committee opened a murder case. In August, another officer was killed in a similar attack in the same area.",
+  "highlight_es": "coche bomba",
+  "highlight_en": "Car bomb",
+  "visual_label": "San Petersburgo",
+  "image_prompt": "Empty suburban highway on a grey winter morning on the outskirts of a northern Russian city, police tape stretched across the road, flashing blue lights in the distance, bare birch trees, no people, no text, no insignia, cinematic wide view",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 59.8, "lon": 30.38, "label": "San Petersburgo"},
+    "labels": {"Russia": "Rusia"}
+  }
+}

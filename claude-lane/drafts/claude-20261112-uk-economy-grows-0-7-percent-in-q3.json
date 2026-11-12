@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261112-uk-economy-grows-0-7-percent-in-q3",
+  "status": "draft",
+  "created_at": "2026-11-12T12:56:00Z",
+  "category": "Economy",
+  "headline": "UK economy grows 0.7% in the third quarter, beating expectations",
+  "headline_es": "La economía británica crece un 0,7 % en el tercer trimestre y supera las previsiones",
+  "caption_en": "Britain's economy grew 0.7% between July and September, up from 0.5% in the second quarter, according to a first estimate from the Office for National Statistics. Services rose 0.9% and accounted for almost all of the growth, while construction fell 0.7%. GDP also rose 0.2% in September alone, above forecasts.",
+  "caption_es": "La economía del Reino Unido creció un 0,7 % entre julio y septiembre, frente al 0,5 % del segundo trimestre, según una primera estimación de la Oficina Nacional de Estadística. Los servicios subieron un 0,9 % y explicaron casi todo el crecimiento, mientras la construcción cayó un 0,7 %. El PIB también avanzó un 0,2 % solo en septiembre, por encima de lo previsto.",
+  "source_urls": [
+    "https://www.cityam.com/uk-economy-grows-0-7-per-cent-in-third-quarter/",
+    "https://www.financial-news.co.uk/uk-economy-grew-0-7-in-third-quarter-as-services/"
+  ],
+  "source_names": ["City AM", "Financial News"],
+  "hashtags": ["#MATRIX24", "#ReinoUnido", "#Economía", "#PIB"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Los servicios crecieron un 0,9 % y la construcción cayó un 0,7 %. El PIB subió un 0,2 % en septiembre.",
+  "summary_en": "Services grew 0.9% and construction fell 0.7%. GDP rose 0.2% in September.",
+  "highlight_es": "crece un 0,7 %",
+  "highlight_en": "grows 0.7%",
+  "visual_label": "PIB R. Unido",
+  "image_prompt": "Modern office towers of a financial district along a river at dawn, glass facades reflecting soft light, a rising line chart symbolically traced in light across the sky, no people, no text, no logos, cinematic wide view",
+  "map": {
+    "focus": ["United Kingdom"],
+    "labels": {"United Kingdom": "Reino Unido"}
+  }
+}
