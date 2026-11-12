@@ -10,6 +10,7 @@ import {
   buildMuxArgs,
   buildMultiVoiceConcatArgs,
   buildDailyReelCaption,
+  buildSubtitleFilters,
   measureAudioDuration,
   escapeDratext,
 } from '../scripts/claude-lane/daily-reel-video.mjs';
@@ -242,4 +243,82 @@ test('measureAudioDuration: parses float from ffprobe output', () => {
 test('measureAudioDuration: throws when ffprobe returns non-numeric output', () => {
   const fakeExec = () => 'N/A\n';
   assert.throws(() => measureAudioDuration('file.mp3', { exec: fakeExec }), /non-numeric/);
+});
+
+// ── buildSubtitleFilters ──────────────────────────────────────────────────────
+
+test('buildSubtitleFilters: returns empty array for empty esText', () => {
+  assert.deepEqual(buildSubtitleFilters({ esText: '', wordTimings: [], fontPath: '/f.ttf', totalSec: 10 }), []);
+});
+
+test('buildSubtitleFilters: returns empty array for zero totalSec', () => {
+  assert.deepEqual(buildSubtitleFilters({ esText: 'Hola mundo', wordTimings: [], fontPath: '/f.ttf', totalSec: 0 }), []);
+});
+
+test('buildSubtitleFilters: single phrase, no timing → one filter covering full segment', () => {
+  const result = buildSubtitleFilters({ esText: 'Hola mundo', wordTimings: null, fontPath: '/f.ttf', totalSec: 10 });
+  assert.equal(result.length, 1);
+  assert.match(result[0], /drawtext/);
+  assert.match(result[0], /between\(t,/);
+  assert.match(result[0], /Hola mundo/);
+});
+
+test('buildSubtitleFilters: two sentences split into two filters', () => {
+  const result = buildSubtitleFilters({
+    esText: 'El presidente habla. Acuerdo de paz firmado.',
+    wordTimings: null,
+    fontPath: '/f.ttf',
+    totalSec: 15,
+  });
+  // Two sentences → two filters (or more)
+  assert.ok(result.length >= 2, `expected ≥ 2 filters, got ${result.length}`);
+  for (const f of result) assert.match(f, /drawtext/);
+});
+
+test('buildSubtitleFilters: timed filters use between(t,X,Y) with valid bounds', () => {
+  // 4 English words → 2 Spanish phrases split by sentence
+  const wordTimings = [
+    { text: 'Breaking', offset: 0,          duration: 5_000_000  },  // 0–0.5 s
+    { text: 'news',     offset: 6_000_000,  duration: 4_000_000  },  // 0.6–1.0 s
+    { text: 'update',   offset: 11_000_000, duration: 6_000_000  },  // 1.1–1.7 s
+    { text: 'today',    offset: 18_000_000, duration: 5_000_000  },  // 1.8–2.3 s
+  ];
+  const result = buildSubtitleFilters({
+    esText: 'Noticias urgentes. Actualización de hoy.',
+    wordTimings,
+    fontPath: '/f.ttf',
+    totalSec: 15,
+  });
+  assert.ok(result.length >= 1, 'must return at least one filter');
+  for (const f of result) {
+    assert.match(f, /enable='between\(t,/);
+    // Bounds should be valid floats
+    const m = f.match(/between\(t,([\d.]+),([\d.]+)\)/);
+    assert.ok(m, 'must contain time bounds');
+    const start = parseFloat(m[1]);
+    const end   = parseFloat(m[2]);
+    assert.ok(start >= 0,       `start ${start} must be ≥ 0`);
+    assert.ok(end > start,      `end ${end} must be > start ${start}`);
+    assert.ok(end <= 15,        `end ${end} must be ≤ totalSec 15`);
+  }
+});
+
+test('buildSubtitleFilters: escapes special chars in subtitle text', () => {
+  const result = buildSubtitleFilters({ esText: "Título: it's 50%", wordTimings: [], fontPath: '/f.ttf', totalSec: 10 });
+  assert.ok(result.length >= 1, 'must return at least one filter');
+  const all = result.join(' ');
+  // After escapeDratext: ' → \' and % → %%
+  assert.ok(!all.includes("it's"), "raw apostrophe must be escaped to it\\'s");
+  assert.ok(!all.includes("50%'"), 'percent at end of text= value must be escaped');
+});
+
+test('buildSubtitleFilters: single long phrase is halved when no punctuation', () => {
+  // 10 words, no sentence/clause punctuation — should split into 2 halves
+  const result = buildSubtitleFilters({
+    esText: 'El clima extremo afecta a millones de personas en todo el mundo',
+    wordTimings: null,
+    fontPath: '/f.ttf',
+    totalSec: 20,
+  });
+  assert.ok(result.length >= 2, `expected ≥ 2 subtitle halves, got ${result.length}`);
 });
