@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261113-zelensky-meets-us-envoys-in-dublin",
+  "status": "draft",
+  "created_at": "2026-11-13T00:51:49Z",
+  "category": "Security / Geopolitics",
+  "headline": "Zelensky meets US envoys in Dublin after their Putin talks; Europe to join next round",
+  "headline_es": "Zelenski se reúne en Dublín con los enviados de EE. UU. tras su cita con Putin; Europa se sumará",
+  "caption_en": "US envoys Steve Witkoff and Jared Kushner met Ukrainian President Volodymyr Zelensky near Dublin on Thursday evening, shortly after talks with Vladimir Putin in Moscow. Zelensky said Europe will be part of the negotiating team at the next meeting, and Kushner said Europe should take part. The Kremlin said discussions will continue when Putin meets Donald Trump at the APEC summit next week.",
+  "caption_es": "Los enviados estadounidenses Steve Witkoff y Jared Kushner se reunieron el jueves por la noche cerca de Dublín con el presidente ucraniano, Volodímir Zelenski, poco después de conversar con Vladímir Putin en Moscú. Zelenski dijo que Europa formará parte del equipo negociador en la próxima reunión, y Kushner afirmó que Europa debe participar. El Kremlin indicó que el diálogo continuará cuando Putin se reúna con Donald Trump en la cumbre de APEC la próxima semana.",
+  "source_urls": [
+    "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
+    "https://www.rte.ie/news/2026/1112/1599048-epc-takeaways/",
+    "https://www.yahoo.com/news/politics/articles/witkoff-speaks-progress-meeting-putin-210340953.html"
+  ],
+  "source_names": [
+    "The Kyiv Independent",
+    "RTÉ",
+    "dpa (via Yahoo News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Rusia",
+    "#Europa",
+    "#Diplomacia"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El encuentro se celebró durante la cumbre de la Comunidad Política Europea en Irlanda, tras la visita de los enviados al Kremlin.",
+  "summary_en": "The meeting took place during the European Political Community summit in Ireland, right after the envoys' visit to the Kremlin.",
+  "highlight_es": "Dublín",
+  "highlight_en": "Dublin",
+  "visual_label": "Dublín",
+  "image_prompt": "Small business jet parked on a rain-wet airfield apron at dusk, airport lights reflecting on the tarmac, green Irish hills faintly visible in the distance, overcast sky, no people, no text, no flags, cinematic wide view",
+  "map": {
+    "focus": [
+      "Ireland"
+    ],
+    "marker": {
+      "lat": 53.3,
+      "lon": -6.47,
+      "label": "Dublín"
+    },
+    "labels": {
+      "Ireland": "Irlanda"
+    }
+  }
+}
