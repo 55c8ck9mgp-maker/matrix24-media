@@ -278,19 +278,22 @@ export function newsDailyBedArgs({ seconds = DAILY_MAX_SECONDS, out } = {}) {
 
   // Layer 1 — Repeating C5→E5→G5→C6 arpeggio (1.5-second cycle).
   // between(mod(t,period),start,end) gates each note to its time slot.
-  // aevalsrc= prefix required by FFmpeg lavfi demuxer.
+  // aevalsrc= prefix required by FFmpeg lavfi demuxer. The expression is
+  // wrapped in single quotes because lavfi parses an unquoted ',' as a filter
+  // separator (watchdog 2026-11-13: every daily Reel since 2026-11-12 failed
+  // with "No option name near '<d>'").
   const arpExpr =
-    `aevalsrc=0.35*(between(mod(t,1.5),0,0.34)*sin(2*PI*523*t)` +
+    `aevalsrc='0.35*(between(mod(t,1.5),0,0.34)*sin(2*PI*523*t)` +
     `+between(mod(t,1.5),0.38,0.72)*sin(2*PI*659*t)` +
     `+between(mod(t,1.5),0.76,1.10)*sin(2*PI*784*t)` +
-    `+between(mod(t,1.5),1.14,1.48)*sin(2*PI*1047*t)):d=${seconds}`;
+    `+between(mod(t,1.5),1.14,1.48)*sin(2*PI*1047*t))':d=${seconds}`;
 
   // Layer 2 — Pulsed bass: 110 Hz sine gated by one-sided 2 Hz rhythm.
   // max(0,sin(...)) produces kick-like pulses (positive half-wave only).
-  const bassExpr = `aevalsrc=0.28*sin(2*PI*110*t)*max(0,sin(2*PI*2*t)):d=${seconds}`;
+  const bassExpr = `aevalsrc='0.28*sin(2*PI*110*t)*max(0,sin(2*PI*2*t))':d=${seconds}`;
 
   // Layer 3 — High-frequency shimmer for broadcast-style atmosphere.
-  const shimmerExpr = `aevalsrc=0.012*(random(0)*2-1):d=${seconds}`;
+  const shimmerExpr = `aevalsrc='0.012*(random(0)*2-1)':d=${seconds}`;
 
   return {
     ok: true,

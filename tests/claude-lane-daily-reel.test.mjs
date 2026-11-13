@@ -1,5 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { spawnSync } from 'node:child_process';
+import { mkdtempSync, statSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 
 import { selectTopStories, scoreStory }         from '../scripts/claude-lane/story-ranker.mjs';
 import {
@@ -309,6 +313,27 @@ test('newsDailyBedArgs: all lavfi inputs use aevalsrc= prefix (regression: missi
   for (const inp of inputs) {
     assert.ok(inp.startsWith('aevalsrc='), `lavfi input must start with aevalsrc=, got: ${inp.slice(0, 40)}`);
   }
+});
+
+test('newsDailyBedArgs: expressions are quoted so lavfi does not split on commas (regression 2026-11-12)', () => {
+  const r = newsDailyBedArgs({ seconds: 30, out: 'bed.m4a' });
+  const inputs = r.args.filter((_, i) => r.args[i - 1] === '-i');
+  for (const inp of inputs) {
+    // Any ',' must sit inside the single-quoted expression, never in the bare option string.
+    const unquoted = inp.replace(/'[^']*'/g, '');
+    assert.ok(!unquoted.includes(','), `unquoted comma in lavfi input: ${inp.slice(0, 60)}`);
+    assert.match(inp, /^aevalsrc='[^']+':d=30$/);
+  }
+});
+
+test('newsDailyBedArgs: ffmpeg actually renders the bed (skipped without ffmpeg)', (t) => {
+  if (spawnSync('ffmpeg', ['-version']).status !== 0) { t.skip('ffmpeg not installed'); return; }
+  const dir = mkdtempSync(join(tmpdir(), 'bed-test-'));
+  const out = join(dir, 'bed.m4a');
+  const r = newsDailyBedArgs({ seconds: 5, out });
+  const res = spawnSync('ffmpeg', r.args, { encoding: 'utf8' });
+  assert.equal(res.status, 0, res.stderr);
+  assert.ok(statSync(out).size > 0);
 });
 
 test('newsDailyBedArgs: rejects out-of-range durations and non-m4a output', () => {
