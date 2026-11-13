@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261113-mercedes-halts-investment-in-german-plants",
+  "status": "draft",
+  "created_at": "2026-11-13T12:50:54Z",
+  "category": "Economy",
+  "headline": "Mercedes-Benz halts all new investment in its German plants and weighs closures",
+  "headline_es": "Mercedes-Benz frena toda nueva inversión en sus plantas alemanas y estudia cierres",
+  "caption_en": "Mercedes-Benz has suspended further investment at its German sites after failing to agree labour-cost cuts with employee representatives, according to an internal memo reported by Reuters. HR chief Britta Seeger said the carmaker wants to avoid plant closures but must now examine that option more seriously. Production head Michael Schiebe warned in September that two German plants could close.",
+  "caption_es": "Mercedes-Benz suspendió nuevas inversiones en sus plantas de Alemania tras no lograr un acuerdo con los representantes de los trabajadores para reducir costes laborales, según un memorando interno citado por Reuters. La directora de recursos humanos, Britta Seeger, dijo que la empresa quiere evitar cierres de plantas, pero que ahora debe estudiar esa opción con más seriedad. El jefe de producción, Michael Schiebe, advirtió en septiembre que dos plantas alemanas podrían cerrar.",
+  "summary_es": "Las negociaciones con el comité de empresa y el sindicato IG Metall están estancadas. Mercedes dice que una hora de trabajo en Alemania puede costar hasta cinco veces más que en Europa del Este.",
+  "summary_en": "Talks with the works council and IG Metall are deadlocked. Mercedes says a labour hour in Germany can cost up to five times more than in Eastern Europe.",
+  "highlight_es": "frena toda nueva inversión",
+  "highlight_en": "halts all new investment",
+  "visual_label": "Mercedes",
+  "image_prompt": "Quiet modern car assembly hall with idle robotic arms and unfinished car bodies on a stopped production line, cool industrial lighting, wide cinematic view, no people, no logos",
+  "map": {
+    "focus": ["Germany"],
+    "labels": {"Germany": "Alemania"}
+  },
+  "source_urls": [
+    "https://www.rte.ie/news/business/2026/1113/1599071-mercedes-benz-halts-german-investments/",
+    "https://www.euronews.com/2026/11/12/mercedes-benz-halts-new-investment-in-german-plants-considers-closures"
+  ],
+  "source_names": ["RTÉ (Reuters)", "Euronews"],
+  "hashtags": ["#MATRIX24", "#MercedesBenz", "#Germany", "#Economy"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

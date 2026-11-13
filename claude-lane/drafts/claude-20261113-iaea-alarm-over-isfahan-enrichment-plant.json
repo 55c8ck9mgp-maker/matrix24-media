@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261113-iaea-alarm-over-isfahan-enrichment-plant",
+  "status": "draft",
+  "created_at": "2026-11-13T12:50:54Z",
+  "category": "Security / Geopolitics",
+  "headline": "UN nuclear watchdog 'increasingly concerned' about Iran's uninspected Isfahan enrichment plant",
+  "headline_es": "El organismo nuclear de la ONU, cada vez más preocupado por la planta de Isfahán sin inspeccionar",
+  "caption_en": "A confidential IAEA report seen by Reuters says the agency is increasingly concerned about the Isfahan Fuel Enrichment Plant, which Iran declared in June 2025 but has never let inspectors visit. The IAEA says it does not know the plant's exact location, its status or whether it holds nuclear material, calling this a serious proliferation concern.",
+  "caption_es": "Un informe confidencial del OIEA visto por Reuters indica que la agencia está cada vez más preocupada por la Planta de Enriquecimiento de Combustible de Isfahán, que Irán declaró en junio de 2025 pero que nunca ha dejado visitar a los inspectores. El OIEA afirma que desconoce la ubicación exacta de la planta, su estado y si contiene material nuclear, y lo califica de grave preocupación en materia de proliferación.",
+  "summary_es": "Irán declaró la planta en junio de 2025, pero la inspección prevista se frustró por los bombardeos. Se cree que está en túneles de Isfahán.",
+  "summary_en": "Iran declared the plant in June 2025, but the planned inspection was blocked by the bombing campaign. It is believed to sit in Isfahan's tunnels.",
+  "highlight_es": "planta de Isfahán",
+  "highlight_en": "Isfahan enrichment plant",
+  "visual_label": "Isfahán",
+  "image_prompt": "Fenced tunnel entrance cut into an arid rocky mountainside at dusk, empty access road and floodlights, dry desert plain in the foreground, wide cinematic view, no people",
+  "map": {
+    "focus": ["Iran"],
+    "marker": {"lat": 32.65, "lon": 51.67, "label": "Isfahán"},
+    "labels": {"Iran": "Irán"}
+  },
+  "source_urls": [
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/11/13/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
+    "https://themedialine.org/headlines/iaea-raises-alarm-over-irans-secretive-isfahan-nuclear-facility-demands-access-to-enriched-uranium/"
+  ],
+  "source_names": ["Reuters (via Internazionale)", "The Media Line"],
+  "hashtags": ["#MATRIX24", "#Iran", "#IAEA", "#Nuclear"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
