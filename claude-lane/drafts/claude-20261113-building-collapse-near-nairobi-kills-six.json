@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261113-building-collapse-near-nairobi-kills-six",
+  "status": "draft",
+  "created_at": "2026-11-13T18:52:35Z",
+  "category": "World",
+  "headline": "Building under construction collapses near Nairobi, killing six people",
+  "headline_es": "Se derrumba un edificio en construcción cerca de Nairobi y mueren seis personas",
+  "caption_en": "Six people were killed when a multistorey building under construction partly collapsed in Syokimau, on the outskirts of Kenya's capital Nairobi, on Friday. Five people were taken to hospital, and rescue teams worked through the debris. The collapse comes weeks after another building under construction fell in Nairobi on October 23, killing eight people.",
+  "caption_es": "Seis personas murieron el viernes cuando un edificio de varias plantas en construcción se derrumbó parcialmente en Syokimau, en las afueras de Nairobi, la capital de Kenia. Cinco personas fueron trasladadas al hospital y los equipos de rescate trabajaron entre los escombros. El derrumbe se produce semanas después de que otro edificio en construcción cayera en Nairobi el 23 de octubre, con ocho muertos.",
+  "summary_es": "Cedió la parte superior de la estructura en construcción. Es el segundo derrumbe mortal en Nairobi en pocas semanas.",
+  "summary_en": "The top part of the unfinished structure gave way. It is the second deadly collapse in Nairobi in a matter of weeks.",
+  "highlight_es": "mueren seis personas",
+  "highlight_en": "killing six people",
+  "visual_label": "Nairobi",
+  "image_prompt": "Unfinished concrete high-rise building with exposed steel rebar and scaffolding against a hazy sky, construction cranes nearby, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["Kenya"],
+    "marker": {"lat": -1.3700, "lon": 36.9400, "label": "Syokimau"},
+    "labels": {"Kenya": "Kenia"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people",
+    "https://theprint.in/world/six-people-dead-near-kenyas-capital-after-building-collapses-police-say/3098103/"
+  ],
+  "source_names": ["Al Jazeera", "ThePrint (Reuters)"],
+  "hashtags": ["#MATRIX24", "#Kenya", "#Nairobi", "#World"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

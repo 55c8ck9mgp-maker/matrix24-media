@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261113-bessent-blames-commerce-over-nvidia-chips",
+  "status": "draft",
+  "created_at": "2026-11-13T18:52:35Z",
+  "category": "Technology",
+  "headline": "Bessent blames Commerce for delaying curbs on firm at center of Nvidia chip scandal",
+  "headline_es": "Bessent culpa a Comercio de demorar restricciones a la firma clave del escándalo de Nvidia",
+  "caption_en": "US Treasury Secretary Scott Bessent said on CNBC that Howard Lutnick's Commerce Department held off for months on adding Singapore-based Megaspeed to an export control list, although Treasury, State, Defense and the US Trade Representative backed the move. Megaspeed, an Nvidia customer, is at the center of the scandal that led to Jensen Huang's exit as CEO. Senate Banking Committee chair Tim Scott has summoned Huang and Lutnick to testify.",
+  "caption_es": "El secretario del Tesoro de EE. UU., Scott Bessent, dijo en CNBC que el Departamento de Comercio de Howard Lutnick demoró durante meses la inclusión de la singapurense Megaspeed en una lista de control de exportaciones, pese al respaldo del Tesoro, el Departamento de Estado, Defensa y la Oficina del Representante Comercial. Megaspeed, cliente de Nvidia, está en el centro del escándalo que provocó la salida de Jensen Huang como director ejecutivo. El presidente del Comité Bancario del Senado, Tim Scott, citó a Huang y a Lutnick a testificar.",
+  "summary_es": "Bessent afirmó que Comercio tiene la última palabra sobre los controles de exportación. Washington examinaba si Megaspeed ayudó a desviar chips avanzados de Nvidia hacia China.",
+  "summary_en": "Bessent said Commerce has the final say on export controls. US officials had been examining whether Megaspeed helped route advanced Nvidia chips to China.",
+  "highlight_es": "Bessent culpa a Comercio",
+  "highlight_en": "Bessent blames Commerce",
+  "visual_label": "Chips",
+  "image_prompt": "Close-up of advanced computer chips on a circuit board beside stacked shipping containers at a port, dramatic blue and amber lighting, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 38.8899, "lon": -77.0091, "label": "Washington"},
+    "labels": {"United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://www.pbs.org/newshour/politics/bessent-blames-lutnicks-commerce-department-for-not-restricting-nvidia-chips-to-china",
+    "https://www.yahoo.com/news/politics/articles/bessent-faults-lutnick-not-cracking-150542617.html",
+    "https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china"
+  ],
+  "source_names": ["PBS NewsHour (AP)", "Politico", "Decrypt"],
+  "hashtags": ["#MATRIX24", "#Nvidia", "#ExportControls", "#Technology"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
