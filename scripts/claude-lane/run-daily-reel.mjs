@@ -2,7 +2,8 @@
 // Claude Lane — daily news-summary Reel orchestrator (Phase 7).
 // Selects the top 4 stories from the last 24 h, renders one card per story,
 // generates English TTS, builds per-story video segments, concatenates them,
-// mixes with the news bed, and writes the final Reel + metadata to $LANE_OUT.
+// and writes the final Reel + metadata to $LANE_OUT.
+// Audio: voice narration only (no background music bed).
 //
 // Publishing is handled by run-daily-reel-publish.mjs (lane claim + publish_unknown rules).
 // This script never calls any Instagram API or commits to git.
@@ -16,7 +17,6 @@ import { execFileSync } from 'node:child_process';
 import { readBranchDrafts, renderCardV2 }   from './run-lane.mjs';
 import { selectTopStories }                  from './story-ranker.mjs';
 import { generateEnTTSWithTiming }           from './reel-tts.mjs';
-import { buildVoiceoverMixArgs } from './reel-render.mjs';
 import {
   buildSegmentArgs,
   buildConcatArgs,
@@ -24,7 +24,6 @@ import {
   buildMultiVoiceConcatArgs,
   buildDailyReelCaption,
   measureAudioDuration,
-  newsDailyBedArgs,
   buildSubtitleFilters,
   FONT_PATH,
   DAILY_MAX_SECONDS,
@@ -206,56 +205,36 @@ async function main() {
   exec('ffmpeg', cr.args);
   log('concat-done', { segments: segmentPaths.length });
 
-  // ── 7. Build multi-story audio ────────────────────────────────────────────
+  // ── 7. Build audio track (voice narration only — no background music) ──────
   const validTtsFiles = ttsFiles.filter(Boolean);
   let finalAudioPath;
 
   if (validTtsFiles.length > 0) {
-    // Concat TTS tracks with 1-second silences.
+    // Concat TTS tracks with 1-second silences between stories.
     const multiVoicePath = path.join(TMP, 'multi-voice.mp3');
     const mvr = buildMultiVoiceConcatArgs({ audioFiles: validTtsFiles, outPath: multiVoicePath });
     if (!mvr.ok) {
       log('tts-concat-error', { reason: mvr.reason });
     } else {
       exec('ffmpeg', mvr.args);
-    }
-
-    // Generate audio bed matched to total video duration.
-    const bedPath = path.join(TMP, 'news-bed.m4a');
-    const bedR1 = newsDailyBedArgs({ seconds: Math.min(totalSec, DAILY_MAX_SECONDS), out: bedPath });
-    if (!bedR1.ok) throw new Error(`newsDailyBedArgs failed: ${bedR1.reason}`);
-    exec('ffmpeg', bedR1.args);
-
-    if (mvr.ok && fs.existsSync(multiVoicePath)) {
-      // Mix voice over bed.
-      const mixPath = path.join(TMP, 'mix.m4a');
-      const mr = buildVoiceoverMixArgs({
-        bedPath,
-        voicePath:    multiVoicePath,
-        outPath:      mixPath,
-        stingDelaySec: 1,
-      });
-      if (mr.ok) {
-        exec('ffmpeg', mr.args);
-        finalAudioPath = mixPath;
-        log('audio', { type: 'voiced-mix' });
-      } else {
-        log('mix-error', { reason: mr.reason });
+      if (fs.existsSync(multiVoicePath)) {
+        finalAudioPath = multiVoicePath;
+        log('audio', { type: 'voice-only' });
       }
     }
+  }
 
-    if (!finalAudioPath) {
-      finalAudioPath = bedPath;
-      log('audio', { type: 'bed-only-tts-fallback' });
-    }
-  } else {
-    // No TTS at all — use bed only.
-    const bedPath = path.join(TMP, 'news-bed.m4a');
-    const bedR2 = newsDailyBedArgs({ seconds: Math.min(totalSec, DAILY_MAX_SECONDS), out: bedPath });
-    if (!bedR2.ok) throw new Error(`newsDailyBedArgs failed: ${bedR2.reason}`);
-    exec('ffmpeg', bedR2.args);
-    finalAudioPath = bedPath;
-    log('audio', { type: 'bed-only' });
+  if (!finalAudioPath) {
+    // No TTS (or TTS failed) — generate silence so the muxer has an audio stream.
+    const silencePath = path.join(TMP, 'silence.m4a');
+    const silenceSec  = Math.min(totalSec, DAILY_MAX_SECONDS);
+    exec('ffmpeg', [
+      '-hide_banner', '-loglevel', 'error', '-y',
+      '-f', 'lavfi', '-i', `aevalsrc=0:d=${silenceSec}`,
+      '-c:a', 'aac', '-b:a', '64k', silencePath,
+    ]);
+    finalAudioPath = silencePath;
+    log('audio', { type: 'silence' });
   }
 
   // ── 8. Mux video + audio ──────────────────────────────────────────────────
