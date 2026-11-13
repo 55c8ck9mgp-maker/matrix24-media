@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261113-rosalia-wins-album-of-the-year-at-latin-grammys",
+  "status": "draft",
+  "created_at": "2026-11-13T06:57:12Z",
+  "category": "Colombia / Latin America",
+  "headline": "Rosalía wins album of the year at the Latin Grammys with six awards in Las Vegas",
+  "headline_es": "Rosalía gana el álbum del año en los Latin Grammy con seis premios en Las Vegas",
+  "caption_en": "Rosalía won album of the year at the 27th Latin Grammy Awards in Las Vegas for \"LUX (Complete Works)\", one of six awards she took home, including song of the year for \"La Perla\". Argentina's Milo J won record of the year for \"Niño\", and Barranquilla singer Aria Vega was named best new artist. Colombia's Karol G won two awards.",
+  "caption_es": "Rosalía ganó el álbum del año en la 27.ª edición de los Latin Grammy en Las Vegas por \"LUX (Complete Works)\", uno de los seis premios que obtuvo, entre ellos canción del año por \"La Perla\". El argentino Milo J ganó grabación del año con \"Niño\" y la barranquillera Aria Vega fue elegida mejor nueva artista. La colombiana Karol G ganó dos premios.",
+  "summary_es": "Milo J se llevó grabación del año con \"Niño\" y la barranquillera Aria Vega fue mejor nueva artista. Karol G ganó dos gramófonos.",
+  "summary_en": "Milo J took record of the year for \"Niño\" and Barranquilla's Aria Vega was named best new artist. Karol G won two awards.",
+  "highlight_es": "álbum del año",
+  "highlight_en": "album of the year",
+  "visual_label": "Latin Grammy",
+  "image_prompt": "Empty concert stage bathed in golden spotlights with a vintage gramophone silhouette at center, glittering confetti in the air, grand arena atmosphere, wide cinematic view, no people",
+  "source_urls": [
+    "https://www.eltiempo.com/cultura/musica-y-libros/la-espanola-mas-latina-rosalia-triunfa-en-los-latin-grammy-2026-con-seis-premios-3600720",
+    "https://www.infobae.com/entretenimiento/2026/11/13/lista-de-ganadores-de-los-latin-grammy-2026-rosalia-karol-g-y-milo-j-entre-los-triunfadores/"
+  ],
+  "source_names": ["El Tiempo", "Infobae"],
+  "hashtags": ["#MATRIX24", "#LatinGrammy", "#Rosalía", "#Música"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

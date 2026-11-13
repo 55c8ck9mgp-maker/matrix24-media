@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261113-iran-guards-claim-strike-on-us-radar-in-bahrain",
+  "status": "draft",
+  "created_at": "2026-11-13T06:57:12Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's Revolutionary Guards say they targeted a US early-warning radar in Bahrain",
+  "headline_es": "La Guardia Revolucionaria de Irán dice que atacó un radar de alerta temprana de EE.UU. en Baréin",
+  "caption_en": "Iran's Revolutionary Guards said on Friday they targeted a US early-warning radar in Bahrain, calling it retaliation for an air attack on a telecommunications tower in Iran's Hormozgan province. It is Iran's first claim of an attack on US military assets in a Gulf country since early September. Neither Washington nor Manama commented immediately.",
+  "caption_es": "La Guardia Revolucionaria de Irán afirmó el viernes que atacó un radar de alerta temprana de Estados Unidos en Baréin, en represalia por un ataque aéreo contra una torre de telecomunicaciones en la provincia iraní de Hormozgán. Es la primera vez desde principios de septiembre que Irán reivindica un ataque contra activos militares estadounidenses en un país del Golfo. Ni Washington ni Manama comentaron de inmediato.",
+  "summary_es": "Irán lo presenta como represalia por un ataque aéreo contra una torre de telecomunicaciones en Sirik, Hormozgán. EE.UU. y Baréin no comentaron de inmediato.",
+  "summary_en": "Iran calls it retaliation for an air attack on a telecom tower in Sirik, Hormozgan. The US and Bahrain did not comment immediately.",
+  "highlight_es": "radar de alerta temprana",
+  "highlight_en": "early-warning radar",
+  "visual_label": "Golfo Pérsico",
+  "image_prompt": "Large military radar dome on a desert coastline at dusk beside a calm turquoise gulf, distant haze over the water, wide cinematic view, no people",
+  "map": {
+    "focus": ["Bahrain", "Iran"],
+    "marker": {"lat": 26.07, "lon": 50.55, "label": "Baréin"},
+    "labels": {"Bahrain": "Baréin", "Iran": "Irán"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain",
+    "https://www.al-monitor.com/originals/2026/11/irans-guards-say-they-targeted-us-early-warning-radar-bahrain"
+  ],
+  "source_names": ["Al Jazeera", "Al-Monitor (Reuters)"],
+  "hashtags": ["#MATRIX24", "#Iran", "#Bahrain", "#Geopolitics"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
