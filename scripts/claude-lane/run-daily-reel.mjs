@@ -133,8 +133,11 @@ async function main() {
     if (!f) return STORY_DURATION_SEC;
     try {
       const dur = measureAudioDuration(f);
-      // Add 2 s buffer; min 5 s; max 30 s per story.
-      return Math.min(30, Math.max(5, Math.ceil(dur + 2)));
+      // Add 1 s buffer — matches the 1-s inter-story silence in
+      // buildMultiVoiceConcatArgs so each story's video and audio start
+      // together (mismatched buffer causes accumulated subtitle lag).
+      // min 5 s; max 30 s per story.
+      return Math.min(30, Math.max(5, Math.ceil(dur + 1)));
     } catch {
       return STORY_DURATION_SEC;
     }
