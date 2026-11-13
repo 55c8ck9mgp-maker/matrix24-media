@@ -1,0 +1,76 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261113-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-13T02:07:05.440Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-13",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-13",
+  "caption_es": "Resumen del día:\n1️⃣ Un coche bomba mata a un oficial militar ruso cerca de San Petersburgo; abren investigación\n2️⃣ Zelenski se reúne en Dublín con los enviados de EE. UU. tras su cita con Putin; Europa se sumará\n3️⃣ La Asamblea de Expertos de Irán pide estudiar una posible salida del tratado nuclear\n4️⃣ Un ataque israelí contra el hospital Nasser de Gaza mata al menos a seis, entre ellos un cirujano",
+  "caption_en": "Today's summary:\n1️⃣ Car bomb kills Russian military officer near St. Petersburg; murder probe opened\n2️⃣ Zelensky meets US envoys in Dublin after their Putin talks; Europe to join next round\n3️⃣ Iran's Assembly of Experts urges review of a possible exit from the nuclear treaty\n4️⃣ Israeli strike on Gaza's Nasser Hospital kills at least six, including a surgeon",
+  "source_urls": [
+    "https://meduza.io/en/feature/2026/11/12/russian-colonel-killed-in-st-petersburg-car-bombing-three-months-after-another-military-officer-s-car-was-blown-up-in-the-same-area",
+    "https://kyivindependent.com/russian-colonel-reportedly-killed-in-car-explosion-near-st-petersburg/",
+    "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
+    "https://www.rte.ie/news/2026/1112/1599048-epc-takeaways/",
+    "https://www.yahoo.com/news/politics/articles/witkoff-speaks-progress-meeting-putin-210340953.html",
+    "https://thisisbeirut.com.lb/news/politics/irans-assembly-of-experts-calls-for-considering-withdrawal-from-npt",
+    "https://www.trend.az/iran/4245688.html",
+    "https://mymotherlode.com/news/world/11303249/israel-hits-gaza-hospital-and-france-turns-away-a-settler-leader-and-other-mideast-news.html",
+    "https://www.timesofisrael.com/idf-targets-top-hamas-commander-in-strike-on-south-gaza-hospital-6-said-killed/",
+    "https://www.yahoo.com/news/world/articles/israeli-strike-gaza-nasser-hospital-092644912.html"
+  ],
+  "source_names": [
+    "Meduza",
+    "The Kyiv Independent",
+    "RTÉ",
+    "dpa (via Yahoo News)",
+    "This is Beirut",
+    "Trend News Agency",
+    "Associated Press (via myMotherLode)",
+    "The Times of Israel",
+    "NBC News"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#Rusia",
+    "#SanPetersburgo",
+    "#Ucrania",
+    "#Europa",
+    "#Diplomacia",
+    "#Irán",
+    "#TNP",
+    "#Nuclear",
+    "#Gaza",
+    "#Israel",
+    "#MedioOriente"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261113-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261113-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261112-car-bomb-kills-russian-colonel-st-petersburg",
+      "claude-20261113-zelensky-meets-us-envoys-in-dublin",
+      "claude-20261112-iran-clerics-urge-npt-exit-review",
+      "claude-20261112-israeli-strike-hits-gaza-nasser-hospital"
+    ],
+    "total_seconds": 65
+  },
+  "publish_attempt_id": "537a161d-70b6-4ec3-acc2-a9a846d2a1e9",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-13T02:07:51.045Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-13T02:07:51.045Z",
+      "event": "reserved",
+      "publish_attempt_id": "537a161d-70b6-4ec3-acc2-a9a846d2a1e9"
+    }
+  ],
+  "reserved_at": "2026-11-13T02:07:51.045Z"
+}
