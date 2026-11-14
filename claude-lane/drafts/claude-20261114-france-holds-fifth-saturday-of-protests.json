@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-france-holds-fifth-saturday-of-protests",
+  "status": "draft",
+  "created_at": "2026-11-14T18:56:23Z",
+  "category": "World",
+  "headline": "France sees fifth straight Saturday of protests over living costs and a police bill",
+  "headline_es": "Francia vive su quinto sábado seguido de protestas por el costo de vida y una ley policial",
+  "caption_en": "The interior ministry counted about 106,000 protesters across France on Saturday, including 24,000 in Paris, while organisers claimed 200,000. Students, unions and Yellow Vest activists marched against rising living costs and a bill giving police more protection when using weapons, which is due for a vote next week. Unions have called new strikes for Tuesday after rejecting a 0.6% minimum wage rise.",
+  "caption_es": "El Ministerio del Interior contó unos 106.000 manifestantes en Francia este sábado, 24.000 de ellos en París, mientras los organizadores hablaron de 200.000. Estudiantes, sindicatos y chalecos amarillos marcharon contra el alza del costo de vida y un proyecto de ley que da más protección a los policías que usan armas, que se votará la próxima semana. Los sindicatos convocaron nuevas huelgas para el martes tras rechazar una subida del 0,6% del salario mínimo.",
+  "source_urls": [
+    "https://au.news.yahoo.com/france-sees-fifth-consecutive-saturday-181118508.html",
+    "https://www.trtworld.com/article/c4caaf5aaf52"
+  ],
+  "source_names": ["Euronews", "TRT World"],
+  "hashtags": ["#MATRIX24", "#Francia", "#France", "#Protestas"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Es la menor cifra oficial en semanas; los sindicatos rechazan subir el salario mínimo solo un 0,6% y convocan huelgas el martes.",
+  "summary_en": "Official turnout was the lowest in weeks; unions reject a 0.6% minimum wage rise and call strikes for Tuesday.",
+  "highlight_es": "quinto sábado",
+  "highlight_en": "fifth straight Saturday",
+  "visual_label": "París",
+  "image_prompt": "Wide Parisian boulevard at dusk lined with classic Haussmann buildings, scattered protest banners without text, empty barriers along the street, soft streetlights, cinematic view, no identifiable people, no text, no logos, no flags",
+  "map": {
+    "focus": ["France"],
+    "marker": {"lat": 48.87, "lon": 2.36, "label": "París"},
+    "labels": {"France": "Francia"}
+  }
+}

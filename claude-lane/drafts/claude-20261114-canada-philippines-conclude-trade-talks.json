@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-canada-philippines-conclude-trade-talks",
+  "status": "draft",
+  "created_at": "2026-11-14T18:56:23Z",
+  "category": "Economy",
+  "headline": "Canada and the Philippines conclude free trade talks as Ottawa looks beyond the US",
+  "headline_es": "Canadá y Filipinas concluyen negociaciones de libre comercio mientras Ottawa mira más allá de EE. UU.",
+  "caption_en": "Prime Minister Mark Carney said in Manila that Canada has concluded negotiations on a free trade agreement with the Philippines, which it aims to finalise in 2027. He said talks on a broader deal with the ASEAN bloc have been substantially completed. Carney described the push as part of a strategy to reduce Canada's relative reliance on the United States after trade clashes with Washington.",
+  "caption_es": "El primer ministro Mark Carney anunció en Manila que Canadá concluyó las negociaciones de un tratado de libre comercio con Filipinas, que busca concretar en 2027. Afirmó que las conversaciones para un acuerdo más amplio con el bloque de la ASEAN están sustancialmente terminadas. Carney presentó el impulso como parte de una estrategia para reducir la dependencia relativa de Canadá respecto de Estados Unidos tras sus choques comerciales con Washington.",
+  "source_urls": [
+    "https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says",
+    "https://www.ottumwacourier.com/news/national_news/canada-s-carney-reports-progress-in-trade-talks-with-trump-as-he-expands-ties-with/article_3da1bd90-2d5f-5cdb-8f28-4fce734b2e68.html"
+  ],
+  "source_names": ["Euronews", "AP"],
+  "hashtags": ["#MATRIX24", "#Canadá", "#Filipinas", "#ASEAN", "#Comercio"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Carney dice que las negociaciones con la ASEAN están sustancialmente terminadas y que Canadá busca reducir su dependencia de EE. UU.",
+  "summary_en": "Carney says talks with the ASEAN bloc are substantially complete as Canada seeks to reduce its reliance on the US.",
+  "highlight_es": "libre comercio",
+  "highlight_en": "free trade talks",
+  "visual_label": "Canadá-Filipinas",
+  "image_prompt": "Container ship loaded with colorful shipping containers leaving a tropical port at sunrise, cranes on the dock, calm sea, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Canada", "Philippines"],
+    "marker": {"lat": 14.6, "lon": 120.98, "label": "Manila"},
+    "labels": {"Canada": "Canadá", "Philippines": "Filipinas"}
+  }
+}
