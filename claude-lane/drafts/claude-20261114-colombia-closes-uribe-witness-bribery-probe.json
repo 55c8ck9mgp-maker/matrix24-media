@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-colombia-closes-uribe-witness-bribery-probe",
+  "status": "draft",
+  "created_at": "2026-11-14T12:55:00Z",
+  "category": "Colombia / Latin America",
+  "headline": "Colombia's prosecutors close probe into alleged witness bribery by ex-president Uribe",
+  "headline_es": "La Fiscalía de Colombia archiva la investigación contra Uribe por presunto soborno a testigos",
+  "caption_en": "Colombia's Attorney General's Office ordered the archiving of an investigation into former president Álvaro Uribe over alleged bribery of witnesses, based on a complaint by Senator Iván Cepeda. Prosecutors said the evidence gathered did not make it possible to establish that the reported acts took place. The case could be reopened if new evidence emerges while the criminal action remains valid.",
+  "caption_es": "La Fiscalía General de Colombia ordenó archivar la investigación contra el expresidente Álvaro Uribe por presunto soborno a testigos, originada en una denuncia del senador Iván Cepeda. La Fiscalía dijo que las pruebas recogidas no permiten establecer la existencia de los hechos denunciados. El caso podría reabrirse si surgen nuevas pruebas mientras la acción penal siga vigente.",
+  "source_urls": [
+    "https://www.infobae.com/colombia/2026/11/14/fiscalia-archivo-investigacion-contra-el-expresidente-alvaro-uribe-por-presunto-soborno-a-testigos-hecho-denunciado-por-el-senador-ivan-cepeda/",
+    "https://www.elpais.com.co/politica/fiscalia-archiva-investigacion-contra-alvaro-uribe-por-presunto-soborno-a-exparamilitares-denunciado-por-ivan-cepeda-1328.html"
+  ],
+  "source_names": ["Infobae", "El País (Cali)"],
+  "hashtags": ["#MATRIX24", "#Colombia", "#Fiscalía", "#Uribe", "#Justicia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La investigación examinaba supuestos pagos y presiones a exparamilitares para cambiar sus testimonios. La Fiscalía se basó en el artículo 79 de la Ley 906 de 2004.",
+  "summary_en": "The probe examined alleged payments and pressure on former paramilitaries to change their testimony. Prosecutors cited Article 79 of Law 906 of 2004.",
+  "highlight_es": "archiva",
+  "highlight_en": "close probe",
+  "visual_label": "Fiscalía",
+  "image_prompt": "Stack of closed legal case files tied with string on a wooden desk in a dim office, a brass gavel beside them, a colonial-style government building visible through the window, no people, no text, no flags, cinematic lighting",
+  "map": {
+    "focus": ["Colombia"],
+    "marker": {"lat": 4.71, "lon": -74.07, "label": "Bogotá"},
+    "labels": {"Colombia": "Colombia"}
+  }
+}

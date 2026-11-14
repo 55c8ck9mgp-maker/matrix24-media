@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-icc-ends-probe-of-us-troops-in-afghanistan",
+  "status": "draft",
+  "created_at": "2026-11-14T12:55:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "ICC judges halt Afghanistan war crimes probe into US troops, keep focus on the Taliban",
+  "headline_es": "Jueces de la CPI frenan la investigación sobre tropas de EE. UU. en Afganistán",
+  "caption_en": "Judges at the International Criminal Court ended the part of the Afghanistan investigation that could have involved American troops, limiting the case to crimes by the Taliban. The ruling cites significant limits on the prosecution's ability to investigate and secure evidence. The prosecutor's office says it has already appealed. The US is not an ICC member and has sanctioned 13 current and former court staff.",
+  "caption_es": "Los jueces de la Corte Penal Internacional cerraron la parte de la investigación sobre Afganistán que podía involucrar a tropas estadounidenses y limitaron el caso a crímenes de los talibanes. La decisión cita importantes limitaciones de la Fiscalía para investigar y obtener pruebas. La oficina del fiscal afirma que ya apeló. EE. UU. no es miembro de la CPI y ha sancionado a 13 funcionarios actuales y antiguos del tribunal.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/14/icc-stops-probe-into-alleged-crimes-by-us-troops-in-afghanistan",
+    "https://www.whio.com/news/world/international/PZSTQ3DK6Q74TJADSSGE745WNI/"
+  ],
+  "source_names": ["Al Jazeera", "Associated Press (via WHIO)"],
+  "hashtags": ["#MATRIX24", "#CPI", "#Afganistán", "#ICC", "#JusticiaInternacional"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "La investigación, autorizada en 2020, abarcaba presuntos delitos desde 2002 de fuerzas afganas, talibanes, tropas y agentes de inteligencia de EE. UU.",
+  "summary_en": "The probe, authorized in 2020, covered alleged crimes since 2002 by Afghan forces, the Taliban, US troops and US intelligence operatives.",
+  "highlight_es": "CPI",
+  "highlight_en": "ICC judges",
+  "visual_label": "CPI",
+  "image_prompt": "Modern international courthouse building with glass facade under an overcast sky, an empty judges' bench with a gavel in the foreground as a symbolic element, rugged Afghan mountains faintly visible in the background, no people, no text, no flags, cinematic wide view",
+  "map": {
+    "focus": ["Afghanistan", "Netherlands"],
+    "marker": {"lat": 52.08, "lon": 4.30, "label": "La Haya"},
+    "labels": {"Afghanistan": "Afganistán", "Netherlands": "Países Bajos"}
+  }
+}

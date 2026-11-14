@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-zelensky-says-us-floated-donbas-for-nato",
+  "status": "draft",
+  "created_at": "2026-11-14T12:55:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Zelensky says US floated Ukraine leaving Donbas in exchange for NATO membership",
+  "headline_es": "Zelenski dice que EE. UU. planteó que Ucrania deje el Donbás a cambio de entrar en la OTAN",
+  "caption_en": "Ukrainian President Volodymyr Zelensky said US negotiators asked, for the first time, whether Ukraine would withdraw from Donbas if it joined NATO, after the latest talks with Russia in Abu Dhabi. He said Kyiv is not ready to give up territory. If Ukraine received a full package of security guarantees, a strong army and reconstruction funds, he said he would put the question to a referendum.",
+  "caption_es": "El presidente ucraniano, Volodímir Zelenski, dijo que los negociadores de EE. UU. preguntaron por primera vez si Ucrania se retiraría del Donbás si ingresara en la OTAN, tras la última ronda de conversaciones con Rusia en Abu Dabi. Afirmó que Kiev no está dispuesta a ceder territorio. Si Ucrania recibiera un paquete completo de garantías de seguridad, un ejército fuerte y fondos de reconstrucción, dijo que sometería la cuestión a referéndum.",
+  "source_urls": [
+    "https://www.al-monitor.com/originals/2026/11/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says",
+    "https://uk.news.yahoo.com/us-negotiators-suggest-ukraine-cedes-103004694.html"
+  ],
+  "source_names": ["Reuters (via Al-Monitor)", "France 24 (via Yahoo News UK)"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#OTAN", "#Donbás", "#Zelenski"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Zelenski afirmó que la guerra debe terminar antes de negociar una nueva arquitectura de seguridad europea, como pide Rusia.",
+  "summary_en": "Zelensky said the war must end before any talks on a new European security architecture, as Russia has demanded.",
+  "highlight_es": "Donbás",
+  "highlight_en": "Donbas",
+  "visual_label": "Donbás",
+  "image_prompt": "Vast flat steppe landscape with wheat fields and coal mine headframes under a dramatic grey sky, an empty negotiating table with chairs superimposed symbolically in the foreground, no people, no text, no flags, cinematic wide view",
+  "map": {
+    "focus": ["Ukraine"],
+    "marker": {"lat": 48.0, "lon": 37.8, "label": "Donbás"},
+    "labels": {"Ukraine": "Ucrania"}
+  }
+}
