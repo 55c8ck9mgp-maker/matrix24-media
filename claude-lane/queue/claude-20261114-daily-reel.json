@@ -1,0 +1,72 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-14T00:18:14.614Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-14",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-14",
+  "caption_es": "Resumen del día:\n1️⃣ Se derrumba un edificio en construcción cerca de Nairobi y mueren seis personas\n2️⃣ El organismo nuclear de la ONU, cada vez más preocupado por la planta de Isfahán sin inspeccionar\n3️⃣ Mercedes-Benz frena toda nueva inversión en sus plantas alemanas y estudia cierres\n4️⃣ La Guardia Revolucionaria de Irán dice que atacó un radar de alerta temprana de EE.UU. en Baréin",
+  "caption_en": "Today's summary:\n1️⃣ Building under construction collapses near Nairobi, killing six people\n2️⃣ UN nuclear watchdog 'increasingly concerned' about Iran's uninspected Isfahan enrichment plant\n3️⃣ Mercedes-Benz halts all new investment in its German plants and weighs closures\n4️⃣ Iran's Revolutionary Guards say they targeted a US early-warning radar in Bahrain",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people",
+    "https://theprint.in/world/six-people-dead-near-kenyas-capital-after-building-collapses-police-say/3098103/",
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/11/13/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
+    "https://themedialine.org/headlines/iaea-raises-alarm-over-irans-secretive-isfahan-nuclear-facility-demands-access-to-enriched-uranium/",
+    "https://www.rte.ie/news/business/2026/1113/1599071-mercedes-benz-halts-german-investments/",
+    "https://www.euronews.com/2026/11/12/mercedes-benz-halts-new-investment-in-german-plants-considers-closures",
+    "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain",
+    "https://www.al-monitor.com/originals/2026/11/irans-guards-say-they-targeted-us-early-warning-radar-bahrain"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "ThePrint (Reuters)",
+    "Reuters (via Internazionale)",
+    "The Media Line",
+    "RTÉ (Reuters)",
+    "Euronews",
+    "Al-Monitor (Reuters)"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#Kenya",
+    "#Nairobi",
+    "#World",
+    "#Iran",
+    "#IAEA",
+    "#Nuclear",
+    "#MercedesBenz",
+    "#Germany",
+    "#Economy",
+    "#Bahrain",
+    "#Geopolitics"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261114-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261114-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261113-building-collapse-near-nairobi-kills-six",
+      "claude-20261113-iaea-alarm-over-isfahan-enrichment-plant",
+      "claude-20261113-mercedes-halts-investment-in-german-plants",
+      "claude-20261113-iran-guards-claim-strike-on-us-radar-in-bahrain"
+    ],
+    "total_seconds": 72
+  },
+  "publish_attempt_id": "71a8a57d-0b94-4c7d-8b3c-02b709a623dc",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-14T00:18:52.837Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-14T00:18:52.837Z",
+      "event": "reserved",
+      "publish_attempt_id": "71a8a57d-0b94-4c7d-8b3c-02b709a623dc"
+    }
+  ],
+  "reserved_at": "2026-11-14T00:18:52.837Z"
+}
