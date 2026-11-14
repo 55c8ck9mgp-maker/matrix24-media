@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-supreme-court-to-rule-on-asylum-ban",
+  "status": "draft",
+  "created_at": "2026-11-14T00:51:00Z",
+  "category": "World",
+  "headline": "US Supreme Court agrees to rule on Trump's asylum ban at the Mexico border",
+  "headline_es": "La Corte Suprema de EE. UU. decidirá sobre el veto al asilo de Trump en la frontera con México",
+  "caption_en": "The US Supreme Court agreed on Friday to decide whether the Trump administration can suspend access to asylum at the US-Mexico border. The policy stems from a January 2025 proclamation; lower federal courts ruled against it, but it remains in effect while the government appeals. Oral arguments are expected in early 2027, with a ruling due by June.",
+  "caption_es": "La Corte Suprema de EE. UU. aceptó el viernes decidir si el Gobierno de Trump puede suspender el acceso al asilo en la frontera entre EE. UU. y México. La política surge de una proclamación de enero de 2025; tribunales federales inferiores fallaron en su contra, pero sigue vigente mientras el Gobierno apela. Se esperan audiencias orales a comienzos de 2027 y un fallo antes de junio.",
+  "source_urls": [
+    "https://www.scotusblog.com/2026/11/supreme-court-agrees-to-hear-case-on-trump-administrations-suspension-of-asylum/",
+    "https://www.yahoo.com/news/politics/articles/supreme-court-agrees-rule-trumps-203822317.html"
+  ],
+  "source_names": ["SCOTUSblog", "Los Angeles Times (via Yahoo News)"],
+  "hashtags": ["#MATRIX24", "#Asilo", "#Migración", "#CorteSuprema", "#México"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El Gobierno sostiene que la ley permite al presidente suspender la entrada de extranjeros; grupos de derechos de inmigrantes dicen que el asilo no puede eliminarse por decreto.",
+  "summary_en": "The government says the law lets the president suspend entry of foreigners; immigrant rights groups argue asylum cannot be abolished by proclamation.",
+  "highlight_es": "veto al asilo",
+  "highlight_en": "asylum ban",
+  "visual_label": "Frontera",
+  "image_prompt": "Tall steel border fence stretching across a desert landscape at golden hour, scrub brush and distant mountains, a classical courthouse with columns faintly overlaid in the sky as a symbolic element, no people, no text, no flags, cinematic wide view",
+  "map": {
+    "focus": ["United States of America", "Mexico"],
+    "labels": {"United States of America": "Estados Unidos", "Mexico": "México"}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-starship-flight-15-booster-catch-called-off",
+  "status": "draft",
+  "created_at": "2026-11-14T00:51:00Z",
+  "category": "Science",
+  "headline": "SpaceX launches Starship Flight 15 but calls off the booster catch at the tower",
+  "headline_es": "SpaceX lanza el vuelo 15 de Starship, pero cancela la captura del propulsor en la torre",
+  "caption_en": "SpaceX launched Starship on its 15th test flight from Starbase, Texas, at 5:47 p.m. ET on Friday. The company called off the planned catch of the Super Heavy booster with the tower's arms and sent it to a splashdown in the Gulf of Mexico; the reason was not immediately known. The upper stage is on a mission of more than 21 hours, carrying 26 Starlink V3 satellites, and SpaceX may try on Saturday to catch it at Starbase for the first time.",
+  "caption_es": "SpaceX lanzó el viernes a las 17:47 (hora del este de EE. UU.) el vuelo de prueba número 15 de Starship desde Starbase, Texas. La empresa canceló la captura prevista del propulsor Super Heavy con los brazos de la torre y lo envió a amerizar en el golfo de México; el motivo no se conoció de inmediato. La etapa superior cumple una misión de más de 21 horas con 26 satélites Starlink V3, y SpaceX podría intentar el sábado atraparla en Starbase por primera vez.",
+  "source_urls": [
+    "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
+    "https://gizmodo.com/watch-live-as-spacex-tries-to-catch-both-starship-stages-for-the-first-time-2000839576"
+  ],
+  "source_names": ["Space.com", "Gizmodo"],
+  "hashtags": ["#MATRIX24", "#SpaceX", "#Starship", "#Espacio", "#Ciencia"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El objetivo era la primera doble captura: propulsor y nave. La nave daría 14 vueltas a la Tierra antes de regresar el sábado.",
+  "summary_en": "The goal was the first double catch of booster and ship. The ship is set to circle Earth 14 times before returning on Saturday.",
+  "highlight_es": "vuelo 15 de Starship",
+  "highlight_en": "Starship Flight 15",
+  "visual_label": "Starship",
+  "image_prompt": "Tall stainless steel rocket lifting off from a coastal launch tower at sunset, bright engine plume and billowing exhaust clouds over flat Gulf coast terrain, distant calm sea, no people, no text, no logos, no flags, cinematic wide view",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 25.997, "lon": -97.157, "label": "Starbase, Texas"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-faa-halts-all-us-flights-nationwide",
+  "status": "draft",
+  "created_at": "2026-11-14T00:51:00Z",
+  "category": "World",
+  "headline": "FAA halts flights nationwide over air traffic control communications failure",
+  "headline_es": "La FAA detiene los vuelos en todo EE. UU. por una falla de comunicaciones del control aéreo",
+  "caption_en": "The US Federal Aviation Administration ordered a nationwide ground stop on Friday afternoon, citing extraordinary circumstances and safety. Transportation Secretary Sean Duffy said a communications issue was affecting the regional air route traffic control centers, and FAA technicians were investigating. It is the first nationwide ground stop since January 2023; Homeland Security Secretary Markwayne Mullin said there was no timeline yet for restarting flights.",
+  "caption_es": "La Administración Federal de Aviación de EE. UU. (FAA) ordenó el viernes por la tarde la suspensión de vuelos en todo el país, alegando circunstancias extraordinarias y razones de seguridad. El secretario de Transporte, Sean Duffy, dijo que un problema de comunicaciones afectaba a los centros regionales de control de tránsito aéreo en ruta, y que técnicos de la FAA lo investigaban. Es la primera suspensión nacional desde enero de 2023; el secretario de Seguridad Nacional, Markwayne Mullin, dijo que aún no había un plazo para reanudar los vuelos.",
+  "source_urls": [
+    "https://www.wpr.org/news/flights-halted-at-airports-across-us-due-to-air-traffic-control-communications-problems-faa-says",
+    "https://abc7news.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20039033/"
+  ],
+  "source_names": [
+    "Associated Press (via WPR)",
+    "ABC7"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#FAA",
+    "#EstadosUnidos",
+    "#Aviación",
+    "#Vuelos"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Mullin dijo que por ahora no hay indicios de un ataque y lo describió como una falla de telecomunicaciones.",
+  "summary_en": "Mullin said there was no indication so far of a deliberate attack, describing it as a telecommunications outage for now.",
+  "highlight_es": "detiene los vuelos",
+  "highlight_en": "halts flights nationwide",
+  "visual_label": "Torre de control",
+  "image_prompt": "Airport air traffic control tower at dusk with rows of parked passenger jets at their gates on a quiet apron, empty runway lights glowing, overcast sky, no people, no text, no logos, no flags, cinematic wide view",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}
