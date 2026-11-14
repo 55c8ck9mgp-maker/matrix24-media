@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-us-loses-measles-elimination-status",
+  "status": "draft",
+  "created_at": "2026-11-14T06:49:43Z",
+  "category": "Science",
+  "headline": "United States loses measles elimination status after 26 years",
+  "headline_es": "Estados Unidos pierde su estatus de país libre de sarampión tras 26 años",
+  "caption_en": "The Pan American Health Organization has revoked the measles elimination status the United States had held since 2000, according to a Wall Street Journal report. The decision follows more than 12 months of continuous spread of the virus, with over 5,000 confirmed cases in the US so far in 2026. To regain the status, the country must go 12 months without continuous transmission.",
+  "caption_es": "La Organización Panamericana de la Salud revocó el estatus de eliminación del sarampión que Estados Unidos tenía desde 2000, según informó The Wall Street Journal. La decisión llega tras más de 12 meses de propagación continua del virus, con más de 5.000 casos confirmados en el país en lo que va de 2026. Para recuperar el estatus, el país debe pasar 12 meses sin transmisión continua.",
+  "source_urls": [
+    "https://www.staradvertiser.com/2026/11/13/breaking-news/u-s-loses-measles-free-status-as-disease-continues-to-spread/",
+    "https://www.livescience.com/health/viruses-infections-disease/measles-is-back-in-the-united-states-who-authorities-say"
+  ],
+  "source_names": ["Reuters (via Honolulu Star-Advertiser)", "Live Science"],
+  "hashtags": ["#MATRIX24", "#Sarampión", "#Measles", "#SaludPública", "#OPS"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Expertos vinculan el regreso del sarampión a la caída de la vacunación. Canadá y el Reino Unido también perdieron antes ese estatus.",
+  "summary_en": "Experts link measles' return to falling vaccination rates. Canada and the UK had already lost the same status.",
+  "highlight_es": "sarampión",
+  "highlight_en": "measles elimination",
+  "visual_label": "Sarampión",
+  "image_prompt": "Close-up of vaccine vials and a syringe on a clean laboratory tray, soft blue clinical light, blurred hospital corridor in the background, no people, no text, no logos, cinematic shallow depth of field",
+  "map": {
+    "focus": ["United States of America"],
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

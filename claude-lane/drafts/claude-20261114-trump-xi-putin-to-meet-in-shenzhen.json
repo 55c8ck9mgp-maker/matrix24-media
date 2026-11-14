@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261114-trump-xi-putin-to-meet-in-shenzhen",
+  "status": "draft",
+  "created_at": "2026-11-14T06:49:43Z",
+  "category": "Security / Geopolitics",
+  "headline": "Trump, Xi and Putin to hold first three-way summit in Shenzhen next week",
+  "headline_es": "Trump, Xi y Putin celebrarán su primera cumbre a tres en Shenzhen la próxima semana",
+  "caption_en": "The White House said Donald Trump, Xi Jinping and Vladimir Putin will meet together for the first time on the sidelines of next week's APEC summit in Shenzhen, China. Trump wants a new nuclear arms deal that includes China after the New START treaty expired in February. A senior US official said no agreement is expected; Trump plans to raise the Iran war but avoid Ukraine.",
+  "caption_es": "La Casa Blanca anunció que Donald Trump, Xi Jinping y Vladímir Putin se reunirán juntos por primera vez al margen de la cumbre de APEC de la próxima semana en Shenzhen, China. Trump busca un nuevo acuerdo de armas nucleares que incluya a China tras la expiración del tratado New START en febrero. Un alto funcionario estadounidense dijo que no se espera un acuerdo; Trump planea abordar la guerra con Irán, pero evitar Ucrania.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+    "https://www.ksl.com/article/news/business/trump-xi-and-putin-plan-an-unprecedented-joint-meeting-on-the-sidelines-of-apec-officials-say/51645777"
+  ],
+  "source_names": ["Al Jazeera", "Associated Press (via KSL)"],
+  "hashtags": ["#MATRIX24", "#APEC", "#Shenzhen", "#ArmasNucleares", "#Geopolítica"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El Kremlin rechazó comparaciones con la conferencia de Yalta de 1945. Zelenski teme que la reunión se use para negociar sobre Ucrania sin Kiev.",
+  "summary_en": "The Kremlin rejected comparisons with the 1945 Yalta conference. Zelensky fears the meeting could be used to discuss Ukraine without Kyiv.",
+  "highlight_es": "primera cumbre a tres",
+  "highlight_en": "first three-way summit",
+  "visual_label": "APEC Shenzhen",
+  "image_prompt": "Modern summit conference hall with three empty leather chairs around a round polished table, floor-to-ceiling windows overlooking a futuristic skyline of glass skyscrapers at dusk, soft dramatic lighting, no people, no text, no flags, cinematic wide view",
+  "map": {
+    "focus": ["China"],
+    "marker": {"lat": 22.54, "lon": 114.06, "label": "Shenzhen"},
+    "labels": {"China": "China"}
+  }
+}
