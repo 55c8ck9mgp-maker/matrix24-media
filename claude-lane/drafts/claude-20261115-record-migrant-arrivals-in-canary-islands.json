@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-15T18:52:39Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261115-record-migrant-arrivals-in-canary-islands",
+  "category": "World",
+  "headline": "Canary Islands record their highest single-day migrant arrivals as boats reach El Hierro",
+  "headline_es": "Canarias registra su mayor llegada de migrantes en un solo día; la mayoría a El Hierro",
+  "caption_en": "Spain's maritime rescue service brought more than 1,400 migrants ashore in the Canary Islands on Saturday, surpassing the previous one-day record of 1,461 set on November 7, 2020. Most boats reached El Hierro, the smallest island, and one carried 240 people. Many had set out from West Africa, including Senegal and Gambia.",
+  "caption_es": "El servicio de Salvamento Marítimo de España rescató el sábado a más de 1.400 migrantes en las islas Canarias, superando el récord diario anterior de 1.461, fijado el 7 de noviembre de 2020. La mayoría de las embarcaciones llegó a El Hierro, la isla más pequeña, y una de ellas transportaba a 240 personas. Muchos habían partido de África occidental, entre otros de Senegal y Gambia.",
+  "source_urls": [
+    "https://www.thestar.com.my/news/world/2026/11/15/nearly-1500-migrants-arrive-in-canary-islands-in-one-day",
+    "https://english.news.cn/20261115/141f93131bbd434a8f746d6e7955cefc/c.html"
+  ],
+  "source_names": [
+    "The Star (Reuters)",
+    "Xinhua"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Canarias",
+    "#Migración",
+    "#ElHierro"
+  ],
+  "summary_es": "La mayoría llegó a El Hierro tras días en el mar por la ruta atlántica. Entre enero y octubre las llegadas bajaron un 5,5% interanual.",
+  "summary_en": "Most arrived on El Hierro after days at sea on the Atlantic route. Arrivals from January to October were down 5.5% year on year.",
+  "highlight_es": "mayor llegada de migrantes",
+  "highlight_en": "highest single-day migrant arrivals",
+  "visual_label": "El Hierro",
+  "image_prompt": "Crowded wooden fishing boat approaching a rugged volcanic island harbour at dawn, rescue vessel alongside, Atlantic swell, wide cinematic view, figures small and unidentifiable, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 27.75,
+      "lon": -18,
+      "label": "El Hierro"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  }
+}

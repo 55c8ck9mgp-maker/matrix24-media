@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-15T18:52:39Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261115-jordan-sentences-three-over-church-attack",
+  "category": "World",
+  "headline": "Jordan sentences three men to death over the deadly attack on a church in Karak",
+  "headline_es": "Jordania condena a muerte a tres hombres por el ataque mortal a una iglesia en Karak",
+  "caption_en": "Jordan's State Security Court on Sunday sentenced three men to death over the October 23 shooting at a Greek Orthodox church in the village of Hamoud, in Karak governorate. Gunmen opened fire on mourners at a funeral, killing nine people and wounding dozens. The three were arrested days later after a shootout with security forces in which all of them were wounded.",
+  "caption_es": "El Tribunal de Seguridad del Estado de Jordania condenó el domingo a muerte a tres hombres por el tiroteo del 23 de octubre en una iglesia ortodoxa griega en la aldea de Hamoud, en la gobernación de Karak. Los atacantes dispararon contra los asistentes a un funeral, matando a nueve personas e hiriendo a decenas. Los tres fueron detenidos días después tras un tiroteo con las fuerzas de seguridad en el que todos resultaron heridos.",
+  "source_urls": [
+    "https://www.jpost.com/middle-east/article-914939",
+    "https://www.audacy.com/newsradiowrva/news/world/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c"
+  ],
+  "source_names": [
+    "The Jerusalem Post (Reuters)",
+    "Audacy (AP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Jordania",
+    "#Karak",
+    "#Justicia"
+  ],
+  "summary_es": "El ataque del 23 de octubre contra un funeral en una iglesia ortodoxa griega dejó nueve muertos. La sentencia puede recurrirse.",
+  "summary_en": "The October 23 attack on a funeral at a Greek Orthodox church killed nine people. The ruling can be appealed.",
+  "highlight_es": "condena a muerte",
+  "highlight_en": "sentences three men to death",
+  "visual_label": "Karak",
+  "image_prompt": "Exterior of a small stone church in a quiet hilltop village in arid Jordanian landscape at dusk, empty courthouse steps with a wooden gavel in a symbolic inset, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Jordan"
+    ],
+    "marker": {
+      "lat": 31.18,
+      "lon": 35.7,
+      "label": "Karak"
+    },
+    "labels": {
+      "Jordan": "Jordania"
+    }
+  }
+}

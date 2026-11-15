@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-15T18:52:39Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261115-cape-verde-votes-for-president",
+  "category": "World",
+  "headline": "Cape Verde votes for president as Joana Rosa seeks to become the first woman in the post",
+  "headline_es": "Cabo Verde elige presidente y Joana Rosa busca ser la primera mujer en el cargo",
+  "caption_en": "Cape Verde held a presidential election on Sunday with six candidates. The main race pits incumbent José Maria Neves, backed by the PAICV, against former justice minister Joana Rosa of the opposition Movement for Democracy, who would be the country's first female president. If no candidate wins more than half the votes, a runoff will be held on November 29.",
+  "caption_es": "Cabo Verde celebró este domingo elecciones presidenciales con seis candidatos. La contienda principal enfrenta al presidente José Maria Neves, respaldado por el PAICV, con la exministra de Justicia Joana Rosa, del opositor Movimiento para la Democracia, que sería la primera mujer presidenta del país. Si ningún candidato supera la mitad de los votos, habrá segunda vuelta el 29 de noviembre.",
+  "source_urls": [
+    "https://www.yahoo.com/news/articles/cape-verde-votes-president-emigration-070338553.html",
+    "https://www.kiro7.com/news/cape-verde-votes-an/S7FMBLIWJU7P7LMF5QLBQIYWCI/"
+  ],
+  "source_names": [
+    "Yahoo News (Reuters)",
+    "KIRO 7 (AP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CaboVerde",
+    "#Elecciones",
+    "#África"
+  ],
+  "summary_es": "El presidente Neves busca un segundo mandato. Si nadie supera el 50%, habrá segunda vuelta el 29 de noviembre.",
+  "summary_en": "President Neves is seeking a second term. If no one wins over 50%, a runoff will be held on November 29.",
+  "highlight_es": "Cabo Verde",
+  "highlight_en": "Cape Verde",
+  "visual_label": "Cabo Verde",
+  "image_prompt": "Ballot box on a wooden table in a sunlit school classroom on a volcanic Atlantic island, colourful houses and ocean visible through the window, no people, no text, no flags, no logos"
+}

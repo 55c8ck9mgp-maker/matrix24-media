@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-15T18:52:39Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261115-iran-says-supertanker-sank-near-hormuz",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's Guards say a supertanker carrying over 2 million barrels sank after hitting a mine",
+  "headline_es": "La Guardia iraní dice que un superpetrolero con más de 2 millones de barriles se hundió",
+  "caption_en": "Iran's Revolutionary Guards said on Sunday that two oil tankers struck mines on a route Tehran calls unauthorised in the southern Strait of Hormuz, and that one, a supertanker carrying over two million barrels of crude, caught fire and sank. The Guards did not name the vessels, and there was no independent confirmation. UKMTO said it was aware of a reported attack on a tanker in the Gulf with the crew safe, but it was unclear if it was the same incident.",
+  "caption_es": "La Guardia Revolucionaria de Irán afirmó el domingo que dos petroleros chocaron con minas en una ruta que Teherán considera no autorizada, en el sur del estrecho de Ormuz, y que uno de ellos, un superpetrolero con más de dos millones de barriles de crudo, se incendió y se hundió. La Guardia no identificó los buques y no hubo confirmación independiente. La agencia británica UKMTO dijo tener constancia de un ataque a un petrolero en el Golfo, con la tripulación a salvo, pero no estaba claro si era el mismo incidente.",
+  "source_urls": [
+    "https://gulfnews.com/world/mena/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-1.500748289",
+    "https://www.kurdistan24.net/en/story/953220/iran-says-oil-super-tanker-carrying-2-million-barrels-sinks-in-strait-of-hormuz"
+  ],
+  "source_names": [
+    "Gulf News (AFP)",
+    "Kurdistan24"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ormuz",
+    "#Irán",
+    "#Petróleo"
+  ],
+  "summary_es": "Irán no identificó los buques y no hay confirmación independiente. La UKMTO informó de un ataque a un petrolero en el Golfo, con la tripulación a salvo.",
+  "summary_en": "Iran did not name the ships and there is no independent confirmation. UKMTO reported an attack on a tanker in the Gulf, with the crew safe.",
+  "highlight_es": "superpetrolero",
+  "highlight_en": "supertanker",
+  "visual_label": "Ormuz",
+  "image_prompt": "Large crude oil supertanker on a hazy turquoise sea in a narrow strait, rocky arid coastline in the distance, dark smoke on the horizon, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "marker": {
+      "lat": 26.57,
+      "lon": 56.25,
+      "label": "Estrecho de Ormuz"
+    },
+    "labels": {
+      "Iran": "Irán"
+    }
+  }
+}
