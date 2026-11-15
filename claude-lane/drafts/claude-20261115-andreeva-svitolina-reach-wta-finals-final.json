@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261115-andreeva-svitolina-reach-wta-finals-final",
+  "status": "draft",
+  "created_at": "2026-11-15T00:50:15Z",
+  "category": "Sports",
+  "headline": "Andreeva and Svitolina win in straight sets to set up the WTA Finals title match",
+  "headline_es": "Andreeva y Svitolina ganan en sets corridos y disputarán la final de las WTA Finals",
+  "caption_en": "Mirra Andreeva beat Jessica Pegula 6-3, 6-4 and Elina Svitolina routed Linda Noskova 6-2, 6-1 in the WTA Finals semifinals in Indian Wells. Andreeva, who has not dropped a set this week, beat Svitolina 6-4, 6-0 in the round robin. Svitolina, the 2018 champion, seeks her second title in Sunday's final.",
+  "caption_es": "Mirra Andreeva venció 6-3, 6-4 a Jessica Pegula y Elina Svitolina arrolló 6-2, 6-1 a Linda Noskova en las semifinales de las WTA Finals en Indian Wells. Andreeva, que no ha cedido un set esta semana, ya derrotó a Svitolina 6-4, 6-0 en la fase de grupos. Svitolina, campeona en 2018, busca su segundo título en la final del domingo.",
+  "source_urls": [
+    "https://www.wsls.com/sports/2026/11/14/mirra-andreeva-and-elina-svitolina-earn-straight-set-wins-to-reach-title-match-of-the-wta-finals/",
+    "https://tennisnow.com/svitolina-rolls-past-noskova-sets-andreeva-rematch-in-wta-finals-title-clash/",
+    "https://www.wtatennis.com/news/4609170/follow-live-a-semifinal-saturday-you-wont-want-to-miss-at-the-fage-wta-finals"
+  ],
+  "source_names": [
+    "AP",
+    "Tennis Now",
+    "WTA"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#WTAFinals",
+    "#Tenis",
+    "#Andreeva",
+    "#Svitolina"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Andreeva, que no ha cedido sets, se medirá el domingo con Svitolina, campeona en 2018, en una revancha de la fase de grupos.",
+  "summary_en": "Andreeva, yet to drop a set, faces 2018 champion Svitolina on Sunday in a rematch from the round robin.",
+  "highlight_es": "final de las WTA Finals",
+  "highlight_en": "WTA Finals title match",
+  "visual_label": "WTA Finals",
+  "image_prompt": "Empty hard tennis court in a desert stadium at night under bright floodlights, a tennis ball resting on the baseline, mountains silhouetted in the distance, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 33.72,
+      "lon": -116.31,
+      "label": "Indian Wells"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

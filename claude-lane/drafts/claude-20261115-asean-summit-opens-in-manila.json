@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261115-asean-summit-opens-in-manila",
+  "status": "draft",
+  "created_at": "2026-11-15T00:50:15Z",
+  "category": "Security / Geopolitics",
+  "headline": "ASEAN summit opens in Manila with the South China Sea code and Myanmar on the agenda",
+  "headline_es": "Abre en Manila la cumbre de la ASEAN con el código del mar de China Meridional y Myanmar en agenda",
+  "caption_en": "The 49th ASEAN Summit opens on Sunday in Manila, hosted by the Philippines as the bloc's chair for 2026. UN Secretary-General António Guterres arrived on Saturday and Brazil's President Lula will join Sunday's plenary as a guest, while US President Donald Trump is expected later in the summit. A code of conduct for the South China Sea with China and the crisis in Myanmar are among the issues before leaders.",
+  "caption_es": "La 49.ª Cumbre de la ASEAN se inaugura este domingo en Manila, organizada por Filipinas como presidente del bloque en 2026. El secretario general de la ONU, António Guterres, llegó el sábado y el presidente de Brasil, Lula, participará como invitado en la sesión plenaria del domingo, mientras que se espera al presidente de EE. UU., Donald Trump, más adelante en la cumbre. Un código de conducta con China para el mar de China Meridional y la crisis de Myanmar figuran entre los temas ante los líderes.",
+  "source_urls": [
+    "https://www.arabnews.com/world/global-powers-converge-on-manila-as-asean-summit-kicks-off-3011958",
+    "https://www.bernama.com/en/world/news.php?id=2634477"
+  ],
+  "source_names": ["Arab News (AFP)", "Bernama"],
+  "hashtags": ["#MATRIX24", "#ASEAN", "#Manila", "#Filipinas", "#MarDeChinaMeridional"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Guterres y Lula llegan a Manila y Trump es esperado más adelante; el código de conducta con China y Myanmar marcan la agenda.",
+  "summary_en": "Guterres and Lula arrive in Manila and Trump is expected later; a South China Sea code with China and Myanmar top the agenda.",
+  "highlight_es": "cumbre de la ASEAN",
+  "highlight_en": "ASEAN summit",
+  "visual_label": "ASEAN",
+  "image_prompt": "Modern convention center on a tropical bay at dusk, rows of empty chairs around a large round conference table visible through glass walls, palm trees and city skyline, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["Philippines"],
+    "marker": {"lat": 14.6, "lon": 120.98, "label": "Manila"},
+    "labels": {"Philippines": "Filipinas"}
+  }
+}
