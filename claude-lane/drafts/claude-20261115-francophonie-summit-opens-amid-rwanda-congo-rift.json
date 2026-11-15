@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261115-francophonie-summit-opens-amid-rwanda-congo-rift",
+  "status": "draft",
+  "created_at": "2026-11-15T12:56:48Z",
+  "category": "World",
+  "headline": "Francophonie summit opens in Cambodia amid a DR Congo–Rwanda clash over its leadership",
+  "headline_es": "Abre en Camboya la cumbre de la Francofonía en medio de un choque entre RD Congo y Ruanda",
+  "caption_en": "The 20th summit of the Organisation internationale de la Francophonie opened in Phnom Penh, with leaders including France's Emmanuel Macron and Canada's Mark Carney. DR Congo has threatened to leave the group if Rwanda's Louise Mushikiwabo is re-elected secretary-general on Monday. Kinshasa accuses Rwanda of backing the M23 armed group, which Kigali denies.",
+  "caption_es": "La 20.ª cumbre de la Organización Internacional de la Francofonía se inauguró en Phnom Penh, con líderes como el francés Emmanuel Macron y el canadiense Mark Carney. La RD Congo amenazó con abandonar la organización si la ruandesa Louise Mushikiwabo es reelegida secretaria general el lunes. Kinshasa acusa a Ruanda de apoyar al grupo armado M23, algo que Kigali niega.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift",
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/francophone-summit-in-cambodia-opens-with-dr-congo-rwandan-clash"
+  ],
+  "source_names": ["Al Jazeera", "The Star (AFP)"],
+  "hashtags": ["#MATRIX24", "#Francofonía", "#Camboya", "#RDCongo", "#Ruanda"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Los líderes elegirán el lunes al próximo secretario general. Mushikiwabo busca un tercer mandato y la RD Congo amenaza con salir de la organización si gana.",
+  "summary_en": "Leaders choose the next secretary-general on Monday. Mushikiwabo seeks a third term, and DR Congo threatens to quit if she wins.",
+  "highlight_es": "cumbre de la Francofonía",
+  "highlight_en": "Francophonie summit",
+  "visual_label": "Francofonía",
+  "image_prompt": "Large modern conference hall with a long round table, empty chairs and microphones, warm light, tropical city skyline with a temple-style roof visible through tall windows, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": ["Cambodia"],
+    "marker": {"lat": 11.56, "lon": 104.92, "label": "Phnom Penh"},
+    "labels": {"Cambodia": "Camboya"}
+  }
+}

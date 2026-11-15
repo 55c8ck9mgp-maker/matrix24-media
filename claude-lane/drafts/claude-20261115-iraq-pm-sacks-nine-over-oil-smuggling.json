@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261115-iraq-pm-sacks-nine-over-oil-smuggling",
+  "status": "draft",
+  "created_at": "2026-11-15T12:56:48Z",
+  "category": "Security / Geopolitics",
+  "headline": "Iraq's prime minister sacks nine officials over oil smuggling in a pro-Iran stronghold",
+  "headline_es": "El primer ministro de Irak destituye a nueve funcionarios por contrabando de petróleo",
+  "caption_en": "Iraqi Prime Minister Ali al-Zaidi dismissed nine officials, including senior security officers in Babil province and the head of the state Oil Pipelines Company, over oil smuggling in Jurf al-Sakhar. He ordered all suspects referred to the courts. The area south of Baghdad is controlled by Kataib Hezbollah, an Iran-backed group the US designates as a terrorist organisation.",
+  "caption_es": "El primer ministro iraquí, Ali al Zaidi, destituyó a nueve funcionarios, entre ellos altos mandos de seguridad de la provincia de Babilonia y el director de la estatal Compañía de Oleoductos, por contrabando de petróleo en Jurf al Sajar. Ordenó remitir a todos los sospechosos a la justicia. La zona, al sur de Bagdad, está controlada por Kataib Hezbolá, un grupo respaldado por Irán que EE. UU. considera terrorista.",
+  "source_urls": [
+    "https://www.thenationalnews.com/news/mena/2026/11/15/iraqi-pm-escalates-jurf-al-sakhar-smuggling-crackdown-sacks-security-chiefs-and-refers-suspects-to-court/",
+    "https://www.arabnews.com/middle-east/iraq-pm-sacks-officials-over-oil-smuggling-in-pro-iran-group-bastion-3011926"
+  ],
+  "source_names": ["The National", "Arab News (AFP)"],
+  "hashtags": ["#MATRIX24", "#Irak", "#Petróleo", "#Contrabando"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Un informe de inteligencia con imágenes satelitales documentó extracción ilegal de crudo junto a oleoductos en Jurf al Sajar, bastión de un grupo pro-Irán.",
+  "summary_en": "An intelligence report using satellite imagery documented illegal crude extraction near pipelines in Jurf al-Sakhar, a pro-Iran group's stronghold.",
+  "highlight_es": "contrabando de petróleo",
+  "highlight_en": "oil smuggling",
+  "visual_label": "Oleoductos",
+  "image_prompt": "Desert landscape with a long oil pipeline crossing flat sandy ground, several tanker trucks parked beside it at dusk, hazy orange sky, wide aerial cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": ["Iraq"],
+    "marker": {"lat": 32.85, "lon": 44.15, "label": "Jurf al Sajar"},
+    "labels": {"Iraq": "Irak"}
+  }
+}
