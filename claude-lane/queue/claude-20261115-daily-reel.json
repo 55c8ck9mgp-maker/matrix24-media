@@ -1,0 +1,76 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261115-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-15T01:18:29.793Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-15",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-15",
+  "caption_es": "Resumen del día:\n1️⃣ Jueces de la CPI frenan la investigación sobre tropas de EE. UU. en Afganistán\n2️⃣ Francia vive su quinto sábado seguido de protestas por el costo de vida y una ley policial\n3️⃣ Zelenski dice que EE. UU. planteó que Ucrania deje el Donbás a cambio de entrar en la OTAN\n4️⃣ Andreeva y Svitolina ganan en sets corridos y disputarán la final de las WTA Finals",
+  "caption_en": "Today's summary:\n1️⃣ ICC judges halt Afghanistan war crimes probe into US troops, keep focus on the Taliban\n2️⃣ France sees fifth straight Saturday of protests over living costs and a police bill\n3️⃣ Zelensky says US floated Ukraine leaving Donbas in exchange for NATO membership\n4️⃣ Andreeva and Svitolina win in straight sets to set up the WTA Finals title match",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/14/icc-stops-probe-into-alleged-crimes-by-us-troops-in-afghanistan",
+    "https://www.whio.com/news/world/international/PZSTQ3DK6Q74TJADSSGE745WNI/",
+    "https://au.news.yahoo.com/france-sees-fifth-consecutive-saturday-181118508.html",
+    "https://www.trtworld.com/article/c4caaf5aaf52",
+    "https://www.al-monitor.com/originals/2026/11/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says",
+    "https://uk.news.yahoo.com/us-negotiators-suggest-ukraine-cedes-103004694.html",
+    "https://www.wsls.com/sports/2026/11/14/mirra-andreeva-and-elina-svitolina-earn-straight-set-wins-to-reach-title-match-of-the-wta-finals/",
+    "https://tennisnow.com/svitolina-rolls-past-noskova-sets-andreeva-rematch-in-wta-finals-title-clash/",
+    "https://www.wtatennis.com/news/4609170/follow-live-a-semifinal-saturday-you-wont-want-to-miss-at-the-fage-wta-finals"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Associated Press (via WHIO)",
+    "Euronews",
+    "TRT World",
+    "Reuters (via Al-Monitor)",
+    "France 24 (via Yahoo News UK)",
+    "AP",
+    "Tennis Now",
+    "WTA"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#CPI",
+    "#Afganistán",
+    "#ICC",
+    "#JusticiaInternacional",
+    "#Francia",
+    "#France",
+    "#Protestas",
+    "#Ucrania",
+    "#OTAN",
+    "#Donbás",
+    "#Zelenski",
+    "#WTAFinals"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261115-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261115-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261114-icc-ends-probe-of-us-troops-in-afghanistan",
+      "claude-20261114-france-holds-fifth-saturday-of-protests",
+      "claude-20261114-zelensky-says-us-floated-donbas-for-nato",
+      "claude-20261115-andreeva-svitolina-reach-wta-finals-final"
+    ],
+    "total_seconds": 67
+  },
+  "publish_attempt_id": "ebb29bd6-4ced-49e8-a716-33b9f7b4d377",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-15T01:19:11.974Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-15T01:19:11.974Z",
+      "event": "reserved",
+      "publish_attempt_id": "ebb29bd6-4ced-49e8-a716-33b9f7b4d377"
+    }
+  ],
+  "reserved_at": "2026-11-15T01:19:11.974Z"
+}
