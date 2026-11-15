@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261115-spacex-catches-starship-ship-for-first-time",
+  "status": "draft",
+  "created_at": "2026-11-15T06:50:06Z",
+  "category": "Science",
+  "headline": "SpaceX catches a Starship returning from orbit with its launch tower for the first time",
+  "headline_es": "SpaceX atrapa por primera vez con su torre una nave Starship que regresaba de la órbita",
+  "caption_en": "The arms of SpaceX's launch tower at Starbase, Texas, caught the Starship upper stage on Saturday after a flight of about 22 hours, the first such catch of a ship returning from orbit. During the 15th test flight the ship completed 14 orbits and released 26 Starlink satellites. The Super Heavy booster did not return: its engines shut down early on descent and it exploded over the Gulf of Mexico, and engineers are investigating.",
+  "caption_es": "Los brazos de la torre de lanzamiento de SpaceX en Starbase, Texas, atraparon el sábado la etapa superior de Starship tras un vuelo de unas 22 horas, la primera captura de una nave que regresaba de la órbita. Durante el 15.º vuelo de prueba, la nave completó 14 órbitas y liberó 26 satélites Starlink. El propulsor Super Heavy no regresó: sus motores se apagaron antes de tiempo en el descenso y explotó sobre el golfo de México; los ingenieros investigan la causa.",
+  "source_urls": [
+    "https://www.foxbusiness.com/technology/spacex-makes-history-starship-spacecraft-caught-launch-tower-first-time",
+    "https://local12.com/news/nation-world/spacex-catches-starship-after-orbit-in-historic-first-as-booster-explodes-over-gulf"
+  ],
+  "source_names": ["Fox Business", "The National News Desk (WKRC Local 12)"],
+  "hashtags": ["#MATRIX24", "#SpaceX", "#Starship", "#Espacio"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Tras 14 órbitas y unas 22 horas de vuelo, la torre de Starbase atrapó la nave; el propulsor Super Heavy explotó sobre el golfo de México.",
+  "summary_en": "After 14 orbits and about 22 hours of flight, the Starbase tower caught the ship; the Super Heavy booster exploded over the Gulf of Mexico.",
+  "highlight_es": "atrapa por primera vez",
+  "highlight_en": "for the first time",
+  "visual_label": "Starship",
+  "image_prompt": "Tall steel rocket launch tower with two giant mechanical arms holding a stainless steel spacecraft upright, flat coastal landscape at sunset, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 25.99, "lon": -97.15, "label": "Starbase, Texas"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

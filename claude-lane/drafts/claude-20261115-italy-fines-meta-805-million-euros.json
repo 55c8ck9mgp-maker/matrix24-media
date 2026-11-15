@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261115-italy-fines-meta-805-million-euros",
+  "status": "draft",
+  "created_at": "2026-11-15T06:50:06Z",
+  "category": "Technology",
+  "headline": "Italy fines Meta €805 million over Facebook's access to Android users' photos",
+  "headline_es": "Italia multa a Meta con 805 millones de euros por acceder a fotos de usuarios de Android",
+  "caption_en": "Italy's data protection authority fined Meta Platforms Ireland €805 million (about $887 million) over a Facebook feature that suggested photos and videos from Android users' phone galleries. The regulator found the app accessed that media without proper consent. Meta has 60 days to switch the feature off by default and ask users for separate, specific consent.",
+  "caption_es": "La autoridad italiana de protección de datos multó a Meta Platforms Ireland con 805 millones de euros (unos 887 millones de dólares) por una función de Facebook que sugería fotos y videos de la galería del teléfono de usuarios de Android. El regulador concluyó que la aplicación accedía a ese contenido sin el consentimiento adecuado. Meta tiene 60 días para desactivar la función por defecto y pedir a los usuarios un consentimiento separado y específico.",
+  "source_urls": [
+    "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127",
+    "https://english.news.cn/20261115/79704a4d3af149fe82bb5990d98fa712/c.html"
+  ],
+  "source_names": ["ABC News (AP)", "Xinhua"],
+  "hashtags": ["#MATRIX24", "#Meta", "#Italia", "#Privacidad"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El regulador de privacidad italiano concluyó que Facebook accedía a la galería de teléfonos Android sin consentimiento adecuado; Meta tiene 60 días para corregirlo.",
+  "summary_en": "Italy's privacy regulator found Facebook accessed Android phone galleries without proper consent; Meta has 60 days to fix the feature.",
+  "highlight_es": "805 millones de euros",
+  "highlight_en": "€805 million",
+  "visual_label": "Privacidad",
+  "image_prompt": "Smartphone lying on a dark desk showing a blurred grid of photo thumbnails, a glowing padlock symbol hovering above it, soft blue light, close-up cinematic view, no people, no readable text, no logos",
+  "map": {
+    "focus": ["Italy"],
+    "marker": {"lat": 41.9, "lon": 12.5, "label": "Roma"},
+    "labels": {"Italy": "Italia"}
+  }
+}
