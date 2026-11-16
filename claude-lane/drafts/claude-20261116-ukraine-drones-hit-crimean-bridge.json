@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T12:51:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-ukraine-drones-hit-crimean-bridge",
+  "category": "Security / Geopolitics",
+  "headline": "Ukrainian drones hit the Crimean Bridge as Russia reports a record 1,336 drones downed",
+  "headline_es": "Drones ucranianos golpean el puente de Crimea y Rusia reporta un récord de 1.336 derribados",
+  "caption_en": "Ukrainian forces struck the bridge linking Russia to annexed Crimea during an overnight drone attack, and Crimea's Russian-installed head Sergei Aksyonov said car traffic would be restricted until around midday. Russia's Defense Ministry said it intercepted 1,336 Ukrainian drones overnight, its highest count of the war; the figure has not been independently verified. Moscow's mayor said about 600 drones headed toward the capital region.",
+  "caption_es": "Fuerzas ucranianas atacaron el puente que une Rusia con la Crimea anexionada durante un ataque nocturno con drones, y el jefe de Crimea instalado por Moscú, Serguéi Aksiónov, dijo que el tráfico de autos estaría restringido hasta cerca del mediodía. El Ministerio de Defensa ruso afirmó haber interceptado 1.336 drones ucranianos durante la noche, su cifra más alta de la guerra; el dato no ha sido verificado de forma independiente. El alcalde de Moscú dijo que unos 600 drones se dirigieron hacia la región de la capital.",
+  "source_urls": [
+    "https://www.themoscowtimes.com/2026/11/16/ukraine-hits-crimean-bridge-amid-record-overnight-drone-attack-a94265",
+    "https://kyivindependent.com/record-number-of-ukrainian-drones-launched-at-russia-moscow-oblast-among-main-targets/"
+  ],
+  "source_names": [
+    "The Moscow Times",
+    "The Kyiv Independent"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Rusia",
+    "#Crimea",
+    "#Drones"
+  ],
+  "summary_es": "El tráfico de autos en el puente quedó restringido. Rusia dice haber derribado 1.336 drones, su mayor cifra de la guerra; unos 600 iban hacia Moscú.",
+  "summary_en": "Car traffic on the bridge was restricted. Russia says it downed 1,336 drones, its highest count of the war; about 600 headed for Moscow.",
+  "highlight_es": "puente de Crimea",
+  "highlight_en": "Crimean Bridge",
+  "visual_label": "Puente de Crimea",
+  "image_prompt": "Long road and rail bridge with tall steel arches spanning a grey strait at dawn, empty roadway, distant small drones silhouetted in a hazy sky, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Ukraine",
+      "Russia"
+    ],
+    "marker": {
+      "lat": 45.31,
+      "lon": 36.51,
+      "label": "Estrecho de Kerch"
+    },
+    "labels": {
+      "Ukraine": "Ucrania",
+      "Russia": "Rusia"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T12:51:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-guadalajara-cartel-founder-felix-gallardo-dies",
+  "category": "Colombia / Latin America",
+  "headline": "Miguel Ángel Félix Gallardo, founder of Mexico's Guadalajara cartel, dies at 80",
+  "headline_es": "Muere a los 80 años Miguel Ángel Félix Gallardo, fundador del cártel de Guadalajara",
+  "caption_en": "Miguel Ángel Félix Gallardo, the co-founder of Mexico's Guadalajara cartel, died at 80 of multiple organ failure in a private hospital in Guadalajara, local security authorities said. He had been jailed since 1989 and was sentenced to 40 years on drug-trafficking and weapons charges. In 2017 a federal court added 37 years for the 1985 kidnapping and murder of US DEA agent Enrique Camarena, which he denied.",
+  "caption_es": "Miguel Ángel Félix Gallardo, cofundador del cártel de Guadalajara, murió a los 80 años por falla orgánica múltiple en un hospital privado de Guadalajara, informaron autoridades de seguridad locales. Estaba preso desde 1989 y fue condenado a 40 años por narcotráfico y armas. En 2017 un tribunal federal le sumó 37 años por el secuestro y asesinato en 1985 del agente de la DEA Enrique Camarena, que él negó.",
+  "source_urls": [
+    "https://www.rte.ie/news/world/2026/1116/1599346-felix-gallardo-death/",
+    "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison"
+  ],
+  "source_names": [
+    "RTÉ News",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#México",
+    "#Mexico",
+    "#Narcotráfico"
+  ],
+  "summary_es": "Murió por falla orgánica múltiple en un hospital de Guadalajara. Estaba preso desde 1989 y fue condenado por el asesinato del agente de la DEA Enrique Camarena.",
+  "summary_en": "He died of multiple organ failure in a Guadalajara hospital. Jailed since 1989, he was convicted over the murder of DEA agent Enrique Camarena.",
+  "highlight_es": "cártel de Guadalajara",
+  "highlight_en": "Guadalajara cartel",
+  "visual_label": "Guadalajara",
+  "image_prompt": "Empty prison corridor with barred cell doors under cold fluorescent light, long perspective, worn concrete floor, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Mexico"
+    ],
+    "marker": {
+      "lat": 20.67,
+      "lon": -103.35,
+      "label": "Guadalajara"
+    },
+    "labels": {
+      "Mexico": "México"
+    }
+  }
+}

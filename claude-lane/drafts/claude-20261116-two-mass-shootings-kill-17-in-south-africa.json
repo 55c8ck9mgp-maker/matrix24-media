@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T12:51:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-two-mass-shootings-kill-17-in-south-africa",
+  "category": "World",
+  "headline": "Two mass shootings kill at least 17 people in South Africa on the same night",
+  "headline_es": "Dos tiroteos masivos dejan al menos 17 muertos en Sudáfrica en una misma noche",
+  "caption_en": "Nine people, six men and three women, were shot dead in a shack in the Jeffsville informal settlement in Atteridgeville, west of Pretoria, on Sunday night. The same night, eight men were found shot dead inside a bullet-riddled vehicle in Sweetwaters, outside Pietermaritzburg in KwaZulu-Natal. Police say the motives are not yet known, and no arrests have been reported.",
+  "caption_es": "Nueve personas, seis hombres y tres mujeres, fueron asesinadas a tiros en una vivienda precaria del asentamiento informal de Jeffsville, en Atteridgeville, al oeste de Pretoria, el domingo por la noche. Esa misma noche, ocho hombres fueron hallados muertos a balazos dentro de un vehículo acribillado en Sweetwaters, a las afueras de Pietermaritzburg, en KwaZulu-Natal. La policía dice que aún se desconocen los motivos y no se han reportado arrestos.",
+  "source_urls": [
+    "https://www.ewn.co.za/2026/11/16/9-people-killed-in-atteridgeville-shooting",
+    "https://www.sanews.gov.za/south-africa/kzn-police-launch-investigation-murder-eight-people",
+    "https://english.news.cn/africa/20261116/4bfae0744ce34adfb591d8ca8c827e35/c.html"
+  ],
+  "source_names": [
+    "Eyewitness News",
+    "SAnews",
+    "Xinhua"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Sudáfrica",
+    "#SouthAfrica",
+    "#Violencia"
+  ],
+  "summary_es": "Nueve muertos en Atteridgeville, cerca de Pretoria, y ocho en Sweetwaters, KwaZulu-Natal. La policía aún no conoce los motivos.",
+  "summary_en": "Nine killed in Atteridgeville near Pretoria and eight in Sweetwaters, KwaZulu-Natal. Police have not yet established a motive.",
+  "highlight_es": "al menos 17 muertos",
+  "highlight_en": "at least 17 people",
+  "visual_label": "Sudáfrica",
+  "image_prompt": "Police tape across an empty dirt road at night in a South African township, distant blue emergency lights, corrugated metal roofs under a dark sky, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "South Africa"
+    ],
+    "marker": {
+      "lat": -25.77,
+      "lon": 28.07,
+      "label": "Atteridgeville"
+    },
+    "labels": {
+      "South Africa": "Sudáfrica"
+    }
+  }
+}
