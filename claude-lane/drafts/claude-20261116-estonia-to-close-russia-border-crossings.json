@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T06:50:38Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-estonia-to-close-russia-border-crossings",
+  "category": "Security / Geopolitics",
+  "headline": "Estonia to close its border crossings with Russia from Dec. 1 after drone-factory sabotage bid",
+  "headline_es": "Estonia cerrará sus pasos fronterizos con Rusia desde el 1 de diciembre tras un intento de sabotaje",
+  "caption_en": "Estonia will close its border crossings with Russia from December 1, Foreign Minister Margus Tsahkna said, after a foiled arson attempt at drone maker Threod Systems in Viimsi, near Tallinn. Eight people living in Latvia were detained, and Estonian officials say Russia's GRU military intelligence ordered the attack. The crossings affected are Narva, Luhamaa and Koidula.",
+  "caption_es": "Estonia cerrará sus pasos fronterizos con Rusia a partir del 1 de diciembre, anunció el canciller Margus Tsahkna, tras un intento frustrado de incendio en el fabricante de drones Threod Systems, en Viimsi, cerca de Tallin. Ocho personas residentes en Letonia fueron detenidas, y las autoridades estonias afirman que el GRU, la inteligencia militar rusa, ordenó el ataque. Los pasos afectados son Narva, Luhamaa y Koidula.",
+  "source_urls": [
+    "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+    "https://www.euronews.com/2026/11/16/estonia-to-close-russia-border-after-sabotage-bid-on-drone-maker-foreign-minister-says"
+  ],
+  "source_names": [
+    "ERR News",
+    "Euronews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Estonia",
+    "#Rusia",
+    "#Seguridad"
+  ],
+  "summary_es": "Tallin culpa al GRU ruso de un intento de incendio en una fábrica de drones; ocho detenidos. Se cierran Narva, Luhamaa y Koidula.",
+  "summary_en": "Tallinn blames Russia's GRU for an arson bid at a drone factory; eight detained. Narva, Luhamaa and Koidula will close.",
+  "highlight_es": "cerrará sus pasos fronterizos",
+  "highlight_en": "close its border crossings",
+  "visual_label": "Frontera",
+  "image_prompt": "Empty border checkpoint on a winter road at dusk, lowered barrier gate, guard booth and floodlights, snowy pine forest on both sides, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Estonia",
+      "Russia"
+    ],
+    "marker": {
+      "lat": 59.38,
+      "lon": 28.19,
+      "label": "Narva"
+    },
+    "labels": {
+      "Estonia": "Estonia",
+      "Russia": "Rusia"
+    }
+  }
+}

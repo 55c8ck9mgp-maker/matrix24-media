@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T06:50:38Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-china-october-data-misses-forecasts",
+  "category": "Economy",
+  "headline": "China's factory output and retail sales miss forecasts in October as investment slides",
+  "headline_es": "La producción industrial y las ventas minoristas de China decepcionan en octubre",
+  "caption_en": "China's industrial output grew 4.8% year on year in October and retail sales rose just 0.4%, both below economists' forecasts, official data showed on Monday. Fixed-asset investment fell 8.1% in January-October, a steeper drop than expected. The surveyed urban jobless rate eased to 5.1%.",
+  "caption_es": "La producción industrial de China creció un 4,8% interanual en octubre y las ventas minoristas apenas un 0,4%, ambas por debajo de lo previsto por los economistas, según datos oficiales publicados el lunes. La inversión en activos fijos cayó un 8,1% entre enero y octubre, más de lo esperado. El desempleo urbano bajó al 5,1%.",
+  "source_urls": [
+    "https://www.thestandard.com.hk/finance/article/348591/Chinas-economy-falters-in-October-as-factory-output-retail-sales-miss-forecasts",
+    "https://www.business-standard.com/amp/world-news/china-s-economy-slows-in-oct-as-factory-output-retail-sales-miss-forecasts-126111600592_1.html"
+  ],
+  "source_names": [
+    "The Standard (Reuters)",
+    "Business Standard (Reuters)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#China",
+    "#Economía",
+    "#Economy"
+  ],
+  "summary_es": "La industria creció un 4,8% y las ventas minoristas un 0,4% en octubre; la inversión cayó un 8,1% en lo que va de año.",
+  "summary_en": "Industrial output rose 4.8% and retail sales 0.4% in October; fixed-asset investment fell 8.1% so far this year.",
+  "highlight_es": "decepcionan",
+  "highlight_en": "miss forecasts",
+  "visual_label": "Economía China",
+  "image_prompt": "Large modern factory floor with idle robotic assembly arms and stacked boxes, a quiet shopping street at dusk seen through tall windows, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "marker": {
+      "lat": 39.9,
+      "lon": 116.4,
+      "label": "Pekín"
+    },
+    "labels": {
+      "China": "China"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T06:50:38Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-england-end-spains-43-match-unbeaten-run",
+  "category": "Sports",
+  "headline": "Ten-man England beat Spain 3-2 in Madrid, ending the world champions' 43-match unbeaten run",
+  "headline_es": "Inglaterra, con diez, gana 3-2 en Madrid y acaba con la racha de 43 partidos invicta de España",
+  "caption_en": "England beat Spain 3-2 in the Nations League in Madrid on Sunday, ending Spain's 43-match unbeaten run. Harry Kane scored a penalty and Ezri Konsa and Ben White added goals before Elliot Anderson was sent off for fouling Lamine Yamal. Spain pulled two back, and both teams advance to the quarter-finals.",
+  "caption_es": "Inglaterra venció 3-2 a España en la Liga de Naciones en Madrid el domingo y puso fin a una racha de 43 partidos sin perder de la selección española. Harry Kane marcó de penalti y Ezri Konsa y Ben White anotaron antes de la expulsión de Elliot Anderson por una falta sobre Lamine Yamal. España recortó dos goles y ambas selecciones avanzan a cuartos de final.",
+  "source_urls": [
+    "https://www.espn.com/soccer/story/_/id/50493712/england-spain-43-game-unbeaten-run",
+    "https://www.thenationalnews.com/sport/football/2026/11/16/nations-league-england-end-spains-long-unbeaten-run-with-massive-win-in-madrid/"
+  ],
+  "source_names": [
+    "ESPN",
+    "The National"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#NationsLeague",
+    "#Fútbol",
+    "#España"
+  ],
+  "summary_es": "Kane, Konsa y White marcaron para Inglaterra, que jugó con diez tras la roja a Anderson. Ambos equipos pasan a cuartos.",
+  "summary_en": "Kane, Konsa and White scored for England, who played with 10 after Anderson's red card. Both teams reach the quarter-finals.",
+  "highlight_es": "43 partidos invicta",
+  "highlight_en": "43-match unbeaten run",
+  "visual_label": "Nations League",
+  "image_prompt": "Packed football stadium at night under bright floodlights, green pitch seen from a high angle, a ball resting on the centre spot, wide cinematic view, no identifiable people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 40.44,
+      "lon": -3.6,
+      "label": "Madrid"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  }
+}

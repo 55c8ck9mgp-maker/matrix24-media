@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T06:50:38Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-vulcan-rocket-fails-40-amazon-satellites-lost",
+  "category": "Technology",
+  "headline": "ULA's Vulcan rocket fails after liftoff from Florida; 40 Amazon Leo satellites lost",
+  "headline_es": "Falla el cohete Vulcan de ULA tras despegar de Florida; se pierden 40 satélites Amazon Leo",
+  "caption_en": "United Launch Alliance's Vulcan rocket suffered an anomaly about 10 minutes into flight on Sunday and failed to deliver 40 Amazon Leo internet satellites to orbit after launching from Cape Canaveral. It was Vulcan's fifth flight and its first in about nine months. The cause is not yet known; it is ULA's first outright mission failure since the company was formed in 2006.",
+  "caption_es": "El cohete Vulcan de United Launch Alliance sufrió una anomalía unos 10 minutos después del despegue el domingo y no logró poner en órbita 40 satélites de internet Amazon Leo tras partir de Cabo Cañaveral. Era el quinto vuelo del Vulcan y el primero en unos nueve meses. La causa aún se desconoce; es el primer fracaso total de una misión de ULA desde la creación de la empresa en 2006.",
+  "source_urls": [
+    "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
+    "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
+  ],
+  "source_names": [
+    "Spaceflight Now",
+    "Space.com"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Espacio",
+    "#Vulcan",
+    "#AmazonLeo"
+  ],
+  "summary_es": "La anomalía ocurrió unos 10 minutos tras el despegue desde Cabo Cañaveral. Es el primer fracaso total de ULA desde 2006.",
+  "summary_en": "The anomaly struck about 10 minutes after liftoff from Cape Canaveral. It is ULA's first total mission failure since 2006.",
+  "highlight_es": "Falla el cohete Vulcan",
+  "highlight_en": "Vulcan rocket fails",
+  "visual_label": "Vulcan",
+  "image_prompt": "Tall rocket climbing into a clear blue sky above a coastal launch pad, long exhaust plume, ocean and flat Florida-style coastline below, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 28.58,
+      "lon": -80.58,
+      "label": "Cabo Cañaveral"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

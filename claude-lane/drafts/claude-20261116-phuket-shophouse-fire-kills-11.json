@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T06:50:38Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-phuket-shophouse-fire-kills-11",
+  "category": "World",
+  "headline": "Pre-dawn fire tears through a shophouse in Phuket's Patong, killing 11 and injuring 36",
+  "headline_es": "Un incendio en un edificio comercial de Patong, en Phuket, deja 11 muertos y 36 heridos",
+  "caption_en": "A fire broke out at about 3:17 a.m. on Monday in a building housing a vehicle rental business and sales offices in Patong, on Thailand's Phuket island, killing at least 11 people and injuring 36. Most victims are believed to have died from smoke inhalation. Authorities suspect an electrical short circuit; the investigation is ongoing.",
+  "caption_es": "Un incendio se declaró hacia las 3:17 de la madrugada del lunes en un edificio con un negocio de alquiler de vehículos y oficinas de ventas en Patong, en la isla tailandesa de Phuket, y dejó al menos 11 muertos y 36 heridos. Se cree que la mayoría de las víctimas murió por inhalación de humo. Las autoridades sospechan de un cortocircuito eléctrico; la investigación continúa.",
+  "source_urls": [
+    "https://www.tbsnews.net/worldbiz/asia/11-killed-36-wounded-after-massive-fire-engulfs-shophouse-thailands-phuket-1603951",
+    "https://www.oneindia.com/international/11-dead-36-injured-in-thailand-phuket-after-massive-fire-breaks-out-near-patong-beach-8260727.html"
+  ],
+  "source_names": [
+    "The Business Standard",
+    "Oneindia"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Tailandia",
+    "#Phuket",
+    "#Incendio"
+  ],
+  "summary_es": "El fuego, alimentado por unas 100 motos aparcadas en la planta baja, tardó dos horas en controlarse. Se sospecha un cortocircuito.",
+  "summary_en": "Fed by about 100 motorcycles parked on the ground floor, the blaze took two hours to control. A short circuit is suspected.",
+  "highlight_es": "11 muertos",
+  "highlight_en": "killing 11",
+  "visual_label": "Phuket",
+  "image_prompt": "Fire trucks with flashing lights parked on a narrow tropical street at night, smoke rising over low commercial buildings, palm trees, wet road reflecting lights, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Thailand"
+    ],
+    "marker": {
+      "lat": 7.9,
+      "lon": 98.3,
+      "label": "Patong"
+    },
+    "labels": {
+      "Thailand": "Tailandia"
+    }
+  }
+}
