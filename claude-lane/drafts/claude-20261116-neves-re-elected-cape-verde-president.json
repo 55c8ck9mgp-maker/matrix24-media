@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T00:51:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-neves-re-elected-cape-verde-president",
+  "category": "World",
+  "headline": "José Maria Neves wins re-election as Cape Verde's president with about 63% of the vote",
+  "headline_es": "José Maria Neves es reelegido presidente de Cabo Verde con cerca del 63% de los votos",
+  "caption_en": "Cape Verde's President José Maria Neves won a second term in Sunday's election, taking more than 63% of the vote according to provisional results. His main challenger, former justice minister Joana Rosa, the first woman to run for the presidency, came second with about 31%. The result avoids a runoff.",
+  "caption_es": "El presidente de Cabo Verde, José Maria Neves, ganó un segundo mandato en las elecciones del domingo con más del 63% de los votos, según resultados provisionales. Su principal rival, la exministra de Justicia Joana Rosa, primera mujer candidata a la presidencia, quedó segunda con cerca del 31%. El resultado evita una segunda vuelta.",
+  "source_urls": [
+    "https://www.freemalaysiatoday.com/category/world/2026/11/16/polls-close-in-cape-verde-with-incumbent-president-favoured-to-win",
+    "https://www.cmjornal.pt/mundo/detalhe/jose-maria-neves-reeleito-presidente-de-cabo-verde",
+    "https://www.jn.pt/mundo/artigo/jose-maria-neves-renova-confianca-dos-cabo-verdianos/18148616"
+  ],
+  "source_names": [
+    "Free Malaysia Today (AFP)",
+    "Correio da Manhã",
+    "Jornal de Notícias"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CaboVerde",
+    "#Elecciones",
+    "#África"
+  ],
+  "summary_es": "Neves gana en primera vuelta según resultados provisionales. Joana Rosa, primera mujer candidata, queda segunda con cerca del 31%.",
+  "summary_en": "Neves wins in the first round, per provisional results. Joana Rosa, the first woman to run, finishes second with about 31%.",
+  "highlight_es": "reelegido",
+  "highlight_en": "re-election",
+  "visual_label": "Cabo Verde",
+  "image_prompt": "Sunrise over the colourful hillside houses of a volcanic Atlantic island town, calm ocean and fishing boats in the harbour, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Cabo Verde"
+    ],
+    "marker": {
+      "lat": 14.93,
+      "lon": -23.51,
+      "label": "Praia"
+    },
+    "labels": {
+      "Cabo Verde": "Cabo Verde"
+    }
+  }
+}

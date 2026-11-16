@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T00:51:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-andreeva-wins-wta-finals-on-debut",
+  "category": "Sports",
+  "headline": "Mirra Andreeva, 19, beats Elina Svitolina to win the WTA Finals on her debut",
+  "headline_es": "Mirra Andreeva, de 19 años, vence a Elina Svitolina y gana las WTA Finals en su debut",
+  "caption_en": "Russia's Mirra Andreeva won the WTA Finals in Indian Wells, California, beating Ukraine's Elina Svitolina 7-5, 6-3 in Sunday's final. The 19-year-old took the season-ending title on her first appearance at the event without dropping a set.",
+  "caption_es": "La rusa Mirra Andreeva ganó las WTA Finals en Indian Wells, California, al vencer a la ucraniana Elina Svitolina por 7-5 y 6-3 en la final del domingo. Con 19 años, se llevó el título de fin de temporada en su primera participación en el torneo sin ceder un set.",
+  "source_urls": [
+    "https://www.dawn.com/news/2044794/mirra-andreeva-defeats-elina-svitolina-to-win-wta-finals",
+    "https://www.tennismajors.com/wta-tour-news/wta-finals/andreeva-beats-svitolina-7-5-6-3-to-win-the-wta-finals-on-debut-without-dropping-a-set-867096.html"
+  ],
+  "source_names": [
+    "Dawn (AFP)",
+    "Tennis Majors"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#WTAFinals",
+    "#Tenis",
+    "#Andreeva"
+  ],
+  "summary_es": "Andreeva ganó 7-5 y 6-3 en Indian Wells y conquistó el título sin perder un set.",
+  "summary_en": "Andreeva won 7-5, 6-3 in Indian Wells and took the title without dropping a set.",
+  "highlight_es": "WTA Finals",
+  "highlight_en": "WTA Finals",
+  "visual_label": "WTA Finals",
+  "image_prompt": "Empty hard tennis court at dusk under stadium floodlights, a tennis ball resting near the baseline, desert mountains on the horizon, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 33.72,
+      "lon": -116.31,
+      "label": "Indian Wells"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

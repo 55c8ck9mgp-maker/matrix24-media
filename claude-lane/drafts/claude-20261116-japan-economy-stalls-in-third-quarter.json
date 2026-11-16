@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T00:51:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-japan-economy-stalls-in-third-quarter",
+  "category": "Economy",
+  "headline": "Japan's economy stalls in the third quarter as consumer spending falls",
+  "headline_es": "La economía de Japón se estanca en el tercer trimestre por la caída del consumo",
+  "caption_en": "Japan's economy showed no growth in July-September from the previous quarter and shrank 0.1% on an annualised basis, according to preliminary government data released on Monday. Analysts had expected slight growth. Private consumption fell 0.3% and external demand weighed on output, while business capital spending rose.",
+  "caption_es": "La economía de Japón no creció entre julio y septiembre respecto al trimestre anterior y se contrajo un 0,1% en términos anualizados, según datos preliminares del Gobierno publicados el lunes. Los analistas esperaban un leve crecimiento. El consumo privado cayó un 0,3% y la demanda externa restó al resultado, mientras que la inversión empresarial aumentó.",
+  "source_urls": [
+    "https://investinglive.com/news/japan-q3-gdp-shrinks-0-1-annualised-vs-0-3-expected-as-exports-and-consumers-weigh/",
+    "https://www.investing.com/news/economic-indicators/japan-q3-gdp-unexpectedly-shrinks-as-slowing-exports-weak-spending-weigh-5028204"
+  ],
+  "source_names": [
+    "investingLive",
+    "Investing.com"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Japón",
+    "#Economía",
+    "#PIB"
+  ],
+  "summary_es": "El PIB quedó plano frente al trimestre anterior y cayó un 0,1% anualizado; el consumo privado bajó un 0,3%.",
+  "summary_en": "GDP was flat from the prior quarter and fell 0.1% annualised; private consumption dropped 0.3%.",
+  "highlight_es": "se estanca",
+  "highlight_en": "stalls",
+  "visual_label": "PIB Japón",
+  "image_prompt": "Busy container port at dawn with stacked shipping containers and cranes, a modern city skyline and a distant mountain in the background, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "Japan"
+    ],
+    "marker": {
+      "lat": 35.68,
+      "lon": 139.69,
+      "label": "Tokio"
+    },
+    "labels": {
+      "Japan": "Japón"
+    }
+  }
+}
