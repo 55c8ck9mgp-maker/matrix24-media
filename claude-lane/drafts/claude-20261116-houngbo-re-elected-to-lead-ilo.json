@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T18:52:22Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-houngbo-re-elected-to-lead-ilo",
+  "category": "Economy",
+  "headline": "Gilbert Houngbo re-elected head of the UN labour agency after Yolanda Díaz withdraws",
+  "headline_es": "Gilbert Houngbo, reelegido al frente de la OIT tras la retirada de Yolanda Díaz",
+  "caption_en": "The International Labour Organization's governing body re-elected Director-General Gilbert Houngbo with 51 votes for a second five-year term starting Oct. 1, 2027. Spain's labour minister Yolanda Díaz withdrew before the vote, saying she did not want to divide the union movement.",
+  "caption_es": "El consejo de administración de la Organización Internacional del Trabajo reeligió con 51 votos a su director general, Gilbert Houngbo, para un segundo mandato de cinco años desde el 1 de octubre de 2027. La ministra de Trabajo de España, Yolanda Díaz, retiró su candidatura antes de la votación, alegando que no quería dividir al movimiento sindical.",
+  "source_urls": [
+    "https://genevasolutions.news/global-news/gilbert-houngbo-wins-second-term-as-un-labour-chief-despite-union-opposition",
+    "https://theobjective.com/espana/politica/2026-11-16/yolanda-diaz-presidencia-oit-director-general/"
+  ],
+  "source_names": [
+    "Geneva Solutions",
+    "The Objective"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#OIT",
+    "#ILO",
+    "#Trabajo",
+    "#Ginebra"
+  ],
+  "summary_es": "Houngbo quedó sin rival tras la retirada de Díaz y del peruano Javier González-Olaechea. Su nuevo mandato se extenderá hasta 2032.",
+  "summary_en": "Houngbo faced no rival after Díaz and Peru's Javier González-Olaechea withdrew. His new term runs until 2032.",
+  "highlight_es": "reelegido",
+  "highlight_en": "re-elected",
+  "visual_label": "OIT",
+  "image_prompt": "Modern international organization headquarters building beside a lake with mountains in the background, rows of empty conference seats visible through glass, calm daylight, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Switzerland"
+    ],
+    "marker": {
+      "lat": 46.23,
+      "lon": 6.13,
+      "label": "Ginebra"
+    },
+    "labels": {
+      "Switzerland": "Suiza"
+    }
+  }
+}

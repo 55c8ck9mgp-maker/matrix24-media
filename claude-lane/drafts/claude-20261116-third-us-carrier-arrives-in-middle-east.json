@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T18:52:22Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-third-us-carrier-arrives-in-middle-east",
+  "category": "Security / Geopolitics",
+  "headline": "USS Theodore Roosevelt arrives as the third US aircraft carrier in the Middle East",
+  "headline_es": "El USS Theodore Roosevelt llega como tercer portaaviones de EE.UU. en Oriente Medio",
+  "caption_en": "The USS Theodore Roosevelt and its strike group have reached the Middle East, a US official confirmed on Monday, bringing the number of American aircraft carriers in the region to three. The deployment comes amid the US confrontation with Iran, as President Trump keeps his options open.",
+  "caption_es": "El USS Theodore Roosevelt y su grupo de ataque llegaron a Oriente Medio, confirmó el lunes un funcionario estadounidense, con lo que ya son tres los portaaviones de EE.UU. en la región. El despliegue se produce en medio de la confrontación de Washington con Irán, mientras el presidente Trump mantiene abiertas sus opciones.",
+  "source_urls": [
+    "https://www.bostonglobe.com/2026/11/16/nation/third-american-aircraft-arrives-middle-east/",
+    "https://www.al-monitor.com/originals/2026/11/third-us-aircraft-carrier-arrives-middle-eastern-waters-amid-iran-standoff"
+  ],
+  "source_names": [
+    "The Boston Globe (AP)",
+    "Al-Monitor"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#EEUU",
+    "#Irán",
+    "#OrienteMedio",
+    "#Ormuz"
+  ],
+  "summary_es": "Un funcionario de EE.UU. confirmó la llegada el lunes. Es una cifra inusualmente alta de portaaviones en la región, en plena tensión con Irán.",
+  "summary_en": "A US official confirmed the arrival on Monday. It is an unusually high number of carriers in the region amid tensions with Iran.",
+  "highlight_es": "tercer portaaviones",
+  "highlight_en": "third US aircraft carrier",
+  "visual_label": "Mar Arábigo",
+  "image_prompt": "Large aircraft carrier sailing on a calm blue sea at sunset, escort warships in the distance, jets parked on the deck, wide cinematic aerial view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Iran"
+    ],
+    "marker": {
+      "lat": 17.0,
+      "lon": 62.0,
+      "label": "Mar Arábigo"
+    },
+    "labels": {
+      "Iran": "Irán"
+    }
+  }
+}

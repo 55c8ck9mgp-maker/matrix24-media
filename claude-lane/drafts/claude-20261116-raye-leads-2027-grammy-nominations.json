@@ -1,0 +1,36 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-16T18:52:22Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261116-raye-leads-2027-grammy-nominations",
+  "category": "World",
+  "headline": "Raye leads the 2027 Grammy nominations with 11, followed by Rosalía with nine",
+  "headline_es": "Raye lidera las nominaciones a los Grammy 2027 con 11, seguida de Rosalía con nueve",
+  "caption_en": "Singer Raye earned 11 Grammy nominations, including album, record and song of the year, tying the most by a female artist in a single year. Rosalía follows with nine, and Beyoncé reached her 100th career nomination. The ceremony will be held on Feb. 7 in Los Angeles and broadcast on ABC.",
+  "caption_es": "La cantante Raye obtuvo 11 nominaciones a los Grammy, entre ellas álbum, grabación y canción del año, igualando el récord de una artista femenina en un solo año. Rosalía le sigue con nueve, y Beyoncé alcanzó su nominación número 100. La ceremonia será el 7 de febrero en Los Ángeles y se emitirá por ABC.",
+  "source_urls": [
+    "https://www.ksl.com/article/news/us/raye-leads-2027-grammy-nominations-followed-by-rosala-ella-langley-olivia-rodrigo-and-more/51646150",
+    "https://www.cbsnews.com/news/grammy-awards-2027-nominations-list/"
+  ],
+  "source_names": [
+    "Associated Press (KSL)",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Grammys",
+    "#Raye",
+    "#Rosalía",
+    "#Música"
+  ],
+  "summary_es": "Lux de Rosalía compite por álbum del año. Miranda Lambert, Olivia Rodrigo, Phoebe Bridgers y Ella Langley suman siete nominaciones cada una.",
+  "summary_en": "Rosalía's Lux competes for album of the year. Miranda Lambert, Olivia Rodrigo, Phoebe Bridgers and Ella Langley have seven nominations each.",
+  "highlight_es": "Grammy 2027",
+  "highlight_en": "2027 Grammy",
+  "visual_label": "Grammy 2027",
+  "image_prompt": "Golden gramophone-style trophy on a dark stage lit by warm spotlights, blurred concert hall in the background, elegant cinematic close-up, no people, no text, no logos"
+}
