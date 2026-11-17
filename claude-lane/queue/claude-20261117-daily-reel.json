@@ -1,0 +1,78 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261117-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-17T00:29:28.013Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-17",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-17",
+  "caption_es": "Resumen del día:\n1️⃣ Muere a los 80 años Miguel Ángel Félix Gallardo, fundador del cártel de Guadalajara\n2️⃣ Dos tiroteos masivos dejan al menos 17 muertos en Sudáfrica en una misma noche\n3️⃣ Drones ucranianos golpean el puente de Crimea y Rusia reporta un récord de 1.336 derribados\n4️⃣ José Maria Neves es reelegido presidente de Cabo Verde con cerca del 63% de los votos",
+  "caption_en": "Today's summary:\n1️⃣ Miguel Ángel Félix Gallardo, founder of Mexico's Guadalajara cartel, dies at 80\n2️⃣ Two mass shootings kill at least 17 people in South Africa on the same night\n3️⃣ Ukrainian drones hit the Crimean Bridge as Russia reports a record 1,336 drones downed\n4️⃣ José Maria Neves wins re-election as Cape Verde's president with about 63% of the vote",
+  "source_urls": [
+    "https://www.rte.ie/news/world/2026/1116/1599346-felix-gallardo-death/",
+    "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison",
+    "https://www.ewn.co.za/2026/11/16/9-people-killed-in-atteridgeville-shooting",
+    "https://www.sanews.gov.za/south-africa/kzn-police-launch-investigation-murder-eight-people",
+    "https://english.news.cn/africa/20261116/4bfae0744ce34adfb591d8ca8c827e35/c.html",
+    "https://www.themoscowtimes.com/2026/11/16/ukraine-hits-crimean-bridge-amid-record-overnight-drone-attack-a94265",
+    "https://kyivindependent.com/record-number-of-ukrainian-drones-launched-at-russia-moscow-oblast-among-main-targets/",
+    "https://www.freemalaysiatoday.com/category/world/2026/11/16/polls-close-in-cape-verde-with-incumbent-president-favoured-to-win",
+    "https://www.cmjornal.pt/mundo/detalhe/jose-maria-neves-reeleito-presidente-de-cabo-verde",
+    "https://www.jn.pt/mundo/artigo/jose-maria-neves-renova-confianca-dos-cabo-verdianos/18148616"
+  ],
+  "source_names": [
+    "RTÉ News",
+    "Al Jazeera",
+    "Eyewitness News",
+    "SAnews",
+    "Xinhua",
+    "The Moscow Times",
+    "The Kyiv Independent",
+    "Free Malaysia Today (AFP)",
+    "Correio da Manhã",
+    "Jornal de Notícias"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#México",
+    "#Mexico",
+    "#Narcotráfico",
+    "#Sudáfrica",
+    "#SouthAfrica",
+    "#Violencia",
+    "#Ucrania",
+    "#Rusia",
+    "#Crimea",
+    "#Drones",
+    "#CaboVerde",
+    "#Elecciones"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261117-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261117-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261116-guadalajara-cartel-founder-felix-gallardo-dies",
+      "claude-20261116-two-mass-shootings-kill-17-in-south-africa",
+      "claude-20261116-ukraine-drones-hit-crimean-bridge",
+      "claude-20261116-neves-re-elected-cape-verde-president"
+    ],
+    "total_seconds": 77
+  },
+  "publish_attempt_id": "94eb6189-2f43-48f1-9207-4d4cffbd39a4",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-17T00:30:27.110Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-17T00:30:27.110Z",
+      "event": "reserved",
+      "publish_attempt_id": "94eb6189-2f43-48f1-9207-4d4cffbd39a4"
+    }
+  ],
+  "reserved_at": "2026-11-17T00:30:27.110Z"
+}
