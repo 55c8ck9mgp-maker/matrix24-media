@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T06:51:55Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-russian-aircraft-violate-japanese-airspace",
+  "category": "Security / Geopolitics",
+  "headline": "Japan scrambles fighters after two suspected Russian aircraft enter its airspace",
+  "headline_es": "Japón despliega cazas tras la entrada de dos presuntos aviones rusos en su espacio aéreo",
+  "caption_en": "Two suspected Russian military aircraft entered Japanese airspace northwest of Okinoshima island, off Fukuoka, early on Tuesday, staying about three minutes each, Japan said. The Air Self-Defense Force scrambled fighter jets to warn them, and Tokyo lodged a stern protest with Moscow, demanding measures to prevent a repeat.",
+  "caption_es": "Dos presuntos aviones militares rusos entraron en el espacio aéreo japonés al noroeste de la isla de Okinoshima, frente a Fukuoka, en la madrugada del martes, y permanecieron unos tres minutos cada uno, según Japón. La Fuerza Aérea de Autodefensa desplegó cazas para advertirles, y Tokio presentó una enérgica protesta ante Moscú, exigiendo medidas para evitar que se repita.",
+  "source_urls": [
+    "https://www.nippon.com/en/articles/-/57542",
+    "https://www.kyivpost.com/post/90302"
+  ],
+  "source_names": [
+    "Nippon.com (Jiji Press)",
+    "Kyiv Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Japón",
+    "#Japan",
+    "#Rusia"
+  ],
+  "summary_es": "Las aeronaves estuvieron unos tres minutos cada una sobre territorio japonés. Tokio presentó una enérgica protesta ante Moscú.",
+  "summary_en": "The aircraft stayed about three minutes each in Japanese airspace. Tokyo lodged a stern protest with Moscow.",
+  "highlight_es": "presuntos aviones rusos",
+  "highlight_en": "suspected Russian aircraft",
+  "visual_label": "Okinoshima",
+  "image_prompt": "Two grey jet fighters flying over a calm sea at dawn near a small forested island, soft golden light and scattered clouds, wide cinematic aerial view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Japan"
+    ],
+    "marker": {
+      "lat": 34.24,
+      "lon": 130.11,
+      "label": "Okinoshima"
+    },
+    "labels": {
+      "Japan": "Japón"
+    }
+  }
+}

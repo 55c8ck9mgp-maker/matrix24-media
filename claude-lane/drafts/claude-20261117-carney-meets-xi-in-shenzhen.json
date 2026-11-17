@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T06:51:55Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-carney-meets-xi-in-shenzhen",
+  "category": "Economy",
+  "headline": "Carney meets Xi in Shenzhen ahead of APEC as Canada-China trade ties deepen",
+  "headline_es": "Carney se reúne con Xi en Shenzhen antes de APEC mientras crece el comercio Canadá-China",
+  "caption_en": "Canadian Prime Minister Mark Carney met Chinese President Xi Jinping in Shenzhen on Tuesday, ahead of the APEC leaders' summit that Xi hosts on Wednesday and Thursday. Since Carney's January visit to Beijing, the two countries have cut tariffs on goods including electric vehicles and some farm products, and Canadian exports to China, led by oil and canola, have risen sharply.",
+  "caption_es": "El primer ministro canadiense, Mark Carney, se reunió el martes en Shenzhen con el presidente chino, Xi Jinping, antes de la cumbre de líderes de APEC que Xi acoge el miércoles y el jueves. Desde la visita de Carney a Pekín en enero, ambos países han reducido aranceles a productos como vehículos eléctricos y algunos bienes agrícolas, y las exportaciones canadienses a China, encabezadas por el petróleo y la canola, han crecido con fuerza.",
+  "source_urls": [
+    "https://www.yahoo.com/news/world/articles/china-canada-relations-more-stable-041655003.html",
+    "https://globalnews.ca/news/12153994/carney-xi-meeting-apec-summit/"
+  ],
+  "source_names": [
+    "Reuters",
+    "Global News (The Canadian Press)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Canadá",
+    "#China",
+    "#APEC",
+    "#Comercio"
+  ],
+  "summary_es": "Desde enero, ambos países han rebajado aranceles a vehículos eléctricos y productos agrícolas. Las exportaciones canadienses a China han crecido con fuerza.",
+  "summary_en": "Since January both countries have cut tariffs on EVs and farm goods. Canadian exports to China have risen sharply.",
+  "highlight_es": "Carney se reúne con Xi",
+  "highlight_en": "Carney meets Xi",
+  "visual_label": "APEC",
+  "image_prompt": "Large container port at sunrise with stacked shipping containers, cranes and an oil tanker, a modern coastal skyline in the distance, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Canada",
+      "China"
+    ],
+    "marker": {
+      "lat": 22.54,
+      "lon": 114.06,
+      "label": "Shenzhen"
+    },
+    "labels": {
+      "Canada": "Canadá",
+      "China": "China"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T06:51:55Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-russian-missiles-hit-two-kyiv-bridges",
+  "category": "Security / Geopolitics",
+  "headline": "Russian missiles hit two major Kyiv bridges, disrupting water and heating",
+  "headline_es": "Misiles rusos impactan dos grandes puentes de Kiev y cortan agua y calefacción",
+  "caption_en": "Russian missiles struck Kyiv's North and South bridges over the Dnipro River late on Monday, according to Mayor Vitali Klitschko, who said the attack damaged critical infrastructure and disrupted water and heating supplies in parts of the capital. A ballistic missile strike on Smila, in the Cherkasy region, injured three people, the regional governor said.",
+  "caption_es": "Misiles rusos impactaron los puentes Norte y Sur sobre el río Dniéper en Kiev la noche del lunes, según el alcalde Vitali Klitschko, quien dijo que el ataque dañó infraestructura crítica y cortó el suministro de agua y calefacción en partes de la capital. Un ataque con misil balístico contra Smila, en la región de Cherkasy, dejó tres heridos, según el gobernador regional.",
+  "source_urls": [
+    "https://www.kyivpost.com/post/90297",
+    "https://www.yahoo.com/news/world/articles/key-bridges-kyiv-struck-massive-222030928.html"
+  ],
+  "source_names": [
+    "Kyiv Post",
+    "The Kyiv Independent"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Kiev",
+    "#Rusia"
+  ],
+  "summary_es": "El alcalde Klitschko informó de daños en infraestructura crítica y cortes de agua y calefacción. En Smila, región de Cherkasy, hubo tres heridos.",
+  "summary_en": "Mayor Klitschko reported damage to critical infrastructure and water and heating cuts. Three people were injured in Smila, Cherkasy region.",
+  "highlight_es": "dos grandes puentes de Kiev",
+  "highlight_en": "two major Kyiv bridges",
+  "visual_label": "Dniéper",
+  "image_prompt": "Long concrete road bridge spanning a wide river at night under a cold winter sky, darkened city skyline on the far bank, faint mist over the water, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 50.45,
+      "lon": 30.52,
+      "label": "Kiev"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  }
+}
