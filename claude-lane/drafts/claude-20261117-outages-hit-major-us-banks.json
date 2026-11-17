@@ -1,0 +1,43 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T00:50:34Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-outages-hit-major-us-banks",
+  "category": "Economy",
+  "headline": "Online banking outages hit Chase, Wells Fargo and other major US banks",
+  "headline_es": "Fallas en la banca en línea afectan a Chase, Wells Fargo y otros grandes bancos de EE.UU.",
+  "caption_en": "Customers of several large US banks reported problems with online banking on Monday, with outage reports on Downdetector rising sharply for JPMorgan Chase, Bank of America, Wells Fargo and Capital One. Chase blamed a technical issue that slowed some transactions and said customers still had access to their accounts, while Wells Fargo said it was working to fix a technical problem.",
+  "caption_es": "Clientes de varios grandes bancos de EE.UU. reportaron problemas con la banca en línea el lunes, con un fuerte aumento de reportes de fallas en Downdetector para JPMorgan Chase, Bank of America, Wells Fargo y Capital One. Chase atribuyó el problema a una falla técnica que retrasó algunas transacciones y dijo que los clientes seguían teniendo acceso a sus cuentas, mientras que Wells Fargo dijo que trabajaba para resolver un problema técnico.",
+  "source_urls": [
+    "https://fortune.com/2026/11/16/chase-bank-wells-fargo-capital-one-bank-outages/",
+    "https://www.foxbusiness.com/markets/financial-stocks-slide-online-banking-outages-reported-several-large-us-banks"
+  ],
+  "source_names": [
+    "Fortune",
+    "Fox Business"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Bancos",
+    "#EEUU",
+    "#Economía"
+  ],
+  "summary_es": "Chase habló de una falla técnica que retrasó transacciones y dijo que los clientes conservaban el acceso a sus cuentas.",
+  "summary_en": "Chase cited a technical issue that slowed some transactions and said customers kept access to their accounts.",
+  "highlight_es": "banca en línea",
+  "highlight_en": "Online banking outages",
+  "visual_label": "Banca digital",
+  "image_prompt": "Smartphone on a desk showing a blank loading screen beside a bank card, with a blurred city financial district skyline through the window, moody evening light, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

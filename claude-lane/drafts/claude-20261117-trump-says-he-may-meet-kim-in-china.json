@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T00:50:34Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-trump-says-he-may-meet-kim-in-china",
+  "category": "Security / Geopolitics",
+  "headline": "Trump says he may meet Kim Jong Un in China as he leaves for his Asia trip",
+  "headline_es": "Trump dice que podría reunirse con Kim Jong Un en China al partir hacia Asia",
+  "caption_en": "Before leaving the White House on Monday for Asia, President Trump told reporters he may also meet North Korean leader Kim Jong Un in China, suggesting Xi Jinping could invite Kim to Shenzhen. Trump first heads to the Philippines for the ASEAN summit, then to Shenzhen, where he is due to meet Xi and Putin on Thursday.",
+  "caption_es": "Antes de salir el lunes de la Casa Blanca rumbo a Asia, el presidente Trump dijo a los periodistas que también podría reunirse con el líder norcoreano Kim Jong Un en China, y sugirió que Xi Jinping podría invitar a Kim a Shenzhen. Trump va primero a Filipinas para la cumbre de la ASEAN y luego a Shenzhen, donde tiene previsto reunirse el jueves con Xi y Putin.",
+  "source_urls": [
+    "https://www.koreatimes.co.kr/world/20261117/trump-says-he-may-meet-with-kim-jong-un-while-in-china",
+    "https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/"
+  ],
+  "source_names": [
+    "The Korea Times",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Trump",
+    "#CoreaDelNorte",
+    "#APEC",
+    "#China"
+  ],
+  "summary_es": "Trump sugirió que Xi podría invitar a Kim a Shenzhen. El jueves tiene prevista una cumbre con Xi y Putin en Shenzhen.",
+  "summary_en": "Trump suggested Xi could invite Kim to Shenzhen. He is due to meet Xi and Putin in Shenzhen on Thursday.",
+  "highlight_es": "Kim Jong Un",
+  "highlight_en": "Kim Jong Un",
+  "visual_label": "Shenzhen",
+  "image_prompt": "Modern coastal city skyline at twilight with glass skyscrapers and a large conference center, a government airplane parked on a distant runway, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "China",
+      "North Korea"
+    ],
+    "marker": {
+      "lat": 22.54,
+      "lon": 114.06,
+      "label": "Shenzhen"
+    },
+    "labels": {
+      "China": "China",
+      "North Korea": "Corea del Norte"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T00:50:34Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-yemeni-forces-pull-back-from-bab-al-mandeb",
+  "category": "Security / Geopolitics",
+  "headline": "Yemeni government-allied forces pull back from Bab al-Mandeb area to defend Aden",
+  "headline_es": "Fuerzas aliadas del gobierno de Yemen se retiran de Bab el-Mandeb para defender Adén",
+  "caption_en": "Saudi-backed forces fighting alongside Yemen's internationally recognised government withdrew from Dhubab airport and nearby positions overlooking the Bab al-Mandeb Strait, calling it a redeployment to protect Aden. The Houthis said they forced the pullback after cutting supply routes, and say their fighters advanced through mountainous areas of Taiz and Lahij.",
+  "caption_es": "Fuerzas respaldadas por Arabia Saudita que combaten junto al gobierno de Yemen reconocido internacionalmente se retiraron del aeropuerto de Dhubab y de posiciones cercanas con vista al estrecho de Bab el-Mandeb, y lo calificaron de redespliegue para proteger Adén. Los hutíes afirmaron haber forzado la retirada tras cortar sus rutas de suministro, y dicen que sus combatientes avanzaron por zonas montañosas de Taiz y Lahij.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb",
+    "https://www.middleeasteye.net/news/saudi-backed-forces-retreat-bab-al-mandab-houthis-gain-ground"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Middle East Eye"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Yemen",
+    "#Hutíes",
+    "#BabElMandeb",
+    "#MarRojo"
+  ],
+  "summary_es": "El gobierno lo llama redespliegue; los hutíes aseguran que forzaron la retirada y que avanzan por Taiz y Lahij.",
+  "summary_en": "The government calls it a redeployment; the Houthis say they forced the retreat and are advancing through Taiz and Lahij.",
+  "highlight_es": "Bab el-Mandeb",
+  "highlight_en": "Bab al-Mandeb",
+  "visual_label": "Bab el-Mandeb",
+  "image_prompt": "Narrow sea strait between rocky arid coastlines at dusk, a lone cargo ship passing through, distant mountains and an empty desert airstrip on the shore, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 12.58,
+      "lon": 43.33,
+      "label": "Bab el-Mandeb"
+    },
+    "labels": {
+      "Yemen": "Yemen"
+    }
+  }
+}
