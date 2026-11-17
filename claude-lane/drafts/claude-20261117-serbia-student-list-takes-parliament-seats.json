@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T12:52:05Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-serbia-student-list-takes-parliament-seats",
+  "category": "World",
+  "headline": "Serbia's new parliament meets with the student-led movement holding a majority",
+  "headline_es": "El nuevo Parlamento de Serbia se reúne con mayoría del movimiento estudiantil",
+  "caption_en": "Serbia's new parliament met for the first time on Tuesday, with the Students' List holding 140 of its 250 seats after its landslide win in last month's election. The result ends 14 years of dominance by Aleksandar Vucic's camp; Vucic now sits as an opposition lawmaker. Lawmakers must first elect a speaker, and a new government has to be voted in within 90 days.",
+  "caption_es": "El nuevo Parlamento de Serbia se reunió por primera vez el martes, con la Lista Estudiantil ocupando 140 de sus 250 escaños tras su amplia victoria en las elecciones del mes pasado. El resultado pone fin a 14 años de dominio del bloque de Aleksandar Vucic, que ahora es diputado de la oposición. Los legisladores deben elegir primero a un presidente de la cámara, y un nuevo gobierno debe ser votado en un plazo de 90 días.",
+  "source_urls": [
+    "https://www.rferl.org/a/serbia-parliament-student-list-opposition-vucic/33899684.html",
+    "https://www.ksat.com/business/2026/11/17/serbias-new-parliament-meets-for-the-first-time-since-a-student-led-movement-won-the-election/"
+  ],
+  "source_names": [
+    "Radio Free Europe/Radio Liberty",
+    "AP (via KSAT)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Serbia",
+    "#Belgrado",
+    "#Elecciones",
+    "#Europa"
+  ],
+  "summary_es": "La Lista Estudiantil tiene 140 de 250 escaños y pone fin a 14 años de dominio del bloque de Vucic. El gobierno debe formarse en 90 días.",
+  "summary_en": "The Students' List holds 140 of 250 seats, ending 14 years of dominance by Vucic's camp. A government must be formed within 90 days.",
+  "highlight_es": "mayoría del movimiento estudiantil",
+  "highlight_en": "student-led movement",
+  "visual_label": "Belgrado",
+  "image_prompt": "Grand neoclassical parliament building with a large dome at dusk, empty plaza and steps in front, soft city lights, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Serbia"
+    ],
+    "marker": {
+      "lat": 44.81,
+      "lon": 20.46,
+      "label": "Belgrado"
+    },
+    "labels": {
+      "Serbia": "Serbia"
+    }
+  }
+}

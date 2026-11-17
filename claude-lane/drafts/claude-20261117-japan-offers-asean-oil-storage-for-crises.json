@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T12:52:05Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-japan-offers-asean-oil-storage-for-crises",
+  "category": "Economy",
+  "headline": "Japan offers its idle oil storage to Southeast Asia to cushion future energy crises",
+  "headline_es": "Japón ofrece su almacenamiento de petróleo ocioso al Sudeste Asiático ante crisis energéticas",
+  "caption_en": "Japanese Prime Minister Sanae Takaichi proposed on Tuesday, on the sidelines of the ASEAN summit in Manila, that Southeast Asian countries be able to use Japan's unused crude oil storage under a regional stockpiling initiative. The plan aims to help the region weather energy shocks after the Iran war disrupted oil shipments through the Strait of Hormuz. AP reports she described the idea as an Asian version of the International Energy Agency.",
+  "caption_es": "La primera ministra japonesa, Sanae Takaichi, propuso el martes, al margen de la cumbre de la ASEAN en Manila, que los países del Sudeste Asiático puedan usar los depósitos de crudo sin uso de Japón dentro de una iniciativa regional de reservas. El plan busca ayudar a la región a resistir crisis energéticas después de que la guerra con Irán alterara los envíos de petróleo por el estrecho de Ormuz. Según AP, Takaichi lo describió como una versión asiática de la Agencia Internacional de la Energía.",
+  "source_urls": [
+    "https://wral.com/news/ap/3d7df-japan-urges-creation-of-an-asian-energy-framework-to-counter-oil-crises",
+    "https://sg.news.yahoo.com/japan-offers-asean-nations-access-084621736.html"
+  ],
+  "source_names": [
+    "AP (via WRAL)",
+    "AFP (via Yahoo News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Japón",
+    "#ASEAN",
+    "#Petróleo",
+    "#Energía"
+  ],
+  "summary_es": "Takaichi propuso en Manila que la ASEAN use los depósitos ociosos de Japón en una iniciativa regional de reservas, tras la crisis del petróleo por la guerra con Irán.",
+  "summary_en": "In Manila, Takaichi proposed that ASEAN nations use Japan's idle tanks in a regional stockpiling plan after the Iran war oil shock.",
+  "highlight_es": "almacenamiento de petróleo",
+  "highlight_en": "idle oil storage",
+  "visual_label": "Reservas",
+  "image_prompt": "Rows of large white cylindrical oil storage tanks at a coastal terminal, an oil tanker moored at the pier, calm sea and soft morning light, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Japan",
+      "Philippines"
+    ],
+    "marker": {
+      "lat": 14.6,
+      "lon": 120.98,
+      "label": "Manila"
+    },
+    "labels": {
+      "Japan": "Japón",
+      "Philippines": "Filipinas"
+    }
+  }
+}
