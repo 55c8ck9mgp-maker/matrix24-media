@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T18:51:56Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-french-public-sector-strikes-over-pay",
+  "category": "Economy",
+  "headline": "French public sector workers strike nationwide over pay and the cost of living",
+  "headline_es": "Trabajadores públicos de Francia van a la huelga nacional por salarios y costo de vida",
+  "caption_en": "Unions called France's 5.8 million public sector employees to strike on Tuesday, demanding across-the-board pay rises after talks with Prime Minister Sébastien Lecornu last Friday failed to satisfy them. It was the third united public sector day of action since September, with marches in Paris, Lyon, Nantes and other cities. In Nantes, police used water cannon on protesters.",
+  "caption_es": "Los sindicatos convocaron el martes a los 5,8 millones de empleados públicos de Francia a la huelga para exigir aumentos salariales generalizados, después de que las conversaciones del viernes con el primer ministro Sébastien Lecornu no los satisficieran. Fue la tercera jornada unitaria de movilización del sector público desde septiembre, con marchas en París, Lyon, Nantes y otras ciudades. En Nantes, la policía usó cañones de agua contra manifestantes.",
+  "source_urls": [
+    "https://www.aljazeera.com/gallery/2026/11/17/photos-tens-of-thousands-rally-in-france-over-living-standards-and-wages",
+    "https://global.chinadaily.com.cn/a/202611/17/WS6afc600ae4b03ebf8519cfc9.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "AFP (via China Daily)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Francia",
+    "#Huelga",
+    "#Salarios",
+    "#París"
+  ],
+  "summary_es": "Los sindicatos piden aumentos salariales generalizados para 5,8 millones de empleados públicos. Hubo marchas en París, Lyon y Nantes.",
+  "summary_en": "Unions demand across-the-board pay rises for 5.8 million public employees. Marches took place in Paris, Lyon and Nantes.",
+  "highlight_es": "huelga nacional",
+  "highlight_en": "strike nationwide",
+  "visual_label": "Huelga",
+  "image_prompt": "Wide Paris boulevard with classic Haussmann buildings under an overcast sky, scattered paper leaflets on the empty street, quiet tension, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "France"
+    ],
+    "marker": {
+      "lat": 48.86,
+      "lon": 2.35,
+      "label": "París"
+    },
+    "labels": {
+      "France": "Francia"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T18:51:56Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-us-curbs-china-remote-access-to-ai-chips",
+  "category": "Technology",
+  "headline": "US moves to block China's remote access to advanced AI chips through third countries",
+  "headline_es": "EE. UU. busca bloquear el acceso remoto de China a chips avanzados de IA vía terceros países",
+  "caption_en": "The US Commerce Department's Bureau of Industry and Security issued a rule aimed at stopping Chinese firms from renting advanced AI computing power in data centres abroad. Chip sales to Indonesia, Malaysia, Singapore, Thailand and Brazil now require licences, as the US says they carry a high risk of diversion. The move came days after Jensen Huang resigned as Nvidia CEO amid scrutiny of his ties to a former executive of Singapore-based Megaspeed.",
+  "caption_es": "La Oficina de Industria y Seguridad del Departamento de Comercio de EE. UU. emitió una norma para impedir que empresas chinas alquilen capacidad de computación avanzada de IA en centros de datos en el extranjero. Las ventas de chips a Indonesia, Malasia, Singapur, Tailandia y Brasil ahora requieren licencia, ya que EE. UU. considera que presentan un alto riesgo de desvío. La medida llegó días después de que Jensen Huang dimitiera como director ejecutivo de Nvidia en medio del escrutinio por sus vínculos con una exejecutiva de la firma singapurense Megaspeed.",
+  "source_urls": [
+    "https://www.pbs.org/newshour/science/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-tech",
+    "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal"
+  ],
+  "source_names": [
+    "AP (via PBS NewsHour)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#IA",
+    "#Chips",
+    "#China",
+    "#Tecnología"
+  ],
+  "summary_es": "Las ventas de chips a Indonesia, Malasia, Singapur, Tailandia y Brasil requieren ahora licencia para frenar el acceso remoto de firmas chinas.",
+  "summary_en": "Chip sales to Indonesia, Malaysia, Singapore, Thailand and Brazil now need licences to stop Chinese firms renting computing power abroad.",
+  "highlight_es": "chips avanzados de IA",
+  "highlight_en": "advanced AI chips",
+  "visual_label": "Chips de IA",
+  "image_prompt": "Rows of server racks in a dimly lit data centre with blue indicator lights, a single computer chip on a circuit board in the foreground, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "United States of America",
+      "China"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos",
+      "China": "China"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-17T18:51:56Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261117-turkey-seizes-opposition-sozcu-tv",
+  "category": "World",
+  "headline": "Turkey places pro-opposition Sözcü TV under state trustee after police raid",
+  "headline_es": "Turquía pone bajo administración estatal a Sözcü TV, afín a la oposición, tras una redada",
+  "caption_en": "Police raided the Istanbul headquarters of pro-opposition broadcaster Sözcü TV early on Tuesday, and a court appointed Turkey's Savings Deposit Insurance Fund as trustee over the channel and its news website. Executives including board chair Funda Tuncer Sıdalı were detained as prosecutors investigate owner Burak Akbay over alleged links to the Gülen movement. Opposition leader Özgür Özel condemned the move; it comes about a month after Halk TV was placed under a trustee.",
+  "caption_es": "La policía allanó el martes temprano la sede en Estambul de Sözcü TV, cadena afín a la oposición, y un tribunal designó al Fondo de Seguro de Depósitos de Ahorro de Turquía como administrador del canal y de su sitio web de noticias. Varios directivos, entre ellos la presidenta del consejo Funda Tuncer Sıdalı, fueron detenidos mientras la fiscalía investiga al propietario Burak Akbay por supuestos vínculos con el movimiento de Gülen. El líder opositor Özgür Özel condenó la medida, que llega cerca de un mes después de que Halk TV fuera intervenida.",
+  "source_urls": [
+    "https://www.hurriyetdailynews.com/sozcu-tv-placed-under-trustee-control-after-police-raid-229507",
+    "https://www.turkishminute.com/2026/11/17/turkish-court-puts-pro-opposition-sozcu-tv-under-state-control-as-police-detain-executives/"
+  ],
+  "source_names": [
+    "Hürriyet Daily News",
+    "Turkish Minute"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Turquía",
+    "#LibertadDePrensa",
+    "#Estambul",
+    "#Medios"
+  ],
+  "summary_es": "Un tribunal designó un administrador estatal para el canal y su web; varios directivos fueron detenidos en una investigación contra el propietario.",
+  "summary_en": "A court appointed a state trustee over the channel and its website; several executives were detained in a probe targeting the owner.",
+  "highlight_es": "Sözcü TV",
+  "highlight_en": "Sözcü TV",
+  "visual_label": "Estambul",
+  "image_prompt": "Empty television studio with dark cameras and switched-off studio lights, a news desk in shadow, moody atmosphere, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Turkey"
+    ],
+    "marker": {
+      "lat": 41.17,
+      "lon": 29.05,
+      "label": "Estambul"
+    },
+    "labels": {
+      "Turkey": "Turquía"
+    }
+  }
+}
