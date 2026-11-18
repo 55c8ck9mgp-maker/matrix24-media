@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-hegseth-visits-colombia-delivers-c-130",
+  "status": "draft",
+  "created_at": "2026-11-18T18:52:10Z",
+  "category": "Colombia / Latin America",
+  "headline": "Hegseth visits Colombia to hand over the first of up to three C-130 military planes",
+  "headline_es": "Hegseth visita Colombia para entregar el primero de hasta tres aviones militares C-130",
+  "caption_en": "US Defense Secretary Pete Hegseth is visiting Bogotá on Wednesday to hand over a C-130 Hercules transport plane to Colombia's armed forces. Defence Minister Jorge Eduardo Mora told Congress that two more aircraft could follow. The agenda includes security cooperation, the use of drones by illegal armed groups and Colombia's role in the US-led Shield of the Americas initiative.",
+  "caption_es": "El secretario de Defensa de EE. UU., Pete Hegseth, visita este miércoles Bogotá para entregar un avión de transporte C-130 Hércules a las Fuerzas Militares de Colombia. El ministro de Defensa, Jorge Eduardo Mora, dijo ante el Congreso que podrían llegar dos aviones más. La agenda incluye la cooperación en seguridad, el uso de drones por grupos armados ilegales y el papel de Colombia en la iniciativa Escudo de las Américas, liderada por EE. UU.",
+  "source_urls": [
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/11/18/hegseth-to-visit-colombia-on-wednesday-to-deliver-military-equipment",
+    "https://www.elheraldo.co/colombia/2026/11/18/mindefensa-confirmo-que-durante-visita-del-secretario-de-guerra-de-ee-uu-se-entregara-un-avion-de-transporte-c-130-hercules/",
+    "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/asi-es-el-poderoso-hercules-c-130-que-pete-hegseth-de-estados-unidos-entregara-a-colombia-3601999"
+  ],
+  "source_names": [
+    "Reuters (via Internazionale)",
+    "El Heraldo",
+    "El Tiempo"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#EEUU",
+    "#Hegseth",
+    "#Bogotá"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "EE. UU. entrega a Colombia un avión Hércules C-130 y podrían llegar dos más. Drones y seguridad, en la agenda de Hegseth en Bogotá.",
+  "summary_en": "The US hands Colombia a C-130 Hercules, with two more possible. Drones and security top Hegseth's agenda in Bogotá.",
+  "highlight_es": "C-130",
+  "highlight_en": "C-130",
+  "visual_label": "C-130",
+  "image_prompt": "A generic grey four-engine military transport aircraft parked on an airfield tarmac with green Andean mountains in the background under a cloudy sky, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Colombia"
+    ],
+    "marker": {
+      "lat": 4.71,
+      "lon": -74.07,
+      "label": "Bogotá"
+    },
+    "labels": {
+      "Colombia": "Colombia"
+    }
+  }
+}

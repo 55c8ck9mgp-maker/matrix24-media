@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-voyager-1-reaches-one-light-day",
+  "status": "draft",
+  "created_at": "2026-11-18T18:52:10Z",
+  "category": "Science",
+  "headline": "NASA's Voyager 1 becomes the first spacecraft to reach one light-day from Earth",
+  "headline_es": "La Voyager 1 de la NASA, primera nave en llegar a un día luz de la Tierra",
+  "caption_en": "NASA's Voyager 1, launched in 1977, reached a distance of one light-day from Earth on Wednesday, more than 16 billion miles (about 26 billion km) away. Radio signals now take 24 hours to travel between the probe and Earth. The spacecraft is still sending data from interstellar space, although most of its instruments have been switched off to save power.",
+  "caption_es": "La sonda Voyager 1 de la NASA, lanzada en 1977, alcanzó el miércoles una distancia de un día luz de la Tierra, más de 16.000 millones de millas (unos 26.000 millones de km). Las señales de radio tardan ahora 24 horas en viajar entre la sonda y la Tierra. La nave sigue enviando datos desde el espacio interestelar, aunque la mayoría de sus instrumentos se han apagado para ahorrar energía.",
+  "source_urls": [
+    "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/",
+    "https://www.itv.com/news/2026-11-14/nasas-voyager-1-is-nearly-a-light-day-from-earth-a-first-for-humanity"
+  ],
+  "source_names": ["EarthSky", "ITV News"],
+  "hashtags": ["#MATRIX24", "#Voyager1", "#NASA", "#Espacio"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Lanzada en 1977, la Voyager 1 ya está a más de 26.000 millones de km: su señal tarda 24 horas en llegar a la Tierra.",
+  "summary_en": "Launched in 1977, Voyager 1 is now over 26 billion km away: its signal takes 24 hours to reach Earth.",
+  "highlight_es": "un día luz",
+  "highlight_en": "one light-day",
+  "visual_label": "Voyager 1",
+  "image_prompt": "A small vintage space probe with a large dish antenna drifting through deep interstellar space, faint distant Sun as a bright star, field of stars and a soft nebula glow, wide cinematic view, no text, no logos, no insignia"
+}

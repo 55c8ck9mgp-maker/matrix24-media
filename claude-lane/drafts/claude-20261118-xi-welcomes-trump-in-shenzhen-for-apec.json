@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-xi-welcomes-trump-in-shenzhen-for-apec",
+  "status": "draft",
+  "created_at": "2026-11-18T18:52:10Z",
+  "category": "World",
+  "headline": "Xi welcomes Trump in Shenzhen for APEC ahead of three-way talks with Putin",
+  "headline_es": "Xi recibe a Trump en Shenzhen para la APEC antes de la cumbre a tres con Putin",
+  "caption_en": "Donald Trump landed in Shenzhen on Wednesday from the Philippines for the APEC summit and was greeted by Xi Jinping at the foot of Air Force One. Earlier, Xi held separate talks with Vladimir Putin and said Beijing and Moscow should lead the trend toward a multipolar world. The three leaders are due to meet on Thursday, with nuclear arms reduction among the topics.",
+  "caption_es": "Donald Trump aterrizó el miércoles en Shenzhen procedente de Filipinas para la cumbre de la APEC y fue recibido por Xi Jinping al pie del Air Force One. Antes, Xi mantuvo conversaciones por separado con Vladímir Putin y dijo que Pekín y Moscú deben liderar la tendencia hacia un mundo multipolar. Los tres líderes tienen previsto reunirse el jueves, con la reducción de armas nucleares entre los temas.",
+  "source_urls": [
+    "https://www.rfa.org/english/china/2026/11/18/china-trump-xi-putin-apec-shenzhen/",
+    "https://www.ynetnews.com/article/b1h11xgo0gl",
+    "https://www.aljazeera.com/news/2026/11/18/president-xi-says-russia-and-china-should-lead-push-to-multipolar-world"
+  ],
+  "source_names": ["Radio Free Asia", "Ynetnews", "Al Jazeera"],
+  "hashtags": ["#MATRIX24", "#APEC", "#China", "#Shenzhen", "#EEUU"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Xi recibió a Trump al pie del avión en Shenzhen. Antes se reunió con Putin y pidió que China y Rusia lideren un mundo multipolar. El jueves, cumbre a tres.",
+  "summary_en": "Xi met Trump at the plane in Shenzhen after talks with Putin, urging a multipolar world. The three leaders meet on Thursday.",
+  "highlight_es": "Shenzhen",
+  "highlight_en": "Shenzhen",
+  "visual_label": "APEC",
+  "image_prompt": "Modern city skyline of glass skyscrapers along a bay at dusk, a large white passenger jet parked on an airport apron with a red carpet and empty stairs, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": ["China"],
+    "marker": {"lat": 22.54, "lon": 114.06, "label": "Shenzhen"},
+    "labels": {"China": "China"}
+  }
+}
