@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-nvidia-beats-forecasts-first-report-after-huang",
+  "status": "draft",
+  "created_at": "2026-11-18T00:56:05Z",
+  "category": "Technology",
+  "headline": "Nvidia posts $115.8 billion in quarterly revenue in its first report since Huang's exit",
+  "headline_es": "Nvidia ingresa 115.800 millones de dólares en su primer informe tras la salida de Huang",
+  "caption_en": "Nvidia reported third-quarter revenue of $115.8 billion on Tuesday, above the roughly $109 billion analysts had expected. It was the chipmaker's first earnings report since Jensen Huang stepped down as CEO last week. Colette Kress, the company's longtime finance chief, is leading Nvidia as interim CEO.",
+  "caption_es": "Nvidia reportó el martes ingresos de 115.800 millones de dólares en el tercer trimestre, por encima de los cerca de 109.000 millones que esperaban los analistas. Fue el primer informe de resultados del fabricante de chips desde que Jensen Huang dejó el cargo de director ejecutivo la semana pasada. Colette Kress, directora financiera de larga trayectoria, dirige Nvidia como directora ejecutiva interina.",
+  "source_urls": [
+    "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/",
+    "https://fastcompany.com/91644237/nvidia-q3-earnings-first-without-jensen-huang"
+  ],
+  "source_names": ["CBS News", "Fast Company"],
+  "hashtags": ["#MATRIX24", "#Nvidia", "#IA", "#Tecnología", "#Economía"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Los ingresos del tercer trimestre superaron los cerca de 109.000 millones previstos. Colette Kress dirige la empresa de forma interina.",
+  "summary_en": "Third-quarter revenue beat the roughly $109 billion analysts expected. Colette Kress is leading the company as interim CEO.",
+  "highlight_es": "115.800 millones de dólares",
+  "highlight_en": "$115.8 billion",
+  "visual_label": "Chips de IA",
+  "image_prompt": "Close-up of a powerful graphics processor on a circuit board glowing green, rising financial chart lines in the dark background, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 37.37, "lon": -121.96, "label": "Santa Clara"},
+    "labels": {"United States of America": "Estados Unidos"}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-knesset-elects-eisenkot-ally-as-speaker",
+  "status": "draft",
+  "created_at": "2026-11-18T00:56:05Z",
+  "category": "Security / Geopolitics",
+  "headline": "Israel's Knesset elects Eisenkot ally Matan Kahana as speaker in a blow to Netanyahu's Likud",
+  "headline_es": "La Knéset elige presidente a Matan Kahana, aliado de Eisenkot, en un revés para el Likud",
+  "caption_en": "Israel's parliament elected Matan Kahana of Gadi Eisenkot's Yashar party as Knesset speaker on Tuesday with 66 votes, defeating Likud candidate Ofir Katz. He replaces Likud's Amir Ohana, giving the Eisenkot-led bloc more control over the parliamentary agenda. Netanyahu remains in office while talks on forming a new government continue.",
+  "caption_es": "El Parlamento de Israel eligió el martes a Matan Kahana, del partido Yashar de Gadi Eisenkot, como presidente de la Knéset con 66 votos, frente al candidato del Likud, Ofir Katz. Sustituye a Amir Ohana, del Likud, lo que da al bloque liderado por Eisenkot más control sobre la agenda parlamentaria. Netanyahu sigue en el cargo mientras continúan las negociaciones para formar un nuevo gobierno.",
+  "source_urls": [
+    "https://www.timesofisrael.com/knesset-votes-66-52-to-elect-yashars-matan-kahana-as-speaker-in-boost-to-eisenkot-bloc/",
+    "https://www.ynetnews.com/article/b1jkmr5cge"
+  ],
+  "source_names": ["The Times of Israel", "Ynetnews"],
+  "hashtags": ["#MATRIX24", "#Israel", "#Knéset", "#Política"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Kahana, del partido Yashar, obtuvo 66 votos y sustituye a Amir Ohana, del Likud. El bloque de Eisenkot gana control sobre la agenda.",
+  "summary_en": "Kahana, of the Yashar party, won 66 votes and replaces Likud's Amir Ohana, giving Eisenkot's bloc more say over the agenda.",
+  "highlight_es": "Matan Kahana",
+  "highlight_en": "Matan Kahana",
+  "visual_label": "Knéset",
+  "image_prompt": "Empty parliament chamber with semicircular rows of seats and a raised speaker's podium, warm evening light, a wooden gavel on the desk in the foreground, wide cinematic view, no people, no text, no flags, no insignia",
+  "map": {
+    "focus": ["Israel"],
+    "marker": {"lat": 31.777, "lon": 35.205, "label": "Jerusalén"},
+    "labels": {"Israel": "Israel"}
+  }
+}
