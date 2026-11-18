@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-ethiopia-eritrea-border-war-fears-grow",
+  "status": "draft",
+  "created_at": "2026-11-18T12:57:10Z",
+  "category": "World",
+  "headline": "Reports of shelling near Badme raise fears of a new war between Ethiopia and Eritrea",
+  "headline_es": "Reportes de bombardeos cerca de Badme avivan el temor a una nueva guerra entre Etiopía y Eritrea",
+  "caption_en": "Ethiopian forces have pushed Tigrayan fighters toward the Eritrean border, with reports of artillery fire and skirmishes near Badme, the flashpoint of the 1998-2000 war between the two countries. The escalation has raised fears of a wider regional war. Eritrea denies any incursion and accuses Addis Ababa of seeking a pretext for war.",
+  "caption_es": "Las fuerzas etíopes han empujado a combatientes tigriños hacia la frontera con Eritrea, con reportes de fuego de artillería y escaramuzas cerca de Badme, el foco de la guerra de 1998-2000 entre ambos países. La escalada ha avivado el temor a una guerra regional más amplia. Eritrea niega cualquier incursión y acusa a Adís Abeba de buscar un pretexto para la guerra.",
+  "source_urls": [
+    "https://www.businessday.co.za/world/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/",
+    "https://allafrica.com/view/group/main/main/id/00098849.html"
+  ],
+  "source_names": [
+    "Reuters (via Business Day)",
+    "DW (via allAfrica)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Etiopía",
+    "#Eritrea",
+    "#Tigray",
+    "#ÁfricaOriental"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Ambos países, aliados en la guerra de Tigray de 2020-2022, rompieron relaciones. Etiopía insiste en lograr salida al mar Rojo.",
+  "summary_en": "Allies in the 2020-2022 Tigray war, the neighbours have since fallen out. Ethiopia keeps pressing for Red Sea access.",
+  "highlight_es": "nueva guerra",
+  "highlight_en": "new war",
+  "visual_label": "Badme",
+  "image_prompt": "Dry highland plateau with a winding dirt road and distant rocky ridges, military trucks parked far away under a hazy sky, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Ethiopia",
+      "Eritrea"
+    ],
+    "marker": {
+      "lat": 14.73,
+      "lon": 37.8,
+      "label": "Badme"
+    },
+    "labels": {
+      "Ethiopia": "Etiopía",
+      "Eritrea": "Eritrea"
+    }
+  }
+}

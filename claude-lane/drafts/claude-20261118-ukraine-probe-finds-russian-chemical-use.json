@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-ukraine-probe-finds-russian-chemical-use",
+  "status": "draft",
+  "created_at": "2026-11-18T12:57:10Z",
+  "category": "Security / Geopolitics",
+  "headline": "Ukraine says its probe shows Russian forces used a banned chemical agent near Illinka",
+  "headline_es": "Ucrania afirma que su investigación prueba que Rusia usó un químico prohibido cerca de Illinka",
+  "caption_en": "Ukraine has shared with the OPCW's member states a national investigation finding that Russian forces used a banned chemical agent near the village of Illinka in September 2024, tracing the munition through a Russian production and supply chain. Kyiv says it has documented more than 14,000 cases of Russian munitions with hazardous chemicals. Russia has denied using chemical weapons.",
+  "caption_es": "Ucrania compartió con los Estados miembros de la OPAQ una investigación nacional que concluye que fuerzas rusas usaron un agente químico prohibido cerca de la aldea de Illinka en septiembre de 2024, y que rastrea la munición hasta una cadena rusa de producción y suministro. Kiev afirma haber documentado más de 14.000 casos de munición rusa con sustancias químicas peligrosas. Rusia ha negado el uso de armas químicas.",
+  "source_urls": [
+    "https://meduza.io/en/news/2026/11/17/ukrainian-investigation-finds-russia-used-tear-gas-against-ukrainian-troops-ap-reports",
+    "https://www.anews.com.tr/world/2026/11/18/germany-accuses-russia-of-using-prohibited-chemicals-against-ukraine",
+    "https://unn.ua/en/news/ukraine-has-submitted-to-the-states-parties-to-the-convention-the-results-of-its-investigation-into-russias-use-of-chemical-munitions"
+  ],
+  "source_names": [
+    "Meduza (citing AP)",
+    "A News (Anadolu)",
+    "UNN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Rusia",
+    "#OPAQ",
+    "#ArmasQuímicas"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El informe, enviado a los Estados de la OPAQ, rastrea una munición química hasta una cadena rusa de suministro. Kiev pide un mecanismo para atribuir responsabilidades.",
+  "summary_en": "The report, sent to OPCW member states, traces a chemical munition to a Russian supply chain. Kyiv wants an attribution mechanism.",
+  "highlight_es": "químico prohibido",
+  "highlight_en": "banned chemical agent",
+  "visual_label": "OPAQ",
+  "image_prompt": "Laboratory bench with sealed sample vials, a gas mask resting beside empty metal canisters, cold blue light, shallow depth of field, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 48.3,
+      "lon": 35.0,
+      "label": "Dnipropetrovsk"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  }
+}

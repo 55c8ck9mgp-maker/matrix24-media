@@ -1,0 +1,37 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-us-strikes-qeshm-after-iran-drone-attack",
+  "status": "draft",
+  "created_at": "2026-11-18T12:57:10Z",
+  "category": "Security / Geopolitics",
+  "headline": "US jets strike Iranian missile site on Qeshm Island after drone attack on base in Bahrain",
+  "headline_es": "Cazas de EE. UU. atacan un sitio de misiles iraní en Qeshm tras un ataque con drones en Baréin",
+  "caption_en": "US fighter jets struck a Revolutionary Guards missile launch site on Iran's Qeshm Island, near the Strait of Hormuz, in what a US military official called self-defence. Iran's Guards had said they launched drones at a US radar system at an air base in Bahrain; the drones were intercepted with no reported casualties or damage. The exchange came despite ongoing talks between Iran and mediators.",
+  "caption_es": "Cazas estadounidenses atacaron un sitio de lanzamiento de misiles de la Guardia Revolucionaria en la isla iraní de Qeshm, cerca del estrecho de Ormuz, en lo que un funcionario militar de EE. UU. calificó de defensa propia. La Guardia había dicho que lanzó drones contra un sistema de radar estadounidense en una base aérea de Baréin; los drones fueron interceptados sin víctimas ni daños reportados. El intercambio ocurrió pese a las conversaciones en curso entre Irán y mediadores.",
+  "source_urls": [
+    "https://www.airandspaceforces.com/us-fighters-strike-iranian-missile-site/",
+    "https://www.jpost.com/middle-east/article-915253",
+    "https://www.ynetnews.com/article/sji00aq5cmx"
+  ],
+  "source_names": [
+    "Air & Space Forces Magazine",
+    "Reuters (via The Jerusalem Post)",
+    "Ynetnews"
+  ],
+  "hashtags": ["#MATRIX24", "#Irán", "#EEUU", "#Ormuz", "#Baréin"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Irán dijo haber lanzado drones contra un radar de EE. UU. en Baréin; fueron interceptados. Washington respondió en Qeshm alegando defensa propia.",
+  "summary_en": "Iran said it sent drones at a US radar in Bahrain; they were intercepted. Washington then hit Qeshm, citing self-defence.",
+  "highlight_es": "Qeshm",
+  "highlight_en": "Qeshm Island",
+  "visual_label": "Qeshm",
+  "image_prompt": "Two generic fighter jets flying low over a rocky arid island coastline at dusk, calm turquoise strait and distant oil tankers on the horizon, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": ["Iran", "Bahrain"],
+    "marker": {"lat": 26.75, "lon": 55.85, "label": "Isla de Qeshm"},
+    "labels": {"Iran": "Irán", "Bahrain": "Baréin"}
+  }
+}
