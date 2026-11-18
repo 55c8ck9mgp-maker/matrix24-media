@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-russian-military-plane-crash-kills-19",
+  "status": "draft",
+  "created_at": "2026-11-18T06:51:53Z",
+  "category": "World",
+  "headline": "Russian An-12 military transport plane crashes in Siberia, killing all 19 on board",
+  "headline_es": "Un avión militar ruso An-12 se estrella en Siberia y mueren sus 19 ocupantes",
+  "caption_en": "A Russian Antonov An-12 military transport plane crashed late Tuesday near the village of Yagunovo in Siberia's Kemerovo region, killing all 19 people on board. Russia's Defence Ministry said a technical failure is the suspected cause and an investigation is under way. Regional governor Ilya Seredyuk said emergency crews put out a fire at the site.",
+  "caption_es": "Un avión militar de transporte ruso Antonov An-12 se estrelló el martes por la noche cerca de la aldea de Yagunovo, en la región siberiana de Kémerovo, y murieron las 19 personas a bordo. El Ministerio de Defensa de Rusia señaló una falla técnica como causa probable y abrió una investigación. El gobernador regional, Ilyá Seredyuk, informó que los equipos de emergencia apagaron un incendio en el lugar.",
+  "source_urls": [
+    "https://www.aljazeera.com/amp/news/2026/11/17/russian-military-plane-crash-in-siberia-kills-19",
+    "https://www.yahoo.com/news/world/articles/russian-military-plane-crashes-siberia-225753639.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "UPI"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Rusia",
+    "#Siberia",
+    "#Aviación"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El An-12 cayó cerca de Yagunovo, en la región de Kémerovo. Defensa apunta a una falla técnica y ya investiga.",
+  "summary_en": "The An-12 went down near Yagunovo in the Kemerovo region. The Defence Ministry suspects a technical failure.",
+  "highlight_es": "19 ocupantes",
+  "highlight_en": "all 19 on board",
+  "visual_label": "An-12",
+  "image_prompt": "Four-engine turboprop cargo aircraft silhouette flying low over a snowy Siberian birch forest at dusk, grey overcast sky, wide cinematic view, no people, no text, no logos, no insignia",
+  "map": {
+    "focus": [
+      "Russia"
+    ],
+    "marker": {
+      "lat": 55.3,
+      "lon": 86.05,
+      "label": "Kémerovo"
+    },
+    "labels": {
+      "Russia": "Rusia"
+    }
+  }
+}

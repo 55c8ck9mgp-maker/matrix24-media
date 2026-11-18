@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-board-of-peace-warns-gaza-truce-may-collapse",
+  "status": "draft",
+  "created_at": "2026-11-18T06:51:53Z",
+  "category": "Security / Geopolitics",
+  "headline": "Board of Peace warns the UN that the Gaza ceasefire could collapse without urgent action",
+  "headline_es": "La Junta de Paz advierte a la ONU que la tregua en Gaza podría colapsar sin acción urgente",
+  "caption_en": "The US-backed Board of Peace, which oversees the Gaza ceasefire, told the UN Security Council that the truce could collapse unless Israel and Hamas meet their commitments. Its report says Israel has not let the technocratic civil administration start work and that supply restrictions and funding gaps are hurting winter preparations. It urged the Council to press both sides to end delays.",
+  "caption_es": "La Junta de Paz respaldada por EE. UU., que supervisa el alto el fuego en Gaza, advirtió al Consejo de Seguridad de la ONU que la tregua podría colapsar si Israel y Hamás no cumplen sus compromisos. Su informe señala que Israel no ha permitido que la administración civil tecnocrática empiece a trabajar y que las restricciones de suministros y la falta de fondos afectan la preparación para el invierno. Pidió al Consejo presionar a ambas partes para acabar con los retrasos.",
+  "source_urls": [
+    "https://www.yahoo.com/news/us/articles/board-peace-delivers-bleak-report-190422348.html",
+    "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action"
+  ],
+  "source_names": [
+    "Associated Press",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Gaza",
+    "#ONU",
+    "#AltoElFuego"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El informe ante el Consejo de Seguridad dice que Israel y Hamás no cumplen lo pactado y que Gaza enfrenta otro invierno entre tiendas y escombros.",
+  "summary_en": "The report to the Security Council says Israel and Hamas are falling short and Gaza faces another winter in tents and rubble.",
+  "highlight_es": "tregua en Gaza",
+  "highlight_en": "Gaza ceasefire",
+  "visual_label": "Gaza",
+  "image_prompt": "Rows of weathered white tents on sandy ground under a heavy grey winter sky, puddles reflecting the clouds, damaged concrete buildings in the far distance, wide cinematic view, no people, no text, no flags",
+  "map": {
+    "focus": [
+      "Israel",
+      "Palestine"
+    ],
+    "marker": {
+      "lat": 31.5,
+      "lon": 34.47,
+      "label": "Gaza"
+    },
+    "labels": {
+      "Israel": "Israel",
+      "Palestine": "Palestina"
+    }
+  }
+}

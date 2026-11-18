@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-trump-marcos-expand-defence-ties-in-manila",
+  "status": "draft",
+  "created_at": "2026-11-18T06:51:53Z",
+  "category": "Security / Geopolitics",
+  "headline": "Trump tells Marcos the US is expanding defence cooperation with the Philippines",
+  "headline_es": "Trump dice a Marcos que EE. UU. amplía su cooperación en defensa con Filipinas",
+  "caption_en": "On a state visit to Manila, US President Donald Trump told Philippine President Ferdinand Marcos Jr. at Malacañang Palace that Washington is expanding defence cooperation with its treaty ally. Trump said he has approved more than $5 billion in arms sales to the Philippines. He travels next to China for the APEC summit.",
+  "caption_es": "En una visita de Estado a Manila, el presidente de EE. UU., Donald Trump, dijo al presidente filipino, Ferdinand Marcos Jr., en el Palacio de Malacañang, que Washington amplía su cooperación en defensa con su aliado. Trump afirmó que ha aprobado ventas de armas a Filipinas por más de 5.000 millones de dólares. Su siguiente parada es China, para la cumbre de APEC.",
+  "source_urls": [
+    "https://sg.news.yahoo.com/trump-says-us-expanding-defence-043228472.html",
+    "https://www.gmanetwork.com/news/topstories/nation/1009932/trump-us-expanding-defense-cooperation-with-the-philippines/story/"
+  ],
+  "source_names": [
+    "Reuters",
+    "GMA News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Filipinas",
+    "#EEUU",
+    "#Defensa"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "En el Palacio de Malacañang, Trump citó más de 5.000 millones de dólares en ventas de armas aprobadas. Luego viaja a la cumbre de APEC en China.",
+  "summary_en": "At Malacañang Palace, Trump cited over $5 billion in approved arms sales before heading to the APEC summit in China.",
+  "highlight_es": "cooperación en defensa",
+  "highlight_en": "defence cooperation",
+  "visual_label": "Manila",
+  "image_prompt": "Grand colonial-style palace by a river at golden hour with manicured gardens and an empty red carpet leading to the entrance, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Philippines"
+    ],
+    "marker": {
+      "lat": 14.594,
+      "lon": 120.994,
+      "label": "Manila"
+    },
+    "labels": {
+      "Philippines": "Filipinas"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261118-peltola-wins-alaska-senate-seat",
+  "status": "draft",
+  "created_at": "2026-11-18T06:51:53Z",
+  "category": "World",
+  "headline": "Democrat Mary Peltola wins Alaska Senate seat, ousting Republican Dan Sullivan",
+  "headline_es": "La demócrata Mary Peltola gana el escaño de Alaska en el Senado y derrota a Dan Sullivan",
+  "caption_en": "Democrat Mary Peltola defeated Republican Senator Dan Sullivan in Alaska, in the last US Senate race of the 2026 midterms to be called by the Associated Press. Her win leaves Democrats with a 56-44 Senate majority. Peltola will be the first Alaska Native senator and the first Democrat elected to the Senate from Alaska since 2008.",
+  "caption_es": "La demócrata Mary Peltola derrotó al senador republicano Dan Sullivan en Alaska, la última contienda al Senado de EE. UU. de las elecciones de medio mandato de 2026 en ser proyectada por Associated Press. Su victoria deja a los demócratas con una mayoría de 56 a 44 en el Senado. Peltola será la primera senadora nativa de Alaska y la primera demócrata elegida al Senado por Alaska desde 2008.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win",
+    "https://time.com/article/2026/11/18/democrat-mary-peltola-wins-alaska-senate-race/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "TIME"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#EEUU",
+    "#Alaska",
+    "#Senado"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Era la última carrera al Senado por definir. Los demócratas quedan con 56 escaños frente a 44 republicanos.",
+  "summary_en": "It was the last Senate race to be called. Democrats now hold 56 seats to the Republicans' 44.",
+  "highlight_es": "Mary Peltola",
+  "highlight_en": "Mary Peltola",
+  "visual_label": "Senado",
+  "image_prompt": "Snow-capped Alaskan mountains above a calm fjord at dawn, a wooden ballot box on a rustic table in the foreground, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 61.22,
+      "lon": -149.9,
+      "label": "Alaska"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}
