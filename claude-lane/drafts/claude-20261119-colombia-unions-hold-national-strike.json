@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T06:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-colombia-unions-hold-national-strike",
+  "category": "Colombia / Latin America",
+  "headline": "Colombian unions hold a national strike against the government's economic rescue bill",
+  "headline_es": "Sindicatos colombianos realizan un paro nacional contra la Ley de Rescate Económico del Gobierno",
+  "caption_en": "Colombia's CUT labour federation and the teachers' union Fecode called a national strike for Thursday, November 19, against the government's proposed Economic Rescue Law. Marches and rallies are planned in the main cities, including Bogotá, Medellín, Cali and Barranquilla, with possible disruption to traffic and public transport.",
+  "caption_es": "La Central Unitaria de Trabajadores (CUT) y la federación de docentes Fecode convocaron un paro nacional para este jueves 19 de noviembre contra el proyecto de Ley de Rescate Económico del Gobierno. Hay marchas y concentraciones previstas en las principales ciudades, entre ellas Bogotá, Medellín, Cali y Barranquilla, con posibles afectaciones al tráfico y al transporte público.",
+  "source_urls": [
+    "https://www.infobae.com/colombia/2026/11/19/paro-nacional-en-vivo-hoy-19-de-noviembre-asi-amanecen-las-vias-de-las-principales-ciudades/",
+    "https://elpais.com.co/colombia/paro-nacional-del-19-de-noviembre-en-vivo-puntos-de-concentracion-en-las-principales-ciudades-1854.html"
+  ],
+  "source_names": [
+    "Infobae",
+    "El País (Cali)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#ParoNacional",
+    "#Bogotá"
+  ],
+  "summary_es": "La CUT y Fecode marchan en Bogotá, Medellín, Cali y Barranquilla contra el proyecto económico del Gobierno.",
+  "summary_en": "Unions march in Bogotá, Medellín, Cali and Barranquilla against the government's economic bill.",
+  "highlight_es": "paro nacional",
+  "highlight_en": "national strike",
+  "visual_label": "Paro nacional",
+  "image_prompt": "Wide colonial city square with a historic cathedral and government buildings, green Andean mountains behind, scattered blank placards resting on the cobblestones under a cloudy morning sky, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Colombia"
+    ],
+    "marker": {
+      "lat": 4.6,
+      "lon": -74.08,
+      "label": "Bogotá"
+    },
+    "labels": {
+      "Colombia": "Colombia"
+    }
+  }
+}

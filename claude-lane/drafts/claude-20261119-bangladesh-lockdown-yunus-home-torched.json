@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T06:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-bangladesh-lockdown-yunus-home-torched",
+  "category": "World",
+  "headline": "Hasina's party calls a Bangladesh lockdown as Yunus's ancestral home is set on fire",
+  "headline_es": "El partido de Hasina convoca un cierre en Bangladés y queman la casa familiar de Yunus",
+  "caption_en": "Sheikh Hasina's Awami League called a nationwide lockdown in Bangladesh on Thursday after days of unrest across 28 districts, with crude bomb blasts and arson reported. Former interim leader Muhammad Yunus's ancestral home in Chattogram was set on fire, and police said two members of the ruling BNP were killed. Home Minister Salahuddin Ahmed vowed to prosecute those responsible.",
+  "caption_es": "La Liga Awami de Sheikh Hasina convocó el jueves un cierre nacional en Bangladés tras días de disturbios en 28 distritos, con explosiones de artefactos caseros e incendios provocados. La casa familiar del exjefe del gobierno interino Muhammad Yunus en Chattogram fue incendiada, y la policía informó de la muerte de dos miembros del gobernante BNP. El ministro del Interior, Salahuddin Ahmed, prometió procesar a los responsables.",
+  "source_urls": [
+    "https://www.usnews.com/news/world/articles/2026-11-19/parts-of-bangladesh-shut-down-in-protests-by-hasinas-party-yunus-home-set-ablaze",
+    "https://www.nationalheraldindia.com/international/dhaka-rocked-by-blasts-muhammad-yunuss-home-set-ablaze-amid-awami-league-lockdown"
+  ],
+  "source_names": [
+    "Reuters (via U.S. News)",
+    "National Herald (PTI)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Bangladesh",
+    "#Dhaka",
+    "#Yunus"
+  ],
+  "summary_es": "La violencia afecta a 28 distritos, con explosiones e incendios. La policía reporta dos miembros del partido gobernante muertos.",
+  "summary_en": "Unrest has hit 28 districts with blasts and arson; police report two ruling party members killed.",
+  "highlight_es": "cierre en Bangladés",
+  "highlight_en": "Bangladesh lockdown",
+  "visual_label": "Bangladés",
+  "image_prompt": "Empty city street at dawn in a South Asian capital with shuttered shops, parked rickshaws and drifting smoke in the distance, overcast sky, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Bangladesh"
+    ],
+    "marker": {
+      "lat": 22.36,
+      "lon": 91.78,
+      "label": "Chattogram"
+    },
+    "labels": {
+      "Bangladesh": "Bangladés"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T06:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-gta-vi-launches-worldwide",
+  "category": "Technology",
+  "headline": "Grand Theft Auto VI launches worldwide after a 13-year wait, with a 99 Metacritic score",
+  "headline_es": "Grand Theft Auto VI sale a la venta en todo el mundo tras 13 años de espera, con un 99 en Metacritic",
+  "caption_en": "Rockstar's Grand Theft Auto VI went on sale in a staggered midnight rollout across time zones, reaching US players on Thursday, November 19. The game, released for PlayStation 5 and Xbox Series X|S, arrives 13 years after GTA V and holds a Metacritic score of 99 from critics.",
+  "caption_es": "Grand Theft Auto VI, de Rockstar, salió a la venta en un lanzamiento escalonado a medianoche según cada zona horaria y llegó a los jugadores de EE. UU. el jueves 19 de noviembre. El juego, para PlayStation 5 y Xbox Series X|S, aparece 13 años después de GTA V y tiene una puntuación de 99 en Metacritic.",
+  "source_urls": [
+    "https://www.forbes.com/sites/siladityaray/2026/11/18/grand-theft-auto-6-launches-to-rave-reviews-over-15-billion-in-estimated-pre-sales/",
+    "https://www.foxbusiness.com/markets/take-two-stock-jumps-over-6-rockstars-long-awaited-gta-vi-arrives-after-13-year-wait"
+  ],
+  "source_names": [
+    "Forbes",
+    "Fox Business"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#GTAVI",
+    "#Videojuegos",
+    "#Gaming"
+  ],
+  "summary_es": "El esperado juego de Rockstar llega a PlayStation 5 y Xbox Series X|S con una crítica casi unánime: 99 en Metacritic.",
+  "summary_en": "Rockstar's long-awaited game hits PlayStation 5 and Xbox Series X|S with near-universal acclaim: 99 on Metacritic.",
+  "highlight_es": "Grand Theft Auto VI",
+  "highlight_en": "Grand Theft Auto VI",
+  "visual_label": "GTA VI",
+  "image_prompt": "Neon-lit tropical coastal city at night with palm trees, art deco hotels and a sports car on an empty boulevard, a glowing game controller in the foreground, wide cinematic view, no people, no text, no logos"
+}

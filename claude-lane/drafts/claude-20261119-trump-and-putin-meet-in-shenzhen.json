@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T06:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-trump-and-putin-meet-in-shenzhen",
+  "category": "Security / Geopolitics",
+  "headline": "Trump and Putin meet in Shenzhen ahead of three-way talks with Xi; Kremlin says Ukraine dominated",
+  "headline_es": "Trump y Putin se reúnen en Shenzhen antes de la cumbre con Xi; el Kremlin dice que Ucrania dominó",
+  "caption_en": "Donald Trump and Vladimir Putin held a bilateral meeting on Thursday on the sidelines of the APEC summit in Shenzhen, China. Kremlin aide Yuri Ushakov said the war in Ukraine was the main topic, along with bilateral relations, and described the meeting as good. The talks came ahead of a planned three-way meeting with Chinese President Xi Jinping.",
+  "caption_es": "Donald Trump y Vladimir Putin celebraron el jueves una reunión bilateral al margen de la cumbre de APEC en Shenzhen, China. El asesor del Kremlin Yuri Ushakov dijo que la guerra en Ucrania fue el tema principal, junto con las relaciones bilaterales, y calificó el encuentro como bueno. La conversación se produjo antes de una reunión a tres bandas prevista con el presidente chino, Xi Jinping.",
+  "source_urls": [
+    "https://www.yahoo.com/news/politics/articles/ukraine-main-topic-trump-putin-063820933.html",
+    "https://unn.ua/en/news/trump-met-with-putin-and-called-him-a-friend-ahead-of-his-summit-with-xi-the-kremlin-says-they-discussed-ukraine"
+  ],
+  "source_names": [
+    "Reuters (via Yahoo News)",
+    "UNN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#APEC",
+    "#Ucrania",
+    "#Shenzhen",
+    "#Geopolitica"
+  ],
+  "summary_es": "El Kremlin afirma que la guerra en Ucrania fue el tema principal del encuentro, previo a la reunión a tres bandas con Xi Jinping.",
+  "summary_en": "The Kremlin says the war in Ukraine dominated the meeting, held ahead of three-way talks with Xi Jinping.",
+  "highlight_es": "Trump y Putin",
+  "highlight_en": "Trump and Putin",
+  "visual_label": "APEC Shenzhen",
+  "image_prompt": "Modern conference center by a bay at dusk with a city skyline of glass towers, two empty armchairs facing each other in a bright meeting room with a low table, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "marker": {
+      "lat": 22.54,
+      "lon": 114.06,
+      "label": "Shenzhen"
+    },
+    "labels": {
+      "China": "China"
+    }
+  }
+}
