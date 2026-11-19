@@ -1,7 +1,7 @@
 {
   "lane": "claude",
   "content_id": "claude-20261119-daily-reel",
-  "status": "publishing",
+  "status": "published",
   "created_at": "2026-11-19T01:04:36.059Z",
   "category": "Daily summary",
   "headline": "MATRIX 24 daily news summary — 2026-11-19",
@@ -58,7 +58,7 @@
     "total_seconds": 66
   },
   "publish_attempt_id": "47dc671a-ff42-4304-b528-476f7bb51532",
-  "ig_media_id": null,
+  "ig_media_id": "17998302720022973",
   "history": [
     {
       "at": "2026-11-19T01:05:12.617Z",
@@ -68,7 +68,14 @@
       "at": "2026-11-19T01:05:12.617Z",
       "event": "reserved",
       "publish_attempt_id": "47dc671a-ff42-4304-b528-476f7bb51532"
+    },
+    {
+      "at": "2026-11-19T01:07:21.897Z",
+      "event": "published",
+      "publish_attempt_id": "47dc671a-ff42-4304-b528-476f7bb51532",
+      "ig_media_id": "17998302720022973"
     }
   ],
-  "reserved_at": "2026-11-19T01:05:12.617Z"
+  "reserved_at": "2026-11-19T01:05:12.617Z",
+  "permalink": "https://www.instagram.com/reel/Df53JJtj2kZ/"
 }
