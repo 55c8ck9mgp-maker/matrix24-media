@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261119-fed-minutes-point-to-more-rate-hikes",
+  "status": "draft",
+  "created_at": "2026-11-19T00:51:00Z",
+  "category": "Economy",
+  "headline": "Fed minutes show almost all officials expect further interest rate hikes",
+  "headline_es": "Las actas de la Fed muestran que casi todos sus miembros prevén más subidas de tipos",
+  "caption_en": "Minutes of the US Federal Reserve's October 27-28 meeting, released Wednesday, show almost all policymakers saw further rate hikes as likely needed after the Fed held rates steady. A couple of officials said a half-point increase could be warranted if inflation data disappoint. Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented in favour of a hike in October.",
+  "caption_es": "Las actas de la reunión de la Reserva Federal de EE. UU. del 27 y 28 de octubre, publicadas el miércoles, muestran que casi todos sus miembros veían probable la necesidad de nuevas subidas de tipos, tras mantenerlos sin cambios. Un par de funcionarios dijeron que podría hacer falta un alza de medio punto si los datos de inflación son desfavorables. La gobernadora Lisa Cook y la presidenta de la Fed de Cleveland, Beth Hammack, votaron en contra y pidieron una subida en octubre.",
+  "source_urls": [
+    "https://www.investing.com/news/economy-news/fed-policymakers-focused-on-inflation-risks-in-october-with-some-seeing-need-for-bigger-rate-hike-5036863",
+    "https://finance.yahoo.com/economy/policy/articles/fed-minutes-higher-interest-rates-190932735.html"
+  ],
+  "source_names": [
+    "Reuters (via Investing.com)",
+    "Associated Press (via Yahoo Finance)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Fed",
+    "#Inflación",
+    "#Economía",
+    "#EEUU"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Casi todos los miembros de la Fed ven necesarias nuevas subidas de tipos; algunos plantean medio punto si la inflación no cede.",
+  "summary_en": "Almost all Fed officials see more rate hikes ahead; a couple floated a half-point move if inflation data disappoint.",
+  "highlight_es": "más subidas de tipos",
+  "highlight_en": "further interest rate hikes",
+  "visual_label": "Fed",
+  "image_prompt": "Generic neoclassical government building with tall stone columns under a cloudy sky, autumn trees in front, a subtle upward arrow motif in the clouds, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 38.89,
+      "lon": -77.05,
+      "label": "Washington"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

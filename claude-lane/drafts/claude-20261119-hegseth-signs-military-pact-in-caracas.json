@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261119-hegseth-signs-military-pact-in-caracas",
+  "status": "draft",
+  "created_at": "2026-11-19T00:51:00Z",
+  "category": "Colombia / Latin America",
+  "headline": "Hegseth announces a new US-Venezuela military partnership on a surprise visit to Caracas",
+  "headline_es": "Hegseth anuncia una nueva alianza militar entre EE. UU. y Venezuela en una visita sorpresa a Caracas",
+  "caption_en": "US Defense Secretary Pete Hegseth met acting President Delcy Rodríguez in Caracas on Wednesday and announced an agreement to expand military cooperation, including joint training and intelligence sharing. It was his first visit to Venezuela since US forces seized Nicolás Maduro in January. Hegseth then continued his trip to Colombia.",
+  "caption_es": "El secretario de Defensa de EE. UU., Pete Hegseth, se reunió el miércoles en Caracas con la presidenta encargada, Delcy Rodríguez, y anunció un acuerdo para ampliar la cooperación militar, que incluye entrenamiento conjunto e intercambio de inteligencia. Fue su primera visita a Venezuela desde que fuerzas estadounidenses capturaron a Nicolás Maduro en enero. Después, Hegseth siguió su viaje hacia Colombia.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela",
+    "https://www.irishtimes.com/world/americas/2026/11/18/pete-hegseth-announces-new-military-partnership-with-venezuela/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Reuters (via The Irish Times)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Venezuela",
+    "#EEUU",
+    "#Hegseth",
+    "#Caracas"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "EE. UU. y Venezuela acuerdan entrenamiento conjunto e intercambio de inteligencia. Es la primera visita de Hegseth tras la caída de Maduro.",
+  "summary_en": "The US and Venezuela agree on joint training and intelligence sharing in Hegseth's first visit since Maduro's ouster.",
+  "highlight_es": "alianza militar",
+  "highlight_en": "military partnership",
+  "visual_label": "Caracas",
+  "image_prompt": "Generic government palace courtyard with white colonial architecture and palm trees, green mountains rising behind a tropical city under a bright sky, a parked military transport plane on a distant airfield, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Venezuela"
+    ],
+    "marker": {
+      "lat": 10.49,
+      "lon": -66.88,
+      "label": "Caracas"
+    },
+    "labels": {
+      "Venezuela": "Venezuela"
+    }
+  }
+}

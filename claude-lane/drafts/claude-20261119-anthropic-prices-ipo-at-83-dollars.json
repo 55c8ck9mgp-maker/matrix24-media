@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261119-anthropic-prices-ipo-at-83-dollars",
+  "status": "draft",
+  "created_at": "2026-11-19T00:51:00Z",
+  "category": "Technology",
+  "headline": "Anthropic prices its IPO at $83 a share, above range, valuing it at about $1.5 trillion",
+  "headline_es": "Anthropic fija su salida a bolsa en 83 dólares por acción y se valora en 1,5 billones",
+  "caption_en": "AI company Anthropic priced its initial public offering at $83 a share on Wednesday, above its target range of $70 to $78. The price values the company at about $1.5 trillion. Its shares are set to begin trading on Thursday on the Nasdaq under the ticker ANT.",
+  "caption_es": "La empresa de inteligencia artificial Anthropic fijó el miércoles el precio de su oferta pública inicial en 83 dólares por acción, por encima del rango previsto de 70 a 78 dólares. Ese precio valora a la compañía en torno a 1,5 billones de dólares. Sus acciones empezarán a cotizar el jueves en el Nasdaq con el símbolo ANT.",
+  "source_urls": [
+    "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
+    "https://www.yahoo.com/news/articles/anthropic-prices-ipo-83-share-232308928.html"
+  ],
+  "source_names": [
+    "Reuters (via Investing.com)",
+    "San Francisco Chronicle (via Yahoo News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Anthropic",
+    "#IPO",
+    "#Nasdaq",
+    "#IA"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Anthropic fijó su OPI en 83 dólares por acción, por encima del rango de 70 a 78. Debuta el jueves en el Nasdaq como ANT.",
+  "summary_en": "Anthropic priced its IPO at $83 a share, above its $70-$78 range. It debuts Thursday on the Nasdaq as ANT.",
+  "highlight_es": "83 dólares",
+  "highlight_en": "$83 a share",
+  "visual_label": "Nasdaq",
+  "image_prompt": "Generic modern stock exchange trading floor with large blank screens showing rising green line charts, glowing city skyline through tall windows at dusk, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 40.76,
+      "lon": -73.98,
+      "label": "Nueva York"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}
