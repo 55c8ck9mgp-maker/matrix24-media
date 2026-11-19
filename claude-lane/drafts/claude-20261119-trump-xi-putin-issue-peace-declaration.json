@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T12:57:16Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-trump-xi-putin-issue-peace-declaration",
+  "category": "Security / Geopolitics",
+  "headline": "Trump, Xi and Putin issue a \"peace declaration\" after first three-way summit in Shenzhen",
+  "headline_es": "Trump, Xi y Putin emiten una \"declaración de paz\" tras su primera cumbre a tres en Shenzhen",
+  "caption_en": "The leaders of the United States, China and Russia held their first three-way meeting on the sidelines of the APEC summit in Shenzhen. Afterwards, Chinese state media and the Kremlin released a \"peace declaration\" in which the three pledged to keep energy and fuel supplies flowing and to hold dialogue on nuclear issues.",
+  "caption_es": "Los líderes de Estados Unidos, China y Rusia celebraron su primera reunión a tres bandas al margen de la cumbre de APEC en Shenzhen. Después, los medios estatales chinos y el Kremlin divulgaron una \"declaración de paz\" en la que los tres se comprometieron a mantener el flujo de suministros de energía y combustible y a dialogar sobre asuntos nucleares.",
+  "source_urls": [
+    "https://theprint.in/world/china-and-russia-release-peace-declaration-after-trump-xi-putin-meeting/3103312/",
+    "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
+  ],
+  "source_names": [
+    "Reuters (via ThePrint)",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#APEC",
+    "#Shenzhen",
+    "#China",
+    "#Rusia",
+    "#EEUU"
+  ],
+  "summary_es": "Primera reunión a tres de EE. UU., China y Rusia en APEC. La declaración final promete suministros estables de energía y diálogo nuclear.",
+  "summary_en": "First-ever US-China-Russia leaders' meeting at APEC. The final declaration pledges stable energy supplies and nuclear dialogue.",
+  "highlight_es": "declaración de paz",
+  "highlight_en": "peace declaration",
+  "visual_label": "Shenzhen",
+  "image_prompt": "Three empty leather chairs around a round conference table in a grand modern hall, city skyline of a coastal Asian metropolis visible through tall windows at dusk, warm diplomatic lighting, wide cinematic view",
+  "map": {
+    "focus": [
+      "China"
+    ],
+    "marker": {
+      "lat": 22.54,
+      "lon": 114.06,
+      "label": "Shenzhen"
+    },
+    "labels": {
+      "China": "China"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T12:57:16Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-missile-damages-saudi-wealth-fund-tower",
+  "category": "Security / Geopolitics",
+  "headline": "Houthi missile attack damages Saudi wealth fund tower in Riyadh financial district",
+  "headline_es": "Ataque con misil hutí daña la torre del fondo soberano saudí en el distrito financiero de Riad",
+  "caption_en": "A missile attack early on Thursday damaged the tower housing Saudi Arabia's Public Investment Fund in Riyadh's King Abdullah Financial District. The Saudi-led coalition said debris fell and caused material damage, with the extent still being assessed. It is the second strike on Riyadh's financial district this month.",
+  "caption_es": "Un ataque con misil en la madrugada del jueves dañó la torre que alberga el Fondo de Inversión Pública de Arabia Saudí en el Distrito Financiero Rey Abdalá de Riad. La coalición liderada por Riad dijo que cayeron escombros que causaron daños materiales, aún en evaluación. Es el segundo ataque contra el distrito financiero de Riad este mes.",
+  "source_urls": [
+    "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/",
+    "https://www.jpost.com/middle-east/article-915410"
+  ],
+  "source_names": [
+    "The National",
+    "The Jerusalem Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudita",
+    "#Riad",
+    "#Yemen",
+    "#Hutíes"
+  ],
+  "summary_es": "Escombros de un misil dañaron la sede del Fondo de Inversión Pública saudí. La coalición evalúa los daños; segundo ataque al distrito este mes.",
+  "summary_en": "Missile debris damaged the Saudi Public Investment Fund headquarters. The coalition is assessing damage; second strike on the district this month.",
+  "highlight_es": "torre del fondo soberano",
+  "highlight_en": "wealth fund tower",
+  "visual_label": "Riad",
+  "image_prompt": "Modern glass skyscrapers of a desert city financial district at dawn, faint haze of smoke drifting in the sky, empty cordoned plaza in the foreground, no people, wide cinematic view",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 24.76,
+      "lon": 46.64,
+      "label": "Riad"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudí",
+      "Yemen": "Yemen"
+    }
+  }
+}

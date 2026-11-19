@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T12:57:16Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-icj-rules-myanmar-committed-rohingya-genocide",
+  "category": "World",
+  "headline": "UN top court rules Myanmar committed genocide against the Rohingya",
+  "headline_es": "La máxima corte de la ONU dictamina que Myanmar cometió genocidio contra los rohinyá",
+  "caption_en": "The International Court of Justice in The Hague found that Myanmar acted with genocidal intent against the Rohingya minority during its 2017 military crackdown, in breach of the Genocide Convention. The Gambia brought the case in 2019. Myanmar has said the operations responded to attacks by Rohingya armed groups.",
+  "caption_es": "La Corte Internacional de Justicia de La Haya concluyó que Myanmar actuó con intención genocida contra la minoría rohinyá durante su ofensiva militar de 2017, en violación de la Convención contra el Genocidio. Gambia presentó la demanda en 2019. Myanmar ha dicho que las operaciones respondieron a ataques de grupos armados rohinyá.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+    "https://ca.news.yahoo.com/myanmar-guilty-genocide-against-rohingya-121201162.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Euronews (via Yahoo News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CIJ",
+    "#Myanmar",
+    "#Rohingya",
+    "#DerechosHumanos"
+  ],
+  "summary_es": "La CIJ halló que Myanmar violó la Convención contra el Genocidio en su ofensiva de 2017 contra los rohinyá. Gambia llevó el caso en 2019.",
+  "summary_en": "The ICJ found Myanmar breached the Genocide Convention in its 2017 crackdown on the Rohingya. The Gambia filed the case in 2019.",
+  "highlight_es": "genocidio",
+  "highlight_en": "genocide",
+  "visual_label": "La Haya",
+  "image_prompt": "Grand neo-renaissance palace courthouse facade with tall arched windows under an overcast sky, a wooden judge gavel and open law books on a desk in the foreground, solemn atmosphere, wide cinematic view",
+  "map": {
+    "focus": [
+      "Myanmar"
+    ],
+    "marker": {
+      "lat": 20.15,
+      "lon": 92.9,
+      "label": "Rakáin"
+    },
+    "labels": {
+      "Myanmar": "Myanmar"
+    }
+  }
+}
