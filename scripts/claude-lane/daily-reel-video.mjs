@@ -70,19 +70,29 @@ export function buildSegmentArgs({
     textFilters.push(...subtitleFilters);
   } else if (title) {
     // Static fallback: single drawtext covering the whole segment.
+    // V2.0: y=1750 (bottom of native 1920 card), fontsize=44 for readability.
     const escaped = escapeDratext(title);
     textFilters.push(
       `drawtext=fontfile=${FONT_PATH}:text='${escaped}':` +
-      `x=(w-tw)/2:y=1660:fontsize=40:fontcolor=white:` +
-      `box=1:boxcolor=black@0.65:boxborderw=14:line_spacing=6`,
+      `x=(w-tw)/2:y=1750:fontsize=44:fontcolor=white:` +
+      `box=1:boxcolor=black@0.65:boxborderw=16:line_spacing=6`,
     );
   }
 
-  const vf = [
-    'scale=1080:1350:force_original_aspect_ratio=decrease',
-    'pad=1080:1920:(ow-iw)/2:(oh-ih)/2:color=black',
+  // V2.0: input is a native 1080×1920 card — no scale/pad step needed.
+  // Pad colour matches card background (#070b16) for seamless edges if card is
+  // ever slightly short due to rounding. KenBurns 8% zoom over segment duration.
+  const kenBurns = durationSec >= 3
+    ? `zoompan=z='1+0.08*on/(30*${durationSec}+1)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${durationSec * 30}:s=1080x1920:fps=30`
+    : null;
+
+  const vfParts = [
+    'scale=1080:1920:force_original_aspect_ratio=increase',
+    'crop=1080:1920',
+    ...(kenBurns ? [kenBurns] : []),
     ...textFilters,
-  ].join(',');
+  ];
+  const vf = vfParts.join(',');
 
   return {
     ok: true,
@@ -117,7 +127,7 @@ export function buildConcatArgs({ segmentPaths, concatListPath, outPath }) {
     return { ok: false, reason: 'outPath_must_be_mp4' };
 
   const concatContent = segmentPaths
-    .map(p => `file '${p.replace(/'/g, "'\\''")}'`)
+    .map(p => `file '${p.replace(/'/g, "'\\''")}' `)
     .join('\n') + '\n';
 
   return {
@@ -358,8 +368,10 @@ export function buildSubtitleFilters({ esText, wordTimings, fontPath, totalSec }
   const text = esText.trim();
   const phrases = splitSubtitlePhrases(text);
 
+  // V2.0: y=1750 — subtitles sit near the bottom of the native 1920 card,
+  // above the footer bar; fontsize=44 for sharper legibility on mobile.
   const baseStyle =
-    `x=(w-tw)/2:y=1660:fontsize=40:fontcolor=white:box=1:boxcolor=black@0.65:boxborderw=14:line_spacing=6`;
+    `x=(w-tw)/2:y=1750:fontsize=44:fontcolor=white:box=1:boxcolor=black@0.65:boxborderw=16:line_spacing=6`;
 
   // No timing data: distribute all phrases evenly across the segment duration.
   if (!wordTimings || wordTimings.length === 0) {

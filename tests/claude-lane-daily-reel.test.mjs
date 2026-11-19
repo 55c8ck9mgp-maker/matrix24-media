@@ -5,7 +5,7 @@ import { mkdtempSync, statSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-import { selectTopStories, scoreStory }         from '../scripts/claude-lane/story-ranker.mjs';
+import { selectTopStories, scoreStory, isAmericas } from '../scripts/claude-lane/story-ranker.mjs';
 import {
   buildSegmentArgs,
   buildConcatArgs,
@@ -210,6 +210,70 @@ test('selectTopStories: deduplicates by content_id', () => {
   const result = selectTopStories(stories, 4, { now });
   const ids = result.map(s => s.content_id);
   assert.equal(new Set(ids).size, ids.length, 'no duplicate content_ids');
+});
+
+// ── isAmericas ─────────────────────────────────────────────────────────────────────────────
+
+test('isAmericas: detects Americas via category', () => {
+  assert.ok(isAmericas({ category: 'Colombia / Latin America', headline_en: 'x', summary_en: '' }));
+  assert.ok(isAmericas({ category: 'Latin America', headline_en: 'x', summary_en: '' }));
+  assert.ok(isAmericas({ category: 'Caribbean', headline_en: 'x', summary_en: '' }));
+  assert.ok(!isAmericas({ category: 'Europe', headline_en: 'x', summary_en: '' }));
+});
+
+test('isAmericas: detects Americas via headline keyword', () => {
+  assert.ok(isAmericas({ headline_en: 'Colombia signs deal', summary_en: '' }));
+  assert.ok(isAmericas({ headline_en: 'US Congress votes on tariffs', summary_en: '' }));
+  assert.ok(isAmericas({ headline_en: 'Brazil floods displace thousands', summary_en: '' }));
+  assert.ok(!isAmericas({ headline_en: 'NATO summit in Brussels', summary_en: '' }));
+});
+
+test('isAmericas: detects Americas via Spanish headline', () => {
+  assert.ok(isAmericas({ headline_es: 'México anuncia acuerdo comercial', summary_en: '' }));
+  assert.ok(isAmericas({ headline_es: 'Crisis en Venezuela', summary_en: '' }));
+});
+
+test('isAmericas: returns false for non-Americas stories', () => {
+  assert.ok(!isAmericas({ category: 'Asia', headline_en: 'South Korea election', summary_en: 'Seoul votes.' }));
+  assert.ok(!isAmericas({ headline_en: 'France passes new law', summary_en: '' }));
+  assert.ok(!isAmericas(null));
+  assert.ok(!isAmericas({}));
+});
+
+test('selectTopStories: 70/30 Americas quota — 3 Americas out of 4 when pool available', () => {
+  const now = new Date();
+  const mk = (id, region, score) => ({
+    content_id: id,
+    headline_en: score >= 2 ? 'war crisis' : `story ${id}`,
+    headline_es: region === 'americas' ? `Colombia ${id}` : `Global ${id}`,
+    summary_en: '', summary_es: '',
+    category: region === 'americas' ? 'Colombia / Latin America' : 'Europe',
+    created_at: now.toISOString(),
+  });
+  // 4 Americas + 2 global stories in the pool.
+  const stories = [
+    mk('a1', 'americas', 1), mk('a2', 'americas', 1), mk('a3', 'americas', 1), mk('a4', 'americas', 1),
+    mk('g1', 'global',   1), mk('g2', 'global',   1),
+  ];
+  const result = selectTopStories(stories, 4, { now });
+  assert.equal(result.length, 4);
+  const americasCount = result.filter(s => s.category === 'Colombia / Latin America').length;
+  assert.ok(americasCount >= 3, `expected ≥ 3 Americas stories, got ${americasCount}`);
+});
+
+test('selectTopStories: fills with global if Americas pool too small', () => {
+  const now = new Date();
+  const mk = (id, region) => ({
+    content_id: id,
+    headline_en: `story ${id}`, headline_es: '',
+    summary_en: '', summary_es: '',
+    category: region === 'americas' ? 'Colombia / Latin America' : 'Middle East',
+    created_at: now.toISOString(),
+  });
+  // Only 1 Americas story but requesting 4.
+  const stories = [mk('a1', 'americas'), mk('g1', 'global'), mk('g2', 'global'), mk('g3', 'global'), mk('g4', 'global')];
+  const result = selectTopStories(stories, 4, { now });
+  assert.equal(result.length, 4, 'should still return 4 when Americas pool is small');
 });
 
 // ── measureAudioDuration ───────────────────────────────────────────────────────────────────

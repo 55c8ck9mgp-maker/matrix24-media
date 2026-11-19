@@ -14,7 +14,9 @@ import path from 'node:path';
 import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 
-import { readBranchDrafts, renderCardV2 }   from './run-lane.mjs';
+import { readBranchDrafts }                  from './run-lane.mjs';
+import { renderReelCard }                    from '../../claude-lane/render/render-card.mjs';
+import { generateImage }                     from '../../claude-lane/render/ai-image.mjs';
 import { selectTopStories }                  from './story-ranker.mjs';
 import { generateEnTTSWithTiming }           from './reel-tts.mjs';
 import {
@@ -73,7 +75,12 @@ async function main() {
     const story = stories[i];
     log('render-card', { story: i + 1, id: story?.content_id });
     try {
-      const { jpg } = await renderCardV2(story);
+      // V2.0: generate AI illustration (if CF credentials available), then render
+      // native 1080×1920 Reel card via Chromium (reel-card-html.mjs).
+      const illustration = await generateImage(story.image_prompt, {
+        token: process.env.CF_AI_TOKEN, accountId: process.env.CF_ACCOUNT_ID,
+      }).catch(() => null);
+      const jpg = await renderReelCard(story, { illustration });
       const cardPath = path.join(TMP, `card-${i}.jpg`);
       fs.writeFileSync(cardPath, jpg);
       cardPaths.push(cardPath);

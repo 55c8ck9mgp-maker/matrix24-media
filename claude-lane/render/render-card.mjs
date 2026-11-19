@@ -1,9 +1,12 @@
 #!/usr/bin/env node
-// Renders a Claude Lane record to a 1080x1350 JPEG with headless Chromium.
+// Renders a Claude Lane record to a JPEG with headless Chromium.
+// renderCard        → 1080×1350 JPEG  (static Instagram post)
+// renderReelCard    → 1080×1920 JPEG  (Reel V2.0 — native Reel dimensions)
 // usage: render-card.mjs <record.json> <out.jpg> [illustration.jpg]
 import fs from 'node:fs';
 import { chromium } from 'playwright';
 import { cardHtml } from './card-html.mjs';
+import { reelCardHtml } from './reel-card-html.mjs';
 import { mapSvg } from './map-svg.mjs';
 
 export async function renderCard(record, { illustration = null } = {}) {
@@ -17,6 +20,24 @@ export async function renderCard(record, { illustration = null } = {}) {
     await page.setContent(html, { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
     await page.evaluate(() => Promise.race([document.fonts.ready, new Promise(r => setTimeout(r, 5000))]));
     return await page.screenshot({ type: 'jpeg', quality: 90, clip: { x: 0, y: 0, width: 1080, height: 1350 } });
+  } finally { await browser.close(); }
+}
+
+/**
+ * Render a Reel V2.0 card at native 1080×1920 resolution.
+ * Uses reel-card-html.mjs (separate from the 1080×1350 static card).
+ */
+export async function renderReelCard(record, { illustration = null } = {}) {
+  let svg = null;
+  try { svg = record.map ? mapSvg({ focus: record.map.focus || [], marker: record.map.marker || null, labels: record.map.labels || {} }) : null; } catch { svg = null; }
+  const imageDataUrl = illustration ? `data:image/jpeg;base64,${illustration.toString('base64')}` : null;
+  const html = reelCardHtml(record, { mapSvg: svg, imageDataUrl });
+  const browser = await chromium.launch();
+  try {
+    const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
+    await page.setContent(html, { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
+    await page.evaluate(() => Promise.race([document.fonts.ready, new Promise(r => setTimeout(r, 5000))]));
+    return await page.screenshot({ type: 'jpeg', quality: 92, clip: { x: 0, y: 0, width: 1080, height: 1920 } });
   } finally { await browser.close(); }
 }
 
