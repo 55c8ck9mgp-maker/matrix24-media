@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T18:52:13Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-iraq-moves-forces-into-kataib-hezbollah-stronghold",
+  "category": "Security / Geopolitics",
+  "headline": "Iraq orders joint forces into Kataib Hezbollah stronghold south of Baghdad",
+  "headline_es": "Irak ordena desplegar fuerzas conjuntas en un bastión de Kataib Hezbolá al sur de Bagdad",
+  "caption_en": "Iraq's government gave the Iran-aligned Kataib Hezbollah until Friday to leave Jurf al-Sakhar in Babil province, citing alleged oil smuggling, which the group denies. A joint force of army, federal police, Energy Police and Popular Mobilisation Forces units is set to deploy there from Friday.",
+  "caption_es": "El Gobierno de Irak dio a la milicia proiraní Kataib Hezbolá plazo hasta el viernes para abandonar Jurf al Sajar, en la provincia de Babilonia, por presunto contrabando de petróleo, algo que el grupo niega. Una fuerza conjunta del ejército, la policía federal, la Policía de Energía y unidades de las Fuerzas de Movilización Popular se desplegará allí a partir del viernes.",
+  "summary_es": "Bagdad dio a Kataib Hezbolá plazo hasta el viernes para salir de Jurf al Sajar por presunto contrabando de petróleo. Una fuerza conjunta se desplegará en la zona.",
+  "summary_en": "Baghdad gave Kataib Hezbollah until Friday to leave Jurf al-Sakhar over alleged oil smuggling. A joint security force is set to deploy in the area.",
+  "highlight_en": "Kataib Hezbollah",
+  "highlight_es": "Kataib Hezbolá",
+  "visual_label": "Jurf al Sajar",
+  "image_prompt": "Military convoy of armored vehicles on a dusty desert road near palm groves and an oil pipeline at sunrise, wide cinematic view, no people visible up close, no text, no flags, no insignia",
+  "map": {
+    "focus": [
+      "Iraq"
+    ],
+    "marker": {
+      "lat": 32.87,
+      "lon": 44.12,
+      "label": "Jurf al Sajar"
+    },
+    "labels": {
+      "Iraq": "Irak"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/19/iraq-reaches-compromise-with-kataib-hezbollah-over-armed-group-stronghold",
+    "https://au.news.yahoo.com/iraq-orders-armed-factions-withdraw-164935478.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Euronews"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Irak",
+    "#Iraq",
+    "#OrienteMedio"
+  ]
+}

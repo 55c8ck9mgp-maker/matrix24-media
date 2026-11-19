@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T18:52:13Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-anthropic-shares-jump-34-in-nasdaq-debut",
+  "category": "Economy",
+  "headline": "Anthropic shares open 34% above IPO price in record-breaking Nasdaq debut",
+  "headline_es": "Las acciones de Anthropic abren un 34% sobre su precio de salida en su debut en el Nasdaq",
+  "caption_en": "Anthropic began trading on the Nasdaq on Thursday under the ticker ANT, opening at $111.50 a share, about 34% above its $83 IPO price. The offering raised about $81.3 billion, the largest IPO on record. A separate $26 billion private placement was also announced.",
+  "caption_es": "Anthropic comenzó a cotizar el jueves en el Nasdaq con el símbolo ANT y abrió a 111,50 dólares por acción, alrededor de un 34% por encima de su precio de salida de 83 dólares. La oferta recaudó unos 81.300 millones de dólares, la mayor salida a bolsa registrada. También se anunció una colocación privada aparte de 26.000 millones de dólares.",
+  "summary_es": "Anthropic abrió a 111,50 dólares por acción en el Nasdaq, un 34% sobre su precio de salida de 83 dólares, tras recaudar unos 81.300 millones en la mayor salida a bolsa registrada.",
+  "summary_en": "Anthropic opened at $111.50 a share on the Nasdaq, 34% above its $83 IPO price, after raising about $81.3 billion in the largest IPO on record.",
+  "highlight_en": "34% above IPO price",
+  "highlight_es": "34%",
+  "visual_label": "Nasdaq",
+  "image_prompt": "Modern stock exchange trading floor with large glowing screens showing rising green price charts, abstract digital network patterns, wide cinematic view, no text, no logos",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "marker": {
+      "lat": 40.7569,
+      "lon": -73.9865,
+      "label": "Nueva York"
+    },
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  },
+  "source_urls": [
+    "https://ca.finance.yahoo.com/news/anthropic-shares-open-34-above-170830437.html",
+    "https://www.foxnews.com/live-news/anthropic-claude-ai-ipo-nasdaq-11-19-26"
+  ],
+  "source_names": [
+    "Euronews",
+    "Fox News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Anthropic",
+    "#IPO",
+    "#Nasdaq",
+    "#Economía"
+  ]
+}

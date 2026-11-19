@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-19T18:52:13Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261119-cyberattack-disrupts-eu-commission-hr-systems",
+  "category": "Technology",
+  "headline": "Cyberattack disrupts European Commission staff HR systems for days",
+  "headline_es": "Un ciberataque paraliza durante días los sistemas de personal de la Comisión Europea",
+  "caption_en": "The European Commission confirmed on Thursday that it was hit by a cyberattack that took internal staff systems offline, including the Sysper HR platform used for pay and leave. Most applications have since been restored. The EU cybersecurity team CERT-EU is still assessing whether staff personal data was compromised.",
+  "caption_es": "La Comisión Europea confirmó el jueves que sufrió un ciberataque que dejó fuera de servicio sistemas internos de su personal, entre ellos la plataforma de recursos humanos Sysper, usada para salarios y permisos. La mayoría de las aplicaciones ya se han restablecido. El equipo de ciberseguridad de la UE, CERT-EU, aún evalúa si se comprometieron datos personales del personal.",
+  "summary_es": "Un ciberataque dejó fuera de servicio durante días sistemas internos de la Comisión Europea, como la plataforma de recursos humanos Sysper. CERT-EU evalúa si hubo robo de datos.",
+  "summary_en": "A cyberattack knocked European Commission staff systems such as the Sysper HR platform offline for days. CERT-EU is assessing whether personal data was compromised.",
+  "highlight_en": "Cyberattack",
+  "highlight_es": "ciberataque",
+  "visual_label": "Bruselas",
+  "image_prompt": "Modern glass office building at dusk with an overlay of glowing red digital code and broken padlock symbols, server racks in the foreground, moody cinematic lighting, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Belgium"
+    ],
+    "marker": {
+      "lat": 50.8436,
+      "lon": 4.3826,
+      "label": "Bruselas"
+    },
+    "labels": {
+      "Belgium": "Bélgica"
+    }
+  },
+  "source_urls": [
+    "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown",
+    "https://www.yahoo.com/news/world/articles/european-commission-confirms-cyberattack-investigation-165712292.html"
+  ],
+  "source_names": [
+    "Euronews",
+    "UPI"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ciberseguridad",
+    "#UE",
+    "#Cybersecurity"
+  ]
+}
