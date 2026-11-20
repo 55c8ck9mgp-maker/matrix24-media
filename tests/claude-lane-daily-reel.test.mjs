@@ -413,3 +413,14 @@ test('newsDailyBedArgs: output file is last arg and fade-out starts 2s before en
   const fc = r.args.join(' ');
   assert.match(fc, /afade=t=out:st=18:d=2/);
 });
+
+// Watchdog 2026-11-20: the Reel card is rendered with Playwright 1.56, which
+// cannot install Chromium on ubuntu-26.04 (the new ubuntu-latest). The daily
+// Reel job must stay on a runner image that Playwright supports.
+test('daily Reel workflow runs on a Playwright-supported runner image', async () => {
+  const fsMod = await import('node:fs');
+  const wf = fsMod.readFileSync('.github/workflows/claude-lane-daily-reel.yml', 'utf8');
+  const m = wf.match(/^\s+daily-reel:\s*\n(?:\s*#.*\n)*\s+runs-on:\s*(\S+)/m);
+  assert.ok(m, 'daily-reel job runs-on not found');
+  assert.equal(m[1], 'ubuntu-24.04');
+});
