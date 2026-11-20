@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T13:05:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-russian-strikes-hit-three-kyiv-bridges",
+  "category": "Security / Geopolitics",
+  "headline": "Russian strikes hit three Kyiv bridges and cut power after Putin vows response over Kerch",
+  "headline_es": "Ataques rusos dañan tres puentes de Kiev y cortan la luz tras la amenaza de Putin por Kerch",
+  "caption_en": "An overnight Russian missile and drone attack on Kyiv killed at least three people and damaged the Podilskyi, Darnytskyi and Southern bridges over the Dnipro, forcing traffic restrictions, Mayor Vitali Klitschko said. Electricity was disrupted across the capital. The strikes came after Vladimir Putin vowed to respond to Ukrainian attacks this week on the Kerch Bridge to Crimea.",
+  "caption_es": "Un ataque nocturno ruso con misiles y drones contra Kiev mató al menos a tres personas y dañó los puentes Podilskyi, Darnytskyi y Sur sobre el río Dniéper, lo que obligó a restringir el tráfico, según el alcalde Vitali Klitschko. Hubo cortes de electricidad en toda la capital. Los ataques llegaron después de que Vladímir Putin prometiera responder a los ataques ucranianos de esta semana contra el puente de Kerch, que une Rusia con Crimea.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+    "https://abcnews.com/International/wireStory/russian-attacks-kyiv-kill-3-cripple-bridges-cut-138313948"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Associated Press (ABC News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Kiev",
+    "#Rusia"
+  ],
+  "summary_es": "Al menos tres muertos y cortes de luz en Kiev. Misiles balísticos dañaron tres puentes sobre el Dniéper tras la promesa de Putin de responder por Kerch.",
+  "summary_en": "At least three killed and power cut in Kyiv. Ballistic missiles damaged three Dnipro bridges after Putin vowed to respond over Kerch.",
+  "highlight_es": "tres puentes de Kiev",
+  "highlight_en": "three Kyiv bridges",
+  "visual_label": "Dniéper",
+  "image_prompt": "Several long road bridges crossing a wide river at dawn, darkened city skyline with few lights on the banks, low grey clouds, wide cinematic aerial view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 50.45,
+      "lon": 30.52,
+      "label": "Kiev"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  }
+}
