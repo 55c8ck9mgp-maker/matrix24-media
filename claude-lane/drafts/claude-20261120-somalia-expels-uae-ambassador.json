@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T00:53:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-somalia-expels-uae-ambassador",
+  "category": "Security / Geopolitics",
+  "headline": "Somalia expels the UAE ambassador and recalls its own envoy, citing an \"open invasion\"",
+  "headline_es": "Somalia expulsa al embajador de EAU y retira a su enviado, denunciando una \"invasión abierta\"",
+  "caption_en": "Somalia's government on Thursday ordered the United Arab Emirates' ambassador to leave within 72 hours and recalled its own envoy from Abu Dhabi. Information Minister Abdifatah Kasim Mohamud described the UAE's actions as an \"open invasion\" of Somali sovereignty. Two days earlier, President Hassan Sheikh Mohamud had accused the UAE of interference in Somalia.",
+  "caption_es": "El Gobierno de Somalia ordenó el jueves al embajador de Emiratos Árabes Unidos abandonar el país en 72 horas y retiró a su propio enviado de Abu Dabi. El ministro de Información, Abdifatah Kasim Mohamud, calificó las acciones de EAU como una \"invasión abierta\" de la soberanía somalí. Dos días antes, el presidente Hassan Sheikh Mohamud había acusado a EAU de injerencia en Somalia.",
+  "summary_es": "Somalia dio 72 horas al embajador emiratí para salir del país y retiró a su enviado en Abu Dabi, acusando a EAU de una \"invasión abierta\".",
+  "summary_en": "Somalia gave the UAE ambassador 72 hours to leave and recalled its envoy from Abu Dhabi, accusing the UAE of an \"open invasion\".",
+  "highlight_en": "expels the UAE ambassador",
+  "highlight_es": "expulsa al embajador",
+  "visual_label": "Mogadiscio",
+  "image_prompt": "Empty diplomatic conference room with a long polished table and vacant chairs, a closed embassy gate beyond the window, warm coastal light, symbolic and calm, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Somalia",
+      "United Arab Emirates"
+    ],
+    "marker": {
+      "lat": 2.0469,
+      "lon": 45.3182,
+      "label": "Mogadiscio"
+    },
+    "labels": {
+      "Somalia": "Somalia",
+      "United Arab Emirates": "Emiratos Árabes"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty",
+    "https://www.middleeasteye.net/news/somalia-expels-emirati-envoy-recalls-somali-counterpart-envoy-over-open-invasion"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Middle East Eye"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Somalia",
+    "#EAU",
+    "#UAE"
+  ]
+}

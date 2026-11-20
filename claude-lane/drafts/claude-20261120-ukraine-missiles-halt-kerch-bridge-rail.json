@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T00:53:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-ukraine-missiles-halt-kerch-bridge-rail",
+  "category": "Security / Geopolitics",
+  "headline": "Third Ukrainian strike in four days halts rail traffic on the Kerch Bridge to Crimea",
+  "headline_es": "Tercer ataque ucraniano en cuatro días detiene el tráfico ferroviario del puente de Kerch",
+  "caption_en": "Ukraine said its Neptune missiles damaged the railway section of the Kerch Bridge linking Russia to occupied Crimea overnight into Thursday, the third attack on the bridge in four days. Train traffic across the bridge was suspended. Vladimir Putin vowed that Russia would respond to the attacks.",
+  "caption_es": "Ucrania afirmó que sus misiles Neptune dañaron la sección ferroviaria del puente de Kerch, que une Rusia con la Crimea ocupada, en la madrugada del jueves, en el tercer ataque contra el puente en cuatro días. El tráfico de trenes por el puente quedó suspendido. Vladímir Putin prometió que Rusia responderá a los ataques.",
+  "summary_es": "Misiles Neptune ucranianos dañaron la vía férrea del puente de Kerch, tercer ataque en cuatro días. Putin prometió responder.",
+  "summary_en": "Ukrainian Neptune missiles damaged the Kerch Bridge rail line in the third strike in four days. Putin vowed to respond.",
+  "highlight_en": "Kerch Bridge",
+  "highlight_es": "puente de Kerch",
+  "visual_label": "Kerch",
+  "image_prompt": "Long road and rail bridge crossing a grey strait at dawn, an empty railway track in the foreground, distant haze over the water, wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Ukraine",
+      "Russia"
+    ],
+    "marker": {
+      "lat": 45.3,
+      "lon": 36.51,
+      "label": "Puente de Kerch"
+    },
+    "labels": {
+      "Ukraine": "Ucrania",
+      "Russia": "Rusia"
+    }
+  },
+  "source_urls": [
+    "https://spectrumlocalnews.com/nys/central-ny/international/2026/11/19/third-ukrainian-strike-in-4-days-russia-kerch-bridge-to-crimea",
+    "https://euromaidanpress.com/2026/11/19/third-strike-on-kerch-bridge-in-a-week/"
+  ],
+  "source_names": [
+    "Associated Press",
+    "Euromaidan Press"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ucrania",
+    "#Ukraine",
+    "#Crimea"
+  ]
+}

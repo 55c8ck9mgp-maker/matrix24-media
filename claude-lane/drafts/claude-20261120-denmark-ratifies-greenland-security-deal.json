@@ -1,0 +1,53 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T00:53:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-denmark-ratifies-greenland-security-deal",
+  "category": "Security / Geopolitics",
+  "headline": "Denmark's parliament unanimously approves security deal with Greenland and the US",
+  "headline_es": "El Parlamento de Dinamarca aprueba por unanimidad el pacto de seguridad con Groenlandia y EE.UU.",
+  "caption_en": "Denmark's parliament voted 109-0 on Thursday to approve a security agreement with Greenland and the United States, after Greenland's own parliament passed it earlier this month. The deal, signed in New York in September, builds on a 1951 defence accord, allows the US to expand Pituffik Space Base and opens new defence areas at Narsarsuaq and Mestersvig. It takes effect once the US is notified by diplomatic note.",
+  "caption_es": "El Parlamento danés aprobó el jueves por 109 votos a 0 un acuerdo de seguridad con Groenlandia y Estados Unidos, después de que el Parlamento groenlandés lo aprobara a comienzos de mes. El pacto, firmado en Nueva York en septiembre, amplía un acuerdo de defensa de 1951, permite a EE.UU. expandir la base espacial de Pituffik y abre nuevas zonas de defensa en Narsarsuaq y Mestersvig. Entrará en vigor cuando se notifique a EE.UU. mediante nota diplomática.",
+  "summary_es": "Dinamarca aprobó 109-0 el pacto de seguridad con Groenlandia y EE.UU., que amplía la base de Pituffik y abre zonas de defensa en Narsarsuaq y Mestersvig.",
+  "summary_en": "Denmark approved 109-0 the security pact with Greenland and the US, expanding Pituffik Space Base and opening defence areas at Narsarsuaq and Mestersvig.",
+  "highlight_en": "unanimously approves",
+  "highlight_es": "aprueba por unanimidad",
+  "visual_label": "Groenlandia",
+  "image_prompt": "Remote Arctic air base with radar domes on a snowy coastline, icebergs floating in a dark fjord, low winter sun, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Greenland",
+      "Denmark"
+    ],
+    "marker": {
+      "lat": 76.53,
+      "lon": -68.7,
+      "label": "Pituffik"
+    },
+    "labels": {
+      "Greenland": "Groenlandia",
+      "Denmark": "Dinamarca"
+    }
+  },
+  "source_urls": [
+    "https://www.cbsnews.com/news/greenland-security-deal-us-denmark-danish-lawmakers/",
+    "https://www.arctictoday.com/danish-parliament-ratifies-expanded-us-military-access-to-greenland/",
+    "https://www.aljazeera.com/news/2026/11/19/denmark-parliament-approves-security-deal-with-greenland-and-us"
+  ],
+  "source_names": [
+    "CBS News / AP",
+    "ArcticToday",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Groenlandia",
+    "#Greenland",
+    "#Dinamarca",
+    "#Denmark"
+  ]
+}
