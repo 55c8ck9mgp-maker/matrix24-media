@@ -36,7 +36,11 @@ concurrency:
 
 jobs:
   daily-reel:
-    runs-on: ubuntu-latest
+    # Pinned (watchdog 2026-11-20): ubuntu-latest moved to ubuntu-26.04, where
+    # Playwright 1.56 cannot install Chromium ("Cannot install dependencies for
+    # ubuntu26.04-x64"), so every card failed and no Reel was built. Move back to
+    # ubuntu-latest only after bumping Playwright to a version that supports it.
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
       # ── Kill switch ──────────────────────────────────────────────────────────
