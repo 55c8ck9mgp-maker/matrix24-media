@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T06:50:18Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-asian-stocks-tumble-on-ai-fears",
+  "category": "Economy",
+  "headline": "Tokyo and Seoul stocks tumble about 4.5% as AI bubble fears spread to Asia",
+  "headline_es": "Las bolsas de Tokio y Seúl caen cerca de un 4,5% por el temor a una burbuja de la IA",
+  "caption_en": "Japan's Nikkei 225 and South Korea's Kospi both fell about 4.5% in Friday morning trading, while Hong Kong's Hang Seng dropped nearly 2%. The sell-off followed a slide on Wall Street on Thursday, when the Nasdaq lost 2.3% and the S&P 500 2%, amid worries that the AI boom is losing steam. Anthropic's Nasdaq debut, which closed about 17% above its IPO price, did not ease those concerns.",
+  "caption_es": "El Nikkei 225 de Japón y el Kospi de Corea del Sur cayeron cerca de un 4,5% en la mañana del viernes, mientras el Hang Seng de Hong Kong bajó casi un 2%. La ola de ventas siguió a la caída de Wall Street del jueves, cuando el Nasdaq perdió un 2,3% y el S&P 500 un 2%, ante la preocupación de que el auge de la inteligencia artificial pierda fuerza. El debut de Anthropic en el Nasdaq, que cerró cerca de un 17% por encima de su precio de salida, no disipó esos temores.",
+  "summary_es": "El Nikkei y el Kospi cayeron cerca de un 4,5% el viernes, tras el desplome de Wall Street, por el temor a que el auge de la IA se esté agotando.",
+  "summary_en": "The Nikkei and Kospi fell about 4.5% on Friday after a Wall Street slide, on fears that the AI boom is running out of steam.",
+  "highlight_en": "tumble about 4.5%",
+  "highlight_es": "caen cerca de un 4,5%",
+  "visual_label": "Bolsas de Asia",
+  "image_prompt": "Large electronic stock market board glowing with falling red lines and downward arrows in a dim trading hall, city skyline at dawn through tall windows, wide cinematic view, no text, no logos",
+  "map": {
+    "focus": [
+      "Japan",
+      "South Korea"
+    ],
+    "marker": {
+      "lat": 35.6812,
+      "lon": 139.7671,
+      "label": "Tokio"
+    },
+    "labels": {
+      "Japan": "Japón",
+      "South Korea": "Corea del Sur"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears",
+    "https://www.dailyexcelsior.com/asia-shares-drop-on-ai-worries-echoing-wall-streets-decline-despite-the-strong-anthropic-debut"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "AP / Daily Excelsior"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Bolsas",
+    "#Markets",
+    "#IA",
+    "#AI"
+  ]
+}

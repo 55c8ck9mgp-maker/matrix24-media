@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T06:50:18Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-bukele-registers-for-third-term",
+  "category": "Colombia / Latin America",
+  "headline": "El Salvador's Bukele registers to run for an unprecedented third consecutive term",
+  "headline_es": "Bukele se inscribe para buscar un inédito tercer mandato consecutivo en El Salvador",
+  "caption_en": "El Salvador's President Nayib Bukele filed his candidacy on Thursday at the Supreme Electoral Tribunal in San Salvador, seeking a third consecutive term in the February 2027 election. His New Ideas party nominated him in July, after a 2025 constitutional reform removed presidential term limits. Critics and rights groups say the bid lets him entrench his hold on power.",
+  "caption_es": "El presidente de El Salvador, Nayib Bukele, inscribió el jueves su candidatura ante el Tribunal Supremo Electoral en San Salvador para buscar un tercer mandato consecutivo en las elecciones de febrero de 2027. Su partido, Nuevas Ideas, lo nominó en julio, después de que una reforma constitucional de 2025 eliminara los límites al mandato presidencial. Críticos y grupos de derechos humanos afirman que la candidatura le permite afianzar su control del poder.",
+  "summary_es": "Bukele inscribió su candidatura ante el Tribunal Supremo Electoral para buscar un tercer mandato en las elecciones de febrero de 2027.",
+  "summary_en": "Bukele filed at the Supreme Electoral Tribunal to seek a third consecutive term in El Salvador's February 2027 election.",
+  "highlight_en": "third consecutive term",
+  "highlight_es": "tercer mandato consecutivo",
+  "visual_label": "El Salvador",
+  "image_prompt": "Ballot box on a wooden table inside a quiet government hall with tall columns, stacks of blank paper forms, warm tropical evening light through windows, symbolic and calm, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "El Salvador"
+    ],
+    "marker": {
+      "lat": 13.6929,
+      "lon": -89.2182,
+      "label": "San Salvador"
+    },
+    "labels": {
+      "El Salvador": "El Salvador"
+    }
+  },
+  "source_urls": [
+    "https://theprint.in/world/el-salvadors-bukele-seeks-unprecedented-third-term-as-leader/3103793/",
+    "https://abcnews.com/International/wireStory/el-salvador-president-nayib-bukele-seeks-term-attacking-138309430"
+  ],
+  "source_names": [
+    "Reuters / ThePrint",
+    "AP / ABC News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ElSalvador",
+    "#Bukele",
+    "#Elecciones2027"
+  ]
+}
