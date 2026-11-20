@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T18:51:08Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-saudi-coalition-targets-yemen-hodeidah-port",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi-led coalition orders Hodeidah port evacuated; Houthis warn airlines off Saudi airspace",
+  "headline_es": "La coalición saudí ordena evacuar el puerto de Hodeida; los hutíes advierten a las aerolíneas",
+  "caption_en": "The Saudi-led coalition told civilians to leave Yemen's Red Sea port of Hodeidah, the main gateway for supplies into the Houthi-held north, ahead of strikes it said target weapons capabilities. Houthi spokesman Yahya Saree warned airlines to avoid Saudi airspace, except over Mecca and Medina, and threatened Saudi targets. The escalation follows a Houthi missile strike on Riyadh's financial district a day earlier.",
+  "caption_es": "La coalición liderada por Arabia Saudí pidió a los civiles abandonar el puerto yemení de Hodeida, en el mar Rojo, principal vía de suministros hacia el norte controlado por los hutíes, antes de ataques que según dijo apuntan a capacidades militares. El portavoz hutí Yahya Saree advirtió a las aerolíneas que eviten el espacio aéreo saudí, salvo sobre La Meca y Medina, y amenazó objetivos saudíes. La escalada llega un día después de un ataque con misiles hutí contra el distrito financiero de Riad.",
+  "source_urls": [
+    "https://www.thenationalnews.com/news/mena/2026/11/20/saudi-led-coalition-tells-civilians-to-leave-yemens-hodeidah-port-ahead-of-strikes/",
+    "https://www.al-monitor.com/originals/2026/11/saudi-led-forces-strike-yemen-port-houthis-warn-airlines-kingdom"
+  ],
+  "source_names": [
+    "The National",
+    "Al-Monitor (Reuters)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Yemen",
+    "#ArabiaSaudita",
+    "#SaudiArabia",
+    "#MarRojo"
+  ],
+  "summary_es": "La coalición saudí pidió evacuar Hodeida antes de atacar el puerto. Los hutíes respondieron advirtiendo a las aerolíneas y amenazando objetivos en Arabia Saudí.",
+  "summary_en": "The Saudi-led coalition ordered Hodeidah port evacuated before strikes. The Houthis responded by warning airlines and threatening Saudi targets.",
+  "highlight_es": "puerto de Hodeida",
+  "highlight_en": "Hodeidah port",
+  "visual_label": "Hodeida",
+  "image_prompt": "Large container port on a hazy Red Sea coastline with cranes and docked cargo ships, distant smoke on the horizon, warm dusty light, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "marker": {
+      "lat": 14.8,
+      "lon": 42.95,
+      "label": "Hodeida"
+    },
+    "labels": {
+      "Yemen": "Yemen",
+      "Saudi Arabia": "Arabia Saudí"
+    }
+  }
+}

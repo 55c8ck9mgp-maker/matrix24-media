@@ -1,0 +1,52 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T18:51:08Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-russian-missiles-violate-polish-airspace",
+  "category": "Security / Geopolitics",
+  "headline": "Poland says Russian missiles and a drone entered its airspace during Coalition of the Willing drills",
+  "headline_es": "Polonia denuncia que misiles y un dron rusos violaron su espacio aéreo durante maniobras aliadas",
+  "caption_en": "Poland said three objects from Russia, likely two missiles and a drone, violated its airspace overnight during a massive Russian attack on Ukraine, with debris found at three sites in the southeast. Prime Minister Donald Tusk called it an intentional provocation, as Poland hosted Coalition of the Willing exercises. NATO chief Mark Rutte called the incident clearly dangerous.",
+  "caption_es": "Polonia afirmó que tres objetos procedentes de Rusia, probablemente dos misiles y un dron, violaron su espacio aéreo durante la noche en medio de un ataque ruso masivo contra Ucrania, y que se hallaron restos en tres lugares del sureste del país. El primer ministro Donald Tusk lo calificó de provocación intencionada, mientras Polonia acogía maniobras de la Coalición de Voluntarios. El jefe de la OTAN, Mark Rutte, dijo que el incidente es claramente peligroso.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations",
+    "https://www.rte.ie/news/2026/1120/1600008-poland-russia-airspace-violations/",
+    "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "RTÉ (Reuters)",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Polonia",
+    "#Poland",
+    "#OTAN",
+    "#NATO",
+    "#Rusia"
+  ],
+  "summary_es": "Tusk habla de provocación intencionada: dos misiles y un dron rusos cayeron en el sureste de Polonia mientras se celebraban maniobras de la Coalición de Voluntarios.",
+  "summary_en": "Tusk calls it an intentional provocation: two Russian missiles and a drone fell in southeast Poland during Coalition of the Willing drills.",
+  "highlight_es": "misiles y un dron rusos",
+  "highlight_en": "Russian missiles and a drone",
+  "visual_label": "Polonia",
+  "image_prompt": "Two fighter jets flying over flat autumn farmland at dawn, air defence radar installation in the foreground, low grey clouds, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Poland"
+    ],
+    "marker": {
+      "lat": 50.55,
+      "lon": 22.55,
+      "label": "Nowy Lipowiec"
+    },
+    "labels": {
+      "Poland": "Polonia"
+    }
+  }
+}

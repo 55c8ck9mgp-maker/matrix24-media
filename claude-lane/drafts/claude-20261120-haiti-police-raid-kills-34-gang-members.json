@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-20T18:51:08Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261120-haiti-police-raid-kills-34-gang-members",
+  "category": "Colombia / Latin America",
+  "headline": "Haiti police say at least 34 gang members were killed in a raid in Port-au-Prince",
+  "headline_es": "La policía de Haití dice que al menos 34 pandilleros murieron en una operación en Puerto Príncipe",
+  "caption_en": "Haiti's national police said an operation in Martissant, a district of Port-au-Prince, killed at least 34 suspected gang members. Haiti has stepped up its offensive against gangs since El Salvador deployed troops to the country in October.",
+  "caption_es": "La policía nacional de Haití informó que una operación en Martissant, un barrio de Puerto Príncipe, causó la muerte de al menos 34 presuntos pandilleros. Haití ha intensificado su ofensiva contra las pandillas desde que El Salvador desplegó tropas en el país en octubre.",
+  "source_urls": [
+    "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid",
+    "https://www.brecorder.com/news/40449955/haiti-police-operation-kills-34-suspected-gang-members-in-capital"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Business Recorder (Reuters)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Haití",
+    "#Haiti",
+    "#PuertoPríncipe"
+  ],
+  "summary_es": "Operación policial en Martissant, Puerto Príncipe, con al menos 34 presuntos pandilleros muertos, en plena ofensiva tras la llegada de tropas salvadoreñas.",
+  "summary_en": "Police operation in Martissant, Port-au-Prince, left at least 34 suspected gang members dead amid an offensive since Salvadoran troops arrived.",
+  "highlight_es": "34 pandilleros",
+  "highlight_en": "34 gang members",
+  "visual_label": "Puerto Príncipe",
+  "image_prompt": "Hillside city neighborhood of dense concrete houses overlooking a bay at dusk, armored police vehicle parked on an empty street in the foreground, hazy light, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Haiti"
+    ],
+    "marker": {
+      "lat": 18.53,
+      "lon": -72.36,
+      "label": "Puerto Príncipe"
+    },
+    "labels": {
+      "Haiti": "Haití"
+    }
+  }
+}
