@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-21T06:51:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261121-magnitude-6-7-quake-shakes-central-peru",
+  "category": "Colombia / Latin America",
+  "headline": "Magnitude 6.7 earthquake shakes central Peru, felt in Lima",
+  "headline_es": "Un sismo de magnitud 6,7 sacude el centro de Perú y se siente en Lima",
+  "caption_en": "A deep magnitude 6.7 earthquake struck Peru's Junín region in the Andes at 7:09 p.m. local time on Friday, sending residents of Lima running into the streets. Peru's Geophysical Institute reported landslides and rockfalls on hillsides, and no deaths or injuries were reported. The quake was also felt in Callao and Huánuco.",
+  "caption_es": "Un sismo profundo de magnitud 6,7 sacudió la región andina de Junín, en Perú, a las 19:09 hora local del viernes, y llevó a vecinos de Lima a salir a las calles. El Instituto Geofísico del Perú reportó deslizamientos y caída de rocas en laderas, y no se reportaron muertos ni heridos. El temblor también se sintió en Callao y Huánuco.",
+  "summary_es": "El sismo profundo en Junín provocó deslizamientos en laderas; no se reportaron víctimas y los limeños salieron a las calles.",
+  "summary_en": "The deep quake in Junín triggered landslides on hillsides; no casualties were reported as Lima residents rushed outdoors.",
+  "highlight_en": "Magnitude 6.7 earthquake",
+  "highlight_es": "sismo de magnitud 6,7",
+  "visual_label": "Junín",
+  "image_prompt": "Andean mountain valley at dusk with small rocks sliding down a steep hillside onto a winding highway, a seismograph needle drawing sharp waves in the foreground, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Peru"
+    ],
+    "marker": {
+      "lat": -11.16,
+      "lon": -76,
+      "label": "Junín"
+    },
+    "labels": {
+      "Peru": "Perú"
+    }
+  },
+  "source_urls": [
+    "https://www.nbcmiami.com/news/national-international/peru-earthquake-andes-damage/3891200/",
+    "https://gulfnews.com/world/americas/67-magnitude-earthquake-hits-central-peru-1.500755751",
+    "https://www.trtworld.com/article/738e26219495"
+  ],
+  "source_names": [
+    "NBC 6 / AP",
+    "Gulf News / AFP",
+    "TRT World"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Peru",
+    "#Perú",
+    "#Sismo",
+    "#Earthquake"
+  ]
+}

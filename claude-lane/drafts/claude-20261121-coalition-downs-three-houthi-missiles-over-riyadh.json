@@ -1,0 +1,52 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-21T06:51:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261121-coalition-downs-three-houthi-missiles-over-riyadh",
+  "category": "Security / Geopolitics",
+  "headline": "Saudi-led coalition says it shot down three Houthi ballistic missiles aimed at Riyadh",
+  "headline_es": "La coalición saudí afirma haber derribado tres misiles balísticos hutíes dirigidos a Riad",
+  "caption_en": "The Saudi-led coalition said early Saturday it intercepted and destroyed three ballistic missiles fired by Yemen's Houthis toward Riyadh, after alerts warned residents of an aerial threat and explosions were heard over the city. It was the second Houthi attack on the Saudi capital in a few days, following Thursday's strike on the Public Investment Fund tower. On Friday the coalition hit Hodeidah port and targets in Sanaa.",
+  "caption_es": "La coalición liderada por Arabia Saudí informó el sábado de madrugada que interceptó y destruyó tres misiles balísticos lanzados por los hutíes de Yemen hacia Riad, tras alertas por una amenaza aérea y explosiones escuchadas sobre la ciudad. Fue el segundo ataque hutí contra la capital saudí en pocos días, después del impacto del jueves en la torre del Fondo de Inversión Pública. El viernes la coalición atacó el puerto de Hodeida y objetivos en Saná.",
+  "summary_es": "Segundo ataque hutí contra Riad en pocos días; la coalición había bombardeado el puerto de Hodeida y Saná el viernes.",
+  "summary_en": "The second Houthi attack on Riyadh in a few days came after coalition strikes on Hodeidah port and Sanaa on Friday.",
+  "highlight_en": "three Houthi ballistic missiles",
+  "highlight_es": "tres misiles balísticos hutíes",
+  "visual_label": "Riad",
+  "image_prompt": "Modern desert city skyline at night with tall glass towers, bright interceptor trails arcing high in a dark sky, distant air defence radar silhouettes on the outskirts, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 24.7136,
+      "lon": 46.6753,
+      "label": "Riad"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudí",
+      "Yemen": "Yemen"
+    }
+  },
+  "source_urls": [
+    "https://gulfnews.com/world/gulf/saudi/saudi-led-coalition-says-downed-3-houthi-missiles-headed-for-riyadh-2-1.500755733",
+    "https://www.gmanetwork.com/news/topstories/world/1010283/saudi-arabia-says-it-intercepted-three-houthi-missiles-targeting-riyadh/story/",
+    "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
+  ],
+  "source_names": [
+    "Gulf News / AFP",
+    "GMA News / Reuters",
+    "Al Jazeera"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#SaudiArabia",
+    "#Yemen",
+    "#Riad"
+  ]
+}

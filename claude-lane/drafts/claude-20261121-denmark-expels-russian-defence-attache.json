@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-21T06:51:09Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261121-denmark-expels-russian-defence-attache",
+  "category": "Security / Geopolitics",
+  "headline": "Denmark expels Russia's defence attaché over alleged plot to kill a Ukrainian rapper",
+  "headline_es": "Dinamarca expulsa al agregado de defensa ruso por un presunto complot contra un rapero ucraniano",
+  "caption_en": "Denmark ordered Russia's defence attaché to leave within seven days after its intelligence service said Russian intelligence planned an attempt to kill a US-Ukrainian citizen at a concert near Copenhagen on September 25. Police stopped a car with firearms and knives minutes before the show, and two suspects deny charges of attempted murder and aiding a foreign intelligence service. Moscow promised an appropriate response.",
+  "caption_es": "Dinamarca ordenó al agregado de defensa ruso salir del país en siete días después de que su servicio de inteligencia afirmara que la inteligencia rusa planeó asesinar a un ciudadano estadounidense-ucraniano en un concierto cerca de Copenhague el 25 de septiembre. La policía detuvo un auto con armas de fuego y cuchillos minutos antes del show, y dos sospechosos niegan los cargos de intento de asesinato y colaboración con un servicio de inteligencia extranjero. Moscú prometió una respuesta adecuada.",
+  "summary_es": "Copenhague acusa a la inteligencia rusa de planear un ataque en un concierto y suspenderá los visados no esenciales para ciudadanos rusos.",
+  "summary_en": "Copenhagen accuses Russian intelligence of planning an attack at a concert and will halt non-essential visas for Russians.",
+  "highlight_en": "expels Russia's defence attaché",
+  "highlight_es": "expulsa al agregado de defensa ruso",
+  "visual_label": "Copenhague",
+  "image_prompt": "Empty concert stage with dim spotlights and an unoccupied microphone stand, a dark parked car outside a venue at night under streetlights, Scandinavian city skyline in the distance, tense quiet mood, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Denmark"
+    ],
+    "marker": {
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "label": "Copenhague"
+    },
+    "labels": {
+      "Denmark": "Dinamarca"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper",
+    "https://english.news.cn/20261121/d5e6cace18b54e1f80381d1f5b13ded0/c.html",
+    "https://www.kyivpost.com/post/90775"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Xinhua",
+    "Kyiv Post"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Denmark",
+    "#Dinamarca",
+    "#Russia",
+    "#Rusia"
+  ]
+}
