@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261121-cop31-goes-into-overtime-over-fossil-fuels",
+  "status": "draft",
+  "created_at": "2026-11-21T00:50:47Z",
+  "category": "Climate",
+  "headline": "COP31 climate talks go into overtime as fossil fuels vanish from the draft deal",
+  "headline_es": "La COP31 se va a la prórroga tras desaparecer los combustibles fósiles del borrador",
+  "caption_en": "The UN climate summit in Antalya, Turkey, ran past its Friday deadline with nearly 200 countries deadlocked over a draft deal that no longer mentions fossil fuels. An earlier draft called for a faster phase-out of coal, oil and gas. Panama and a group of European and developing countries demanded a clear transition away from fossil fuels, and a new draft was expected on Saturday.",
+  "caption_es": "La cumbre climática de la ONU en Antalya, Turquía, superó su plazo del viernes con casi 200 países bloqueados por un borrador que ya no menciona los combustibles fósiles. Un borrador anterior pedía acelerar el abandono del carbón, el petróleo y el gas. Panamá y un grupo de países europeos y en desarrollo exigieron una transición clara para dejar atrás los combustibles fósiles, y se esperaba un nuevo borrador el sábado.",
+  "summary_es": "Casi 200 países siguen sin acuerdo en Antalya: el borrador final eliminó toda mención a los combustibles fósiles y varios países exigen recuperarla.",
+  "summary_en": "Nearly 200 countries remain deadlocked in Antalya after the draft deal dropped all mention of fossil fuels; several nations demand it back.",
+  "highlight_en": "go into overtime",
+  "highlight_es": "se va a la prórroga",
+  "visual_label": "COP31",
+  "image_prompt": "Large empty conference hall at night with rows of delegate desks and microphones, a wall clock past the deadline, wind turbines and an oil refinery faintly visible through tall windows, wide cinematic view, no text, no logos, no flags",
+  "map": {
+    "focus": ["Turkey"],
+    "marker": {"lat": 36.8969, "lon": 30.7133, "label": "Antalya"},
+    "labels": {"Turkey": "Turquía"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime",
+    "https://www.aol.co.uk/articles/cop31-talks-overtime-fossil-fuels-185622000.html"
+  ],
+  "source_names": ["Al Jazeera", "The Guardian / AOL"],
+  "hashtags": ["#MATRIX24", "#COP31", "#ClimateChange", "#CambioClimático"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

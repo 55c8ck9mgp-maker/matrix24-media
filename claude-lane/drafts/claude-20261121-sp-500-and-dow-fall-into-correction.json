@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261121-sp-500-and-dow-fall-into-correction",
+  "status": "draft",
+  "created_at": "2026-11-21T00:50:47Z",
+  "category": "Economy",
+  "headline": "S&P 500 and Dow fall into correction as AI sell-off wipes out the Nasdaq's 2026 gains",
+  "headline_es": "El S&P 500 y el Dow entran en corrección y el Nasdaq borra sus ganancias de 2026",
+  "caption_en": "Wall Street extended its rout on Friday: the S&P 500 fell about 3.6%, the Nasdaq more than 5% and the Dow nearly 2%. The S&P 500 and the Dow closed more than 10% below their record highs, confirming a correction, while the Nasdaq turned negative for the year. The sell-off was driven by fears about the AI trade, and Anthropic's shares fell on their second day of trading.",
+  "caption_es": "Wall Street amplió su desplome el viernes: el S&P 500 cayó cerca de un 3,6%, el Nasdaq más de un 5% y el Dow casi un 2%. El S&P 500 y el Dow cerraron más de un 10% por debajo de sus máximos históricos, lo que confirma una corrección, mientras el Nasdaq pasó a terreno negativo en el año. Las ventas fueron impulsadas por el temor en torno a la inteligencia artificial, y las acciones de Anthropic cayeron en su segundo día de cotización.",
+  "summary_es": "El S&P 500 y el Dow cerraron más de un 10% por debajo de sus récords y el Nasdaq, que cayó más de un 5%, quedó en negativo en 2026.",
+  "summary_en": "The S&P 500 and Dow closed over 10% below their records, and the Nasdaq, down more than 5%, turned negative for 2026.",
+  "highlight_en": "fall into correction",
+  "highlight_es": "entran en corrección",
+  "visual_label": "Wall Street",
+  "image_prompt": "Dark trading floor with large screens showing steep falling red line charts and downward arrows, empty chairs, evening light over a city financial district through windows, wide cinematic view, no text, no logos",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 40.7069, "lon": -74.0113, "label": "Nueva York"},
+    "labels": {"United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://www.marketscreener.com/news/wall-st-ends-sharply-lower-on-ai-selloff-s-p-500-dow-in-correction-ce785ed3dd80f527",
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+  ],
+  "source_names": ["Reuters / MarketScreener", "Yahoo Finance"],
+  "hashtags": ["#MATRIX24", "#WallStreet", "#Bolsas", "#Markets", "#IA"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
