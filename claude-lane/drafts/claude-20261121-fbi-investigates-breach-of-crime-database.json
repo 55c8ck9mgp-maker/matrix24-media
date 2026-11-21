@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-21T18:50:35Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261121-fbi-investigates-breach-of-crime-database",
+  "category": "Technology",
+  "headline": "FBI investigates suspected breach of its national crime database",
+  "headline_es": "El FBI investiga una presunta intrusión en su base de datos nacional de delitos",
+  "caption_en": "The FBI is investigating an apparent breach of the National Crime Information Center, the database US police agencies use to share warrant and background-check information, according to people briefed on the matter. It would be the latest in a series of cyber incidents affecting the bureau this year. The FBI did not immediately comment.",
+  "caption_es": "El FBI investiga una aparente intrusión en el Centro Nacional de Información Criminal, la base de datos que usan las policías de EE.UU. para compartir órdenes de arresto y antecedentes, según personas informadas sobre el caso. Sería el más reciente de una serie de incidentes cibernéticos que afectan a la agencia este año. El FBI no respondió de inmediato a solicitudes de comentarios.",
+  "summary_es": "En septiembre, un grupo de hackers ya había robado datos personales de empleados del FBI desde un sitio web de empleo.",
+  "summary_en": "In September, hackers had already stolen personal data on FBI employees from a jobs website.",
+  "highlight_en": "national crime database",
+  "highlight_es": "base de datos nacional de delitos",
+  "visual_label": "NCIC",
+  "image_prompt": "Dark server room with rows of glowing racks, red warning lights reflecting on the floor, abstract streams of digital data and a broken padlock symbol hovering in the air, cybersecurity mood, wide cinematic view, no text, no logos",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports",
+    "https://www.koco.com/article/fbi-ncic-database-breach-investigation/74497434"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "KOCO / CNN"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#FBI",
+    "#Cybersecurity",
+    "#Ciberseguridad"
+  ]
+}

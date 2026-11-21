@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-21T18:50:35Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261121-russian-strike-on-kryvyi-rih-kills-two",
+  "category": "Security / Geopolitics",
+  "headline": "Russian strike on Kryvyi Rih kills a boy and a young woman, wounds 60",
+  "headline_es": "Ataque ruso contra Kryvyi Rih mata a un niño y a una joven y deja 60 heridos",
+  "caption_en": "A Russian attack on Friday night on Kryvyi Rih, President Zelenskyy’s hometown in central Ukraine, killed a seven-year-old boy and a 20-year-old woman, local officials said. Sixty people were wounded, including six children. City chief Oleksandr Vilkul said about 25 apartment buildings, a hospital, schools and businesses were damaged.",
+  "caption_es": "Un ataque ruso el viernes por la noche contra Kryvyi Rih, ciudad natal del presidente Zelenski en el centro de Ucrania, mató a un niño de siete años y a una mujer de 20, según autoridades locales. Sesenta personas resultaron heridas, entre ellas seis niños. El jefe de la ciudad, Oleksandr Vilkul, dijo que unos 25 edificios de apartamentos, un hospital, escuelas y comercios sufrieron daños.",
+  "summary_es": "El ataque provocó cuatro incendios y dañó también una instalación industrial y vehículos en la ciudad.",
+  "summary_en": "The attack sparked four fires and also damaged an industrial facility and vehicles in the city.",
+  "highlight_en": "Kryvyi Rih",
+  "highlight_es": "Kryvyi Rih",
+  "visual_label": "Kryvyi Rih",
+  "image_prompt": "Soviet-era apartment blocks at dawn with shattered windows and smoke drifting across an empty street, emergency vehicle lights glowing in the haze, grey winter sky, somber wide cinematic view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 47.9105,
+      "lon": 33.3918,
+      "label": "Kryvyi Rih"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown",
+    "https://www.irishnews.com/news/world/young-boy-one-of-two-killed-in-ballistic-missile-attack-on-zelenskys-home-city-4NL2DJMCNRMLNI43GLV37SFKGY/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "The Irish News (AP)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ukraine",
+    "#Ucrania",
+    "#KryvyiRih"
+  ]
+}

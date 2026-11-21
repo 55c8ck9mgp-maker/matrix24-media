@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-21T18:50:35Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261121-mexico-captures-fbi-fugitive-chapo-isidro",
+  "category": "Colombia / Latin America",
+  "headline": "Mexico captures FBI most-wanted cartel boss \"Chapo Isidro\" in Sinaloa",
+  "headline_es": "México captura en Sinaloa al capo \"Chapo Isidro\", uno de los más buscados del FBI",
+  "caption_en": "Mexican special forces captured Fausto Isidro Meza-Flores, known as \"Chapo Isidro\" and listed among the FBI Ten Most Wanted, in a Friday night raid in Sinaloa, the defence ministry said. Two other alleged leaders of his group were also detained and all three were flown to Mexico City. Troops were attacked with gunfire and explosives during the operation, and Mexico said US intelligence helped.",
+  "caption_es": "Fuerzas especiales mexicanas capturaron a Fausto Isidro Meza-Flores, conocido como \"Chapo Isidro\" e incluido en la lista de los diez más buscados del FBI, en un operativo el viernes por la noche en Sinaloa, informó la Secretaría de la Defensa. Otros dos presuntos líderes de su grupo también fueron detenidos y los tres fueron trasladados a Ciudad de México. Las tropas fueron atacadas con disparos y explosivos durante el operativo, y México dijo que contó con inteligencia de Estados Unidos.",
+  "summary_es": "Acusado en EE.UU. desde 2012 por narcotráfico, Washington ofrecía hasta 5 millones de dólares por información que llevara a su captura.",
+  "summary_en": "Indicted in the US since 2012 on drug trafficking charges, he carried a reward of up to $5 million for information leading to his arrest.",
+  "highlight_en": "\"Chapo Isidro\"",
+  "highlight_es": "\"Chapo Isidro\"",
+  "visual_label": "Sinaloa",
+  "image_prompt": "Military helicopters flying low over farmland and a small town at dusk, armored vehicles parked on a rural road, distant hills of northwestern Mexico, tense atmosphere, wide cinematic view, no people visible, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Mexico"
+    ],
+    "marker": {
+      "lat": 25.5675,
+      "lon": -108.4697,
+      "label": "Guasave"
+    },
+    "labels": {
+      "Mexico": "México"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico",
+    "https://www.cbsnews.com/news/mexico-drug-kingpin-arrest-fausto-isidro-meza-flores-sinaloa/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Mexico",
+    "#México",
+    "#Sinaloa",
+    "#FBI"
+  ]
+}
