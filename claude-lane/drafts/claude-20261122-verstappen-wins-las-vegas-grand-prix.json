@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261122-verstappen-wins-las-vegas-grand-prix",
+  "status": "draft",
+  "created_at": "2026-11-22T06:50:30Z",
+  "category": "Sports",
+  "headline": "Verstappen wins a tight Las Vegas Grand Prix ahead of McLaren's Norris and Piastri",
+  "headline_es": "Verstappen gana un reñido Gran Premio de Las Vegas por delante de Norris y Piastri",
+  "caption_en": "Max Verstappen won the Las Vegas Grand Prix for Red Bull, crossing the line 0.639 seconds ahead of McLaren's Lando Norris, with Oscar Piastri third. Verstappen started from pole after Kimi Antonelli took a grid penalty; Antonelli faded to fourth and barely three seconds covered the top five. Ferrari's drivers made contact during the race.",
+  "caption_es": "Max Verstappen ganó el Gran Premio de Las Vegas con Red Bull y cruzó la meta 0,639 segundos por delante de Lando Norris, de McLaren, con Oscar Piastri tercero. Verstappen salió desde la pole después de que Kimi Antonelli recibiera una penalización en la parrilla; Antonelli cayó al cuarto puesto y apenas tres segundos separaron a los cinco primeros. Los dos pilotos de Ferrari se tocaron durante la carrera.",
+  "summary_es": "Verstappen salió desde la pole y resistió a los McLaren; apenas tres segundos separaron a los cinco primeros en la meta.",
+  "summary_en": "Verstappen started from pole and held off both McLarens; barely three seconds covered the top five at the flag.",
+  "highlight_en": "Verstappen wins",
+  "highlight_es": "Verstappen gana",
+  "visual_label": "Las Vegas GP",
+  "image_prompt": "Generic open-wheel racing car speeding along a neon-lit city street circuit at night, glowing casino-style skyline and light trails in the background, wide cinematic view, no text, no logos, no flags, no identifiable people",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 36.11, "lon": -115.17, "label": "Las Vegas"},
+    "labels": {"United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX",
+    "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-race-result/"
+  ],
+  "source_names": ["Formula1.com", "The Race"],
+  "hashtags": ["#MATRIX24", "#F1", "#LasVegasGP", "#Verstappen", "#Formula1"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

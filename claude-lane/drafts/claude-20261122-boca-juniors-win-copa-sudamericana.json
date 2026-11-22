@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261122-boca-juniors-win-copa-sudamericana",
+  "status": "draft",
+  "created_at": "2026-11-22T06:50:30Z",
+  "category": "Colombia / Latin America",
+  "headline": "Boca Juniors beat Atlético Mineiro 2-0 in Barranquilla to win the Copa Sudamericana",
+  "headline_es": "Boca Juniors vence 2-0 al Atlético Mineiro en Barranquilla y gana la Copa Sudamericana",
+  "caption_en": "Boca Juniors beat Brazil's Atlético Mineiro 2-0 in the Copa Sudamericana final in Barranquilla, Colombia, on Saturday. Santiago Ascacíbar scored in the 16th minute and Miguel Merentiel added a second in the 48th. It is Boca's third Sudamericana title, after 2004 and 2005, and its first international trophy since the 2008 Recopa.",
+  "caption_es": "Boca Juniors venció 2-0 al Atlético Mineiro de Brasil en la final de la Copa Sudamericana, disputada el sábado en Barranquilla, Colombia. Santiago Ascacíbar marcó a los 16 minutos y Miguel Merentiel amplió a los 48. Es el tercer título de Boca en la Sudamericana, tras 2004 y 2005, y su primer trofeo internacional desde la Recopa de 2008.",
+  "summary_es": "Goles de Ascacíbar y Merentiel dieron a Boca su tercera Sudamericana y cortaron 18 años sin títulos internacionales.",
+  "summary_en": "Goals from Ascacíbar and Merentiel gave Boca a third Sudamericana and ended an 18-year wait for international silverware.",
+  "highlight_en": "Copa Sudamericana",
+  "highlight_es": "Copa Sudamericana",
+  "visual_label": "Sudamericana",
+  "image_prompt": "Floodlit football stadium at night seen from high in the stands, golden trophy on a pedestal near the pitch, confetti falling through the light beams, wide cinematic view, no text, no logos, no flags, no identifiable people",
+  "map": {
+    "focus": ["Colombia"],
+    "marker": {"lat": 10.93, "lon": -74.8, "label": "Barranquilla"},
+    "labels": {"Colombia": "Colombia"}
+  },
+  "source_urls": [
+    "https://www.beinsports.com/en-us/soccer/conmebol-sudamericana/articles-video/boca-juniors-win-third-copa-sudamericana-and-end-18-year-international-trophy-drought-2026-11-22",
+    "https://larepublica.pe/deportes/2026/11/21/boca-juniors-vencio-20-a-atleticomg-y-se-corono-campeon-de-la-copa-sudamericana-1514730"
+  ],
+  "source_names": ["beIN SPORTS", "La República"],
+  "hashtags": ["#MATRIX24", "#BocaJuniors", "#Sudamericana", "#Fútbol", "#Football"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
