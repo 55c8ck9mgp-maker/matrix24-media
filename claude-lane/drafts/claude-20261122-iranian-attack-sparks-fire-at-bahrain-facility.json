@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261122-iranian-attack-sparks-fire-at-bahrain-facility",
+  "status": "draft",
+  "created_at": "2026-11-22T00:50:10Z",
+  "category": "Security / Geopolitics",
+  "headline": "Bahrain says an Iranian attack set a civilian industrial facility on fire",
+  "headline_es": "Bahréin dice que un ataque iraní incendió una instalación industrial civil",
+  "caption_en": "Bahrain's Interior Ministry said an Iranian attack on Saturday night hit a civilian industrial facility, causing a fire. Preliminary information points to material damage and no casualties, and civil defence teams are working to control the blaze. The facility was not identified.",
+  "caption_es": "El Ministerio del Interior de Bahréin informó que un ataque iraní alcanzó el sábado por la noche una instalación industrial civil y provocó un incendio. La información preliminar indica daños materiales y ninguna víctima, y los equipos de defensa civil trabajan para controlar el fuego. La instalación no fue identificada.",
+  "summary_es": "Un ataque iraní provocó un incendio en una instalación industrial civil de Bahréin. Hay daños materiales y no se reportan víctimas.",
+  "summary_en": "An Iranian attack caused a fire at a civilian industrial facility in Bahrain. Material damage is reported, with no casualties.",
+  "highlight_es": "ataque iraní",
+  "highlight_en": "Iranian attack",
+  "visual_label": "Bahréin",
+  "image_prompt": "Industrial plant at night with orange glow and smoke rising from a storage area, fire trucks parked at a distance, Gulf coastline and calm water in the background, wide cinematic view",
+  "map": {
+    "focus": ["Bahrain"],
+    "labels": {"Bahrain": "Bahréin"}
+  },
+  "source_urls": [
+    "https://gulfnews.com/world/gulf/bahrain/iranian-attack-sparks-fire-at-civilian-industrial-facility-in-bahrain-1.500756564",
+    "https://english.news.cn/20261122/a6d000cae1324ad3a3b29cf3ec93c34a/c.html"
+  ],
+  "source_names": ["Gulf News", "Xinhua"],
+  "hashtags": ["#MATRIX24", "#Bahrain", "#Iran", "#Gulf"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
