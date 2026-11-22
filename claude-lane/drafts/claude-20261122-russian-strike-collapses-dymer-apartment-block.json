@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-22T18:50:54Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261122-russian-strike-collapses-dymer-apartment-block",
+  "category": "Security / Geopolitics",
+  "headline": "Russian strike partly collapses an apartment block in Dymer, north of Kyiv",
+  "headline_es": "Un ataque ruso derrumba parcialmente un edificio de viviendas en Dímer, al norte de Kiev",
+  "caption_en": "A Russian attack early on Sunday hit a five-storey apartment building in Dymer, about 45 km north of Kyiv, partly collapsing it. Rescuers recovered at least two bodies and kept searching the rubble for around 11 missing residents, as the death toll reported by Ukrainian officials rose during the day.",
+  "caption_es": "Un ataque ruso en la madrugada del domingo alcanzó un edificio de cinco pisos en Dímer, a unos 45 km al norte de Kiev, y lo derrumbó parcialmente. Los rescatistas recuperaron al menos dos cuerpos y siguieron buscando entre los escombros a unos 11 residentes desaparecidos, mientras el número de muertos reportado por funcionarios ucranianos aumentaba durante el día.",
+  "source_urls": [
+    "https://aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles",
+    "https://rferl.org/a/russia-ukraine-apartment-survivors-attack-war/33903536.html",
+    "https://www.thejournal.ie/two-killed-russian-attack-destroys-apartment-building-near-kyiv-7234343-Nov2026/"
+  ],
+  "source_names": ["Al Jazeera", "Radio Free Europe/Radio Liberty", "TheJournal.ie"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Rusia", "#Kiev", "#Ukraine"],
+  "summary_es": "El edificio de cinco pisos quedó parcialmente derrumbado. Se han recuperado al menos dos cuerpos y se busca a unos 11 desaparecidos.",
+  "summary_en": "The five-storey building partly collapsed. At least two bodies have been recovered and about 11 people remain missing.",
+  "highlight_es": "edificio de viviendas",
+  "highlight_en": "apartment block",
+  "visual_label": "Dímer",
+  "image_prompt": "Damaged five-storey concrete apartment building under a cold grey winter sky, rubble and dust at its base, rescue cranes and emergency lights in the distance, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": ["Ukraine"],
+    "marker": {"lat": 50.79, "lon": 30.30, "label": "Dímer"},
+    "labels": {"Ukraine": "Ucrania"}
+  }
+}

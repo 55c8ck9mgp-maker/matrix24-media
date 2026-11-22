@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-22T18:50:54Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261122-bepicolombo-enters-orbit-around-mercury",
+  "category": "Science",
+  "headline": "Europe-Japan probe BepiColombo enters orbit around Mercury",
+  "headline_es": "La sonda europeo-japonesa BepiColombo entra en órbita alrededor de Mercurio",
+  "caption_en": "The ESA-JAXA mission BepiColombo entered orbit around Mercury on Saturday, November 21, after a journey of several years that used nine planetary flybys: one of Earth, two of Venus and six of Mercury. Its two orbiters are due to separate in early December, and main science operations are planned to start in April 2027.",
+  "caption_es": "La misión BepiColombo de la ESA y JAXA entró en órbita alrededor de Mercurio el sábado 21 de noviembre, tras un viaje de varios años con nueve sobrevuelos planetarios: uno de la Tierra, dos de Venus y seis de Mercurio. Sus dos orbitadores deben separarse a principios de diciembre y las principales operaciones científicas están previstas a partir de abril de 2027.",
+  "source_urls": [
+    "https://www.wral.com/weather/bepicolombo-nov-2026/",
+    "https://earthsky.org/space/bepicolombo-mission-mercury/"
+  ],
+  "source_names": ["WRAL", "EarthSky"],
+  "hashtags": ["#MATRIX24", "#BepiColombo", "#Mercurio", "#Espacio", "#Space"],
+  "summary_es": "Tras nueve sobrevuelos planetarios, la misión de la ESA y JAXA llegó a Mercurio. Sus dos orbitadores se separarán en diciembre.",
+  "summary_en": "After nine planetary flybys, the ESA-JAXA mission reached Mercury. Its two orbiters will separate in December.",
+  "highlight_es": "Mercurio",
+  "highlight_en": "Mercury",
+  "visual_label": "BepiColombo",
+  "image_prompt": "Spacecraft with large solar panels orbiting a grey cratered planet lit by an intense nearby sun, black starry space, wide cinematic view, no text, no logos, no flags"
+}
