@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-22T12:51:49Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261122-nigeria-funeral-boat-capsize-kills-24",
+  "category": "World",
+  "headline": "Boat carrying mourners capsizes in Nigeria's Bayelsa State, killing at least 24",
+  "headline_es": "Naufraga un barco con asistentes a un funeral en Bayelsa, Nigeria: al menos 24 muertos",
+  "caption_en": "At least 24 people died after a boat carrying mourners to a burial capsized on Friday in Bayelsa State, southern Nigeria, according to the national emergency agency NEMA. Police had earlier reported four deaths and pointed to a mechanical failure; 24 survivors were rescued. Bayelsa's governor Douye Diri ordered an investigation.",
+  "caption_es": "Al menos 24 personas murieron después de que un barco que llevaba a asistentes a un entierro volcara el viernes en el estado de Bayelsa, en el sur de Nigeria, según la agencia nacional de emergencias NEMA. La policía había informado antes de cuatro muertos y apuntó a una falla mecánica; 24 sobrevivientes fueron rescatados. El gobernador de Bayelsa, Douye Diri, ordenó una investigación.",
+  "summary_es": "La agencia de emergencias NEMA elevó a 24 la cifra de muertos; la policía señaló una falla mecánica y el gobernador ordenó investigar.",
+  "summary_en": "Emergency agency NEMA raised the toll to 24; police cited a mechanical failure and the governor ordered an investigation.",
+  "highlight_en": "capsizes",
+  "highlight_es": "Naufraga",
+  "visual_label": "Bayelsa",
+  "image_prompt": "Wooden passenger boat on a wide brown river lined with dense mangroves under an overcast sky, empty life jackets floating on the water, wide cinematic view, no text, no logos, no flags, no identifiable people",
+  "map": {
+    "focus": [
+      "Nigeria"
+    ],
+    "marker": {
+      "lat": 4.92,
+      "lon": 6.26,
+      "label": "Bayelsa"
+    },
+    "labels": {
+      "Nigeria": "Nigeria"
+    }
+  },
+  "source_urls": [
+    "https://whbl.com/2026/11/22/death-toll-from-nigeria-boat-accident-rises-to-24/",
+    "https://citizen.digital/article/nigeria-boat-capsize-death-toll-rises-to-24-n394345"
+  ],
+  "source_names": [
+    "Reuters (via WHBL)",
+    "AFP (via Citizen Digital)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Nigeria",
+    "#Bayelsa",
+    "#África"
+  ]
+}
