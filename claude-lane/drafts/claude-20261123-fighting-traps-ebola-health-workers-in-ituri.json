@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-23T06:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261123-fighting-traps-ebola-health-workers-in-ituri",
+  "category": "World",
+  "headline": "WHO says fighting near a Congo hospital trapped Ebola health workers for over 24 hours",
+  "headline_es": "La OMS dice que combates cerca de un hospital en Congo atraparon a trabajadores del ébola",
+  "caption_en": "WHO chief Tedros Adhanom Ghebreyesus said on Sunday that heavy fighting near a hospital in Ituri province, eastern DR Congo, disrupted the Ebola response and forced health workers to shelter in a maternity ward for more than 24 hours. The WHO is working to secure their safe exit. The outbreak, the country's largest, has killed more than 5,500 people.",
+  "caption_es": "El director de la OMS, Tedros Adhanom Ghebreyesus, dijo el domingo que intensos combates cerca de un hospital en la provincia de Ituri, en el este de RD Congo, interrumpieron la respuesta al ébola y obligaron a trabajadores de salud a refugiarse en una sala de maternidad durante más de 24 horas. La OMS trabaja para asegurar su salida. El brote, el mayor del país, ha matado a más de 5.500 personas.",
+  "summary_es": "Personal sanitario se refugió más de 24 horas en una maternidad de Ituri; la OMS busca una salida segura y pide paz.",
+  "summary_en": "Health workers sheltered for over 24 hours in an Ituri maternity ward; the WHO seeks a safe exit and calls for peace.",
+  "highlight_en": "Ebola health workers",
+  "highlight_es": "ébola",
+  "visual_label": "Ituri",
+  "image_prompt": "Small rural hospital building with a corrugated metal roof surrounded by green hills under a hazy sky, empty medical tents and supply crates in the courtyard, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Dem. Rep. Congo"],
+    "marker": {"lat": 1.56, "lon": 30.25, "label": "Ituri"},
+    "labels": {"Dem. Rep. Congo": "RD Congo"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region",
+    "https://www.arabnews.com/world/who-chief-says-fighting-near-congo-ebola-outbreak-area-disrupts-response-efforts-3013614"
+  ],
+  "source_names": ["Al Jazeera", "Reuters (via Arab News)"],
+  "hashtags": ["#MATRIX24", "#Ébola", "#RDCongo", "#OMS", "#África"]
+}

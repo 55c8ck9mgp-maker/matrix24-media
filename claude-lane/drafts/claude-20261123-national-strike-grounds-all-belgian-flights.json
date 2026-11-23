@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-23T06:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261123-national-strike-grounds-all-belgian-flights",
+  "category": "Economy",
+  "headline": "National strike against austerity grounds flights at Belgium's airports",
+  "headline_es": "Huelga nacional contra la austeridad deja en tierra los vuelos en los aeropuertos de Bélgica",
+  "caption_en": "Air traffic controller Skeyes halted regular traffic in Belgian airspace from 07:00 to 21:00 on Monday as unions held a national strike against the austerity plans of Prime Minister Bart De Wever's government. Flights at Brussels Airport and Brussels-Charleroi were cancelled, and Brussels public transport ran only a reduced service. Airlines say it is the 11th strike to affect Belgian airspace in 11 months.",
+  "caption_es": "El controlador aéreo Skeyes suspendió el tráfico regular en el espacio aéreo belga de 07:00 a 21:00 este lunes, mientras los sindicatos realizaban una huelga nacional contra los planes de austeridad del gobierno del primer ministro Bart De Wever. Se cancelaron los vuelos en el aeropuerto de Bruselas y en Bruselas-Charleroi, y el transporte público de Bruselas funcionó con servicio reducido. Según las aerolíneas, es la undécima huelga que afecta al espacio aéreo belga en 11 meses.",
+  "summary_es": "Skeyes suspendió el tráfico aéreo de 07:00 a 21:00; los sindicatos protestan contra los recortes del gobierno de Bart De Wever.",
+  "summary_en": "Skeyes halted air traffic from 07:00 to 21:00 as unions protest the spending cuts of Bart De Wever's government.",
+  "highlight_en": "grounds flights",
+  "highlight_es": "Huelga nacional",
+  "visual_label": "Bruselas",
+  "image_prompt": "Empty airport departure hall with rows of vacant seats and a quiet runway visible through tall windows, parked airliners at their gates under a grey sky, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Belgium"],
+    "marker": {"lat": 50.85, "lon": 4.35, "label": "Bruselas"},
+    "labels": {"Belgium": "Bélgica"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike",
+    "https://www.brusselstimes.com/belgium/2416819/national-strike-no-flights-at-belgian-airports-only-two-metro-lines-running-in-brussels-tbtb/"
+  ],
+  "source_names": ["Al Jazeera", "The Brussels Times"],
+  "hashtags": ["#MATRIX24", "#Bélgica", "#Belgium", "#Huelga", "#Europa"]
+}

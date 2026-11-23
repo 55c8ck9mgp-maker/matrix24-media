@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-23T06:52:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261123-indonesia-candy-factory-fire-24-body-bags",
+  "category": "World",
+  "headline": "Rescuers recover 24 body bags from burned candy factory in Indonesia; dozens still missing",
+  "headline_es": "Rescatistas recuperan 24 bolsas con restos de una fábrica de dulces incendiada en Indonesia",
+  "caption_en": "Rescuers have recovered remains in 24 body bags from the PT Fonusa Agung Mulia confectionery factory in Cikande, Banten province, west of Jakarta, which caught fire on Saturday evening. Around 30 workers remain unaccounted for, and victims will have to be identified through DNA tests. The cause of the fire is under investigation.",
+  "caption_es": "Los rescatistas recuperaron restos en 24 bolsas mortuorias de la fábrica de dulces PT Fonusa Agung Mulia en Cikande, provincia de Banten, al oeste de Yakarta, que se incendió el sábado por la noche. Alrededor de 30 trabajadores siguen desaparecidos y las víctimas deberán identificarse mediante pruebas de ADN. La causa del incendio está bajo investigación.",
+  "summary_es": "Unos 30 trabajadores siguen desaparecidos tras el incendio del sábado en Cikande, Banten; las víctimas se identificarán por ADN.",
+  "summary_en": "Around 30 workers are still missing after Saturday's fire in Cikande, Banten; victims will be identified by DNA.",
+  "highlight_en": "24 body bags",
+  "highlight_es": "24 bolsas",
+  "visual_label": "Banten",
+  "image_prompt": "Burned-out three-story industrial factory building at dusk, blackened walls and collapsed roof sections, thin smoke rising, fire hoses lying on wet pavement, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Indonesia"],
+    "marker": {"lat": -6.17, "lon": 106.35, "label": "Cikande"},
+    "labels": {"Indonesia": "Indonesia"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site",
+    "https://www.arabnews.com/world/more-remains-recovered-in-the-search-for-34-workers-missing-after-an-indonesian-candy-factory-fire-3013644",
+    "https://www.koreaherald.com/article/10946223"
+  ],
+  "source_names": ["Al Jazeera", "AP (via Arab News)", "Reuters (via The Korea Herald)"],
+  "hashtags": ["#MATRIX24", "#Indonesia", "#Banten", "#Asia"]
+}
