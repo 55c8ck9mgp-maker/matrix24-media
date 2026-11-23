@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-23T18:52:03Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261123-armenia-unveils-draft-constitution-for-peace",
+  "category": "Security / Geopolitics",
+  "headline": "Armenia unveils a draft constitution to clear the way for a peace treaty with Azerbaijan",
+  "headline_es": "Armenia presenta un borrador de constitución para abrir paso a la paz con Azerbaiyán",
+  "caption_en": "Prime Minister Nikol Pashinyan presented a draft new constitution on Monday that rewrites the preamble and removes a reference to the reunification of Armenia and Nagorno-Karabakh. Azerbaijan has demanded that change before a peace treaty is finalized. Calling a referendum needs a two-thirds majority, and Pashinyan's party is six votes short; he pledged to resign if voters reject the text.",
+  "caption_es": "El primer ministro Nikol Pashinián presentó este lunes un borrador de nueva constitución que reescribe el preámbulo y elimina una referencia a la reunificación de Armenia y Nagorno Karabaj. Azerbaiyán exige ese cambio antes de cerrar un tratado de paz. Convocar un referéndum requiere una mayoría de dos tercios y al partido de Pashinián le faltan seis votos; prometió dimitir si los votantes rechazan el texto.",
+  "summary_es": "Pashinián elimina del preámbulo la referencia a Karabaj, una condición de Bakú para firmar la paz.",
+  "summary_en": "Pashinyan drops the Karabakh reference from the preamble, a condition set by Baku for signing peace.",
+  "highlight_en": "draft constitution",
+  "highlight_es": "borrador de constitución",
+  "visual_label": "Ereván",
+  "image_prompt": "Open leather-bound constitution book on a wooden desk in a sunlit government hall, a snow-capped mountain visible through a tall window, calm cinematic light, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Armenia", "Azerbaijan"],
+    "marker": {"lat": 40.18, "lon": 44.51, "label": "Ereván"},
+    "labels": {"Armenia": "Armenia", "Azerbaijan": "Azerbaiyán"}
+  },
+  "source_urls": [
+    "https://www.news4jax.com/news/world/2026/11/23/armenian-prime-minister-proposes-new-constitution-in-bid-for-peace-with-azerbaijan/",
+    "https://www.arabnews.com/world/armenia-proposes-new-constitution-in-step-toward-peace-with-azerbaijan-3013714",
+    "https://meduza.io/en/news/2026/11/23/armenia-unveils-draft-constitution-removing-reference-to-nagorno-karabakh-reunification-in-concession-to-azerbaijan"
+  ],
+  "source_names": ["Associated Press (News4JAX)", "Reuters (Arab News)", "Meduza"],
+  "hashtags": ["#MATRIX24", "#Armenia", "#Azerbaiyán", "#Paz", "#Cáucaso"]
+}

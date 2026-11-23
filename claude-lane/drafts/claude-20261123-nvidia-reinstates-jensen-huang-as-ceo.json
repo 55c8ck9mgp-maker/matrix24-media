@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-23T18:52:03Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261123-nvidia-reinstates-jensen-huang-as-ceo",
+  "category": "Technology",
+  "headline": "Nvidia's board unanimously reinstates Jensen Huang as CEO, effective immediately",
+  "headline_es": "La junta de Nvidia restituye por unanimidad a Jensen Huang como consejero delegado",
+  "caption_en": "Nvidia said on Monday its board voted unanimously to reinstate Jensen Huang as president, CEO and board member, effective immediately, after he stepped down on November 12. Colette Kress, who served as interim CEO, stays on as finance chief. The board also created a national security and export control committee of independent directors and will hire a chief compliance officer. Shares jumped in premarket trading.",
+  "caption_es": "Nvidia informó este lunes que su junta votó por unanimidad restituir a Jensen Huang como presidente, consejero delegado y miembro del consejo, con efecto inmediato, tras su salida el 12 de noviembre. Colette Kress, que ejerció como consejera delegada interina, sigue como directora financiera. La junta también creó un comité de seguridad nacional y control de exportaciones formado por consejeros independientes y contratará a un director de cumplimiento. Las acciones subieron con fuerza antes de la apertura.",
+  "summary_es": "Huang vuelve a dirigir Nvidia tras 11 días fuera; la empresa crea un comité de seguridad nacional y control de exportaciones.",
+  "summary_en": "Huang returns to lead Nvidia after 11 days away; the company adds a national security and export control committee.",
+  "highlight_en": "reinstates Jensen Huang",
+  "highlight_es": "restituye",
+  "visual_label": "Nvidia",
+  "image_prompt": "Modern corporate headquarters at dawn with glass facade, a close-up of a glowing AI chip on a circuit board in the foreground, green and dark tones, wide cinematic view, no text, no logos, no people",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 37.35, "lon": -121.95, "label": "Santa Clara"},
+    "labels": {"United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://www.tomshardware.com/tech-industry/nvidia-reinstates-jensen-huang-as-ceo-following-unanimous-vote-by-company-board-11-day-exit-from-company-saw-stock-prices-fall-by-24-percent-after-affair-scandal",
+    "https://finance.yahoo.com/markets/stocks/articles/nvidia-reinstates-jensen-huang-ceo-140721418.html",
+    "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+  ],
+  "source_names": ["Tom's Hardware", "Decrypt (Yahoo Finance)", "NVIDIA press release (SEC filing)"],
+  "hashtags": ["#MATRIX24", "#Nvidia", "#Tecnología", "#IA", "#Technology"]
+}
