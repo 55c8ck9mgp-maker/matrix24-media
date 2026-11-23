@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-23T12:51:17Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261123-rutte-warns-of-intensifying-sabotage-in-europe",
+  "category": "Security / Geopolitics",
+  "headline": "NATO's Rutte warns of intensifying sabotage and says shell output will nearly double",
+  "headline_es": "Rutte advierte de más sabotajes y dice que la OTAN casi duplicará su producción de munición",
+  "caption_en": "Speaking to the NATO Parliamentary Assembly in Berlin on Monday, Secretary General Mark Rutte warned of growing sabotage, cyberattacks and attacks on ships targeting allies, citing recent incidents in Poland and the Black Sea. He urged more defence spending and said the alliance could produce around 4 million artillery shells a year from 2027, nearly double the 2025 level.",
+  "caption_es": "Ante la Asamblea Parlamentaria de la OTAN en Berlín este lunes, el secretario general Mark Rutte advirtió del aumento de sabotajes, ciberataques y ataques contra barcos dirigidos a los aliados, y citó incidentes recientes en Polonia y el mar Negro. Pidió más gasto en defensa y afirmó que la alianza podría producir unos 4 millones de proyectiles de artillería al año a partir de 2027, casi el doble que en 2025.",
+  "summary_es": "En Berlín, Rutte pidió más gasto en defensa y anunció que la producción de munición casi se duplicará desde 2027.",
+  "summary_en": "In Berlin, Rutte urged more defence spending and said ammunition output will nearly double from 2027.",
+  "highlight_en": "intensifying sabotage",
+  "highlight_es": "más sabotajes",
+  "visual_label": "OTAN",
+  "image_prompt": "Modern parliament assembly hall with empty curved rows of seats and a podium under bright lights, a subtle overlay of an undersea cable and a railway line, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": [
+      "Germany"
+    ],
+    "marker": {
+      "lat": 52.52,
+      "lon": 13.4,
+      "label": "Berlín"
+    },
+    "labels": {
+      "Germany": "Alemania"
+    }
+  },
+  "source_urls": [
+    "https://www.infobae.com/america/agencias/2026/11/23/rutte-insta-a-aliados-a-intentar-alcanzar-el-objetivo-del-5-en-defensa-antes-de-2035/",
+    "https://www.anews.com.tr/world/2026/11/23/nato-chief-warns-of-intensifying-malign-activities-targeting-alliance-nations"
+  ],
+  "source_names": [
+    "EFE (Infobae)",
+    "Anadolu Agency (anews)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#OTAN",
+    "#NATO",
+    "#Defensa",
+    "#Europa"
+  ]
+}

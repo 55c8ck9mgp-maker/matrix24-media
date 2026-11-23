@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-23T12:51:17Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261123-drones-attack-police-command-in-cucuta",
+  "category": "Colombia / Latin America",
+  "headline": "Explosive-laden drones attack police command in Colombia's Cúcuta; two civilians hurt",
+  "headline_es": "Drones con explosivos atacan el comando de Policía en Cúcuta; dos civiles heridos",
+  "caption_en": "Drones carrying explosives attacked the Norte de Santander police command in Cúcuta, Colombia, at around 2:30 a.m. on Monday, according to the police. Two civilians suffered minor injuries, no officers were hurt, and several nearby homes were damaged by the blast. Police blamed illegal armed groups without naming one.",
+  "caption_es": "Drones cargados con explosivos atacaron el comando de la Policía de Norte de Santander en Cúcuta, Colombia, hacia las 2:30 de la madrugada del lunes, según la Policía. Dos civiles sufrieron heridas leves, ningún policía resultó herido y varias viviendas cercanas sufrieron daños por la onda explosiva. La Policía atribuyó el ataque a grupos armados ilegales, sin nombrar a ninguno.",
+  "summary_es": "El ataque ocurrió hacia las 2:30 a. m.; dos civiles con heridas leves y viviendas cercanas dañadas.",
+  "summary_en": "The attack came around 2:30 a.m.; two civilians had minor injuries and nearby homes were damaged.",
+  "highlight_en": "police command",
+  "highlight_es": "comando de Policía",
+  "visual_label": "Cúcuta",
+  "image_prompt": "Quadcopter drone silhouetted against a dark pre-dawn sky above low city rooftops and street lights, tense atmosphere, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": [
+      "Colombia"
+    ],
+    "marker": {
+      "lat": 7.89,
+      "lon": -72.5,
+      "label": "Cúcuta"
+    },
+    "labels": {
+      "Colombia": "Colombia"
+    }
+  },
+  "source_urls": [
+    "https://www.eltiempo.com/colombia/otras-ciudades/nuevos-detalles-del-ataque-con-drones-con-explosivos-en-el-comando-de-la-policia-de-cucuta-norte-de-santander-dos-civiles-quedaron-heridos-3603267",
+    "https://www.semana.com/nacion/cucuta/articulo/confirman-dos-civiles-heridos-tras-ataque-terrorista-contra-instalaciones-de-la-policia-de-norte-de-santander-en-cucuta/202639/"
+  ],
+  "source_names": [
+    "El Tiempo",
+    "Semana"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Colombia",
+    "#Cúcuta",
+    "#Drones",
+    "#NorteDeSantander"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-23T12:51:17Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261123-ukrainian-drones-hit-russian-oil-sites",
+  "category": "Security / Geopolitics",
+  "headline": "Ukrainian drones set fires at oil sites in Russia's Rostov, Tatarstan and Perm regions",
+  "headline_es": "Drones ucranianos provocan incendios en instalaciones petroleras de Rostov, Tatarstán y Perm",
+  "caption_en": "Drones struck Russian oil facilities overnight into Monday, with fires reported at the Novoshakhtinsk refinery in the Rostov region and Lukoil's refinery in Perm, and damage to oil storage tanks near Almetyevsk in Tatarstan. Regional authorities acknowledged damage without naming the sites and reported no casualties. Russia's Defence Ministry said 192 Ukrainian drones were downed over 16 regions and Crimea.",
+  "caption_es": "Drones atacaron instalaciones petroleras rusas durante la noche del domingo al lunes, con incendios reportados en la refinería de Novoshajtinsk, en la región de Rostov, y en la refinería de Lukoil en Perm, además de daños en tanques de almacenamiento de petróleo cerca de Almétievsk, en Tatarstán. Las autoridades regionales reconocieron daños sin identificar los sitios y no informaron de víctimas. El Ministerio de Defensa ruso dijo haber derribado 192 drones ucranianos sobre 16 regiones y Crimea.",
+  "summary_es": "Incendios en refinerías de Rostov y Perm y daños en tanques cerca de Almétievsk. Rusia dice haber derribado 192 drones.",
+  "summary_en": "Fires at refineries in Rostov and Perm and damage to tanks near Almetyevsk. Russia says it downed 192 drones.",
+  "highlight_en": "oil sites",
+  "highlight_es": "instalaciones petroleras",
+  "visual_label": "Refinerías",
+  "image_prompt": "Oil refinery at night with distillation towers and storage tanks, a distant orange glow and dark smoke rising into a cloudy sky, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": [
+      "Russia"
+    ],
+    "marker": {
+      "lat": 47.76,
+      "lon": 39.93,
+      "label": "Novoshajtinsk"
+    },
+    "labels": {
+      "Russia": "Rusia"
+    }
+  },
+  "source_urls": [
+    "https://www.kyivpost.com/post/90874",
+    "https://euromaidanpress.com/2026/11/23/russias-perm-refinery-sits-some-1500-km-from-the-front-line-ukrainian-drones-set-it-on-fire-again/",
+    "https://akipress.com/news:932745"
+  ],
+  "source_names": [
+    "Kyiv Post",
+    "Euromaidan Press",
+    "AKIpress"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Rusia",
+    "#Ucrania",
+    "#Ukraine",
+    "#Drones"
+  ]
+}
