@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261123-drone-attack-hits-russian-warship-in-benghazi",
+  "status": "draft",
+  "created_at": "2026-11-23T00:50:46Z",
+  "category": "Security / Geopolitics",
+  "headline": "Suspected drone attack hits Russian warship docked in Libya's Benghazi",
+  "headline_es": "Un presunto ataque con drones alcanza a un buque de guerra ruso atracado en Bengasi, Libia",
+  "caption_en": "A Russian navy ship docked at the naval base in Benghazi, eastern Libya, was hit on Sunday in a suspected drone attack, causing an explosion and a fire that was later put out, eastern Libyan authorities said. Two Libyan military officials told AP the vessel was the corvette Merkury, struck by sea drones they said came from western Libya. No one has claimed responsibility, and Russia and Ukraine have not commented.",
+  "caption_es": "Un buque de la Armada rusa atracado en la base naval de Bengasi, en el este de Libia, fue alcanzado el domingo por un presunto ataque con drones, que provocó una explosión y un incendio luego sofocado, según las autoridades del este libio. Dos oficiales militares libios dijeron a AP que se trataba de la corbeta Merkury, impactada por drones marítimos que, según ellos, salieron del oeste de Libia. Nadie se ha atribuido el ataque y Rusia y Ucrania no han comentado.",
+  "summary_es": "El barco había atracado para repostar, según el gobierno del este libio, que abrió una investigación conjunta con Rusia. No se reportaron víctimas.",
+  "summary_en": "The ship had docked to refuel, said the eastern Libyan government, which opened a joint investigation with Russia. No casualties were reported.",
+  "highlight_en": "Russian warship",
+  "highlight_es": "buque de guerra ruso",
+  "visual_label": "Bengasi",
+  "image_prompt": "Grey naval corvette moored at a Mediterranean harbor pier at dusk, a column of dark smoke rising from its deck, port cranes and calm water around, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Libya"],
+    "marker": {"lat": 32.12, "lon": 20.07, "label": "Bengasi"},
+    "labels": {"Libya": "Libia"}
+  },
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+    "https://kyivindependent.com/russian-warship-docked-in-benghazi-hit-by-suspected-drone-attack-libyan-officials-say/"
+  ],
+  "source_names": ["Associated Press (via ABC News)", "The Kyiv Independent"],
+  "hashtags": ["#MATRIX24", "#Libia", "#Rusia", "#Bengasi", "#Mediterráneo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

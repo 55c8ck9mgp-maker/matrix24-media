@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261123-trump-weighs-iran-strikes-after-new-year",
+  "status": "draft",
+  "created_at": "2026-11-23T00:50:46Z",
+  "category": "Security / Geopolitics",
+  "headline": "Trump says he is inclined to resume strikes on Iran after the New Year if no deal",
+  "headline_es": "Trump se inclina por reanudar ataques contra Irán tras Año Nuevo si no hay acuerdo",
+  "caption_en": "US President Donald Trump told Fox News on Sunday that he is inclined to order new military strikes on Iran after the New Year if the two countries fail to reach an agreement. He voiced frustration with the indirect talks, calling Iran's negotiators \"professional tap dancers,\" and warned that Iranian vessels trying to break the US naval blockade would be sunk.",
+  "caption_es": "El presidente de EE. UU., Donald Trump, dijo el domingo a Fox News que se inclina por ordenar nuevos ataques militares contra Irán después de Año Nuevo si ambos países no logran un acuerdo. Expresó su frustración con las negociaciones indirectas, llamó a los negociadores iraníes \"bailarines de claqué profesionales\" y advirtió que los buques iraníes que intenten romper el bloqueo naval estadounidense serán hundidos.",
+  "summary_es": "Las conversaciones indirectas, con mediación de Catar, siguen sin avances sustanciales. Irán califica el bloqueo naval como un acto de guerra.",
+  "summary_en": "Indirect talks, with Qatar relaying messages, have made little progress. Iran calls the US naval blockade an act of war.",
+  "highlight_en": "strikes on Iran",
+  "highlight_es": "ataques contra Irán",
+  "visual_label": "Irán",
+  "image_prompt": "Aircraft carrier and escort warships sailing on a calm sea at dawn, distant arid coastline on the horizon, overcast sky, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Iran", "United States of America"],
+    "labels": {"Iran": "Irán", "United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers",
+    "https://www.arabtimesonline.com/news/trump-threatens-new-iran-strikes-after-new-year-if-talks-fail/",
+    "https://www.iranintl.com/en/202611226299"
+  ],
+  "source_names": ["Fox News", "Arab Times", "Iran International"],
+  "hashtags": ["#MATRIX24", "#Iran", "#EstadosUnidos", "#Trump", "#Ormuz"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

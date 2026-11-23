@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261123-houthis-claim-attack-on-saudi-rabigh-refinery",
+  "status": "draft",
+  "created_at": "2026-11-23T00:50:46Z",
+  "category": "Security / Geopolitics",
+  "headline": "Yemen's Houthis say they attacked Saudi Arabia's Rabigh oil refinery",
+  "headline_es": "Los hutíes de Yemen dicen haber atacado la refinería saudí de Rabigh",
+  "caption_en": "Yemen's Houthis said on Sunday they had attacked the Rabigh oil refinery on Saudi Arabia's Red Sea coast, north of Jeddah, claiming a direct hit without giving details of any damage. Saudi authorities did not immediately comment. The Houthis have claimed a series of attacks on Saudi energy infrastructure in recent months.",
+  "caption_es": "Los hutíes de Yemen afirmaron el domingo haber atacado la refinería de petróleo de Rabigh, en la costa saudí del mar Rojo, al norte de Yeda, y aseguraron un impacto directo sin dar detalles de daños. Las autoridades saudíes no comentaron de inmediato. Los hutíes se han atribuido una serie de ataques contra infraestructura energética saudí en los últimos meses.",
+  "summary_es": "Rabigh está a unos 165 km al norte de Yeda. Arabia Saudí no ha confirmado ataques contra sus refinerías.",
+  "summary_en": "Rabigh lies about 165 km north of Jeddah. Saudi Arabia has not confirmed any attacks on its refineries.",
+  "highlight_en": "Rabigh oil refinery",
+  "highlight_es": "refinería saudí de Rabigh",
+  "visual_label": "Rabigh",
+  "image_prompt": "Coastal oil refinery with distillation towers and storage tanks beside a calm blue sea at dusk, a thin plume of smoke on the horizon, desert terrain, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Saudi Arabia", "Yemen"],
+    "marker": {"lat": 22.8, "lon": 39.03, "label": "Rabigh"},
+    "labels": {"Saudi Arabia": "Arabia Saudí", "Yemen": "Yemen"}
+  },
+  "source_urls": [
+    "https://srnnews.com/yemens-houthis-say-they-attacked-saudi-rabigh-oil-refinery/",
+    "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-attacked-saudi-arabias-rabigh-oil-refinery"
+  ],
+  "source_names": ["Reuters (via SRN News)", "Middle East Eye"],
+  "hashtags": ["#MATRIX24", "#Yemen", "#ArabiaSaudí", "#Hutíes", "#Petróleo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
