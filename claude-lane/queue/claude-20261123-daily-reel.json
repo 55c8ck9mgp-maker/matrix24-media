@@ -1,0 +1,76 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261123-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-23T00:10:43.998Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-23",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-23",
+  "caption_es": "Resumen del día:\n1️⃣ Un ataque ruso derrumba parcialmente un edificio de viviendas en Dímer, al norte de Kiev\n2️⃣ Naufraga un barco con asistentes a un funeral en Bayelsa, Nigeria: al menos 24 muertos\n3️⃣ Boca Juniors vence 2-0 al Atlético Mineiro en Barranquilla y gana la Copa Sudamericana\n4️⃣ Bahréin dice que un ataque iraní incendió una instalación industrial civil",
+  "caption_en": "Today's summary:\n1️⃣ Russian strike partly collapses an apartment block in Dymer, north of Kyiv\n2️⃣ Boat carrying mourners capsizes in Nigeria's Bayelsa State, killing at least 24\n3️⃣ Boca Juniors beat Atlético Mineiro 2-0 in Barranquilla to win the Copa Sudamericana\n4️⃣ Bahrain says an Iranian attack set a civilian industrial facility on fire",
+  "source_urls": [
+    "https://aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles",
+    "https://rferl.org/a/russia-ukraine-apartment-survivors-attack-war/33903536.html",
+    "https://www.thejournal.ie/two-killed-russian-attack-destroys-apartment-building-near-kyiv-7234343-Nov2026/",
+    "https://whbl.com/2026/11/22/death-toll-from-nigeria-boat-accident-rises-to-24/",
+    "https://citizen.digital/article/nigeria-boat-capsize-death-toll-rises-to-24-n394345",
+    "https://www.beinsports.com/en-us/soccer/conmebol-sudamericana/articles-video/boca-juniors-win-third-copa-sudamericana-and-end-18-year-international-trophy-drought-2026-11-22",
+    "https://larepublica.pe/deportes/2026/11/21/boca-juniors-vencio-20-a-atleticomg-y-se-corono-campeon-de-la-copa-sudamericana-1514730",
+    "https://gulfnews.com/world/gulf/bahrain/iranian-attack-sparks-fire-at-civilian-industrial-facility-in-bahrain-1.500756564",
+    "https://english.news.cn/20261122/a6d000cae1324ad3a3b29cf3ec93c34a/c.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Radio Free Europe/Radio Liberty",
+    "TheJournal.ie",
+    "Reuters (via WHBL)",
+    "AFP (via Citizen Digital)",
+    "beIN SPORTS",
+    "La República",
+    "Gulf News",
+    "Xinhua"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#Ucrania",
+    "#Rusia",
+    "#Kiev",
+    "#Ukraine",
+    "#Nigeria",
+    "#Bayelsa",
+    "#África",
+    "#BocaJuniors",
+    "#Sudamericana",
+    "#Fútbol",
+    "#Football",
+    "#Bahrain"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261123-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261123-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261122-russian-strike-collapses-dymer-apartment-block",
+      "claude-20261122-nigeria-funeral-boat-capsize-kills-24",
+      "claude-20261122-boca-juniors-win-copa-sudamericana",
+      "claude-20261122-iranian-attack-sparks-fire-at-bahrain-facility"
+    ],
+    "total_seconds": 67
+  },
+  "publish_attempt_id": "ec5e1253-b17d-4317-b8dc-c86e68bec541",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-23T00:12:05.502Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-23T00:12:05.502Z",
+      "event": "reserved",
+      "publish_attempt_id": "ec5e1253-b17d-4317-b8dc-c86e68bec541"
+    }
+  ],
+  "reserved_at": "2026-11-23T00:12:05.502Z"
+}
