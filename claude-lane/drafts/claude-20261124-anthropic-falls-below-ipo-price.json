@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-24T18:53:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261124-anthropic-falls-below-ipo-price",
+  "category": "Economy",
+  "headline": "AI stocks slide again as Anthropic drops below its $83 IPO price and Nvidia gives back gains",
+  "headline_es": "Las acciones de IA vuelven a caer: Anthropic baja de su precio de salida y Nvidia retrocede",
+  "caption_en": "AI-linked shares led Wall Street lower on Tuesday, a day after Nvidia soared 31.5% following Jensen Huang's return as CEO. Nvidia fell more than 6% and Anthropic slid below its $83 initial offering price. CoreWeave also dropped, and the Nasdaq composite was down more than 1% during the session.",
+  "caption_es": "Las acciones ligadas a la inteligencia artificial arrastraron a Wall Street a la baja el martes, un día después de que Nvidia subiera un 31,5 % tras el regreso de Jensen Huang como director ejecutivo. Nvidia cayó más de un 6 % y Anthropic bajó de su precio de salida a bolsa de 83 dólares. CoreWeave también retrocedió y el índice Nasdaq perdía más de un 1 % durante la sesión.",
+  "summary_es": "Nvidia cayó más de un 6 % tras subir un 31,5 % el lunes. Anthropic quedó por debajo de su precio de salida a bolsa.",
+  "summary_en": "Nvidia fell more than 6% after Monday's 31.5% jump. Anthropic traded below its IPO price.",
+  "highlight_en": "AI stocks slide",
+  "highlight_es": "acciones de IA",
+  "visual_label": "Wall Street",
+  "image_prompt": "Large trading screens showing red downward stock charts in a dim modern trading floor, glowing computer chips in the foreground, cool blue and red tones, wide cinematic view, no text, no logos, no flags, no people",
+  "source_urls": [
+    "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
+    "https://thenationalnews.com/business/markets/2026/11/24/whats-a-bull-trap-nvidia-ai-stocks-nasdaq-djia-sp500"
+  ],
+  "source_names": ["BNN Bloomberg (AP)", "The National"],
+  "hashtags": ["#MATRIX24", "#WallStreet", "#Nvidia", "#Anthropic", "#AI"]
+}

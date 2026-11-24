@@ -1,0 +1,33 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-24T18:53:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261124-houthi-attack-on-riyadh-tower-injures-11",
+  "category": "Security / Geopolitics",
+  "headline": "Houthi attack on a tower in Riyadh's financial district injures 11, Saudi Civil Defense says",
+  "headline_es": "Ataque hutí contra una torre del distrito financiero de Riad deja 11 heridos, según Defensa Civil",
+  "caption_en": "Eleven people were injured on Tuesday when a tower in Riyadh's King Abdullah Financial District was hit in what Saudi Civil Defense called a Houthi attack. The injured were two Saudis, two Indians, three Nepalese and four Egyptians. The Saudi-led coalition's spokesman called it a cowardly terrorist attack; it was the second strike on the district's towers in less than a week.",
+  "caption_es": "Once personas resultaron heridas el martes cuando una torre del Distrito Financiero Rey Abdalá, en Riad, fue alcanzada en lo que la Defensa Civil saudí calificó como un ataque hutí. Los heridos son dos saudíes, dos indios, tres nepalíes y cuatro egipcios. El portavoz de la coalición liderada por Arabia Saudita lo calificó de cobarde ataque terrorista; fue el segundo ataque contra torres del distrito en menos de una semana.",
+  "summary_es": "Entre los 11 heridos hay saudíes, indios, nepalíes y egipcios. Es el segundo ataque contra el distrito financiero de Riad en menos de una semana.",
+  "summary_en": "The 11 injured include Saudi, Indian, Nepalese and Egyptian nationals. It was the second attack on Riyadh's financial district in under a week.",
+  "highlight_en": "Riyadh's financial district",
+  "highlight_es": "distrito financiero de Riad",
+  "visual_label": "Riad",
+  "image_prompt": "Modern glass skyscrapers of a desert city financial district at dusk, emergency vehicle lights glowing at street level, haze in the air, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Saudi Arabia"],
+    "marker": {"lat": 24.762, "lon": 46.64, "label": "Riad"},
+    "labels": {"Saudi Arabia": "Arabia Saudita"}
+  },
+  "source_urls": [
+    "https://www.arabnews.com/saudi-arabia/11-injured-after-houthi-attack-on-tower-in-riyadhs-financial-district-3013857",
+    "https://www.theweek.in/news/middle-east/2026/11/24/riyadh-tower-attack-houthis.html",
+    "https://www.aljazeera.com/news/2026/11/24/saudi-led-coalition-condemns-terrorist-attack-on-tower-in-riyadh"
+  ],
+  "source_names": ["Arab News", "The Week", "Al Jazeera"],
+  "hashtags": ["#MATRIX24", "#Riyadh", "#SaudiArabia", "#Houthis"]
+}

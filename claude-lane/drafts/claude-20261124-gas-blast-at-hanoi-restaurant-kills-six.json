@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-24T18:53:00Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261124-gas-blast-at-hanoi-restaurant-kills-six",
+  "category": "World",
+  "headline": "Suspected gas explosion at a Hanoi restaurant kills at least six",
+  "headline_es": "Una presunta explosión de gas en un restaurante de Hanói deja al menos seis muertos",
+  "caption_en": "An explosion tore through a restaurant in Hanoi's Dong Da district around 8 a.m. on Tuesday, killing at least six people and injuring several others. Authorities suspect cooking gas caused the blast, which heavily damaged nearby homes and buildings. Rescuers searched the rubble for hours and residents of structurally unsafe buildings were moved out.",
+  "caption_es": "Una explosión destruyó un restaurante en el distrito de Dong Da, en Hanói, hacia las 8 de la mañana del martes, y dejó al menos seis muertos y varios heridos. Las autoridades sospechan que el gas de cocina causó el estallido, que dañó gravemente viviendas y edificios cercanos. Los rescatistas buscaron durante horas entre los escombros y los residentes de edificios inseguros fueron reubicados.",
+  "summary_es": "Las autoridades sospechan del gas de cocina. La explosión dañó viviendas cercanas y obligó a evacuar edificios inseguros.",
+  "summary_en": "Authorities suspect cooking gas. The blast damaged nearby homes and forced the evacuation of unsafe buildings.",
+  "highlight_en": "Hanoi restaurant",
+  "highlight_es": "Hanói",
+  "visual_label": "Hanói",
+  "image_prompt": "Narrow city street lined with shophouses in Southeast Asia, rubble and broken metal shutters on the pavement, rescue equipment and hydraulic machinery, overcast morning light, wide view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Vietnam"],
+    "marker": {"lat": 21.01, "lon": 105.82, "label": "Hanói"},
+    "labels": {"Vietnam": "Vietnam"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/24/vietnam-restaurant-blast-kills-at-least-six",
+    "https://e.vnexpress.net/news/news/six-killed-10-injured-in-hanoi-eatery-blast-5148312.html"
+  ],
+  "source_names": ["Al Jazeera", "VnExpress International"],
+  "hashtags": ["#MATRIX24", "#Hanoi", "#Vietnam"]
+}
