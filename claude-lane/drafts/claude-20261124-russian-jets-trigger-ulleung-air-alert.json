@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-24T12:53:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261124-russian-jets-trigger-ulleung-air-alert",
+  "category": "Security / Geopolitics",
+  "headline": "Russian military aircraft near Ulleung Island trigger South Korean air raid alert",
+  "headline_es": "Aviones militares rusos cerca de la isla Ulleung activan una alerta antiaérea en Corea del Sur",
+  "caption_en": "Russian military aircraft entered South Korea's air defense identification zone on Tuesday morning and approached Ulleung Island, prompting a brief alert telling residents to take shelter. South Korea's military said there was no violation of its airspace and that it deployed fighter jets. A follow-up message wrongly described the aircraft as North Korean, and Seoul said it would summon Russia's defense attaché to protest.",
+  "caption_es": "Aviones militares rusos ingresaron el martes por la mañana a la zona de identificación de defensa aérea de Corea del Sur y se acercaron a la isla Ulleung, lo que provocó una breve alerta que pidió a los residentes refugiarse. El ejército surcoreano dijo que no hubo violación de su espacio aéreo y que desplegó cazas. Un mensaje posterior describió por error las aeronaves como norcoreanas, y Seúl anunció que convocará al agregado de defensa ruso para protestar.",
+  "summary_es": "Corea del Sur desplegó cazas y dijo que no hubo violación de su espacio aéreo. Un aviso posterior confundió las aeronaves con norcoreanas.",
+  "summary_en": "Seoul scrambled fighter jets and said its airspace was not violated. A later alert wrongly called the aircraft North Korean.",
+  "highlight_en": "Russian military aircraft",
+  "highlight_es": "Aviones militares rusos",
+  "visual_label": "Ulleung",
+  "image_prompt": "Rugged volcanic island with a small harbor town under a pale morning sky, distant fighter jets streaking high over the grey sea, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": [
+      "South Korea"
+    ],
+    "marker": {
+      "lat": 37.5,
+      "lon": 130.87,
+      "label": "Isla Ulleung"
+    },
+    "labels": {
+      "South Korea": "Corea del Sur"
+    }
+  },
+  "source_urls": [
+    "https://www.stripes.com/theaters/asia_pacific/2026-11-24/south-korea-russia-scramble-aircraft-ulleung-23560956.html",
+    "https://www.koreatimes.co.kr/southkorea/defense/20261124/botched-alerts-over-russian-aircraft-near-ulleung-island-spark-confusion"
+  ],
+  "source_names": [
+    "Stars and Stripes",
+    "The Korea Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#SouthKorea",
+    "#Russia",
+    "#Ulleung"
+  ]
+}

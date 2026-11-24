@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-24T12:53:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261124-israeli-strikes-kill-seven-in-gaza",
+  "category": "World",
+  "headline": "Israeli strikes kill seven in Gaza, including a senior Hamas security official",
+  "headline_es": "Ataques israelíes matan a siete personas en Gaza, entre ellas un alto mando de seguridad de Hamás",
+  "caption_en": "Israeli airstrikes in Gaza killed seven people on Tuesday, among them the head of Hamas's internal security apparatus, who was hit in western Gaza City, according to Palestinian officials and medics. Another strike hit a police post in the south. Israel's military said it struck a senior Hamas figure. The attacks continue despite the US-backed ceasefire in place since October 2025.",
+  "caption_es": "Ataques aéreos israelíes en Gaza mataron el martes a siete personas, entre ellas al jefe del aparato de seguridad interna de Hamás, alcanzado en el oeste de la ciudad de Gaza, según funcionarios palestinos y servicios médicos. Otro ataque golpeó un puesto policial en el sur. El ejército israelí dijo que atacó a una figura de alto rango de Hamás. Los ataques continúan pese al alto el fuego respaldado por EE. UU. vigente desde octubre de 2025.",
+  "summary_es": "Entre los muertos está el jefe de seguridad interna de Hamás. Los ataques siguen pese al alto el fuego de octubre de 2025.",
+  "summary_en": "The dead include Hamas's internal security chief. Strikes continue despite the October 2025 ceasefire.",
+  "highlight_en": "kill seven in Gaza",
+  "highlight_es": "siete personas en Gaza",
+  "visual_label": "Gaza",
+  "image_prompt": "Damaged concrete buildings along an empty coastal street at dusk, haze over the Mediterranean shoreline, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": [
+      "Palestine"
+    ],
+    "marker": {
+      "lat": 31.52,
+      "lon": 34.45,
+      "label": "Ciudad de Gaza"
+    },
+    "labels": {
+      "Palestine": "Palestina"
+    }
+  },
+  "source_urls": [
+    "https://www.dawn.com/news/2046778/israeli-strikes-in-gaza-kill-7-including-senior-security-official",
+    "https://www.rte.ie/news/world/2026/1124/1600447-israel-gaza/"
+  ],
+  "source_names": [
+    "Dawn (AFP)",
+    "RTÉ (Reuters)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Gaza",
+    "#Israel",
+    "#MiddleEast"
+  ]
+}

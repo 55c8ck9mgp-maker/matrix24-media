@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-24T12:53:37Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261124-russian-attack-kills-two-in-zaporizhzhia",
+  "category": "Security / Geopolitics",
+  "headline": "Russian overnight attack on Zaporizhzhia kills two and wounds dozens, including children",
+  "headline_es": "Ataque ruso nocturno contra Zaporiyia deja dos muertos y decenas de heridos, entre ellos niños",
+  "caption_en": "A Russian attack overnight on the Ukrainian city of Zaporizhzhia killed two people and wounded more than 40, including an infant and other children, regional officials said. The strike destroyed a house and partially destroyed a five-storey apartment building.",
+  "caption_es": "Un ataque ruso durante la noche contra la ciudad ucraniana de Zaporiyia mató a dos personas e hirió a más de 40, entre ellas un bebé y otros niños, según autoridades regionales. El ataque destruyó una casa y destruyó parcialmente un edificio de apartamentos de cinco pisos.",
+  "summary_es": "Una casa quedó destruida y un edificio de cinco pisos, parcialmente derrumbado. Entre los heridos hay un bebé.",
+  "summary_en": "A house was destroyed and a five-storey apartment block partially destroyed. An infant is among the wounded.",
+  "highlight_en": "Zaporizhzhia",
+  "highlight_es": "Zaporiyia",
+  "visual_label": "Zaporiyia",
+  "image_prompt": "Five-storey Soviet-era apartment block with blown-out windows at dawn, rubble in the courtyard, rescue vehicle lights in the distance, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": [
+      "Ukraine"
+    ],
+    "marker": {
+      "lat": 47.84,
+      "lon": 35.14,
+      "label": "Zaporiyia"
+    },
+    "labels": {
+      "Ukraine": "Ucrania"
+    }
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia",
+    "https://www.wsls.com/business/2026/11/24/a-russian-strike-on-ukraine-kills-2-and-wounds-children-as-kyiv-explains-its-attack-in-libya/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Associated Press (via WSLS)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ukraine",
+    "#Zaporizhzhia",
+    "#Russia"
+  ]
+}
