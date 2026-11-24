@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261124-crowdstrike-to-buy-zscaler",
+  "status": "draft",
+  "created_at": "2026-11-24T00:50:02Z",
+  "category": "Technology",
+  "headline": "CrowdStrike agrees to buy Zscaler in an all-stock deal worth about $43.9 billion",
+  "headline_es": "CrowdStrike acuerda comprar Zscaler en una operación en acciones de unos 43.900 millones de dólares",
+  "caption_en": "Cybersecurity firm CrowdStrike announced on Monday that it will acquire Zscaler in an all-stock deal worth about $43.9 billion. Zscaler shareholders will get 1.135 CrowdStrike shares each, a 34% premium, combining CrowdStrike's endpoint protection with Zscaler's zero-trust cloud security. The deal needs regulatory approval and is expected to close in about a year.",
+  "caption_es": "La empresa de ciberseguridad CrowdStrike anunció el lunes que adquirirá Zscaler en una operación en acciones valorada en unos 43.900 millones de dólares. Los accionistas de Zscaler recibirán 1,135 acciones de CrowdStrike por cada título, una prima del 34%, uniendo la protección de dispositivos de CrowdStrike con la seguridad en la nube de confianza cero de Zscaler. El acuerdo requiere aprobación regulatoria y se espera que se cierre en aproximadamente un año.",
+  "source_urls": [
+    "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+    "https://www.aol.com/articles/crowdstrike-acquire-zscaler-44-billion-130500000.html"
+  ],
+  "source_names": ["TechCrunch", "Associated Press"],
+  "hashtags": ["#MATRIX24", "#Ciberseguridad", "#Cybersecurity", "#CrowdStrike", "#Tecnología"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "CrowdStrike comprará Zscaler en una operación en acciones de unos 43.900 millones de dólares, con una prima del 34%. Requiere aprobación regulatoria.",
+  "summary_en": "CrowdStrike will buy Zscaler in an all-stock deal worth about $43.9 billion, a 34% premium. Regulators must approve it.",
+  "highlight_es": "comprar Zscaler",
+  "highlight_en": "buy Zscaler",
+  "visual_label": "Ciberseguridad",
+  "image_prompt": "Futuristic data center corridor with glowing server racks, a translucent digital shield of light hovering over network cables, two streams of blue data merging into one, cool blue and teal tones, wide cinematic view"
+}

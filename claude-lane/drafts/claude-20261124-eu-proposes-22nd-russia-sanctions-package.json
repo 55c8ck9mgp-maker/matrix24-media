@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261124-eu-proposes-22nd-russia-sanctions-package",
+  "status": "draft",
+  "created_at": "2026-11-24T00:50:02Z",
+  "category": "Security / Geopolitics",
+  "headline": "EU proposes 22nd Russia sanctions package, banning Russian-flag athletes from EU events",
+  "headline_es": "La UE propone su 22.º paquete de sanciones a Rusia y veta a atletas con bandera rusa",
+  "caption_en": "The European Commission proposed its 22nd sanctions package against Russia on Monday, including a ban on Russian teams and athletes competing under the Russian flag at EU sports events and a visa ban on Russian ex-combatants. It also targets about 60 more Russian banks, crypto platforms and electricity-sector services. The package needs unanimous approval from EU member states.",
+  "caption_es": "La Comisión Europea propuso el lunes su 22.º paquete de sanciones contra Rusia, que incluye prohibir a equipos y atletas rusos competir bajo la bandera rusa en eventos deportivos de la UE y vetar los visados a excombatientes rusos. También apunta a unos 60 bancos rusos más, plataformas de criptomonedas y servicios del sector eléctrico. El paquete necesita la aprobación unánime de los Estados miembros.",
+  "source_urls": [
+    "https://www.yahoo.com/news/articles/eu-commission-proposes-22nd-sanctions-151739377.html",
+    "https://www.ukrinform.net/rubric-polytics/4187792-european-commission-presents-22nd-package-of-sanctions-against-russia.html"
+  ],
+  "source_names": ["Reuters", "Ukrinform"],
+  "hashtags": ["#MATRIX24", "#UE", "#Rusia", "#Sanciones", "#EU"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Bruselas propone vetar a atletas con bandera rusa en eventos de la UE, negar visados a excombatientes y sancionar a 60 bancos más. Requiere unanimidad.",
+  "summary_en": "Brussels proposes barring Russian-flag athletes from EU events, a visa ban on ex-combatants and curbs on 60 more banks. Unanimity needed.",
+  "highlight_es": "22.º paquete de sanciones",
+  "highlight_en": "22nd Russia sanctions package",
+  "visual_label": "Sanciones UE",
+  "image_prompt": "Modern European government building with glass facade at dusk, an empty sports stadium in the background, stacked official documents and a closed padlock on a conference table in the foreground, muted blue tones, wide cinematic view",
+  "map": {
+    "focus": ["Belgium", "Russia"],
+    "marker": {"lat": 50.8503, "lon": 4.3517, "label": "Bruselas"},
+    "labels": {"Belgium": "Bélgica", "Russia": "Rusia"}
+  }
+}
