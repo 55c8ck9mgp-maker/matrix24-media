@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-24T06:50:44Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261124-car-bomb-hits-meta-governors-office",
+  "category": "Colombia / Latin America",
+  "headline": "Car bomb explodes outside Meta governor's office in Colombia's Villavicencio, injuring several",
+  "headline_es": "Carro bomba explota frente a la Gobernación del Meta en Villavicencio y deja varios heridos",
+  "caption_en": "A car bomb exploded on Monday night near the Meta governor's office in central Villavicencio, Colombia, injuring several people and damaging nearby buildings, vehicles and shops; power was also cut in the area. No deaths had been reported and no group had been confirmed as responsible. President Abelardo de la Espriella condemned the attack and ruled out dialogue with those behind it.",
+  "caption_es": "Un carro bomba explotó el lunes por la noche cerca de la Gobernación del Meta, en el centro de Villavicencio, Colombia, dejando varios heridos y daños en edificios, vehículos y locales cercanos; además se interrumpió el suministro de energía en la zona. No se reportaban muertos y ningún grupo había sido confirmado como responsable. El presidente Abelardo de la Espriella condenó el ataque y descartó el diálogo con los autores.",
+  "summary_es": "La explosión dañó edificios y comercios del centro y cortó la energía. No se reportan muertos ni responsables confirmados.",
+  "summary_en": "The blast damaged downtown buildings and shops and cut power. No deaths or confirmed perpetrators reported.",
+  "highlight_en": "Car bomb",
+  "highlight_es": "Carro bomba",
+  "visual_label": "Villavicencio",
+  "image_prompt": "Empty city plaza at night with colonial-style government building, scattered debris and shattered glass on the pavement, emergency lights reflecting on wet ground, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Colombia"],
+    "marker": {"lat": 4.15, "lon": -73.63, "label": "Villavicencio"},
+    "labels": {"Colombia": "Colombia"}
+  },
+  "source_urls": [
+    "https://www.eltiempo.com/colombia/otras-ciudades/atentado-con-carro-bomba-contra-la-gobernacion-del-meta-en-el-centro-de-villavicencio-reacciones-y-ultimas-noticias-tras-el-ataque-terrorista-3603643",
+    "https://www.infobae.com/colombia/2026/11/24/atentado-con-carro-bomba-contra-la-gobernacion-del-meta-abelardo-de-la-espriella-se-pronuncio-tras-explosion-en-villavicencio/"
+  ],
+  "source_names": ["El Tiempo", "Infobae"],
+  "hashtags": ["#MATRIX24", "#Colombia", "#Villavicencio", "#Meta"]
+}

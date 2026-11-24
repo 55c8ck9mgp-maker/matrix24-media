@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-24T06:50:44Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261124-iran-says-three-tankers-hit-hormuz-mines",
+  "category": "Security / Geopolitics",
+  "headline": "Iran's Revolutionary Guard says three oil tankers caught fire after hitting mines in Hormuz",
+  "headline_es": "La Guardia Revolucionaria de Irán dice que tres petroleros ardieron tras chocar con minas en Ormuz",
+  "caption_en": "Iran's Islamic Revolutionary Guard Corps said three oil tankers suffered severe explosions and fires after striking naval mines in the Strait of Hormuz. In a statement carried by Iranian state media, the IRGC said the ships were under US military escort and warned vessels against using unauthorized routes. The claim has not been independently verified, and US Central Command had not responded.",
+  "caption_es": "La Guardia Revolucionaria Islámica de Irán afirmó que tres petroleros sufrieron fuertes explosiones e incendios tras chocar con minas navales en el estrecho de Ormuz. En un comunicado difundido por medios estatales iraníes, el cuerpo dijo que los buques navegaban con escolta militar de Estados Unidos y advirtió a las embarcaciones contra el uso de rutas no autorizadas. La afirmación no ha sido verificada de forma independiente y el Comando Central de EE. UU. no había respondido.",
+  "summary_es": "Irán dice que los buques tenían escolta de EE. UU. y advierte contra rutas no autorizadas. No hay verificación independiente.",
+  "summary_en": "Iran says the ships had US escort and warns against unauthorized routes. There is no independent verification.",
+  "highlight_en": "three oil tankers",
+  "highlight_es": "tres petroleros",
+  "visual_label": "Ormuz",
+  "image_prompt": "Large oil tanker on a hazy grey sea at dusk with a column of dark smoke rising far on the horizon, rocky coastline in the distance, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Iran", "Oman"],
+    "marker": {"lat": 26.57, "lon": 56.25, "label": "Estrecho de Ormuz"},
+    "labels": {"Iran": "Irán", "Oman": "Omán"}
+  },
+  "source_urls": [
+    "https://www.jpost.com/middle-east/iran-news/article-915899",
+    "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
+  ],
+  "source_names": ["The Jerusalem Post", "Al Jazeera"],
+  "hashtags": ["#MATRIX24", "#Iran", "#Hormuz", "#Petroleo", "#Oil"]
+}
