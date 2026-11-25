@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261125-us-jury-convicts-huawei",
+ "status": "draft",
+ "created_at": "2026-11-25T06:52:00Z",
+ "category": "Technology",
+ "headline": "US jury convicts Huawei of bank fraud and conspiring to steal trade secrets",
+ "headline_es": "Un jurado de EE.UU. declara a Huawei culpable de fraude bancario y conspirar para robar secretos",
+ "caption_en": "A federal jury in New York found Chinese tech giant Huawei guilty of bank fraud and conspiracy to steal trade secrets from US companies, while acquitting it of a racketeering conspiracy charge. The case, opened in 2018, also accused Huawei of misleading banks about its business in Iran, which is under US sanctions. Huawei's lawyer said the company was disappointed by the convictions.",
+ "caption_es": "Un jurado federal en Nueva York declaró al gigante tecnológico chino Huawei culpable de fraude bancario y de conspirar para robar secretos comerciales a empresas estadounidenses, pero lo absolvió del cargo de conspiración para crimen organizado. El caso, abierto en 2018, también acusaba a Huawei de engañar a bancos sobre sus negocios en Irán, país sancionado por EE.UU. El abogado de Huawei dijo que la empresa estaba decepcionada con las condenas.",
+ "summary_es": "Huawei fue condenada por fraude bancario y robo de secretos comerciales, pero absuelta de conspiración para crimen organizado.",
+ "summary_en": "Huawei was convicted of bank fraud and trade-secret theft conspiracy but acquitted of racketeering conspiracy.",
+ "highlight_en": "convicts Huawei",
+ "highlight_es": "Huawei culpable",
+ "visual_label": "Huawei",
+ "image_prompt": "Empty wood-paneled courtroom with a judge's bench, a wooden gavel on a desk and a circuit board resting beside legal papers, dramatic side lighting, cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": ["United States of America", "China"],
+  "marker": {"lat": 40.69, "lon": -73.99, "label": "Nueva York"},
+  "labels": {"United States of America": "Estados Unidos", "China": "China"}
+ },
+ "source_urls": [
+  "https://www.al-monitor.com/originals/2026/11/chinas-huawei-convicted-sprawling-us-criminal-trial-over-iran-business",
+  "https://www.bnnbloomberg.ca/business/company-news/2026/11/24/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/"
+ ],
+ "source_names": ["Reuters", "Associated Press"],
+ "hashtags": ["#MATRIX24", "#Huawei", "#Tecnología", "#Tech", "#China"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

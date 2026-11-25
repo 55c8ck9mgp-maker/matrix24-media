@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261125-solomon-islands-signs-australia-security-treaty",
+ "status": "draft",
+ "created_at": "2026-11-25T06:52:00Z",
+ "category": "Security / Geopolitics",
+ "headline": "Solomon Islands signs security treaty with Australia barring foreign military bases",
+ "headline_es": "Islas Salomón firma un tratado de seguridad con Australia que prohíbe bases militares extranjeras",
+ "caption_en": "Australian Prime Minister Anthony Albanese and Solomon Islands Prime Minister Matthew Wale signed a bilateral security treaty in Canberra on Wednesday. Under the pact, the Solomon Islands will not allow any foreign military or security base on its territory. Wale declined to confirm reports that his government will let a 2022 security pact with China lapse in 2027, citing a non-disclosure clause.",
+ "caption_es": "El primer ministro australiano, Anthony Albanese, y el de Islas Salomón, Matthew Wale, firmaron el miércoles en Canberra un tratado bilateral de seguridad. Según el pacto, Islas Salomón no permitirá ninguna base militar o de seguridad extranjera en su territorio. Wale no quiso confirmar informes de que su gobierno dejará expirar en 2027 un pacto de seguridad firmado con China en 2022, alegando una cláusula de confidencialidad.",
+ "summary_es": "Albanese y Wale firmaron en Canberra un pacto que veta bases extranjeras en Islas Salomón, en un golpe a la influencia de China en el Pacífico.",
+ "summary_en": "Albanese and Wale signed a pact in Canberra that rules out foreign bases in the Solomon Islands, a setback for China's Pacific influence.",
+ "highlight_en": "security treaty",
+ "highlight_es": "tratado de seguridad",
+ "visual_label": "Pacífico Sur",
+ "image_prompt": "Tropical Pacific island coastline with turquoise water, a small harbor with a patrol boat at anchor and green hills under a clear sky, wide aerial cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": ["Solomon Is.", "Australia"],
+  "marker": {"lat": -9.43, "lon": 159.95, "label": "Honiara"},
+  "labels": {"Solomon Is.": "Islas Salomón", "Australia": "Australia"}
+ },
+ "source_urls": [
+  "https://www.abc.net.au/news/2026-11-25/australia-signs-pact-with-solomon-islands-in-blow-to-china/107424550",
+  "https://www.news4jax.com/news/world/2026/11/25/solomon-islands-names-australia-as-its-primary-security-partner-in-a-new-treaty-that-excludes-china/"
+ ],
+ "source_names": ["ABC News (Australia)", "Associated Press"],
+ "hashtags": ["#MATRIX24", "#IslasSalomón", "#Australia", "#Pacífico", "#Geopolitics"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

@@ -1,0 +1,32 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261125-pakistani-astronaut-flies-on-shenzhou-24",
+ "status": "draft",
+ "created_at": "2026-11-25T06:52:00Z",
+ "category": "Science",
+ "headline": "China launches Shenzhou 24 with a Pakistani astronaut, the first foreigner bound for its station",
+ "headline_es": "China lanza la Shenzhou 24 con un astronauta paquistaní, el primer extranjero rumbo a su estación",
+ "caption_en": "China launched the Shenzhou 24 spacecraft on Wednesday from the Jiuquan Satellite Launch Center, carrying Pakistan's Muhammad Zeeshan Ali alongside Chinese astronauts Tang Hongbo and Wu Yi. Ali is the first foreign national sent to China's Tiangong space station. According to Xinhua, the crew will carry out more than 90 experiments and tests, and Ali will return to Earth aboard Shenzhou 23 after a short mission.",
+ "caption_es": "China lanzó el miércoles la nave Shenzhou 24 desde el Centro de Lanzamiento de Satélites de Jiuquan, con el paquistaní Muhammad Zeeshan Ali junto a los astronautas chinos Tang Hongbo y Wu Yi. Ali es el primer extranjero enviado a la estación espacial china Tiangong. Según Xinhua, la tripulación realizará más de 90 experimentos y pruebas, y Ali regresará a la Tierra a bordo de la Shenzhou 23 tras una misión corta.",
+ "summary_es": "Muhammad Zeeshan Ali viaja con Tang Hongbo y Wu Yi a la estación Tiangong: es el primer astronauta extranjero en el programa tripulado chino.",
+ "summary_en": "Muhammad Zeeshan Ali flies with Tang Hongbo and Wu Yi to the Tiangong station, the first foreign astronaut in China's crewed program.",
+ "highlight_en": "Pakistani astronaut",
+ "highlight_es": "astronauta paquistaní",
+ "visual_label": "Shenzhou 24",
+ "image_prompt": "Tall white rocket lifting off from a desert launch pad at dawn, bright exhaust plume and billowing clouds, launch tower beside it, wide cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": ["China", "Pakistan"],
+  "marker": {"lat": 40.96, "lon": 100.28, "label": "Jiuquan"},
+  "labels": {"China": "China", "Pakistan": "Pakistán"}
+ },
+ "source_urls": [
+  "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr",
+  "https://www.ksat.com/tech/2026/11/25/china-launches-shenzhou-24-spacecraft-carrying-2-chinese-and-a-pakistani-astronaut/"
+ ],
+ "source_names": ["Euronews", "Associated Press"],
+ "hashtags": ["#MATRIX24", "#Shenzhou24", "#Espacio", "#Space", "#Tiangong"],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}
