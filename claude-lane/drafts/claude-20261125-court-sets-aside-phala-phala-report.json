@@ -1,0 +1,49 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-25T12:52:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261125-court-sets-aside-phala-phala-report",
+ "category": "World",
+ "headline": "South African court sets aside the Phala Phala panel report against President Ramaphosa",
+ "headline_es": "Un tribunal sudafricano anula el informe del panel sobre Phala Phala contra el presidente Ramaphosa",
+ "caption_en": "The Western Cape High Court on Wednesday declared unlawful and set aside in its entirety the independent panel report on the theft of foreign currency from President Cyril Ramaphosa's Phala Phala farm. Judge President Nolwazi Mabindla-Boqwana delivered the unanimous ruling in Cape Town. Ramaphosa had challenged the 2022 report, arguing the panel misread its mandate.",
+ "caption_es": "El Tribunal Superior del Cabo Occidental declaró ilegal el miércoles y anuló por completo el informe del panel independiente sobre el robo de divisas en la granja Phala Phala del presidente Cyril Ramaphosa. La jueza presidenta Nolwazi Mabindla-Boqwana leyó el fallo unánime en Ciudad del Cabo. Ramaphosa había impugnado el informe de 2022 al argumentar que el panel malinterpretó su mandato.",
+ "summary_es": "La justicia sudafricana anuló por completo el informe de 2022 sobre el robo de divisas en la granja de Ramaphosa.",
+ "summary_en": "A South African court fully set aside the 2022 panel report on the theft of foreign currency from Ramaphosa's farm.",
+ "highlight_en": "sets aside",
+ "highlight_es": "anula",
+ "visual_label": "Phala Phala",
+ "image_prompt": "Classical courthouse facade with stone columns and wide steps under a bright African sky, Table Mountain silhouette in the distance, wide cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": [
+   "South Africa"
+  ],
+  "marker": {
+   "lat": -33.92,
+   "lon": 18.42,
+   "label": "Ciudad del Cabo"
+  },
+  "labels": {
+   "South Africa": "Sudáfrica"
+  }
+ },
+ "source_urls": [
+  "https://www.ewn.co.za/2026/11/25/western-cape-high-court-sets-aside-section-89-phala-phala-report",
+  "https://www.citizen.co.za/news/south-africa/courts/ramaphosa-phala-phala-report-set-aside/"
+ ],
+ "source_names": [
+  "Eyewitness News",
+  "The Citizen"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Sudáfrica",
+  "#Ramaphosa",
+  "#PhalaPhala",
+  "#SouthAfrica"
+ ]
+}

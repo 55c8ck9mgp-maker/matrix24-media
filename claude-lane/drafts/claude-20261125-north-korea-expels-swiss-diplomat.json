@@ -1,0 +1,51 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-25T12:52:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261125-north-korea-expels-swiss-diplomat",
+ "category": "Security / Geopolitics",
+ "headline": "North Korea expels the head of Switzerland's newly reopened diplomatic office in Pyongyang",
+ "headline_es": "Corea del Norte expulsa al jefe de la oficina diplomática suiza recién reabierta en Pyongyang",
+ "caption_en": "North Korea's foreign ministry declared Sylvain Astier, head of Switzerland's diplomatic office in Pyongyang, persona non grata on Wednesday and gave him 48 hours to leave, according to state media KCNA. He was handed a memorandum urging the office to close. Pyongyang called Swiss sanctions on the Songdowon International Children's Camp a hostile act. Switzerland had reopened the office only weeks earlier.",
+ "caption_es": "El Ministerio de Exteriores de Corea del Norte declaró el miércoles persona non grata a Sylvain Astier, jefe de la oficina diplomática de Suiza en Pyongyang, y le dio 48 horas para salir del país, según la agencia estatal KCNA. Además, le entregó un memorando que pide el cierre de la oficina. Pyongyang calificó de acto hostil las sanciones suizas contra el campamento infantil internacional de Songdowon. Suiza había reabierto la oficina apenas semanas antes.",
+ "summary_es": "Pyongyang dio 48 horas al jefe de la misión suiza para irse y pidió cerrar la oficina, en represalia por sanciones contra un campamento infantil.",
+ "summary_en": "Pyongyang gave the Swiss envoy 48 hours to leave and urged the office to close, in retaliation for sanctions on a children's camp.",
+ "highlight_en": "expels",
+ "highlight_es": "expulsa",
+ "visual_label": "Pyongyang",
+ "image_prompt": "Empty diplomatic building with a closed iron gate on a grey winter day in a wide city avenue, bare trees and a cold overcast sky, muted cinematic tones, no text, no logos, no flags, no people",
+ "map": {
+  "focus": [
+   "North Korea",
+   "Switzerland"
+  ],
+  "marker": {
+   "lat": 39.03,
+   "lon": 125.75,
+   "label": "Pyongyang"
+  },
+  "labels": {
+   "North Korea": "Corea del Norte",
+   "Switzerland": "Suiza"
+  }
+ },
+ "source_urls": [
+  "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261125/n-korea-closes-swiss-office-in-pyongyang-over-sanctions-on-childrens-camp",
+  "https://www.koreajoongangdaily.com/korea/north-korea-expels-swiss-envoy-over-sanctions/12990266"
+ ],
+ "source_names": [
+  "The Korea Times (Yonhap)",
+  "Korea JoongAng Daily (Reuters)"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#CoreaDelNorte",
+  "#Suiza",
+  "#Diplomacia",
+  "#NorthKorea"
+ ]
+}

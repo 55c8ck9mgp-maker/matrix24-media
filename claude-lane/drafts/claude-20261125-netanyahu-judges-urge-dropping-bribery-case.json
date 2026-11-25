@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "status": "draft",
+ "created_at": "2026-11-25T12:52:13Z",
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": [],
+ "content_id": "claude-20261125-netanyahu-judges-urge-dropping-bribery-case",
+ "category": "World",
+ "headline": "Judges in Netanyahu's trial recommend dropping the bribery case, saying conviction is unlikely",
+ "headline_es": "Los jueces del juicio a Netanyahu recomiendan retirar el caso de soborno por ver improbable una condena",
+ "caption_en": "Judges at the Jerusalem District Court told Attorney General Gali Baharav-Miara on Wednesday that a conviction in Case 4000, the Bezeq-Walla bribery case against Prime Minister Benjamin Netanyahu, is unlikely and recommended dropping the bribery charge. They also voiced serious doubts that Case 2000 describes a crime. The attorney general said the state would consider the remarks, but the trial must end in a verdict or a proper arrangement.",
+ "caption_es": "Los jueces del Tribunal de Distrito de Jerusalén dijeron el miércoles a la fiscal general, Gali Baharav-Miara, que una condena en el Caso 4000, el caso de soborno Bezeq-Walla contra el primer ministro Benjamín Netanyahu, es improbable, y recomendaron retirar el cargo de soborno. También expresaron serias dudas de que el Caso 2000 describa un delito. La fiscal dijo que el Estado estudiará las observaciones, pero que el juicio debe terminar con un veredicto o un acuerdo adecuado.",
+ "summary_es": "El tribunal pidió a la fiscalía retirar el cargo de soborno del Caso 4000 y expresó serias dudas sobre el Caso 2000.",
+ "summary_en": "The court urged prosecutors to drop the Case 4000 bribery charge and voiced serious doubts about Case 2000.",
+ "highlight_en": "dropping the bribery case",
+ "highlight_es": "retirar el caso de soborno",
+ "visual_label": "Jerusalén",
+ "image_prompt": "Modern courthouse interior with empty wooden judges' bench, gavel and stacks of legal files under soft daylight, wide cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": [
+   "Israel"
+  ],
+  "marker": {
+   "lat": 31.78,
+   "lon": 35.22,
+   "label": "Jerusalén"
+  },
+  "labels": {
+   "Israel": "Israel"
+  }
+ },
+ "source_urls": [
+  "https://www.timesofisrael.com/liveblog_entry/court-recommends-dropping-or-reconsidering-2-out-of-3-cases-against-netanyahu-in-severe-blow-to-prosecution/",
+  "https://www.i24news.tv/en/news/israel/politics/artc-judges-in-netanyahu-trial-to-ag-we-recommend-dropping-case-4000-re-examining-case-2000"
+ ],
+ "source_names": [
+  "The Times of Israel",
+  "i24NEWS"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Israel",
+  "#Netanyahu",
+  "#Justicia"
+ ]
+}
