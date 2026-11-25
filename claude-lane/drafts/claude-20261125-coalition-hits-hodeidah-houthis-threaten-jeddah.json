@@ -1,0 +1,51 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261125-coalition-hits-hodeidah-houthis-threaten-jeddah",
+ "status": "draft",
+ "created_at": "2026-11-25T18:51:59Z",
+ "category": "Security / Geopolitics",
+ "headline": "Saudi-led coalition strikes Yemen's Hodeidah port as Houthis threaten Jeddah",
+ "headline_es": "La coalición saudí ataca el puerto yemení de Hodeida y los hutíes amenazan Yeda",
+ "caption_en": "The Saudi-led coalition said it struck operational capabilities at Yemen's Red Sea port of Hodeidah and destroyed targets in Saada and Amran, after telling civilians to evacuate. Houthi spokesman Yahya Saree warned that Jeddah and other Saudi Red Sea ports would be targets, telling port workers to leave and shipping firms to pull out vessels. The coalition also said it intercepted drones aimed at Saudi Arabia's Eastern Province.",
+ "caption_es": "La coalición liderada por Arabia Saudí dijo que atacó capacidades operativas en Hodeida, puerto yemení del mar Rojo, y destruyó objetivos en Saada y Amrán, tras pedir a los civiles que evacuaran. El portavoz hutí Yahya Saree advirtió que Yeda y otros puertos saudíes del mar Rojo serán objetivos, y pidió a los trabajadores portuarios irse y a las navieras retirar sus buques. La coalición también dijo haber interceptado drones dirigidos a la Provincia Oriental saudí.",
+ "summary_es": "La coalición saudí bombardeó Hodeida; los hutíes amenazan con atacar Yeda y los puertos saudíes del mar Rojo.",
+ "summary_en": "The coalition hit Hodeidah; the Houthis threaten Jeddah and Saudi Red Sea ports.",
+ "highlight_en": "Hodeidah port",
+ "highlight_es": "Hodeida",
+ "visual_label": "Mar Rojo",
+ "image_prompt": "Large container port on a hazy Red Sea coast at dusk, idle cranes and moored cargo ships, a distant plume of grey smoke on the horizon, wide cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": [
+   "Yemen",
+   "Saudi Arabia"
+  ],
+  "marker": {
+   "lat": 14.8,
+   "lon": 42.95,
+   "label": "Hodeida"
+  },
+  "labels": {
+   "Yemen": "Yemen",
+   "Saudi Arabia": "Arabia Saudí"
+  }
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/11/25/saudi-led-coalition-intercepts-houthi-attacks-after-hodeidah-strike",
+  "https://www.marineinsight.com/saudi-coalition-strikes-hodeidah-port-yemen/"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "Marine Insight"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Yemen",
+  "#Houthis",
+  "#MarRojo",
+  "#ArabiaSaudi"
+ ],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

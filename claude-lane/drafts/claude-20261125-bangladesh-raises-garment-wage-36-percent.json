@@ -1,0 +1,49 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261125-bangladesh-raises-garment-wage-36-percent",
+ "status": "draft",
+ "created_at": "2026-11-25T18:51:59Z",
+ "category": "Economy",
+ "headline": "Bangladesh raises garment workers' minimum wage by 36% after weeks of protests",
+ "headline_es": "Bangladés sube un 36% el salario mínimo textil tras semanas de protestas",
+ "caption_en": "A government-appointed wage board in Bangladesh approved a 36% rise in the minimum monthly wage for garment workers, up from 12,500 taka, after weeks of protests. Workers had sought a much larger increase, and it was not immediately clear whether they would accept. The industry employs about 4 million people and makes up roughly four-fifths of the country's exports.",
+ "caption_es": "Una junta salarial designada por el gobierno de Bangladés aprobó un aumento del 36% del salario mínimo mensual de los trabajadores textiles, desde 12.500 takas, tras semanas de protestas. Los trabajadores pedían una subida mucho mayor y no estaba claro de inmediato si la aceptarían. La industria emplea a unos 4 millones de personas y representa cerca de cuatro quintas partes de las exportaciones del país.",
+ "summary_es": "La junta salarial aprobó un alza del 36%; los trabajadores pedían mucho más y aún no la han aceptado.",
+ "summary_en": "The wage board approved a 36% rise; workers had demanded far more and have not yet accepted.",
+ "highlight_en": "36%",
+ "highlight_es": "36%",
+ "visual_label": "Textil",
+ "image_prompt": "Rows of industrial sewing machines in a large garment factory hall with stacks of colorful fabric rolls, soft daylight through high windows, wide cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": [
+   "Bangladesh"
+  ],
+  "marker": {
+   "lat": 23.81,
+   "lon": 90.41,
+   "label": "Daca"
+  },
+  "labels": {
+   "Bangladesh": "Bangladés"
+  }
+ },
+ "source_urls": [
+  "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
+  "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest"
+ ],
+ "source_names": [
+  "Associated Press",
+  "Al Jazeera"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Bangladesh",
+  "#Economía",
+  "#Economy",
+  "#Textil"
+ ],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

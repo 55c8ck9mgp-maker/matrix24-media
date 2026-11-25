@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261125-miners-trapped-in-flooded-indonesian-gold-mine",
+ "status": "draft",
+ "created_at": "2026-11-25T18:51:59Z",
+ "category": "World",
+ "headline": "At least 20 miners trapped after flood hits illegal gold mine in Indonesia",
+ "headline_es": "Al menos 20 mineros atrapados tras inundarse una mina ilegal de oro en Indonesia",
+ "caption_en": "Rescuers in Indonesia's West Java province are searching for at least 20 miners trapped in a flooded unauthorized gold mine in Bogor regency, south of Jakarta. A nearby river overflowed after heavy rain on Monday, filling a shaft about 100 meters deep. Officials say narrow access and slippery terrain are complicating the operation near state miner Antam's Pongkor gold area.",
+ "caption_es": "Rescatistas en la provincia indonesia de Java Occidental buscan al menos a 20 mineros atrapados en una mina de oro ilegal inundada en la regencia de Bogor, al sur de Yakarta. Un río cercano se desbordó tras fuertes lluvias el lunes y llenó un pozo de unos 100 metros de profundidad. Las autoridades dicen que el acceso estrecho y el terreno resbaladizo complican la operación, cerca de la zona aurífera de Pongkor de la estatal Antam.",
+ "summary_es": "Un río desbordado inundó un pozo de 100 metros en Bogor; los rescatistas bombean agua para llegar a los mineros.",
+ "summary_en": "An overflowing river flooded a 100-metre shaft in Bogor; rescuers are pumping water to reach the miners.",
+ "highlight_en": "20 miners trapped",
+ "highlight_es": "20 mineros atrapados",
+ "visual_label": "Java",
+ "image_prompt": "Muddy open-pit mine entrance in lush green tropical hills after heavy rain, flooded shaft with water pumps and hoses, grey overcast sky, wide cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": [
+   "Indonesia"
+  ],
+  "marker": {
+   "lat": -6.65,
+   "lon": 106.55,
+   "label": "Bogor"
+  },
+  "labels": {
+   "Indonesia": "Indonesia"
+  }
+ },
+ "source_urls": [
+  "https://www.aljazeera.com/news/2026/11/25/rescuers-search-for-dozens-trapped-in-flooded-indonesia-gold-mine",
+  "https://www.gulfcoastnewsnow.com/article/deadly-flood-indonesian-unauthorized-gold-mine/74530391"
+ ],
+ "source_names": [
+  "Al Jazeera",
+  "Associated Press"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Indonesia",
+  "#Mineria",
+  "#Mining"
+ ],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}

@@ -1,0 +1,48 @@
+{
+ "lane": "claude",
+ "content_id": "claude-20261125-rsf-drones-kill-19-in-blue-nile",
+ "status": "draft",
+ "created_at": "2026-11-25T18:51:59Z",
+ "category": "World",
+ "headline": "RSF drone attacks kill at least 19 civilians in Sudan's Blue Nile state",
+ "headline_es": "Ataques con drones de las RSF matan al menos a 19 civiles en Nilo Azul, Sudán",
+ "caption_en": "Drone attacks blamed on the paramilitary Rapid Support Forces killed at least 19 civilians and wounded about 20 in Sudan's Blue Nile state on Tuesday, the rights group Emergency Lawyers said. Residential areas of the state capital Damazin were hit, and drones also targeted power facilities and a dam, including in nearby Roseires.",
+ "caption_es": "Ataques con drones atribuidos a las paramilitares Fuerzas de Apoyo Rápido (RSF) mataron al menos a 19 civiles e hirieron a unos 20 en el estado sudanés de Nilo Azul el martes, según el grupo de derechos Emergency Lawyers. Fueron alcanzadas zonas residenciales de Damazin, la capital del estado, y los drones también apuntaron a instalaciones eléctricas y a una represa, incluso en la cercana Roseires.",
+ "summary_es": "Drones de las RSF golpearon barrios de Damazin y la represa de Roseires; al menos 19 civiles murieron.",
+ "summary_en": "RSF drones hit Damazin neighbourhoods and the Roseires dam; at least 19 civilians died.",
+ "highlight_en": "kill at least 19",
+ "highlight_es": "al menos a 19 civiles",
+ "visual_label": "Nilo Azul",
+ "image_prompt": "Large river dam and hydroelectric power station on a wide brown river under a dusty sky, a small military-style drone silhouette high in the air, savanna landscape, wide cinematic view, no text, no logos, no flags, no people",
+ "map": {
+  "focus": [
+   "Sudan"
+  ],
+  "marker": {
+   "lat": 11.79,
+   "lon": 34.36,
+   "label": "Damazin"
+  },
+  "labels": {
+   "Sudan": "Sudán"
+  }
+ },
+ "source_urls": [
+  "https://www.timeslive.co.za/news/africa/2026-11-25-drone-strikes-kill-at-least-19-civilians-in-sudan-says-rights-group/",
+  "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan"
+ ],
+ "source_names": [
+  "Reuters",
+  "Al Jazeera"
+ ],
+ "hashtags": [
+  "#MATRIX24",
+  "#Sudan",
+  "#Sudán",
+  "#NiloAzul"
+ ],
+ "image_url": null,
+ "publish_attempt_id": null,
+ "ig_media_id": null,
+ "history": []
+}
