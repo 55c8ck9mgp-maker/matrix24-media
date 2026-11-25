@@ -1,0 +1,74 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261125-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-25T01:04:21.326Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-25",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-25",
+  "caption_es": "Resumen del día:\n1️⃣ Ataques israelíes matan a siete personas en Gaza, entre ellas un alto mando de seguridad de Hamás\n2️⃣ Las víctimas de minas terrestres alcanzan su máximo en cinco años, impulsadas por Myanmar y Siria\n3️⃣ EE.UU. prepara nuevos aranceles a China, la UE y otras 14 economías por exceso de capacidad\n4️⃣ Carro bomba explota frente a la Gobernación del Meta en Villavicencio y deja varios heridos",
+  "caption_en": "Today's summary:\n1️⃣ Israeli strikes kill seven in Gaza, including a senior Hamas security official\n2️⃣ Global landmine casualties hit a five-year high, driven by Myanmar and Syria\n3️⃣ US prepares new tariffs on China, the EU and 14 other economies after excess-capacity probe\n4️⃣ Car bomb explodes outside Meta governor's office in Colombia's Villavicencio, injuring several",
+  "source_urls": [
+    "https://www.dawn.com/news/2046778/israeli-strikes-in-gaza-kill-7-including-senior-security-official",
+    "https://www.rte.ie/news/world/2026/1124/1600447-israel-gaza/",
+    "https://ca.news.yahoo.com/global-land-mine-casualties-hit-081853354.html",
+    "https://www.thenationalnews.com/news/mena/2026/11/24/landmine-casualties-hit-five-year-high-as-refugees-return-to-syria/",
+    "https://lufkindailynews.com/news_reuters/top_news/trump-administration-set-to-unveil-new-tariffs-after-probe-on-excess-factory-capacity-sources-say/article_a0dd6b16-81ed-5ca5-949f-900e68e2a245.html",
+    "https://www.businesstoday.in/latest/economy/story/us-plans-fresh-tariffs-on-india-china-and-other-economies-over-industrial-subsidies-report-569263-2026-11-24",
+    "https://www.eltiempo.com/colombia/otras-ciudades/atentado-con-carro-bomba-contra-la-gobernacion-del-meta-en-el-centro-de-villavicencio-reacciones-y-ultimas-noticias-tras-el-ataque-terrorista-3603643",
+    "https://www.infobae.com/colombia/2026/11/24/atentado-con-carro-bomba-contra-la-gobernacion-del-meta-abelardo-de-la-espriella-se-pronuncio-tras-explosion-en-villavicencio/"
+  ],
+  "source_names": [
+    "Dawn (AFP)",
+    "RTÉ (Reuters)",
+    "Associated Press (via Yahoo News)",
+    "The National",
+    "Reuters",
+    "Business Today",
+    "El Tiempo",
+    "Infobae"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#Gaza",
+    "#Israel",
+    "#MiddleEast",
+    "#Landmines",
+    "#Myanmar",
+    "#Syria",
+    "#Aranceles",
+    "#Tariffs",
+    "#Economía",
+    "#Comercio",
+    "#Colombia",
+    "#Villavicencio"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261125-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261125-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261124-israeli-strikes-kill-seven-in-gaza",
+      "claude-20261124-landmine-casualties-hit-five-year-high",
+      "claude-20261125-us-readies-tariffs-on-16-economies",
+      "claude-20261124-car-bomb-hits-meta-governors-office"
+    ],
+    "total_seconds": 71
+  },
+  "publish_attempt_id": "1a0bf7a4-6e71-45e0-b47b-e1d1ed56091d",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-25T01:05:16.515Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-25T01:05:16.515Z",
+      "event": "reserved",
+      "publish_attempt_id": "1a0bf7a4-6e71-45e0-b47b-e1d1ed56091d"
+    }
+  ],
+  "reserved_at": "2026-11-25T01:05:16.515Z"
+}
