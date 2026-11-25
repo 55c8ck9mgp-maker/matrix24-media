@@ -1,0 +1,31 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261125-cas-reinstates-senegal-as-afcon-champions",
+  "status": "draft",
+  "created_at": "2026-11-25T00:51:05Z",
+  "category": "Sports",
+  "headline": "Sports court reinstates Senegal as 2025 Africa Cup of Nations champions over Morocco",
+  "headline_es": "El TAS devuelve a Senegal el título de la Copa Africana de Naciones 2025 frente a Marruecos",
+  "caption_en": "The Court of Arbitration for Sport upheld Senegal's appeal on Tuesday and restored its 1-0 win over Morocco in January's Africa Cup of Nations final. In March, the African confederation CAF had stripped Senegal of the title and awarded Morocco a 3-0 forfeit after Senegal's players walked off for about 15 minutes in protest at a late penalty. The panel found the referee made no error of law by resuming the match.",
+  "caption_es": "El Tribunal de Arbitraje Deportivo aceptó el martes la apelación de Senegal y restableció su victoria 1-0 sobre Marruecos en la final de la Copa Africana de Naciones de enero. En marzo, la confederación africana CAF había retirado el título a Senegal y otorgado a Marruecos un 3-0 por abandono, después de que los jugadores senegaleses salieran del campo unos 15 minutos en protesta por un penalti tardío. El tribunal concluyó que el árbitro no cometió un error de derecho al reanudar el partido.",
+  "summary_es": "El TAS anuló la decisión de la CAF que daba el título a Marruecos y confirmó el 1-0 de Senegal en la final de enero.",
+  "summary_en": "CAS overturned CAF's ruling that handed Morocco the title and confirmed Senegal's 1-0 win in January's final.",
+  "highlight_en": "reinstates Senegal",
+  "highlight_es": "devuelve a Senegal",
+  "visual_label": "AFCON 2025",
+  "image_prompt": "Golden football trophy on a pedestal in a quiet wood-panelled courtroom, a judge's gavel resting beside it, soft window light, wide cinematic view, no text, no logos, no flags, no identifiable people",
+  "map": {
+    "focus": ["Senegal", "Morocco"],
+    "labels": {"Senegal": "Senegal", "Morocco": "Marruecos"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco",
+    "https://www.skysports.com/football/news/13615545/senegal-crowned-afcon-2025-champions-by-court-of-arbitration-for-sport-following-appeal"
+  ],
+  "source_names": ["Al Jazeera", "Sky Sports"],
+  "hashtags": ["#MATRIX24", "#Senegal", "#AFCON", "#Fútbol", "#Football"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

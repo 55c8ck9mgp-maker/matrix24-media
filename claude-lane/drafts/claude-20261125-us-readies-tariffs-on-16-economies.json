@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261125-us-readies-tariffs-on-16-economies",
+  "status": "draft",
+  "created_at": "2026-11-25T00:51:05Z",
+  "category": "Economy",
+  "headline": "US prepares new tariffs on China, the EU and 14 other economies after excess-capacity probe",
+  "headline_es": "EE.UU. prepara nuevos aranceles a China, la UE y otras 14 economías por exceso de capacidad",
+  "caption_en": "The US Trade Representative is expected to release, as soon as this week, the findings of a probe into alleged excess industrial capacity in 16 trading partners, including China, the EU, Japan, South Korea and India, and to propose new tariffs. The duties would partly replace tariffs struck down by the US Supreme Court in February and could stack on existing levies. Final rates have not been disclosed.",
+  "caption_es": "Se espera que la Oficina del Representante Comercial de EE.UU. publique esta misma semana los resultados de una investigación sobre un supuesto exceso de capacidad industrial en 16 socios comerciales, entre ellos China, la UE, Japón, Corea del Sur e India, y proponga nuevos aranceles. Estos sustituirían en parte a los anulados por la Corte Suprema en febrero y podrían sumarse a gravámenes ya vigentes. Las tasas finales no se han revelado.",
+  "summary_es": "Washington se apresta a proponer aranceles a 16 socios tras investigar un supuesto exceso de capacidad industrial. Las tasas aún no se conocen.",
+  "summary_en": "Washington is set to propose tariffs on 16 partners after a probe into alleged industrial overcapacity. Rates are not yet known.",
+  "highlight_en": "new tariffs",
+  "highlight_es": "nuevos aranceles",
+  "visual_label": "Aranceles",
+  "image_prompt": "Busy container port at dusk with stacked shipping containers, gantry cranes and a cargo ship at the dock, warm orange sky, wide cinematic view, no text, no logos, no flags, no identifiable people",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 38.9, "lon": -77.04, "label": "Washington"},
+    "labels": {"United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://lufkindailynews.com/news_reuters/top_news/trump-administration-set-to-unveil-new-tariffs-after-probe-on-excess-factory-capacity-sources-say/article_a0dd6b16-81ed-5ca5-949f-900e68e2a245.html",
+    "https://www.businesstoday.in/latest/economy/story/us-plans-fresh-tariffs-on-india-china-and-other-economies-over-industrial-subsidies-report-569263-2026-11-24"
+  ],
+  "source_names": ["Reuters", "Business Today"],
+  "hashtags": ["#MATRIX24", "#Aranceles", "#Tariffs", "#Economía", "#Comercio"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
