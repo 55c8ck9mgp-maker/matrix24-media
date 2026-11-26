@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-us-growth-surges-as-inflation-rises",
+  "status": "draft",
+  "created_at": "2026-11-26T00:51:00Z",
+  "category": "Economy",
+  "headline": "US economy grows 4.3% in third quarter as core inflation hits highest since 2023",
+  "headline_es": "La economía de EE.UU. crece 4,3% en el tercer trimestre y la inflación subyacente toca máximo desde 2023",
+  "caption_en": "US GDP grew at a 4.3% annualized rate in the third quarter, revised up from 3.4% and the fastest pace in three years. The Fed's preferred inflation gauge, the PCE price index, rose 3.8% year on year in October, while core PCE climbed 3.3%, its largest increase since late 2023. Markets now widely expect the Federal Reserve to raise interest rates at its December 8-9 meeting.",
+  "caption_es": "El PIB de EE.UU. creció a una tasa anualizada del 4,3% en el tercer trimestre, revisado al alza desde el 3,4% y el ritmo más rápido en tres años. El índice de precios PCE, la medida de inflación preferida de la Reserva Federal, subió 3,8% interanual en octubre, y el PCE subyacente avanzó 3,3%, su mayor alza desde finales de 2023. Los mercados esperan ampliamente que la Fed suba las tasas de interés en su reunión del 8 y 9 de diciembre.",
+  "summary_es": "El PIB creció 4,3% anualizado y la inflación subyacente PCE llegó a 3,3%, máximo desde 2023. Se espera una subida de tasas en diciembre.",
+  "summary_en": "GDP grew at a 4.3% annualized pace and core PCE inflation hit 3.3%, the highest since 2023. A December rate hike is widely expected.",
+  "highlight_en": "grows 4.3%",
+  "highlight_es": "crece 4,3%",
+  "visual_label": "PIB e inflación",
+  "image_prompt": "Modern city financial district at dawn with glass office towers, a rising line of light suggesting growth across the skyline, shopping street in the foreground with lit storefronts, wide cinematic view, no text, no logos, no flags, no identifiable people",
+  "map": {
+    "focus": ["United States of America"],
+    "marker": {"lat": 38.9, "lon": -77.04, "label": "Washington"},
+    "labels": {"United States of America": "Estados Unidos"}
+  },
+  "source_urls": [
+    "https://coloradobiz.com/us-economy-grows-fastest-inflation-rises-october/",
+    "https://www.foxbusiness.com/economy/october-2026-pce-inflation"
+  ],
+  "source_names": ["Reuters (via ColoradoBiz)", "Fox Business"],
+  "hashtags": ["#MATRIX24", "#Economía", "#Economy", "#Inflación", "#Fed"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

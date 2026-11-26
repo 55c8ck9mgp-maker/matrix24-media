@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-ukraine-hits-five-jets-at-savasleyka",
+  "status": "draft",
+  "created_at": "2026-11-26T00:51:00Z",
+  "category": "Security / Geopolitics",
+  "headline": "Ukraine says it hit five Russian warplanes at Savasleyka air base east of Moscow",
+  "headline_es": "Ucrania dice que alcanzó cinco aviones de guerra rusos en la base aérea de Savasleyka",
+  "caption_en": "Ukraine's General Staff said its forces struck Savasleyka air base in Russia's Nizhny Novgorod region overnight on November 24-25, damaging three MiG-31 jets and two Su-34 fighter-bombers. It said the aircraft would be unable to fly for some time. Russia did not immediately comment, and the extent of the damage could not be independently verified.",
+  "caption_es": "El Estado Mayor de Ucrania afirmó que sus fuerzas atacaron la base aérea de Savasleyka, en la región rusa de Nizhni Nóvgorod, durante la noche del 24 al 25 de noviembre, y dañaron tres cazas MiG-31 y dos cazabombarderos Su-34. Según Kiev, los aviones no podrán volar durante algún tiempo. Rusia no comentó de inmediato y el alcance de los daños no pudo verificarse de forma independiente.",
+  "summary_es": "Kiev asegura haber dañado tres MiG-31 y dos Su-34 en la base de Savasleyka, en Nizhni Nóvgorod. Rusia no comentó de inmediato.",
+  "summary_en": "Kyiv says it damaged three MiG-31s and two Su-34s at Savasleyka air base in Nizhny Novgorod. Russia did not immediately comment.",
+  "highlight_en": "five Russian warplanes",
+  "highlight_es": "cinco aviones de guerra rusos",
+  "visual_label": "Savasleyka",
+  "image_prompt": "Military airfield at night under a dark winter sky, row of parked grey jet aircraft on a snowy apron, distant orange glow on the horizon, wide cinematic view, no text, no logos, no flags, no insignia, no people",
+  "map": {
+    "focus": ["Russia"],
+    "marker": {"lat": 55.44, "lon": 42.31, "label": "Savasleyka"},
+    "labels": {"Russia": "Rusia"}
+  },
+  "source_urls": [
+    "https://www.rte.ie/news/ukraine/2026/1125/1600650-ukraine-russia/",
+    "https://kyivindependent.com/5-russian-aircraft-hit-at-airfield-in-russias-nizhny-novgorod-oblast-general-staff-says/"
+  ],
+  "source_names": ["RTÉ / Reuters", "The Kyiv Independent"],
+  "hashtags": ["#MATRIX24", "#Ucrania", "#Ukraine", "#Rusia", "#Geopolítica"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
