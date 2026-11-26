@@ -1,0 +1,72 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-26T00:40:12.055Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-26",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-26",
+  "caption_es": "Resumen del día:\n1️⃣ Bangladés sube un 36% el salario mínimo textil tras semanas de protestas\n2️⃣ Al menos 20 mineros atrapados tras inundarse una mina ilegal de oro en Indonesia\n3️⃣ Un tribunal sudafricano anula el informe del panel sobre Phala Phala contra el presidente Ramaphosa\n4️⃣ EE.UU. prepara nuevos aranceles a China, la UE y otras 14 economías por exceso de capacidad",
+  "caption_en": "Today's summary:\n1️⃣ Bangladesh raises garment workers' minimum wage by 36% after weeks of protests\n2️⃣ At least 20 miners trapped after flood hits illegal gold mine in Indonesia\n3️⃣ South African court sets aside the Phala Phala panel report against President Ramaphosa\n4️⃣ US prepares new tariffs on China, the EU and 14 other economies after excess-capacity probe",
+  "source_urls": [
+    "https://abcnews.com/International/wireStory/bangladesh-raises-minimum-wage-garment-workers-after-weeks-138432725",
+    "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest",
+    "https://www.aljazeera.com/news/2026/11/25/rescuers-search-for-dozens-trapped-in-flooded-indonesia-gold-mine",
+    "https://www.gulfcoastnewsnow.com/article/deadly-flood-indonesian-unauthorized-gold-mine/74530391",
+    "https://www.ewn.co.za/2026/11/25/western-cape-high-court-sets-aside-section-89-phala-phala-report",
+    "https://www.citizen.co.za/news/south-africa/courts/ramaphosa-phala-phala-report-set-aside/",
+    "https://lufkindailynews.com/news_reuters/top_news/trump-administration-set-to-unveil-new-tariffs-after-probe-on-excess-factory-capacity-sources-say/article_a0dd6b16-81ed-5ca5-949f-900e68e2a245.html",
+    "https://www.businesstoday.in/latest/economy/story/us-plans-fresh-tariffs-on-india-china-and-other-economies-over-industrial-subsidies-report-569263-2026-11-24"
+  ],
+  "source_names": [
+    "Associated Press",
+    "Al Jazeera",
+    "Eyewitness News",
+    "The Citizen",
+    "Reuters",
+    "Business Today"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#Bangladesh",
+    "#Economía",
+    "#Economy",
+    "#Textil",
+    "#Indonesia",
+    "#Mineria",
+    "#Mining",
+    "#Sudáfrica",
+    "#Ramaphosa",
+    "#PhalaPhala",
+    "#SouthAfrica",
+    "#Aranceles"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261126-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261126-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261125-bangladesh-raises-garment-wage-36-percent",
+      "claude-20261125-miners-trapped-in-flooded-indonesian-gold-mine",
+      "claude-20261125-court-sets-aside-phala-phala-report",
+      "claude-20261125-us-readies-tariffs-on-16-economies"
+    ],
+    "total_seconds": 65
+  },
+  "publish_attempt_id": "4b78e272-5fbc-4be4-b505-f94294f6c5b7",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-26T00:41:02.552Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-26T00:41:02.552Z",
+      "event": "reserved",
+      "publish_attempt_id": "4b78e272-5fbc-4be4-b505-f94294f6c5b7"
+    }
+  ],
+  "reserved_at": "2026-11-26T00:41:02.552Z"
+}
