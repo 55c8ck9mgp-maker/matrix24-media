@@ -1,0 +1,27 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-fcc-approves-spacex-orbital-data-centers",
+  "status": "draft",
+  "created_at": "2026-11-26T06:51:19Z",
+  "category": "Technology",
+  "headline": "US regulator clears SpaceX to launch up to 1 million satellites as orbital AI data centers",
+  "headline_es": "EE. UU. autoriza a SpaceX a lanzar hasta un millón de satélites como centros de datos de IA",
+  "caption_en": "The US Federal Communications Commission approved SpaceX's Starmind plan on Wednesday, allowing up to one million satellites that would work as data centers for AI computing in orbits between 500 and 1,002 km. The first satellite must operate by 2033 and the full network by 2040. Amazon, Viasat and the American Astronomical Society had opposed the plan.",
+  "caption_es": "La Comisión Federal de Comunicaciones de EE. UU. aprobó el miércoles el plan Starmind de SpaceX, que permite hasta un millón de satélites que funcionarían como centros de datos de computación de IA en órbitas de entre 500 y 1.002 km. El primer satélite debe operar antes de 2033 y la red completa antes de 2040. Amazon, Viasat y la Sociedad Astronómica Estadounidense se habían opuesto al plan.",
+  "summary_es": "La FCC aprobó Starmind: hasta un millón de satélites de computación de IA en órbita. El primero debe operar antes de 2033 y la red completa antes de 2040.",
+  "summary_en": "The FCC approved Starmind: up to one million AI computing satellites. The first must operate by 2033, the full network by 2040.",
+  "highlight_en": "1 million satellites",
+  "highlight_es": "un millón de satélites",
+  "visual_label": "Starmind",
+  "image_prompt": "Constellation of many small flat-panel satellites with solar arrays orbiting above the curved blue Earth, faint glowing data links between them, black starry space, wide cinematic view, no text, no logos, no flags",
+  "source_urls": [
+    "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+    "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/"
+  ],
+  "source_names": ["TechCrunch", "GeekWire"],
+  "hashtags": ["#MATRIX24", "#SpaceX", "#IA", "#AI", "#Tecnología"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

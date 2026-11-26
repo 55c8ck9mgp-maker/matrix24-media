@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-colombian-forces-end-cartagena-supermarket-siege",
+  "status": "draft",
+  "created_at": "2026-11-26T06:51:19Z",
+  "category": "Colombia / Latin America",
+  "headline": "Colombian forces storm Cartagena supermarket and rescue all hostages after daylong siege",
+  "headline_es": "Fuerzas colombianas irrumpen en un supermercado de Cartagena y rescatan a todos los rehenes",
+  "caption_en": "Colombian police and military stormed an Éxito supermarket in Cartagena early on Wednesday, ending a daylong hostage siege. The standoff began after a failed attempt to rob an armored vehicle, when the robbers took people inside the store hostage. President Abelardo de la Espriella said all hostages were rescued and one captor was killed.",
+  "caption_es": "La policía y el ejército de Colombia irrumpieron en la madrugada del miércoles en un supermercado Éxito de Cartagena y pusieron fin a un secuestro que duró todo un día. Todo comenzó tras un intento fallido de robo a un vehículo blindado, cuando los asaltantes tomaron como rehenes a personas dentro de la tienda. El presidente Abelardo de la Espriella dijo que todos los rehenes fueron rescatados y que uno de los captores murió.",
+  "summary_es": "Tras un intento fallido de robo a un blindado, los asaltantes tomaron rehenes en un Éxito. Todos fueron rescatados y un captor murió.",
+  "summary_en": "After a failed armored-vehicle robbery, robbers took hostages inside an Éxito store. All were rescued and one captor was killed.",
+  "highlight_en": "rescue all hostages",
+  "highlight_es": "rescatan a todos los rehenes",
+  "visual_label": "Cartagena",
+  "image_prompt": "Modern supermarket building at night in a tropical Caribbean city, palm trees, police vehicle lights reflecting on wet pavement, a helicopter silhouette in the dark sky, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Colombia"],
+    "marker": {"lat": 10.39, "lon": -75.51, "label": "Cartagena"},
+    "labels": {"Colombia": "Colombia"}
+  },
+  "source_urls": [
+    "https://www.cbsnews.com/news/colombia-supermarket-siege-ends-security-forces-storm-scene/",
+    "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"
+  ],
+  "source_names": ["CBS News / AFP", "Al Jazeera / Reuters"],
+  "hashtags": ["#MATRIX24", "#Colombia", "#Cartagena", "#Rehenes"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

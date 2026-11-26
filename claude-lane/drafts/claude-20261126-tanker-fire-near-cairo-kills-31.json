@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-tanker-fire-near-cairo-kills-31",
+  "status": "draft",
+  "created_at": "2026-11-26T06:51:19Z",
+  "category": "World",
+  "headline": "Fuel tanker fire on Cairo's Ring Road kills at least 31 people",
+  "headline_es": "Incendio de un camión cisterna en la autopista de circunvalación de El Cairo deja al menos 31 muertos",
+  "caption_en": "A tanker carrying petroleum products overturned and caught fire on Wednesday on Greater Cairo's Ring Road in the Warraq district of Giza. Egyptian authorities said at least 31 people were killed and 21 injured, and more than two dozen cars and motorcycles were charred. Prosecutors ordered DNA testing to identify the victims while the cause is investigated.",
+  "caption_es": "Un camión cisterna que transportaba derivados del petróleo volcó y se incendió el miércoles en la autopista de circunvalación del Gran Cairo, en el distrito de Warraq, en Guiza. Las autoridades egipcias informaron de al menos 31 muertos y 21 heridos, y más de dos docenas de autos y motocicletas quedaron calcinados. La fiscalía ordenó pruebas de ADN para identificar a las víctimas mientras se investiga la causa.",
+  "summary_es": "Un camión cisterna volcó y se incendió en Warraq, Guiza. Hay al menos 31 muertos, 21 heridos y más de dos docenas de vehículos calcinados.",
+  "summary_en": "A tanker overturned and caught fire in Warraq, Giza, killing at least 31, injuring 21 and charring more than two dozen vehicles.",
+  "highlight_en": "at least 31 people",
+  "highlight_es": "al menos 31 muertos",
+  "visual_label": "El Cairo",
+  "image_prompt": "Elevated urban highway at dusk with thick black smoke rising over the road, empty lanes closed off, distant city apartment blocks in a hazy desert light, emergency lights glowing far away, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Egypt"],
+    "marker": {"lat": 30.10, "lon": 31.20, "label": "Warraq, Guiza"},
+    "labels": {"Egypt": "Egipto"}
+  },
+  "source_urls": [
+    "https://english.aawsat.com/arab-world/5345813-egypt-fuel-tanker-crash-ignites-massive-fire-highway-least-31-dead",
+    "https://www.ibtimes.co.uk/cairo-tanker-fire-giza-ring-road-deaths-1834854"
+  ],
+  "source_names": ["Asharq Al-Awsat", "IBTimes UK"],
+  "hashtags": ["#MATRIX24", "#Egipto", "#Egypt", "#ElCairo", "#Cairo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}

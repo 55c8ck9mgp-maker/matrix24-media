@@ -1,0 +1,46 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-poland-plans-no-fly-zone-on-eastern-border",
+  "status": "draft",
+  "created_at": "2026-11-26T06:51:19Z",
+  "category": "Security / Geopolitics",
+  "headline": "Poland plans no-fly zone on its eastern border after Russian airspace violations",
+  "headline_es": "Polonia planea una zona de exclusión aérea en su frontera oriental tras violaciones rusas",
+  "caption_en": "Poland said on Wednesday it plans to set up a no-fly zone along its eastern border to make it easier for its military to intercept Russian missiles and drones that violate its airspace. The move follows Russian missiles coming down in eastern Poland.",
+  "caption_es": "Polonia anunció el miércoles que planea establecer una zona de exclusión aérea a lo largo de su frontera oriental para facilitar que sus fuerzas intercepten misiles y drones rusos que violen su espacio aéreo. La medida llega después de que misiles rusos cayeran en el este del país.",
+  "summary_es": "Varsovia quiere facilitar la interceptación de misiles y drones rusos que entren en su espacio aéreo, tras la caída de misiles rusos en el este del país.",
+  "summary_en": "Warsaw wants to make it easier to intercept Russian missiles and drones entering its airspace after Russian missiles came down in the east.",
+  "highlight_en": "no-fly zone",
+  "highlight_es": "zona de exclusión aérea",
+  "visual_label": "Frontera este",
+  "image_prompt": "Fighter jet silhouette patrolling above a forested border region at dawn, radar station on a hill below, grey winter clouds, wide cinematic view, no text, no logos, no flags, no insignia, no people",
+  "map": {
+    "focus": [
+      "Poland",
+      "Ukraine"
+    ],
+    "labels": {
+      "Poland": "Polonia",
+      "Ukraine": "Ucrania"
+    }
+  },
+  "source_urls": [
+    "https://notesfrompoland.com/2026/11/25/poland-plans-no-fly-zone-on-eastern-border-to-aid-downing-of-russian-missiles/",
+    "https://tvpworld.com/96683242/poland-plans-eastern-no-fly-zone-after-russian-airspace-violations"
+  ],
+  "source_names": [
+    "Notes From Poland",
+    "TVP World"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Polonia",
+    "#Poland",
+    "#OTAN",
+    "#Geopolítica"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
