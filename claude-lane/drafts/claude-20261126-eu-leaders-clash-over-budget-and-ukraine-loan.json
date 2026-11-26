@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-eu-leaders-clash-over-budget-and-ukraine-loan",
+  "status": "draft",
+  "created_at": "2026-11-26T12:56:00Z",
+  "category": "Economy",
+  "headline": "EU leaders clash in Brussels over the 2028-2034 budget and a new loan for Ukraine",
+  "headline_es": "Líderes de la UE chocan en Bruselas por el presupuesto 2028-2034 y un nuevo préstamo a Ucrania",
+  "caption_en": "EU leaders opened a summit in Brussels on Thursday to debate the bloc's 2028-2034 budget and new financing for Ukraine, including a planned 45 billion euro loan for 2027. Hungary, Slovakia, the Czech Republic and Bulgaria object to the loan plan, and the budget needs unanimous approval. Leaders are aiming for a deal in December.",
+  "caption_es": "Los líderes de la UE abrieron el jueves una cumbre en Bruselas para debatir el presupuesto 2028-2034 del bloque y nueva financiación para Ucrania, incluido un préstamo previsto de 45.000 millones de euros para 2027. Hungría, Eslovaquia, la República Checa y Bulgaria se oponen al plan, y el presupuesto requiere unanimidad. Los líderes buscan un acuerdo en diciembre.",
+  "summary_es": "Hungría, Eslovaquia, Chequia y Bulgaria rechazan el préstamo de 45.000 millones de euros para 2027. El presupuesto exige unanimidad de los 27 y se busca un acuerdo en diciembre.",
+  "summary_en": "Hungary, Slovakia, Czechia and Bulgaria oppose the 45 billion euro loan for 2027. The budget needs all 27 members, and leaders aim for a deal in December.",
+  "highlight_en": "2028-2034 budget",
+  "highlight_es": "presupuesto 2028-2034",
+  "visual_label": "Bruselas",
+  "image_prompt": "Modern glass government building in Brussels at dusk with a long empty conference table visible through the windows, rows of microphones and documents, cool blue lighting, wide cinematic view, no people, no text, no logos, no flags, no insignia",
+  "map": {
+    "focus": ["Belgium", "Ukraine"],
+    "marker": {"lat": 50.84, "lon": 4.38, "label": "Bruselas"},
+    "labels": {"Belgium": "Bélgica", "Ukraine": "Ucrania"}
+  },
+  "source_urls": [
+    "https://theprint.in/world/leaders-wrestle-over-eus-budget-ukraine-financing-as-le-pen-focuses-minds/3109796/",
+    "https://unn.ua/en/news/the-eu-summit-begins-in-brussels-leaders-will-argue-over-the-budget-and-a-loan-to-ukraine"
+  ],
+  "source_names": ["Reuters (via ThePrint)", "Ukrainian National News"],
+  "hashtags": ["#MATRIX24", "#UE", "#EU", "#Ucrania", "#Economía"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": []
+}
