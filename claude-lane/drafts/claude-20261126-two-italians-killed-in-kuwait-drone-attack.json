@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-two-italians-killed-in-kuwait-drone-attack",
+  "status": "draft",
+  "created_at": "2026-11-26T18:50:25Z",
+  "category": "Security / Geopolitics",
+  "headline": "Two Italian technicians killed as Kuwait intercepts drones it blames on Iran",
+  "headline_es": "Mueren dos técnicos italianos en Kuwait al interceptar drones que atribuye a Irán",
+  "caption_en": "Two Italian technicians working for Rheinmetall Italia died on Thursday after being hit by falling debris as Kuwaiti forces intercepted drones targeting an air-defence station, Kuwait's Defence Ministry said, calling it an Iranian attack. A Kuwaiti and a Pakistani national were injured. Italy's Foreign Minister Antonio Tajani confirmed the deaths, while Iran's military denied responsibility.",
+  "caption_es": "Dos técnicos italianos que trabajaban para Rheinmetall Italia murieron el jueves al ser alcanzados por restos que cayeron cuando las fuerzas kuwaitíes interceptaban drones dirigidos contra una estación de defensa aérea, informó el Ministerio de Defensa de Kuwait, que lo calificó de ataque iraní. Un kuwaití y un paquistaní resultaron heridos. El canciller italiano, Antonio Tajani, confirmó las muertes, mientras el ejército de Irán negó su responsabilidad.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+    "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+    "https://www.al-monitor.com/originals/2026/11/iranian-drone-attack-kuwait-leaves-two-italians-dead"
+  ],
+  "source_names": ["Al Jazeera", "ABC News (Australia)", "Al-Monitor"],
+  "hashtags": ["#MATRIX24", "#Kuwait", "#Italia", "#Irán", "#Golfo"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Kuwait dice que los restos de drones interceptados cayeron sobre una estación de defensa aérea. Irán niega estar detrás del ataque.",
+  "summary_en": "Kuwait says debris from intercepted drones fell on an air-defence station. Iran denies it was behind the attack.",
+  "highlight_es": "dos técnicos italianos",
+  "highlight_en": "Two Italian technicians",
+  "visual_label": "Kuwait",
+  "image_prompt": "Air-defence radar dome and antenna array in a flat desert landscape at dusk, faint streaks of interceptor trails in the hazy sky, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": ["Kuwait"],
+    "labels": {"Kuwait": "Kuwait"}
+  }
+}

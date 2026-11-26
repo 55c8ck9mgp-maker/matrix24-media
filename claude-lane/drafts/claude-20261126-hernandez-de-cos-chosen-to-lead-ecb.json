@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261126-hernandez-de-cos-chosen-to-lead-ecb",
+  "status": "draft",
+  "created_at": "2026-11-26T18:50:25Z",
+  "category": "Economy",
+  "headline": "Euro area leaders pick Spain's Pablo Hernández de Cos to succeed Lagarde at the ECB",
+  "headline_es": "Los líderes de la eurozona eligen al español Pablo Hernández de Cos para suceder a Lagarde en el BCE",
+  "caption_en": "Leaders of the 21 euro area countries agreed at a Brussels summit on Thursday to name Pablo Hernández de Cos, former governor of the Bank of Spain and now head of the Bank for International Settlements, as the next president of the European Central Bank. He would succeed Christine Lagarde, who plans to step down in February. The European Parliament and the ECB still have to review the nomination.",
+  "caption_es": "Los líderes de los 21 países de la eurozona acordaron el jueves, en una cumbre en Bruselas, nombrar a Pablo Hernández de Cos, exgobernador del Banco de España y actual director del Banco de Pagos Internacionales, como próximo presidente del Banco Central Europeo. Sucedería a Christine Lagarde, que prevé dejar el cargo en febrero. El Parlamento Europeo y el BCE aún deben examinar la candidatura.",
+  "source_urls": [
+    "https://www.news4jax.com/business/2026/11/26/leaders-choose-spains-former-central-bank-head-as-next-european-central-bank-president/",
+    "https://en.ara.cat/economy/hernandez-cos-will-be-president-of-the-european-central-bank-this-is-how-the-decision-was-cooked-up_1_5923918.html"
+  ],
+  "source_names": [
+    "News4JAX (AP)",
+    "Ara"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#BCE",
+    "#ECB",
+    "#Eurozona",
+    "#Economía"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Exgobernador del Banco de España, sustituiría a Lagarde, que deja el cargo en febrero, antes de terminar su mandato.",
+  "summary_en": "The former Bank of Spain governor would replace Lagarde, who leaves in February before her term ends.",
+  "highlight_es": "Pablo Hernández de Cos",
+  "highlight_en": "Pablo Hernández de Cos",
+  "visual_label": "BCE",
+  "image_prompt": "Modern glass skyscraper of a central bank against a clear evening sky, euro coins and banknotes stacked in the foreground, cinematic financial-district view, no people, no text, no logos, no flags",
+  "map": {
+    "focus": [
+      "Belgium"
+    ],
+    "marker": {
+      "lat": 50.8503,
+      "lon": 4.3517,
+      "label": "Bruselas"
+    },
+    "labels": {
+      "Belgium": "Bélgica"
+    }
+  }
+}
