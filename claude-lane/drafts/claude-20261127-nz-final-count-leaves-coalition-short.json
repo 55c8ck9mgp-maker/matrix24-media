@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-27T06:52:45Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261127-nz-final-count-leaves-coalition-short",
+  "category": "World",
+  "headline": "New Zealand's final election count leaves Luxon's coalition one seat short of a majority",
+  "headline_es": "El conteo final en Nueva Zelanda deja a la coalición de Luxon a un escaño de la mayoría",
+  "caption_en": "Final results of New Zealand's November 7 election, including special votes, give Prime Minister Christopher Luxon's centre-right coalition 65 seats, one short of a majority, after preliminary results had given it a two-seat edge. National won 40 seats and Labour 36. The Opportunity party, led by Qiulae Wong, now holds the balance of power.",
+  "caption_es": "Los resultados finales de las elecciones del 7 de noviembre en Nueva Zelanda, que incluyen los votos especiales, dan a la coalición de centroderecha del primer ministro Christopher Luxon 65 escaños, uno menos de la mayoría, después de que el conteo preliminar le otorgara una ventaja de dos escaños. El Partido Nacional obtuvo 40 escaños y el Laborista 36. El partido Opportunity, liderado por Qiulae Wong, tiene ahora la llave del poder.",
+  "summary_es": "Con los votos especiales, la coalición de Luxon queda con 65 escaños, uno menos de la mayoría. El partido Opportunity, de Qiulae Wong, se convierte en árbitro.",
+  "summary_en": "Special votes leave Luxon's coalition with 65 seats, one short of a majority. Qiulae Wong's Opportunity party becomes the kingmaker.",
+  "highlight_en": "one seat short",
+  "highlight_es": "a un escaño",
+  "visual_label": "Wellington",
+  "image_prompt": "Modern circular parliament building on a hillside city by a harbour at dusk, empty plaza, soft clouds, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["New Zealand"],
+    "marker": {"lat": -41.29, "lon": 174.78, "label": "Wellington"},
+    "labels": {"New Zealand": "Nueva Zelanda"}
+  },
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-11-27/official-results-of-new-zealand-s-national-election-announced/107434326",
+    "https://www.jpost.com/international/article-916303"
+  ],
+  "source_names": ["ABC News (Australia)", "Reuters (via The Jerusalem Post)"],
+  "hashtags": ["#MATRIX24", "#NuevaZelanda", "#Elecciones", "#NewZealand"]
+}

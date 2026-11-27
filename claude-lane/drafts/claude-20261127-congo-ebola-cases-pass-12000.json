@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-27T06:52:45Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261127-congo-ebola-cases-pass-12000",
+  "category": "World",
+  "headline": "Confirmed Ebola cases in DR Congo pass 12,000 as fighting disrupts the response",
+  "headline_es": "Los casos confirmados de ébola en RD Congo superan los 12.000 en medio de combates",
+  "caption_en": "Government data show 12,021 confirmed Ebola cases in DR Congo, nearly half of them fatal, in the country's deadliest outbreak on record. It is caused by the Bundibugyo virus, which has no approved vaccine or treatment. Clashes in Ituri province have hampered containment, and the WHO said about a dozen people, including two of its staff, were evacuated to Bunia after three days trapped in a hospital.",
+  "caption_es": "Datos del gobierno muestran 12.021 casos confirmados de ébola en RD Congo, casi la mitad mortales, en el brote más letal registrado en el país. Lo causa el virus Bundibugyo, que no tiene vacuna ni tratamiento aprobados. Los enfrentamientos en la provincia de Ituri dificultan la contención, y la OMS dijo que una docena de personas, entre ellas dos de sus empleados, fueron evacuadas a Bunia tras pasar tres días atrapadas en un hospital.",
+  "summary_es": "RD Congo suma 12.021 casos confirmados y casi la mitad han muerto. Los combates en Ituri obstaculizan la contención del virus Bundibugyo.",
+  "summary_en": "DR Congo has 12,021 confirmed cases, nearly half fatal. Fighting in Ituri is hampering efforts to contain the Bundibugyo virus.",
+  "highlight_en": "Ebola cases",
+  "highlight_es": "ébola",
+  "visual_label": "Ituri",
+  "image_prompt": "Field medical tents and supply crates near a red dirt road in green hills under a hazy sky, empty treatment centre with plastic barriers, wide cinematic view, no text, no logos, no flags, no people",
+  "map": {
+    "focus": ["Dem. Rep. Congo"],
+    "marker": {"lat": 1.56, "lon": 30.25, "label": "Bunia"},
+    "labels": {"Dem. Rep. Congo": "RD Congo"}
+  },
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east",
+    "https://www.dailysabah.com/world/africa/congo-ebola-cases-cross-12000-while-clashes-hinder-containment"
+  ],
+  "source_names": ["Al Jazeera", "AP (via Daily Sabah)"],
+  "hashtags": ["#MATRIX24", "#Ébola", "#RDCongo", "#OMS", "#Salud"]
+}
