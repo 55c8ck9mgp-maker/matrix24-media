@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261127-guinea-bissau-junta-delays-elections-to-2028",
+  "status": "draft",
+  "created_at": "2026-11-27T00:51:19Z",
+  "category": "World",
+  "headline": "Guinea-Bissau junta delays elections by two years, to November 2028",
+  "headline_es": "La junta de Guinea-Bisáu aplaza las elecciones dos años, hasta noviembre de 2028",
+  "caption_en": "Guinea-Bissau’s military rulers have postponed the presidential and legislative elections planned for December 6 to November 2028, by a decree signed on Thursday. The decree cites a lack of technical, material and financial conditions for the vote. The army seized power in November 2025, removing President Umaro Sissoco Embaló as results of that month’s election were pending.",
+  "caption_es": "Los gobernantes militares de Guinea-Bisáu aplazaron hasta noviembre de 2028 las elecciones presidenciales y legislativas previstas para el 6 de diciembre, mediante un decreto firmado el jueves. El decreto alega falta de condiciones técnicas, materiales y financieras para la votación. El ejército tomó el poder en noviembre de 2025 y derrocó al presidente Umaro Sissoco Embaló cuando aún se esperaban los resultados de los comicios de ese mes.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years",
+    "https://beninwebtv.com/en/guinea-bissau-the-junta-postpones-elections-to-november-2028/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "Benin Web TV"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#GuineaBissau",
+    "#Elecciones",
+    "#ÁfricaOccidental"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Un decreto militar traslada a noviembre de 2028 los comicios del 6 de diciembre y prolonga la transición tras el golpe de 2025.",
+  "summary_en": "A military decree moves the December 6 vote to November 2028, extending the transition that followed the 2025 coup.",
+  "highlight_es": "aplaza las elecciones",
+  "highlight_en": "delays elections",
+  "visual_label": "Bissau",
+  "image_prompt": "Empty wooden ballot box on a table in a quiet, sunlit government hall in West Africa, palm trees visible through tall windows, muted warm tones, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Guinea-Bissau"
+    ],
+    "marker": {
+      "lat": 11.86,
+      "lon": -15.6,
+      "label": "Bisáu"
+    },
+    "labels": {
+      "Guinea-Bissau": "Guinea-Bisáu"
+    }
+  }
+}

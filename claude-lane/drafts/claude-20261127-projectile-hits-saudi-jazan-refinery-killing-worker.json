@@ -1,0 +1,50 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261127-projectile-hits-saudi-jazan-refinery-killing-worker",
+  "status": "draft",
+  "created_at": "2026-11-27T00:51:19Z",
+  "category": "Security / Geopolitics",
+  "headline": "Projectile strikes Saudi refinery in Jazan, killing one worker",
+  "headline_es": "Un proyectil impacta una refinería saudí en Jazán y mata a un trabajador",
+  "caption_en": "An aerial projectile struck an oil refinery in Saudi Arabia’s southern Jazan region on Thursday, killing a Nepali worker and injuring several others, the Saudi Energy Ministry said. The strike started a fire that was brought under control, and some operations were temporarily halted. The ministry did not name the attacker; the Saudi-led coalition blamed Yemen’s Houthis.",
+  "caption_es": "Un proyectil aéreo impactó el jueves una refinería de petróleo en la región de Jazán, en el sur de Arabia Saudí, y mató a un trabajador nepalí e hirió a varios más, informó el Ministerio de Energía saudí. El ataque causó un incendio que fue controlado, y algunas operaciones se suspendieron temporalmente. El ministerio no identificó al atacante; la coalición liderada por Arabia Saudí culpó a los hutíes de Yemen.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
+    "https://www.yahoo.com/news/world/articles/projectile-hits-saudi-oil-refinery-203325876.html"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "dpa (via Yahoo News)"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ArabiaSaudí",
+    "#Yemen",
+    "#Petróleo"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El ataque provocó un incendio y frenó parte de las operaciones. La coalición saudí atribuye el ataque a los hutíes.",
+  "summary_en": "The strike caused a fire and halted some operations. The Saudi-led coalition blames the Houthis.",
+  "highlight_es": "refinería saudí",
+  "highlight_en": "Saudi refinery",
+  "visual_label": "Jazán",
+  "image_prompt": "Large coastal oil refinery with distillation towers and storage tanks at dusk, a column of dark smoke rising in the distance over the Red Sea shore, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "marker": {
+      "lat": 16.89,
+      "lon": 42.55,
+      "label": "Jazán"
+    },
+    "labels": {
+      "Saudi Arabia": "Arabia Saudí",
+      "Yemen": "Yemen"
+    }
+  }
+}

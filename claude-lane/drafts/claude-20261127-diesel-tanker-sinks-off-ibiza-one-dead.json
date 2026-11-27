@@ -1,0 +1,49 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261127-diesel-tanker-sinks-off-ibiza-one-dead",
+  "status": "draft",
+  "created_at": "2026-11-27T00:51:19Z",
+  "category": "World",
+  "headline": "Diesel tanker capsizes off Ibiza; one crew member dies",
+  "headline_es": "Un petrolero con diésel vuelca frente a Ibiza; muere un tripulante",
+  "caption_en": "The Malta-flagged tanker Med Emre, sailing from Algeciras to Barcelona with up to 7,000 tonnes of diesel, capsized and sank partly off Ibiza early on Thursday. All 17 crew members were rescued, but one later died in hospital. Spanish authorities activated a maritime pollution emergency plan as they work to assess and prevent any fuel spill.",
+  "caption_es": "El petrolero Med Emre, con bandera de Malta, que navegaba de Algeciras a Barcelona con hasta 7.000 toneladas de diésel, volcó y se hundió parcialmente frente a Ibiza en la madrugada del jueves. Los 17 tripulantes fueron rescatados, pero uno murió después en el hospital. Las autoridades españolas activaron un plan de emergencia por contaminación marítima mientras evalúan y tratan de evitar un derrame de combustible.",
+  "source_urls": [
+    "https://gcaptain.com/crew-member-dies-after-diesel-tanker-capsizes-off-ibiza-no-pollution-so-far/",
+    "https://oilprice.com/Latest-Energy-News/World-News/One-Crew-Member-Dies-as-Diesel-Tanker-Sinks-off-Ibiza.html"
+  ],
+  "source_names": [
+    "Reuters (via gCaptain)",
+    "OilPrice.com"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ibiza",
+    "#España",
+    "#Mediterráneo",
+    "#Petrolero"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "El Med Emre transportaba hasta 7.000 toneladas de diésel. Rescataron a los 17 tripulantes; uno falleció en el hospital.",
+  "summary_en": "The Med Emre carried up to 7,000 tonnes of diesel. All 17 crew were rescued; one later died in hospital.",
+  "highlight_es": "vuelca frente a Ibiza",
+  "highlight_en": "capsizes off Ibiza",
+  "visual_label": "Ibiza",
+  "image_prompt": "Small chemical tanker listing heavily on a choppy blue-grey Mediterranean sea, rescue vessel and helicopter at a distance, rocky island coastline on the horizon, wide cinematic view, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 39.3,
+      "lon": 1.2,
+      "label": "Ibiza"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  }
+}

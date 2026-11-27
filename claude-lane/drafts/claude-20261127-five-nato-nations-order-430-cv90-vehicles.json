@@ -1,0 +1,45 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261127-five-nato-nations-order-430-cv90-vehicles",
+  "status": "draft",
+  "created_at": "2026-11-27T00:51:19Z",
+  "category": "Security / Geopolitics",
+  "headline": "Five European NATO members to buy over 430 CV90 combat vehicles",
+  "headline_es": "Cinco países europeos de la OTAN comprarán más de 430 vehículos de combate CV90",
+  "caption_en": "Finland, Sweden, Norway, Lithuania and the Netherlands will jointly buy more than 430 CV90 infantry fighting vehicles from BAE Systems, Finland’s defence minister announced on Thursday. Finland alone is ordering 160 vehicles worth about €2.8 billion. Sweden leads the joint purchase, and the new vehicles are designed with protection against drone threats.",
+  "caption_es": "Finlandia, Suecia, Noruega, Lituania y Países Bajos comprarán de forma conjunta más de 430 vehículos de combate de infantería CV90 a BAE Systems, anunció el jueves el ministro de Defensa finlandés. Solo Finlandia encarga 160 vehículos por unos 2.800 millones de euros. Suecia lidera la compra conjunta, y los nuevos vehículos están pensados para hacer frente a amenazas de drones.",
+  "source_urls": [
+    "https://uk.finance.yahoo.com/news/five-european-nations-buy-combat-122719277.html",
+    "https://www.aa.com.tr/en/europe/5-european-countries-join-forces-to-procure-bae-systems-combat-vehicles/4139348"
+  ],
+  "source_names": [
+    "Reuters (via Yahoo Finance)",
+    "Anadolu Agency"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#OTAN",
+    "#Defensa",
+    "#Europa"
+  ],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "Finlandia, Suecia, Noruega, Lituania y Países Bajos compran juntos; Finlandia encarga 160 unidades por unos 2.800 millones de euros.",
+  "summary_en": "Finland, Sweden, Norway, Lithuania and the Netherlands buy jointly; Finland orders 160 for about €2.8 billion.",
+  "highlight_es": "vehículos de combate CV90",
+  "highlight_en": "CV90 combat vehicles",
+  "visual_label": "CV90",
+  "image_prompt": "Row of tracked infantry fighting vehicles parked on a snowy Nordic military field under a pale winter sky, pine forest in the background, wide cinematic view, no people, no text, no flags, no insignia, no logos",
+  "map": {
+    "focus": [
+      "Finland",
+      "Sweden"
+    ],
+    "labels": {
+      "Finland": "Finlandia",
+      "Sweden": "Suecia"
+    }
+  }
+}
