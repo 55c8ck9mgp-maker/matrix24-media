@@ -1,0 +1,75 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261127-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-27T00:47:42.764Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-27",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-27",
+  "caption_es": "Resumen del día:\n1️⃣ Polonia planea una zona de exclusión aérea en su frontera oriental tras violaciones rusas\n2️⃣ Mueren dos técnicos italianos en Kuwait al interceptar drones que atribuye a Irán\n3️⃣ Fuerzas colombianas irrumpen en un supermercado de Cartagena y rescatan a todos los rehenes\n4️⃣ Explosión e incendio paralizan la refinería de Bangchak en Bangkok y dejan heridos",
+  "caption_en": "Today's summary:\n1️⃣ Poland plans no-fly zone on its eastern border after Russian airspace violations\n2️⃣ Two Italian technicians killed as Kuwait intercepts drones it blames on Iran\n3️⃣ Colombian forces storm Cartagena supermarket and rescue all hostages after daylong siege\n4️⃣ Explosion and fire halt Bangchak oil refinery in Bangkok, injuring several people",
+  "source_urls": [
+    "https://notesfrompoland.com/2026/11/25/poland-plans-no-fly-zone-on-eastern-border-to-aid-downing-of-russian-missiles/",
+    "https://tvpworld.com/96683242/poland-plans-eastern-no-fly-zone-after-russian-airspace-violations",
+    "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+    "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+    "https://www.al-monitor.com/originals/2026/11/iranian-drone-attack-kuwait-leaves-two-italians-dead",
+    "https://www.cbsnews.com/news/colombia-supermarket-siege-ends-security-forces-storm-scene/",
+    "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket",
+    "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok",
+    "https://sg.news.yahoo.com/least-nine-injured-explosion-major-115652075.html"
+  ],
+  "source_names": [
+    "Notes From Poland",
+    "TVP World",
+    "Al Jazeera",
+    "ABC News (Australia)",
+    "Al-Monitor",
+    "CBS News / AFP",
+    "Al Jazeera / Reuters",
+    "The Independent"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#Polonia",
+    "#Poland",
+    "#OTAN",
+    "#Geopolítica",
+    "#Kuwait",
+    "#Italia",
+    "#Irán",
+    "#Golfo",
+    "#Colombia",
+    "#Cartagena",
+    "#Rehenes",
+    "#Bangkok"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261127-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261127-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261126-poland-plans-no-fly-zone-on-eastern-border",
+      "claude-20261126-two-italians-killed-in-kuwait-drone-attack",
+      "claude-20261126-colombian-forces-end-cartagena-supermarket-siege",
+      "claude-20261126-blast-halts-bangkok-oil-refinery"
+    ],
+    "total_seconds": 69
+  },
+  "publish_attempt_id": "1e8bf91f-97a0-4a99-bd77-2774e36abbdb",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-27T00:48:25.067Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-27T00:48:25.067Z",
+      "event": "reserved",
+      "publish_attempt_id": "1e8bf91f-97a0-4a99-bd77-2774e36abbdb"
+    }
+  ],
+  "reserved_at": "2026-11-27T00:48:25.067Z"
+}
