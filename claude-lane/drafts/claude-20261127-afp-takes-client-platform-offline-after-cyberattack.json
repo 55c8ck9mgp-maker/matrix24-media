@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261127-afp-takes-client-platform-offline-after-cyberattack",
+  "status": "draft",
+  "created_at": "2026-11-27T12:52:40Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "Technology",
+  "headline": "News agency AFP takes its client platform offline after a cyberattack",
+  "headline_es": "La agencia AFP desconecta su plataforma para clientes tras un ciberataque",
+  "caption_en": "Agence France-Presse said a cyberattack that began early Thursday targeted AFP Forum, the platform clients use to download its stories, photos and videos, which it took offline as a precaution until further notice. The agency is investigating and offering subscribers backup delivery options. France's cybersecurity chief described the current threat level as unprecedented.",
+  "caption_es": "La Agence France-Presse informó de que un ciberataque iniciado la madrugada del jueves afectó a AFP Forum, la plataforma que usan sus clientes para descargar noticias, fotos y videos, y que la desconectó por precaución hasta nuevo aviso. La agencia investiga lo ocurrido y ofrece a sus suscriptores vías alternativas de entrega. El jefe de ciberseguridad de Francia calificó el nivel actual de amenaza de inédito.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform",
+    "https://thenextweb.com/news/afp-cyberattack-forum-platform-offline"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "The Next Web"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ciberseguridad",
+    "#AFP",
+    "#Francia"
+  ],
+  "summary_es": "El ataque obligó a desconectar AFP Forum, por donde los medios reciben textos, fotos y videos. La agencia investiga.",
+  "summary_en": "The attack forced AFP Forum, used by media clients to get text, photos and video, offline. The agency is investigating.",
+  "highlight_es": "ciberataque",
+  "highlight_en": "cyberattack",
+  "visual_label": "Ciberataque",
+  "image_prompt": "Dark newsroom server room with rows of racks, red warning lights glowing on network equipment, scattered printed photographs on a desk, moody blue and red tones, wide cinematic view, no people, no text, no logos",
+  "map": {
+    "focus": [
+      "France"
+    ],
+    "marker": {
+      "lat": 48.87,
+      "lon": 2.34,
+      "label": "París"
+    },
+    "labels": {
+      "France": "Francia"
+    }
+  }
+}

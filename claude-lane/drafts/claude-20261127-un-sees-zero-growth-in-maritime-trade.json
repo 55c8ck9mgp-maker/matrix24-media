@@ -1,0 +1,35 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261127-un-sees-zero-growth-in-maritime-trade",
+  "status": "draft",
+  "created_at": "2026-11-27T12:52:40Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "category": "Economy",
+  "headline": "UN trade agency sees zero growth in global seaborne trade in 2026 as chokepoints strain",
+  "headline_es": "La ONU prevé crecimiento cero del comercio marítimo mundial en 2026 por la presión en rutas clave",
+  "caption_en": "UNCTAD projects no growth in global seaborne trade volumes this year, after 1.9% growth to 12.3 billion tonnes in 2025, with pressure on the Strait of Hormuz, the Red Sea, the Black Sea and the Panama Canal. Freight rates more than doubled in the months to August. It warns that high fuel costs could push inflation in the least developed countries to nearly twice the global average.",
+  "caption_es": "La UNCTAD prevé que el volumen del comercio marítimo mundial no crezca este año, tras subir un 1,9% en 2025 hasta 12.300 millones de toneladas, con presión sobre el estrecho de Ormuz, el mar Rojo, el mar Negro y el canal de Panamá. Las tarifas de flete se duplicaron con creces en los meses hasta agosto. Advierte que el alto costo del combustible podría llevar la inflación de los países menos adelantados a casi el doble del promedio mundial.",
+  "source_urls": [
+    "https://www.africanews.com/2026/11/27/un-says-global-maritime-trade-projected-to-record-zero-growth-in-2026/",
+    "https://www.app.com.pk/foreign-correspondent/un-warns-global-shipping-faces-zero-growth-in-2026-as-chokepoint-disruptions-reroute-trade/"
+  ],
+  "source_names": [
+    "Africanews",
+    "Associated Press of Pakistan"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#ComercioMarítimo",
+    "#UNCTAD",
+    "#Economía"
+  ],
+  "summary_es": "Ormuz, el mar Rojo, el mar Negro y Panamá frenan el transporte marítimo; los fletes se duplicaron con creces hasta agosto.",
+  "summary_en": "Pressure on Hormuz, the Red Sea, the Black Sea and Panama stalls shipping; freight rates more than doubled through August.",
+  "highlight_es": "crecimiento cero",
+  "highlight_en": "zero growth",
+  "visual_label": "Comercio",
+  "image_prompt": "Large container ship sailing through a narrow strait between arid rocky coasts at sunset, stacked colorful containers, calm water, wide cinematic aerial view, no people, no text, no logos, no flags"
+}
