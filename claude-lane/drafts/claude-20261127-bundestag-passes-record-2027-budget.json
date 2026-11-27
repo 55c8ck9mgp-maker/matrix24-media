@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-27T18:50:45Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261127-bundestag-passes-record-2027-budget",
+  "category": "Economy",
+  "headline": "German Bundestag passes record €556 billion federal budget for 2027",
+  "headline_es": "El Bundestag alemán aprueba un presupuesto récord de 556.000 millones para 2027",
+  "caption_en": "Germany's Bundestag on Friday approved the 2027 federal budget, with record spending of about €556 billion. Defence spending rises to around €140 billion. The plan also includes a lower electricity tax, while Chancellor Friedrich Merz admitted the process did not deserve a beauty prize.",
+  "caption_es": "El Bundestag de Alemania aprobó el viernes el presupuesto federal de 2027, con un gasto récord de unos 556.000 millones de euros. El gasto en defensa sube a cerca de 140.000 millones. El plan incluye además una rebaja del impuesto a la electricidad, mientras el canciller Friedrich Merz admitió que el proceso no merecía un premio de belleza.",
+  "source_urls": [
+    "https://www.thelocal.de/20261127/bundestag-passes-germanys-federal-budget-for-2027",
+    "https://en.lb.ua/news/2026/11/27/51802_bundestag_approves_germanys_2027.html"
+  ],
+  "source_names": [
+    "The Local Germany",
+    "LB.ua"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Alemania",
+    "#Germany",
+    "#Economía"
+  ],
+  "summary_es": "Alemania aprueba un gasto récord de unos 556.000 millones de euros para 2027, con cerca de 140.000 millones para defensa.",
+  "summary_en": "Germany approves record spending of about €556 billion for 2027, with around €140 billion for defence.",
+  "highlight_es": "presupuesto récord",
+  "highlight_en": "record €556 billion",
+  "visual_label": "Bundestag",
+  "image_prompt": "Glass-domed parliament building in Berlin at dusk, warm interior lights, stacks of documents and a calculator on a desk in the foreground, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Germany"
+    ],
+    "marker": {
+      "lat": 52.5186,
+      "lon": 13.3762,
+      "label": "Berlín"
+    },
+    "labels": {
+      "Germany": "Alemania"
+    }
+  }
+}

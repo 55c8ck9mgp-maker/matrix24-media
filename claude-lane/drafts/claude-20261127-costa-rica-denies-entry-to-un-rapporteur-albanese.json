@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-27T18:50:45Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261127-costa-rica-denies-entry-to-un-rapporteur-albanese",
+  "category": "Colombia / Latin America",
+  "headline": "Costa Rica denies entry to UN rapporteur Francesca Albanese, citing an international alert",
+  "headline_es": "Costa Rica niega la entrada a la relatora de la ONU Francesca Albanese por una alerta internacional",
+  "caption_en": "Costa Rica refused entry to Francesca Albanese, the UN special rapporteur on the occupied Palestinian territories, at Juan Santamaría International Airport, where she spent the night. Immigration chief Omer Badilla cited an international alert over alleged links to terrorist acts, without saying who issued it. Albanese had travelled to receive an honorary doctorate from the University of Costa Rica.",
+  "caption_es": "Costa Rica negó la entrada a Francesca Albanese, relatora especial de la ONU para los territorios palestinos ocupados, en el Aeropuerto Internacional Juan Santamaría, donde pasó la noche. El director de Migración, Omer Badilla, citó una alerta internacional por supuestos vínculos con actos terroristas, sin decir quién la emitió. Albanese había viajado para recibir un doctorado honoris causa de la Universidad de Costa Rica.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/27/costa-rica-denies-entry-to-uns-albanese-over-links-to-terrorist",
+    "https://ticotimes.net/2026/11/27/francesca-albanese-costa-rica-airport-entry-denied"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "The Tico Times"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#CostaRica",
+    "#ONU",
+    "#Albanese"
+  ],
+  "summary_es": "Migración alegó una alerta internacional por supuestos vínculos con terrorismo; Albanese iba a recibir un doctorado honoris causa.",
+  "summary_en": "Immigration cited an international alert over alleged terror links; Albanese was due to receive an honorary doctorate.",
+  "highlight_es": "niega la entrada",
+  "highlight_en": "denies entry",
+  "visual_label": "San José",
+  "image_prompt": "Empty international airport arrivals hall at night with immigration booths and a closed glass gate, tropical palm trees visible through large windows, moody cinematic lighting, no people, no text, no flags, no logos",
+  "map": {
+    "focus": [
+      "Costa Rica"
+    ],
+    "marker": {
+      "lat": 9.9939,
+      "lon": -84.2088,
+      "label": "Aeropuerto SJO"
+    },
+    "labels": {
+      "Costa Rica": "Costa Rica"
+    }
+  }
+}
