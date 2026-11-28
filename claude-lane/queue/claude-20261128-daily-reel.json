@@ -1,0 +1,74 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261128-daily-reel",
+  "status": "publishing",
+  "created_at": "2026-11-28T00:14:22.563Z",
+  "category": "Daily summary",
+  "headline": "MATRIX 24 daily news summary — 2026-11-28",
+  "headline_es": "Resumen diario de noticias MATRIX 24 — 2026-11-28",
+  "caption_es": "Resumen del día:\n1️⃣ La agencia AFP desconecta su plataforma para clientes tras un ciberataque\n2️⃣ Un ataque contra un puesto de la Guardia Nacional en el oeste de Níger deja 13 muertos\n3️⃣ Costa Rica niega la entrada a la relatora de la ONU Francesca Albanese por una alerta internacional\n4️⃣ La ONU prevé crecimiento cero del comercio marítimo mundial en 2026 por la presión en rutas clave",
+  "caption_en": "Today's summary:\n1️⃣ News agency AFP takes its client platform offline after a cyberattack\n2️⃣ Attack on a National Guard post in western Niger kills 13, defense ministry says\n3️⃣ Costa Rica denies entry to UN rapporteur Francesca Albanese, citing an international alert\n4️⃣ UN trade agency sees zero growth in global seaborne trade in 2026 as chokepoints strain",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform",
+    "https://thenextweb.com/news/afp-cyberattack-forum-platform-offline",
+    "https://www.yahoo.com/news/world/articles/gunmen-kill-13-soldiers-western-111625274.html",
+    "https://www.sowetan.co.za/news/2026-11-27-suspected-militants-kill-13-soldiers-in-southwest-niger-ministry-says/",
+    "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack",
+    "https://www.aljazeera.com/news/2026/11/27/costa-rica-denies-entry-to-uns-albanese-over-links-to-terrorist",
+    "https://ticotimes.net/2026/11/27/francesca-albanese-costa-rica-airport-entry-denied",
+    "https://www.africanews.com/2026/11/27/un-says-global-maritime-trade-projected-to-record-zero-growth-in-2026/",
+    "https://www.app.com.pk/foreign-correspondent/un-warns-global-shipping-faces-zero-growth-in-2026-as-chokepoint-disruptions-reroute-trade/"
+  ],
+  "source_names": [
+    "Al Jazeera",
+    "The Next Web",
+    "Associated Press",
+    "Reuters",
+    "The Tico Times",
+    "Africanews",
+    "Associated Press of Pakistan"
+  ],
+  "hashtags": [
+    "#matrix24",
+    "#worldnews",
+    "#noticias",
+    "#Ciberseguridad",
+    "#AFP",
+    "#Francia",
+    "#Níger",
+    "#Sahel",
+    "#Seguridad",
+    "#CostaRica",
+    "#ONU",
+    "#Albanese",
+    "#ComercioMarítimo",
+    "#UNCTAD",
+    "#Economía"
+  ],
+  "media_format": "reel",
+  "image_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/claude-20261128-daily-reel.jpg",
+  "video_url": "https://raw.githubusercontent.com/55c8ck9mgp-maker/matrix24-media/main/claude-lane/media/reels/claude-20261128-daily-reel.mp4",
+  "daily_reel": {
+    "story_ids": [
+      "claude-20261127-afp-takes-client-platform-offline-after-cyberattack",
+      "claude-20261127-attack-kills-13-niger-national-guards",
+      "claude-20261127-costa-rica-denies-entry-to-un-rapporteur-albanese",
+      "claude-20261127-un-sees-zero-growth-in-maritime-trade"
+    ],
+    "total_seconds": 65
+  },
+  "publish_attempt_id": "8ea75c75-7290-4eea-8352-c7287cdb896f",
+  "ig_media_id": null,
+  "history": [
+    {
+      "at": "2026-11-28T00:15:19.375Z",
+      "event": "rendered"
+    },
+    {
+      "at": "2026-11-28T00:15:19.375Z",
+      "event": "reserved",
+      "publish_attempt_id": "8ea75c75-7290-4eea-8352-c7287cdb896f"
+    }
+  ],
+  "reserved_at": "2026-11-28T00:15:19.375Z"
+}
