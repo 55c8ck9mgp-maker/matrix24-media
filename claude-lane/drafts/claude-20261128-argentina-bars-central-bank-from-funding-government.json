@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-28T00:50:18Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261128-argentina-bars-central-bank-from-funding-government",
+  "category": "Colombia / Latin America",
+  "headline": "Argentina bars its central bank from printing money to fund government spending",
+  "headline_es": "Argentina prohíbe a su banco central emitir dinero para financiar el gasto público",
+  "caption_en": "Argentina's Congress gave final approval to President Javier Milei's central bank reform, passing the lower house 141-0 with 99 abstentions. The law bars the bank from lending to any level of government or printing money to cover spending, and makes preserving the peso's value its main mission. It comes as official data point to the economy contracting.",
+  "caption_es": "El Congreso de Argentina aprobó de forma definitiva la reforma del banco central impulsada por el presidente Javier Milei, con 141 votos a favor, ninguno en contra y 99 abstenciones en Diputados. La ley prohíbe al banco prestar a cualquier nivel del Estado o emitir dinero para cubrir gastos, y fija como misión principal preservar el valor del peso. Llega mientras los datos oficiales apuntan a una contracción de la economía.",
+  "source_urls": [
+    "https://www.whec.com/ap-top-news/argentina-bans-its-central-bank-from-printing-money-for-the-government/",
+    "https://finance.yahoo.com/economy/policy/articles/argentina-approves-mileis-reform-restricting-074834530.html"
+  ],
+  "source_names": ["Associated Press", "dpa"],
+  "hashtags": ["#MATRIX24", "#Argentina", "#BancoCentral", "#Economía"],
+  "summary_es": "La nueva ley impide al banco central prestar al Estado o emitir dinero para el gasto y lo centra en cuidar el valor del peso.",
+  "summary_en": "The new law stops the central bank from lending to the state or printing money for spending, focusing it on the peso's value.",
+  "highlight_es": "banco central",
+  "highlight_en": "central bank",
+  "visual_label": "BCRA",
+  "image_prompt": "Stacks of banknotes beside a closed bank vault door in a grand neoclassical bank hall, soft morning light, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": ["Argentina"],
+    "marker": {"lat": -34.6037, "lon": -58.3816, "label": "Buenos Aires"},
+    "labels": {"Argentina": "Argentina"}
+  }
+}

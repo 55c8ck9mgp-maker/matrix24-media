@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-28T00:50:18Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261128-canada-top-court-upholds-quebec-religious-symbols-ban",
+  "category": "World",
+  "headline": "Canada's Supreme Court largely upholds Quebec's ban on religious symbols for public workers",
+  "headline_es": "La Corte Suprema de Canadá avala en gran parte la ley de Quebec sobre símbolos religiosos",
+  "caption_en": "Canada's Supreme Court on Friday largely upheld Quebec's secularism law, Bill 21, which bars teachers, police officers and some other public employees from wearing religious symbols at work. The court found that one provision, on face coverings for members of Quebec's National Assembly, infringed their democratic rights. Two justices partly dissented, saying the law violates freedom of religion.",
+  "caption_es": "La Corte Suprema de Canadá avaló el viernes en gran parte la ley de laicidad de Quebec, conocida como Ley 21, que prohíbe a docentes, policías y otros empleados públicos llevar símbolos religiosos en el trabajo. El tribunal concluyó que una disposición, sobre el rostro cubierto de los diputados de la Asamblea Nacional de Quebec, vulnera sus derechos democráticos. Dos jueces discreparon en parte y afirmaron que la ley viola la libertad religiosa.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban",
+    "https://www.newsweek.com/canadas-supreme-court-upholds-muslim-headscarf-ban-12773683"
+  ],
+  "source_names": ["Al Jazeera", "Newsweek"],
+  "hashtags": ["#MATRIX24", "#Canada", "#Quebec", "#Ley21"],
+  "summary_es": "El máximo tribunal mantiene la prohibición de símbolos religiosos para docentes, policías y otros empleados públicos de Quebec, salvo una disposición sobre diputados.",
+  "summary_en": "The top court keeps the ban on religious symbols for Quebec teachers, police and other public employees, except one provision on lawmakers.",
+  "highlight_es": "símbolos religiosos",
+  "highlight_en": "religious symbols",
+  "visual_label": "Ley 21",
+  "image_prompt": "Grand stone courthouse with tall columns under a pale winter sky, an empty wooden judge's bench and gavel in the foreground, wide cinematic view, no people, no text, no flags, no logos",
+  "map": {
+    "focus": ["Canada"],
+    "marker": {"lat": 45.4215, "lon": -75.7055, "label": "Ottawa"},
+    "labels": {"Canada": "Canadá"}
+  }
+}
