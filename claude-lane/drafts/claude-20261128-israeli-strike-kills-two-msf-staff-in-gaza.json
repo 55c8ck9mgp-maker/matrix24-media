@@ -1,0 +1,32 @@
+{
+  "lane": "claude",
+  "content_id": "claude-20261128-israeli-strike-kills-two-msf-staff-in-gaza",
+  "status": "draft",
+  "created_at": "2026-11-28T12:50:09Z",
+  "category": "Security / Geopolitics",
+  "headline": "Israeli strike on a Gaza clinic kills two Doctors Without Borders staff",
+  "headline_es": "Ataque israelí contra una clínica en Gaza mata a dos trabajadores de Médicos Sin Fronteras",
+  "caption_en": "Doctors Without Borders (MSF) said two of its staff, who worked as guards at one of its clinics in Gaza, were killed in an Israeli strike late on Friday, calling it a direct hit on clearly marked premises. The Israeli military said the two men were Hamas members and denied targeting medical facilities. MSF says 17 of its staff have now been killed in Gaza.",
+  "caption_es": "Médicos Sin Fronteras (MSF) informó que dos de sus trabajadores, que eran guardias en una de sus clínicas en Gaza, murieron en un ataque israelí el viernes por la noche, y lo calificó de impacto directo contra instalaciones claramente señalizadas. El ejército israelí afirmó que ambos eran miembros de Hamás y negó atacar instalaciones médicas. MSF dice que ya son 17 sus trabajadores muertos en Gaza.",
+  "source_urls": [
+    "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff",
+    "https://www.rte.ie/news/middle-east/2026/1128/1600979-israeli-gaza/"
+  ],
+  "source_names": ["Al Jazeera", "RTÉ (AFP)"],
+  "hashtags": ["#MATRIX24", "#Gaza", "#MSF", "#MédicosSinFronteras"],
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "summary_es": "MSF denunció un impacto directo contra su clínica; Israel dice que los dos guardias muertos eran de Hamás. Ya son 17 los trabajadores de MSF muertos en Gaza.",
+  "summary_en": "MSF denounced a direct hit on its clinic; Israel says the two guards killed were Hamas members. MSF has now lost 17 staff in Gaza.",
+  "highlight_es": "Médicos Sin Fronteras",
+  "highlight_en": "Doctors Without Borders",
+  "visual_label": "Gaza",
+  "image_prompt": "Small medical clinic building at dusk with a closed metal gate and an empty ambulance parked outside, dust and dim streetlights, damaged concrete in the surrounding street, no people, no logos, wide cinematic view",
+  "map": {
+    "focus": ["Palestine"],
+    "marker": {"lat": 31.50, "lon": 34.47, "label": "Gaza"},
+    "labels": {"Palestine": "Palestina"}
+  }
+}
