@@ -1,0 +1,43 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-28T06:51:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261128-hackers-breach-us-air-force-cloud-one",
+  "category": "Security / Geopolitics",
+  "headline": "Hackers breach the US Air Force's Cloud One computing platform",
+  "headline_es": "Hackers vulneran Cloud One, la plataforma en la nube de la Fuerza Aérea de EE.UU.",
+  "caption_en": "Hackers breached Cloud One, the US Air Force's flagship cloud computing platform, according to reporting by Reuters and CBS News citing people familiar with the matter. The intrusion was discovered within roughly the past month during system upgrade work and could expose sensitive military and personnel data. The attackers have not been identified, and the Air Force said it does not comment on the security of specific systems.",
+  "caption_es": "Hackers vulneraron Cloud One, la principal plataforma de computación en la nube de la Fuerza Aérea de Estados Unidos, según informaron Reuters y CBS News citando a personas conocedoras del asunto. La intrusión se descubrió aproximadamente en el último mes, durante trabajos de actualización del sistema, y podría exponer datos militares y de personal sensibles. Los atacantes no han sido identificados, y la Fuerza Aérea dijo que no comenta la seguridad de sistemas específicos.",
+  "source_urls": [
+    "https://www.militarytimes.com/news/your-military/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
+    "https://www.cbsnews.com/news/u-s-air-force-cloud-platform-breached-by-hackers/"
+  ],
+  "source_names": [
+    "Reuters (via Military Times)",
+    "CBS News"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#Ciberseguridad",
+    "#Cybersecurity",
+    "#USAF"
+  ],
+  "summary_es": "Intrusos accedieron a Cloud One, la nube principal de la Fuerza Aérea de EE.UU.; el ataque se detectó durante una actualización y podría exponer datos militares y de personal.",
+  "summary_en": "Intruders reached Cloud One, the US Air Force's main cloud platform; the breach was found during upgrades and could expose military and personnel data.",
+  "highlight_es": "Cloud One",
+  "highlight_en": "Cloud One",
+  "visual_label": "Cloud One",
+  "image_prompt": "Dark server room with rows of glowing data racks, a red warning light reflecting on the floor, abstract network lines and a padlock symbol floating in the air, cool blue and red tones, wide cinematic view",
+  "map": {
+    "focus": [
+      "United States of America"
+    ],
+    "labels": {
+      "United States of America": "Estados Unidos"
+    }
+  }
+}

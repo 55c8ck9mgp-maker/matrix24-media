@@ -1,0 +1,48 @@
+{
+  "lane": "claude",
+  "status": "draft",
+  "created_at": "2026-11-28T06:51:07Z",
+  "image_url": null,
+  "publish_attempt_id": null,
+  "ig_media_id": null,
+  "history": [],
+  "content_id": "claude-20261128-marc-marquez-announces-motogp-retirement",
+  "category": "Sports",
+  "headline": "Eight-time MotoGP champion Marc Márquez announces his retirement",
+  "headline_es": "Marc Márquez, ocho veces campeón de MotoGP, anuncia su retiro",
+  "caption_en": "Spanish rider Marc Márquez announced in Valencia that 2026 will be his last MotoGP season, days after winning his eighth premier-class title to equal Giacomo Agostini's record. The 33-year-old Ducati factory rider will race for the final time at this weekend's Valencia Grand Prix.",
+  "caption_es": "El piloto español Marc Márquez anunció en Valencia que 2026 será su última temporada en MotoGP, días después de ganar su octavo título en la categoría reina, con lo que igualó el récord de Giacomo Agostini. El piloto de 33 años del equipo oficial Ducati correrá por última vez en el Gran Premio de Valencia este fin de semana.",
+  "source_urls": [
+    "https://www.motogp.com/en/news/2026/11/27/marc-marquez-announces-retirement-from-motogp/1268528",
+    "https://www.aa.com.tr/en/sports/marc-marquez-announces-motogp-retirement-days-after-winning-8th-world-title/4140208"
+  ],
+  "source_names": [
+    "MotoGP.com",
+    "Anadolu Agency"
+  ],
+  "hashtags": [
+    "#MATRIX24",
+    "#MotoGP",
+    "#MarcMarquez",
+    "#ValenciaGP"
+  ],
+  "summary_es": "Márquez, que acaba de igualar los ocho títulos de Agostini en la categoría reina, se despide de MotoGP en el GP de Valencia.",
+  "summary_en": "Márquez, who just matched Agostini's eight premier-class titles, bows out of MotoGP at the Valencia Grand Prix.",
+  "highlight_es": "anuncia su retiro",
+  "highlight_en": "retirement",
+  "visual_label": "MotoGP",
+  "image_prompt": "Racing motorcycle leaning into a corner on an empty sunlit race track, motion blur, grandstands in the distance, checkered pattern on the kerb, warm late-afternoon light, wide cinematic view",
+  "map": {
+    "focus": [
+      "Spain"
+    ],
+    "marker": {
+      "lat": 39.485,
+      "lon": -0.63,
+      "label": "Cheste (Valencia)"
+    },
+    "labels": {
+      "Spain": "España"
+    }
+  }
+}
